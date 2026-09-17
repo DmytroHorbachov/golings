@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// emailsLength отбирает адреса с доменом example.com, приводит их к нижнему
-// регистру и считает суммарную длину.
-// Тренирует: композицию обобщённых помощников с литералами.
-// Сложность: medium
+// emailsLength picks the addresses on the example.com domain, folds them to lower
+// case and adds up their lengths.
+// Practices composing generic helpers with literals.
 package main_test
 
 import (

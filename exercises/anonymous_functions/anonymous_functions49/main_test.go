@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Editor хранит текст и стек литералов отмены; Undo откатывает последнее действие.
-// Тренирует: сохранение обратных операций как замыканий.
-// Сложность: medium
+// Editor holds the text and a stack of undo literals; Undo rolls the last action back.
+// Practices storing inverse operations as closures.
 package main_test
 
 import "testing"

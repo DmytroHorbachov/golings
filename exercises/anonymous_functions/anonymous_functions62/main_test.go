@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lastDigit возвращает индекс последней цифры через strings.LastIndexFunc.
-// Тренирует: литерал для функций поиска с конца.
-// Сложность: easy
+// lastDigit returns the index of the last digit through strings.LastIndexFunc.
+// Practices a literal for the search-from-the-end functions.
 package main_test
 
 import (

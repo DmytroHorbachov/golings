@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// newQueue возвращает функции push и pop, работающие с общим срезом.
-// Тренирует: пару замыканий над одним срезом.
-// Сложность: medium
+// newQueue returns a push and a pop function working on a shared slice.
+// Practices a pair of closures over one slice.
 package main_test
 
 import "testing"

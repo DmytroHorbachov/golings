@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// defaultConfig должна быть значением Config, вычисленным литералом при инициализации.
-// Код не компилируется: литерал не вызван.
-// Тренирует: func() T { ... } и func() T { ... }() — разные вещи.
-// Сложность: hard
+// defaultConfig has to be a Config value computed by a literal at initialization.
+// The code does not compile: the literal is never called.
+// func() T { ... } and func() T { ... }() are different things.
 package main_test
 
 import "testing"

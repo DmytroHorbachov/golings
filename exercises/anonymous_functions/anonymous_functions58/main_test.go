@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Состояние автомата — функция, которая обрабатывает символ и возвращает следующее
-// состояние. Автомат распознаёт строки вида a+b (одна или больше 'a', затем 'b').
-// Тренирует: тип-функцию, ссылающийся сам на себя.
-// Сложность: medium
+// A state of the machine is a function handling a character and returning the next
+// state. The machine accepts strings of the form a+b: one or more 'a', then a 'b'.
+// Practices a function type referring to itself.
 package main_test
 
 import "testing"

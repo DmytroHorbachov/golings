@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Литерал должен считать события в исходной map статистики. После ротации
-// переменная stats указывает на новую map, и литерал пишет уже туда.
-// Тренирует: литерал видит новое значение захваченной переменной.
-// Сложность: hard
+// The literal has to count events in the original statistics map. After a rotation
+// the stats variable points at a new map, and the literal writes there instead.
+// A literal sees the new value of a captured variable.
 package main_test
 
 import "testing"

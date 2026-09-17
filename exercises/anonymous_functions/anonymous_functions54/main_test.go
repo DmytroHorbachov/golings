@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countBy считает элементы по категориям, заданным литералом.
-// Тренирует: функцию-классификатор.
-// Сложность: medium
+// countBy counts the elements per category, the category coming from a literal.
+// Practices a classifier function.
 package main_test
 
 import (

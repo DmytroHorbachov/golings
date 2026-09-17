@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// closeAll откладывает закрытие каждого ресурса литералом.
-// Все отложенные литералы закрывают последний ресурс.
-// Тренирует: отложенные литералы читают переменную в момент выполнения.
-// Сложность: hard
+// closeAll defers the closing of every resource with a literal.
+// Every deferred literal closes the last resource.
+// Deferred literals read the variable at the moment they run.
 package main_test
 
 import (

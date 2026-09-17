@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Field хранит функцию проверки значения.
-// Тренирует: функциональные поля, заданные литералом.
-// Сложность: easy
+// Field holds a function validating a value.
+// Practices function fields set from a literal.
 package main_test
 
 import "testing"

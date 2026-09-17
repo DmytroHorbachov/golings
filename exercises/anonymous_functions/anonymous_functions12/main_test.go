@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// each вызывает колбэк для каждого значения; sum суммирует их литералом.
-// Тренирует: литерал, изменяющий захваченную переменную.
-// Сложность: easy
+// each calls a callback for every value, and sum adds them up with a literal.
+// Practices a literal changing a captured variable.
 package main_test
 
 import "testing"

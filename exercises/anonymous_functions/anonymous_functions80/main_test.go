@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// byLength сортирует слова по длине с помощью литерала в sort.Slice.
-// Тренирует: функциональный литерал как аргумент.
-// Сложность: easy
+// byLength sorts the words by length with a literal in sort.Slice.
+// Practices a function literal as an argument.
 package main_test
 
 import (

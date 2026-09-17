@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sortByPriority сортирует задачи по приоритету из map ("high" < "mid" < "low");
-// неизвестные приоритеты идут в конец.
-// Тренирует: литерал сравнения, использующий захваченную таблицу.
-// Сложность: medium
+// sortByPriority sorts tasks by a priority from a map ("high" < "mid" < "low");
+// unknown priorities go last.
+// Practices a comparison literal using a captured table.
 package main_test
 
 import (

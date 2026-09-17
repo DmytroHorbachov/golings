@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// noDigits удаляет цифры из строки с помощью strings.Map.
-// Тренирует: литерал, возвращающий -1 для удаления символа.
-// Сложность: easy
+// noDigits removes the digits from a string with strings.Map.
+// Practices a literal returning -1 to drop a character.
 package main_test
 
 import (

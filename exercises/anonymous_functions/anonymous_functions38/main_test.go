@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// limiter возвращает литерал, разрешающий не больше n вызовов за окно per.
-// Время передаётся явно.
-// Тренирует: замыкание с состоянием окна.
-// Сложность: medium
+// limiter returns a literal allowing no more than n calls in a window of per.
+// The time is passed in explicitly.
+// Practices a closure holding window state.
 package main_test
 
 import (

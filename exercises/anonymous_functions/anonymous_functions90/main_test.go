@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// walkFiles вызывает литерал для каждого файла; если литерал вернул ошибку,
-// обход прекращается и ошибка возвращается.
-// Тренирует: колбэки, возвращающие error.
-// Сложность: medium
+// walkFiles calls a literal for every file; when the literal returns an error
+// the walk stops and the error is returned.
+// Practices callbacks returning an error.
 package main_test
 
 import (

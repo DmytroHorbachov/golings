@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// snapshotSum запоминает сумму набора в момент вызова, но литерал читает срез
-// позже, когда данные уже изменились.
-// Тренирует: литерал видит текущее содержимое среза, а не снимок.
-// Сложность: hard
+// snapshotSum has to remember the sum of a set at the moment of the call, and the literal
+// reads the slice later, once the data has changed.
+// A literal sees the current contents of a slice, not a snapshot.
 package main_test
 
 import "testing"

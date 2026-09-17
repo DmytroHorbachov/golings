@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// handler создаётся с захватом переменной db, а затем переменная переприсваивается nil
-// при «закрытии». Обработчик должен использовать соединение, взятое при создании.
-// Тренирует: литерал захватывает переменную, а не текущее значение указателя.
-// Сложность: hard
+// handler is built capturing the db variable, and the variable is then set to nil
+// on "close". The handler has to use the connection it was built with.
+// A literal captures the variable, not the current value of the pointer.
 package main_test
 
 import "testing"

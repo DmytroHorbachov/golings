@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toggler возвращает замыкание, которое при каждом вызове меняет состояние на противоположное.
-// Тренирует: замыкание над bool.
-// Сложность: easy
+// toggler returns a closure flipping the state on every call.
+// Practices a closure over a bool.
 package main_test
 
 import "testing"

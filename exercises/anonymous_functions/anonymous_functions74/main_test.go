@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// ttlCache возвращает функцию get, которая кэширует результат load
-// на время ttl.
-// Тренирует: замыкание над map и часами.
-// Сложность: medium
+// ttlCache returns a get function caching the result of load
+// for the duration ttl.
+// Practices a closure over a map and a clock.
 package main_test
 
 import (

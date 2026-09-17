@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// iterator возвращает литерал, который при каждом вызове выдаёт следующий элемент
-// и false, когда элементы закончились.
-// Тренирует: замыкание-итератор с позицией.
-// Сложность: medium
+// iterator returns a literal handing out the next element on every call
+// and false once the elements have run out.
+// Practices an iterator closure with a position.
 package main_test
 
 import "testing"

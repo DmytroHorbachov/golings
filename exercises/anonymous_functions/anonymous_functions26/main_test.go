@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// withContext возвращает функцию, добавляющую контекст к ошибке.
-// Тренирует: литерал, возвращающий error.
-// Сложность: easy
+// withContext returns a function adding context to an error.
+// Practices a literal returning an error.
 package main_test
 
 import (

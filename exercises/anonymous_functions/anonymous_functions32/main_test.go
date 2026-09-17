@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cleanup должен выполниться при выходе из функции. Код не компилируется.
-// Тренирует: выражение в defer должно быть вызовом функции.
-// Сложность: hard
+// cleanup has to run when the function returns. The code does not compile.
+// The expression in a defer has to be a function call.
 package main_test
 
 import "testing"

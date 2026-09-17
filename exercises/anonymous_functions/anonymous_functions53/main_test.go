@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// splitList делит строку по ';' и ','.
-// Тренирует: литерал-предикат для strings.FieldsFunc.
-// Сложность: easy
+// splitList splits a string on ';' and ','.
+// Practices a predicate literal for strings.FieldsFunc.
 package main_test
 
 import (

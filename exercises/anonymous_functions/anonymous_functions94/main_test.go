@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Meter хранит в поле литерал-счётчик. Копия Meter продолжает считать
-// вместе с оригиналом, потому что литерал захватил общее состояние.
-// Тренирует: копирование структуры копирует значение функции, а не её состояние.
-// Сложность: hard
+// Meter keeps a counter literal in a field. A copy of a Meter goes on counting
+// together with the original, because the literal captured shared state.
+// Copying a struct copies the function value, not its state.
 package main_test
 
 import "testing"

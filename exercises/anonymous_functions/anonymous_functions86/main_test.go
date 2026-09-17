@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Конфигурация загружается один раз через sync.Once. Первая попытка паникует,
-// и Once больше никогда не вызывает литерал — конфигурация остаётся пустой.
-// Тренирует: Once считает вызов выполненным, даже если литерал запаниковал.
-// Сложность: hard
+// The configuration is loaded once through a sync.Once. The first attempt panics,
+// and the Once never calls the literal again, leaving the configuration empty.
+// Once counts a call as done even when the literal panicked.
 package main_test
 
 import (

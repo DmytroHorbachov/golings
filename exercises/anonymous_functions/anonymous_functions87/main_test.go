@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// best выбирает элемент по компаратору; longest передаёт литерал «длиннее».
-// Тренирует: литерал с двумя параметрами.
-// Сложность: easy
+// best picks an element with a comparator; longest passes a "longer" literal.
+// Practices a literal with two parameters.
 package main_test
 
 import "testing"

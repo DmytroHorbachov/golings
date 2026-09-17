@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// makeReader возвращает литерал, читающий буфер. Отложенная очистка
-// обнуляет захваченную переменную при выходе, и литерал видит пустую строку.
-// Тренирует: defer выполняется до того, как вызывающий код вызовет литерал.
-// Сложность: hard
+// makeReader returns a literal reading a buffer. A deferred cleanup
+// clears the captured variable on the way out, and the literal sees an empty string.
+// A defer runs before the caller ever calls the literal.
 package main_test
 
 import "testing"

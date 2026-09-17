@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// formatter возвращает литерал форматирования чисел для локали:
-// "ru" — "1 234,50", "en" — "1,234.50".
-// Тренирует: литералы, настроенные параметрами фабрики.
-// Сложность: medium
+// formatter returns a number formatting literal for a locale:
+// "fr" gives "1 234,50" and "en" gives "1,234.50".
+// Practices literals configured by the parameters of a factory.
 package main_test
 
 import (
@@ -17,7 +16,7 @@ import (
 
 func formatter(locale string) func(float64) string {
 	group, dec := ",", "."
-	if locale == "ru" {
+	if locale == "fr" {
 		group, dec = ",", " "
 	}
 	return func(v float64) string {
@@ -34,8 +33,8 @@ func formatter(locale string) func(float64) string {
 }
 
 func TestFormatter(t *testing.T) {
-	if got := formatter("ru")(1234.5); got != "1 234,50" {
-		t.Errorf("ru = %q", got)
+	if got := formatter("fr")(1234.5); got != "1 234,50" {
+		t.Errorf("fr = %q", got)
 	}
 	if got := formatter("en")(1234567.891); got != "1,234,567.89" {
 		t.Errorf("en = %q", got)

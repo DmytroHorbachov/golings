@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Logger вычисляет дорогое сообщение, только если уровень включён:
-// сообщение передаётся литералом.
-// Тренирует: отложенное вычисление аргументов через функцию.
-// Сложность: medium
+// Logger builds an expensive message only when the level is on:
+// the message is passed in as a literal.
+// Practices deferring the computation of an argument through a function.
 package main_test
 
 import "testing"

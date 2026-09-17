@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Account.Depositor возвращает литерал пополнения. Пополнения не видны на счёте:
-// метод со значимым получателем, и литерал захватил копию.
-// Тренирует: замыкание захватывает переменную получателя.
-// Сложность: hard
+// Account.Depositor returns a deposit literal. The deposits never show on the account:
+// the method has a value receiver and the literal captured a copy.
+// A closure captures the receiver variable.
 package main_test
 
 import "testing"

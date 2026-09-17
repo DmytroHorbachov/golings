@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// apply выполняет операцию из map литералов.
-// Тренирует: функциональные литералы как значения map.
-// Сложность: easy
+// apply carries out an operation from a map of literals.
+// Practices function literals as map values.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// exec выполняет команду из таблицы литералов с аргументами;
-// неизвестная команда или неверное число аргументов — ошибка.
-// Тренирует: map[string]func([]int) (int, error).
-// Сложность: medium
+// exec runs a command from a table of literals with its arguments;
+// an unknown command or a wrong number of arguments is an error.
+// Practices map[string]func([]int) (int, error).
 package main_test
 
 import (

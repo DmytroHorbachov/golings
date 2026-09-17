@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// save должна откатывать изменения, если шаг завершился ошибкой.
-// Отложенный литерал проверяет err, но ошибка записана в затенённую переменную.
-// Тренирует: литерал видит внешнюю переменную, а не одноимённую внутреннюю.
-// Сложность: hard
+// save has to roll the changes back when a step fails.
+// The deferred literal checks err, and the error went into a shadowed variable.
+// A literal sees the outer variable, not an inner one of the same name.
 package main_test
 
 import (

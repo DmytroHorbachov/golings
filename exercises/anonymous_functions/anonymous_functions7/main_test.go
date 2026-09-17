@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// on регистрирует литерал-обработчик события; emit вызывает его.
-// Тренирует: хранение литералов в map.
-// Сложность: easy
+// on registers a handler literal for an event, and emit calls it.
+// Practices keeping literals in a map.
 package main_test
 
 import "testing"

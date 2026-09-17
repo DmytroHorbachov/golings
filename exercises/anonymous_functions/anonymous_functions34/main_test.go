@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Bus позволяет подписать литералы на тему и опубликовать сообщение всем подписчикам.
-// Тренирует: срезы литералов в map.
-// Сложность: medium
+// Bus lets literals subscribe to a topic and publishes a message to every subscriber.
+// Practices slices of literals in a map.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// and, or и not строят новые предикаты из существующих.
-// Тренирует: функции, принимающие и возвращающие литералы.
-// Сложность: medium
+// and, or and not build new predicates out of existing ones.
+// Practices functions taking and returning literals.
 package main_test
 
 import "testing"

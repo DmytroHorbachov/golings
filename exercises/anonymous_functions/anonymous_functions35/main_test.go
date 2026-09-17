@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumParallel считает квадраты в горутинах; каждая горутина должна вызвать wg.Done.
-// Тренирует: defer внутри горутины-литерала.
-// Сложность: easy
+// sumParallel squares numbers in goroutines, and every goroutine has to call wg.Done.
+// Practices defer inside a goroutine literal.
 package main_test
 
 import (

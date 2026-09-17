@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Кэш результатов пытается использовать функцию как ключ map.
-// Код не компилируется: функции несравнимы.
-// Тренирует: ограничения на тип ключа map.
-// Сложность: hard
+// A result cache tries to use a function as a map key.
+// The code does not compile: functions are not comparable.
+// Practices the restrictions on a map key type.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// stats возвращает функцию add и функцию report (min, max, среднее),
-// разделяющие одно состояние.
-// Тренирует: несколько замыканий над общим состоянием.
-// Сложность: medium
+// stats returns an add function and a report function (min, max, average)
+// sharing one piece of state.
+// Practices several closures over shared state.
 package main_test
 
 import "testing"

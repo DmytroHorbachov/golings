@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// stamper возвращает литерал, который должен ставить метку текущего времени
-// в момент вызова. Сейчас время берётся один раз при создании.
-// Тренирует: вычисление внутри литерала происходит при каждом вызове.
-// Сложность: hard
+// stamper returns a literal that has to stamp the current time
+// at the moment it is called. Right now the time is taken once, at creation.
+// What a literal computes happens on every call.
 package main_test
 
 import (

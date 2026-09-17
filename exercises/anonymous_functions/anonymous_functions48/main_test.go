@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// process помечает задачу выполненной в отложенном литерале.
-// Тренирует: defer func() { ... }().
-// Сложность: easy
+// process marks a task done in a deferred literal.
+// Practices defer func() { ... }().
 package main_test
 
 import "testing"

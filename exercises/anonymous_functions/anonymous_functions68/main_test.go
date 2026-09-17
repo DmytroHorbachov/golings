@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Литерал должен добавлять бонус к общему счёту, но его параметр назван
-// так же, как внешняя переменная, и изменения теряются.
-// Тренирует: параметр литерала затеняет захваченную переменную.
-// Сложность: hard
+// The literal has to add a bonus to the total score, and its parameter carries
+// the same name as the outer variable, so the changes are lost.
+// A parameter of a literal shadows a captured variable.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// collector возвращает литерал add, который дописывает в переданный срез.
-// Вызывающий код не видит добавленных элементов.
-// Тренирует: литерал захватывает параметр — копию заголовка среза.
-// Сложность: hard
+// collector returns an add literal appending to the slice it was given.
+// The caller never sees the elements that were added.
+// A literal captures the parameter, a copy of the slice header.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// cleanupAll должна вернуть исходную ошибку работы, даже если очистка
-// тоже запаниковала. Сейчас вторая паника «перекрывает» первую.
-// Тренирует: новая паника в defer заменяет текущую.
-// Сложность: hard
+// cleanupAll has to return the original error of the work, even when the cleanup
+// panicked as well. Right now the second panic buries the first.
+// A new panic in a defer replaces the current one.
 package main_test
 
 import (

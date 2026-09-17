@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// byPrice сортирует товары по цене, сохраняя порядок одинаковых.
-// Тренирует: литерал в sort.SliceStable.
-// Сложность: easy
+// byPrice sorts the items by price, keeping the order of equal ones.
+// Practices a literal in sort.SliceStable.
 package main_test
 
 import (

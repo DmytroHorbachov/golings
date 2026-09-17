@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// withPrefix возвращает функцию, добавляющую префикс к строке.
-// Тренирует: захват параметра в замыкании.
-// Сложность: easy
+// withPrefix returns a function adding a prefix to a string.
+// Practices capturing a parameter in a closure.
 package main_test
 
 import "testing"

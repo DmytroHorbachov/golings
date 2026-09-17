@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// stripVowels должна удалить гласные. Литерал возвращает 0, и в строке
-// появляются нулевые символы.
-// Тренирует: strings.Map удаляет символ только при отрицательном результате.
-// Сложность: hard
+// stripVowels has to remove the vowels. The literal returns 0, and the string
+// ends up holding NUL characters.
+// strings.Map drops a character only on a negative result.
 package main_test
 
 import (

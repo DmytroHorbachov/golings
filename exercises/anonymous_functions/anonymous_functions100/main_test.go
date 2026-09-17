@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// pricing возвращает литерал расчёта цены по названию стратегии;
-// для неизвестного названия — стратегию без изменений.
-// Тренирует: возврат разных литералов из функции.
-// Сложность: medium
+// pricing returns a price literal for a strategy name;
+// an unknown name gives the strategy that changes nothing.
+// Practices returning different literals from a function.
 package main_test
 
 import "testing"

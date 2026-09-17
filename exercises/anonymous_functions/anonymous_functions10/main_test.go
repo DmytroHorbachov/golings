@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// greeter возвращает литерал, приветствующий захваченное имя.
-// Тренирует: захват параметра фабрики.
-// Сложность: easy
+// greeter returns a literal greeting the captured name.
+// Practices capturing the parameter of a factory.
 package main_test
 
 import "testing"

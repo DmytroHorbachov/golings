@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// validate прогоняет значение через все проверки-литералы и собирает все ошибки.
-// Тренирует: срез литералов и накопление результатов.
-// Сложность: medium
+// validate runs a value through every check literal and collects all the errors.
+// Practices a slice of literals and gathering results.
 package main_test
 
 import (

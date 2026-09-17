@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// limit вычисляется функциональным литералом, вызываемым сразу.
-// Тренирует: IIFE (immediately invoked function expression).
-// Сложность: easy
+// limit is computed by a function literal called right away.
+// Practices an IIFE, an immediately invoked function expression.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// track оборачивает функцию и считает её вызовы в захваченной переменной.
-// Тренирует: изменение внешней переменной из литерала.
-// Сложность: easy
+// track wraps a function and counts its calls in a captured variable.
+// Practices changing an outer variable from a literal.
 package main_test
 
 import "testing"

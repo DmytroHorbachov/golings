@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countWords считает слова в нескольких горутинах, каждая пишет в общую
-// захваченную переменную без синхронизации.
-// Тренирует: литералы в горутинах, изменяющие общую переменную, создают гонку.
-// Сложность: hard
+// countWords counts the words in several goroutines, each writing into a shared
+// captured variable with no synchronization.
+// Literals in goroutines changing a shared variable make a data race.
 package main_test
 
 import (

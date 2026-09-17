@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// compute должна вернуть значение, увеличенное отложенным литералом.
-// Литерал меняет локальную переменную, но результат уже вычислен.
-// Тренирует: return с выражением фиксирует значение до выполнения defer.
-// Сложность: hard
+// compute has to return the value raised by a deferred literal.
+// The literal changes a local variable, and the result has already been computed.
+// A return with an expression fixes the value before the defer runs.
 package main_test
 
 import "testing"

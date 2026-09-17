@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// report запускает горутину, которая должна отправить исходное имя.
-// Горутина читает переменную позже, когда она уже изменена.
-// Тренирует: литерал в горутине читает переменную в момент выполнения.
-// Сложность: hard
+// report starts a goroutine that has to send the original name.
+// The goroutine reads the variable later, once it has changed.
+// A literal in a goroutine reads the variable at the moment it runs.
 package main_test
 
 import "testing"

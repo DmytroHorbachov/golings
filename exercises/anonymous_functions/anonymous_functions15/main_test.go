@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// table содержит факториал 5, вычисленный литералом с циклом внутри.
-// Тренирует: IIFE для инициализации значения.
-// Сложность: easy
+// table holds the factorial of 5, computed by a literal with a loop inside.
+// Practices an IIFE for initializing a value.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// normalize применяет по порядку срез литералов-преобразований.
-// Тренирует: срез функциональных литералов.
-// Сложность: easy
+// normalize applies a slice of transformation literals in order.
+// Practices a slice of function literals.
 package main_test
 
 import (

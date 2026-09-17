@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// safeGo запускает функцию в горутине и должна превратить её панику в ошибку.
-// recover в вызывающей функции панику из другой горутины не ловит.
-// Тренирует: recover работает только в той горутине, где произошла паника.
-// Сложность: hard
+// safeGo runs a function in a goroutine and has to turn its panic into an error.
+// A recover in the calling function does not catch a panic from another goroutine.
+// recover only works in the goroutine the panic happened in.
 package main_test
 
 import (

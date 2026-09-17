@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// run выполняет действие, вызывая хуки before и after (если заданы),
-// и хук after вызывается даже при ошибке действия.
-// Тренирует: необязательные литералы и defer.
-// Сложность: medium
+// run carries out an action, calling the before and after hooks when they are given,
+// and the after hook runs even when the action fails.
+// Practices optional literals and defer.
 package main_test
 
 import (

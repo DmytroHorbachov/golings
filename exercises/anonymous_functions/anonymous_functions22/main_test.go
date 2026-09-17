@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// bytes.IndexFunc ждёт func(rune) bool. Литерал объявлен с параметром byte,
-// и код не компилируется.
-// Тренирует: типы параметров литерала должны совпадать точно.
-// Сложность: hard
+// bytes.IndexFunc expects a func(rune) bool. The literal is declared with a byte parameter
+// and the code does not compile.
+// The parameter types of a literal have to match exactly.
 package main_test
 
 import (

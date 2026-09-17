@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// trimPunct убирает знаки препинания по краям строки.
-// Тренирует: литерал для strings.TrimFunc.
-// Сложность: easy
+// trimPunct strips the punctuation from both ends of a string.
+// Practices a literal for strings.TrimFunc.
 package main_test
 
 import (

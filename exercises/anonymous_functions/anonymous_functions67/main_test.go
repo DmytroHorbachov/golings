@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bumpAll увеличивает все счётчики с помощью литерала, принимающего *int.
-// Тренирует: разыменование указателя внутри литерала.
-// Сложность: easy
+// bumpAll raises every counter with a literal taking a *int.
+// Practices dereferencing a pointer inside a literal.
 package main_test
 
 import "testing"

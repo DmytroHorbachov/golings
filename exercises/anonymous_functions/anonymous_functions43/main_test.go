@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// strings.Map требует функцию func(rune) rune. Литерал объявлен с другим типом.
-// Тренирует: сигнатура литерала должна точно совпадать с ожидаемой.
-// Сложность: easy
+// strings.Map asks for a func(rune) rune. The literal is declared with another type.
+// The signature of a literal has to match the expected one exactly.
 package main_test
 
 import (

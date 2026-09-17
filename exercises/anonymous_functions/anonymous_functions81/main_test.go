@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// debounce возвращает литерал: вызов срабатывает, только если с предыдущего
-// вызова прошло не меньше wait. Время передаётся явно.
-// Тренирует: замыкание, запоминающее момент последнего вызова.
-// Сложность: medium
+// debounce returns a literal: a call goes through only when at least wait has
+// passed since the previous one. The time is passed in explicitly.
+// Practices a closure remembering the moment of the last call.
 package main_test
 
 import (

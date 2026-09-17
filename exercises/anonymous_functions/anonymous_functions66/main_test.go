@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// transaction выполняет шаги; каждый шаг может зарегистрировать литерал отката.
-// При ошибке откаты выполняются в обратном порядке.
-// Тренирует: накопление литералов и обратный порядок выполнения.
-// Сложность: medium
+// transaction runs the steps; every step may register a rollback literal.
+// On an error the rollbacks run in reverse order.
+// Practices collecting literals and running them backwards.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Плагины регистрируются литералами; run выполняет их в порядке регистрации
-// и собирает результаты.
-// Тренирует: срез структур с полями-функциями.
-// Сложность: medium
+// The plugins are registered as literals; run carries them out in registration order
+// and collects the results.
+// Practices a slice of structs with function fields.
 package main_test
 
 import (

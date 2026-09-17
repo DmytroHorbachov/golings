@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// pager возвращает литерал, который при каждом вызове выдаёт следующую страницу
-// размером size; пустой срез — страницы закончились.
-// Тренирует: замыкание над позицией и границами среза.
-// Сложность: medium
+// pager returns a literal handing out the next page of size size on every call;
+// an empty slice means the pages have run out.
+// Practices a closure over a position and slice bounds.
 package main_test
 
 import (

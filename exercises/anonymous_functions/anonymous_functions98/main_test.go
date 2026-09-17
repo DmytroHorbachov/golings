@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Фоновая задача должна отправить результат в канал. Код не компилируется.
-// Тренирует: выражение в go должно быть вызовом функции.
-// Сложность: hard
+// A background job has to send its result into a channel. The code does not compile.
+// The expression in a go statement has to be a function call.
 package main_test
 
 import "testing"

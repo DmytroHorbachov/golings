@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функцию greet декорируют, переприсваивая переменную литералом, который
-// вызывает greet. Литерал вызывает сам себя, а не исходную функцию.
-// Тренирует: литерал захватывает переменную, а не значение, которое в ней было.
-// Сложность: hard
+// The greet function is decorated by reassigning the variable with a literal that
+// calls greet. The literal ends up calling itself instead of the original function.
+// A literal captures the variable, not the value it held.
 package main_test
 
 import (

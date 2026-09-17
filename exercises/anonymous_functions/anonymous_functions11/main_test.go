@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Литерал должен накапливать общую сумму, но сумма остаётся нулевой.
-// Тренирует: := в теле литерала объявляет новую локальную переменную.
-// Сложность: hard
+// The literal has to build up a running total, and the total stays at zero.
+// := in the body of a literal declares a new local variable.
 package main_test
 
 import "testing"

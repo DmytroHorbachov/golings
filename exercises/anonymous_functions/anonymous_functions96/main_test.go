@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// startJob запускает обработку в фоне, но функция загрузки аргумента
-// выполняется в текущей горутине и блокирует вызывающего.
-// Тренирует: в go f(x()) вызов x() происходит до старта горутины.
-// Сложность: hard
+// startJob starts the work in the background, and the function loading the argument
+// runs in the current goroutine and blocks the caller.
+// In go f(x()) the call x() happens before the goroutine starts.
 package main_test
 
 import (

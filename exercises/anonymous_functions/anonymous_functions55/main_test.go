@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// withDefaults возвращает функцию, дополняющую запрос значениями по умолчанию.
-// Литерал меняет общий объект настроек, и последующие запросы получают чужие значения.
-// Тренирует: захват указателя даёт доступ к общему изменяемому объекту.
-// Сложность: hard
+// withDefaults returns a function filling a request in with default values.
+// The literal changes the shared defaults object, and later requests get somebody else's values.
+// Capturing a pointer gives access to a shared mutable object.
 package main_test
 
 import "testing"

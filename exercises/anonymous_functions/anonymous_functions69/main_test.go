@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstUpper возвращает индекс первой заглавной буквы через strings.IndexFunc.
-// Тренирует: литерал-предикат.
-// Сложность: easy
+// firstUpper returns the index of the first capital letter through strings.IndexFunc.
+// Practices a predicate literal.
 package main_test
 
 import (

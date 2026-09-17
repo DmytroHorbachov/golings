@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// processAll должна выдать всем записям последовательные номера, но все
-// получают 1: генератор создаётся заново для каждой записи.
-// Тренирует: состояние замыкания живёт, пока жив сам литерал.
-// Сложность: hard
+// processAll has to give the records consecutive numbers, and they all
+// come out as 1: the generator is built afresh for every record.
+// The state of a closure lives as long as the literal itself.
 package main_test
 
 import (

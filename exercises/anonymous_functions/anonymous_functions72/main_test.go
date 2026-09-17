@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// dedupLogger возвращает литерал, который пишет сообщение, только если оно
-// отличается от предыдущего, и считает подавленные повторы.
-// Тренирует: замыкание с «последним значением».
-// Сложность: medium
+// dedupLogger returns a literal writing a message only when it differs
+// from the previous one, and counting the repeats it held back.
+// Practices a closure holding a "last value".
 package main_test
 
 import (

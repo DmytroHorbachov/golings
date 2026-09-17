@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// timed выполняет функцию и записывает длительность в map по имени;
-// часы передаются литералом.
-// Тренирует: defer-литерал с доступом к захваченным значениям.
-// Сложность: medium
+// timed runs a function and records the duration in a map under its name;
+// the clock is passed in as a literal.
+// Practices a deferred literal reaching captured values.
 package main_test
 
 import (

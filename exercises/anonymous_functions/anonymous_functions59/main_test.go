@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Рекурсивный литерал объявлен через var, но вызывается раньше, чем ему
-// присвоено значение, и программа паникует.
-// Тренирует: нулевое значение функциональной переменной — nil.
-// Сложность: hard
+// A recursive literal is declared with var and called before it has been
+// assigned, so the program panics.
+// The zero value of a function variable is nil.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// idGen(prefix) возвращает литерал, выдающий "prefix-0001", "prefix-0002", ...
-// Тренирует: замыкание и форматирование с дополнением нулями.
-// Сложность: medium
+// idGen(prefix) returns a literal handing out "prefix-0001", "prefix-0002" and so on.
+// Practices a closure plus zero padded formatting.
 package main_test
 
 import (

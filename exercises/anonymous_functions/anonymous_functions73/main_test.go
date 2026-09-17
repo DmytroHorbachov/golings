@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// makeGetters создаёт функции, каждая из которых должна вернуть свой номер.
-// Все функции возвращают одно и то же число.
-// Тренирует: литералы захватывают переменную, объявленную вне цикла, а не её значение.
-// Сложность: hard
+// makeGetters builds functions, each of which has to return its own number.
+// They all return the same number.
+// Literals capture the variable declared outside the loop, not its value.
 package main_test
 
 import "testing"

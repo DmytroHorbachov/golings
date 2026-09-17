@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// adder возвращает замыкание, накапливающее сумму переданных значений.
-// Тренирует: замыкание с изменяемым состоянием.
-// Сложность: easy
+// adder returns a closure adding up the values it is given.
+// Practices a closure with mutable state.
 package main_test
 
 import "testing"

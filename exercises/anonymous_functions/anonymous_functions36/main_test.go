@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// walk обходит дерево; литерал-посетитель возвращает false, чтобы не заходить
-// в детей узла. collect не должен заходить в ветки с именем "skip".
-// Тренирует: литерал, управляющий обходом.
-// Сложность: medium
+// walk traverses a tree; the visitor literal returns false to keep the walk out of
+// the children of a node. collect must not descend into branches named "skip".
+// Practices a literal steering a traversal.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// apply применяет литерал к каждому элементу матрицы, передавая координаты,
-// и возвращает новую матрицу.
-// Тренирует: литерал с несколькими параметрами и новые срезы.
-// Сложность: medium
+// apply applies a literal to every element of a matrix, passing the coordinates in,
+// and returns a new matrix.
+// Practices a literal with several parameters plus new slices.
 package main_test
 
 import (

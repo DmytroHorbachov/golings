@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Обработчики хранятся как interface{}. Литерал имеет безымянный тип
-// func(string) string, поэтому утверждение к Handler не срабатывает.
-// Тренирует: динамический тип литерала — безымянный функциональный тип.
-// Сложность: hard
+// The handlers are kept as interface{}. The literal has the unnamed type
+// func(string) string, so an assertion to Handler never succeeds.
+// The dynamic type of a literal is an unnamed function type.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// transformAll применяет колбэк к каждой строке, но строки не меняются:
-// результат колбэка отбрасывается.
-// Тренирует: литерал, возвращающий значение, не меняет аргумент.
-// Сложность: hard
+// transformAll applies a callback to every string, and the strings do not change:
+// the result of the callback is thrown away.
+// A literal returning a value does not change its argument.
 package main_test
 
 import (

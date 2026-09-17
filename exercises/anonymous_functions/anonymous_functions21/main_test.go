@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// retry повторяет действие с экспоненциальной задержкой; функция sleep
-// передаётся литералом, чтобы тест не ждал.
-// Тренирует: инъекцию поведения через функциональный параметр.
-// Сложность: medium
+// retry repeats an action with an exponential delay; the sleep function
+// is passed in as a literal so the test does not wait.
+// Practices injecting behaviour through a function parameter.
 package main_test
 
 import (

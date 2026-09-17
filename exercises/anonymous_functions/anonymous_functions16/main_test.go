@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// getOr возвращает значение или вызывает литерал, вычисляющий значение по умолчанию.
-// Сейчас литерал вызывается всегда, даже когда значение есть.
-// Тренирует: передачу функции для отложенного вычисления.
-// Сложность: medium
+// getOr returns a value, or calls a literal computing the default one.
+// Right now the literal is called every time, even when the value is there.
+// Practices passing a function for a lazy computation.
 package main_test
 
 import "testing"

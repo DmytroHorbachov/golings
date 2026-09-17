@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// filter оставляет элементы, для которых колбэк вернул true;
-// bigOnes передаёт литерал «больше limit».
-// Тренирует: литерал, использующий параметр внешней функции.
-// Сложность: easy
+// filter keeps the elements the callback returned true for;
+// bigOnes passes a "larger than limit" literal.
+// Practices a literal using the parameter of the outer function.
 package main_test
 
 import (

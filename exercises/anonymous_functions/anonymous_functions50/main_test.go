@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// aboveThreshold возвращает предикат, использующий пакетную константу порога.
-// Тренирует: использование внешних идентификаторов в литерале.
-// Сложность: easy
+// aboveThreshold returns a predicate using a package level threshold constant.
+// Practices using outer identifiers inside a literal.
 package main_test
 
 import "testing"

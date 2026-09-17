@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// compute запускает вычисление в горутине и получает результат из канала.
-// Тренирует: go func() { ... }().
-// Сложность: easy
+// compute runs a computation in a goroutine and takes the result from a channel.
+// Practices go func() { ... }().
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// groupBy группирует строки по ключу, который вычисляет литерал.
-// byFirstLetter группирует по первой букве в нижнем регистре.
-// Тренирует: функцию-ключ как параметр.
-// Сложность: medium
+// groupBy groups strings by a key computed by a literal.
+// byFirstLetter groups by the first letter in lower case.
+// Practices a key function as a parameter.
 package main_test
 
 import (

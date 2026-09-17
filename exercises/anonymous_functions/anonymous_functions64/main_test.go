@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sortBy сортирует по списку литералов-сравнений: следующий используется,
-// только если предыдущие не различили элементы.
-// Тренирует: срез функций-компараторов.
-// Сложность: medium
+// sortBy sorts by a list of comparison literals: the next one is used
+// only when the earlier ones could not tell the elements apart.
+// Practices a slice of comparator functions.
 package main_test
 
 import (

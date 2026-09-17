@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// evens возвращает замыкание, выдающее 0, 2, 4, ...
-// Тренирует: замыкание-генератор.
-// Сложность: easy
+// evens returns a closure handing out 0, 2, 4 and so on.
+// Practices a generator closure.
 package main_test
 
 import "testing"

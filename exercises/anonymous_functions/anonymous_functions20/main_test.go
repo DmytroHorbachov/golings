@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// multiplier(k) возвращает литерал, который возвращает литерал: m(k)(x)(y) = k*x*y.
-// Тренирует: вложенные функциональные литералы.
-// Сложность: easy
+// multiplier(k) returns a literal returning a literal: m(k)(x)(y) = k*x*y.
+// Practices nested function literals.
 package main_test
 
 import "testing"

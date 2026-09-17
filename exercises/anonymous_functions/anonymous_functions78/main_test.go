@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// area вычисляется литералом, вызванным сразу с аргументами.
-// Тренирует: передачу аргументов при немедленном вызове.
-// Сложность: easy
+// area is computed by a literal called right away with its arguments.
+// Practices passing arguments in an immediate call.
 package main_test
 
 import "testing"

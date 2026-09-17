@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Option должна хранить функцию вычисления значения по умолчанию, а не результат.
-// Сейчас дорогая функция вызывается при создании опции, даже если значение задано.
-// Тренирует: литерал откладывает вычисление, вызов — нет.
-// Сложность: hard
+// Option has to hold a function computing the default value rather than the result.
+// Right now the expensive function is called when the option is built, even when a value is set.
+// A literal defers a computation; a call does not.
 package main_test
 
 import "testing"

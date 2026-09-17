@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// square хранится в переменной и вызывается для каждого числа.
-// Тренирует: присваивание функционального литерала переменной.
-// Сложность: easy
+// square is kept in a variable and called for every number.
+// Practices assigning a function literal to a variable.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minMax вызывает литерал, возвращающий минимум и максимум пары.
-// Тренирует: функциональный литерал с несколькими результатами.
-// Сложность: easy
+// minMax calls a literal returning the minimum and the maximum of a pair.
+// Practices a function literal with several results.
 package main_test
 
 import "testing"

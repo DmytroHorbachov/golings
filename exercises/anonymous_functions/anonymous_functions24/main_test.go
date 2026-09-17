@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstAtLeast возвращает индекс первого значения >= x в отсортированном срезе.
-// Тренирует: литерал для sort.Search.
-// Сложность: easy
+// firstAtLeast returns the index of the first value >= x in a sorted slice.
+// Practices a literal for sort.Search.
 package main_test
 
 import (

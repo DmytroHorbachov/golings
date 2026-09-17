@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parallelMap применяет f к каждому элементу в отдельной горутине и сохраняет
-// порядок результатов.
-// Тренирует: горутины-литералы с передачей индекса аргументом.
-// Сложность: medium
+// parallelMap applies f to every element in a goroutine of its own and keeps
+// the order of the results.
+// Practices goroutine literals with the index passed as an argument.
 package main_test
 
 import (
