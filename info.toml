@@ -9409,3 +9409,740 @@ hint = """
 Храните порядок ключей в срезе. При добавлении нового ключа сверх
 ёмкости удалите первый ключ из среза и из map. Обновление ключа
 не должно менять порядок."""
+
+# ===== generated exercises: concurrent =====
+[[exercises]]
+name = "concurrent_x084"
+path = "exercises/concurrent/concurrent_x084/main_test.go"
+mode = "test"
+hint = """
+Отправьте задачи воркерам до wg.Wait (или используйте буферизованный канал)."""
+
+[[exercises]]
+name = "concurrent_x011"
+path = "exercises/concurrent/concurrent_x011/main_test.go"
+mode = "test"
+hint = """
+Используйте atomic.AddInt64 вместо ++."""
+
+[[exercises]]
+name = "concurrent_x012"
+path = "exercises/concurrent/concurrent_x012/main_test.go"
+mode = "test"
+hint = """
+Блокировку чтения снимают методом RUnlock."""
+
+[[exercises]]
+name = "concurrent_x067"
+path = "exercises/concurrent/concurrent_x067/main_test.go"
+mode = "test"
+hint = """
+Snapshot должен захватить мьютекс и вернуть новую map с копией данных,
+а не саму внутреннюю map."""
+
+[[exercises]]
+name = "concurrent_x010"
+path = "exercises/concurrent/concurrent_x010/main_test.go"
+mode = "test"
+hint = """
+Загрузку нужно выполнять через once.Do."""
+
+[[exercises]]
+name = "concurrent_x098"
+path = "exercises/concurrent/concurrent_x098/main_test.go"
+mode = "test"
+hint = """
+Оберните отправку в select с веткой <-ctx.Done()."""
+
+[[exercises]]
+name = "concurrent_x046"
+path = "exercises/concurrent/concurrent_x046/main_test.go"
+mode = "test"
+hint = """
+Subscribe добавляет новый буферизованный канал в список.
+Publish отправляет сообщение в каждый канал списка."""
+
+[[exercises]]
+name = "concurrent_x045"
+path = "exercises/concurrent/concurrent_x045/main_test.go"
+mode = "test"
+hint = """
+Отправляйте в канал структуру с индексом и значением,
+а при сборке записывайте значение по индексу."""
+
+[[exercises]]
+name = "concurrent_x082"
+path = "exercises/concurrent/concurrent_x082/main_test.go"
+mode = "test"
+hint = """
+Для каждой однократной операции нужен свой sync.Once."""
+
+[[exercises]]
+name = "concurrent_x008"
+path = "exercises/concurrent/concurrent_x008/main_test.go"
+mode = "test"
+hint = """
+Проверьте длительность, переданную в time.After."""
+
+[[exercises]]
+name = "concurrent_x051"
+path = "exercises/concurrent/concurrent_x051/main_test.go"
+mode = "test"
+hint = """
+Shutdown должен закрыть канал задач и дождаться сигнала завершения
+от воркера."""
+
+[[exercises]]
+name = "concurrent_x070"
+path = "exercises/concurrent/concurrent_x070/main_test.go"
+mode = "test"
+hint = """
+Оберните close в sync.Once."""
+
+[[exercises]]
+name = "concurrent_x007"
+path = "exercises/concurrent/concurrent_x007/main_test.go"
+mode = "test"
+hint = """
+Без default select ждёт, пока канал станет готов."""
+
+[[exercises]]
+name = "concurrent_x009"
+path = "exercises/concurrent/concurrent_x009/main_test.go"
+mode = "test"
+hint = """
+Функция должна только отправлять значения — уберите чтение."""
+
+[[exercises]]
+name = "concurrent_x029"
+path = "exercises/concurrent/concurrent_x029/main_test.go"
+mode = "test"
+hint = """
+Таймер сообщает о срабатывании через канал timer.C."""
+
+[[exercises]]
+name = "concurrent_x052"
+path = "exercises/concurrent/concurrent_x052/main_test.go"
+mode = "test"
+hint = """
+Между попытками ждите либо паузу, либо отмену. При отмене верните ctx.Err()."""
+
+[[exercises]]
+name = "concurrent_x066"
+path = "exercises/concurrent/concurrent_x066/main_test.go"
+mode = "test"
+hint = """
+При !ok присвойте каналу nil — ветка перестанет срабатывать.
+Выходите, когда оба канала равны nil."""
+
+[[exercises]]
+name = "concurrent_x053"
+path = "exercises/concurrent/concurrent_x053/main_test.go"
+mode = "test"
+hint = """
+Границы частей не должны выходить за срез. Каждая горутина отправляет
+сумму своей части, а главная горутина читает столько сумм, сколько частей."""
+
+[[exercises]]
+name = "concurrent_x060"
+path = "exercises/concurrent/concurrent_x060/main_test.go"
+mode = "test"
+hint = """
+Создайте таймер один раз до цикла и выходите, когда он сработал
+или все результаты получены."""
+
+[[exercises]]
+name = "concurrent_x065"
+path = "exercises/concurrent/concurrent_x065/main_test.go"
+mode = "test"
+hint = """
+Каждое значение нужно отправить в оба канала; после окончания входа
+закройте оба выхода."""
+
+[[exercises]]
+name = "concurrent_x063"
+path = "exercises/concurrent/concurrent_x063/main_test.go"
+mode = "test"
+hint = """
+Создайте производный контекст со значением и передайте его дальше,
+а не исходный."""
+
+[[exercises]]
+name = "concurrent_x027"
+path = "exercises/concurrent/concurrent_x027/main_test.go"
+mode = "test"
+hint = """
+Перед записью захватите мьютекс и отложите его освобождение."""
+
+[[exercises]]
+name = "concurrent_x050"
+path = "exercises/concurrent/concurrent_x050/main_test.go"
+mode = "test"
+hint = """
+Считайте срабатывания и выходите из цикла, когда их достаточно.
+Не забудьте остановить тикер (defer ticker.Stop())."""
+
+[[exercises]]
+name = "concurrent_x036"
+path = "exercises/concurrent/concurrent_x036/main_test.go"
+mode = "test"
+hint = """
+Каждый этап, создающий канал, должен закрыть его, когда входные данные
+закончились. Проверьте также операцию в square."""
+
+[[exercises]]
+name = "concurrent_x037"
+path = "exercises/concurrent/concurrent_x037/main_test.go"
+mode = "test"
+hint = """
+Для каждого входа запустите горутину-пересыльщика. Выходной канал
+закрывается после завершения всех пересыльщиков."""
+
+[[exercises]]
+name = "concurrent_x006"
+path = "exercises/concurrent/concurrent_x006/main_test.go"
+mode = "test"
+hint = """
+Верните значение, прочитанное из канала."""
+
+[[exercises]]
+name = "concurrent_x090"
+path = "exercises/concurrent/concurrent_x090/main_test.go"
+mode = "test"
+hint = """
+Закрывать канал должен отправитель. Уберите close из потребителя
+и закройте канал в производителе."""
+
+[[exercises]]
+name = "concurrent_x018"
+path = "exercises/concurrent/concurrent_x018/main_test.go"
+mode = "test"
+hint = """
+Свободное место — ёмкость минус занятое."""
+
+[[exercises]]
+name = "concurrent_x014"
+path = "exercises/concurrent/concurrent_x014/main_test.go"
+mode = "test"
+hint = """
+Размер буфера должен вмещать сообщения от всех горутин."""
+
+[[exercises]]
+name = "concurrent_x092"
+path = "exercises/concurrent/concurrent_x092/main_test.go"
+mode = "test"
+hint = """
+Защитите append мьютексом или пишите по заранее известному индексу."""
+
+[[exercises]]
+name = "concurrent_x064"
+path = "exercises/concurrent/concurrent_x064/main_test.go"
+mode = "test"
+hint = """
+Состояние (множество увиденных) живёт внутри горутины этапа.
+Не забудьте закрыть выходной канал."""
+
+[[exercises]]
+name = "concurrent_x023"
+path = "exercises/concurrent/concurrent_x023/main_test.go"
+mode = "test"
+hint = """
+Готовность обозначается значением 1."""
+
+[[exercises]]
+name = "concurrent_x059"
+path = "exercises/concurrent/concurrent_x059/main_test.go"
+mode = "test"
+hint = """
+Enter увеличивает текущее значение и обновляет пик под одной блокировкой;
+Leave уменьшает текущее значение."""
+
+[[exercises]]
+name = "concurrent_x001"
+path = "exercises/concurrent/concurrent_x001/main_test.go"
+mode = "test"
+hint = """
+Счётчик WaitGroup нужно увеличивать на единицу для каждой горутины."""
+
+[[exercises]]
+name = "concurrent_x075"
+path = "exercises/concurrent/concurrent_x075/main_test.go"
+mode = "test"
+hint = """
+Используйте defer Unlock сразу после Lock и уберите ручные Unlock."""
+
+[[exercises]]
+name = "concurrent_x088"
+path = "exercises/concurrent/concurrent_x088/main_test.go"
+mode = "test"
+hint = """
+Замените if на for: после пробуждения условие может снова оказаться ложным."""
+
+[[exercises]]
+name = "concurrent_x089"
+path = "exercises/concurrent/concurrent_x089/main_test.go"
+mode = "test"
+hint = """
+Когда меняется условие, важное для всех ожидающих, используйте Broadcast."""
+
+[[exercises]]
+name = "concurrent_x056"
+path = "exercises/concurrent/concurrent_x056/main_test.go"
+mode = "test"
+hint = """
+Каждый игрок получает счётчик из своего канала, увеличивает и
+отправляет в канал другого игрока. Остановка — при достижении лимита."""
+
+[[exercises]]
+name = "concurrent_x058"
+path = "exercises/concurrent/concurrent_x058/main_test.go"
+mode = "test"
+hint = """
+Каждый фильтр пропускает числа, не делящиеся на его простое число.
+Новый фильтр подключается к выходу предыдущего."""
+
+[[exercises]]
+name = "concurrent_x035"
+path = "exercises/concurrent/concurrent_x035/main_test.go"
+mode = "test"
+hint = """
+Закройте jobs после отправки всех задач. Канал results закрывайте
+в отдельной горутине после wg.Wait, чтобы range по нему завершился."""
+
+[[exercises]]
+name = "concurrent_x097"
+path = "exercises/concurrent/concurrent_x097/main_test.go"
+mode = "test"
+hint = """
+Копируйте только данные, а не всю структуру с мьютексом.
+Верните копию нужных полей."""
+
+[[exercises]]
+name = "concurrent_x030"
+path = "exercises/concurrent/concurrent_x030/main_test.go"
+mode = "test"
+hint = """
+Каждая прочитанная ошибка увеличивает счётчик на единицу."""
+
+[[exercises]]
+name = "concurrent_x087"
+path = "exercises/concurrent/concurrent_x087/main_test.go"
+mode = "test"
+hint = """
+Защитите запись мьютексом или отправляйте ошибки в канал."""
+
+[[exercises]]
+name = "concurrent_x038"
+path = "exercises/concurrent/concurrent_x038/main_test.go"
+mode = "test"
+hint = """
+Захватывайте слот семафора до работы и освобождайте после.
+Результат записывайте по индексу, а не через append."""
+
+[[exercises]]
+name = "concurrent_x032"
+path = "exercises/concurrent/concurrent_x032/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что передаётся в вызов литерала."""
+
+[[exercises]]
+name = "concurrent_x078"
+path = "exercises/concurrent/concurrent_x078/main_test.go"
+mode = "test"
+hint = """
+Используйте sync.Once вместо ручной двойной проверки."""
+
+[[exercises]]
+name = "concurrent_x086"
+path = "exercises/concurrent/concurrent_x086/main_test.go"
+mode = "test"
+hint = """
+Скопируйте нужные данные под мьютексом, отпустите его и только потом отправляйте."""
+
+[[exercises]]
+name = "concurrent_x054"
+path = "exercises/concurrent/concurrent_x054/main_test.go"
+mode = "test"
+hint = """
+Если вызов для ключа уже идёт, отпустите мьютекс и ждите его WaitGroup.
+Иначе зарегистрируйте новый вызов, выполните функцию и удалите запись."""
+
+[[exercises]]
+name = "concurrent_x062"
+path = "exercises/concurrent/concurrent_x062/main_test.go"
+mode = "test"
+hint = """
+Take должен ждать в цикле, пока очередь пуста (cond.Wait).
+Put после добавления вызывает cond.Signal."""
+
+[[exercises]]
+name = "concurrent_x068"
+path = "exercises/concurrent/concurrent_x068/main_test.go"
+mode = "test"
+hint = """
+Операция n++ не атомарна: чтение и запись могут перемешаться.
+Защитите её мьютексом."""
+
+[[exercises]]
+name = "concurrent_x100"
+path = "exercises/concurrent/concurrent_x100/main_test.go"
+mode = "test"
+hint = """
+Вызывайте внутри вспомогательную функцию без блокировки."""
+
+[[exercises]]
+name = "concurrent_x076"
+path = "exercises/concurrent/concurrent_x076/main_test.go"
+mode = "test"
+hint = """
+Вынесите чтение баланса во внутренний метод, который ожидает, что
+мьютекс уже захвачен, и вызывайте его из Deposit."""
+
+[[exercises]]
+name = "concurrent_x048"
+path = "exercises/concurrent/concurrent_x048/main_test.go"
+mode = "test"
+hint = """
+Прочитайте текущее значение, проверьте его и попытайтесь заменить через CAS.
+Если CAS не удался, повторите."""
+
+[[exercises]]
+name = "concurrent_x022"
+path = "exercises/concurrent/concurrent_x022/main_test.go"
+mode = "test"
+hint = """
+LoadOrStore возвращает признак loaded — был ли ключ раньше."""
+
+[[exercises]]
+name = "concurrent_x093"
+path = "exercises/concurrent/concurrent_x093/main_test.go"
+mode = "test"
+hint = """
+Передавайте в функцию двунаправленный канал (он неявно приводится к нужному направлению)."""
+
+[[exercises]]
+name = "concurrent_x034"
+path = "exercises/concurrent/concurrent_x034/main_test.go"
+mode = "test"
+hint = """
+Используйте тот же ключ, что и при записи."""
+
+[[exercises]]
+name = "concurrent_x004"
+path = "exercises/concurrent/concurrent_x004/main_test.go"
+mode = "test"
+hint = """
+После отправки всех значений закройте канал (удобно через defer)."""
+
+[[exercises]]
+name = "concurrent_x015"
+path = "exercises/concurrent/concurrent_x015/main_test.go"
+mode = "test"
+hint = """
+Функция отмены, возвращённая WithCancel, должна быть вызвана."""
+
+[[exercises]]
+name = "concurrent_x073"
+path = "exercises/concurrent/concurrent_x073/main_test.go"
+mode = "test"
+hint = """
+Всегда захватывайте мьютексы в одном порядке, например по возрастанию ID."""
+
+[[exercises]]
+name = "concurrent_x031"
+path = "exercises/concurrent/concurrent_x031/main_test.go"
+mode = "test"
+hint = """
+Load возвращает interface{}; приведите его к нужному типу."""
+
+[[exercises]]
+name = "concurrent_x069"
+path = "exercises/concurrent/concurrent_x069/main_test.go"
+mode = "test"
+hint = """
+Защитите запись мьютексом или используйте sync.Map."""
+
+[[exercises]]
+name = "concurrent_x005"
+path = "exercises/concurrent/concurrent_x005/main_test.go"
+mode = "test"
+hint = """
+Сразу после Lock отложите Unlock."""
+
+[[exercises]]
+name = "concurrent_x033"
+path = "exercises/concurrent/concurrent_x033/main_test.go"
+mode = "test"
+hint = """
+Тип элементов канала должен совпадать с типом отправляемых значений."""
+
+[[exercises]]
+name = "concurrent_x083"
+path = "exercises/concurrent/concurrent_x083/main_test.go"
+mode = "test"
+hint = """
+Перенесите wg.Add(1) перед оператором go."""
+
+[[exercises]]
+name = "concurrent_x041"
+path = "exercises/concurrent/concurrent_x041/main_test.go"
+mode = "test"
+hint = """
+Буфер канала должен вмещать ответы всех зеркал, иначе опоздавшие
+горутины заблокируются. Верните первое полученное значение."""
+
+[[exercises]]
+name = "concurrent_x094"
+path = "exercises/concurrent/concurrent_x094/main_test.go"
+mode = "test"
+hint = """
+Создайте таймер до цикла и используйте его канал в select."""
+
+[[exercises]]
+name = "concurrent_x002"
+path = "exercises/concurrent/concurrent_x002/main_test.go"
+mode = "test"
+hint = """
+Нужно дождаться завершения всех горутин."""
+
+[[exercises]]
+name = "concurrent_x047"
+path = "exercises/concurrent/concurrent_x047/main_test.go"
+mode = "test"
+hint = """
+Сохраните sync.Once в структуре и выполняйте создание соединения через Do."""
+
+[[exercises]]
+name = "concurrent_x055"
+path = "exercises/concurrent/concurrent_x055/main_test.go"
+mode = "test"
+hint = """
+Получите из канала готовности ровно столько сигналов, сколько сервисов."""
+
+[[exercises]]
+name = "concurrent_x020"
+path = "exercises/concurrent/concurrent_x020/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое поле структуры заполняется данными."""
+
+[[exercises]]
+name = "concurrent_x026"
+path = "exercises/concurrent/concurrent_x026/main_test.go"
+mode = "test"
+hint = """
+После закрытия ctx.Done() причину сообщает ctx.Err()."""
+
+[[exercises]]
+name = "concurrent_x099"
+path = "exercises/concurrent/concurrent_x099/main_test.go"
+mode = "test"
+hint = """
+Используйте форму v, ok := <-ch и выходите из функции, когда ok == false."""
+
+[[exercises]]
+name = "concurrent_x079"
+path = "exercises/concurrent/concurrent_x079/main_test.go"
+mode = "test"
+hint = """
+Создавайте дочерний контекст от переданного ctx."""
+
+[[exercises]]
+name = "concurrent_x061"
+path = "exercises/concurrent/concurrent_x061/main_test.go"
+mode = "test"
+hint = """
+Защищайте запись в общую map мьютексом (или считайте в локальные map
+и объединяйте в конце)."""
+
+[[exercises]]
+name = "concurrent_x077"
+path = "exercises/concurrent/concurrent_x077/main_test.go"
+mode = "test"
+hint = """
+Отпустите RLock, затем возьмите Lock и повторно проверьте наличие ключа."""
+
+[[exercises]]
+name = "concurrent_x091"
+path = "exercises/concurrent/concurrent_x091/main_test.go"
+mode = "test"
+hint = """
+Объявите отдельные типы ключей для каждого компонента."""
+
+[[exercises]]
+name = "concurrent_x072"
+path = "exercises/concurrent/concurrent_x072/main_test.go"
+mode = "test"
+hint = """
+Нужно дождаться подтверждения от обработчика. Используйте канал
+подтверждения (или небуферизованную пару запрос-ответ)."""
+
+[[exercises]]
+name = "concurrent_x039"
+path = "exercises/concurrent/concurrent_x039/main_test.go"
+mode = "test"
+hint = """
+Внутри цикла воркер должен проверять ctx.Done() через select
+и выходить при отмене."""
+
+[[exercises]]
+name = "concurrent_x095"
+path = "exercises/concurrent/concurrent_x095/main_test.go"
+mode = "test"
+hint = """
+Всегда сохраняйте значения одного типа — здесь *Config."""
+
+[[exercises]]
+name = "concurrent_x017"
+path = "exercises/concurrent/concurrent_x017/main_test.go"
+mode = "test"
+hint = """
+len(ch) — число элементов в буфере, cap(ch) — его размер."""
+
+[[exercises]]
+name = "concurrent_x003"
+path = "exercises/concurrent/concurrent_x003/main_test.go"
+mode = "test"
+hint = """
+Создайте канал с буфером хотя бы на один элемент."""
+
+[[exercises]]
+name = "concurrent_x021"
+path = "exercises/concurrent/concurrent_x021/main_test.go"
+mode = "test"
+hint = """
+Нужно получить столько значений, сколько каналов."""
+
+[[exercises]]
+name = "concurrent_x049"
+path = "exercises/concurrent/concurrent_x049/main_test.go"
+mode = "test"
+hint = """
+Добавляйте значения в текущий пакет. Когда он заполнится, сохраните его
+и начните новый. После закрытия канала сохраните непустой остаток."""
+
+[[exercises]]
+name = "concurrent_x025"
+path = "exercises/concurrent/concurrent_x025/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие цикла."""
+
+[[exercises]]
+name = "concurrent_x071"
+path = "exercises/concurrent/concurrent_x071/main_test.go"
+mode = "test"
+hint = """
+Производители не должны закрывать общий канал. Закройте его
+в отдельной горутине после wg.Wait."""
+
+[[exercises]]
+name = "concurrent_x043"
+path = "exercises/concurrent/concurrent_x043/main_test.go"
+mode = "test"
+hint = """
+Inc должен захватывать эксклюзивную блокировку, Value — блокировку чтения."""
+
+[[exercises]]
+name = "concurrent_x040"
+path = "exercises/concurrent/concurrent_x040/main_test.go"
+mode = "test"
+hint = """
+Используйте буферизованный канал результата, чтобы горутина могла
+завершиться и после таймаута, и select с time.After."""
+
+[[exercises]]
+name = "concurrent_x028"
+path = "exercises/concurrent/concurrent_x028/main_test.go"
+mode = "test"
+hint = """
+Закрытие канала разблокирует всех его получателей."""
+
+[[exercises]]
+name = "concurrent_x024"
+path = "exercises/concurrent/concurrent_x024/main_test.go"
+mode = "test"
+hint = """
+Ёмкость канала-семафора равна максимальному числу одновременных задач."""
+
+[[exercises]]
+name = "concurrent_x042"
+path = "exercises/concurrent/concurrent_x042/main_test.go"
+mode = "test"
+hint = """
+Сохраните только первую ошибку (sync.Once) и вызовите cancel.
+Задачи должны реагировать на ctx.Done()."""
+
+[[exercises]]
+name = "concurrent_x044"
+path = "exercises/concurrent/concurrent_x044/main_test.go"
+mode = "test"
+hint = """
+После сигнала done дочитайте оставшиеся в буфере сообщения
+неблокирующим чтением, а затем завершитесь."""
+
+[[exercises]]
+name = "concurrent_x085"
+path = "exercises/concurrent/concurrent_x085/main_test.go"
+mode = "test"
+hint = """
+Внутри функции инициализации не вызывайте методы, которые сами
+используют этот Once. Работайте с полями напрямую."""
+
+[[exercises]]
+name = "concurrent_x096"
+path = "exercises/concurrent/concurrent_x096/main_test.go"
+mode = "test"
+hint = """
+Оставьте только отложенный вызов Done."""
+
+[[exercises]]
+name = "concurrent_x019"
+path = "exercises/concurrent/concurrent_x019/main_test.go"
+mode = "test"
+hint = """
+ok == false означает, что канал закрыт и данных больше нет."""
+
+[[exercises]]
+name = "concurrent_x057"
+path = "exercises/concurrent/concurrent_x057/main_test.go"
+mode = "test"
+hint = """
+На сигнал quit нужно выйти из функции, а не только из select.
+Счётчик увеличивается на каждое событие."""
+
+[[exercises]]
+name = "concurrent_x081"
+path = "exercises/concurrent/concurrent_x081/main_test.go"
+mode = "test"
+hint = """
+Используйте atomic.LoadInt64 для чтения."""
+
+[[exercises]]
+name = "concurrent_x016"
+path = "exercises/concurrent/concurrent_x016/main_test.go"
+mode = "test"
+hint = """
+Слушайте канал ctx.Done(), а не ctx.Value."""
+
+[[exercises]]
+name = "concurrent_x074"
+path = "exercises/concurrent/concurrent_x074/main_test.go"
+mode = "test"
+hint = """
+Сделайте получатель указателем, чтобы блокировка и данные были общими."""
+
+[[exercises]]
+name = "concurrent_x080"
+path = "exercises/concurrent/concurrent_x080/main_test.go"
+mode = "test"
+hint = """
+Перед основным select проверьте quit неблокирующим select с default."""
+
+[[exercises]]
+name = "concurrent_x013"
+path = "exercises/concurrent/concurrent_x013/main_test.go"
+mode = "test"
+hint = """
+Передавайте *sync.WaitGroup."""
