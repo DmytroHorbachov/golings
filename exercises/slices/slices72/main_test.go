@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// insert вставляет x в позицию i. Результат содержит дубликаты вместо сдвига.
-// Тренирует: append(append(s[:i], x), s[i:]...) перезаписывает s[i] до копирования хвоста.
-// Сложность: hard
+// insert puts x at position i. The result holds duplicates instead of a shift.
+// append(append(s[:i], x), s[i:]...) overwrites s[i] before the tail is copied.
 package main_test
 
 import (

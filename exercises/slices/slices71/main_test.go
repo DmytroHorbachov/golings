@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isEmpty должна вернуть true и для nil, и для пустого среза.
-// Тренирует: len(nil) == 0.
-// Сложность: easy
+// isEmpty must return true for a nil slice as well as for an empty one.
+// len(nil) == 0.
 package main_test
 
 import "testing"

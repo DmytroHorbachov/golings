@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// buffer создаёт пустой срез с ёмкостью 16.
-// Тренирует: make([]T, len, cap).
-// Сложность: easy
+// buffer builds an empty slice with a capacity of 16.
+// Practices make([]T, len, cap).
 package main_test
 
 import "testing"

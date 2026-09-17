@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// dropNegatives удаляет отрицательные числа по индексу прямо во время обхода.
-// Два отрицательных числа подряд удаляются не полностью.
-// Тренирует: после удаления на место i встаёт следующий элемент.
-// Сложность: hard
+// dropNegatives removes the negative numbers by index while walking the slice.
+// Two negative numbers in a row are not both removed.
+// After a removal the next element takes position i.
 package main_test
 
 import (

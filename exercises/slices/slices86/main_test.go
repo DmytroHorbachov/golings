@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stack реализует Push и Pop поверх среза. Pop пустого стека возвращает false.
-// Тренирует: append и срез [:len-1].
-// Сложность: medium
+// Stack implements Push and Pop on top of a slice. Pop on an empty stack returns false.
+// Practices append and the slice [:len-1].
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lengths возвращает длины строк.
-// Тренирует: создание среза результата нужной длины.
-// Сложность: easy
+// lengths returns the lengths of the strings.
+// Practices building a result slice of the right length.
 package main_test
 
 import (

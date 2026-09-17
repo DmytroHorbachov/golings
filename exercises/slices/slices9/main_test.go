@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minOf возвращает минимум непустого среза.
-// Тренирует: сравнение элементов при обходе.
-// Сложность: easy
+// minOf returns the smallest element of a non-empty slice.
+// Practices comparing elements while walking a slice.
 package main_test
 
 import "testing"

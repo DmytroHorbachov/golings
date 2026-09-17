@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// padded копирует данные в срез длины n, остальные элементы — нули.
-// Тренирует: copy в заранее созданный срез.
-// Сложность: easy
+// padded copies the data into a slice of length n, leaving the rest at zero.
+// Practices copy into a slice built in advance.
 package main_test
 
 import (

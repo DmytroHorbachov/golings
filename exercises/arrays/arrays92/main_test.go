@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// total передаёт элементы массива в вариативную функцию sum.
-// Код не компилируется.
-// Тренирует: распаковывать через ... можно только срез.
-// Сложность: hard
+// total passes the elements of an array to the variadic function sum.
+// The code does not compile.
+// Only a slice can be spread with ...
 package main_test
 
 import "testing"

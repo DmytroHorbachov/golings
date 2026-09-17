@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// appendText дописывает строку к буферу байт.
-// Тренирует: append([]byte, string...).
-// Сложность: easy
+// appendText appends a string to a byte buffer.
+// Practices append([]byte, string...).
 package main_test
 
 import "testing"

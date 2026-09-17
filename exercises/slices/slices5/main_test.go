@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reset очищает буфер, оставляя выделенную память для повторного использования.
-// Тренирует: s[:0].
-// Сложность: easy
+// reset empties a buffer while keeping the memory it holds for reuse.
+// Practices s[:0].
 package main_test
 
 import "testing"

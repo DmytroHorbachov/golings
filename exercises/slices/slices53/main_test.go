@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// partition делит срез на подходящие и неподходящие под предикат элементы.
-// Тренирует: два результирующих среза.
-// Сложность: medium
+// partition splits a slice into the elements that satisfy a predicate and those that do not.
+// Practices two result slices.
 package main_test
 
 import (

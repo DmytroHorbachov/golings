@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// csv склеивает поля через запятую.
-// Тренирует: strings.Join для []string.
-// Сложность: easy
+// csv joins the fields with commas.
+// Practices strings.Join on a []string.
 package main_test
 
 import (

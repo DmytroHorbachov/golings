@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// chunk делит срез на части размером size (последняя может быть короче).
-// Тренирует: выражения срезов с вычисляемыми границами.
-// Сложность: medium
+// chunk splits a slice into parts of size size, the last one possibly shorter.
+// Practices slice expressions with computed bounds.
 package main_test
 
 import (

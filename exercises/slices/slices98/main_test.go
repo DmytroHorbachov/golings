@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// without возвращает список без элемента i, а исходный список должен остаться нетронутым.
-// Тренирует: append(s[:i], s[i+1:]...) изменяет массив исходного среза.
-// Сложность: hard
+// without returns the list without element i, and the original list has to be left untouched.
+// append(s[:i], s[i+1:]...) changes the array of the original slice.
 package main_test
 
 import (

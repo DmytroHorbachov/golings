@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// render возвращает содержимое буфера, который потом используется повторно.
-// Возвращённые данные перезаписываются следующим вызовом.
-// Тренирует: bytes.Buffer.Bytes() действителен только до следующего изменения буфера.
-// Сложность: hard
+// render returns the contents of a buffer that is reused afterwards.
+// The data that was returned is overwritten by the next call.
+// bytes.Buffer.Bytes() is only valid until the buffer changes again.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// evens возвращает только чётные числа.
-// Тренирует: append в условии.
-// Сложность: easy
+// evens returns the even numbers only.
+// Practices an append inside a condition.
 package main_test
 
 import (

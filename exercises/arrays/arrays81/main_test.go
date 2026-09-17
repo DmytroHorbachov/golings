@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// friends хранит дружбу как map с ключом [2]string. Дружба симметрична,
-// но поиск в обратном порядке имён не находит пару.
-// Тренирует: массивы как ключи сравниваются поэлементно с учётом порядка.
-// Сложность: hard
+// friends stores friendships in a map keyed by [2]string. Friendship is symmetric,
+// yet a lookup with the names the other way round finds nothing.
+// Arrays as keys compare element by element, order included.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// primes должна вернуть массив первых пяти простых чисел; размер
-// выводится компилятором из литерала.
-// Тренирует: литерал [...]T{...}.
-// Сложность: easy
+// primes must return an array of the first five prime numbers, with the size
+// inferred by the compiler from the literal.
+// Practices the [...]T{...} literal.
 package main_test
 
 import "testing"

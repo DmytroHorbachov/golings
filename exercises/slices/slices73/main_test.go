@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// concat объединяет два среза.
-// Тренирует: append(a, b...).
-// Сложность: easy
+// concat joins two slices.
+// Practices append(a, b...).
 package main_test
 
 import (

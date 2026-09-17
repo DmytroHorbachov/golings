@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// squares должна вернуть квадраты чисел; в начале результата лишние нули.
-// Тренирует: make([]T, n) уже содержит n элементов, append добавляет после них.
-// Сложность: hard
+// squares must return the squares of the numbers; the result starts with stray zeros.
+// make([]T, n) already holds n elements, and append adds after them.
 package main_test
 
 import (

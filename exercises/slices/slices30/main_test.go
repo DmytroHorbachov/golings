@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// interleave чередует элементы двух срезов: a0, b0, a1, b1, ...;
-// остаток более длинного среза добавляется в конец.
-// Тренирует: общий индекс для двух срезов.
-// Сложность: medium
+// interleave alternates the elements of two slices: a0, b0, a1, b1, ...,
+// with the tail of the longer slice appended at the end.
+// Practices one index over two slices.
 package main_test
 
 import (

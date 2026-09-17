@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// board строит доску 8×8, где true — чёрная клетка; клетка a1 ([7][0]) чёрная.
-// Тренирует: заполнение двумерного массива по формуле.
-// Сложность: medium
+// board builds an 8 by 8 board where true is a black square; the square a1 ([7][0]) is black.
+// Practices filling a two dimensional array from a formula.
 package main_test
 
 import "testing"

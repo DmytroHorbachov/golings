@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// header возвращает первые 2 байта пакета как отдельный буфер, к которому потом
-// дописывают данные. Дописывание портит тело пакета.
-// Тренирует: ёмкость подсреза простирается до конца родительского массива.
-// Сложность: hard
+// header returns the first 2 bytes of a packet as a buffer of its own, and data is
+// appended to it later. The append damages the body of the packet.
+// The capacity of a subslice reaches to the end of the parent array.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sum должна сложить все элементы массива.
-// Тренирует: цикл по массиву.
-// Сложность: easy
+// sum must add up every element of an array.
+// Practices a loop over an array.
 package main_test
 
 import "testing"

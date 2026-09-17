@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// spare возвращает, сколько элементов ещё можно добавить без перевыделения памяти.
-// Тренирует: len и cap.
-// Сложность: easy
+// spare returns how many elements can still be added without a reallocation.
+// Practices len and cap.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// dot считает скалярное произведение двух векторов [3]float64,
-// а orthogonal проверяет перпендикулярность.
-// Тренирует: поэлементные операции над массивами.
-// Сложность: medium
+// dot computes the dot product of two [3]float64 vectors,
+// and orthogonal checks whether they are perpendicular.
+// Practices element by element operations on arrays.
 package main_test
 
 import "testing"

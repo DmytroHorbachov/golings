@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// addAndRename добавляет пользователя и затем меняет имя первого через
-// ранее взятый указатель. Изменение теряется.
-// Тренирует: append может перенести элементы в новый массив, старые указатели устаревают.
-// Сложность: hard
+// addAndRename adds a user and then changes the name of the first one through
+// a pointer taken earlier. The change is lost.
+// append may move the elements to a new array, leaving old pointers stale.
 package main_test
 
 import "testing"

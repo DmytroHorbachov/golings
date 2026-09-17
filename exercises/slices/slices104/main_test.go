@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// addRow добавляет строку в таблицу [][]string.
-// Тренирует: append среза в срез срезов.
-// Сложность: easy
+// addRow adds a row to a [][]string table.
+// Practices appending a slice to a slice of slices.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// visits считает посещения клеток, используя координаты [2]int как ключ.
-// Тренирует: массивы как ключи map.
-// Сложность: easy
+// visits counts visits to cells using a [2]int coordinate as the key.
+// Practices arrays as map keys.
 package main_test
 
 import "testing"

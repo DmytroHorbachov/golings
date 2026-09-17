@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rotate поворачивает прямоугольную матрицу на 90° по часовой стрелке.
-// Тренирует: размеры результата для неквадратной матрицы.
-// Сложность: medium
+// rotate turns a rectangular matrix 90 degrees clockwise.
+// Practices the dimensions of the result for a non-square matrix.
 package main_test
 
 import (

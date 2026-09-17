@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// withBonus возвращает первые два балла с добавленным бонусом, не трогая исходные данные.
-// После вызова третий элемент исходного среза неожиданно меняется.
-// Тренирует: append к подсрезу пишет в общий массив, если есть ёмкость.
-// Сложность: hard
+// withBonus returns the first two scores with a bonus added, leaving the input alone.
+// After the call the third element of the original slice has unexpectedly changed.
+// An append to a subslice writes into the shared array while there is capacity.
 package main_test
 
 import (

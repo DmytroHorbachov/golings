@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// weekdayName возвращает название дня по номеру из пользовательского ввода
-// или ошибку. Для некорректного номера программа паникует.
-// Тренирует: выход за границы массива при переменном индексе — паника времени выполнения.
-// Сложность: hard
+// weekdayName returns the name of a day for a number coming from user input,
+// or an error. For an invalid number the program panics.
+// Going out of the bounds of an array with a variable index is a run time panic.
 package main_test
 
 import (

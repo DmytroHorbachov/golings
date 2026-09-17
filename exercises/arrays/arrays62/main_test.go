@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// prefix строит массив префиксных сумм: p[i] = a[0] + ... + a[i-1], p[0] = 0.
-// rangeSum использует его для суммы на отрезке [l, r).
-// Тренирует: массив длины N+1 и работу с индексами.
-// Сложность: medium
+// prefix builds an array of prefix sums: p[i] = a[0] + ... + a[i-1], with p[0] = 0.
+// rangeSum uses it for the sum over the range [l, r).
+// Practices an array of length N+1 and working with indexes.
 package main_test
 
 import "testing"

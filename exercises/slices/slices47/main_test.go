@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstOr возвращает первый аргумент командной строки или значение по умолчанию.
-// Без аргументов функция паникует.
-// Тренирует: индексация пустого или nil-среза — паника.
-// Сложность: hard
+// firstOr returns the first command line argument, or a default value.
+// With no arguments it panics.
+// Indexing an empty or nil slice panics.
 package main_test
 
 import "testing"

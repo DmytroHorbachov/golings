@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// activeOnly фильтрует список, но вызывающий ожидает, что исходный срез
-// останется прежним. Фильтрация через s[:0] его портит.
-// Тренирует: out := s[:0] переиспользует массив исходного среза.
-// Сложность: hard
+// activeOnly filters a list, and the caller expects the original slice
+// to stay as it was. Filtering through s[:0] spoils it.
+// out := s[:0] reuses the array of the original slice.
 package main_test
 
 import (

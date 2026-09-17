@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// track запоминает состояние массива до изменений и сообщает, изменилось ли оно.
-// Снимок хранится как указатель и поэтому изменяется вместе с оригиналом.
-// Тренирует: присваивание массива копирует, а взятие адреса — нет.
-// Сложность: hard
+// track remembers the state of an array before the changes and reports whether it changed.
+// The snapshot is kept as a pointer and therefore changes along with the original.
+// Assigning an array copies it, while taking its address does not.
 package main_test
 
 import "testing"

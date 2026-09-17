@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cell должна вернуть значение в строке r и столбце c.
-// Тренирует: индексацию двумерного массива.
-// Сложность: easy
+// cell must return the value in row r and column c.
+// Practices indexing a two dimensional array.
 package main_test
 
 import "testing"

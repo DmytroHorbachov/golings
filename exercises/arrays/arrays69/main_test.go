@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// trace возвращает сумму главной диагонали матрицы 3×3.
-// Тренирует: доступ к элементам [i][i].
-// Сложность: easy
+// trace returns the sum of the main diagonal of a 3 by 3 matrix.
+// Practices reaching the elements [i][i].
 package main_test
 
 import "testing"

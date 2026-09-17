@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// extend добавляет элемент к срезу полного массива и затем меняет первый элемент.
-// Ожидается, что изменения попадут в исходный массив, но этого не происходит.
-// Тренирует: append при нехватке ёмкости создаёт новый массив.
-// Сложность: hard
+// extend appends an element to a slice of the whole array and then changes the first element.
+// The changes are expected to land in the original array, and they do not.
+// append allocates a new array when the capacity runs out.
 package main_test
 
 import (

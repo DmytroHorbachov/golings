@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Сотрудники уже отсортированы по имени. byDept сортирует их по отделу,
-// и внутри отдела должен сохраниться алфавитный порядок.
-// Тренирует: sort.Slice не гарантирует стабильность.
-// Сложность: hard
+// The employees are already sorted by name. byDept sorts them by department,
+// and the alphabetical order has to survive inside every department.
+// sort.Slice is not guaranteed to be stable.
 package main_test
 
 import (

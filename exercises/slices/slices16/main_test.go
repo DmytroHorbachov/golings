@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// product возвращает все пары (a, b) для a из первого среза и b из второго.
-// Тренирует: вложенные циклы и срез результата с заранее известной ёмкостью.
-// Сложность: medium
+// product returns every pair (a, b) for a from the first slice and b from the second.
+// Practices nested loops and a result slice with a known capacity.
 package main_test
 
 import (

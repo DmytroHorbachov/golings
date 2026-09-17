@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// splitAlternate раскладывает элементы с чётными и нечётными индексами в два среза.
-// Тренирует: индекс в range и два результата.
-// Сложность: medium
+// splitAlternate sorts the elements at even and odd indexes into two slices.
+// Practices the index of a range and two results.
 package main_test
 
 import (

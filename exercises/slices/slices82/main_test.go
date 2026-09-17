@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// histogram считает слова и возвращает пары (слово, количество), отсортированные
-// по убыванию количества, а при равенстве — по слову.
-// Тренирует: срез структур из map и sort.Slice.
-// Сложность: medium
+// histogram counts the words and returns (word, count) pairs sorted
+// by count in descending order, and by word on a tie.
+// Practices a slice of structs built from a map plus sort.Slice.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// merge объединяет два отсортированных среза в один отсортированный.
-// Тренирует: два индекса и дописывание хвостов.
-// Сложность: medium
+// merge combines two sorted slices into one sorted slice.
+// Practices two indexes and appending the tails.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// defaults должна вернуть массив [1 2 0 0]: незаданные элементы равны нулю.
-// Тренирует: частичную инициализацию массива.
-// Сложность: easy
+// defaults must return the array [1 2 0 0]: the elements left out are zero.
+// Practices partial initialization of an array.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// indexOfMax должна вернуть индекс максимального элемента.
-// Тренирует: две переменные в range по массиву.
-// Сложность: easy
+// indexOfMax must return the index of the largest element.
+// Practices the two variables of a range over an array.
 package main_test
 
 import "testing"

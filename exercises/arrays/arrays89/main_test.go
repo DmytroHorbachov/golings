@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Размер буфера должен вычисляться на этапе компиляции из количества заголовков.
-// Код не компилируется: len от среза — не константа.
-// Тренирует: len от массива — константное выражение, от среза — нет.
-// Сложность: hard
+// The size of the buffer has to be computed at compile time from the number of headers.
+// The code does not compile: len of a slice is not a constant.
+// len of an array is a constant expression, len of a slice is not.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// groupRuns разбивает срез на группы одинаковых подряд идущих элементов.
-// Тренирует: срезы исходного среза с вычисляемыми границами.
-// Сложность: medium
+// groupRuns splits a slice into groups of equal consecutive elements.
+// Practices slices of the original slice with computed bounds.
 package main_test
 
 import (

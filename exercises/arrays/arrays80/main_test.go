@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameColor сравнивает два цвета, записанных как [3]uint8.
-// Тренирует: массивы сравнимы оператором ==.
-// Сложность: easy
+// sameColor compares two colours held as [3]uint8 values.
+// Arrays are comparable with ==.
 package main_test
 
 import "testing"

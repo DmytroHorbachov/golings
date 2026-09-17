@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// winner возвращает 'X' или 'O', если у игрока есть линия из трёх, иначе 0.
-// Тренирует: таблицу линий как массив массивов индексов.
-// Сложность: medium
+// winner returns 'X' or 'O' when a player holds a line of three, and 0 otherwise.
+// Practices a table of lines as an array of index arrays.
 package main_test
 
 import "testing"

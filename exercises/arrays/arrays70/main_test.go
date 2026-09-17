@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameValues сравнивает два массива указателей по значениям, на которые они указывают.
-// Тренирует: == для [N]*T сравнивает адреса.
-// Сложность: hard
+// sameValues compares two arrays of pointers by the values they point at.
+// == on a [N]*T compares addresses.
 package main_test
 
 import "testing"

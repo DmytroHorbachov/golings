@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// tail возвращает все элементы, кроме первого.
-// Тренирует: выражение среза s[low:].
-// Сложность: easy
+// tail returns every element but the first.
+// Practices the slice expression s[low:].
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// prepend добавляет элемент в начало среза.
-// Тренирует: append нового среза и распаковку.
-// Сложность: easy
+// prepend puts an element at the front of a slice.
+// Practices appending to a new slice and spreading.
 package main_test
 
 import (

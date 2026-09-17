@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// topLetter возвращает самую частую латинскую букву строки (при равенстве — первую по алфавиту).
-// Тренирует: подсчёт в [26]int и поиск максимума.
-// Сложность: medium
+// topLetter returns the most frequent latin letter of a string, the alphabetically first one on a tie.
+// Practices counting in a [26]int and finding the maximum.
 package main_test
 
 import "testing"

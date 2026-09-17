@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortedCopy возвращает отсортированную копию.
-// Тренирует: sort.Ints.
-// Сложность: easy
+// sortedCopy returns a sorted copy.
+// Practices sort.Ints.
 package main_test
 
 import (

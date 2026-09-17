@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minMax возвращает минимум и максимум массива за один проход.
-// Тренирует: два аккумулятора и массив.
-// Сложность: medium
+// minMax returns the minimum and the maximum of an array in a single pass.
+// Practices two accumulators over an array.
 package main_test
 
 import "testing"

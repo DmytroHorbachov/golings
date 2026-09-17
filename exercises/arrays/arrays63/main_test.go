@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// load копирует пакет в переиспользуемый буфер [8]byte и возвращает длину.
-// Когда короткий пакет приходит после длинного, в буфере остаются чужие байты.
-// Тренирует: copy не очищает оставшуюся часть массива.
-// Сложность: hard
+// load copies a packet into a reusable [8]byte buffer and returns the length.
+// When a short packet follows a long one, stray bytes are left in the buffer.
+// copy does not clear the rest of the array.
 package main_test
 
 import "testing"

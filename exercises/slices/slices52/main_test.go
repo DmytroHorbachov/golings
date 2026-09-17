@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// expand проходит по очереди задач и добавляет подзадачи в её конец;
-// подзадачи тоже должны быть обработаны. Сейчас они пропускаются.
-// Тренирует: range вычисляет длину среза один раз перед началом цикла.
-// Сложность: hard
+// expand walks a queue of tasks and appends subtasks to its end;
+// the subtasks have to be processed too. Right now they are skipped.
+// A range evaluates the length of the slice once, before the loop starts.
 package main_test
 
 import (

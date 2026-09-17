@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// insertAt вставляет элемент в позицию i, сдвигая остальные вправо.
-// Тренирует: append для расширения и copy для сдвига.
-// Сложность: medium
+// insertAt inserts an element at position i, shifting the rest to the right.
+// Practices append to grow and copy to shift.
 package main_test
 
 import (

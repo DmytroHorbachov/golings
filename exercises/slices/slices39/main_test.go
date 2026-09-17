@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// unique удаляет повторы, сохраняя порядок первых вхождений.
-// Тренирует: срез вместе с map-множеством.
-// Сложность: medium
+// unique removes the repeats, keeping the order of the first occurrences.
+// Practices a slice together with a map used as a set.
 package main_test
 
 import (

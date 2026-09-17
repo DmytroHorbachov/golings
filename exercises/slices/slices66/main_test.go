@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// insertSorted вставляет число в отсортированный срез, сохраняя порядок.
-// Тренирует: sort.SearchInts и вставку по индексу.
-// Сложность: medium
+// insertSorted inserts a number into a sorted slice, keeping the order.
+// Practices sort.SearchInts and inserting at an index.
 package main_test
 
 import (

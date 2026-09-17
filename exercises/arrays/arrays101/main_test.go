@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// mul перемножает две матрицы 2×2.
-// Тренирует: тройной цикл по массивам.
-// Сложность: medium
+// mul multiplies two 2 by 2 matrices.
+// Practices a triple loop over arrays.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cross вычисляет векторное произведение двух векторов [3]int.
-// Тренирует: доступ к компонентам массива по индексу.
-// Сложность: medium
+// cross computes the cross product of two [3]int vectors.
+// Practices reaching the components of an array by index.
 package main_test
 
 import "testing"

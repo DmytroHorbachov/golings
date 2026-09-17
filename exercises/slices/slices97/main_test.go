@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// addTask добавляет задачу в конец списка.
-// Тренирует: append возвращает новый срез.
-// Сложность: easy
+// addTask adds a task to the end of the list.
+// append returns a new slice.
 package main_test
 
 import (

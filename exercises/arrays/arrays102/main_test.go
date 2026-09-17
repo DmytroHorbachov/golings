@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// contains проверяет, есть ли слово в словаре стоп-слов.
-// Тренирует: линейный поиск по массиву.
-// Сложность: easy
+// contains checks whether a word is in the dictionary of stop words.
+// Practices a linear search over an array.
 package main_test
 
 import "testing"

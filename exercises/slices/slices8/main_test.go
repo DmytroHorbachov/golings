@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// newGrid создаёт сетку rows×cols, заполненную значением v.
-// Тренирует: make для внешнего среза и для каждой строки.
-// Сложность: medium
+// newGrid builds a rows by cols grid filled with the value v.
+// Practices make for the outer slice and for every row.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// count должна посчитать, сколько раз x встречается в массиве.
-// Тренирует: сравнение элементов в цикле.
-// Сложность: easy
+// count must count how many times x occurs in an array.
+// Practices comparing elements in a loop.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isAnagram проверяет, состоят ли две строки из одинаковых латинских букв.
-// Тренирует: сравнение массивов-счётчиков оператором ==.
-// Сложность: medium
+// isAnagram checks whether two strings are made of the same latin letters.
+// Practices comparing counter arrays with ==.
 package main_test
 
 import "testing"

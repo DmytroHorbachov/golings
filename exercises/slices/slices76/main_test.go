@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// preview возвращает не больше n первых комментариев. Если комментариев меньше,
-// функция паникует.
-// Тренирует: s[:n] при n > len(s) (и n > cap) — паника.
-// Сложность: hard
+// preview returns at most the first n comments. With fewer comments than that
+// it panics.
+// s[:n] with n > len(s) and n > cap panics.
 package main_test
 
 import "testing"

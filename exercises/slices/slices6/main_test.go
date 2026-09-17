@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shiftRight сдвигает элементы на одну позицию вправо (последний теряется),
-// а первый элемент становится нулём. Сейчас весь срез заполняется первым значением.
-// Тренирует: порядок копирования при перекрывающихся областях.
-// Сложность: hard
+// shiftRight moves the elements one place right, dropping the last one,
+// and leaves a zero in front. Right now the whole slice is filled with the first value.
+// Practices the copying order when the ranges overlap.
 package main_test
 
 import (

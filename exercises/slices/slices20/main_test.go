@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameTags сравнивает наборы тегов; nil и пустой срез должны считаться равными.
-// Тренирует: reflect.DeepEqual различает nil и пустой срез.
-// Сложность: hard
+// sameTags compares sets of tags; nil and an empty slice have to count as equal.
+// reflect.DeepEqual tells nil and an empty slice apart.
 package main_test
 
 import (

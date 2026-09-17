@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// trimZeros убирает нули с обоих концов среза.
-// Тренирует: сдвиг границ среза.
-// Сложность: medium
+// trimZeros strips the zeros from both ends of a slice.
+// Practices moving the bounds of a slice.
 package main_test
 
 import (

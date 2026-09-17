@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Тип Palette — массив цветов. Метод Set должен менять цвет по индексу.
-// После вызова палитра остаётся прежней.
-// Тренирует: методы с получателем-значением работают с копией массива.
-// Сложность: hard
+// Palette is an array of colours. Its Set method must change a colour by index.
+// The palette is unchanged after the call.
+// A method with a value receiver works on a copy of the array.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// total складывает все элементы среза.
-// Тренирует: range по срезу.
-// Сложность: easy
+// total adds up every element of a slice.
+// Practices a range over a slice.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// pascalRow возвращает n-ю строку треугольника Паскаля в массиве [10]int
-// (неиспользуемые элементы — нули).
-// Тренирует: обновление массива на месте справа налево.
-// Сложность: medium
+// pascalRow returns the n-th row of Pascal's triangle in a [10]int,
+// with the unused elements left at zero.
+// Practices updating an array in place from right to left.
 package main_test
 
 import "testing"

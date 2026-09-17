@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Queue реализует Enqueue и Dequeue (FIFO).
-// Тренирует: срез [1:] для удаления первого элемента.
-// Сложность: medium
+// Queue implements Enqueue and Dequeue (FIFO).
+// Practices the slice [1:] for dropping the first element.
 package main_test
 
 import "testing"

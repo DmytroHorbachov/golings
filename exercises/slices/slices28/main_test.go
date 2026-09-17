@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// intersect возвращает элементы, которые есть в обоих срезах (без повторов,
-// в порядке первого среза).
-// Тренирует: построение множества из среза.
-// Сложность: medium
+// intersect returns the elements that occur in both slices, with no repeats
+// and in the order of the first slice.
+// Practices building a set out of a slice.
 package main_test
 
 import (

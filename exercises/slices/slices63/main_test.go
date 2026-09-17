@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// API должно возвращать "[]" для пустого списка, а не "null".
-// Тренирует: encoding/json кодирует nil-срез как null.
-// Сложность: hard
+// The API has to return "[]" for an empty list rather than "null".
+// encoding/json encodes a nil slice as null.
 package main_test
 
 import (

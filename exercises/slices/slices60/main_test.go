@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reverseWords переставляет слова строки в обратном порядке.
-// Тренирует: разворот среза строк на месте.
-// Сложность: medium
+// reverseWords puts the words of a string in reverse order.
+// Practices reversing a slice of strings in place.
 package main_test
 
 import (

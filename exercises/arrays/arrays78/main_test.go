@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// average принимает массив [3]int, но её вызывают для массива из 4 элементов.
-// Код не компилируется.
-// Тренирует: длина — часть типа массива.
-// Сложность: hard
+// average takes a [3]int, and it is called on an array of 4 elements.
+// The code does not compile.
+// The length is part of the type of an array.
 package main_test
 
 import "testing"

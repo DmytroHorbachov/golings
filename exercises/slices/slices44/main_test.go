@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// columnSum суммирует столбец c в «рваной» таблице, где строки разной длины.
-// Для коротких строк функция паникует.
-// Тренирует: у [][]T каждая строка имеет свою длину.
-// Сложность: hard
+// columnSum adds up column c of a ragged table whose rows differ in length.
+// For the short rows it panics.
+// In a [][]T every row has a length of its own.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// allIndexes возвращает все индексы, где встречается x.
-// Тренирует: накопление индексов в срез.
-// Сложность: medium
+// allIndexes returns every index where x occurs.
+// Practices collecting indexes into a slice.
 package main_test
 
 import (

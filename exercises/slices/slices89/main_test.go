@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Тип Stack основан на срезе. Метод Push должен добавлять элемент,
-// но стек остаётся пустым.
-// Тренирует: append в методе со значимым получателем меняет копию заголовка.
-// Сложность: hard
+// Stack is built on a slice. Its Push method has to add an element,
+// yet the stack stays empty.
+// An append in a method with a value receiver changes a copy of the header.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// removeFirst удаляет первый элемент со значением x. Вызывающий код продолжает
-// использовать старый срез и видит «хвост» из дубликатов.
-// Тренирует: функция может изменить элементы, но не длину среза вызывающего.
-// Сложность: hard
+// removeFirst removes the first element equal to x. The caller keeps using
+// the old slice and sees a duplicate left at the end.
+// A function can change the elements, but not the length of the caller's slice.
 package main_test
 
 import (

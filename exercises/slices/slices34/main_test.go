@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pairs возвращает все пары соседних элементов.
-// Тренирует: границы цикла при обращении к s[i+1].
-// Сложность: medium
+// pairs returns every pair of neighbouring elements.
+// Practices the loop bounds when reaching for s[i+1].
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rotate поворачивает матрицу 3×3 на 90° по часовой стрелке.
-// Тренирует: вычисление новых индексов.
-// Сложность: medium
+// rotate turns a 3 by 3 matrix 90 degrees clockwise.
+// Practices working out the new indexes.
 package main_test
 
 import "testing"

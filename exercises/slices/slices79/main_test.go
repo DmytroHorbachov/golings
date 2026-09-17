@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// topK возвращает k наибольших чисел по убыванию, не меняя входной срез.
-// Тренирует: копирование перед сортировкой и срез результата.
-// Сложность: medium
+// topK returns the k largest numbers in descending order without changing the input slice.
+// Practices copying before sorting and slicing the result.
 package main_test
 
 import (

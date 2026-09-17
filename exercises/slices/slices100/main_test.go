@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reverseInPlace должна развернуть срез, но срез остаётся прежним.
-// Тренирует: каждая пара меняется дважды, если цикл идёт по всей длине.
-// Сложность: hard
+// reverseInPlace has to reverse a slice, and the slice comes back unchanged.
+// Every pair is swapped twice when the loop runs over the whole length.
 package main_test
 
 import (

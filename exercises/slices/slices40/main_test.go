@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pop возвращает срез без последнего элемента.
-// Тренирует: выражение среза s[:high].
-// Сложность: easy
+// pop returns the slice without its last element.
+// Practices the slice expression s[:high].
 package main_test
 
 import (

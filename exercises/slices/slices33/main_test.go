@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// desc сортирует числа по убыванию.
-// Тренирует: sort.Sort, sort.Reverse и sort.IntSlice.
-// Сложность: easy
+// desc sorts the numbers in descending order.
+// Practices sort.Sort, sort.Reverse and sort.IntSlice.
 package main_test
 
 import (

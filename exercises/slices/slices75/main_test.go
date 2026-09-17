@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// has проверяет, есть ли строка в срезе.
-// Тренирует: линейный поиск.
-// Сложность: easy
+// has checks whether a string is in the slice.
+// Practices a linear search.
 package main_test
 
 import "testing"

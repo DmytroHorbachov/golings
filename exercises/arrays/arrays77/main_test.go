@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// oldest возвращает имя самого старшего человека.
-// Тренирует: доступ к полям элементов массива структур.
-// Сложность: easy
+// oldest returns the name of the oldest person.
+// Practices reaching the fields of the elements of an array of structs.
 package main_test
 
 import "testing"

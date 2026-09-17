@@ -4574,330 +4574,330 @@ name = "arrays53"
 path = "exercises/arrays/arrays53/main_test.go"
 mode = "test"
 hint = """
-Копия массива — это просто присваивание. Проверьте, какой массив возвращается."""
+Copying an array is a plain assignment. Check which array is returned."""
 
 [[exercises]]
 name = "arrays54"
 path = "exercises/arrays/arrays54/main_test.go"
 mode = "test"
 hint = """
-Чтобы вызывающий мог менять данные внутри Board, верните указатель
-на строку, а не саму строку."""
+For the caller to change the data inside Board, return a pointer
+to the row rather than the row itself."""
 
 [[exercises]]
 name = "arrays55"
 path = "exercises/arrays/arrays55/main_test.go"
 mode = "test"
 hint = """
-Посчитайте буквы, затем найдите индекс максимума. Строгое сравнение >
-сохраняет первую по алфавиту букву при равенстве."""
+Count the letters, then find the index of the maximum. A strict > keeps
+the alphabetically first letter on a tie."""
 
 [[exercises]]
 name = "arrays56"
 path = "exercises/arrays/arrays56/main_test.go"
 mode = "test"
 hint = """
-Срез a[0:2] имеет ёмкость 3, поэтому append пишет прямо в массив.
-Ограничьте ёмкость третьим индексом: a[0:2:2]."""
+The slice a[0:2] has a capacity of 3, so append writes straight into the array.
+Cap the capacity with a third index: a[0:2:2]."""
 
 [[exercises]]
 name = "arrays57"
 path = "exercises/arrays/arrays57/main_test.go"
 mode = "test"
 hint = """
-Первый индекс — строка, второй — столбец."""
+The first index is the row and the second one is the column."""
 
 [[exercises]]
 name = "arrays58"
 path = "exercises/arrays/arrays58/main_test.go"
 mode = "test"
 hint = """
-Поле Skills — срез; при копировании массива копируется только заголовок среза.
-Для каждого игрока создайте собственную копию среза."""
+The Skills field is a slice, and copying the array only copies the slice header.
+Give every player a copy of the slice of its own."""
 
 [[exercises]]
 name = "arrays59"
 path = "exercises/arrays/arrays59/main_test.go"
 mode = "test"
 hint = """
-Элементы, не указанные в литерале, получают нулевые значения."""
+Elements not named in the literal get the zero value."""
 
 [[exercises]]
 name = "arrays60"
 path = "exercises/arrays/arrays60/main_test.go"
 mode = "test"
 hint = """
-Посчитайте буквы каждой строки в свой [26]int и сравните массивы целиком."""
+Count the letters of each string into a [26]int of its own and compare the arrays as a whole."""
 
 [[exercises]]
 name = "arrays61"
 path = "exercises/arrays/arrays61/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие цикла: должны быть учтены все элементы."""
+Check the loop condition: every element has to be counted."""
 
 [[exercises]]
 name = "arrays62"
 path = "exercises/arrays/arrays62/main_test.go"
 mode = "test"
 hint = """
-p[i+1] = p[i] + a[i]. Сумма на [l, r) — это p[r] - p[l]."""
+p[i+1] = p[i] + a[i]. The sum over [l, r) is p[r] - p[l]."""
 
 [[exercises]]
 name = "arrays63"
 path = "exercises/arrays/arrays63/main_test.go"
 mode = "test"
 hint = """
-copy заполняет только min(len(dst), len(src)) элементов.
-Очистите остаток буфера после копирования."""
+copy fills only min(len(dst), len(src)) elements.
+Clear the rest of the buffer afterwards."""
 
 [[exercises]]
 name = "arrays64"
 path = "exercises/arrays/arrays64/main_test.go"
 mode = "test"
 hint = """
-Копируйте ненулевые элементы вперёд по индексу w, а затем
-заполните оставшиеся позиции нулями."""
+Copy the non-zero elements forward through an index w, then
+fill the remaining positions with zeros."""
 
 [[exercises]]
 name = "arrays65"
 path = "exercises/arrays/arrays65/main_test.go"
 mode = "test"
 hint = """
-Меняйте местами элементы i и len-1-i, пока i не дойдёт до середины."""
+Swap the elements i and len-1-i while i has not reached the middle."""
 
 [[exercises]]
 name = "arrays66"
 path = "exercises/arrays/arrays66/main_test.go"
 mode = "test"
 hint = """
-Получатель типа Palette — полная копия массива.
-Сделайте получатель указателем."""
+A receiver of type Palette is a full copy of the array.
+Make the receiver a pointer."""
 
 [[exercises]]
 name = "arrays67"
 path = "exercises/arrays/arrays67/main_test.go"
 mode = "test"
 hint = """
-Цвет клетки зависит от чётности суммы индексов. Проверьте, какая
-чётность соответствует чёрной клетке [7][0]."""
+The colour of a square depends on the parity of the sum of the indexes. Check which
+parity belongs to the black square [7][0]."""
 
 [[exercises]]
 name = "arrays68"
 path = "exercises/arrays/arrays68/main_test.go"
 mode = "test"
 hint = """
-[2][]int несравним, потому что срезы несравнимы.
-Сравните элементы вручную или через reflect.DeepEqual."""
+[2][]int is not comparable because slices are not.
+Compare the elements by hand or with reflect.DeepEqual."""
 
 [[exercises]]
 name = "arrays69"
 path = "exercises/arrays/arrays69/main_test.go"
 mode = "test"
 hint = """
-На главной диагонали номер строки равен номеру столбца."""
+On the main diagonal the row number equals the column number."""
 
 [[exercises]]
 name = "arrays70"
 path = "exercises/arrays/arrays70/main_test.go"
 mode = "test"
 hint = """
-Два разных указателя на равные числа не равны. Сравнивайте *a[i] и *b[i]."""
+Two distinct pointers to equal numbers are not equal. Compare *a[i] and *b[i]."""
 
 [[exercises]]
 name = "arrays71"
 path = "exercises/arrays/arrays71/main_test.go"
 mode = "test"
 hint = """
-Все 8 выигрышных линий перечислены в массиве lines. Проверьте, что
-все три клетки линии равны и не пусты. Сверьте диагонали."""
+All 8 winning lines are listed in the lines array. Check that
+the three squares of a line are equal and not empty. Check the diagonals."""
 
 [[exercises]]
 name = "arrays72"
 path = "exercises/arrays/arrays72/main_test.go"
 mode = "test"
 hint = """
-Проверьте, с чем сравнивается элемент."""
+Check what the element is compared against."""
 
 [[exercises]]
 name = "arrays73"
 path = "exercises/arrays/arrays73/main_test.go"
 mode = "test"
 hint = """
-len(messages) = максимальный индекс + 1, а не количество заполненных
-элементов. Последний индекс массива — len-1."""
+len(messages) is the largest index plus one, not the number of filled
+elements. The last index of an array is len-1."""
 
 [[exercises]]
 name = "arrays74"
 path = "exercises/arrays/arrays74/main_test.go"
 mode = "test"
 hint = """
-Группы байтов: 4, 2, 2, 2, 6. %x для среза байтов печатает их подряд."""
+The byte groups are 4, 2, 2, 2, 6. %x on a byte slice prints them one after another."""
 
 [[exercises]]
 name = "arrays75"
 path = "exercises/arrays/arrays75/main_test.go"
 mode = "test"
 hint = """
-Первая переменная range — индекс, вторая — значение."""
+The first range variable is the index and the second one is the value."""
 
 [[exercises]]
 name = "arrays76"
 path = "exercises/arrays/arrays76/main_test.go"
 mode = "test"
 hint = """
-Начните с [1 0 0 ...]. На каждом шаге обновляйте элементы справа налево:
-row[j] += row[j-1] — иначе вы используете уже изменённые значения."""
+Start from [1 0 0 ...]. On every step update the elements right to left:
+row[j] += row[j-1], otherwise you use values you have already changed."""
 
 [[exercises]]
 name = "arrays77"
 path = "exercises/arrays/arrays77/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте возраст, а возвращайте имя."""
+Compare the ages and return the name."""
 
 [[exercises]]
 name = "arrays78"
 path = "exercises/arrays/arrays78/main_test.go"
 mode = "test"
 hint = """
-[3]int и [4]int несовместимы. Примите срез и передавайте a[:]."""
+[3]int and [4]int are incompatible. Take a slice and pass a[:]."""
 
 [[exercises]]
 name = "arrays79"
 path = "exercises/arrays/arrays79/main_test.go"
 mode = "test"
 hint = """
-Скалярное произведение — сумма произведений соответствующих компонент.
-Векторы перпендикулярны, если оно равно нулю."""
+The dot product is the sum of the products of the matching components.
+The vectors are perpendicular when it is zero."""
 
 [[exercises]]
 name = "arrays80"
 path = "exercises/arrays/arrays80/main_test.go"
 mode = "test"
 hint = """
-Массивы одного типа можно сравнивать напрямую. Проверьте оператор."""
+Arrays of the same type can be compared directly. Check the operator."""
 
 [[exercises]]
 name = "arrays81"
 path = "exercises/arrays/arrays81/main_test.go"
 mode = "test"
 hint = """
-{"ann","bob"} и {"bob","ann"} — разные ключи. Нормализуйте ключ:
-ставьте имена в определённом порядке и при добавлении, и при поиске."""
+{"ann","bob"} and {"bob","ann"} are different keys. Normalize the key:
+put the names in a fixed order both when adding and when looking up."""
 
 [[exercises]]
 name = "arrays82"
 path = "exercises/arrays/arrays82/main_test.go"
 mode = "test"
 hint = """
-Оба значения нужно начинать с первого элемента и обновлять
-независимо друг от друга."""
+Both values have to start from the first element and be updated
+independently of each other."""
 
 [[exercises]]
 name = "arrays83"
 path = "exercises/arrays/arrays83/main_test.go"
 mode = "test"
 hint = """
-Новый элемент с индексом i — это старый элемент с индексом i+1."""
+The new element at index i is the old element at index i+1."""
 
 [[exercises]]
 name = "arrays84"
 path = "exercises/arrays/arrays84/main_test.go"
 mode = "test"
 hint = """
-for v := range a — это индексы 0, 1, 2... Для значений нужна
-форма for _, v := range a."""
+for v := range a gives the indexes 0, 1, 2 and so on. For the values
+use the form for _, v := range a."""
 
 [[exercises]]
 name = "arrays85"
 path = "exercises/arrays/arrays85/main_test.go"
 mode = "test"
 hint = """
-При повороте по часовой стрелке элемент [i][j] переходит в [j][n-1-i]."""
+Turning clockwise moves the element [i][j] to [j][n-1-i]."""
 
 [[exercises]]
 name = "arrays86"
 path = "exercises/arrays/arrays86/main_test.go"
 mode = "test"
 hint = """
-Начинать поиск стоит с первого элемента массива."""
+The search is best started from the first element of the array."""
 
 [[exercises]]
 name = "arrays87"
 path = "exercises/arrays/arrays87/main_test.go"
 mode = "test"
 hint = """
-Каждому элементу нужна своя переменная. Создавайте новую память
-на каждой итерации, например через new(int)."""
+Every element needs a variable of its own. Allocate new memory
+on each iteration, with new(int) for instance."""
 
 [[exercises]]
 name = "arrays88"
 path = "exercises/arrays/arrays88/main_test.go"
 mode = "test"
 hint = """
-Индекс корзины — age / 10, но всё, что выше 9, попадает в последнюю.
-Отрицательные возрасты пропускайте."""
+The bucket index is age / 10, and everything above 9 goes into the last one.
+Skip negative ages."""
 
 [[exercises]]
 name = "arrays89"
 path = "exercises/arrays/arrays89/main_test.go"
 mode = "test"
 hint = """
-Замените срез headers на массив ([...]string), тогда len(headers)
-станет константой."""
+Turn the headers slice into an array ([...]string) and len(headers)
+becomes a constant."""
 
 [[exercises]]
 name = "arrays90"
 path = "exercises/arrays/arrays90/main_test.go"
 mode = "test"
 hint = """
-В литерале [...] компилятор считает элементы сам. Проверьте,
-все ли простые числа на месте."""
+In a [...] literal the compiler counts the elements itself. Check whether
+every prime is in place."""
 
 [[exercises]]
 name = "arrays91"
 path = "exercises/arrays/arrays91/main_test.go"
 mode = "test"
 hint = """
-Каждая компонента: a*(1-w) + b*w. Считайте во float64
-и округляйте перед преобразованием в uint8."""
+Every component is a*(1-w) + b*w. Compute in float64
+and round before converting to uint8."""
 
 [[exercises]]
 name = "arrays92"
 path = "exercises/arrays/arrays92/main_test.go"
 mode = "test"
 hint = """
-Массив нельзя передать с многоточием. Сначала получите срез: a[:]..."""
+An array cannot be passed with an ellipsis. Take a slice first: a[:]..."""
 
 [[exercises]]
 name = "arrays93"
 path = "exercises/arrays/arrays93/main_test.go"
 mode = "test"
 hint = """
-Ключом должна быть сама координата. Проверьте, что увеличивается."""
+The key has to be the coordinate itself. Check what is being incremented."""
 
 [[exercises]]
 name = "arrays94"
 path = "exercises/arrays/arrays94/main_test.go"
 mode = "test"
 hint = """
-Для снимка достаточно обычного присваивания массива: оно создаёт копию."""
+A plain array assignment is enough for the snapshot: it makes a copy."""
 
 [[exercises]]
 name = "arrays95"
 path = "exercises/arrays/arrays95/main_test.go"
 mode = "test"
 hint = """
-Проверяйте n перед записью и перед чтением. Pop возвращает
-элемент с индексом n-1 и уменьшает n."""
+Check n before writing and before reading. Pop returns
+the element at index n-1 and lowers n."""
 
 [[exercises]]
 name = "arrays96"
 path = "exercises/arrays/arrays96/main_test.go"
 mode = "test"
 hint = """
-Делите сумму на количество элементов, а не на фиксированное число."""
+Divide the sum by the number of elements rather than by a fixed number."""
 
 [[exercises]]
 name = "arrays97"
@@ -4911,39 +4911,39 @@ name = "arrays98"
 path = "exercises/arrays/arrays98/main_test.go"
 mode = "test"
 hint = """
-Ёмкость среза a[:] равна длине массива, поэтому append копирует данные
-в новый массив, и дальше срез с оригиналом не связан.
-Измените исходный массив до append (или меняйте его напрямую)."""
+The capacity of the slice a[:] equals the length of the array, so append copies the data
+into a new array and the slice is no longer tied to the original.
+Change the original array before the append, or change it directly."""
 
 [[exercises]]
 name = "arrays99"
 path = "exercises/arrays/arrays99/main_test.go"
 mode = "test"
 hint = """
-Проверьте формулу, по которой вычисляется элемент."""
+Check the formula the element is computed from."""
 
 [[exercises]]
 name = "arrays100"
 path = "exercises/arrays/arrays100/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что индекс неотрицателен и меньше длины массива,
-прежде чем обращаться к элементу."""
+Check that the index is non-negative and smaller than the length of the array
+before reaching for the element."""
 
 [[exercises]]
 name = "arrays101"
 path = "exercises/arrays/arrays101/main_test.go"
 mode = "test"
 hint = """
-c[i][j] — сумма произведений a[i][k] * b[k][j] по всем k."""
+c[i][j] is the sum of the products a[i][k] * b[k][j] over every k."""
 
 [[exercises]]
 name = "arrays102"
 path = "exercises/arrays/arrays102/main_test.go"
 mode = "test"
 hint = """
-Функция не должна возвращать результат до окончания цикла,
-если совпадение ещё не найдено."""
+The function must not return a result before the loop is over
+while no match has been found."""
 
 # ===== generated exercises: slices =====
 [[exercises]]
@@ -4951,752 +4951,752 @@ name = "slices5"
 path = "exercises/slices/slices5/main_test.go"
 mode = "test"
 hint = """
-Срез нулевой длины с той же ёмкостью — это s[:0]."""
+A slice of length zero with the same capacity is s[:0]."""
 
 [[exercises]]
 name = "slices6"
 path = "exercises/slices/slices6/main_test.go"
 mode = "test"
 hint = """
-При обходе слева направо значение s[0] «размазывается» по всему срезу.
-Копируйте справа налево или используйте copy — он учитывает перекрытие."""
+Walking left to right smears s[0] across the whole slice.
+Copy from right to left, or use copy, which handles the overlap."""
 
 [[exercises]]
 name = "slices7"
 path = "exercises/slices/slices7/main_test.go"
 mode = "test"
 hint = """
-«Длиннее трёх» — строго больше трёх."""
+"Longer than three" means strictly more than three."""
 
 [[exercises]]
 name = "slices8"
 path = "exercises/slices/slices8/main_test.go"
 mode = "test"
 hint = """
-make([][]int, rows) создаёт только внешний срез с nil-строками.
-Каждую строку нужно создать отдельно."""
+make([][]int, rows) only builds the outer slice, with nil rows.
+Every row has to be built separately."""
 
 [[exercises]]
 name = "slices9"
 path = "exercises/slices/slices9/main_test.go"
 mode = "test"
 hint = """
-Проверьте знак сравнения."""
+Check the comparison operator."""
 
 [[exercises]]
 name = "slices10"
 path = "exercises/slices/slices10/main_test.go"
 mode = "test"
 hint = """
-Если данные нужны после повторного использования буфера,
-верните копию нужной части."""
+When the data is needed after the buffer is reused,
+return a copy of the part you need."""
 
 [[exercises]]
 name = "slices11"
 path = "exercises/slices/slices11/main_test.go"
 mode = "test"
 hint = """
-Пока оба среза не закончились, берите меньший элемент.
-Затем допишите остаток того среза, в котором остались элементы."""
+While neither slice has run out, take the smaller element.
+Then append the rest of the slice that still has elements."""
 
 [[exercises]]
 name = "slices12"
 path = "exercises/slices/slices12/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что найденный индекс внутри среза и там действительно
-лежит искомое значение."""
+Check that the index found is inside the slice and that it really
+holds the value you were looking for."""
 
 [[exercises]]
 name = "slices13"
 path = "exercises/slices/slices13/main_test.go"
 mode = "test"
 hint = """
-Сдвигайте начало, пока там ноль, и конец, пока там ноль.
-Следите, чтобы начало не обогнало конец."""
+Move the start while it holds a zero, and the end while it holds a zero.
+Make sure the start does not overtake the end."""
 
 [[exercises]]
 name = "slices14"
 path = "exercises/slices/slices14/main_test.go"
 mode = "test"
 hint = """
-copy копирует min(len(dst), len(src)) элементов и возвращает это число.
-Проверьте, что возвращается."""
+copy moves min(len(dst), len(src)) elements and returns that number.
+Check what is being returned."""
 
 [[exercises]]
 name = "slices15"
 path = "exercises/slices/slices15/main_test.go"
 mode = "test"
 hint = """
-tags — копия заголовка среза из map. После append сохраните результат
-в m[key]."""
+tags is a copy of the slice header from the map. Store the result of the append
+in m[key]."""
 
 [[exercises]]
 name = "slices16"
 path = "exercises/slices/slices16/main_test.go"
 mode = "test"
 hint = """
-Внешний цикл — по первому срезу, внутренний — по второму.
-Ёмкость результата — len(a)*len(b)."""
+The outer loop runs over the first slice and the inner one over the second.
+The capacity of the result is len(a)*len(b)."""
 
 [[exercises]]
 name = "slices17"
 path = "exercises/slices/slices17/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что записывается в элемент результата."""
+Check what is written into the result element."""
 
 [[exercises]]
 name = "slices18"
 path = "exercises/slices/slices18/main_test.go"
 mode = "test"
 hint = """
-Решение принимается по индексу элемента, а не по его значению."""
+The decision is made by the index of the element, not by its value."""
 
 [[exercises]]
 name = "slices19"
 path = "exercises/slices/slices19/main_test.go"
 mode = "test"
 hint = """
-Склейте часть до i и часть после i."""
+Join the part before i with the part after i."""
 
 [[exercises]]
 name = "slices20"
 path = "exercises/slices/slices20/main_test.go"
 mode = "test"
 hint = """
-DeepEqual(nil-срез, []string{}) == false. Сравнивайте длины
-и элементы вручную."""
+DeepEqual(nil slice, []string{}) is false. Compare the lengths
+and the elements by hand."""
 
 [[exercises]]
 name = "slices21"
 path = "exercises/slices/slices21/main_test.go"
 mode = "test"
 hint = """
-Постройте множество из b и оставьте в результате элементы a,
-которых нет во множестве."""
+Build a set out of b and keep the elements of a
+that the set does not hold."""
 
 [[exercises]]
 name = "slices22"
 path = "exercises/slices/slices22/main_test.go"
 mode = "test"
 hint = """
-Добавляйте в результат число, а не его остаток."""
+Append the number itself to the result, not its remainder."""
 
 [[exercises]]
 name = "slices23"
 path = "exercises/slices/slices23/main_test.go"
 mode = "test"
 hint = """
-Bytes() возвращает срез внутреннего массива буфера. Скопируйте его
-(или используйте String(), которая создаёт копию)."""
+Bytes() returns a slice of the internal array of the buffer. Copy it,
+or use String(), which makes a copy."""
 
 [[exercises]]
 name = "slices24"
 path = "exercises/slices/slices24/main_test.go"
 mode = "test"
 hint = """
-Двигайтесь шагом size. Конец очередной части — min(i+size, len(s))."""
+Step forward by size. The end of each part is min(i+size, len(s))."""
 
 [[exercises]]
 name = "slices25"
 path = "exercises/slices/slices25/main_test.go"
 mode = "test"
 hint = """
-Поля от bytes.Split — подсрезы исходных данных. Изменение поля на месте
-меняет исходную строку. Используйте bytes.ToUpper (создаёт копию)."""
+The fields from bytes.Split are subslices of the original data. Changing a field
+in place changes the original line. Use bytes.ToUpper, which makes a copy."""
 
 [[exercises]]
 name = "slices26"
 path = "exercises/slices/slices26/main_test.go"
 mode = "test"
 hint = """
-К []byte можно добавить все байты строки: append(b, s...)."""
+Every byte of a string can be appended to a []byte: append(b, s...)."""
 
 [[exercises]]
 name = "slices27"
 path = "exercises/slices/slices27/main_test.go"
 mode = "test"
 hint = """
-После удаления элемента i не нужно увеличивать индекс: на этом месте
-теперь новый элемент. Либо идите с конца."""
+After removing the element at i the index must not be increased: that position
+now holds a new element. Or walk from the end."""
 
 [[exercises]]
 name = "slices28"
 path = "exercises/slices/slices28/main_test.go"
 mode = "test"
 hint = """
-Постройте множество из второго среза. Проходя первый, добавляйте
-элемент, если он есть во множестве, и удаляйте его оттуда."""
+Build a set from the second slice. While walking the first one, append an
+element when the set holds it, and remove it from the set."""
 
 [[exercises]]
 name = "slices29"
 path = "exercises/slices/slices29/main_test.go"
 mode = "test"
 hint = """
-Проверьте порядок аргументов copy: сначала приёмник, потом источник."""
+Check the order of the arguments of copy: the destination first, the source second."""
 
 [[exercises]]
 name = "slices30"
 path = "exercises/slices/slices30/main_test.go"
 mode = "test"
 hint = """
-На каждом шаге i добавляйте a[i] и b[i], если они существуют.
-Цикл должен идти до длины более длинного среза."""
+At every step i append a[i] and b[i] when they exist.
+The loop has to run to the length of the longer slice."""
 
 [[exercises]]
 name = "slices31"
 path = "exercises/slices/slices31/main_test.go"
 mode = "test"
 hint = """
-SearchInts возвращает индекс, куда можно вставить x. Элемент найден,
-только если индекс в пределах среза и там лежит именно x."""
+SearchInts returns the index where x could be inserted. The element is found
+only when the index is inside the slice and holds exactly x."""
 
 [[exercises]]
 name = "slices32"
 path = "exercises/slices/slices32/main_test.go"
 mode = "test"
 hint = """
-append(s[:i], s[i+1:]...) сдвигает элементы в общем массиве, но длина
-исходного среза остаётся прежней. Верните новый срез и сохраните его."""
+append(s[:i], s[i+1:]...) shifts the elements inside the shared array, yet the
+length of the original slice stays as it was. Return the new slice and keep it."""
 
 [[exercises]]
 name = "slices33"
 path = "exercises/slices/slices33/main_test.go"
 mode = "test"
 hint = """
-sort.Reverse оборачивает sort.Interface и переворачивает порядок."""
+sort.Reverse wraps a sort.Interface and flips the order."""
 
 [[exercises]]
 name = "slices34"
 path = "exercises/slices/slices34/main_test.go"
 mode = "test"
 hint = """
-Пар на одну меньше, чем элементов. Для пустого среза пар нет."""
+There is one pair fewer than there are elements. An empty slice has no pairs."""
 
 [[exercises]]
 name = "slices35"
 path = "exercises/slices/slices35/main_test.go"
 mode = "test"
 hint = """
-Перед записью проверьте, что строка создана, и при необходимости
-создайте её через make нужной длины."""
+Before writing, check that the row exists and build it with make
+of the right length when it does not."""
 
 [[exercises]]
 name = "slices36"
 path = "exercises/slices/slices36/main_test.go"
 mode = "test"
 hint = """
-У результата столько строк, сколько столбцов у исходной, и наоборот.
-Элемент [i][j] исходной матрицы переходит в [j][rows-1-i]."""
+The result has as many rows as the original has columns, and the other way round.
+The element [i][j] of the original moves to [j][rows-1-i]."""
 
 [[exercises]]
 name = "slices37"
 path = "exercises/slices/slices37/main_test.go"
 mode = "test"
 hint = """
-Сортировать нужно копию, а вернуть — отсортированную копию."""
+What has to be sorted is the copy, and what has to be returned is the sorted copy."""
 
 [[exercises]]
 name = "slices38"
 path = "exercises/slices/slices38/main_test.go"
 mode = "test"
 hint = """
-Срез row один на все строки поля. Создавайте новый срез для каждой строки."""
+There is a single row slice shared by every row of the board. Build a new slice for each row."""
 
 [[exercises]]
 name = "slices39"
 path = "exercises/slices/slices39/main_test.go"
 mode = "test"
 hint = """
-Храните встреченные значения в map. Добавляйте элемент, только если
-его ещё не было, и сразу отмечайте его."""
+Keep the values you have seen in a map. Append an element only when
+it is new, and mark it right away."""
 
 [[exercises]]
 name = "slices40"
 path = "exercises/slices/slices40/main_test.go"
 mode = "test"
 hint = """
-Верхняя граница не включается. Какая граница оставит всё, кроме последнего?"""
+The upper bound is excluded. Which bound keeps everything but the last element?"""
 
 [[exercises]]
 name = "slices41"
 path = "exercises/slices/slices41/main_test.go"
 mode = "test"
 hint = """
-Указатель &users[0], взятый до append, может указывать на старый массив.
-Берите указатель после всех append (или меняйте элемент по индексу)."""
+The pointer &users[0] taken before the append may point at the old array.
+Take the pointer after every append, or change the element by index."""
 
 [[exercises]]
 name = "slices42"
 path = "exercises/slices/slices42/main_test.go"
 mode = "test"
 hint = """
-Создайте новый срез и добавляйте только элементы, не равные x."""
+Build a new slice and append only the elements that differ from x."""
 
 [[exercises]]
 name = "slices43"
 path = "exercises/slices/slices43/main_test.go"
 mode = "test"
 hint = """
-Второй аргумент make задаёт длину среза."""
+The second argument of make is the length of the slice."""
 
 [[exercises]]
 name = "slices44"
 path = "exercises/slices/slices44/main_test.go"
 mode = "test"
 hint = """
-Не предполагайте, что все строки длины len(rows[0]).
-Пропускайте строки, в которых нет столбца c."""
+Do not assume that every row is len(rows[0]) long.
+Skip the rows that have no column c."""
 
 [[exercises]]
 name = "slices45"
 path = "exercises/slices/slices45/main_test.go"
 mode = "test"
 hint = """
-Найдите конец текущей серии j и добавьте s[i:j]; затем продолжайте с j."""
+Find the end j of the current run and append s[i:j]; then carry on from j."""
 
 [[exercises]]
 name = "slices46"
 path = "exercises/slices/slices46/main_test.go"
 mode = "test"
 hint = """
-Элемент i результата — это элемент len-1-i исходного среза."""
+Element i of the result is element len-1-i of the original slice."""
 
 [[exercises]]
 name = "slices47"
 path = "exercises/slices/slices47/main_test.go"
 mode = "test"
 hint = """
-Перед обращением к s[0] проверьте длину среза."""
+Check the length of the slice before reaching for s[0]."""
 
 [[exercises]]
 name = "slices48"
 path = "exercises/slices/slices48/main_test.go"
 mode = "test"
 hint = """
-Увеличьте срез на один элемент, сдвиньте хвост s[i:] на одну позицию
-вправо с помощью copy (он корректно работает с перекрытием), затем запишите x."""
+Grow the slice by one element, shift the tail s[i:] one place to the right
+with copy, which handles the overlap, and then write x."""
 
 [[exercises]]
 name = "slices49"
 path = "exercises/slices/slices49/main_test.go"
 mode = "test"
 hint = """
-Свободное место — это разница между ёмкостью и длиной."""
+The free room is the difference between the capacity and the length."""
 
 [[exercises]]
 name = "slices50"
 path = "exercises/slices/slices50/main_test.go"
 mode = "test"
 hint = """
-Расширение через s[:n] не обнуляет элементы. Очистите добавленную
-часть явно после расширения."""
+Growing with s[:n] does not zero the elements. Clear the part
+that was added explicitly."""
 
 [[exercises]]
 name = "slices51"
 path = "exercises/slices/slices51/main_test.go"
 mode = "test"
 hint = """
-Нужны все элементы, кроме последнего: [:len-1]."""
+What is needed is every element but the last: [:len-1]."""
 
 [[exercises]]
 name = "slices52"
 path = "exercises/slices/slices52/main_test.go"
 mode = "test"
 hint = """
-Элементы, добавленные во время range, не попадут в итерацию.
-Используйте цикл с условием i < len(queue), которое проверяется каждый раз."""
+Elements appended during a range never make it into the iteration.
+Use a loop with the condition i < len(queue), which is checked every time."""
 
 [[exercises]]
 name = "slices53"
 path = "exercises/slices/slices53/main_test.go"
 mode = "test"
 hint = """
-Каждый элемент попадает ровно в один из двух срезов в зависимости
-от результата pred."""
+Every element lands in exactly one of the two slices, depending
+on what pred returns."""
 
 [[exercises]]
 name = "slices54"
 path = "exercises/slices/slices54/main_test.go"
 mode = "test"
 hint = """
-Сумма должна накапливаться, а не перезаписываться."""
+The sum has to build up rather than being overwritten."""
 
 [[exercises]]
 name = "slices55"
 path = "exercises/slices/slices55/main_test.go"
 mode = "test"
 hint = """
-После копирования элементов обнулите последний элемент (s[len(s)-1] = nil)
-до того, как укоротить срез."""
+Once the elements have been copied, zero the last one (s[len(s)-1] = nil)
+before shortening the slice."""
 
 [[exercises]]
 name = "slices56"
 path = "exercises/slices/slices56/main_test.go"
 mode = "test"
 hint = """
-Для каждой строки добавьте все её элементы в результат."""
+For every row append all of its elements to the result."""
 
 [[exercises]]
 name = "slices57"
 path = "exercises/slices/slices57/main_test.go"
 mode = "test"
 hint = """
-Ограничьте ёмкость полным выражением среза s[0:2:2],
-тогда append будет вынужден выделить новый массив."""
+Cap the capacity with the full slice expression s[0:2:2],
+and append has to allocate a new array."""
 
 [[exercises]]
 name = "slices58"
 path = "exercises/slices/slices58/main_test.go"
 mode = "test"
 hint = """
-После сортировки одинаковые строки стоят рядом. Добавляйте строку,
-только если она отличается от последней добавленной."""
+After the sort the equal strings sit next to each other. Append a string
+only when it differs from the last one appended."""
 
 [[exercises]]
 name = "slices59"
 path = "exercises/slices/slices59/main_test.go"
 mode = "test"
 hint = """
-Нижняя граница среза включается."""
+The lower bound of a slice is included."""
 
 [[exercises]]
 name = "slices60"
 path = "exercises/slices/slices60/main_test.go"
 mode = "test"
 hint = """
-Разбейте строку на слова, поменяйте местами симметричные элементы
-до середины и соберите строку обратно."""
+Split the string into words, swap the symmetric elements
+up to the middle and join it back."""
 
 [[exercises]]
 name = "slices61"
 path = "exercises/slices/slices61/main_test.go"
 mode = "test"
 hint = """
-make([]T, 0, n) создаёт срез длины 0 — в него copy ничего не запишет.
-Создайте срез нужной длины."""
+make([]T, 0, n) builds a slice of length 0, and copy writes nothing into it.
+Build a slice of the length you need."""
 
 [[exercises]]
 name = "slices62"
 path = "exercises/slices/slices62/main_test.go"
 mode = "test"
 hint = """
-Проверьте разделитель."""
+Check the separator."""
 
 [[exercises]]
 name = "slices63"
 path = "exercises/slices/slices63/main_test.go"
 mode = "test"
 hint = """
-var s []T — это nil. Для пустого массива в JSON инициализируйте
-срез явно: make([]T, 0) или []T{}."""
+var s []T is nil. For an empty JSON array initialize the slice
+explicitly: make([]T, 0) or []T{}."""
 
 [[exercises]]
 name = "slices64"
 path = "exercises/slices/slices64/main_test.go"
 mode = "test"
 hint = """
-Dequeue берёт первый элемент и сдвигает начало среза.
-Для пустой очереди верните false."""
+Dequeue takes the first element and moves the start of the slice.
+Return false for an empty queue."""
 
 [[exercises]]
 name = "slices65"
 path = "exercises/slices/slices65/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение, возвращаемое при отсутствии элемента."""
+Check the value returned when the element is missing."""
 
 [[exercises]]
 name = "slices66"
 path = "exercises/slices/slices66/main_test.go"
 mode = "test"
 hint = """
-SearchInts возвращает позицию вставки. Расширьте срез, сдвиньте хвост
-через copy и запишите значение."""
+SearchInts returns the insertion point. Grow the slice, shift the tail
+with copy and write the value."""
 
 [[exercises]]
 name = "slices67"
 path = "exercises/slices/slices67/main_test.go"
 mode = "test"
 hint = """
-Сравните количество скопированных элементов с длиной источника."""
+Compare the number of elements copied against the length of the source."""
 
 [[exercises]]
 name = "slices68"
 path = "exercises/slices/slices68/main_test.go"
 mode = "test"
 hint = """
-Для отрицательных чисел ноль — плохая стартовая точка."""
+Zero is a poor starting point when the numbers can be negative."""
 
 [[exercises]]
 name = "slices69"
 path = "exercises/slices/slices69/main_test.go"
 mode = "test"
 hint = """
-Посчитайте сумму первого окна, затем для каждого сдвига прибавляйте
-входящий элемент и вычитайте уходящий. Окон len-k+1."""
+Compute the sum of the first window, then on every step add the element
+coming in and subtract the one going out. There are len-k+1 windows."""
 
 [[exercises]]
 name = "slices70"
 path = "exercises/slices/slices70/main_test.go"
 mode = "test"
 hint = """
-Либо создайте срез с нулевой длиной и ёмкостью n, либо записывайте
-по индексу вместо append."""
+Either build a slice of length zero with a capacity of n, or write
+by index instead of appending."""
 
 [[exercises]]
 name = "slices71"
 path = "exercises/slices/slices71/main_test.go"
 mode = "test"
 hint = """
-Сравнение с nil не распознаёт пустой, но не nil срез."""
+A comparison with nil does not catch an empty slice that is not nil."""
 
 [[exercises]]
 name = "slices72"
 path = "exercises/slices/slices72/main_test.go"
 mode = "test"
 hint = """
-Первый append записывает x прямо в s[i] (ёмкость позволяет), и хвост
-s[i:] уже испорчен. Скопируйте хвост до вставки или соберите результат в новом срезе."""
+The first append writes x straight into s[i], since the capacity allows it, and the
+tail s[i:] is already spoiled. Copy the tail before inserting, or build the result in a new slice."""
 
 [[exercises]]
 name = "slices73"
 path = "exercises/slices/slices73/main_test.go"
 mode = "test"
 hint = """
-Чтобы добавить все элементы среза, распакуйте его многоточием."""
+To append every element of a slice, spread it with an ellipsis."""
 
 [[exercises]]
 name = "slices74"
 path = "exercises/slices/slices74/main_test.go"
 mode = "test"
 hint = """
-Создайте срез результата и храните текущую сумму отдельно."""
+Build the result slice and keep the current sum separately."""
 
 [[exercises]]
 name = "slices75"
 path = "exercises/slices/slices75/main_test.go"
 mode = "test"
 hint = """
-Вернуть false можно только после проверки всех элементов."""
+false may only be returned once every element has been checked."""
 
 [[exercises]]
 name = "slices76"
 path = "exercises/slices/slices76/main_test.go"
 mode = "test"
 hint = """
-Ограничьте n длиной среза перед взятием подсреза."""
+Cap n at the length of the slice before taking the subslice."""
 
 [[exercises]]
 name = "slices77"
 path = "exercises/slices/slices77/main_test.go"
 mode = "test"
 hint = """
-Срезы разной длины не равны. Затем сравните элементы по индексу."""
+Slices of different lengths are not equal. Then compare the elements by index."""
 
 [[exercises]]
 name = "slices78"
 path = "exercises/slices/slices78/main_test.go"
 mode = "test"
 hint = """
-Для []string есть своя функция сортировки в пакете sort."""
+The sort package has a sorting function of its own for a []string."""
 
 [[exercises]]
 name = "slices79"
 path = "exercises/slices/slices79/main_test.go"
 mode = "test"
 hint = """
-Скопируйте срез, отсортируйте копию по убыванию и верните первые k
-элементов (но не больше длины)."""
+Copy the slice, sort the copy in descending order and return the first k
+elements, but no more than the length."""
 
 [[exercises]]
 name = "slices80"
 path = "exercises/slices/slices80/main_test.go"
 mode = "test"
 hint = """
-Если у base есть свободная ёмкость, оба append пишут в одну и ту же ячейку.
-Создавайте каждый вариант из собственной копии base."""
+When base has spare capacity, both appends write into the very same cell.
+Build every variant from a copy of base of its own."""
 
 [[exercises]]
 name = "slices81"
 path = "exercises/slices/slices81/main_test.go"
 mode = "test"
 hint = """
-Первый индекс выбирает строку, второй — элемент в ней."""
+The first index picks the row and the second one the element in it."""
 
 [[exercises]]
 name = "slices82"
 path = "exercises/slices/slices82/main_test.go"
 mode = "test"
 hint = """
-Соберите пары из map в срез, затем отсортируйте функцией с двумя
-критериями: сначала количество (по убыванию), потом слово."""
+Collect the pairs from the map into a slice, then sort with a function using two
+criteria: the count first, descending, then the word."""
 
 [[exercises]]
 name = "slices83"
 path = "exercises/slices/slices83/main_test.go"
 mode = "test"
 hint = """
-Используйте sort.SliceStable — он сохраняет относительный порядок равных элементов."""
+Use sort.SliceStable, which keeps the relative order of equal elements."""
 
 [[exercises]]
 name = "slices84"
 path = "exercises/slices/slices84/main_test.go"
 mode = "test"
 hint = """
-Третий аргумент make задаёт ёмкость."""
+The third argument of make is the capacity."""
 
 [[exercises]]
 name = "slices85"
 path = "exercises/slices/slices85/main_test.go"
 mode = "test"
 hint = """
-Срез разделяет массив с вызывающим кодом. Отсортируйте копию."""
+The slice shares its array with the caller. Sort a copy."""
 
 [[exercises]]
 name = "slices86"
 path = "exercises/slices/slices86/main_test.go"
 mode = "test"
 hint = """
-Pop берёт последний элемент и укорачивает срез на один.
-Не забудьте проверку пустого стека."""
+Pop takes the last element and shortens the slice by one.
+Do not forget the empty stack check."""
 
 [[exercises]]
 name = "slices87"
 path = "exercises/slices/slices87/main_test.go"
 mode = "test"
 hint = """
-Срез первых n элементов — от 0 до n, не включая n."""
+The slice of the first n elements runs from 0 to n, excluding n."""
 
 [[exercises]]
 name = "slices88"
 path = "exercises/slices/slices88/main_test.go"
 mode = "test"
 hint = """
-Определите общую длину как минимум из двух длин и создайте результат
-этой длины."""
+Take the common length as the minimum of the two lengths and build the result
+of that length."""
 
 [[exercises]]
 name = "slices89"
 path = "exercises/slices/slices89/main_test.go"
 mode = "test"
 hint = """
-Получатель Stack — копия заголовка среза, и новая длина теряется.
-Сделайте получатель указателем и присваивайте *s."""
+A Stack receiver is a copy of the slice header, and the new length is lost.
+Make the receiver a pointer and assign to *s."""
 
 [[exercises]]
 name = "slices90"
 path = "exercises/slices/slices90/main_test.go"
 mode = "test"
 hint = """
-Создайте срез из одного элемента и допишите к нему исходный срез."""
+Build a slice of one element and append the original slice to it."""
 
 [[exercises]]
 name = "slices91"
 path = "exercises/slices/slices91/main_test.go"
 mode = "test"
 hint = """
-Нормализуйте k по модулю длины. Результат — s[k:] и затем s[:k].
-Учтите пустой срез."""
+Normalize k modulo the length. The result is s[k:] followed by s[:k].
+Mind the empty slice."""
 
 [[exercises]]
 name = "slices92"
 path = "exercises/slices/slices92/main_test.go"
 mode = "test"
 hint = """
-Трюк s[:0] экономит память, но перезаписывает исходные данные.
-Если оригинал нужен, создайте новый срез."""
+The s[:0] trick saves memory, but it overwrites the original data.
+When the original is needed, build a new slice."""
 
 [[exercises]]
 name = "slices93"
 path = "exercises/slices/slices93/main_test.go"
 mode = "test"
 hint = """
-Окон len-k+1. Для каждого окна найдите максимум среди его элементов,
-начиная с первого элемента окна."""
+There are len-k+1 windows. For every window find the maximum among its elements,
+starting from the first element of the window."""
 
 [[exercises]]
 name = "slices94"
 path = "exercises/slices/slices94/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие, по которому число добавляется."""
+Check the condition a number is appended under."""
 
 [[exercises]]
 name = "slices95"
 path = "exercises/slices/slices95/main_test.go"
 mode = "test"
 hint = """
-make([]T, 0, n) — срез длины 0, любой s[i] за пределами.
-Используйте append или задайте длину n."""
+make([]T, 0, n) is a slice of length 0, so any s[i] is out of range.
+Use append, or give it a length of n."""
 
 [[exercises]]
 name = "slices96"
 path = "exercises/slices/slices96/main_test.go"
 mode = "test"
 hint = """
-Начало страницы — (n-1)*size. Если оно за концом среза — вернуть пустой.
-Конец страницы не должен выходить за len(s)."""
+The page starts at (n-1)*size. When that is past the end of the slice, return an empty one.
+The end of the page must not run past len(s)."""
 
 [[exercises]]
 name = "slices97"
 path = "exercises/slices/slices97/main_test.go"
 mode = "test"
 hint = """
-Результат append нужно сохранить (или вернуть)."""
+The result of an append has to be kept, or returned."""
 
 [[exercises]]
 name = "slices98"
 path = "exercises/slices/slices98/main_test.go"
 mode = "test"
 hint = """
-Удаление через append сдвигает элементы в том же массиве.
-Постройте результат в новом срезе."""
+Removing with append shifts the elements inside the same array.
+Build the result in a new slice."""
 
 [[exercises]]
 name = "slices99"
 path = "exercises/slices/slices99/main_test.go"
 mode = "test"
 hint = """
-Последний индекс — len(s)-1."""
+The last index is len(s)-1."""
 
 [[exercises]]
 name = "slices100"
 path = "exercises/slices/slices100/main_test.go"
 mode = "test"
 hint = """
-Обмен s[i] и s[n-1-i] для всех i возвращает элементы на место.
-Идите только до середины."""
+Swapping s[i] and s[n-1-i] for every i puts the elements back where they were.
+Only go as far as the middle."""
 
 [[exercises]]
 name = "slices101"
 path = "exercises/slices/slices101/main_test.go"
 mode = "test"
 hint = """
-Добавляйте индекс при каждом совпадении, не останавливаясь на первом."""
+Append the index on every match instead of stopping at the first one."""
 
 [[exercises]]
 name = "slices102"
 path = "exercises/slices/slices102/main_test.go"
 mode = "test"
 hint = """
-s[:2] имеет ёмкость исходного среза, поэтому append записывает бонус
-прямо в s[2]. Скопируйте данные в новый срез перед append."""
+s[:2] carries the capacity of the original slice, so append writes the bonus
+straight into s[2]. Copy the data into a new slice before appending."""
 
 [[exercises]]
 name = "slices103"
 path = "exercises/slices/slices103/main_test.go"
 mode = "test"
 hint = """
-У результата len(m[0]) строк по len(m) элементов. Элемент [j][i] = m[i][j]."""
+The result has len(m[0]) rows of len(m) elements. Element [j][i] = m[i][j]."""
 
 [[exercises]]
 name = "slices104"
 path = "exercises/slices/slices104/main_test.go"
 mode = "test"
 hint = """
-Строка — это один элемент таблицы, распаковывать её не нужно."""
+A row is a single element of the table, so it must not be spread out."""
 
 # ===== generated exercises: maps =====
 [[exercises]]

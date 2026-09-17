@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// indexOf возвращает позицию элемента или -1.
-// Тренирует: range с индексом.
-// Сложность: easy
+// indexOf returns the position of an element, or -1.
+// Practices a range with an index.
 package main_test
 
 import "testing"

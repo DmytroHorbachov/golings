@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// squares возвращает массив квадратов индексов: [0 1 4 9 16].
-// Тренирует: запись в элементы массива в цикле.
-// Сложность: easy
+// squares returns an array of the squares of the indexes: [0 1 4 9 16].
+// Practices writing to array elements in a loop.
 package main_test
 
 import "testing"

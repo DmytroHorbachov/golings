@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// makeCounters должна вернуть три независимых счётчика.
-// Все указатели указывают на одну и ту же переменную.
-// Тренирует: копирование указателей не копирует данные.
-// Сложность: hard
+// makeCounters must return three independent counters.
+// Every pointer points at the same variable.
+// Copying pointers does not copy the data.
 package main_test
 
 import "testing"

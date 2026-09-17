@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// windowMax возвращает максимум каждого окна размера k (простым перебором).
-// Тренирует: вложенный срез s[i:i+k] и поиск максимума.
-// Сложность: medium
+// windowMax returns the maximum of every window of size k, by plain scanning.
+// Practices the nested slice s[i:i+k] and a search for a maximum.
 package main_test
 
 import (

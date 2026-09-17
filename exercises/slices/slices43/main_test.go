@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// zeros должна вернуть срез из n нулей.
-// Тренирует: make([]T, len).
-// Сложность: easy
+// zeros must return a slice of n zeros.
+// Practices make([]T, len).
 package main_test
 
 import "testing"

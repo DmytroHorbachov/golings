@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// present проверяет наличие числа в отсортированном срезе через sort.SearchInts.
-// Тренирует: sort.SearchInts возвращает позицию вставки.
-// Сложность: easy
+// present checks whether a number is in a sorted slice with sort.SearchInts.
+// sort.SearchInts returns an insertion point.
 package main_test
 
 import (

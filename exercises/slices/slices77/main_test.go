@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// equal сравнивает два среза строк поэлементно.
-// Тренирует: ручное сравнение срезов.
-// Сложность: medium
+// equal compares two string slices element by element.
+// Practices comparing slices by hand.
 package main_test
 
 import "testing"

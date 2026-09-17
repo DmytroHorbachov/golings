@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// upperFirstField переводит первое поле строки в верхний регистр и возвращает
-// его копию; исходная строка не должна меняться.
-// Тренирует: результаты bytes.Split ссылаются на исходный срез.
-// Сложность: hard
+// upperFirstField uppercases the first field of a line and returns
+// a copy of it; the original line must not change.
+// The results of bytes.Split refer to the original slice.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reverse переворачивает массив по указателю.
-// Тренирует: обмен симметричных элементов.
-// Сложность: easy
+// reverse reverses an array through a pointer.
+// Practices swapping symmetric elements.
 package main_test
 
 import "testing"

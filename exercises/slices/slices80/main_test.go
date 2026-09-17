@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// variants строит два пути, продолжающих общий префикс разными шагами.
-// Второй вариант затирает первый.
-// Тренирует: два append к срезу с запасом ёмкости используют один массив.
-// Сложность: hard
+// variants builds two paths that continue a shared prefix with different steps.
+// The second variant overwrites the first one.
+// Two appends to a slice with spare capacity use the same array.
 package main_test
 
 import (

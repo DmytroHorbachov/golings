@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// indexOf ищет число в отсортированном срезе через sort.Search и возвращает -1,
-// если его нет. Для отсутствующих чисел возвращается чужой индекс.
-// Тренирует: sort.Search возвращает позицию вставки, а не признак нахождения.
-// Сложность: hard
+// indexOf looks a number up in a sorted slice with sort.Search and returns -1
+// when it is not there. For missing numbers it returns somebody else's index.
+// sort.Search returns an insertion point, not a found flag.
 package main_test
 
 import (

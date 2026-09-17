@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// maxOf возвращает максимум непустого среза.
-// Тренирует: начальное значение из первого элемента.
-// Сложность: easy
+// maxOf returns the largest element of a non-empty slice.
+// Practices taking the starting value from the first element.
 package main_test
 
 import "testing"

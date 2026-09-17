@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// difference возвращает элементы a, которых нет в b.
-// Тренирует: множество и фильтрацию среза.
-// Сложность: medium
+// difference returns the elements of a that are not in b.
+// Practices a set and filtering a slice.
 package main_test
 
 import (

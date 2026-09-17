@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// maxOf возвращает наибольший элемент массива.
-// Тренирует: начальное значение при поиске максимума.
-// Сложность: easy
+// maxOf returns the largest element of an array.
+// Practices the starting value of a search for a maximum.
 package main_test
 
 import "testing"

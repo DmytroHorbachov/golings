@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// page возвращает элементы страницы n (с единицы) размером size.
-// Для страницы за пределами данных — пустой срез.
-// Тренирует: вычисление границ среза и их ограничение.
-// Сложность: medium
+// page returns the elements of page n, counting from one, with a size of size.
+// A page past the end of the data gives an empty slice.
+// Practices computing slice bounds and capping them.
 package main_test
 
 import (

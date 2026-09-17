@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstLine возвращает первую строку из буфера чтения. Буфер потом переиспользуется,
-// и возвращённая строка «портится».
-// Тренирует: подсрез ссылается на тот же массив, что и буфер.
-// Сложность: hard
+// firstLine returns the first line of a read buffer. The buffer is reused later,
+// and the string that was returned goes bad.
+// A subslice refers to the same array as the buffer.
 package main_test
 
 import (

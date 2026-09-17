@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// average возвращает среднее арифметическое оценок.
-// Тренирует: преобразование длины массива во float64.
-// Сложность: easy
+// average returns the arithmetic mean of the scores.
+// Practices converting the length of an array to a float64.
 package main_test
 
 import "testing"

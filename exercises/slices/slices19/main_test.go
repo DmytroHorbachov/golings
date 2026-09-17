@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// removeAt возвращает срез без элемента с индексом i (исходный срез можно менять).
-// Тренирует: append(s[:i], s[i+1:]...).
-// Сложность: easy
+// removeAt returns the slice without the element at index i; the original slice may be changed.
+// Practices append(s[:i], s[i+1:]...).
 package main_test
 
 import (

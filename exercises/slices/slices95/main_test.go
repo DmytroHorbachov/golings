@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// collectIDs заполняет срез, созданный с ёмкостью, по индексу и паникует.
-// Тренирует: ёмкость не даёт права обращаться к элементам за длиной.
-// Сложность: hard
+// collectIDs fills a slice built with a capacity by index and panics.
+// A capacity does not allow reaching elements past the length.
 package main_test
 
 import (

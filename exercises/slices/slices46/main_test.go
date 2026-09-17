@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reversed возвращает новый срез с элементами в обратном порядке.
-// Тренирует: вычисление индекса с конца.
-// Сложность: easy
+// reversed returns a new slice with the elements in reverse order.
+// Practices computing an index from the end.
 package main_test
 
 import (

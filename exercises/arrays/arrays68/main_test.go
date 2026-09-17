@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// samePair сравнивает пары списков. Код не компилируется: массив срезов
-// нельзя сравнить оператором ==.
-// Тренирует: массив сравним, только если сравним тип его элементов.
-// Сложность: hard
+// samePair compares pairs of lists. The code does not compile: an array of slices
+// cannot be compared with ==.
+// An array is comparable only when its element type is.
 package main_test
 
 import (

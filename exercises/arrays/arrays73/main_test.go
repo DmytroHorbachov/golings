@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Таблица кодов ошибок задана литералом [...] с явными индексами.
-// Функция maxCode должна вернуть наибольший код, для которого есть сообщение.
-// Тренирует: длина [...]-массива определяется наибольшим индексом + 1.
-// Сложность: hard
+// The table of error codes is written as a [...] literal with explicit indexes.
+// maxCode must return the highest code that has a message.
+// The length of a [...] array is the largest index plus one.
 package main_test
 
 import "testing"

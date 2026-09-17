@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortNames сортирует имена по алфавиту.
-// Тренирует: sort.Strings.
-// Сложность: easy
+// sortNames sorts the names alphabetically.
+// Practices sort.Strings.
 package main_test
 
 import (

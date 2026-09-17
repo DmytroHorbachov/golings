@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// blend смешивает два цвета [3]uint8 с весом w (0..1) для второго цвета.
-// Тренирует: поэлементную арифметику над массивами.
-// Сложность: medium
+// blend mixes two [3]uint8 colours with a weight w (0..1) for the second one.
+// Practices element by element arithmetic on arrays.
 package main_test
 
 import (

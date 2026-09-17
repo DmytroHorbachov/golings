@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Board.Row возвращает строку поля, а вызывающий код хочет её изменить.
-// Изменения теряются, потому что возвращается копия массива.
-// Тренирует: возврат массива из функции — это копирование.
-// Сложность: hard
+// Board.Row returns a row of the board, and the caller wants to change it.
+// The changes are lost because a copy of the array is returned.
+// Returning an array from a function copies it.
 package main_test
 
 import "testing"

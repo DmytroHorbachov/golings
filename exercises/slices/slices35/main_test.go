@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// setCell пишет значение в разреженную сетку, где строки создаются по требованию.
-// Запись в ещё не созданную строку паникует.
-// Тренирует: make([][]T, n) создаёт n nil-срезов.
-// Сложность: hard
+// setCell writes a value into a sparse grid whose rows are built on demand.
+// Writing into a row that does not exist yet panics.
+// make([][]T, n) builds n nil slices.
 package main_test
 
 import "testing"

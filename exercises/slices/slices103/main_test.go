@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// transpose меняет строки и столбцы прямоугольной матрицы.
-// Тренирует: создание срезов нужных размеров.
-// Сложность: medium
+// transpose swaps the rows and the columns of a rectangular matrix.
+// Practices building slices of the right sizes.
 package main_test
 
 import (

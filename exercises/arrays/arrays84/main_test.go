@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sum должна сложить элементы массива, но складывает их индексы.
-// Тренирует: при одной переменной range выдаёт индекс, а не значение.
-// Сложность: hard
+// sum must add up the elements of an array, and adds up their indexes instead.
+// With a single variable a range yields the index, not the value.
 package main_test
 
 import "testing"

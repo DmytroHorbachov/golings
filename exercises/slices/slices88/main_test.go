@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// zip объединяет имена и возрасты в срез структур; длина — по короткому срезу.
-// Тренирует: параллельный обход двух срезов.
-// Сложность: medium
+// zip combines names and ages into a slice of structs, as long as the shorter slice.
+// Practices walking two slices side by side.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rotateLeft сдвигает элементы на одну позицию влево, первый уходит в конец.
-// Тренирует: копирование элементов массива.
-// Сложность: easy
+// rotateLeft shifts the elements one place left, and the first one goes to the end.
+// Practices copying array elements.
 package main_test
 
 import "testing"

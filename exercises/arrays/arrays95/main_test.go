@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Stack хранит до 4 элементов. Push при переполнении и Pop из пустого стека
-// возвращают ошибку.
-// Тренирует: массив с отдельным счётчиком заполненности.
-// Сложность: medium
+// Stack holds up to 4 elements. Push on a full stack and Pop on an empty one
+// return an error.
+// Practices an array with a separate fill counter.
 package main_test
 
 import (

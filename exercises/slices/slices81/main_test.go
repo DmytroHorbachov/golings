@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// at возвращает элемент в строке r и столбце c.
-// Тренирует: индексацию [][]T.
-// Сложность: easy
+// at returns the element in row r and column c.
+// Practices indexing a [][]T.
 package main_test
 
 import "testing"

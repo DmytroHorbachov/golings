@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rotateLeft возвращает новый срез, сдвинутый влево на k позиций.
-// Тренирует: склейку двух частей среза.
-// Сложность: medium
+// rotateLeft returns a new slice shifted k places to the left.
+// Practices joining two parts of a slice.
 package main_test
 
 import (

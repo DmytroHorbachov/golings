@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// copied должна вернуть количество скопированных элементов.
-// Тренирует: copy возвращает число скопированных элементов.
-// Сложность: easy
+// copied must return the number of elements that were copied.
+// copy returns the number of elements copied.
 package main_test
 
 import "testing"

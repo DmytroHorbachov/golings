@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lastOr возвращает последний элемент или def для пустого среза.
-// Тренирует: индекс последнего элемента.
-// Сложность: easy
+// lastOr returns the last element, or def for an empty slice.
+// Practices the index of the last element.
 package main_test
 
 import "testing"

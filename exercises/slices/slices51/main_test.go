@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parentDir возвращает все части пути, кроме последней, склеенные через "/".
-// Тренирует: strings.Split и срез результата.
-// Сложность: easy
+// parentDir returns every part of a path but the last, joined with "/".
+// Practices strings.Split and slicing the result.
 package main_test
 
 import (

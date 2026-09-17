@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// removeAll возвращает новый срез без всех вхождений x, не меняя исходный.
-// Тренирует: фильтрацию в новый срез.
-// Сложность: medium
+// removeAll returns a new slice without any occurrence of x, leaving the original alone.
+// Practices filtering into a new slice.
 package main_test
 
 import (

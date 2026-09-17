@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// formatUUID форматирует [16]byte как "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
-// Тренирует: срезы массива и hex-форматирование.
-// Сложность: medium
+// formatUUID formats a [16]byte as "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx".
+// Practices slicing an array and hex formatting.
 package main_test
 
 import (

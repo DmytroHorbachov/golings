@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// runningSum возвращает срез нарастающих сумм, не изменяя входные данные.
-// Тренирует: новый срез той же длины и аккумулятор.
-// Сложность: medium
+// runningSum returns the running sums without changing the input.
+// Practices a new slice of the same length plus an accumulator.
 package main_test
 
 import (

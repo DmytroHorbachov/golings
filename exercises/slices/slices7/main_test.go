@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countLong считает слова длиннее трёх символов.
-// Тренирует: условие в цикле по срезу.
-// Сложность: easy
+// countLong counts the words longer than three characters.
+// Practices a condition in a loop over a slice.
 package main_test
 
 import "testing"

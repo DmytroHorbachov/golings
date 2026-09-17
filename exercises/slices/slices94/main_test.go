@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// collect собирает положительные числа; nil-срез годится для append.
-// Тренирует: нулевое значение среза.
-// Сложность: easy
+// collect gathers the positive numbers; a nil slice is fine to append to.
+// Practices the zero value of a slice.
 package main_test
 
 import (

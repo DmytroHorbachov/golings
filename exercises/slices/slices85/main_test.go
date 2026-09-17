@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// median считает медиану, но после вызова порядок данных вызывающего меняется.
-// Тренирует: sort.Ints сортирует срез на месте, в том числе у вызывающего.
-// Сложность: hard
+// median computes the median, but the caller's data comes back in a different order.
+// sort.Ints sorts a slice in place, the caller's one included.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// deleteAt удаляет элемент из среза указателей. Удалённые объекты должны стать
-// недостижимыми через массив, но последний слот продолжает ссылаться на объект.
-// Тренирует: после сдвига в массиве остаётся «висящий» указатель за длиной среза.
-// Сложность: hard
+// deleteAt removes an element from a slice of pointers. The objects removed have to become
+// unreachable through the array, yet the last slot still refers to one of them.
+// After the shift a stale pointer is left in the array past the length of the slice.
 package main_test
 
 import "testing"

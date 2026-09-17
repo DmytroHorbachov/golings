@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// addTag добавляет тег в список тегов статьи, хранящийся в map.
-// Добавленный тег не сохраняется.
-// Тренирует: append возвращает новый заголовок среза, и его нужно записать обратно в map.
-// Сложность: hard
+// addTag adds a tag to the list of tags of an article held in a map.
+// The tag that was added does not stick.
+// append returns a new slice header, and it has to be written back into the map.
 package main_test
 
 import (

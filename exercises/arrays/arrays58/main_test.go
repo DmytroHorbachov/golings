@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// cloneTeam копирует команду (массив игроков), чтобы изменения в копии
-// не затрагивали оригинал. Однако навыки игроков оказываются общими.
-// Тренирует: копирование массива структур — поверхностное.
-// Сложность: hard
+// cloneTeam copies a team, an array of players, so that changes to the copy
+// leave the original alone. The skills of the players end up shared, though.
+// Copying an array of structs is shallow.
 package main_test
 
 import "testing"

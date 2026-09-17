@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// take возвращает первые n элементов (n не больше длины).
-// Тренирует: s[:n].
-// Сложность: easy
+// take returns the first n elements, n being no larger than the length.
+// Practices s[:n].
 package main_test
 
 import (

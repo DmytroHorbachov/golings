@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// windowSums возвращает суммы всех окон размера k.
-// Тренирует: скользящее окно по срезу.
-// Сложность: medium
+// windowSums returns the sums of every window of size k.
+// Practices a sliding window over a slice.
 package main_test
 
 import (

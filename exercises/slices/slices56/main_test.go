@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// flatten превращает [][]int в плоский срез.
-// Тренирует: append с распаковкой вложенных срезов.
-// Сложность: medium
+// flatten turns a [][]int into a flat slice.
+// Practices append with the nested slices spread out.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// backup должна вернуть исходное содержимое массива, даже если после
-// копирования оригинал изменили.
-// Тренирует: присваивание массива создаёт полную копию.
-// Сложность: easy
+// backup must return the original contents of an array, even when the original
+// was changed after the copy was taken.
+// Assigning an array makes a full copy.
 package main_test
 
 import "testing"

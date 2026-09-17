@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// clone копирует данные, но возвращает пустой срез.
-// Тренирует: copy копирует min(len(dst), len(src)), ёмкость не учитывается.
-// Сложность: hard
+// clone copies the data, yet it returns an empty slice.
+// copy moves min(len(dst), len(src)) elements; the capacity does not count.
 package main_test
 
 import (

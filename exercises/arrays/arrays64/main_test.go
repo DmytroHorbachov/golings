@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// zerosToEnd переносит все нули в конец массива, сохраняя порядок остальных элементов.
-// Тренирует: запись по второму индексу и дозаполнение.
-// Сложность: medium
+// zerosToEnd moves every zero to the end of the array, keeping the order of the rest.
+// Practices writing through a second index and filling the tail.
 package main_test
 
 import "testing"

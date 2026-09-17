@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// restore копирует сохранённое состояние в рабочий буфер и должна сообщать
-// об ошибке, если буфер слишком мал. Сейчас данные молча обрезаются.
-// Тренирует: copy не сообщает об обрезке — нужно проверять результат.
-// Сложность: hard
+// restore copies a saved state into the working buffer and has to report
+// an error when the buffer is too small. Right now the data is quietly truncated.
+// copy does not report a truncation, so the result has to be checked.
 package main_test
 
 import (

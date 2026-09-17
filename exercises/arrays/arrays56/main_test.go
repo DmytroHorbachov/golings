@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// head возвращает срез первых двух элементов массива. Вызывающий код делает
-// append к этому срезу — и перезаписывает третий элемент массива.
-// Тренирует: полное выражение среза a[low:high:max] ограничивает ёмкость.
-// Сложность: hard
+// head returns a slice of the first two elements of an array. The caller appends
+// to that slice and overwrites the third element of the array.
+// The full slice expression a[low:high:max] caps the capacity.
 package main_test
 
 import "testing"

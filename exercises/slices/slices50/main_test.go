@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Pool отдаёт буферы для повторного использования. grow расширяет буфер
-// до нужной длины, но в новых элементах остаются чужие старые данные.
-// Тренирует: s[:n] при n <= cap открывает прежнее содержимое массива.
-// Сложность: hard
+// Pool hands out buffers for reuse. grow extends a buffer to the length
+// that is needed, and the new elements still hold somebody else's old data.
+// s[:n] with n <= cap uncovers what the array held before.
 package main_test
 
 import (

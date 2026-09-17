@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// makeBoard строит поле rows×cols из точек. После изменения одной клетки
-// меняется весь столбец.
-// Тренирует: одна и та же строка-срез, добавленная несколько раз, — это одна строка.
-// Сложность: hard
+// makeBoard builds a rows by cols board of dots. Changing a single cell
+// changes a whole column.
+// One row slice appended several times is one and the same row.
 package main_test
 
 import "testing"

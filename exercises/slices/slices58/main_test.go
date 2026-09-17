@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortedUnique возвращает отсортированный срез уникальных строк.
-// Тренирует: sort.Strings и удаление соседних дубликатов.
-// Сложность: medium
+// sortedUnique returns a sorted slice of the distinct strings.
+// Practices sort.Strings and dropping neighbouring duplicates.
 package main_test
 
 import (

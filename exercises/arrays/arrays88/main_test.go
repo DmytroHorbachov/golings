@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ageBuckets раскладывает возрасты по корзинам по 10 лет: 0–9, 10–19, ..., 90+.
-// Тренирует: вычисление индекса и ограничение последней корзиной.
-// Сложность: medium
+// ageBuckets sorts ages into buckets of 10 years: 0-9, 10-19, ..., 90+.
+// Practices computing an index and capping it at the last bucket.
 package main_test
 
 import "testing"
