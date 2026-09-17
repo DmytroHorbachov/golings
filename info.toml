@@ -7932,3 +7932,750 @@ mode = "test"
 hint = """
 Встройте Logger в Service без имени поля и инициализируйте его префикс
 в конструкторе."""
+
+# ===== generated exercises: anonymous_functions =====
+[[exercises]]
+name = "anonymous_functions_x064"
+path = "exercises/anonymous_functions/anonymous_functions_x064/main_test.go"
+mode = "test"
+hint = """
+Debugf должен принимать функцию, возвращающую строку, и вызывать её
+только при включённом уровне."""
+
+[[exercises]]
+name = "anonymous_functions_x011"
+path = "exercises/anonymous_functions/anonymous_functions_x011/main_test.go"
+mode = "test"
+hint = """
+Горутина должна отправить в канал результат вычисления."""
+
+[[exercises]]
+name = "anonymous_functions_x020"
+path = "exercises/anonymous_functions/anonymous_functions_x020/main_test.go"
+mode = "test"
+hint = """
+TrimFunc удаляет символы, для которых функция вернула true."""
+
+[[exercises]]
+name = "anonymous_functions_x057"
+path = "exercises/anonymous_functions/anonymous_functions_x057/main_test.go"
+mode = "test"
+hint = """
+Проверьте формулы: "sale" — скидка 20%, "bulk" — скидка 10 за каждые
+полные 10 единиц количества."""
+
+[[exercises]]
+name = "anonymous_functions_x007"
+path = "exercises/anonymous_functions/anonymous_functions_x007/main_test.go"
+mode = "test"
+hint = """
+Проверьте литерал для операции "double"."""
+
+[[exercises]]
+name = "anonymous_functions_x048"
+path = "exercises/anonymous_functions/anonymous_functions_x048/main_test.go"
+mode = "test"
+hint = """
+Предикат filter должен проверять суффикс в нижнем регистре,
+а свёртка — складывать длины."""
+
+[[exercises]]
+name = "anonymous_functions_x098"
+path = "exercises/anonymous_functions/anonymous_functions_x098/main_test.go"
+mode = "test"
+hint = """
+Не очищайте переменную, которую захватил возвращаемый литерал,
+или захватите копию данных до очистки."""
+
+[[exercises]]
+name = "anonymous_functions_x039"
+path = "exercises/anonymous_functions/anonymous_functions_x039/main_test.go"
+mode = "test"
+hint = """
+Проверьте наличие команды через comma-ok, а число аргументов —
+внутри каждого литерала."""
+
+[[exercises]]
+name = "anonymous_functions_x001"
+path = "exercises/anonymous_functions/anonymous_functions_x001/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение возвращает литерал."""
+
+[[exercises]]
+name = "anonymous_functions_x071"
+path = "exercises/anonymous_functions/anonymous_functions_x071/main_test.go"
+mode = "test"
+hint = """
+Литерал нужно вызвать: go func() { ... }()."""
+
+[[exercises]]
+name = "anonymous_functions_x095"
+path = "exercises/anonymous_functions/anonymous_functions_x095/main_test.go"
+mode = "test"
+hint = """
+Перенесите вызов загрузки внутрь литерала горутины."""
+
+[[exercises]]
+name = "anonymous_functions_x014"
+path = "exercises/anonymous_functions/anonymous_functions_x014/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие в литерале для поля age."""
+
+[[exercises]]
+name = "anonymous_functions_x072"
+path = "exercises/anonymous_functions/anonymous_functions_x072/main_test.go"
+mode = "test"
+hint = """
+Реализуйте Clone так, чтобы у копии был собственный литерал
+со своим счётчиком, начинающимся с текущего значения."""
+
+[[exercises]]
+name = "anonymous_functions_x067"
+path = "exercises/anonymous_functions/anonymous_functions_x067/main_test.go"
+mode = "test"
+hint = """
+Проверяйте ошибку после каждого вызова и сразу её возвращайте.
+В литерале верните ошибку для файлов с расширением .tmp."""
+
+[[exercises]]
+name = "anonymous_functions_x054"
+path = "exercises/anonymous_functions/anonymous_functions_x054/main_test.go"
+mode = "test"
+hint = """
+Конец страницы не должен выходить за длину данных.
+После выдачи страницы сдвиньте позицию на её длину."""
+
+[[exercises]]
+name = "anonymous_functions_x087"
+path = "exercises/anonymous_functions/anonymous_functions_x087/main_test.go"
+mode = "test"
+hint = """
+Поставьте defer с recover внутрь литерала горутины и передайте
+ошибку через канал."""
+
+[[exercises]]
+name = "anonymous_functions_x036"
+path = "exercises/anonymous_functions/anonymous_functions_x036/main_test.go"
+mode = "test"
+hint = """
+Храните позицию в захваченной переменной. Сначала проверьте границу,
+затем верните элемент и сдвиньте позицию."""
+
+[[exercises]]
+name = "anonymous_functions_x022"
+path = "exercises/anonymous_functions/anonymous_functions_x022/main_test.go"
+mode = "test"
+hint = """
+Компаратор должен возвращать true, если первый аргумент лучше второго."""
+
+[[exercises]]
+name = "anonymous_functions_x006"
+path = "exercises/anonymous_functions/anonymous_functions_x006/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие в литерале."""
+
+[[exercises]]
+name = "anonymous_functions_x003"
+path = "exercises/anonymous_functions/anonymous_functions_x003/main_test.go"
+mode = "test"
+hint = """
+Литерал должен сравнивать длины слов."""
+
+[[exercises]]
+name = "anonymous_functions_x044"
+path = "exercises/anonymous_functions/anonymous_functions_x044/main_test.go"
+mode = "test"
+hint = """
+Первый вызов всегда срабатывает. Момент последнего вызова обновляется
+при каждом вызове, даже если он был подавлен."""
+
+[[exercises]]
+name = "anonymous_functions_x017"
+path = "exercises/anonymous_functions/anonymous_functions_x017/main_test.go"
+mode = "test"
+hint = """
+Аргументы в скобках после литерала передаются параметрам по порядку."""
+
+[[exercises]]
+name = "anonymous_functions_x005"
+path = "exercises/anonymous_functions/anonymous_functions_x005/main_test.go"
+mode = "test"
+hint = """
+strings.Map выбрасывает символ, если функция вернула отрицательное значение."""
+
+[[exercises]]
+name = "anonymous_functions_x013"
+path = "exercises/anonymous_functions/anonymous_functions_x013/main_test.go"
+mode = "test"
+hint = """
+Проверьте порядок возвращаемых значений."""
+
+[[exercises]]
+name = "anonymous_functions_x089"
+path = "exercises/anonymous_functions/anonymous_functions_x089/main_test.go"
+mode = "test"
+hint = """
+Обрабатывайте ошибку внутри литерала (recover и значение по умолчанию),
+чтобы Do всегда завершался корректным состоянием."""
+
+[[exercises]]
+name = "anonymous_functions_x012"
+path = "exercises/anonymous_functions/anonymous_functions_x012/main_test.go"
+mode = "test"
+hint = """
+Предикат должен проверять, что буква заглавная."""
+
+[[exercises]]
+name = "anonymous_functions_x061"
+path = "exercises/anonymous_functions/anonymous_functions_x061/main_test.go"
+mode = "test"
+hint = """
+Создайте новую матрицу тех же размеров (не меняйте исходную)
+и передавайте литералу значение и координаты."""
+
+[[exercises]]
+name = "anonymous_functions_x035"
+path = "exercises/anonymous_functions/anonymous_functions_x035/main_test.go"
+mode = "test"
+hint = """
+Увеличивать нужно значение по указателю, а не сам указатель."""
+
+[[exercises]]
+name = "anonymous_functions_x092"
+path = "exercises/anonymous_functions/anonymous_functions_x092/main_test.go"
+mode = "test"
+hint = """
+Храните в поле функцию и вызывайте её в Value, только если значение не задано."""
+
+[[exercises]]
+name = "anonymous_functions_x100"
+path = "exercises/anonymous_functions/anonymous_functions_x100/main_test.go"
+mode = "test"
+hint = """
+Сохраните исходную функцию в отдельной переменной до переприсваивания
+и вызывайте в декораторе её."""
+
+[[exercises]]
+name = "anonymous_functions_x081"
+path = "exercises/anonymous_functions/anonymous_functions_x081/main_test.go"
+mode = "test"
+hint = """
+Передайте текущее значение горутине аргументом литерала."""
+
+[[exercises]]
+name = "anonymous_functions_x042"
+path = "exercises/anonymous_functions/anonymous_functions_x042/main_test.go"
+mode = "test"
+hint = """
+Храните значение вместе с моментом загрузки. Используйте кэш,
+только если с момента загрузки прошло меньше ttl."""
+
+[[exercises]]
+name = "anonymous_functions_x079"
+path = "exercises/anonymous_functions/anonymous_functions_x079/main_test.go"
+mode = "test"
+hint = """
+Скопируйте срез (или посчитайте сумму) в момент создания литерала."""
+
+[[exercises]]
+name = "anonymous_functions_x068"
+path = "exercises/anonymous_functions/anonymous_functions_x068/main_test.go"
+mode = "test"
+hint = """
+Переменная i объявлена до цикла и одна на всех. Сделайте локальную копию
+внутри тела цикла и захватывайте её."""
+
+[[exercises]]
+name = "anonymous_functions_x028"
+path = "exercises/anonymous_functions/anonymous_functions_x028/main_test.go"
+mode = "test"
+hint = """
+Проверьте предикат."""
+
+[[exercises]]
+name = "anonymous_functions_x016"
+path = "exercises/anonymous_functions/anonymous_functions_x016/main_test.go"
+mode = "test"
+hint = """
+Сравнивать нужно цены, по возрастанию."""
+
+[[exercises]]
+name = "anonymous_functions_x058"
+path = "exercises/anonymous_functions/anonymous_functions_x058/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте с последним записанным сообщением. При повторе увеличьте
+счётчик, иначе запишите сообщение и запомните его."""
+
+[[exercises]]
+name = "anonymous_functions_x056"
+path = "exercises/anonymous_functions/anonymous_functions_x056/main_test.go"
+mode = "test"
+hint = """
+Храните плагины в срезе (порядок map не определён). run вызывает Fn
+каждого плагина."""
+
+[[exercises]]
+name = "anonymous_functions_x097"
+path = "exercises/anonymous_functions/anonymous_functions_x097/main_test.go"
+mode = "test"
+hint = """
+Переименуйте параметр литерала, чтобы внутри был доступ к внешнему score."""
+
+[[exercises]]
+name = "anonymous_functions_x096"
+path = "exercises/anonymous_functions/anonymous_functions_x096/main_test.go"
+mode = "test"
+hint = """
+Не позволяйте отложенной очистке паниковать: перехватите её панику
+внутри самого литерала очистки."""
+
+[[exercises]]
+name = "anonymous_functions_x008"
+path = "exercises/anonymous_functions/anonymous_functions_x008/main_test.go"
+mode = "test"
+hint = """
+Сумму нужно увеличивать, а не перезаписывать."""
+
+[[exercises]]
+name = "anonymous_functions_x052"
+path = "exercises/anonymous_functions/anonymous_functions_x052/main_test.go"
+mode = "test"
+hint = """
+Регистрируйте откаты в срезе. При ошибке пройдите срез с конца
+и вызовите каждый откат, затем верните ошибку."""
+
+[[exercises]]
+name = "anonymous_functions_x004"
+path = "exercises/anonymous_functions/anonymous_functions_x004/main_test.go"
+mode = "test"
+hint = """
+Литерал должен возвращать true для обоих разделителей."""
+
+[[exercises]]
+name = "anonymous_functions_x091"
+path = "exercises/anonymous_functions/anonymous_functions_x091/main_test.go"
+mode = "test"
+hint = """
+Утверждайте к func(string) string (и преобразуйте к Handler)
+или сохраняйте в interface{} уже преобразованное Handler(...)."""
+
+[[exercises]]
+name = "anonymous_functions_x080"
+path = "exercises/anonymous_functions/anonymous_functions_x080/main_test.go"
+mode = "test"
+hint = """
+Сначала присвойте литерал переменной, а уже затем вызывайте его."""
+
+[[exercises]]
+name = "anonymous_functions_x076"
+path = "exercises/anonymous_functions/anonymous_functions_x076/main_test.go"
+mode = "test"
+hint = """
+В блоке if объявлена новая err через :=. Присвойте ошибку внешней
+переменной, которую видит отложенный литерал."""
+
+[[exercises]]
+name = "anonymous_functions_x019"
+path = "exercises/anonymous_functions/anonymous_functions_x019/main_test.go"
+mode = "test"
+hint = """
+Предикат должен сравнивать значение с порогом, а не с нулём."""
+
+[[exercises]]
+name = "anonymous_functions_x082"
+path = "exercises/anonymous_functions/anonymous_functions_x082/main_test.go"
+mode = "test"
+hint = """
+Внутри литерала работайте с копией структуры по умолчанию, а не с ней самой."""
+
+[[exercises]]
+name = "anonymous_functions_x085"
+path = "exercises/anonymous_functions/anonymous_functions_x085/main_test.go"
+mode = "test"
+hint = """
+Скопируйте указатель в отдельную переменную, которая больше не меняется,
+и захватывайте её."""
+
+[[exercises]]
+name = "anonymous_functions_x051"
+path = "exercises/anonymous_functions/anonymous_functions_x051/main_test.go"
+mode = "test"
+hint = """
+Каждый компаратор возвращает -1, 0 или 1. Идите по списку и возвращайте
+результат первого ненулевого сравнения."""
+
+[[exercises]]
+name = "anonymous_functions_x038"
+path = "exercises/anonymous_functions/anonymous_functions_x038/main_test.go"
+mode = "test"
+hint = """
+Проверяйте хуки на nil. Вызов after удобно отложить через defer
+сразу после before."""
+
+[[exercises]]
+name = "anonymous_functions_x010"
+path = "exercises/anonymous_functions/anonymous_functions_x010/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение записывается во флаг."""
+
+[[exercises]]
+name = "anonymous_functions_x029"
+path = "exercises/anonymous_functions/anonymous_functions_x029/main_test.go"
+mode = "test"
+hint = """
+Состояние нужно инвертировать."""
+
+[[exercises]]
+name = "anonymous_functions_x094"
+path = "exercises/anonymous_functions/anonymous_functions_x094/main_test.go"
+mode = "test"
+hint = """
+Вызывайте now() внутри литерала, а не снаружи."""
+
+[[exercises]]
+name = "anonymous_functions_x074"
+path = "exercises/anonymous_functions/anonymous_functions_x074/main_test.go"
+mode = "test"
+hint = """
+append меняет только захваченную копию заголовка. Передайте указатель
+на срез и дописывайте через него."""
+
+[[exercises]]
+name = "anonymous_functions_x075"
+path = "exercises/anonymous_functions/anonymous_functions_x075/main_test.go"
+mode = "test"
+hint = """
+Сделайте получатель указателем, тогда литерал будет менять исходный счёт."""
+
+[[exercises]]
+name = "anonymous_functions_x032"
+path = "exercises/anonymous_functions/anonymous_functions_x032/main_test.go"
+mode = "test"
+hint = """
+Параметр и результат должны иметь тип rune."""
+
+[[exercises]]
+name = "anonymous_functions_x088"
+path = "exercises/anonymous_functions/anonymous_functions_x088/main_test.go"
+mode = "test"
+hint = """
+Руна 0 — это настоящий символ U+0000. Для удаления верните -1."""
+
+[[exercises]]
+name = "anonymous_functions_x018"
+path = "exercises/anonymous_functions/anonymous_functions_x018/main_test.go"
+mode = "test"
+hint = """
+Счётчик должен увеличиваться при каждом вызове обёртки."""
+
+[[exercises]]
+name = "anonymous_functions_x099"
+path = "exercises/anonymous_functions/anonymous_functions_x099/main_test.go"
+mode = "test"
+hint = """
+Используйте в качестве ключа имя функции (строку), а функции храните
+отдельно."""
+
+[[exercises]]
+name = "anonymous_functions_x030"
+path = "exercises/anonymous_functions/anonymous_functions_x030/main_test.go"
+mode = "test"
+hint = """
+Без вызова Done ожидание никогда не закончится. Проверьте defer."""
+
+[[exercises]]
+name = "anonymous_functions_x046"
+path = "exercises/anonymous_functions/anonymous_functions_x046/main_test.go"
+mode = "test"
+hint = """
+В состоянии afterA символ 'a' оставляет автомат в afterA, а 'b' ведёт
+в accept. Любой символ после accept ведёт в отказ (nil)."""
+
+[[exercises]]
+name = "anonymous_functions_x021"
+path = "exercises/anonymous_functions/anonymous_functions_x021/main_test.go"
+mode = "test"
+hint = """
+Проверьте шаг увеличения."""
+
+[[exercises]]
+name = "anonymous_functions_x015"
+path = "exercises/anonymous_functions/anonymous_functions_x015/main_test.go"
+mode = "test"
+hint = """
+Каждое преобразование нужно применять к результату предыдущего."""
+
+[[exercises]]
+name = "anonymous_functions_x026"
+path = "exercises/anonymous_functions/anonymous_functions_x026/main_test.go"
+mode = "test"
+hint = """
+Для обёртки используйте fmt.Errorf с глаголом %w."""
+
+[[exercises]]
+name = "anonymous_functions_x050"
+path = "exercises/anonymous_functions/anonymous_functions_x050/main_test.go"
+mode = "test"
+hint = """
+Увеличивайте счётчик категории, которую вернул классификатор.
+Проверьте и сам классификатор длины."""
+
+[[exercises]]
+name = "anonymous_functions_x070"
+path = "exercises/anonymous_functions/anonymous_functions_x070/main_test.go"
+mode = "test"
+hint = """
+defer func() { ... } — это просто значение функции. Добавьте () после литерала."""
+
+[[exercises]]
+name = "anonymous_functions_x060"
+path = "exercises/anonymous_functions/anonymous_functions_x060/main_test.go"
+mode = "test"
+hint = """
+Отформатируйте число с двумя знаками, разбейте целую часть на группы
+по три цифры и используйте разделители из выбранной локали."""
+
+[[exercises]]
+name = "anonymous_functions_x045"
+path = "exercises/anonymous_functions/anonymous_functions_x045/main_test.go"
+mode = "test"
+hint = """
+При Append запомните литерал, восстанавливающий прежний текст
+(захватите старое значение). Undo снимает последний литерал и вызывает его."""
+
+[[exercises]]
+name = "anonymous_functions_x086"
+path = "exercises/anonymous_functions/anonymous_functions_x086/main_test.go"
+mode = "test"
+hint = """
+Если литерал должен работать с конкретной map, захватите её
+отдельной переменной, которая не переприсваивается."""
+
+[[exercises]]
+name = "anonymous_functions_x090"
+path = "exercises/anonymous_functions/anonymous_functions_x090/main_test.go"
+mode = "test"
+hint = """
+Переменная current объявлена вне цикла и меняется. Передайте значение
+в отложенный литерал аргументом."""
+
+[[exercises]]
+name = "anonymous_functions_x023"
+path = "exercises/anonymous_functions/anonymous_functions_x023/main_test.go"
+mode = "test"
+hint = """
+Предикат должен быть истинным для всех элементов, начиная с искомого."""
+
+[[exercises]]
+name = "anonymous_functions_x065"
+path = "exercises/anonymous_functions/anonymous_functions_x065/main_test.go"
+mode = "test"
+hint = """
+Зафиксируйте старт до вызова f, а запись в map сделайте в defer,
+чтобы она выполнилась и при панике. Накопленные времена складываются."""
+
+[[exercises]]
+name = "anonymous_functions_x084"
+path = "exercises/anonymous_functions/anonymous_functions_x084/main_test.go"
+mode = "test"
+hint = """
+Отложенная функция может изменить результат, только если он именованный."""
+
+[[exercises]]
+name = "anonymous_functions_x077"
+path = "exercises/anonymous_functions/anonymous_functions_x077/main_test.go"
+mode = "test"
+hint = """
+Замените тип параметра на rune; неявных преобразований нет."""
+
+[[exercises]]
+name = "anonymous_functions_x031"
+path = "exercises/anonymous_functions/anonymous_functions_x031/main_test.go"
+mode = "test"
+hint = """
+Внутренняя функция должна использовать все три значения."""
+
+[[exercises]]
+name = "anonymous_functions_x066"
+path = "exercises/anonymous_functions/anonymous_functions_x066/main_test.go"
+mode = "test"
+hint = """
+Переведите приоритет в число через map; для отсутствующего ключа
+используйте большое число. Для равных сохраните порядок (SliceStable)."""
+
+[[exercises]]
+name = "anonymous_functions_x009"
+path = "exercises/anonymous_functions/anonymous_functions_x009/main_test.go"
+mode = "test"
+hint = """
+Проверьте порядок склейки."""
+
+[[exercises]]
+name = "anonymous_functions_x041"
+path = "exercises/anonymous_functions/anonymous_functions_x041/main_test.go"
+mode = "test"
+hint = """
+Храните начало окна и счётчик. Если текущее время вышло за окно —
+начните новое окно. Затем проверьте счётчик."""
+
+[[exercises]]
+name = "anonymous_functions_x047"
+path = "exercises/anonymous_functions/anonymous_functions_x047/main_test.go"
+mode = "test"
+hint = """
+walk должен рекурсивно обходить детей, только если посетитель вернул true.
+В collect верните false для узлов "skip" (сам узел добавлять не нужно)."""
+
+[[exercises]]
+name = "anonymous_functions_x073"
+path = "exercises/anonymous_functions/anonymous_functions_x073/main_test.go"
+mode = "test"
+hint = """
+Создайте генератор один раз, до цикла, и используйте его для всех записей."""
+
+[[exercises]]
+name = "anonymous_functions_x037"
+path = "exercises/anonymous_functions/anonymous_functions_x037/main_test.go"
+mode = "test"
+hint = """
+Subscribe добавляет обработчик в срез темы. Publish вызывает
+все обработчики этой темы по порядку."""
+
+[[exercises]]
+name = "anonymous_functions_x059"
+path = "exercises/anonymous_functions/anonymous_functions_x059/main_test.go"
+mode = "test"
+hint = """
+pop берёт первый элемент и сдвигает начало. Для пустой очереди
+верните false."""
+
+[[exercises]]
+name = "anonymous_functions_x053"
+path = "exercises/anonymous_functions/anonymous_functions_x053/main_test.go"
+mode = "test"
+hint = """
+Первое значение задаёт и минимум, и максимум. Среднее — сумма,
+делённая на количество."""
+
+[[exercises]]
+name = "anonymous_functions_x049"
+path = "exercises/anonymous_functions/anonymous_functions_x049/main_test.go"
+mode = "test"
+hint = """
+groupBy должен вызывать key для каждого элемента и добавлять элемент
+в срез соответствующей группы."""
+
+[[exercises]]
+name = "anonymous_functions_x043"
+path = "exercises/anonymous_functions/anonymous_functions_x043/main_test.go"
+mode = "test"
+hint = """
+Задержка удваивается после каждой неудачной попытки. После последней
+попытки ждать не нужно."""
+
+[[exercises]]
+name = "anonymous_functions_x055"
+path = "exercises/anonymous_functions/anonymous_functions_x055/main_test.go"
+mode = "test"
+hint = """
+Увеличивайте счётчик до форматирования. Для 4 цифр с нулями используйте %04d."""
+
+[[exercises]]
+name = "anonymous_functions_x083"
+path = "exercises/anonymous_functions/anonymous_functions_x083/main_test.go"
+mode = "test"
+hint = """
+Строки неизменяемы. Сохраните результат вызова колбэка в элемент среза."""
+
+[[exercises]]
+name = "anonymous_functions_x033"
+path = "exercises/anonymous_functions/anonymous_functions_x033/main_test.go"
+mode = "test"
+hint = """
+Проверьте границу цикла."""
+
+[[exercises]]
+name = "anonymous_functions_x027"
+path = "exercises/anonymous_functions/anonymous_functions_x027/main_test.go"
+mode = "test"
+hint = """
+Вызывайте def только тогда, когда ключа нет в map."""
+
+[[exercises]]
+name = "anonymous_functions_x024"
+path = "exercises/anonymous_functions/anonymous_functions_x024/main_test.go"
+mode = "test"
+hint = """
+В литерале нужно прибавлять значение к сумме."""
+
+[[exercises]]
+name = "anonymous_functions_x062"
+path = "exercises/anonymous_functions/anonymous_functions_x062/main_test.go"
+mode = "test"
+hint = """
+Пишите результат в заранее созданный срез по индексу, передавая индекс
+в горутину параметром, и дождитесь всех горутин через WaitGroup."""
+
+[[exercises]]
+name = "anonymous_functions_x069"
+path = "exercises/anonymous_functions/anonymous_functions_x069/main_test.go"
+mode = "test"
+hint = """
+total := total + v создаёт локальную total внутри литерала.
+Используйте присваивание захваченной переменной."""
+
+[[exercises]]
+name = "anonymous_functions_x078"
+path = "exercises/anonymous_functions/anonymous_functions_x078/main_test.go"
+mode = "test"
+hint = """
+Добавьте () после литерала, чтобы получить результат его вызова."""
+
+[[exercises]]
+name = "anonymous_functions_x034"
+path = "exercises/anonymous_functions/anonymous_functions_x034/main_test.go"
+mode = "test"
+hint = """
+Литерал должен использовать имя, переданное в greeter."""
+
+[[exercises]]
+name = "anonymous_functions_x040"
+path = "exercises/anonymous_functions/anonymous_functions_x040/main_test.go"
+mode = "test"
+hint = """
+Не останавливайтесь на первой ошибке: добавляйте каждую ненулевую ошибку в срез."""
+
+[[exercises]]
+name = "anonymous_functions_x025"
+path = "exercises/anonymous_functions/anonymous_functions_x025/main_test.go"
+mode = "test"
+hint = """
+Проверьте, под каким именем регистрируется обработчик."""
+
+[[exercises]]
+name = "anonymous_functions_x002"
+path = "exercises/anonymous_functions/anonymous_functions_x002/main_test.go"
+mode = "test"
+hint = """
+Проверьте тело литерала."""
+
+[[exercises]]
+name = "anonymous_functions_x063"
+path = "exercises/anonymous_functions/anonymous_functions_x063/main_test.go"
+mode = "test"
+hint = """
+and истинен, если истинны все предикаты; or — если хотя бы один.
+not инвертирует результат."""
+
+[[exercises]]
+name = "anonymous_functions_x093"
+path = "exercises/anonymous_functions/anonymous_functions_x093/main_test.go"
+mode = "test"
+hint = """
+Пусть каждая горутина считает в свою переменную и отправляет результат
+в канал, а итог складывается в одной горутине."""
