@@ -26,7 +26,7 @@ func lengthHistogram(text string) []int {
 
 func TestLengthHistogram(t *testing.T) {
 	_ = utf8.RuneCountInString
-	if got := lengthHistogram("я и ты мы go"); !reflect.DeepEqual(got, []int{0, 2, 3}) {
+	if got := lengthHistogram("α β δε ζη go"); !reflect.DeepEqual(got, []int{0, 2, 3}) {
 		t.Errorf("lengthHistogram = %v", got)
 	}
 }

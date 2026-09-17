@@ -27,7 +27,7 @@ func onlyLetters(s string) []byte {
 
 func TestOnlyLetters(t *testing.T) {
 	_ = utf8.RuneLen
-	if got := string(onlyLetters("Go-1 и Ё!")); got != "GoиЁ" {
-		t.Errorf("onlyLetters = %q, want GoиЁ", got)
+	if got := string(onlyLetters("Go-1 λ Ω!")); got != "GoλΩ" {
+		t.Errorf("onlyLetters = %q, want GoλΩ", got)
 	}
 }

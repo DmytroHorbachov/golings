@@ -17,7 +17,7 @@ import (
 func markVowels(s string) string {
 	rs := []rune(s)
 	for i, r := range s {
-		if strings.ContainsRune("аеиоуaeiou", r) {
+		if strings.ContainsRune("αεηιουaeiou", r) {
 			rs[i] = '*'
 		}
 	}
@@ -25,7 +25,7 @@ func markVowels(s string) string {
 }
 
 func TestMarkVowels(t *testing.T) {
-	cases := map[string]string{"hello": "h*ll*", "мир": "м*р", "кот и пёс": "к*т * пёс"}
+	cases := map[string]string{"hello": "h*ll*", "φως": "φ*ς", "μια γη": "μ** γ*"}
 	for in, want := range cases {
 		if got := markVowels(in); got != want {
 			t.Errorf("markVowels(%q) = %q, want %q", in, got, want)

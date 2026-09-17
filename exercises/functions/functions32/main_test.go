@@ -26,8 +26,8 @@ func reverseAll(items []string) []string {
 }
 
 func TestReverseAll(t *testing.T) {
-	got := reverseAll([]string{"abc", "мир", ""})
-	if got[0] != "cba" || got[1] != "рим" || got[2] != "" {
+	got := reverseAll([]string{"abc", "μία", ""})
+	if got[0] != "cba" || got[1] != "αίμ" || got[2] != "" {
 		t.Errorf("reverseAll = %q", got)
 	}
 }

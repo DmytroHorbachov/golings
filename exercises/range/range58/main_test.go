@@ -24,7 +24,7 @@ func chars(s string) []string {
 }
 
 func TestChars(t *testing.T) {
-	if got := chars("да!"); !reflect.DeepEqual(got, []string{"д", "а", "!"}) {
+	if got := chars("δα!"); !reflect.DeepEqual(got, []string{"δ", "α", "!"}) {
 		t.Errorf("chars = %q", got)
 	}
 }

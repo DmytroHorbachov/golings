@@ -19,8 +19,8 @@ func runeFreq(s string) map[rune]int {
 }
 
 func TestRuneFreq(t *testing.T) {
-	m := runeFreq("мама")
-	if m['м'] != 2 || m['а'] != 2 || len(m) != 2 {
+	m := runeFreq("αβαβ")
+	if m['α'] != 2 || m['β'] != 2 || len(m) != 2 {
 		t.Errorf("runeFreq = %v", m)
 	}
 }

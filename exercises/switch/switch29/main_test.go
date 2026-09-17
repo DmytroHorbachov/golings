@@ -11,8 +11,8 @@ import "testing"
 
 func hello(lang string) string {
 	switch lang {
-	case "ru":
-		return "Привет"
+	case "el":
+		return "Γειά"
 	case "es":
 		return "Bonjour"
 	case "fr":
@@ -23,7 +23,7 @@ func hello(lang string) string {
 }
 
 func TestHello(t *testing.T) {
-	cases := map[string]string{"ru": "Привет", "es": "Hola", "fr": "Bonjour", "de": "Hello"}
+	cases := map[string]string{"el": "Γειά", "es": "Hola", "fr": "Bonjour", "de": "Hello"}
 	for in, want := range cases {
 		if got := hello(in); got != want {
 			t.Errorf("hello(%s) = %s, want %s", in, got, want)

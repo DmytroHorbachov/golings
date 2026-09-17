@@ -3,27 +3,27 @@
 
 // I AM NOT DONE
 //
-// isRussian checks that a string holds lowercase russian letters only.
-// Words with the letter "ё" are rejected right now.
-// 'ё' sits outside the contiguous 'а'..'я' range in Unicode.
+// isGreek checks that a string holds lowercase greek letters only.
+// Words with an accented letter are rejected right now.
+// The accented vowels sit outside the contiguous 'α'..'ω' range in Unicode.
 package main_test
 
 import "testing"
 
-func isRussian(s string) bool {
+func isGreek(s string) bool {
 	for _, r := range s {
-		if r < 'а' || r > 'я' {
+		if r < 'α' || r > 'ω' {
 			return false
 		}
 	}
 	return s != ""
 }
 
-func TestIsRussian(t *testing.T) {
-	cases := map[string]bool{"ёлка": true, "мир": true, "ещё": true, "hello": false, "Мир": false, "": false}
+func TestIsGreek(t *testing.T) {
+	cases := map[string]bool{"άλφα": true, "λόγος": true, "φως": true, "hello": false, "Λόγος": false, "": false}
 	for in, want := range cases {
-		if got := isRussian(in); got != want {
-			t.Errorf("isRussian(%q) = %v, want %v", in, got, want)
+		if got := isGreek(in); got != want {
+			t.Errorf("isGreek(%q) = %v, want %v", in, got, want)
 		}
 	}
 }

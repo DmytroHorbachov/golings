@@ -23,7 +23,7 @@ func titleCase(s string) string {
 }
 
 func TestTitleCase(t *testing.T) {
-	cases := map[string]string{"hello WORLD": "Hello World", "привет мир": "Привет Мир", "": ""}
+	cases := map[string]string{"hello WORLD": "Hello World", "γειά κόσμε": "Γειά Κόσμε", "": ""}
 	for in, want := range cases {
 		if got := titleCase(in); got != want {
 			t.Errorf("titleCase(%q) = %q, want %q", in, got, want)

@@ -23,7 +23,7 @@ func validRunes(s string) (ok, bad int) {
 
 func TestValidRunes(t *testing.T) {
 	_ = utf8.RuneError
-	ok, bad := validRunes("a\xffб�\xfe")
+	ok, bad := validRunes("a\xffλ�\xfe")
 	if ok != 3 || bad != 2 {
 		t.Errorf("validRunes = %d, %d; want 3, 2", ok, bad)
 	}

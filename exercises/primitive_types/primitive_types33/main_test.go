@@ -25,7 +25,7 @@ func TestTruncate(t *testing.T) {
 		in   string
 		n    int
 		want string
-	}{{"привет мир", 4, "прив…"}, {"go", 4, "go"}, {"hello!", 5, "hello…"}, {"мир", 3, "мир"}}
+	}{{"γειά σου", 4, "γειά…"}, {"go", 4, "go"}, {"hello!", 5, "hello…"}, {"φως", 3, "φως"}}
 	for _, c := range cases {
 		got := truncate(c.in, c.n)
 		if got != c.want || !utf8.ValidString(got) {

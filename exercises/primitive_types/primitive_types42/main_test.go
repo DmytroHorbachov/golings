@@ -24,7 +24,7 @@ func TestCharAt(t *testing.T) {
 		s    string
 		n    int
 		want string
-	}{{"hello", 1, "e"}, {"мир", 1, "и"}, {"мир", 2, "р"}, {"日本語", 2, "語"}, {"go", 5, ""}}
+	}{{"hello", 1, "e"}, {"φως", 1, "ω"}, {"φως", 2, "ς"}, {"日本語", 2, "語"}, {"go", 5, ""}}
 	for _, c := range cases {
 		if got := charAt(c.s, c.n); got != c.want {
 			t.Errorf("charAt(%q, %d) = %q, want %q", c.s, c.n, got, c.want)

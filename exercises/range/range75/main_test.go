@@ -19,7 +19,7 @@ func vowelsPerWord(text string) []int {
 	n := 0
 	for _, w := range strings.Fields(text) {
 		for _, r := range w {
-			if strings.ContainsRune("aeiouаеёиоуыэюя", r) {
+			if strings.ContainsRune("aeiouαεηιουω", r) {
 				n++
 			}
 		}
@@ -29,7 +29,7 @@ func vowelsPerWord(text string) []int {
 }
 
 func TestVowelsPerWord(t *testing.T) {
-	if got := vowelsPerWord("Gopher Ест Мёд"); !reflect.DeepEqual(got, []int{2, 1, 1}) {
+	if got := vowelsPerWord("Gopher Φως Γη"); !reflect.DeepEqual(got, []int{2, 1, 1}) {
 		t.Errorf("vowelsPerWord = %v", got)
 	}
 }

@@ -25,7 +25,7 @@ func isPalindrome(s string) bool {
 
 func TestIsPalindrome(t *testing.T) {
 	_ = unicode.ToLower
-	cases := map[string]bool{"Шалаш": true, "Level": true, "go": false, "": true}
+	cases := map[string]bool{"Αββα": true, "Level": true, "go": false, "": true}
 	for in, want := range cases {
 		if got := isPalindrome(in); got != want {
 			t.Errorf("isPalindrome(%q) = %v, want %v", in, got, want)

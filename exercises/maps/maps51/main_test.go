@@ -20,8 +20,8 @@ func charCounts(s string) map[byte]int {
 }
 
 func TestCharCounts(t *testing.T) {
-	m := charCounts("ёжик")
-	if len(m) != 4 || m['ж'] != 1 {
+	m := charCounts("λέξη")
+	if len(m) != 4 || m['ξ'] != 1 {
 		t.Errorf("charCounts = %v", m)
 	}
 }

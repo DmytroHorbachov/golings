@@ -20,7 +20,7 @@ func startsUpper(s string) bool {
 }
 
 func TestStartsUpper(t *testing.T) {
-	cases := map[string]bool{"Go": true, "Ёж": true, "go": false, "1st": false, "": false}
+	cases := map[string]bool{"Go": true, "Ωμέγα": true, "go": false, "1st": false, "": false}
 	for in, want := range cases {
 		if got := startsUpper(in); got != want {
 			t.Errorf("startsUpper(%q) = %v, want %v", in, got, want)

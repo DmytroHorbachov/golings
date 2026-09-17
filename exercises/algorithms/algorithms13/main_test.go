@@ -23,7 +23,7 @@ func TestIsAnagram(t *testing.T) {
 		{"rat", "car", false},
 		{"", "", true},
 		{"a", "", false},
-		{"листок", "столик", true},
+		{"ρόδο", "δόρο", true},
 		{"aab", "abb", false},
 	}
 	for _, c := range cases {

@@ -19,7 +19,7 @@ func runeCount(s string) int {
 }
 
 func TestRuneCount(t *testing.T) {
-	cases := map[string]int{"go": 2, "привет": 6, "": 0}
+	cases := map[string]int{"go": 2, "γράφω": 5, "": 0}
 	for in, want := range cases {
 		if got := runeCount(in); got != want {
 			t.Errorf("runeCount(%q) = %d, want %d", in, got, want)

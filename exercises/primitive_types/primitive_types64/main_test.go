@@ -28,7 +28,7 @@ func isPalindrome(s string) bool {
 
 func TestIsPalindrome(t *testing.T) {
 	_ = unicode.IsLetter
-	cases := map[string]bool{"A man, a plan, a canal: Panama": true, "А роза упала на лапу Азора": true, "Go": false, "": true}
+	cases := map[string]bool{"A man, a plan, a canal: Panama": true, "No 'x' in Nixon": true, "Go": false, "": true}
 	for in, want := range cases {
 		if got := isPalindrome(in); got != want {
 			t.Errorf("isPalindrome(%q) = %v, want %v", in, got, want)

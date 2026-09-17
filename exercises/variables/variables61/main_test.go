@@ -4,7 +4,7 @@
 // I AM NOT DONE
 //
 // reverse must reverse a string containing any Unicode characters.
-// "привет" comes out as garbage.
+// "λόγος" comes out as garbage.
 // A string is UTF-8 bytes, while a character is a rune.
 package main_test
 
@@ -19,7 +19,7 @@ func reverse(s string) string {
 }
 
 func TestReverse(t *testing.T) {
-	cases := map[string]string{"go": "og", "привет": "тевирп", "": "", "аb": "bа"}
+	cases := map[string]string{"go": "og", "λόγος": "ςογόλ", "": "", "αb": "bα"}
 	for in, want := range cases {
 		if got := reverse(in); got != want {
 			t.Errorf("reverse(%q) = %q, want %q", in, got, want)

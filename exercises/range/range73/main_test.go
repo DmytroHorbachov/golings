@@ -25,10 +25,10 @@ func longestRun(s string) (rune, int) {
 }
 
 func TestLongestRun(t *testing.T) {
-	if r, n := longestRun("aabbbbccж"); r != 'b' || n != 4 {
+	if r, n := longestRun("aabbbbccλ"); r != 'b' || n != 4 {
 		t.Errorf("longestRun = %c, %d", r, n)
 	}
-	if r, n := longestRun("ёёё"); r != 'ё' || n != 3 {
-		t.Errorf("longestRun(ёёё) = %c, %d", r, n)
+	if r, n := longestRun("λλλ"); r != 'λ' || n != 3 {
+		t.Errorf("longestRun(λλλ) = %c, %d", r, n)
 	}
 }

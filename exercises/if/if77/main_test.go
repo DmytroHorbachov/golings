@@ -23,7 +23,7 @@ func validNick(nick string) bool {
 
 func TestValidNick(t *testing.T) {
 	_ = utf8.RuneLen
-	cases := map[string]bool{"gopher": true, "гофер": true, "ёжик_42": true, "ab": false, "очень_длинный": false}
+	cases := map[string]bool{"gopher": true, "γκόφερ": true, "ήλιος_42": true, "ab": false, "πολύ_μακρύ_όνομα": false}
 	for in, want := range cases {
 		if got := validNick(in); got != want {
 			t.Errorf("validNick(%q) = %v, want %v", in, got, want)

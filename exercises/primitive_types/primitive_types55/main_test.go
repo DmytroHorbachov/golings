@@ -21,7 +21,7 @@ func initial(name string) string {
 
 func TestInitial(t *testing.T) {
 	_ = strconv.Itoa
-	cases := map[string]string{"Anna": "A", "Юля": "Ю", "": ""}
+	cases := map[string]string{"Anna": "A", "Ωμέγα": "Ω", "": ""}
 	for in, want := range cases {
 		if got := initial(in); got != want {
 			t.Errorf("initial(%q) = %q, want %q", in, got, want)

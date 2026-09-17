@@ -28,7 +28,7 @@ func withCommas(s string) string {
 
 func TestWithCommas(t *testing.T) {
 	_ = utf8.RuneLen
-	cases := map[string]string{"abc": "a,b,c", "abя": "a,b,я", "ё": "ё"}
+	cases := map[string]string{"abc": "a,b,c", "abω": "a,b,ω", "λ": "λ"}
 	for in, want := range cases {
 		if got := withCommas(in); got != want {
 			t.Errorf("withCommas(%q) = %q, want %q", in, got, want)

@@ -36,8 +36,8 @@ func wordFreq(text string) map[string]int {
 
 func TestWordFreq(t *testing.T) {
 	_ = unicode.IsLetter
-	got := wordFreq("Go, go! Кот и КОТ.")
-	want := map[string]int{"go": 2, "кот": 2, "и": 1}
+	got := wordFreq("Go, go! Καλα και ΚΑΛΑ.")
+	want := map[string]int{"go": 2, "καλα": 2, "και": 1}
 	if !reflect.DeepEqual(got, want) {
 		t.Errorf("wordFreq = %v", got)
 	}

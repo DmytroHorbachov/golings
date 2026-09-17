@@ -22,7 +22,7 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 		"":         0,
 		"a":        1,
 		"abba":     2,
-		"приветп":  6,
+		"γράφωκγ":  6,
 	}
 	for in, want := range cases {
 		if got := lengthOfLongestSubstring(in); got != want {

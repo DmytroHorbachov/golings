@@ -25,7 +25,7 @@ func runeWidths(s string) []int {
 }
 
 func TestRuneWidths(t *testing.T) {
-	if got := runeWidths("aж€"); !reflect.DeepEqual(got, []int{1, 2, 3}) {
+	if got := runeWidths("aλ€"); !reflect.DeepEqual(got, []int{1, 2, 3}) {
 		t.Errorf("runeWidths = %v, want [1 2 3]", got)
 	}
 }

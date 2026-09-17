@@ -3,7 +3,7 @@
 
 // I AM NOT DONE
 //
-// shiftRussian сдвигает строчные русские буквы (без ё) на k позиций по кругу.
+// shiftGreek сдвигает строчные русские буквы (без ё) на k позиций по кругу.
 // Тренирует: range по рунам и арифметику над rune.
 // Сложность: medium
 package main_test
@@ -13,10 +13,10 @@ import (
 	"testing"
 )
 
-func shiftRussian(s string, k int) string {
+func shiftGreek(s string, k int) string {
 	var b strings.Builder
 	for _, r := range s {
-		if r >= 'а' && r < 'я' {
+		if r >= 'α' && r < 'ω' {
 			r = r + rune(k)
 		}
 		b.WriteRune(r)
@@ -24,11 +24,11 @@ func shiftRussian(s string, k int) string {
 	return b.String()
 }
 
-func TestShiftRussian(t *testing.T) {
-	cases := map[string]string{"абв": "бвг", "яма!": "анб!"}
+func TestShiftGreek(t *testing.T) {
+	cases := map[string]string{"αβγ": "βγδ", "ωμα!": "ανβ!"}
 	for in, want := range cases {
-		if got := shiftRussian(in, 1); got != want {
-			t.Errorf("shiftRussian(%q) = %q, want %q", in, got, want)
+		if got := shiftGreek(in, 1); got != want {
+			t.Errorf("shiftGreek(%q) = %q, want %q", in, got, want)
 		}
 	}
 }

@@ -23,7 +23,7 @@ func swapCase(s string) string {
 }
 
 func TestSwapCase(t *testing.T) {
-	cases := map[string]string{"Hello World": "hELLO wORLD", "ПрИвЕт": "пРиВеТ", "123": "123"}
+	cases := map[string]string{"Hello World": "hELLO wORLD", "ΚαΛά": "κΑλΆ", "123": "123"}
 	for in, want := range cases {
 		if got := swapCase(in); got != want {
 			t.Errorf("swapCase(%q) = %q, want %q", in, got, want)

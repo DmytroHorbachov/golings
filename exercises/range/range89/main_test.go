@@ -19,7 +19,7 @@ func reverse(s string) string {
 }
 
 func TestReverse(t *testing.T) {
-	cases := map[string]string{"abc": "cba", "мир": "рим", "": ""}
+	cases := map[string]string{"abc": "cba", "φως": "ςωφ", "": ""}
 	for in, want := range cases {
 		if got := reverse(in); got != want {
 			t.Errorf("reverse(%q) = %q, want %q", in, got, want)

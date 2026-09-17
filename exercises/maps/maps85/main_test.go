@@ -22,7 +22,7 @@ func anagram(a, b string) bool {
 }
 
 func TestAnagram(t *testing.T) {
-	if !anagram("листок", "столик") || anagram("abc", "abd") || anagram("aab", "abb") {
+	if !anagram("ρόδο", "δόρο") || anagram("abc", "abd") || anagram("aab", "abb") {
 		t.Errorf("anagram works incorrectly")
 	}
 }

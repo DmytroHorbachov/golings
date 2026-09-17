@@ -24,7 +24,7 @@ func letters(s string) int {
 
 func TestLetters(t *testing.T) {
 	_ = unicode.IsLetter
-	cases := map[string]int{"Go 1.22!": 2, "Привет, мир": 9, "": 0}
+	cases := map[string]int{"Go 1.22!": 2, "Γειά, κόσμε": 9, "": 0}
 	for in, want := range cases {
 		if got := letters(in); got != want {
 			t.Errorf("letters(%q) = %d, want %d", in, got, want)

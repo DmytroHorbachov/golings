@@ -3,8 +3,8 @@
 
 // I AM NOT DONE
 //
-// greetingLang guesses the language from the first letter: 'п' is "ru", 'h' is "en".
-// The code does not compile: the rune 'п' does not fit in a byte.
+// greetingLang guesses the language from the first letter: 'γ' is "el", 'h' is "en".
+// The code does not compile: the rune 'γ' does not fit in a byte.
 // s[0] is a byte, and the case constants have to fit the type of the tag.
 package main_test
 
@@ -18,8 +18,8 @@ func greetingLang(s string) string {
 		return "unknown"
 	}
 	switch s[0] {
-	case 'п':
-		return "ru"
+	case 'γ':
+		return "el"
 	case 'h':
 		return "en"
 	}
@@ -28,7 +28,7 @@ func greetingLang(s string) string {
 
 func TestGreetingLang(t *testing.T) {
 	_ = utf8.RuneLen
-	cases := map[string]string{"привет": "ru", "hello": "en", "hola": "en", "bonjour": "unknown", "": "unknown"}
+	cases := map[string]string{"γειά": "el", "hello": "en", "hola": "en", "bonjour": "unknown", "": "unknown"}
 	for in, want := range cases {
 		if got := greetingLang(in); got != want {
 			t.Errorf("greetingLang(%q) = %s, want %s", in, got, want)

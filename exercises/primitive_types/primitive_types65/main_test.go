@@ -26,7 +26,7 @@ func mask(s string) string {
 }
 
 func TestMask(t *testing.T) {
-	cases := map[string]string{"secret": "s•••••", "пароль": "п•••••", "x": "x"}
+	cases := map[string]string{"secret": "s•••••", "κωδικός": "κ••••••", "x": "x"}
 	for in, want := range cases {
 		if got := mask(in); got != want {
 			t.Errorf("mask(%q) = %q, want %q", in, got, want)
