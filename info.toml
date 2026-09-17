@@ -3423,3 +3423,762 @@ mode = "test"
 hint = """
 Срезы несравнимы. Превратите их в сравнимое значение, например
 склейте ноты в строку, и сравнивайте со строками."""
+
+# ===== generated exercises: primitive_types =====
+[[exercises]]
+name = "primitive_types_x016"
+path = "exercises/primitive_types/primitive_types_x016/main_test.go"
+mode = "test"
+hint = """
+Неполная коробка тоже нужна. Какая функция округляет вверх?"""
+
+[[exercises]]
+name = "primitive_types_x079"
+path = "exercises/primitive_types/primitive_types_x079/main_test.go"
+mode = "test"
+hint = """
+Atoi не пропускает пробельные символы. Очистите строку перед разбором."""
+
+[[exercises]]
+name = "primitive_types_x088"
+path = "exercises/primitive_types/primitive_types_x088/main_test.go"
+mode = "test"
+hint = """
+При основании 0 префикс 0 означает восьмеричное число, 0x — шестнадцатеричное.
+Для десятичных идентификаторов укажите основание 10."""
+
+[[exercises]]
+name = "primitive_types_x086"
+path = "exercises/primitive_types/primitive_types_x086/main_test.go"
+mode = "test"
+hint = """
+Преобразование string(b) для числа трактует его как код символа.
+Соберите []byte и преобразуйте весь срез в строку."""
+
+[[exercises]]
+name = "primitive_types_x080"
+path = "exercises/primitive_types/primitive_types_x080/main_test.go"
+mode = "test"
+hint = """
+ParseInt с bitSize 64 примет 300, а преобразование int8 его обрежет.
+Укажите bitSize 8 — тогда ParseInt сам вернёт ошибку диапазона."""
+
+[[exercises]]
+name = "primitive_types_x029"
+path = "exercises/primitive_types/primitive_types_x029/main_test.go"
+mode = "test"
+hint = """
+%s выводит строку как есть, %q — в кавычках Go-синтаксиса."""
+
+[[exercises]]
+name = "primitive_types_x041"
+path = "exercises/primitive_types/primitive_types_x041/main_test.go"
+mode = "test"
+hint = """
+Проверьте наличие суффикса, отрежьте его, разберите число
+и разделите на 100."""
+
+[[exercises]]
+name = "primitive_types_x017"
+path = "exercises/primitive_types/primitive_types_x017/main_test.go"
+mode = "test"
+hint = """
+Floor округляет вниз (к минус бесконечности). Нужно округление к нулю."""
+
+[[exercises]]
+name = "primitive_types_x042"
+path = "exercises/primitive_types/primitive_types_x042/main_test.go"
+mode = "test"
+hint = """
+На каждом шаге сдвиньте накопленное значение на 1 бит влево
+и добавьте текущий бит. Проверяйте символы."""
+
+[[exercises]]
+name = "primitive_types_x021"
+path = "exercises/primitive_types/primitive_types_x021/main_test.go"
+mode = "test"
+hint = """
+Аргумент math.Inf задаёт знак: положительный или отрицательный."""
+
+[[exercises]]
+name = "primitive_types_x040"
+path = "exercises/primitive_types/primitive_types_x040/main_test.go"
+mode = "test"
+hint = """
+Сначала разделите строку по ';', затем каждую часть — по '='.
+Значение нужно превратить в число и пропустить пару при ошибке."""
+
+[[exercises]]
+name = "primitive_types_x055"
+path = "exercises/primitive_types/primitive_types_x055/main_test.go"
+mode = "test"
+hint = """
+Делите на 1024, пока значение не станет меньше 1024, запоминая единицу.
+Байты выводятся целым числом, остальное — с одним знаком (%.1f)."""
+
+[[exercises]]
+name = "primitive_types_x076"
+path = "exercises/primitive_types/primitive_types_x076/main_test.go"
+mode = "test"
+hint = """
+Сдвиг отрицательного знакового числа сохраняет знак (дополняет единицами).
+Преобразуйте значение в uint32, сдвиньте и верните обратно."""
+
+[[exercises]]
+name = "primitive_types_x069"
+path = "exercises/primitive_types/primitive_types_x069/main_test.go"
+mode = "test"
+hint = """
+Значения больше math.MaxInt64 после преобразования становятся отрицательными.
+Проверьте диапазон до преобразования."""
+
+[[exercises]]
+name = "primitive_types_x035"
+path = "exercises/primitive_types/primitive_types_x035/main_test.go"
+mode = "test"
+hint = """
+Квадратный корень здесь не подходит. В math есть функция кубического корня."""
+
+[[exercises]]
+name = "primitive_types_x075"
+path = "exercises/primitive_types/primitive_types_x075/main_test.go"
+mode = "test"
+hint = """
+Константа 0x80 = 128, а int8 хранит значения до 127.
+Работайте с битами в беззнаковом типе: преобразуйте значение в uint8."""
+
+[[exercises]]
+name = "primitive_types_x056"
+path = "exercises/primitive_types/primitive_types_x056/main_test.go"
+mode = "test"
+hint = """
+Часы — minutes / 60, минуты — остаток. Для ведущих нулей
+используйте ширину 2 и флаг 0."""
+
+[[exercises]]
+name = "primitive_types_x038"
+path = "exercises/primitive_types/primitive_types_x038/main_test.go"
+mode = "test"
+hint = """
+Старший полубайт — b >> 4, младший — b & 0x0F.
+Каждый из них — индекс в строке цифр."""
+
+[[exercises]]
+name = "primitive_types_x094"
+path = "exercises/primitive_types/primitive_types_x094/main_test.go"
+mode = "test"
+hint = """
+TrimLeft удаляет слева все символы, входящие в набор, сколько бы их ни было.
+Для удаления конкретного префикса есть TrimPrefix."""
+
+[[exercises]]
+name = "primitive_types_x089"
+path = "exercises/primitive_types/primitive_types_x089/main_test.go"
+mode = "test"
+hint = """
+int(-0.5) == 0, хотя -0.5 лежит в интервале -1.
+Округлите частное вниз с помощью math.Floor до преобразования."""
+
+[[exercises]]
+name = "primitive_types_x057"
+path = "exercises/primitive_types/primitive_types_x057/main_test.go"
+mode = "test"
+hint = """
+Красный — старший байт из трёх: сдвиг на 16. Зелёный — на 8.
+Каждый результат маскируется 0xFF."""
+
+[[exercises]]
+name = "primitive_types_x046"
+path = "exercises/primitive_types/primitive_types_x046/main_test.go"
+mode = "test"
+hint = """
+Разделите строку по точке. Дробную часть дополните нулями до двух цифр
+и сложите: рубли * 100 + копейки."""
+
+[[exercises]]
+name = "primitive_types_x039"
+path = "exercises/primitive_types/primitive_types_x039/main_test.go"
+mode = "test"
+hint = """
+Приведите букву к нижнему регистру, пропустите не-буквы,
+индекс в массиве — смещение от 'a'."""
+
+[[exercises]]
+name = "primitive_types_x020"
+path = "exercises/primitive_types/primitive_types_x020/main_test.go"
+mode = "test"
+hint = """
+Для чисел с плавающей точкой остаток считает функция из пакета math."""
+
+[[exercises]]
+name = "primitive_types_x061"
+path = "exercises/primitive_types/primitive_types_x061/main_test.go"
+mode = "test"
+hint = """
+Для заглавной буквы верните строчную и наоборот; остальные символы
+оставьте без изменений."""
+
+[[exercises]]
+name = "primitive_types_x032"
+path = "exercises/primitive_types/primitive_types_x032/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какая подстрока считается."""
+
+[[exercises]]
+name = "primitive_types_x077"
+path = "exercises/primitive_types/primitive_types_x077/main_test.go"
+mode = "test"
+hint = """
+Суммирование дробных чисел накапливает погрешность, а преобразование
+в int её не исправляет. Переводите каждую цену в копейки с округлением
+и складывайте целые числа."""
+
+[[exercises]]
+name = "primitive_types_x081"
+path = "exercises/primitive_types/primitive_types_x081/main_test.go"
+mode = "test"
+hint = """
+При выходе за диапазон ParseFloat возвращает ±Inf и ошибку с ErrRange.
+Не отбрасывайте ошибку; дополнительно отклоните NaN и бесконечности."""
+
+[[exercises]]
+name = "primitive_types_x052"
+path = "exercises/primitive_types/primitive_types_x052/main_test.go"
+mode = "test"
+hint = """
+Абсолютный порог не подходит для 1e20. Сравните |a-b| с eps,
+умноженным на наибольший из модулей a и b."""
+
+[[exercises]]
+name = "primitive_types_x014"
+path = "exercises/primitive_types/primitive_types_x014/main_test.go"
+mode = "test"
+hint = """
+Второй аргумент ParseInt — основание системы счисления."""
+
+[[exercises]]
+name = "primitive_types_x064"
+path = "exercises/primitive_types/primitive_types_x064/main_test.go"
+mode = "test"
+hint = """
+Удалите пробелы-разделители разрядов и замените запятую на точку."""
+
+[[exercises]]
+name = "primitive_types_x063"
+path = "exercises/primitive_types/primitive_types_x063/main_test.go"
+mode = "test"
+hint = """
+math.Sqrt от отрицательного числа даёт NaN. Используйте cmplx.Sqrt
+от дискриминанта, приведённого к complex128."""
+
+[[exercises]]
+name = "primitive_types_x047"
+path = "exercises/primitive_types/primitive_types_x047/main_test.go"
+mode = "test"
+hint = """
+Соберите срез рун только из букв в нижнем регистре,
+затем сравнивайте его с двух концов."""
+
+[[exercises]]
+name = "primitive_types_x058"
+path = "exercises/primitive_types/primitive_types_x058/main_test.go"
+mode = "test"
+hint = """
+Сдвиг uint16 на 16 бит даёт 0 — сначала расширьте значение до uint32.
+При распаковке используйте сдвиг и преобразование к uint16."""
+
+[[exercises]]
+name = "primitive_types_x049"
+path = "exercises/primitive_types/primitive_types_x049/main_test.go"
+mode = "test"
+hint = """
+Для каждого байта проверяйте младший бит (b & 1) и сдвигайте байт вправо,
+пока он не станет нулём."""
+
+[[exercises]]
+name = "primitive_types_x028"
+path = "exercises/primitive_types/primitive_types_x028/main_test.go"
+mode = "test"
+hint = """
+Флаг 0 и ширина перед глаголом: %0Nb."""
+
+[[exercises]]
+name = "primitive_types_x027"
+path = "exercises/primitive_types/primitive_types_x027/main_test.go"
+mode = "test"
+hint = """
+%X печатает заглавные буквы, %x — строчные."""
+
+[[exercises]]
+name = "primitive_types_x098"
+path = "exercises/primitive_types/primitive_types_x098/main_test.go"
+mode = "test"
+hint = """
+Результат не помещается в int32. Используйте int64 и для вычисления,
+и для результата."""
+
+[[exercises]]
+name = "primitive_types_x007"
+path = "exercises/primitive_types/primitive_types_x007/main_test.go"
+mode = "test"
+hint = """
+Код следующего символа больше на единицу."""
+
+[[exercises]]
+name = "primitive_types_x062"
+path = "exercises/primitive_types/primitive_types_x062/main_test.go"
+mode = "test"
+hint = """
+Считайте отдельно буквы и гласные. Делите во float64 и только
+если букв больше нуля."""
+
+[[exercises]]
+name = "primitive_types_x085"
+path = "exercises/primitive_types/primitive_types_x085/main_test.go"
+mode = "test"
+hint = """
+math.Round(-0.4) даёт -0. -0 == 0 истинно, поэтому можно заменить
+результат нулём, если он равен нулю."""
+
+[[exercises]]
+name = "primitive_types_x067"
+path = "exercises/primitive_types/primitive_types_x067/main_test.go"
+mode = "test"
+hint = """
+Младший полубайт нужно сдвинуть влево на 4, старший — вправо на 4,
+и объединить результаты через |."""
+
+[[exercises]]
+name = "primitive_types_x082"
+path = "exercises/primitive_types/primitive_types_x082/main_test.go"
+mode = "test"
+hint = """
+byte('•') обрезает код символа до одного байта. Для записи произвольного
+символа Unicode используйте WriteRune."""
+
+[[exercises]]
+name = "primitive_types_x091"
+path = "exercises/primitive_types/primitive_types_x091/main_test.go"
+mode = "test"
+hint = """
+Для float64 0/0 = NaN, и программа молча продолжает работу.
+Обработайте пустой срез явно."""
+
+[[exercises]]
+name = "primitive_types_x087"
+path = "exercises/primitive_types/primitive_types_x087/main_test.go"
+mode = "test"
+hint = """
+0.1, сложенное десять раз, не равно 1.0. Используйте целочисленный
+счётчик или сравнение с допуском."""
+
+[[exercises]]
+name = "primitive_types_x048"
+path = "exercises/primitive_types/primitive_types_x048/main_test.go"
+mode = "test"
+hint = """
+Для строчных: 'z' - (r - 'a'). Для заглавных — то же с 'A' и 'Z'."""
+
+[[exercises]]
+name = "primitive_types_x050"
+path = "exercises/primitive_types/primitive_types_x050/main_test.go"
+mode = "test"
+hint = """
+Идите справа налево; каждую вторую цифру удваивайте и, если результат
+больше 9, вычитайте 9. Сумма всех цифр должна делиться на 10."""
+
+[[exercises]]
+name = "primitive_types_x024"
+path = "exercises/primitive_types/primitive_types_x024/main_test.go"
+mode = "test"
+hint = """
+fmt.Sprint печатает срез как список чисел. Нужна прямая конверсия типа."""
+
+[[exercises]]
+name = "primitive_types_x051"
+path = "exercises/primitive_types/primitive_types_x051/main_test.go"
+mode = "test"
+hint = """
+Считайте длину серии одинаковых символов. Когда символ меняется
+(или строка заканчивается), запишите символ и длину серии."""
+
+[[exercises]]
+name = "primitive_types_x025"
+path = "exercises/primitive_types/primitive_types_x025/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какой символ ищется."""
+
+[[exercises]]
+name = "primitive_types_x001"
+path = "exercises/primitive_types/primitive_types_x001/main_test.go"
+mode = "test"
+hint = """
+Сравнение само по себе имеет тип bool. Проверьте знак сравнения."""
+
+[[exercises]]
+name = "primitive_types_x008"
+path = "exercises/primitive_types/primitive_types_x008/main_test.go"
+mode = "test"
+hint = """
+Нужна функция, обратная strings.ToLower."""
+
+[[exercises]]
+name = "primitive_types_x073"
+path = "exercises/primitive_types/primitive_types_x073/main_test.go"
+mode = "test"
+hint = """
+Изменения в срезе байт не отражаются на исходной строке.
+Верните новую строку, собранную из изменённого среза."""
+
+[[exercises]]
+name = "primitive_types_x092"
+path = "exercises/primitive_types/primitive_types_x092/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте нормализованные строки: например, приведённые к нижнему регистру."""
+
+[[exercises]]
+name = "primitive_types_x072"
+path = "exercises/primitive_types/primitive_types_x072/main_test.go"
+mode = "test"
+hint = """
+Проверьте строку функцией utf8.ValidString до подсчёта."""
+
+[[exercises]]
+name = "primitive_types_x068"
+path = "exercises/primitive_types/primitive_types_x068/main_test.go"
+mode = "test"
+hint = """
+-7 / 2 в Go даёт -3. Если остаток не нулевой и знаки делимого и делителя
+различаются, результат нужно уменьшить на единицу."""
+
+[[exercises]]
+name = "primitive_types_x097"
+path = "exercises/primitive_types/primitive_types_x097/main_test.go"
+mode = "test"
+hint = """
+Не вычисляйте заглавную букву арифметикой. Используйте unicode.ToUpper,
+который знает все исключения."""
+
+[[exercises]]
+name = "primitive_types_x065"
+path = "exercises/primitive_types/primitive_types_x065/main_test.go"
+mode = "test"
+hint = """
+%b для отрицательного int8 печатает знак минус. Сначала преобразуйте
+значение в uint8 — биты сохранятся, а знак исчезнет."""
+
+[[exercises]]
+name = "primitive_types_x071"
+path = "exercises/primitive_types/primitive_types_x071/main_test.go"
+mode = "test"
+hint = """
+Для многобайтовых символов индекс i «перескакивает». Ведите собственный
+счётчик символов или используйте []rune."""
+
+[[exercises]]
+name = "primitive_types_x044"
+path = "exercises/primitive_types/primitive_types_x044/main_test.go"
+mode = "test"
+hint = """
+Частей должно быть ровно четыре. Каждая часть — непустое число
+от 0 до 255; строка с ведущим нулём длиннее одного символа некорректна."""
+
+[[exercises]]
+name = "primitive_types_x096"
+path = "exercises/primitive_types/primitive_types_x096/main_test.go"
+mode = "test"
+hint = """
+В Unicode буква ё (U+0451) лежит после я (U+044F). Добавьте её отдельно."""
+
+[[exercises]]
+name = "primitive_types_x013"
+path = "exercises/primitive_types/primitive_types_x013/main_test.go"
+mode = "test"
+hint = """
+В пакете unicode есть функции IsUpper и IsLower."""
+
+[[exercises]]
+name = "primitive_types_x099"
+path = "exercises/primitive_types/primitive_types_x099/main_test.go"
+mode = "test"
+hint = """
+Строка Go может содержать нулевые байты. Найдите первый нулевой байт
+(bytes.IndexByte) и возьмите часть буфера до него."""
+
+[[exercises]]
+name = "primitive_types_x023"
+path = "exercises/primitive_types/primitive_types_x023/main_test.go"
+mode = "test"
+hint = """
+string(r) для руны даёт строку из этого символа.
+strconv.Itoa превращает в строку число, а не символ."""
+
+[[exercises]]
+name = "primitive_types_x005"
+path = "exercises/primitive_types/primitive_types_x005/main_test.go"
+mode = "test"
+hint = """
+Для беззнаковых типов в пакете math есть константы MaxUint8, MaxUint16..."""
+
+[[exercises]]
+name = "primitive_types_x070"
+path = "exercises/primitive_types/primitive_types_x070/main_test.go"
+mode = "test"
+hint = """
+s[:n] берёт n байт, а не n символов. Преобразуйте строку в []rune
+и режьте срез рун."""
+
+[[exercises]]
+name = "primitive_types_x036"
+path = "exercises/primitive_types/primitive_types_x036/main_test.go"
+mode = "test"
+hint = """
+Байт '7' имеет код 55. Чтобы получить число 7, вычтите '0'.
+Не забудьте пропускать нецифровые символы."""
+
+[[exercises]]
+name = "primitive_types_x093"
+path = "exercises/primitive_types/primitive_types_x093/main_test.go"
+mode = "test"
+hint = """
+Split всегда возвращает хотя бы один элемент. Обработайте пустую строку
+отдельно (и пропускайте пустые элементы)."""
+
+[[exercises]]
+name = "primitive_types_x006"
+path = "exercises/primitive_types/primitive_types_x006/main_test.go"
+mode = "test"
+hint = """
+int64(a*b) сначала перемножает int32 (с переполнением), а уже потом
+расширяет результат. Преобразуйте каждый множитель."""
+
+[[exercises]]
+name = "primitive_types_x078"
+path = "exercises/primitive_types/primitive_types_x078/main_test.go"
+mode = "test"
+hint = """
+Используйте strconv.FormatFloat с форматом 'f' и точностью -1
+(минимально необходимое число знаков)."""
+
+[[exercises]]
+name = "primitive_types_x033"
+path = "exercises/primitive_types/primitive_types_x033/main_test.go"
+mode = "test"
+hint = """
+В имени может быть несколько точек; расширение идёт после последней."""
+
+[[exercises]]
+name = "primitive_types_x003"
+path = "exercises/primitive_types/primitive_types_x003/main_test.go"
+mode = "test"
+hint = """
+Для целых чисел используется глагол %d, а %s — для строк."""
+
+[[exercises]]
+name = "primitive_types_x059"
+path = "exercises/primitive_types/primitive_types_x059/main_test.go"
+mode = "test"
+hint = """
+binary.BigEndian и binary.LittleEndian дают противоположный порядок.
+Для записи есть PutUint32, для чтения — Uint32."""
+
+[[exercises]]
+name = "primitive_types_x037"
+path = "exercises/primitive_types/primitive_types_x037/main_test.go"
+mode = "test"
+hint = """
+Разбейте строку на слова, для каждого слова переведите руны:
+первую в верхний регистр, остальные в нижний. Затем соберите строку."""
+
+[[exercises]]
+name = "primitive_types_x034"
+path = "exercises/primitive_types/primitive_types_x034/main_test.go"
+mode = "test"
+hint = """
+Разность 'z' - 'a' не учитывает одну из границ."""
+
+[[exercises]]
+name = "primitive_types_x002"
+path = "exercises/primitive_types/primitive_types_x002/main_test.go"
+mode = "test"
+hint = """
+Индексы среза: первый включается, второй — нет. Код начинается после скобки."""
+
+[[exercises]]
+name = "primitive_types_x060"
+path = "exercises/primitive_types/primitive_types_x060/main_test.go"
+mode = "test"
+hint = """
+Итерируйтесь по рунам через range и проверяйте каждую функцией unicode."""
+
+[[exercises]]
+name = "primitive_types_x022"
+path = "exercises/primitive_types/primitive_types_x022/main_test.go"
+mode = "test"
+hint = """
+Преобразования int(b) для bool в Go нет. Используйте условный оператор if."""
+
+[[exercises]]
+name = "primitive_types_x066"
+path = "exercises/primitive_types/primitive_types_x066/main_test.go"
+mode = "test"
+hint = """
+Все байты ASCII меньше 128. Многобайтовые символы UTF-8 содержат
+байты от 128 и выше. Проверяйте каждый байт."""
+
+[[exercises]]
+name = "primitive_types_x054"
+path = "exercises/primitive_types/primitive_types_x054/main_test.go"
+mode = "test"
+hint = """
+Переполнение возможно, только если знаки слагаемых одинаковы,
+а знак результата — другой."""
+
+[[exercises]]
+name = "primitive_types_x009"
+path = "exercises/primitive_types/primitive_types_x009/main_test.go"
+mode = "test"
+hint = """
+Проверьте порядок аргументов: сначала где ищем, потом что ищем."""
+
+[[exercises]]
+name = "primitive_types_x012"
+path = "exercises/primitive_types/primitive_types_x012/main_test.go"
+mode = "test"
+hint = """
+strings.Split(s, " ") создаёт пустые элементы между соседними пробелами.
+Есть функция, которая разбивает по любым пробельным символам."""
+
+[[exercises]]
+name = "primitive_types_x043"
+path = "exercises/primitive_types/primitive_types_x043/main_test.go"
+mode = "test"
+hint = """
+Число — вся строка без последнего символа. Для Фаренгейта
+примените формулу (F - 32) * 5 / 9. Неизвестная единица — ошибка."""
+
+[[exercises]]
+name = "primitive_types_x100"
+path = "exercises/primitive_types/primitive_types_x100/main_test.go"
+mode = "test"
+hint = """
+math.Mod(-30, 360) = -30. Если результат отрицательный, прибавьте 360."""
+
+[[exercises]]
+name = "primitive_types_x053"
+path = "exercises/primitive_types/primitive_types_x053/main_test.go"
+mode = "test"
+hint = """
+Возьмите приближение через math.Sqrt, а затем подправьте его:
+уменьшайте, пока r*r > n, и увеличивайте, пока (r+1)*(r+1) <= n."""
+
+[[exercises]]
+name = "primitive_types_x011"
+path = "exercises/primitive_types/primitive_types_x011/main_test.go"
+mode = "test"
+hint = """
+Последний аргумент Replace задаёт количество замен. -1 означает «все»."""
+
+[[exercises]]
+name = "primitive_types_x045"
+path = "exercises/primitive_types/primitive_types_x045/main_test.go"
+mode = "test"
+hint = """
+Умножьте на 10^n, округлите до целого и разделите обратно."""
+
+[[exercises]]
+name = "primitive_types_x004"
+path = "exercises/primitive_types/primitive_types_x004/main_test.go"
+mode = "test"
+hint = """
+Точность задаётся между % и f: %.Nf."""
+
+[[exercises]]
+name = "primitive_types_x083"
+path = "exercises/primitive_types/primitive_types_x083/main_test.go"
+mode = "test"
+hint = """
+Арабские или деванагари цифры — тоже «цифры» для unicode.
+Проверяйте диапазон байтов '0'..'9'."""
+
+[[exercises]]
+name = "primitive_types_x030"
+path = "exercises/primitive_types/primitive_types_x030/main_test.go"
+mode = "test"
+hint = """
+Для булевых значений используется глагол %t."""
+
+[[exercises]]
+name = "primitive_types_x018"
+path = "exercises/primitive_types/primitive_types_x018/main_test.go"
+mode = "test"
+hint = """
+math.Pow(x, y) возводит x в степень y. Проверьте порядок аргументов."""
+
+[[exercises]]
+name = "primitive_types_x074"
+path = "exercises/primitive_types/primitive_types_x074/main_test.go"
+mode = "test"
+hint = """
+a + b вычисляется в uint8 и переполняется до деления.
+Выполните сложение в более широком типе."""
+
+[[exercises]]
+name = "primitive_types_x019"
+path = "exercises/primitive_types/primitive_types_x019/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какая функция вызывается."""
+
+[[exercises]]
+name = "primitive_types_x010"
+path = "exercises/primitive_types/primitive_types_x010/main_test.go"
+mode = "test"
+hint = """
+Проверьте разделитель, передаваемый в Split."""
+
+[[exercises]]
+name = "primitive_types_x031"
+path = "exercises/primitive_types/primitive_types_x031/main_test.go"
+mode = "test"
+hint = """
+Hypot принимает разности координат по осям."""
+
+[[exercises]]
+name = "primitive_types_x026"
+path = "exercises/primitive_types/primitive_types_x026/main_test.go"
+mode = "test"
+hint = """
+TrimSuffix убирает окончание, а для начала строки есть другая функция."""
+
+[[exercises]]
+name = "primitive_types_x015"
+path = "exercises/primitive_types/primitive_types_x015/main_test.go"
+mode = "test"
+hint = """
+Проверьте основание, переданное в FormatInt."""
+
+[[exercises]]
+name = "primitive_types_x090"
+path = "exercises/primitive_types/primitive_types_x090/main_test.go"
+mode = "test"
+hint = """
+Счётчик сдвига не может быть отрицательным. Для отрицательного n
+выполните сдвиг вправо на -n."""
+
+[[exercises]]
+name = "primitive_types_x084"
+path = "exercises/primitive_types/primitive_types_x084/main_test.go"
+mode = "test"
+hint = """
+Правило «половина к чётному» реализует отдельная функция пакета math."""
+
+[[exercises]]
+name = "primitive_types_x095"
+path = "exercises/primitive_types/primitive_types_x095/main_test.go"
+mode = "test"
+hint = """
+Проверяйте результат после каждого умножения функцией math.IsInf."""
