@@ -10146,3 +10146,1202 @@ path = "exercises/concurrent/concurrent_x013/main_test.go"
 mode = "test"
 hint = """
 Передавайте *sync.WaitGroup."""
+
+# ===== generated exercises: algorithms =====
+[[exercises]]
+name = "algorithms_x062"
+path = "exercises/algorithms/algorithms_x062/main_test.go"
+mode = "test"
+hint = """
+Симметричный обход BST даёт значения по возрастанию. Считайте посещённые
+узлы и остановитесь на k-м."""
+
+[[exercises]]
+name = "algorithms_x024"
+path = "exercises/algorithms/algorithms_x024/main_test.go"
+mode = "test"
+hint = """
+Храните в деке индексы с убывающими значениями. Удаляйте с хвоста меньшие
+элементы перед добавлением и с головы — вышедшие за окно индексы."""
+
+[[exercises]]
+name = "algorithms_x005"
+path = "exercises/algorithms/algorithms_x005/main_test.go"
+mode = "test"
+hint = """
+Посчитайте частоты, разложите значения по «корзинам» индекса-частоты
+и собирайте ответ, идя от больших частот к меньшим (сортируя каждую корзину)."""
+
+[[exercises]]
+name = "algorithms_x076"
+path = "exercises/algorithms/algorithms_x076/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте встречи по началу. Держите в куче времена окончания занятых
+комнат: если самая ранняя освободилась, переиспользуйте её."""
+
+[[exercises]]
+name = "algorithms_x050"
+path = "exercises/algorithms/algorithms_x050/main_test.go"
+mode = "test"
+hint = """
+Складывайте цифры вместе с переносом, пока хотя бы один список не кончился
+или перенос не нулевой."""
+
+[[exercises]]
+name = "algorithms_x031"
+path = "exercises/algorithms/algorithms_x031/main_test.go"
+mode = "test"
+hint = """
+Храните в стеке пары (накопленная строка, множитель). При '[' кладите текущее
+состояние в стек, при ']' — повторите текущую строку и приклейте к сохранённой."""
+
+[[exercises]]
+name = "algorithms_x088"
+path = "exercises/algorithms/algorithms_x088/main_test.go"
+mode = "test"
+hint = """
+Если цвет клетки уже совпадает с новым, ничего делать не нужно.
+Иначе рекурсивно перекрашивайте соседей исходного цвета."""
+
+[[exercises]]
+name = "algorithms_x037"
+path = "exercises/algorithms/algorithms_x037/main_test.go"
+mode = "test"
+hint = """
+Ищите первый индекс, где nums[i] >= target, на полуинтервале [0, len)."""
+
+[[exercises]]
+name = "algorithms_x010"
+path = "exercises/algorithms/algorithms_x010/main_test.go"
+mode = "test"
+hint = """
+Ответ лежит в диапазоне 1..n+1. Переставьте каждое число v из этого диапазона
+на позицию v-1 (обменами), затем найдите первую позицию, где nums[i] != i+1."""
+
+[[exercises]]
+name = "algorithms_x114"
+path = "exercises/algorithms/algorithms_x114/main_test.go"
+mode = "test"
+hint = """
+Если символы совпали, ответ — 1 плюс значение для обоих укороченных префиксов,
+иначе — максимум из двух вариантов с одним укороченным префиксом."""
+
+[[exercises]]
+name = "algorithms_x102"
+path = "exercises/algorithms/algorithms_x102/main_test.go"
+mode = "test"
+hint = """
+Для каждого дома выбирайте лучшее из двух: пропустить его или взять
+вместе с лучшим результатом до предыдущего дома."""
+
+[[exercises]]
+name = "algorithms_x017"
+path = "exercises/algorithms/algorithms_x017/main_test.go"
+mode = "test"
+hint = """
+Указатель записи w стоит после последнего уникального значения.
+Записывайте элемент, если он отличается от nums[w-1]."""
+
+[[exercises]]
+name = "algorithms_x120"
+path = "exercises/algorithms/algorithms_x120/main_test.go"
+mode = "test"
+hint = """
+dp[j] — число способов получить префикс t длины j. Обновляйте массив
+справа налево для каждого символа s."""
+
+[[exercises]]
+name = "algorithms_x135"
+path = "exercises/algorithms/algorithms_x135/main_test.go"
+mode = "test"
+hint = """
+XOR даёт единицы в различающихся битах — остаётся их посчитать."""
+
+[[exercises]]
+name = "algorithms_x091"
+path = "exercises/algorithms/algorithms_x091/main_test.go"
+mode = "test"
+hint = """
+Реализуйте find со сжатием путей и union по размеру. Каждое успешное
+объединение уменьшает количество компонент на единицу."""
+
+[[exercises]]
+name = "algorithms_x034"
+path = "exercises/algorithms/algorithms_x034/main_test.go"
+mode = "test"
+hint = """
+Для каждой строки постройте высоты столбцов из единиц, заканчивающихся
+в этой строке, и решите задачу о наибольшем прямоугольнике в гистограмме."""
+
+[[exercises]]
+name = "algorithms_x007"
+path = "exercises/algorithms/algorithms_x007/main_test.go"
+mode = "test"
+hint = """
+Держите кандидата и счётчик: при нулевом счётчике текущий элемент становится
+кандидатом; совпадение увеличивает счётчик, несовпадение уменьшает."""
+
+[[exercises]]
+name = "algorithms_x124"
+path = "exercises/algorithms/algorithms_x124/main_test.go"
+mode = "test"
+hint = """
+Если суммарного топлива меньше суммарных затрат, ответа нет. Иначе старт —
+позиция после места, где текущий баланс стал отрицательным."""
+
+[[exercises]]
+name = "algorithms_x093"
+path = "exercises/algorithms/algorithms_x093/main_test.go"
+mode = "test"
+hint = """
+Стройте уровни BFS. Для слова перебирайте все позиции и все буквы,
+проверяя наличие получившегося слова в множестве."""
+
+[[exercises]]
+name = "algorithms_x101"
+path = "exercises/algorithms/algorithms_x101/main_test.go"
+mode = "test"
+hint = """
+Способов дойти до ступени i столько же, сколько сумма способов
+дойти до i-1 и i-2. Храните два последних значения."""
+
+[[exercises]]
+name = "algorithms_x121"
+path = "exercises/algorithms/algorithms_x121/main_test.go"
+mode = "test"
+hint = """
+Считайте dp[l][r] — лучшие очки для открытого интервала (l, r), перебирая,
+какой шарик лопается последним."""
+
+[[exercises]]
+name = "algorithms_x115"
+path = "exercises/algorithms/algorithms_x115/main_test.go"
+mode = "test"
+hint = """
+Обновляйте массив лучших ценностей по вместимости справа налево,
+чтобы каждый предмет учитывался один раз."""
+
+[[exercises]]
+name = "algorithms_x138"
+path = "exercises/algorithms/algorithms_x138/main_test.go"
+mode = "test"
+hint = """
+Идите с конца обеих строк, складывая цифры и перенос. Результат
+собирайте в обратном порядке, затем разверните."""
+
+[[exercises]]
+name = "algorithms_x126"
+path = "exercises/algorithms/algorithms_x126/main_test.go"
+mode = "test"
+hint = """
+Держите счётчики пятёрок и десяток. Сдачу с 20 выгоднее давать
+как 10 + 5, оставляя пятёрки на потом."""
+
+[[exercises]]
+name = "algorithms_x119"
+path = "exercises/algorithms/algorithms_x119/main_test.go"
+mode = "test"
+hint = """
+При ДП по строке: dp[j] для шаблона обновляется слева направо;
+'*' позволяет либо пропустить символ строки, либо съесть его."""
+
+[[exercises]]
+name = "algorithms_x129"
+path = "exercises/algorithms/algorithms_x129/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте по началу и проверьте, что каждая встреча начинается
+не раньше конца предыдущей."""
+
+[[exercises]]
+name = "algorithms_x128"
+path = "exercises/algorithms/algorithms_x128/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте по началу. Если очередной интервал начинается не позже конца
+последнего в ответе, расширьте последний, иначе добавьте новый."""
+
+[[exercises]]
+name = "algorithms_x036"
+path = "exercises/algorithms/algorithms_x036/main_test.go"
+mode = "test"
+hint = """
+Сужайте отрезок [lo, hi], сравнивая target со средним элементом.
+Середину считайте как lo + (hi-lo)/2."""
+
+[[exercises]]
+name = "algorithms_x046"
+path = "exercises/algorithms/algorithms_x046/main_test.go"
+mode = "test"
+hint = """
+Заведите фиктивный узел и хвост. Присоединяйте к хвосту меньший из текущих
+узлов, в конце присоедините остаток."""
+
+[[exercises]]
+name = "algorithms_x052"
+path = "exercises/algorithms/algorithms_x052/main_test.go"
+mode = "test"
+hint = """
+Положите в мин-кучу (container/heap) головы всех непустых списков.
+Извлекайте минимальный узел, присоединяйте его к ответу и добавляйте в кучу
+следующий узел того же списка."""
+
+[[exercises]]
+name = "algorithms_x123"
+path = "exercises/algorithms/algorithms_x123/main_test.go"
+mode = "test"
+hint = """
+Идите по массиву, запоминая самую дальнюю достижимую позицию. Когда
+доходите до конца текущего прыжка, увеличивайте счётчик и продлевайте границу."""
+
+[[exercises]]
+name = "algorithms_x071"
+path = "exercises/algorithms/algorithms_x071/main_test.go"
+mode = "test"
+hint = """
+Для каждого слова проверьте разбиение на части, которые есть в множестве
+остальных слов (DP по позициям), требуя минимум две части."""
+
+[[exercises]]
+name = "algorithms_x001"
+path = "exercises/algorithms/algorithms_x001/main_test.go"
+mode = "test"
+hint = """
+Проходите массив один раз и храните в map уже увиденные значения и их индексы.
+Для текущего элемента ищите в map дополнение target - v."""
+
+[[exercises]]
+name = "algorithms_x048"
+path = "exercises/algorithms/algorithms_x048/main_test.go"
+mode = "test"
+hint = """
+Когда быстрый указатель дойдёт до конца, медленный будет в середине."""
+
+[[exercises]]
+name = "algorithms_x143"
+path = "exercises/algorithms/algorithms_x143/main_test.go"
+mode = "test"
+hint = """
+Отмечайте составные числа, начиная с квадрата каждого простого
+и шагая на его величину."""
+
+[[exercises]]
+name = "algorithms_x086"
+path = "exercises/algorithms/algorithms_x086/main_test.go"
+mode = "test"
+hint = """
+Находите первую пустую клетку и пробуйте цифры, проверяя строку, столбец
+и квадрат. При неудаче возвращайте клетку в исходное состояние."""
+
+[[exercises]]
+name = "algorithms_x134"
+path = "exercises/algorithms/algorithms_x134/main_test.go"
+mode = "test"
+hint = """
+У положительной степени двойки ровно один установленный бит,
+поэтому x & (x-1) равно нулю."""
+
+[[exercises]]
+name = "algorithms_x042"
+path = "exercises/algorithms/algorithms_x042/main_test.go"
+mode = "test"
+hint = """
+Ищите разбиение меньшего среза так, чтобы левые части обоих срезов вместе
+содержали половину элементов и все левые элементы были не больше правых."""
+
+[[exercises]]
+name = "algorithms_x136"
+path = "exercises/algorithms/algorithms_x136/main_test.go"
+mode = "test"
+hint = """
+XOR даёт сложение без переносов, а (a & b) << 1 — сами переносы.
+Повторяйте, пока переносы не исчезнут; используйте беззнаковый тип."""
+
+[[exercises]]
+name = "algorithms_x113"
+path = "exercises/algorithms/algorithms_x113/main_test.go"
+mode = "test"
+hint = """
+Стоимость клетки — её значение плюс минимум из стоимостей соседей сверху
+и слева. Первая строка и первый столбец считаются накоплением."""
+
+[[exercises]]
+name = "algorithms_x012"
+path = "exercises/algorithms/algorithms_x012/main_test.go"
+mode = "test"
+hint = """
+Двигайте указатели с двух концов, пропуская лишние символы,
+и сравнивайте символы в нижнем регистре."""
+
+[[exercises]]
+name = "algorithms_x053"
+path = "exercises/algorithms/algorithms_x053/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что впереди есть k узлов. Разверните их, соедините с предыдущей
+частью и продолжите с конца развёрнутой группы."""
+
+[[exercises]]
+name = "algorithms_x049"
+path = "exercises/algorithms/algorithms_x049/main_test.go"
+mode = "test"
+hint = """
+Используйте фиктивную голову. Сдвиньте быстрый указатель на n+1 шагов,
+затем двигайте оба до конца: медленный окажется перед удаляемым узлом."""
+
+[[exercises]]
+name = "algorithms_x069"
+path = "exercises/algorithms/algorithms_x069/main_test.go"
+mode = "test"
+hint = """
+Возьмите первую строку как кандидата и укорачивайте её, пока она не станет
+префиксом каждой следующей строки."""
+
+[[exercises]]
+name = "algorithms_x146"
+path = "exercises/algorithms/algorithms_x146/main_test.go"
+mode = "test"
+hint = """
+Для каждого элемента сдвигайте вправо все большие элементы слева
+и вставляйте его на освободившееся место."""
+
+[[exercises]]
+name = "algorithms_x067"
+path = "exercises/algorithms/algorithms_x067/main_test.go"
+mode = "test"
+hint = """
+Первый элемент прямого обхода — корень. Его позиция в симметричном обходе
+делит массив на левое и правое поддеревья. Позиции храните в map."""
+
+[[exercises]]
+name = "algorithms_x030"
+path = "exercises/algorithms/algorithms_x030/main_test.go"
+mode = "test"
+hint = """
+Храните в стеке индексы столбцов с возрастающей высотой. Когда встречается
+более низкий столбец, снимайте столбцы и считайте площадь, где снятый столбец —
+самый низкий. В конце добавьте «столбец» высоты 0."""
+
+[[exercises]]
+name = "algorithms_x149"
+path = "exercises/algorithms/algorithms_x149/main_test.go"
+mode = "test"
+hint = """
+Сначала постройте max-кучу, просеивая элементы от середины к началу.
+Затем меняйте корень с последним элементом и просеивайте корень
+в уменьшающейся куче."""
+
+[[exercises]]
+name = "algorithms_x035"
+path = "exercises/algorithms/algorithms_x035/main_test.go"
+mode = "test"
+hint = """
+Храните частоту каждого значения и отдельный стек для каждой частоты.
+Pop берёт из стека максимальной частоты и уменьшает частоту значения."""
+
+[[exercises]]
+name = "algorithms_x063"
+path = "exercises/algorithms/algorithms_x063/main_test.go"
+mode = "test"
+hint = """
+Для каждого узла путь через него равен сумме глубин поддеревьев.
+Считайте глубину рекурсивно и попутно обновляйте лучший ответ."""
+
+[[exercises]]
+name = "algorithms_x105"
+path = "exercises/algorithms/algorithms_x105/main_test.go"
+mode = "test"
+hint = """
+dp[i] — можно ли разобрать префикс длины i. Для каждой позиции проверяйте
+все предыдущие точки разбиения и наличие подстроки в словаре."""
+
+[[exercises]]
+name = "algorithms_x009"
+path = "exercises/algorithms/algorithms_x009/main_test.go"
+mode = "test"
+hint = """
+Храните минимальную цену до текущего дня и обновляйте лучший результат
+разницей текущей цены и этого минимума."""
+
+[[exercises]]
+name = "algorithms_x058"
+path = "exercises/algorithms/algorithms_x058/main_test.go"
+mode = "test"
+hint = """
+Деревья одинаковы, если оба пусты либо значения корней совпадают
+и одинаковы соответствующие поддеревья."""
+
+[[exercises]]
+name = "algorithms_x045"
+path = "exercises/algorithms/algorithms_x045/main_test.go"
+mode = "test"
+hint = """
+Идите по списку, перенаправляя указатель Next текущего узла на предыдущий."""
+
+[[exercises]]
+name = "algorithms_x098"
+path = "exercises/algorithms/algorithms_x098/main_test.go"
+mode = "test"
+hint = """
+Обходите граф в глубину, запоминая время входа и минимальное достижимое
+время. Ребро (u, v) — мост, если low[v] > tin[u]."""
+
+[[exercises]]
+name = "algorithms_x075"
+path = "exercises/algorithms/algorithms_x075/main_test.go"
+mode = "test"
+hint = """
+Держите max-кучу меньшей половины и min-кучу большей. Балансируйте размеры;
+медиана — вершина большей кучи или среднее вершин."""
+
+[[exercises]]
+name = "algorithms_x092"
+path = "exercises/algorithms/algorithms_x092/main_test.go"
+mode = "test"
+hint = """
+Постройте список смежности и обойдите граф от start, отмечая посещённые
+вершины."""
+
+[[exercises]]
+name = "algorithms_x033"
+path = "exercises/algorithms/algorithms_x033/main_test.go"
+mode = "test"
+hint = """
+Храните в стеке индексы, начиная с -1 как «базы». Для ')' снимайте вершину;
+если стек опустел — положите текущий индекс как новую базу, иначе длина
+равна i минус новая вершина."""
+
+[[exercises]]
+name = "algorithms_x065"
+path = "exercises/algorithms/algorithms_x065/main_test.go"
+mode = "test"
+hint = """
+Запишите значения в прямом порядке, помечая отсутствующие узлы символом "#".
+При разборе читайте токены по очереди и восстанавливайте узлы рекурсивно."""
+
+[[exercises]]
+name = "algorithms_x016"
+path = "exercises/algorithms/algorithms_x016/main_test.go"
+mode = "test"
+hint = """
+Держите максимумы слева и справа. Двигайте указатель с меньшим максимумом:
+вода над ним равна этому максимуму минус высота столбца."""
+
+[[exercises]]
+name = "algorithms_x103"
+path = "exercises/algorithms/algorithms_x103/main_test.go"
+mode = "test"
+hint = """
+dp[s] — минимум монет для суммы s. Перебирайте суммы по возрастанию
+и для каждой монеты обновляйте dp[s] через dp[s-coin] + 1."""
+
+[[exercises]]
+name = "algorithms_x116"
+path = "exercises/algorithms/algorithms_x116/main_test.go"
+mode = "test"
+hint = """
+Для каждого центра (символ и промежуток между символами) расширяйтесь,
+пока символы слева и справа совпадают."""
+
+[[exercises]]
+name = "algorithms_x072"
+path = "exercises/algorithms/algorithms_x072/main_test.go"
+mode = "test"
+hint = """
+Держите в куче k наибольших элементов: добавляйте новый и, если размер
+превысил k, удаляйте минимальный."""
+
+[[exercises]]
+name = "algorithms_x047"
+path = "exercises/algorithms/algorithms_x047/main_test.go"
+mode = "test"
+hint = """
+Медленный указатель делает один шаг, быстрый — два. Если они встретились,
+цикл есть; если быстрый дошёл до конца — нет."""
+
+[[exercises]]
+name = "algorithms_x106"
+path = "exercises/algorithms/algorithms_x106/main_test.go"
+mode = "test"
+hint = """
+Для позиции i учитывайте одну цифру (если она не '0') и две цифры
+(если число от 10 до 26). Храните два предыдущих значения."""
+
+[[exercises]]
+name = "algorithms_x023"
+path = "exercises/algorithms/algorithms_x023/main_test.go"
+mode = "test"
+hint = """
+Считайте, сколько каждого символа нужно. Расширяйте окно вправо, пока все
+символы не покрыты, затем сжимайте слева, обновляя лучший ответ."""
+
+[[exercises]]
+name = "algorithms_x025"
+path = "exercises/algorithms/algorithms_x025/main_test.go"
+mode = "test"
+hint = """
+Поддерживайте отсортированную копию окна: вставляйте новый элемент
+двоичным поиском и удаляйте уходящий тоже двоичным поиском."""
+
+[[exercises]]
+name = "algorithms_x018"
+path = "exercises/algorithms/algorithms_x018/main_test.go"
+mode = "test"
+hint = """
+Держите границы low (для 0) и high (для 2) и текущий индекс mid.
+0 меняйте с low, 2 — с high (не сдвигая mid), 1 пропускайте."""
+
+[[exercises]]
+name = "algorithms_x068"
+path = "exercises/algorithms/algorithms_x068/main_test.go"
+mode = "test"
+hint = """
+Каждый узел хранит детей по символам и признак конца слова.
+Search требует признак конца, StartsWith — только наличие пути."""
+
+[[exercises]]
+name = "algorithms_x139"
+path = "exercises/algorithms/algorithms_x139/main_test.go"
+mode = "test"
+hint = """
+Отрицательные числа палиндромами не считаются. Разворачивайте половину
+числа и сравнивайте с оставшейся частью."""
+
+[[exercises]]
+name = "algorithms_x108"
+path = "exercises/algorithms/algorithms_x108/main_test.go"
+mode = "test"
+hint = """
+Если общая сумма нечётна — нельзя. Иначе ищите достижимость суммы S/2,
+обновляя массив достижимых сумм справа налево для каждого числа."""
+
+[[exercises]]
+name = "algorithms_x008"
+path = "exercises/algorithms/algorithms_x008/main_test.go"
+mode = "test"
+hint = """
+Храните в map, сколько раз встречалась каждая префиксная сумма (начиная с 0).
+Для текущей суммы s добавляйте к ответу количество префиксов, равных s - k."""
+
+[[exercises]]
+name = "algorithms_x032"
+path = "exercises/algorithms/algorithms_x032/main_test.go"
+mode = "test"
+hint = """
+Держите текущий результат и знак. При '(' сохраните результат и знак в стек
+и начните заново; при ')' — умножьте результат на сохранённый знак и прибавьте
+к сохранённому результату."""
+
+[[exercises]]
+name = "algorithms_x028"
+path = "exercises/algorithms/algorithms_x028/main_test.go"
+mode = "test"
+hint = """
+Храните в стеке индексы дней с убывающей температурой. Когда пришёл
+более тёплый день, снимайте дни со стека и записывайте для них разницу индексов."""
+
+[[exercises]]
+name = "algorithms_x066"
+path = "exercises/algorithms/algorithms_x066/main_test.go"
+mode = "test"
+hint = """
+Для узла считайте лучший «вклад вниз»: значение узла плюс максимум из вкладов
+поддеревьев (отрицательные вклады отбрасывайте). Ответ обновляйте суммой
+узла и обоих вкладов."""
+
+[[exercises]]
+name = "algorithms_x150"
+path = "exercises/algorithms/algorithms_x150/main_test.go"
+mode = "test"
+hint = """
+При слиянии двух отсортированных половин каждый элемент правой части,
+который меньше текущего элемента левой, даёт столько инверсий,
+сколько элементов осталось в левой части."""
+
+[[exercises]]
+name = "algorithms_x027"
+path = "exercises/algorithms/algorithms_x027/main_test.go"
+mode = "test"
+hint = """
+Храните вместе с каждым элементом минимум стека на момент его добавления."""
+
+[[exercises]]
+name = "algorithms_x131"
+path = "exercises/algorithms/algorithms_x131/main_test.go"
+mode = "test"
+hint = """
+Операция x & (x-1) обнуляет младший установленный бит."""
+
+[[exercises]]
+name = "algorithms_x084"
+path = "exercises/algorithms/algorithms_x084/main_test.go"
+mode = "test"
+hint = """
+Запускайте DFS из каждой клетки, совпадающей с первой буквой. Помечайте
+клетку как посещённую на время рекурсии и восстанавливайте после."""
+
+[[exercises]]
+name = "algorithms_x133"
+path = "exercises/algorithms/algorithms_x133/main_test.go"
+mode = "test"
+hint = """
+Сдвигайте результат влево и добавляйте младший бит исходного числа,
+одновременно сдвигая его вправо. Всего 32 шага."""
+
+[[exercises]]
+name = "algorithms_x011"
+path = "exercises/algorithms/algorithms_x011/main_test.go"
+mode = "test"
+hint = """
+Указатель w отмечает позицию для следующего ненулевого элемента.
+Меняйте nums[i] и nums[w] местами при встрече ненулевого значения."""
+
+[[exercises]]
+name = "algorithms_x137"
+path = "exercises/algorithms/algorithms_x137/main_test.go"
+mode = "test"
+hint = """
+Идите с конца: если цифра меньше 9, увеличьте её и возвращайте результат,
+иначе обнуляйте и переходите к следующей. В конце может понадобиться
+новый старший разряд."""
+
+[[exercises]]
+name = "algorithms_x085"
+path = "exercises/algorithms/algorithms_x085/main_test.go"
+mode = "test"
+hint = """
+Идите по строкам. Для каждой строки пробуйте столбцы, не занятые
+по вертикали и по обеим диагоналям (индексы r+c и r-c)."""
+
+[[exercises]]
+name = "algorithms_x118"
+path = "exercises/algorithms/algorithms_x118/main_test.go"
+mode = "test"
+hint = """
+dp[i][j] — совпадает ли префикс строки длины i с префиксом шаблона длины j.
+Для '*' есть два случая: ноль повторений или ещё одно повторение."""
+
+[[exercises]]
+name = "algorithms_x081"
+path = "exercises/algorithms/algorithms_x081/main_test.go"
+mode = "test"
+hint = """
+На каждом уровне меняйте местами текущий элемент с каждым из оставшихся,
+рекурсивно обрабатывайте хвост и возвращайте элементы на место."""
+
+[[exercises]]
+name = "algorithms_x020"
+path = "exercises/algorithms/algorithms_x020/main_test.go"
+mode = "test"
+hint = """
+Идите по t и сдвигайте указатель в s при совпадении символов.
+Ответ — дошёл ли указатель до конца s."""
+
+[[exercises]]
+name = "algorithms_x087"
+path = "exercises/algorithms/algorithms_x087/main_test.go"
+mode = "test"
+hint = """
+Обходите сетку; встретив непосещённую единицу, увеличивайте счётчик
+и «затапливайте» всю её область поиском в глубину."""
+
+[[exercises]]
+name = "algorithms_x096"
+path = "exercises/algorithms/algorithms_x096/main_test.go"
+mode = "test"
+hint = """
+Для каждой клетки считайте длину пути, начинающегося в ней, и запоминайте
+результат: повторные вычисления брать из кэша."""
+
+[[exercises]]
+name = "algorithms_x097"
+path = "exercises/algorithms/algorithms_x097/main_test.go"
+mode = "test"
+hint = """
+Держите для каждого аэропорта отсортированный список назначений.
+Рекурсивно уходите по наименьшему доступному билету, а аэропорт добавляйте
+в ответ после возврата; в конце разверните список."""
+
+[[exercises]]
+name = "algorithms_x090"
+path = "exercises/algorithms/algorithms_x090/main_test.go"
+mode = "test"
+hint = """
+Считайте входящие степени. Держите множество доступных курсов и каждый раз
+берите наименьший; после его изучения уменьшайте степени зависимых курсов."""
+
+[[exercises]]
+name = "algorithms_x095"
+path = "exercises/algorithms/algorithms_x095/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте соседние слова и берите первую различающуюся пару букв как ребро.
+Отдельно проверьте случай, когда слово-префикс идёт после длинного слова."""
+
+[[exercises]]
+name = "algorithms_x015"
+path = "exercises/algorithms/algorithms_x015/main_test.go"
+mode = "test"
+hint = """
+Начните с самых дальних стенок и каждый раз сдвигайте указатель
+на более низкой стенке: только так площадь может вырасти."""
+
+[[exercises]]
+name = "algorithms_x057"
+path = "exercises/algorithms/algorithms_x057/main_test.go"
+mode = "test"
+hint = """
+Обменяйте ссылки на поддеревья текущего узла и рекурсивно обработайте оба."""
+
+[[exercises]]
+name = "algorithms_x148"
+path = "exercises/algorithms/algorithms_x148/main_test.go"
+mode = "test"
+hint = """
+Делите срез пополам, сортируйте половины рекурсивно и сливайте их
+двумя указателями."""
+
+[[exercises]]
+name = "algorithms_x107"
+path = "exercises/algorithms/algorithms_x107/main_test.go"
+mode = "test"
+hint = """
+Стоимость достижения ступени i равна её цене плюс минимум из стоимостей
+достижения i-1 и i-2. Ответ — минимум для двух последних ступеней."""
+
+[[exercises]]
+name = "algorithms_x109"
+path = "exercises/algorithms/algorithms_x109/main_test.go"
+mode = "test"
+hint = """
+Для каждого камня храните множество длин прыжков, которыми на него можно
+попасть, и раскладывайте из них достижимые следующие камни."""
+
+[[exercises]]
+name = "algorithms_x125"
+path = "exercises/algorithms/algorithms_x125/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте оба набора и двигайтесь двумя указателями, отдавая
+наименее требовательному ребёнку наименьшее подходящее печенье."""
+
+[[exercises]]
+name = "algorithms_x073"
+path = "exercises/algorithms/algorithms_x073/main_test.go"
+mode = "test"
+hint = """
+Используйте кучу с обратным сравнением (максимум в корне) из container/heap."""
+
+[[exercises]]
+name = "algorithms_x078"
+path = "exercises/algorithms/algorithms_x078/main_test.go"
+mode = "test"
+hint = """
+Держите в куче текущие элементы всех списков и максимум среди них.
+Каждый раз извлекайте минимум и продвигайте его список."""
+
+[[exercises]]
+name = "algorithms_x064"
+path = "exercises/algorithms/algorithms_x064/main_test.go"
+mode = "test"
+hint = """
+Возвращайте из рекурсии глубину, а при обнаружении дисбаланса — признак -1,
+который распространяется вверх."""
+
+[[exercises]]
+name = "algorithms_x083"
+path = "exercises/algorithms/algorithms_x083/main_test.go"
+mode = "test"
+hint = """
+Ставьте '(' пока их меньше n, а ')' — пока закрытых меньше открытых."""
+
+[[exercises]]
+name = "algorithms_x140"
+path = "exercises/algorithms/algorithms_x140/main_test.go"
+mode = "test"
+hint = """
+Используйте медленный и быстрый «указатели» по последовательности сумм
+квадратов цифр: если они встретились не в 1, есть цикл."""
+
+[[exercises]]
+name = "algorithms_x039"
+path = "exercises/algorithms/algorithms_x039/main_test.go"
+mode = "test"
+hint = """
+Одна из половин [lo, mid] или [mid, hi] всегда отсортирована. Определите,
+какая, и проверьте, лежит ли target в её диапазоне."""
+
+[[exercises]]
+name = "algorithms_x026"
+path = "exercises/algorithms/algorithms_x026/main_test.go"
+mode = "test"
+hint = """
+Открывающие скобки кладите в стек. Закрывающая должна соответствовать
+вершине стека. В конце стек должен быть пуст."""
+
+[[exercises]]
+name = "algorithms_x054"
+path = "exercises/algorithms/algorithms_x054/main_test.go"
+mode = "test"
+hint = """
+Храните узлы двусвязного списка в map по ключу. При обращении переносите
+узел в начало списка, при переполнении удаляйте узел с конца."""
+
+[[exercises]]
+name = "algorithms_x061"
+path = "exercises/algorithms/algorithms_x061/main_test.go"
+mode = "test"
+hint = """
+Передавайте вниз допустимый диапазон значений: для левого поддерева
+верхняя граница — значение узла, для правого — нижняя."""
+
+[[exercises]]
+name = "algorithms_x044"
+path = "exercises/algorithms/algorithms_x044/main_test.go"
+mode = "test"
+hint = """
+Для значения x количество чисел не больше x равно сумме min(x/i, n) по строкам.
+Найдите наименьшее x, для которого это количество не меньше k."""
+
+[[exercises]]
+name = "algorithms_x122"
+path = "exercises/algorithms/algorithms_x122/main_test.go"
+mode = "test"
+hint = """
+Считайте с конца: нужное здоровье перед клеткой — минимум из требований
+соседей справа и снизу минус значение клетки, но не меньше 1."""
+
+[[exercises]]
+name = "algorithms_x089"
+path = "exercises/algorithms/algorithms_x089/main_test.go"
+mode = "test"
+hint = """
+Начните обход со всех гнилых апельсинов одновременно и считайте уровни.
+В конце проверьте, не остались ли свежие."""
+
+[[exercises]]
+name = "algorithms_x142"
+path = "exercises/algorithms/algorithms_x142/main_test.go"
+mode = "test"
+hint = """
+Возводите основание в квадрат и делите показатель пополам, домножая
+результат при нечётном показателе. Для отрицательного n возьмите
+обратное значение."""
+
+[[exercises]]
+name = "algorithms_x141"
+path = "exercises/algorithms/algorithms_x141/main_test.go"
+mode = "test"
+hint = """
+Это число в 26-ричной системе, где 'A' = 1. Умножайте накопленное
+значение на 26 и прибавляйте очередную букву."""
+
+[[exercises]]
+name = "algorithms_x144"
+path = "exercises/algorithms/algorithms_x144/main_test.go"
+mode = "test"
+hint = """
+Напишите вспомогательную функцию для числа меньше 1000 и применяйте её
+к группам разрядов, добавляя нужный суффикс. Ноль — особый случай."""
+
+[[exercises]]
+name = "algorithms_x104"
+path = "exercises/algorithms/algorithms_x104/main_test.go"
+mode = "test"
+hint = """
+Держите массив tails: tails[i] — наименьший возможный последний элемент
+возрастающей подпоследовательности длины i+1. Новый элемент заменяет
+первый элемент tails, который не меньше его (двоичный поиск)."""
+
+[[exercises]]
+name = "algorithms_x059"
+path = "exercises/algorithms/algorithms_x059/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте левое поддерево одного узла с правым поддеревом другого."""
+
+[[exercises]]
+name = "algorithms_x147"
+path = "exercises/algorithms/algorithms_x147/main_test.go"
+mode = "test"
+hint = """
+Выберите опорный элемент, переставьте меньшие элементы влево,
+затем рекурсивно отсортируйте обе части."""
+
+[[exercises]]
+name = "algorithms_x070"
+path = "exercises/algorithms/algorithms_x070/main_test.go"
+mode = "test"
+hint = """
+Постройте trie из слов и запускайте DFS из каждой клетки, спускаясь по trie.
+Помечайте посещённые клетки и восстанавливайте их при возврате."""
+
+[[exercises]]
+name = "algorithms_x038"
+path = "exercises/algorithms/algorithms_x038/main_test.go"
+mode = "test"
+hint = """
+Ищите наименьшее v, для которого isBad(v) истинно, двоичным поиском
+на полуинтервале [1, n+1)."""
+
+[[exercises]]
+name = "algorithms_x130"
+path = "exercises/algorithms/algorithms_x130/main_test.go"
+mode = "test"
+hint = """
+XOR числа с самим собой даёт 0, а с нулём — само число."""
+
+[[exercises]]
+name = "algorithms_x056"
+path = "exercises/algorithms/algorithms_x056/main_test.go"
+mode = "test"
+hint = """
+Глубина узла — единица плюс наибольшая из глубин его поддеревьев."""
+
+[[exercises]]
+name = "algorithms_x127"
+path = "exercises/algorithms/algorithms_x127/main_test.go"
+mode = "test"
+hint = """
+Пройдите слева направо, увеличивая конфеты при росте рейтинга, затем
+справа налево, беря максимум из текущего значения и требования справа."""
+
+[[exercises]]
+name = "algorithms_x014"
+path = "exercises/algorithms/algorithms_x014/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте срез. Для каждого i ищите пару двумя указателями справа от i,
+пропуская повторяющиеся значения и для i, и для указателей."""
+
+[[exercises]]
+name = "algorithms_x013"
+path = "exercises/algorithms/algorithms_x013/main_test.go"
+mode = "test"
+hint = """
+Начните с концов: если сумма мала — сдвигайте левый указатель,
+если велика — правый."""
+
+[[exercises]]
+name = "algorithms_x040"
+path = "exercises/algorithms/algorithms_x040/main_test.go"
+mode = "test"
+hint = """
+Ищите наибольшее m, для которого m*m <= x. Чтобы не было переполнения,
+сравнивайте m с x/m."""
+
+[[exercises]]
+name = "algorithms_x117"
+path = "exercises/algorithms/algorithms_x117/main_test.go"
+mode = "test"
+hint = """
+dp[i][j] — расстояние между префиксами. При совпадении символов берите
+dp[i-1][j-1], иначе 1 плюс минимум из трёх соседних значений."""
+
+[[exercises]]
+name = "algorithms_x099"
+path = "exercises/algorithms/algorithms_x099/main_test.go"
+mode = "test"
+hint = """
+Обходите клетки, всегда выбирая из кучи клетку с наименьшей высотой.
+Ответ — максимальная высота на пройденном пути."""
+
+[[exercises]]
+name = "algorithms_x055"
+path = "exercises/algorithms/algorithms_x055/main_test.go"
+mode = "test"
+hint = """
+Храните для каждой частоты двусвязный список (container/list) ключей и
+минимальную частоту. При обращении переносите ключ в список частоты+1."""
+
+[[exercises]]
+name = "algorithms_x145"
+path = "exercises/algorithms/algorithms_x145/main_test.go"
+mode = "test"
+hint = """
+Для каждой точки считайте наклоны до остальных, приводя дробь
+(dy, dx) к несократимому виду с фиксированным знаком знаменателя."""
+
+[[exercises]]
+name = "algorithms_x080"
+path = "exercises/algorithms/algorithms_x080/main_test.go"
+mode = "test"
+hint = """
+Рекурсивно решайте для каждого элемента: включить или пропустить.
+Сохраняйте копию текущего набора, а не сам изменяемый срез."""
+
+[[exercises]]
+name = "algorithms_x041"
+path = "exercises/algorithms/algorithms_x041/main_test.go"
+mode = "test"
+hint = """
+Проверка скорости k: сумма ceil(p/k) по кучкам не больше h.
+Ищите минимальное подходящее k на отрезке [1, max(piles)]."""
+
+[[exercises]]
+name = "algorithms_x019"
+path = "exercises/algorithms/algorithms_x019/main_test.go"
+mode = "test"
+hint = """
+Наибольший квадрат находится на одном из концов. Заполняйте результат
+с конца, сравнивая модули крайних элементов."""
+
+[[exercises]]
+name = "algorithms_x002"
+path = "exercises/algorithms/algorithms_x002/main_test.go"
+mode = "test"
+hint = """
+Храните увиденные значения во множестве map[int]struct{}."""
+
+[[exercises]]
+name = "algorithms_x100"
+path = "exercises/algorithms/algorithms_x100/main_test.go"
+mode = "test"
+hint = """
+Новая клетка увеличивает счётчик на единицу, затем объединяйте её
+с уже существующими соседями, уменьшая счётчик за каждое объединение.
+Повторная установка той же клетки ничего не меняет."""
+
+[[exercises]]
+name = "algorithms_x043"
+path = "exercises/algorithms/algorithms_x043/main_test.go"
+mode = "test"
+hint = """
+Для кандидата limit жадно набирайте части, пока сумма не превышает limit,
+и считайте их количество. Ищите минимальный limit, дающий не больше k частей."""
+
+[[exercises]]
+name = "algorithms_x021"
+path = "exercises/algorithms/algorithms_x021/main_test.go"
+mode = "test"
+hint = """
+Храните последнюю позицию каждого символа. Если текущий символ уже есть
+в окне, сдвиньте левую границу за его прошлую позицию."""
+
+[[exercises]]
+name = "algorithms_x074"
+path = "exercises/algorithms/algorithms_x074/main_test.go"
+mode = "test"
+hint = """
+Ответ определяется самой частой задачей: (maxCount-1)*(n+1) + количество задач
+с максимальной частотой, но не меньше общего числа задач."""
+
+[[exercises]]
+name = "algorithms_x006"
+path = "exercises/algorithms/algorithms_x006/main_test.go"
+mode = "test"
+hint = """
+Первым проходом запишите в ответ произведения всех элементов слева,
+вторым проходом справа налево домножьте на произведения элементов справа."""
+
+[[exercises]]
+name = "algorithms_x003"
+path = "exercises/algorithms/algorithms_x003/main_test.go"
+mode = "test"
+hint = """
+Посчитайте руны первой строки в map, затем уменьшайте счётчики для второй.
+Любой отрицательный счётчик или разные длины означают false."""
+
+[[exercises]]
+name = "algorithms_x110"
+path = "exercises/algorithms/algorithms_x110/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте по ширине по возрастанию, а при равной ширине — по высоте
+по убыванию. Затем найдите LIS по высотам."""
+
+[[exercises]]
+name = "algorithms_x004"
+path = "exercises/algorithms/algorithms_x004/main_test.go"
+mode = "test"
+hint = """
+Ключ группы — слово с отсортированными буквами. Храните индекс группы в map,
+а сами группы — в срезе, чтобы сохранить порядок."""
+
+[[exercises]]
+name = "algorithms_x077"
+path = "exercises/algorithms/algorithms_x077/main_test.go"
+mode = "test"
+hint = """
+Отсортируйте проекты по требуемому капиталу. На каждом шаге добавляйте
+в кучу все доступные проекты и берите самый прибыльный."""
+
+[[exercises]]
+name = "algorithms_x094"
+path = "exercises/algorithms/algorithms_x094/main_test.go"
+mode = "test"
+hint = """
+Используйте мин-кучу по текущему расстоянию. Ответ — максимум расстояний,
+если достижимы все вершины."""
+
+[[exercises]]
+name = "algorithms_x112"
+path = "exercises/algorithms/algorithms_x112/main_test.go"
+mode = "test"
+hint = """
+Число путей в клетку — сумма путей сверху и слева. Достаточно хранить
+одну строку и обновлять её слева направо."""
+
+[[exercises]]
+name = "algorithms_x029"
+path = "exercises/algorithms/algorithms_x029/main_test.go"
+mode = "test"
+hint = """
+Идите справа налево и держите в стеке кандидатов по убыванию: снимайте
+со стека все элементы, не большие текущего."""
+
+[[exercises]]
+name = "algorithms_x111"
+path = "exercises/algorithms/algorithms_x111/main_test.go"
+mode = "test"
+hint = """
+Считайте обратную задачу: dp[e] — сколько этажей можно проверить e яйцами
+за m бросков. Увеличивайте m, пока покрытие не достигнет n."""
+
+[[exercises]]
+name = "algorithms_x060"
+path = "exercises/algorithms/algorithms_x060/main_test.go"
+mode = "test"
+hint = """
+Держите очередь текущего уровня. На каждом шаге обрабатывайте все узлы
+уровня и собирайте их детей в следующий уровень."""
+
+[[exercises]]
+name = "algorithms_x132"
+path = "exercises/algorithms/algorithms_x132/main_test.go"
+mode = "test"
+hint = """
+Число единиц в i равно числу единиц в i/2 плюс младший бит i."""
+
+[[exercises]]
+name = "algorithms_x082"
+path = "exercises/algorithms/algorithms_x082/main_test.go"
+mode = "test"
+hint = """
+Перебирайте кандидатов, начиная с текущего индекса (а не с нуля),
+чтобы не порождать перестановки одной комбинации."""
+
+[[exercises]]
+name = "algorithms_x022"
+path = "exercises/algorithms/algorithms_x022/main_test.go"
+mode = "test"
+hint = """
+Посчитайте сумму первого окна, затем сдвигайте окно: прибавляйте входящий
+элемент и вычитайте уходящий."""
+
+[[exercises]]
+name = "algorithms_x051"
+path = "exercises/algorithms/algorithms_x051/main_test.go"
+mode = "test"
+hint = """
+Найдите середину быстрым и медленным указателями, разверните вторую половину
+и сравните её с первой."""
+
+[[exercises]]
+name = "algorithms_x079"
+path = "exercises/algorithms/algorithms_x079/main_test.go"
+mode = "test"
+hint = """
+Положите в кучу все клетки границы. Извлекайте самую низкую, добавляйте
+её соседей, и если сосед ниже текущего уровня — на нём накапливается вода."""
