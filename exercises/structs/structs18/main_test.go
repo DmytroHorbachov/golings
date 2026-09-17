@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// total складывает количество товаров в заказе.
-// Тренирует: накопление значения поля.
-// Сложность: easy
+// total adds up the quantities of the items in an order.
+// Practices accumulating the value of a field.
 package main_test
 
 import "testing"

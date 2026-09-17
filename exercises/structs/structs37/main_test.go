@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// newCounter возвращает указатель на счётчик, начинающий с 1.
-// Тренирует: &T{...}.
-// Сложность: easy
+// newCounter returns a pointer to a counter starting from 1.
+// Practices &T{...}.
 package main_test
 
 import "testing"

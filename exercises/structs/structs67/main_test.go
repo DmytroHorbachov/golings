@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Handler встраивает *Logger. Handler{} создан без логгера, и вызов
-// продвинутого метода паникует.
-// Тренирует: встраивание указателя — это поле, которое может быть nil.
-// Сложность: hard
+// Handler embeds a *Logger. A Handler{} is built without a logger, and calling
+// the promoted method panics.
+// Embedding a pointer gives a field that may be nil.
 package main_test
 
 import "testing"

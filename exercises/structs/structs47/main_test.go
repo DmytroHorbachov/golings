@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// NewServer возвращает сервер с портом 8080 и тайм-аутом 30.
-// Тренирует: функции-конструкторы.
-// Сложность: easy
+// NewServer returns a server on port 8080 with a timeout of 30.
+// Practices constructor functions.
 package main_test
 
 import "testing"

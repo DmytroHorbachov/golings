@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// QueryBuilder собирает SQL: Table, Where (может вызываться несколько раз), Build.
-// Тренирует: методы-указатели, возвращающие получатель.
-// Сложность: medium
+// QueryBuilder builds SQL: Table, Where, which may be called several times, and Build.
+// Practices pointer methods returning the receiver.
 package main_test
 
 import (

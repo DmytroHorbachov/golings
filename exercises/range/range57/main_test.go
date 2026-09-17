@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pairsWithSum возвращает все пары индексов (i < j), у которых сумма равна target.
-// Тренирует: вложенный range по подсрезу.
-// Сложность: medium
+// pairsWithSum returns every pair of indexes (i < j) whose values add up to target.
+// Practices a nested range over a subslice.
 package main_test
 
 import (

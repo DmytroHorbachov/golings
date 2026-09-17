@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// moveRight сдвигает точку по указателю на dx.
-// Тренирует: автоматическое разыменование при доступе к полям.
-// Сложность: easy
+// moveRight moves a point by dx through a pointer.
+// Practices the automatic dereference when reaching fields.
 package main_test
 
 import "testing"

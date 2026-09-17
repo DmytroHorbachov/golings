@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Копия структуры независима от оригинала.
-// withDiscount возвращает товар со скидкой, не меняя исходный.
-// Тренирует: присваивание структуры копирует её.
-// Сложность: easy
+// A copy of a struct is independent of the original.
+// withDiscount returns a discounted item without changing the original.
+// Assigning a struct copies it.
 package main_test
 
 import "testing"

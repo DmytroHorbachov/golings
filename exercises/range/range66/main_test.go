@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// everyKth возвращает каждый k-й элемент, начиная с k-го (позиции k, 2k, ... при счёте с 1).
-// Тренирует: использование индекса range в условии.
-// Сложность: medium
+// everyKth returns every k-th element starting from the k-th one (positions k, 2k, ... counting from 1).
+// Practices using the index of a range in a condition.
 package main_test
 
 import (

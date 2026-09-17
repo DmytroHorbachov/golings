@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ParseVersion разбирает "major.minor.patch", Less сравнивает версии.
-// Тренирует: конструктор из строки и метод сравнения.
-// Сложность: medium
+// ParseVersion parses "major.minor.patch", and Less compares versions.
+// Practices a constructor from a string plus a comparison method.
 package main_test
 
 import (

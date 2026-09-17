@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Area возвращает площадь прямоугольника.
-// Тренирует: методы со значимым получателем.
-// Сложность: easy
+// Area returns the area of a rectangle.
+// Practices methods with a value receiver.
 package main_test
 
 import "testing"

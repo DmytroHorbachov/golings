@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// mergeMax объединяет map, оставляя для совпадающих ключей большее значение.
-// Тренирует: range по нескольким map и comma-ok.
-// Сложность: medium
+// mergeMax joins maps, keeping the larger value for matching keys.
+// Practices a range over several maps plus comma-ok.
 package main_test
 
 import (

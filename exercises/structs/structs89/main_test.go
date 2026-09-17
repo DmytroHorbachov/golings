@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Builder.Add добавляет слово и возвращает сам builder для цепочки вызовов.
-// Тренирует: методы, возвращающие получатель.
-// Сложность: easy
+// Builder.Add appends a word and returns the builder itself so calls can be chained.
+// Practices methods returning the receiver.
 package main_test
 
 import (

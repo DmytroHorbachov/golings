@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// BoundedQueue хранит не больше cap элементов: Push при переполнении
-// возвращает false, Pop возвращает элементы в порядке добавления.
-// Тренирует: структуру с ограничением и срезом.
-// Сложность: medium
+// BoundedQueue holds no more than cap elements: Push returns false when it is full,
+// and Pop returns the elements in the order they were added.
+// Practices a struct with a bound and a slice.
 package main_test
 
 import "testing"

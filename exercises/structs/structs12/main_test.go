@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// IsAdult сообщает, что человеку есть 18.
-// Тренирует: методы, возвращающие bool.
-// Сложность: easy
+// IsAdult reports whether a person is 18 or older.
+// Practices methods returning a bool.
 package main_test
 
 import "testing"

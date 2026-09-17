@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// splitOn делит срез чисел на части по значению-разделителю sep (разделитель не входит в части).
-// Тренирует: range с накоплением текущей части.
-// Сложность: medium
+// splitOn splits a slice of numbers into parts on the separator value sep, which is left out of the parts.
+// Practices a range building up the current part.
 package main_test
 
 import (

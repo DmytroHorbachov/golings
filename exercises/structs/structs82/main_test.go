@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Tree.Insert добавляет значение в двоичное дерево поиска, InOrder возвращает
-// значения по возрастанию.
-// Тренирует: рекурсивные структуры с указателями.
-// Сложность: medium
+// Tree.Insert adds a value to a binary search tree, and InOrder returns
+// the values in ascending order.
+// Practices recursive structs with pointers.
 package main_test
 
 import (

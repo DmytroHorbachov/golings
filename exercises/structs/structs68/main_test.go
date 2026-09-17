@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// History хранит последние limit команд; Add добавляет, Last(n) возвращает n последних.
-// Тренирует: структуру с ограниченным срезом.
-// Сложность: medium
+// History keeps the last limit commands; Add appends and Last(n) returns the last n.
+// Practices a struct with a bounded slice.
 package main_test
 
 import (

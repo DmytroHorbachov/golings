@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Report встраивает Author и Editor, у обоих есть поле Name.
-// Код не компилируется: r.Name неоднозначно.
-// Тренирует: конфликт продвинутых полей на одной глубине.
-// Сложность: hard
+// Report embeds Author and Editor, and both have a Name field.
+// The code does not compile: r.Name is ambiguous.
+// Promoted fields at the same depth clash.
 package main_test
 
 import "testing"

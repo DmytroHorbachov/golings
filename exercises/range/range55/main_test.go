@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lengthHistogram возвращает срез, где элемент i — число слов длины i (в символах).
-// Тренирует: range по словам и расширение результата по необходимости.
-// Сложность: medium
+// lengthHistogram returns a slice where element i is the number of words of length i, in characters.
+// Practices a range over words while growing the result as needed.
 package main_test
 
 import (

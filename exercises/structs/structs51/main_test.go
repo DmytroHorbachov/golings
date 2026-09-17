@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Clone должен вернуть полностью независимую копию плейлиста.
-// Тренирует: копирование структуры с полем-срезом.
-// Сложность: medium
+// Clone has to return a fully independent copy of the playlist.
+// Practices copying a struct with a slice field.
 package main_test
 
 import "testing"

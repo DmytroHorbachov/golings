@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Clone конфигурации должен быть независим, но изменения в копии видны в оригинале.
-// Тренирует: при копировании структуры map копируется по ссылке.
-// Сложность: hard
+// A Clone of the configuration has to be independent, and changes to the copy show in the original.
+// Copying a struct copies a map by reference.
 package main_test
 
 import "testing"

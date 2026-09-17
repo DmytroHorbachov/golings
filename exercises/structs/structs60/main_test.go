@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Money.Add складывает суммы одной валюты; разные валюты — ошибка.
-// Тренирует: методы, возвращающие (T, error).
-// Сложность: medium
+// Money.Add adds amounts of one currency; different currencies are an error.
+// Practices methods returning (T, error).
 package main_test
 
 import (

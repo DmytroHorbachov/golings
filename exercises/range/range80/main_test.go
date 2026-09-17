@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// drain собирает все значения из закрытого канала.
-// Тренирует: range по каналу продолжается до его закрытия.
-// Сложность: easy
+// drain collects every value from a closed channel.
+// A range over a channel carries on until it is closed.
 package main_test
 
 import (

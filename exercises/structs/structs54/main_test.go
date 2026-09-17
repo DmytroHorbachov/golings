@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cityOf возвращает город из вложенной структуры адреса.
-// Тренирует: цепочку обращений к полям.
-// Сложность: easy
+// cityOf returns the city out of a nested address struct.
+// Practices a chain of field accesses.
 package main_test
 
 import "testing"

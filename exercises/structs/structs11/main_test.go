@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Team содержит срез участников, поэтому == не работает; Equal сравнивает вручную.
-// Тренирует: методы сравнения для структур со срезами.
-// Сложность: medium
+// Team holds a slice of members, so == does not work; Equal compares by hand.
+// Practices comparison methods for structs holding slices.
 package main_test
 
 import "testing"

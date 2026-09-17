@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// validRows возвращает индексы строк без отрицательных чисел.
-// Тренирует: continue с меткой внешнего цикла.
-// Сложность: medium
+// validRows returns the indexes of the rows holding no negative numbers.
+// Practices continue with a label on the outer loop.
 package main_test
 
 import (

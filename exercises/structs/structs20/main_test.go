@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Circle должен реализовать интерфейс Shape с методом Perimeter.
-// Тренирует: неявную реализацию интерфейса.
-// Сложность: easy
+// Circle has to satisfy the Shape interface with its Perimeter method.
+// Practices implicit interface satisfaction.
 package main_test
 
 import "testing"

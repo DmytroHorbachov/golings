@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Mat2.Mul перемножает матрицы, Mat2.Det — определитель.
-// Тренирует: структуру с полем-массивом и методы над ней.
-// Сложность: medium
+// Mat2.Mul multiplies matrices and Mat2.Det computes the determinant.
+// Practices a struct with an array field and methods on it.
 package main_test
 
 import "testing"

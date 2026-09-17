@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// withCommas ставит запятую после каждого символа, кроме последнего.
-// Если последний символ многобайтовый, запятая появляется и после него.
-// Тренирует: i == len(s)-1 не определяет последнюю руну.
-// Сложность: hard
+// withCommas puts a comma after every character but the last.
+// When the last character is multibyte, a comma turns up after it too.
+// i == len(s)-1 does not identify the last rune.
 package main_test
 
 import (

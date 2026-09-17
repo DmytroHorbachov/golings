@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Vec.Add и Vec.Scale возвращают новые векторы, позволяя писать цепочки.
-// Тренирует: значимые получатели для неизменяемых операций.
-// Сложность: medium
+// Vec.Add and Vec.Scale return new vectors, so calls can be chained.
+// Practices value receivers for operations that change nothing.
 package main_test
 
 import "testing"

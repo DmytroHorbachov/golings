@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Employee встраивает Person (с полем Name) и объявляет своё поле Name для
-// должности. Функция должна вернуть имя человека.
-// Тренирует: поле внешней структуры скрывает продвинутое поле.
-// Сложность: hard
+// Employee embeds Person, which has a Name field, and declares a Name field of its
+// own for the job title. The function has to return the name of the person.
+// A field of the outer struct hides the promoted one.
 package main_test
 
 import "testing"

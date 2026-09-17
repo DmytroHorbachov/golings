@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Library.Borrow выдаёт книгу, если она есть и не выдана; Return возвращает её.
-// Тренирует: структуру с map состояний и ошибками.
-// Сложность: medium
+// Library.Borrow lends a book out when it exists and is not lent already; Return brings it back.
+// Practices a struct with a map of states plus errors.
 package main_test
 
 import (

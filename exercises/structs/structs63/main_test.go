@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Job содержит канал для отмены; json.Marshal падает с ошибкой из-за него.
-// Тренирует: тег json:"-" исключает поле из сериализации.
-// Сложность: hard
+// Job holds a channel for cancellation, and json.Marshal fails because of it.
+// The json:"-" tag keeps a field out of the serialization.
 package main_test
 
 import (

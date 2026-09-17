@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Temperature.String выводит значение с одним знаком и единицей, "-" для отсутствия.
-// Тренирует: String() и fmt с разными значениями.
-// Сложность: medium
+// Temperature.String prints the value with one decimal and a unit, and "-" when there is none.
+// Practices String() and fmt with different values.
 package main_test
 
 import (

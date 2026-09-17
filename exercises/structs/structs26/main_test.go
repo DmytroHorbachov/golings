@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Встроенная структура Address даёт поле City напрямую у Company.
-// Тренирует: встраивание (embedding) и продвижение полей.
-// Сложность: easy
+// The embedded Address struct gives Company a City field directly.
+// Practices embedding and field promotion.
 package main_test
 
 import "testing"

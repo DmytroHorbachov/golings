@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// У структуры Timer есть поле Elapsed и метод Elapsed. Код не компилируется.
-// Тренирует: поле и метод типа не могут иметь одно имя.
-// Сложность: hard
+// The Timer struct has a field Elapsed and a method Elapsed. The code does not compile.
+// A field and a method of a type cannot share a name.
 package main_test
 
 import (

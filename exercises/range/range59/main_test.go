@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// wordFreq считает слова без учёта регистра, разделяя текст по любым небуквенным символам.
-// Тренирует: range по рунам и накопление текущего слова.
-// Сложность: medium
+// wordFreq counts words ignoring case, splitting the text on any non-letter character.
+// Practices a range over runes while building up the current word.
 package main_test
 
 import (

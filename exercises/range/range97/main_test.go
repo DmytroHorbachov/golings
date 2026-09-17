@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// removeExpired удаляет истёкшие токены обменом с последним элементом.
-// Во время range элемент, переставленный на место i, не проверяется.
-// Тренирует: range не учитывает перестановки за текущей позицией.
-// Сложность: hard
+// removeExpired drops the expired tokens by swapping them with the last element.
+// During a range the element moved into position i is never checked.
+// A range does not notice swaps made past the current position.
 package main_test
 
 import (

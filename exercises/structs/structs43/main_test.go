@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// После Unmarshal поле token остаётся пустым, хотя ключ есть в JSON.
-// Тренирует: encoding/json игнорирует неэкспортируемые поля даже с тегом.
-// Сложность: hard
+// After the Unmarshal the token field is still empty, although the key is in the JSON.
+// encoding/json ignores unexported fields, tag or no tag.
 package main_test
 
 import (

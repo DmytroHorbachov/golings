@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Admin встраивает User и переопределяет Describe, но должен включать
-// описание пользователя. Сейчас метод вызывает сам себя.
-// Тренирует: доступ к скрытому методу встроенного типа через его имя.
-// Сложность: hard
+// Admin embeds User and overrides Describe, and it has to include
+// the description of the user. Right now the method calls itself.
+// Practices reaching a hidden method of an embedded type by its name.
 package main_test
 
 import "testing"

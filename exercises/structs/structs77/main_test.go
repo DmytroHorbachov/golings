@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Rect хранит ширину и высоту; Perimeter и Scale (масштабирует на месте).
-// Тренирует: смешение значимых и указательных получателей.
-// Сложность: medium
+// Rect holds a width and a height; Perimeter, and Scale which scales in place.
+// Practices mixing value and pointer receivers.
 package main_test
 
 import "testing"

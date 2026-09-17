@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Статистика хранится в map со структурными ключами; json.Marshal такую map
-// не поддерживает и возвращает ошибку.
-// Тренирует: ключи map в JSON должны быть строками, числами или TextMarshaler.
-// Сложность: hard
+// The statistics live in a map with struct keys, and json.Marshal does not
+// support such a map and returns an error.
+// JSON map keys have to be strings, numbers or a TextMarshaler.
 package main_test
 
 import (

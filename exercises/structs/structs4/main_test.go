@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Inc вызывается у адресуемой переменной-значения; Go сам берёт адрес.
-// Тренирует: автоматическое взятие адреса при вызове pointer-метода.
-// Сложность: easy
+// Inc is called on an addressable value variable, and Go takes the address itself.
+// Practices the automatic address-of in a call to a pointer method.
 package main_test
 
 import "testing"

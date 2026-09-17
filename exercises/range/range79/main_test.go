@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validRunes считает символы строки и число некорректных байтов.
-// range заменяет некорректные байты на U+FFFD, и их надо распознать.
-// Тренирует: при ошибке декодирования range выдаёт utf8.RuneError.
-// Сложность: hard
+// validRunes counts the characters of a string along with the invalid bytes.
+// A range replaces invalid bytes with U+FFFD, and they have to be told apart.
+// On a decoding error a range yields utf8.RuneError.
 package main_test
 
 import (

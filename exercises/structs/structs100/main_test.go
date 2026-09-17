@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// В структуру User добавили поле Email между Name и Age.
-// Позиционные литералы перестали компилироваться (или получили не те значения).
-// Тренирует: литералы с именами полей устойчивы к изменениям структуры.
-// Сложность: hard
+// An Email field was added to the User struct between Name and Age.
+// The positional literals stopped compiling, or took the wrong values.
+// Literals with field names survive changes to a struct.
 package main_test
 
 import "testing"

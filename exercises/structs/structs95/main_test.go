@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// newBook создаёт книгу с заданными полями.
-// Тренирует: литерал структуры с именами полей.
-// Сложность: easy
+// newBook builds a book with the given fields.
+// Practices a struct literal with field names.
 package main_test
 
 import "testing"

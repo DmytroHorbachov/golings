@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Две структуры Event с полем Payload interface{} сравниваются через ==.
-// Если в Payload лежит срез, сравнение паникует.
-// Тренирует: == для структур с интерфейсными полями может паниковать.
-// Сложность: hard
+// Two Event structs with a Payload interface{} field are compared with ==.
+// When the payload holds a slice, the comparison panics.
+// == on structs with interface fields may panic.
 package main_test
 
 import (

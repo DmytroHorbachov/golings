@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// RaiseAll повышает зарплату всем сотрудникам отдела на процент.
-// Тренирует: изменение элементов среза структур через индекс.
-// Сложность: medium
+// RaiseAll raises the salary of every employee of a department by a percentage.
+// Practices changing the elements of a slice of structs by index.
 package main_test
 
 import "testing"

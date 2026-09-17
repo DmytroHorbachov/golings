@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Point.Add возвращает сумму точек, Dist — расстояние между ними.
-// Тренирует: методы, возвращающие новые значения.
-// Сложность: medium
+// Point.Add returns the sum of two points and Dist the distance between them.
+// Practices methods returning new values.
 package main_test
 
 import (

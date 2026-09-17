@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// priceOf читает цену товара из map структур.
-// Тренирует: чтение поля значения map.
-// Сложность: easy
+// priceOf reads the price of an item from a map of structs.
+// Practices reading a field of a map value.
 package main_test
 
 import "testing"

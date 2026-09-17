@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Service встраивает Counter (значением), у которого Inc объявлен на указателе.
-// Значение Service не реализует интерфейс, а указатель — реализует.
-// Тренирует: методы *T встроенного T продвигаются только в *Outer.
-// Сложность: hard
+// Service embeds Counter by value, and Inc is declared on the pointer.
+// A Service value does not satisfy the interface, while a pointer does.
+// The *T methods of an embedded T are only promoted to *Outer.
 package main_test
 
 import "testing"

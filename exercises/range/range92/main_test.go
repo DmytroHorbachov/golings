@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countWords считает слова как переходы «разделитель -> не разделитель».
-// Тренирует: range по строке с флагом состояния.
-// Сложность: medium
+// countWords counts words as transitions from a separator to a non-separator.
+// Practices a range over a string with a state flag.
 package main_test
 
 import (

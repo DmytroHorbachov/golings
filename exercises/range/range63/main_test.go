@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// join склеивает строки через разделитель без strings.Join.
-// Тренирует: использование индекса для особого случая первого элемента.
-// Сложность: easy
+// join glues strings together with a separator without strings.Join.
+// Practices using the index for the special case of the first element.
 package main_test
 
 import "testing"

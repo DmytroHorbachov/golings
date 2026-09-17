@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Dog встраивает Animal, но должен говорить "woof", используя имя из Animal.
-// Тренирует: метод внешнего типа скрывает продвинутый метод.
-// Сложность: medium
+// Dog embeds Animal, and has to say "woof" while using the name from Animal.
+// A method on the outer type hides the promoted one.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// area получает фигуру через интерфейс; фигуры передаются указателями.
-// Утверждение типа к значению Square не срабатывает.
-// Тренирует: в интерфейсе хранится *Square, а не Square.
-// Сложность: hard
+// area takes a shape through an interface, and the shapes are passed as pointers.
+// A type assertion to a Square value never succeeds.
+// The interface holds a *Square, not a Square.
 package main_test
 
 import "testing"

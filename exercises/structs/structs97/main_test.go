@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Метод Label со значимым получателем вызывается у nil-указателя и паникует
-// (в отличие от методов с указателем-получателем).
-// Тренирует: вызов value-метода через указатель разыменовывает его.
-// Сложность: hard
+// The Label method with a value receiver is called on a nil pointer and panics,
+// unlike methods with a pointer receiver.
+// Calling a value method through a pointer dereferences it.
 package main_test
 
 import "testing"

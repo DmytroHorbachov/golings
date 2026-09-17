@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// jsonName возвращает имя поля в JSON: из тега (без опций) или имя поля,
-// если тега нет. Сейчас в результат попадают опции.
-// Тренирует: reflect.StructTag и формат тегов.
-// Сложность: hard
+// jsonName returns the JSON name of a field: from the tag, without the options, or the
+// field name when there is no tag. Right now the options end up in the result.
+// Practices reflect.StructTag and the format of the tags.
 package main_test
 
 import (

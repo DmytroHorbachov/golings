@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// onlyLetters собирает буквы строки в []byte. Для кириллицы вместо букв
-// получается мусор.
-// Тренирует: byte(r) обрезает руну до одного байта.
-// Сложность: hard
+// onlyLetters collects the letters of a string into a []byte. For non-ASCII letters
+// it produces junk.
+// byte(r) truncates a rune to a single byte.
 package main_test
 
 import (

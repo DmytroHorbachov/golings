@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Метод Describe встроенной структуры Animal доступен у Dog.
-// Тренирует: продвижение методов при встраивании.
-// Сложность: easy
+// The Describe method of the embedded Animal struct is available on Dog.
+// Practices method promotion through embedding.
 package main_test
 
 import "testing"

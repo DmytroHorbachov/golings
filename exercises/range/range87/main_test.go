@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totalAge складывает возрасты всех людей из map.
-// Тренирует: range по map с двумя переменными.
-// Сложность: easy
+// totalAge adds up the ages of everybody in a map.
+// Practices a range over a map with two variables.
 package main_test
 
 import "testing"

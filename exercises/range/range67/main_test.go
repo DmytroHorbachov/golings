@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countPending перебирает задачи из хранилища. Классический for вызывает
-// store.Tasks() на каждой итерации, и счётчик запросов растёт.
-// Тренирует: выражение range вычисляется один раз, а условие for — каждый раз.
-// Сложность: hard
+// countPending walks the tasks of a store. A plain for calls store.Tasks()
+// on every iteration, and the request counter grows.
+// A range expression is evaluated once, while a for condition is evaluated every time.
 package main_test
 
 import "testing"

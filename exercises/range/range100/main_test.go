@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumChannel складывает числа из канала, пока он не будет закрыт.
-// Тренирует: range по каналу.
-// Сложность: easy
+// sumChannel adds up the numbers from a channel until it is closed.
+// Practices a range over a channel.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Event сериализуется в JSON с ключами "id", "title", "tags" и обратно без потерь.
-// Тренирует: теги и json.Marshal/Unmarshal.
-// Сложность: medium
+// Event serializes to JSON under the keys "id", "title" and "tags", and back without loss.
+// Practices tags and json.Marshal/Unmarshal.
 package main_test
 
 import (

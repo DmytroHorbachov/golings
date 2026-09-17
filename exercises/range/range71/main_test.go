@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// visit обходит элементы через колбэк и должна прекратить обход на "end".
-// Код не компилируется: break внутри функционального литерала не относится к циклу.
-// Тренирует: break допустим только внутри for/switch/select той же функции.
-// Сложность: hard
+// visit walks the elements through a callback and has to stop the walk at "end".
+// The code does not compile: a break inside a function literal does not belong to the loop.
+// break is only allowed inside a for, switch or select of the same function.
 package main_test
 
 import (

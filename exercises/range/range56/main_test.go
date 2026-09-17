@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// average возвращает среднее значение или 0 для пустого среза.
-// Тренирует: range по пустому срезу не выполняет ни одной итерации.
-// Сложность: easy
+// average returns the mean value, or 0 for an empty slice.
+// A range over an empty slice runs no iteration at all.
 package main_test
 
 import "testing"

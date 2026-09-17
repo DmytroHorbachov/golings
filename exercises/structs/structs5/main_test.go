@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Код пытается изменить поле структуры, возвращённой функцией.
-// Не компилируется: результат вызова не адресуем.
-// Тренирует: присваивать можно только адресуемым значениям.
-// Сложность: hard
+// The code tries to change a field of a struct returned by a function.
+// It does not compile: the result of a call is not addressable.
+// Only addressable values can be assigned to.
 package main_test
 
 import "testing"

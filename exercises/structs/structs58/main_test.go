@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Transfer переводит деньги между счетами; при нехватке средств — ошибка
-// без изменения балансов.
-// Тренирует: методы, изменяющие несколько структур.
-// Сложность: medium
+// Transfer moves money between accounts; with too little money it returns an error
+// and leaves the balances alone.
+// Practices methods changing several structs.
 package main_test
 
 import (

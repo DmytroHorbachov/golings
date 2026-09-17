@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countSpaces считает пробелы в строке.
-// Тренирует: сравнение руны в range.
-// Сложность: easy
+// countSpaces counts the spaces in a string.
+// Practices comparing a rune in a range.
 package main_test
 
 import "testing"

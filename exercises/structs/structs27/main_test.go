@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stack с методами Push, Pop, Peek и Len. Pop и Peek пустого стека возвращают false.
-// Тренирует: инкапсуляцию среза в структуре.
-// Сложность: medium
+// Stack with the methods Push, Pop, Peek and Len. Pop and Peek on an empty stack return false.
+// Practices wrapping a slice in a struct.
 package main_test
 
 import "testing"

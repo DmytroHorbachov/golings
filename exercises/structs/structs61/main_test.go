@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// User.String печатает пользователя, вызывая fmt с самим значением.
-// Это вызывает бесконечную рекурсию.
-// Тренирует: %v вызывает String(), если метод определён.
-// Сложность: hard
+// User.String prints the user by handing the value itself to fmt.
+// That recurses forever.
+// %v calls String() when the method is defined.
 package main_test
 
 import (

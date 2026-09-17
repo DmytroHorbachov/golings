@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// decode разбирает JSON в структуру, но возвращает пустую структуру и ошибку.
-// Тренирует: json.Unmarshal требует указатель на значение.
-// Сложность: hard
+// decode parses JSON into a struct, and returns an empty struct and an error.
+// json.Unmarshal needs a pointer to the value.
 package main_test
 
 import (

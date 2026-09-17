@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Order.Total считает сумму позиций и применяет скидку в процентах (0–100).
-// Тренирует: методы, использующие вложенные структуры.
-// Сложность: medium
+// Order.Total adds up the lines and applies a discount in percent (0-100).
+// Practices methods that use nested structs.
 package main_test
 
 import "testing"

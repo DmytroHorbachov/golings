@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Поле Name должно сериализоваться в JSON под ключом "name".
-// Тренирует: теги полей для encoding/json.
-// Сложность: easy
+// The Name field has to be serialized to JSON under the key "name".
+// Practices field tags for encoding/json.
 package main_test
 
 import (

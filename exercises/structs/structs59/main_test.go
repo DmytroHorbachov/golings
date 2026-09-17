@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// config возвращает хост и порт из анонимной структуры.
-// Тренирует: анонимные структурные типы.
-// Сложность: easy
+// config returns the host and the port from an anonymous struct.
+// Practices anonymous struct types.
 package main_test
 
 import "testing"

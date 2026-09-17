@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// markVowels возвращает строку, где гласные заменены на '*'.
-// Индекс range по строке используется для []rune и указывает не туда.
-// Тренирует: индекс range по строке — байтовое смещение, а не номер руны.
-// Сложность: hard
+// markVowels returns a string with the vowels replaced by '*'.
+// The index of the range over the string is used on a []rune and points at the wrong place.
+// The index of a range over a string is a byte offset, not a rune number.
 package main_test
 
 import (

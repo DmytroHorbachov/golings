@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// splitDiagonal возвращает сумму диагональных элементов и сумму всех остальных.
-// Тренирует: сравнение индексов двух уровней range.
-// Сложность: medium
+// splitDiagonal returns the sum of the diagonal elements and the sum of all the others.
+// Practices comparing the indexes of two levels of range.
 package main_test
 
 import "testing"

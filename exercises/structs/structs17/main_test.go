@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseStrict должна отклонять JSON с неизвестными полями (например, опечатками).
-// json.Unmarshal молча их игнорирует.
-// Тренирует: json.Decoder.DisallowUnknownFields.
-// Сложность: hard
+// parseStrict has to reject JSON holding unknown fields, a typo for instance.
+// json.Unmarshal ignores them quietly.
+// Practices json.Decoder.DisallowUnknownFields.
 package main_test
 
 import (

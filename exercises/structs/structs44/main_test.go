@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Version.Equal сравнивает версии по major и minor.
-// Тренирует: методы, принимающие значение того же типа.
-// Сложность: easy
+// Version.Equal compares versions by major and minor.
+// Practices methods taking a value of their own type.
 package main_test
 
 import "testing"

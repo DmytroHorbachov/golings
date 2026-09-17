@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Доступ к встроенной структуре идёт по имени её типа.
-// Тренирует: неявное имя встроенного поля.
-// Сложность: easy
+// An embedded struct is reached by the name of its type.
+// Practices the implicit name of an embedded field.
 package main_test
 
 import "testing"

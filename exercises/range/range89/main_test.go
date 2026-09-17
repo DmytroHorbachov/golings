@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reverse разворачивает строку, добавляя каждую руну в начало результата.
-// Тренирует: range по рунам строки.
-// Сложность: easy
+// reverse reverses a string by putting every rune in front of the result.
+// Practices a range over the runes of a string.
 package main_test
 
 import "testing"

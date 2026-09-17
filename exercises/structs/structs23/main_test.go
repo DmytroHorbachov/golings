@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameMoney сравнивает суммы (значение и валюту).
-// Тренирует: == для структур со сравнимыми полями.
-// Сложность: easy
+// sameMoney compares amounts, the value and the currency.
+// == on structs with comparable fields.
 package main_test
 
 import "testing"

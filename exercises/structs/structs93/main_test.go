@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Rename меняет имя пользователя.
-// Тренирует: метод с получателем-указателем.
-// Сложность: easy
+// Rename changes the name of a user.
+// Practices a method with a pointer receiver.
 package main_test
 
 import "testing"

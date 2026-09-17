@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fullName возвращает имя и фамилию через пробел.
-// Тренирует: обращение к полям структуры.
-// Сложность: easy
+// fullName returns the first and the last name with a space between them.
+// Practices reaching the fields of a struct.
 package main_test
 
 import "testing"

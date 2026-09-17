@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Record встраивает Meta и Audit, у обоих есть поле ID с тегом "id".
-// encoding/json молча пропускает конфликтующие поля.
-// Тренирует: правила продвижения полей в encoding/json.
-// Сложность: hard
+// Record embeds Meta and Audit, and both have an ID field tagged "id".
+// encoding/json quietly drops the clashing fields.
+// Practices the field promotion rules of encoding/json.
 package main_test
 
 import (

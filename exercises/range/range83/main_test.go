@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// toSlice превращает map «номер страницы -> заголовок» в срез заголовков,
-// упорядоченный по номеру страницы. Номера идут с пропусками, и код паникует.
-// Тренирует: ключи map — не позиции; порядок нужно получить сортировкой.
-// Сложность: hard
+// toSlice turns a map from page number to title into a slice of titles
+// ordered by page number. The numbers have gaps, and the code panics.
+// Map keys are not positions; the order has to come from a sort.
 package main_test
 
 import (

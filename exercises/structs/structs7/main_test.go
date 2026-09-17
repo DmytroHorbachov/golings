@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Service встраивает Logger и использует его метод Log с префиксом имени сервиса.
-// Тренирует: встраивание для переиспользования поведения.
-// Сложность: medium
+// Service embeds Logger and uses its Log method with the name of the service as a prefix.
+// Practices embedding to reuse behaviour.
 package main_test
 
 import (

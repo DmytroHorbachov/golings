@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// NewEmail создаёт адрес, проверяя наличие '@' и непустые части.
-// Тренирует: конструктор, возвращающий (*T, error).
-// Сложность: medium
+// NewEmail builds an address, checking for an '@' and non-empty parts.
+// Practices a constructor returning (*T, error).
 package main_test
 
 import (

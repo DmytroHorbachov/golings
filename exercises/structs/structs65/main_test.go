@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totalArea суммирует площади разных фигур через интерфейс Shape.
-// Тренирует: несколько структур, реализующих один интерфейс.
-// Сложность: medium
+// totalArea adds up the areas of different shapes through the Shape interface.
+// Practices several structs satisfying one interface.
 package main_test
 
 import "testing"

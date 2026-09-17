@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Account.Balance возвращает баланс в рублях из копеек.
-// Тренирует: методы-геттеры и неэкспортируемые поля.
-// Сложность: easy
+// Account.Balance returns the balance in whole units, from cents.
+// Practices getter methods and unexported fields.
 package main_test
 
 import "testing"

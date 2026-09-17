@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// gridSum складывает все элементы двумерного среза.
-// Тренирует: вложенный range.
-// Сложность: easy
+// gridSum adds up every element of a two dimensional slice.
+// Practices a nested range.
 package main_test
 
 import "testing"

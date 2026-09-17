@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// trimAll убирает пробелы по краям каждой строки среза.
-// Строки не меняются: результат функции отбрасывается.
-// Тренирует: строки неизменяемы, функции strings возвращают новые строки.
-// Сложность: hard
+// trimAll strips the spaces around every string of a slice.
+// The strings do not change: the result of the function is thrown away.
+// Strings are immutable, and the strings functions return new ones.
 package main_test
 
 import (

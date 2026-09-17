@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// weightedAvg считает средневзвешенную оценку по парам (оценка, вес).
-// Тренирует: range по срезу пар и два аккумулятора.
-// Сложность: medium
+// weightedAvg computes a weighted average over (score, weight) pairs.
+// Practices a range over a slice of pairs with two accumulators.
 package main_test
 
 import "testing"

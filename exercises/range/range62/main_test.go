@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstN читает из канала не больше n значений и сообщает, был ли канал
-// закрыт раньше.
-// Тренирует: получение v, ok := <-ch в цикле как альтернатива range.
-// Сложность: medium
+// firstN reads at most n values from a channel and reports whether the channel
+// was closed early.
+// Practices v, ok := <-ch in a loop as an alternative to range.
 package main_test
 
 import (

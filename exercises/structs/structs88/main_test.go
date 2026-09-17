@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// List.PushFront добавляет значение в начало, Values возвращает все значения.
-// Тренирует: структуры со ссылками на себя.
-// Сложность: medium
+// List.PushFront adds a value at the front, and Values returns every value.
+// Practices structs referring to themselves.
 package main_test
 
 import (

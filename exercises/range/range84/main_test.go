@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// runeCount считает символы строки с помощью range.
-// Тренирует: range по строке перебирает руны.
-// Сложность: easy
+// runeCount counts the characters of a string with a range.
+// A range over a string walks the runes.
 package main_test
 
 import "testing"

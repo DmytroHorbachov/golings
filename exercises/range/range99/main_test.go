@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// contains2D ищет значение в таблице и считает, сколько клеток просмотрено.
-// После находки обход должен полностью прекратиться.
-// Тренирует: break выходит только из ближайшего цикла.
-// Сложность: hard
+// contains2D looks a value up in a table and counts how many cells were examined.
+// Once it is found the walk has to stop completely.
+// break only leaves the nearest loop.
 package main_test
 
 import "testing"

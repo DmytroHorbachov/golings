@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countPositive считает положительные элементы массива.
-// Тренирует: range по массиву.
-// Сложность: easy
+// countPositive counts the positive elements of an array.
+// Practices a range over an array.
 package main_test
 
 import "testing"

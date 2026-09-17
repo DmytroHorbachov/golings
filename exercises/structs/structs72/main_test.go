@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Координаты-структуры используются как ключи map.
-// Тренирует: сравнимые структуры в качестве ключей.
-// Сложность: easy
+// Coordinate structs are used as map keys.
+// Practices comparable structs as keys.
 package main_test
 
 import "testing"

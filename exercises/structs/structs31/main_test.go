@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Money сериализуется строкой "12.34 RUB" через MarshalJSON. Но при
-// сериализации значения (не указателя) метод не вызывается.
-// Тренирует: методы указателя не входят в набор методов значения.
-// Сложность: hard
+// Money marshals to the string "12.34 USD" through MarshalJSON. But when
+// a value rather than a pointer is marshalled, the method is not called.
+// Pointer methods are not part of the method set of a value.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Range.Contains проверяет число, Overlaps — пересечение диапазонов [Lo, Hi].
-// Тренирует: методы-предикаты над структурой.
-// Сложность: medium
+// Range.Contains checks a number and Overlaps checks whether two [Lo, Hi] ranges meet.
+// Practices predicate methods on a struct.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// longestRun возвращает символ с самой длинной серией подряд и длину серии.
-// Тренирует: range по строке с текущей и лучшей серией.
-// Сложность: medium
+// longestRun returns the character with the longest run and the length of that run.
+// Practices a range over a string with a current and a best run.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// decodeAll разбирает JSON-записи в одну и ту же переменную.
-// Поля, отсутствующие в очередной записи, сохраняют значения из предыдущей.
-// Тренирует: json.Unmarshal не обнуляет поля, которых нет во входных данных.
-// Сложность: hard
+// decodeAll parses JSON records into one and the same variable.
+// Fields missing from a record keep the values of the previous one.
+// json.Unmarshal does not zero the fields that are absent from the input.
 package main_test
 
 import (

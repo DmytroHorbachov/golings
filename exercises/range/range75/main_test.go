@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// vowelsPerWord возвращает количество гласных в каждом слове текста.
-// Тренирует: вложенный range: по словам и по рунам слова.
-// Сложность: medium
+// vowelsPerWord returns the number of vowels in every word of a text.
+// Practices a nested range: over the words and over the runes of a word.
 package main_test
 
 import (

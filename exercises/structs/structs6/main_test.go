@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Поле Nickname не должно попадать в JSON, если оно пустое.
-// Тренирует: опцию тега omitempty.
-// Сложность: easy
+// The Nickname field must stay out of the JSON when it is empty.
+// Practices the omitempty tag option.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Product встраивает Base (с полем Title) и имеет собственное поле Title.
-// Метод Base.Rename, вызванный у Product, меняет Base.Title, а не Product.Title.
-// Тренирует: продвинутый метод работает со встроенным значением, а не с внешним.
-// Сложность: hard
+// Product embeds Base, which has a Title field, and has a Title field of its own.
+// Base.Rename called on a Product changes Base.Title rather than Product.Title.
+// A promoted method works on the embedded value, not on the outer one.
 package main_test
 
 import "testing"

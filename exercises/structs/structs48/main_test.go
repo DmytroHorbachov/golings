@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Counter должен удовлетворять интерфейсу Incrementer. Код не компилируется:
-// метод Inc объявлен на указателе, а в интерфейс кладут значение.
-// Тренирует: набор методов типа T не включает методы *T.
-// Сложность: hard
+// Counter has to satisfy the Incrementer interface. The code does not compile:
+// Inc is declared on the pointer while a value is put into the interface.
+// The method set of T does not hold the methods of *T.
 package main_test
 
 import "testing"

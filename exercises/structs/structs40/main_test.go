@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Множество тегов реализовано через map[string]struct{}.
-// Тренирует: пустую структуру struct{}.
-// Сложность: easy
+// A set of tags is built on a map[string]struct{}.
+// Practices the empty struct struct{}.
 package main_test
 
 import "testing"

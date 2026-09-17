@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Pipeline читает события из канала events. Если канал не был создан,
-// range по nil-каналу блокируется навсегда.
-// Тренирует: операции с nil-каналом блокируются бесконечно.
-// Сложность: hard
+// Pipeline reads events from the events channel. When the channel was never built,
+// a range over a nil channel blocks forever.
+// Operations on a nil channel block for good.
 package main_test
 
 import (

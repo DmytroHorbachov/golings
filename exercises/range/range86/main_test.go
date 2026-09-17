@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstEven берёт первое чётное число из генератора и выходит.
-// Генератор при этом навсегда блокируется на отправке.
-// Тренирует: досрочный выход из range по каналу требует сигнала остановки отправителю.
-// Сложность: hard
+// firstEven takes the first even number from a generator and returns.
+// The generator is then blocked on a send forever.
+// Leaving a range over a channel early calls for a stop signal to the sender.
 package main_test
 
 import (

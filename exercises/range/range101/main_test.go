@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// report печатает оценки студентов по алфавиту, а оценки каждого — по возрастанию.
-// Тренирует: range по отсортированным ключам и сортировку значений.
-// Сложность: medium
+// report prints the marks of the pupils alphabetically, with the marks of each in ascending order.
+// Practices a range over sorted keys plus sorting the values.
 package main_test
 
 import (

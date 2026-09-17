@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// resetAll очищает счётчики во всех map среза, заменяя их новыми пустыми map.
-// Присваивание переменной цикла не меняет элементы среза.
-// Тренирует: v в range — копия ссылки на map; её переприсваивание не видно снаружи.
-// Сложность: hard
+// resetAll clears the counters in every map of a slice by replacing them with new empty maps.
+// Assigning to the loop variable does not change the slice elements.
+// The v of a range is a copy of the map reference, and reassigning it is invisible outside.
 package main_test
 
 import "testing"

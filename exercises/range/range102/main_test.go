@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sum складывает элементы среза с помощью range.
-// Тренирует: пустой идентификатор для ненужного индекса.
-// Сложность: easy
+// sum adds up the elements of a slice with a range.
+// Practices the blank identifier for an index that is not needed.
 package main_test
 
 import "testing"

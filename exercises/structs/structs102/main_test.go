@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Point.String форматирует точку как "(x, y)", и fmt использует этот метод.
-// Тренирует: интерфейс fmt.Stringer.
-// Сложность: easy
+// Point.String formats a point as "(x, y)", and fmt uses that method.
+// Practices the fmt.Stringer interface.
 package main_test
 
 import (

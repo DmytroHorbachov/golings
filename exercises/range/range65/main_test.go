@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumNonNegative складывает только неотрицательные числа.
-// Тренирует: continue внутри range.
-// Сложность: easy
+// sumNonNegative adds up the non-negative numbers only.
+// Practices continue inside a range.
 package main_test
 
 import "testing"

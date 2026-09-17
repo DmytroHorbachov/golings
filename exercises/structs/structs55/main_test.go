@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameOrder сравнивает два заказа. Код не компилируется: у структуры есть поле-срез.
-// Тренирует: == доступно только для структур со сравнимыми полями.
-// Сложность: hard
+// sameOrder compares two orders. The code does not compile: the struct has a slice field.
+// == is only available for structs whose fields are all comparable.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// AddTag добавляет тег задаче.
-// Тренирует: работу с полем-срезом через указатель.
-// Сложность: easy
+// AddTag adds a tag to a task.
+// Practices working with a slice field through a pointer.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countLikeFirst считает, сколько элементов (кроме первого) равны первому.
-// Тренирует: range по подсрезу.
-// Сложность: easy
+// countLikeFirst counts how many elements, the first one aside, equal the first.
+// Practices a range over a subslice.
 package main_test
 
 import "testing"

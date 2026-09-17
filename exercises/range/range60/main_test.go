@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// depositAll пополняет все счета, вызывая метод с указателем-получателем.
-// Метод вызывается на переменной цикла, и балансы в срезе не меняются.
-// Тренирует: v в range — копия, и pointer-метод меняет эту копию.
-// Сложность: hard
+// depositAll tops up every account by calling a method with a pointer receiver.
+// The method is called on the loop variable, and the balances in the slice do not change.
+// The v of a range is a copy, and a pointer method changes that copy.
 package main_test
 
 import "testing"

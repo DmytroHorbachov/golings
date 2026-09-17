@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// totalScore должна сложить очки игроков по map «номер игрока -> очки».
-// Сумма оказывается суммой номеров.
-// Тренирует: range по map с одной переменной выдаёт ключи.
-// Сложность: hard
+// totalScore must add up the scores of the players from a map of player number to score.
+// The sum comes out as the sum of the numbers.
+// A range over a map with a single variable yields the keys.
 package main_test
 
 import "testing"

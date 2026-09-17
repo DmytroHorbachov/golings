@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ByAge реализует sort.Interface для сортировки людей по возрасту.
-// Тренирует: методы Len, Less, Swap на именованном срезе.
-// Сложность: medium
+// ByAge implements sort.Interface for sorting people by age.
+// Practices the Len, Less and Swap methods on a named slice.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Поле email не попадает в JSON, потому что оно неэкспортируемое.
-// Тренирует: encoding/json видит только экспортируемые поля.
-// Сложность: easy
+// The email field does not reach the JSON because it is unexported.
+// encoding/json only sees exported fields.
 package main_test
 
 import (

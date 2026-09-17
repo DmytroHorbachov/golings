@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// NewRegistry создаёт реестр, готовый к работе; Register запрещает дубликаты.
-// Тренирует: инициализацию полей-map в конструкторе.
-// Сложность: medium
+// NewRegistry builds a registry ready to use, and Register refuses duplicates.
+// Practices initializing map fields in a constructor.
 package main_test
 
 import (

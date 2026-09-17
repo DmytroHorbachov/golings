@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// NewRat создаёт дробь в несократимом виде со знаком в числителе;
-// Add складывает дроби.
-// Тренирует: инварианты структуры, поддерживаемые конструктором.
-// Сложность: medium
+// NewRat builds a fraction in lowest terms with the sign in the numerator;
+// Add adds fractions.
+// Practices invariants kept up by a constructor.
 package main_test
 
 import "testing"

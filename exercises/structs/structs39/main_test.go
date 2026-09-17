@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Нужно добавить метод IsEven к целым числам. Код не компилируется:
-// методы можно объявлять только на типах своего пакета.
-// Тренирует: методы требуют локального именованного типа.
-// Сложность: hard
+// An IsEven method is wanted on integers. The code does not compile:
+// methods may only be declared on types of the same package.
+// Methods need a named type of your own.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Category содержит родительскую категорию. Код не компилируется:
-// структура не может содержать саму себя по значению.
-// Тренирует: рекурсивные структуры требуют указателей.
-// Сложность: hard
+// Category holds its parent category. The code does not compile:
+// a struct cannot hold itself by value.
+// Recursive structs call for pointers.
 package main_test
 
 import "testing"

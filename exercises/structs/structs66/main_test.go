@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// title возвращает заголовок или "untitled" для nil.
-// Тренирует: проверку указателя на структуру.
-// Сложность: easy
+// title returns the title, or "untitled" for nil.
+// Practices checking a pointer to a struct.
 package main_test
 
 import "testing"

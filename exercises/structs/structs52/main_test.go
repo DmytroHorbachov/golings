@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Копии Widget разделяют *Style, и смена цвета у копии меняет оригинал.
-// Тренирует: копирование структуры копирует указатель, а не объект.
-// Сложность: hard
+// Copies of Widget share a *Style, and changing the colour of a copy changes the original.
+// Copying a struct copies the pointer, not the object.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// newColor создаёт цвет позиционным литералом (порядок полей R, G, B).
-// Тренирует: литерал структуры без имён полей.
-// Сложность: easy
+// newColor builds a colour with a positional literal, the fields being R, G, B.
+// Practices a struct literal without field names.
 package main_test
 
 import "testing"

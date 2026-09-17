@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countByte считает вхождения заданного байта в строку.
-// Код не компилируется: range по строке выдаёт rune, а искомое значение — byte.
-// Тренирует: типы значений range по строке и по []byte различаются.
-// Сложность: hard
+// countByte counts the occurrences of a given byte in a string.
+// The code does not compile: a range over a string yields runes while the wanted value is a byte.
+// The value types of a range over a string and over a []byte differ.
 package main_test
 
 import "testing"

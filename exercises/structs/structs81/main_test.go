@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isEmpty проверяет, что у точки нулевые координаты.
-// Тренирует: нулевое значение структуры и сравнение ==.
-// Сложность: easy
+// isEmpty checks that a point has zero coordinates.
+// Practices the zero value of a struct and comparison with ==.
 package main_test
 
 import "testing"

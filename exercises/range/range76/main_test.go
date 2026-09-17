@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstError возвращает первую ненулевую ошибку из среза.
-// Тренирует: range по срезу интерфейсов.
-// Сложность: easy
+// firstError returns the first non-nil error of a slice.
+// Practices a range over a slice of interfaces.
 package main_test
 
 import (

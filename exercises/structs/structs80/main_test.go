@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fmt не использует String() при печати значения, если метод объявлен на указателе.
-// Тренирует: интерфейс fmt.Stringer и наборы методов.
-// Сложность: hard
+// fmt does not use String() when printing a value if the method is declared on the pointer.
+// Practices the fmt.Stringer interface and method sets.
 package main_test
 
 import (

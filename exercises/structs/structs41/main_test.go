@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Clock хранит время в минутах от полуночи; Add прибавляет минуты по кругу
-// (в том числе отрицательные), String выводит "hh:mm".
-// Тренирует: нормализацию состояния в методах.
-// Сложность: medium
+// Clock holds the time as minutes since midnight; Add adds minutes with wrapping,
+// negative ones included, and String prints "hh:mm".
+// Practices normalizing state inside methods.
 package main_test
 
 import (

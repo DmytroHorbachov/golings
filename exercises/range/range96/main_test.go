@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// product перемножает элементы среза.
-// Тренирует: аккумулятор в range.
-// Сложность: easy
+// product multiplies the elements of a slice.
+// Practices an accumulator in a range.
 package main_test
 
 import "testing"

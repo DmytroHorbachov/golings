@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// longestWord возвращает самое длинное слово (первое при равенстве).
-// Тренирует: range по результату strings.Fields.
-// Сложность: easy
+// longestWord returns the longest word, the first one on a tie.
+// Practices a range over the result of strings.Fields.
 package main_test
 
 import (

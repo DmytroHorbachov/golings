@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Настройка Notify по умолчанию true; явное false должно попадать в JSON,
-// а незаданное значение — нет. С omitempty false теряется.
-// Тренирует: omitempty пропускает нулевые значения, включая false.
-// Сложность: hard
+// The Notify setting is true by default; an explicit false has to reach the JSON
+// while an unset value must not. With omitempty the false is lost.
+// omitempty drops zero values, false included.
 package main_test
 
 import (

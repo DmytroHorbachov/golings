@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// missing находит единственное пропущенное число в перестановке 0..n без одного элемента.
-// Тренирует: range с индексом и суммированием.
-// Сложность: medium
+// missing finds the one number left out of a permutation of 0..n.
+// Practices a range with an index and a sum.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// grow увеличивает радиус круга, хранящегося в интерфейсе.
-// Код не компилируется: результат утверждения типа не адресуем.
-// Тренирует: значение внутри интерфейса нельзя изменить на месте.
-// Сложность: hard
+// grow raises the radius of a circle held in an interface.
+// The code does not compile: the result of a type assertion is not addressable.
+// A value inside an interface cannot be changed in place.
 package main_test
 
 import "testing"

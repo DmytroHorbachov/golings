@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// runningMax возвращает для каждой позиции максимум среди элементов до неё включительно.
-// Тренирует: аккумулятор в range и запись по индексу.
-// Сложность: medium
+// runningMax returns, for every position, the maximum of the elements up to and including it.
+// Practices an accumulator in a range plus writing by index.
 package main_test
 
 import (

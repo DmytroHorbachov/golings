@@ -6834,372 +6834,372 @@ name = "range54"
 path = "exercises/range/range54/main_test.go"
 mode = "test"
 hint = """
-Итерируйтесь по байтам (индексом или range по []byte(s)),
-либо приведите типы явно."""
+Iterate over the bytes, by index or with a range over []byte(s),
+or convert the types explicitly."""
 
 [[exercises]]
 name = "range55"
 path = "exercises/range/range55/main_test.go"
 mode = "test"
 hint = """
-Длину считайте в рунах. Если текущий срез короче нужного индекса,
-расширьте его нулями перед увеличением счётчика."""
+Count the length in runes. When the slice is shorter than the index you need,
+grow it with zeros before raising the counter."""
 
 [[exercises]]
 name = "range56"
 path = "exercises/range/range56/main_test.go"
 mode = "test"
 hint = """
-Деление на количество элементов допустимо, только если оно не ноль."""
+Dividing by the number of elements is only allowed while that number is not zero."""
 
 [[exercises]]
 name = "range57"
 path = "exercises/range/range57/main_test.go"
 mode = "test"
 hint = """
-Внутренний цикл должен начинаться после i, иначе пары повторятся
-и элемент сложится сам с собой. Индекс во внутреннем range считается от начала подсреза."""
+The inner loop has to start after i, otherwise the pairs repeat
+and an element is added to itself. The index of the inner range counts from the start of the subslice."""
 
 [[exercises]]
 name = "range58"
 path = "exercises/range/range58/main_test.go"
 mode = "test"
 hint = """
-range уже декодировал руну r — используйте её: string(r)."""
+The range has already decoded the rune r, so use it: string(r)."""
 
 [[exercises]]
 name = "range59"
 path = "exercises/range/range59/main_test.go"
 mode = "test"
 hint = """
-Буквы добавляйте к текущему слову (в нижнем регистре). На небуквенном символе
-и в конце текста завершайте слово, если оно непустое."""
+Add the letters to the current word, in lower case. On a non-letter character
+and at the end of the text finish the word when it is not empty."""
 
 [[exercises]]
 name = "range60"
 path = "exercises/range/range60/main_test.go"
 mode = "test"
 hint = """
-Вызовите метод на элементе среза: accounts[i].Deposit(...)."""
+Call the method on the slice element: accounts[i].Deposit(...)."""
 
 [[exercises]]
 name = "range61"
 path = "exercises/range/range61/main_test.go"
 mode = "test"
 hint = """
-Обновлять ответ нужно, только если слово строго длиннее текущего."""
+The answer has to be updated only when the word is strictly longer than the current one."""
 
 [[exercises]]
 name = "range62"
 path = "exercises/range/range62/main_test.go"
 mode = "test"
 hint = """
-range не даёт прочитать ровно n значений. Используйте цикл по счётчику
-и форму v, ok := <-ch: ok == false значит, что канал закрыт."""
+A range cannot read exactly n values. Use a counted loop
+and the v, ok := <-ch form: ok == false means the channel is closed."""
 
 [[exercises]]
 name = "range63"
 path = "exercises/range/range63/main_test.go"
 mode = "test"
 hint = """
-Разделитель ставится перед каждым элементом, кроме первого."""
+The separator goes before every element but the first."""
 
 [[exercises]]
 name = "range64"
 path = "exercises/range/range64/main_test.go"
 mode = "test"
 hint = """
-Создайте канал в конструкторе (make), а не оставляйте поле нулевым."""
+Build the channel in the constructor with make instead of leaving the field at its zero value."""
 
 [[exercises]]
 name = "range65"
 path = "exercises/range/range65/main_test.go"
 mode = "test"
 hint = """
-continue должен срабатывать для отрицательных чисел."""
+The continue has to fire for the negative numbers."""
 
 [[exercises]]
 name = "range66"
 path = "exercises/range/range66/main_test.go"
 mode = "test"
 hint = """
-Элемент с индексом i имеет позицию i+1. Он подходит, если позиция делится на k."""
+The element at index i sits at position i+1. It qualifies when that position divides by k."""
 
 [[exercises]]
 name = "range67"
 path = "exercises/range/range67/main_test.go"
 mode = "test"
 hint = """
-Получите задачи один раз и перебирайте их через range."""
+Fetch the tasks once and walk them with a range."""
 
 [[exercises]]
 name = "range68"
 path = "exercises/range/range68/main_test.go"
 mode = "test"
 hint = """
-Начните максимум с первого элемента и обновляйте его на каждом шаге,
-записывая текущий максимум в результат."""
+Start the maximum from the first element and update it on every step,
+storing the current maximum in the result."""
 
 [[exercises]]
 name = "range69"
 path = "exercises/range/range69/main_test.go"
 mode = "test"
 hint = """
-Чтобы получить значения, нужна вторая переменная range."""
+To get the values a second range variable is needed."""
 
 [[exercises]]
 name = "range70"
 path = "exercises/range/range70/main_test.go"
 mode = "test"
 hint = """
-Внутренний цикл должен идти по текущей строке."""
+The inner loop has to run over the current row."""
 
 [[exercises]]
 name = "range71"
 path = "exercises/range/range71/main_test.go"
 mode = "test"
 hint = """
-Сообщите вызывающему циклу об остановке через возвращаемое значение колбэка."""
+Tell the calling loop to stop through the return value of the callback."""
 
 [[exercises]]
 name = "range72"
 path = "exercises/range/range72/main_test.go"
 mode = "test"
 hint = """
-Пробел — это руна ' '."""
+A space is the rune ' '."""
 
 [[exercises]]
 name = "range73"
 path = "exercises/range/range73/main_test.go"
 mode = "test"
 hint = """
-Если символ совпадает с предыдущим, увеличьте текущую длину, иначе
-начните новую серию с 1. После каждого шага сравните с лучшей."""
+When the character matches the previous one, raise the current length, otherwise
+start a new run at 1. After every step compare it with the best one."""
 
 [[exercises]]
 name = "range74"
 path = "exercises/range/range74/main_test.go"
 mode = "test"
 hint = """
-strings.TrimSpace не меняет аргумент. Запишите результат в элемент среза."""
+strings.TrimSpace does not change its argument. Store the result in the slice element."""
 
 [[exercises]]
 name = "range75"
 path = "exercises/range/range75/main_test.go"
 mode = "test"
 hint = """
-Для каждого слова заведите отдельный счётчик и добавьте его в результат
-после обхода рун слова."""
+Give every word a counter of its own and append it to the result
+once the runes of the word have been walked."""
 
 [[exercises]]
 name = "range76"
 path = "exercises/range/range76/main_test.go"
 mode = "test"
 hint = """
-Нужна ошибка, не равная nil."""
+What is wanted is an error that is not nil."""
 
 [[exercises]]
 name = "range77"
 path = "exercises/range/range77/main_test.go"
 mode = "test"
 hint = """
-Элемент лежит на диагонали, если индекс строки равен индексу столбца."""
+An element is on the diagonal when the row index equals the column index."""
 
 [[exercises]]
 name = "range78"
 path = "exercises/range/range78/main_test.go"
 mode = "test"
 hint = """
-Перебирайте срез, начиная со второго элемента."""
+Walk the slice starting from the second element."""
 
 [[exercises]]
 name = "range79"
 path = "exercises/range/range79/main_test.go"
 mode = "test"
 hint = """
-Некорректный байт даёт r == utf8.RuneError. Но настоящий символ U+FFFD
-тоже равен RuneError — отличайте их по ширине, декодируя вручную
-utf8.DecodeRuneInString (ширина 1 означает ошибку)."""
+An invalid byte gives r == utf8.RuneError. But a genuine U+FFFD character
+equals RuneError too, so tell them apart by the width, decoding by hand with
+utf8.DecodeRuneInString, where a width of 1 means an error."""
 
 [[exercises]]
 name = "range80"
 path = "exercises/range/range80/main_test.go"
 mode = "test"
 hint = """
-Каждое полученное значение нужно добавить в результат."""
+Every value received has to be appended to the result."""
 
 [[exercises]]
 name = "range81"
 path = "exercises/range/range81/main_test.go"
 mode = "test"
 hint = """
-Руну нужно закодировать в UTF-8. Используйте utf8.AppendRune
-(или append(b, string(r)...))."""
+The rune has to be encoded in UTF-8. Use utf8.AppendRune,
+or append(b, string(r)...)."""
 
 [[exercises]]
 name = "range82"
 path = "exercises/range/range82/main_test.go"
 mode = "test"
 hint = """
-При встрече разделителя сохраните текущую часть и начните новую.
-После цикла сохраните последнюю часть."""
+On meeting the separator store the current part and start a new one.
+After the loop store the last part."""
 
 [[exercises]]
 name = "range83"
 path = "exercises/range/range83/main_test.go"
 mode = "test"
 hint = """
-Соберите ключи, отсортируйте их и добавляйте заголовки в срез по порядку."""
+Collect the keys, sort them and append the titles to the slice in that order."""
 
 [[exercises]]
 name = "range84"
 path = "exercises/range/range84/main_test.go"
 mode = "test"
 hint = """
-Счётчик должен увеличиваться на каждой итерации."""
+The counter has to grow on every iteration."""
 
 [[exercises]]
 name = "range85"
 path = "exercises/range/range85/main_test.go"
 mode = "test"
 hint = """
-Инициализируйте результат первой строкой, а затем для каждой следующей
-строки обновляйте элемент столбца c."""
+Start the result from the first row, then for every row that follows
+update the element of column c."""
 
 [[exercises]]
 name = "range86"
 path = "exercises/range/range86/main_test.go"
 mode = "test"
 hint = """
-Передайте генератору канал done и закройте его при выходе (defer).
-Генератор должен выбирать между отправкой и <-done."""
+Give the generator a done channel and close it on the way out with defer.
+The generator has to choose between sending and <-done."""
 
 [[exercises]]
 name = "range87"
 path = "exercises/range/range87/main_test.go"
 mode = "test"
 hint = """
-Складывать нужно значения, а не длины ключей."""
+What has to be added up are the values, not the lengths of the keys."""
 
 [[exercises]]
 name = "range88"
 path = "exercises/range/range88/main_test.go"
 mode = "test"
 hint = """
-Сумма произведений оценки на вес делится на сумму весов.
-Нулевой общий вес даёт 0."""
+The sum of score times weight is divided by the sum of the weights.
+A total weight of zero gives 0."""
 
 [[exercises]]
 name = "range89"
 path = "exercises/range/range89/main_test.go"
 mode = "test"
 hint = """
-Новая руна должна оказаться перед уже собранной частью."""
+The new rune has to end up before the part collected so far."""
 
 [[exercises]]
 name = "range90"
 path = "exercises/range/range90/main_test.go"
 mode = "test"
 hint = """
-Сумма чисел 0..n известна. Можно на каждой итерации прибавлять
-индекс+1 и вычитать значение: останется пропущенное число."""
+The sum of the numbers 0..n is known. On every iteration you can add
+the index plus one and subtract the value: the missing number is left."""
 
 [[exercises]]
 name = "range91"
 path = "exercises/range/range91/main_test.go"
 mode = "test"
 hint = """
-Итерируйтесь по срезу рун, а не по строке, если индекс нужен
-для обращения к этому срезу."""
+Iterate over the rune slice rather than over the string when the index
+is used to reach into that slice."""
 
 [[exercises]]
 name = "range92"
 path = "exercises/range/range92/main_test.go"
 mode = "test"
 hint = """
-Новое слово начинается, когда текущий символ — не пробел,
-а предыдущий был пробелом (или это начало строки)."""
+A new word starts when the current character is not a space
+while the previous one was, or the string has just begun."""
 
 [[exercises]]
 name = "range93"
 path = "exercises/range/range93/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие: ноль не является положительным числом."""
+Check the condition: zero is not a positive number."""
 
 [[exercises]]
 name = "range94"
 path = "exercises/range/range94/main_test.go"
 mode = "test"
 hint = """
-Индекс последней руны меньше len(s)-1, если она занимает несколько байт.
-Сравнивайте i+ширина_руны с len(s) (utf8.RuneLen)."""
+The index of the last rune is below len(s)-1 when it takes several bytes.
+Compare i plus the width of the rune against len(s), with utf8.RuneLen."""
 
 [[exercises]]
 name = "range95"
 path = "exercises/range/range95/main_test.go"
 mode = "test"
 hint = """
-Копируйте значение из b, только если ключа ещё нет или новое значение больше."""
+Copy a value from b only when the key is missing or the new value is larger."""
 
 [[exercises]]
 name = "range96"
 path = "exercises/range/range96/main_test.go"
 mode = "test"
 hint = """
-Начальное значение произведения — единица."""
+The starting value of a product is one."""
 
 [[exercises]]
 name = "range97"
 path = "exercises/range/range97/main_test.go"
 mode = "test"
 hint = """
-После обмена на позиции i оказался новый элемент, который тоже надо
-проверить. Используйте цикл for с индексом и не увеличивайте его после удаления."""
+After the swap position i holds a new element that has to be checked too.
+Use a for loop with an index and do not raise it after a removal."""
 
 [[exercises]]
 name = "range98"
 path = "exercises/range/range98/main_test.go"
 mode = "test"
 hint = """
-Найдя отрицательное число, нужно перейти к следующей строке, а не
-к следующему элементу. Метка на внешнем цикле позволяет это сделать."""
+On finding a negative number the loop has to move on to the next row rather
+than to the next element. A label on the outer loop makes that possible."""
 
 [[exercises]]
 name = "range99"
 path = "exercises/range/range99/main_test.go"
 mode = "test"
 hint = """
-Используйте метку на внешнем цикле и break с меткой."""
+Put a label on the outer loop and break with that label."""
 
 [[exercises]]
 name = "range100"
 path = "exercises/range/range100/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что именно добавляется к сумме."""
+Check what exactly is added to the sum."""
 
 [[exercises]]
 name = "range101"
 path = "exercises/range/range101/main_test.go"
 mode = "test"
 hint = """
-Соберите и отсортируйте ключи, затем для каждого ключа отсортируйте копию
-его оценок и выведите строку."""
+Collect and sort the keys, then for every key sort a copy of
+its marks and print the line."""
 
 [[exercises]]
 name = "range102"
 path = "exercises/range/range102/main_test.go"
 mode = "test"
 hint = """
-Первая переменная range — индекс, вторая — значение."""
+The first range variable is the index and the second one the value."""
 
 [[exercises]]
 name = "range103"
 path = "exercises/range/range103/main_test.go"
 mode = "test"
 hint = """
-Присваивайте новую map элементу среза: stats[i] = map[string]int{}."""
+Assign the new map to the slice element: stats[i] = map[string]int{}."""
 
 # ===== generated exercises: structs =====
 [[exercises]]
@@ -7207,734 +7207,734 @@ name = "structs4"
 path = "exercises/structs/structs4/main_test.go"
 mode = "test"
 hint = """
-Проверьте, на сколько увеличивается счётчик."""
+Check how much the counter goes up by."""
 
 [[exercises]]
 name = "structs5"
 path = "exercises/structs/structs5/main_test.go"
 mode = "test"
 hint = """
-Сохраните результат в переменную, измените поле и используйте переменную."""
+Store the result in a variable, change the field and use the variable."""
 
 [[exercises]]
 name = "structs6"
 path = "exercises/structs/structs6/main_test.go"
 mode = "test"
 hint = """
-Опция добавляется через запятую после имени в теге."""
+The option is added after the name in the tag, separated by a comma."""
 
 [[exercises]]
 name = "structs7"
 path = "exercises/structs/structs7/main_test.go"
 mode = "test"
 hint = """
-Встройте Logger в Service без имени поля и инициализируйте его префикс
-в конструкторе."""
+Embed Logger in Service without a field name and set its prefix
+in the constructor."""
 
 [[exercises]]
 name = "structs8"
 path = "exercises/structs/structs8/main_test.go"
 mode = "test"
 hint = """
-Имя встроенного поля совпадает с именем типа."""
+The name of an embedded field is the name of the type."""
 
 [[exercises]]
 name = "structs9"
 path = "exercises/structs/structs9/main_test.go"
 mode = "test"
 hint = """
-Объявите у Dog собственный метод Sound. Имя доступно как d.Name
-благодаря продвижению полей."""
+Give Dog a Sound method of its own. The name is available as d.Name
+thanks to field promotion."""
 
 [[exercises]]
 name = "structs10"
 path = "exercises/structs/structs10/main_test.go"
 mode = "test"
 hint = """
-Используйте указатель на Service там, где нужен интерфейс."""
+Use a pointer to Service wherever the interface is needed."""
 
 [[exercises]]
 name = "structs11"
 path = "exercises/structs/structs11/main_test.go"
 mode = "test"
 hint = """
-Сравните имена, затем длины срезов и все элементы по порядку."""
+Compare the names, then the lengths of the slices and every element in order."""
 
 [[exercises]]
 name = "structs12"
 path = "exercises/structs/structs12/main_test.go"
 mode = "test"
 hint = """
-Проверьте оператор сравнения."""
+Check the comparison operator."""
 
 [[exercises]]
 name = "structs13"
 path = "exercises/structs/structs13/main_test.go"
 mode = "test"
 hint = """
-Преобразуйте map в map[string]int с ключом вида "x,y" перед сериализацией
-(или реализуйте MarshalText у ключа)."""
+Turn the map into a map[string]int with keys such as "x,y" before marshalling,
+or give the key a MarshalText method."""
 
 [[exercises]]
 name = "structs14"
 path = "exercises/structs/structs14/main_test.go"
 mode = "test"
 hint = """
-Совершеннолетие начинается с 18."""
+Adulthood starts at 18."""
 
 [[exercises]]
 name = "structs15"
 path = "exercises/structs/structs15/main_test.go"
 mode = "test"
 hint = """
-Переименуйте поле (например, в elapsed), оставив метод Elapsed."""
+Rename the field, to elapsed for instance, and keep the Elapsed method."""
 
 [[exercises]]
 name = "structs16"
 path = "exercises/structs/structs16/main_test.go"
 mode = "test"
 hint = """
-Разделите строку по '@': частей должно быть ровно две, и обе непустые.
-При ошибке возвращайте nil и ошибку."""
+Split the string on '@': there have to be exactly two parts, both non-empty.
+On an error return nil and the error."""
 
 [[exercises]]
 name = "structs17"
 path = "exercises/structs/structs17/main_test.go"
 mode = "test"
 hint = """
-Создайте json.NewDecoder, включите DisallowUnknownFields и вызовите Decode."""
+Build a json.NewDecoder, turn DisallowUnknownFields on and call Decode."""
 
 [[exercises]]
 name = "structs18"
 path = "exercises/structs/structs18/main_test.go"
 mode = "test"
 hint = """
-Складывать нужно количество, а не цену."""
+What has to be added up is the quantity, not the price."""
 
 [[exercises]]
 name = "structs19"
 path = "exercises/structs/structs19/main_test.go"
 mode = "test"
 hint = """
-Защититесь от пустого среза в обоих методах. Среднее считается во float64."""
+Guard against an empty slice in both methods. The average is computed in float64."""
 
 [[exercises]]
 name = "structs20"
 path = "exercises/structs/structs20/main_test.go"
 mode = "test"
 hint = """
-Имя метода должно точно совпадать с именем в интерфейсе."""
+The name of the method has to match the one in the interface exactly."""
 
 [[exercises]]
 name = "structs21"
 path = "exercises/structs/structs21/main_test.go"
 mode = "test"
 hint = """
-Используйте reflect.DeepEqual для сравнения таких структур."""
+Use reflect.DeepEqual to compare such structs."""
 
 [[exercises]]
 name = "structs22"
 path = "exercises/structs/structs22/main_test.go"
 mode = "test"
 hint = """
-Границы включаются. Диапазоны пересекаются, если каждый начинается
-не позже конца другого."""
+The bounds are included. Two ranges overlap when each starts
+no later than the other one ends."""
 
 [[exercises]]
 name = "structs23"
 path = "exercises/structs/structs23/main_test.go"
 mode = "test"
 hint = """
-Структуры сравниваются по всем полям. Проверьте оператор."""
+Structs compare across every field. Check the operator."""
 
 [[exercises]]
 name = "structs24"
 path = "exercises/structs/structs24/main_test.go"
 mode = "test"
 hint = """
-Создайте map в конструкторе. В Register проверьте наличие имени
-и верните ошибку при повторе."""
+Build the map in the constructor. In Register check for the name
+and return an error on a repeat."""
 
 [[exercises]]
 name = "structs25"
 path = "exercises/structs/structs25/main_test.go"
 mode = "test"
 hint = """
-Напишите метод Equal: поле Value равно, если значения равны
-или оба NaN."""
+Write an Equal method: the Value field matches when the values are equal
+or both are NaN."""
 
 [[exercises]]
 name = "structs26"
 path = "exercises/structs/structs26/main_test.go"
 mode = "test"
 hint = """
-Встроенное поле объявляется одним только именем типа."""
+An embedded field is declared with nothing but the name of the type."""
 
 [[exercises]]
 name = "structs27"
 path = "exercises/structs/structs27/main_test.go"
 mode = "test"
 hint = """
-Peek не должен удалять элемент. Pop удаляет последний.
-Проверяйте пустой стек."""
+Peek must not remove the element. Pop removes the last one.
+Check for an empty stack."""
 
 [[exercises]]
 name = "structs28"
 path = "exercises/structs/structs28/main_test.go"
 mode = "test"
 hint = """
-Тип в утверждении должен точно совпадать с динамическим типом: *Square."""
+The type in the assertion has to match the dynamic type exactly: *Square."""
 
 [[exercises]]
 name = "structs29"
 path = "exercises/structs/structs29/main_test.go"
 mode = "test"
 hint = """
-Результат append нужно сохранить в поле."""
+The result of the append has to be stored in the field."""
 
 [[exercises]]
 name = "structs30"
 path = "exercises/structs/structs30/main_test.go"
 mode = "test"
 hint = """
-Start запоминает момент начала и флаг работы. Stop прибавляет
-разницу к накопленному времени и сбрасывает флаг; Stop без Start ничего не делает."""
+Start remembers the starting moment and a running flag. Stop adds
+the difference to the total and clears the flag; a Stop without a Start does nothing."""
 
 [[exercises]]
 name = "structs31"
 path = "exercises/structs/structs31/main_test.go"
 mode = "test"
 hint = """
-Объявите MarshalJSON со значимым получателем — тогда он сработает
-и для значений, и для указателей."""
+Declare MarshalJSON with a value receiver and it works
+for values and pointers alike."""
 
 [[exercises]]
 name = "structs32"
 path = "exercises/structs/structs32/main_test.go"
 mode = "test"
 hint = """
-F = C*9/5 + 32, C = (F-32)*5/9. Результат нужно преобразовать
-к целевому типу."""
+F = C*9/5 + 32 and C = (F-32)*5/9. The result has to be converted
+to the target type."""
 
 [[exercises]]
 name = "structs33"
 path = "exercises/structs/structs33/main_test.go"
 mode = "test"
 hint = """
-Unmarshal не может изменить копию. Передайте адрес переменной."""
+Unmarshal cannot change a copy. Pass the address of the variable."""
 
 [[exercises]]
 name = "structs34"
 path = "exercises/structs/structs34/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какие поля участвуют в склейке."""
+Check which fields go into the result."""
 
 [[exercises]]
 name = "structs35"
 path = "exercises/structs/structs35/main_test.go"
 mode = "test"
 hint = """
-Значение тега json может содержать опции через запятую: "name,omitempty".
-Возьмите часть до запятой; пустое имя означает имя поля."""
+A json tag value may carry options after a comma: "name,omitempty".
+Take the part before the comma; an empty name means the field name."""
 
 [[exercises]]
 name = "structs36"
 path = "exercises/structs/structs36/main_test.go"
 mode = "test"
 hint = """
-Изменяйте элемент среза по индексу, а не копию из range.
-Сотрудники других отделов не меняются."""
+Change the slice element by index rather than the copy from the range.
+The employees of other departments stay as they are."""
 
 [[exercises]]
 name = "structs37"
 path = "exercises/structs/structs37/main_test.go"
 mode = "test"
 hint = """
-Проверьте начальное значение поля."""
+Check the starting value of the field."""
 
 [[exercises]]
 name = "structs38"
 path = "exercises/structs/structs38/main_test.go"
 mode = "test"
 hint = """
-c[i][j] = сумма a[i][k]*b[k][j]. Определитель: ad - bc."""
+c[i][j] is the sum of a[i][k]*b[k][j]. The determinant is ad - bc."""
 
 [[exercises]]
 name = "structs39"
 path = "exercises/structs/structs39/main_test.go"
 mode = "test"
 hint = """
-Объявите свой тип на основе int и добавьте метод к нему."""
+Declare a type of your own based on int and add the method to it."""
 
 [[exercises]]
 name = "structs40"
 path = "exercises/structs/structs40/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что добавляется в множество."""
+Check what is being added to the set."""
 
 [[exercises]]
 name = "structs41"
 path = "exercises/structs/structs41/main_test.go"
 mode = "test"
 hint = """
-Сутки — 1440 минут. После сложения приведите значение в диапазон
-[0, 1440) с учётом отрицательных чисел."""
+A day has 1440 minutes. After the addition bring the value into
+[0, 1440), negative numbers included."""
 
 [[exercises]]
 name = "structs42"
 path = "exercises/structs/structs42/main_test.go"
 mode = "test"
 hint = """
-Значения в позиционном литерале идут в порядке объявления полей."""
+The values of a positional literal follow the order the fields are declared in."""
 
 [[exercises]]
 name = "structs43"
 path = "exercises/structs/structs43/main_test.go"
 mode = "test"
 hint = """
-Пакет json работает через рефлексию и видит только экспортируемые поля.
-Переименуйте поле так, чтобы оно начиналось с заглавной буквы."""
+The json package works through reflection and only sees exported fields.
+Rename the field so that it starts with a capital letter."""
 
 [[exercises]]
 name = "structs44"
 path = "exercises/structs/structs44/main_test.go"
 mode = "test"
 hint = """
-Нужно сравнить оба поля."""
+Both fields have to be compared."""
 
 [[exercises]]
 name = "structs45"
 path = "exercises/structs/structs45/main_test.go"
 mode = "test"
 hint = """
-Проверьте поле Sender на nil и используйте поведение по умолчанию
-(в этом упражнении — просто вернуть false)."""
+Check the Sender field against nil and fall back to the default behaviour,
+which in this exercise is simply returning false."""
 
 [[exercises]]
 name = "structs46"
 path = "exercises/structs/structs46/main_test.go"
 mode = "test"
 hint = """
-Сначала сумма всех позиций (цена * количество), затем
-вычтите процент скидки: total - total*discount/100."""
+Start with the sum of every line, price times quantity, then
+take the discount off: total - total*discount/100."""
 
 [[exercises]]
 name = "structs47"
 path = "exercises/structs/structs47/main_test.go"
 mode = "test"
 hint = """
-Проверьте значения по умолчанию в конструкторе."""
+Check the default values in the constructor."""
 
 [[exercises]]
 name = "structs48"
 path = "exercises/structs/structs48/main_test.go"
 mode = "test"
 hint = """
-Значение Counter не имеет метода Inc. Положите в интерфейс указатель &Counter{}."""
+A Counter value has no Inc method. Put a pointer, &Counter{}, into the interface."""
 
 [[exercises]]
 name = "structs49"
 path = "exercises/structs/structs49/main_test.go"
 mode = "test"
 hint = """
-Если значение не задано (Valid == false), выводите "-". Иначе формат "%.1f°C"."""
+When the value is unset (Valid == false) print "-". Otherwise use the format "%.1f°C"."""
 
 [[exercises]]
 name = "structs50"
 path = "exercises/structs/structs50/main_test.go"
 mode = "test"
 hint = """
-Встраиваемый тип указывается без имени поля."""
+An embedded type is written without a field name."""
 
 [[exercises]]
 name = "structs51"
 path = "exercises/structs/structs51/main_test.go"
 mode = "test"
 hint = """
-Присваивание структуры копирует только заголовок среза.
-Создайте новый срез и скопируйте элементы."""
+Assigning a struct only copies the slice header.
+Build a new slice and copy the elements."""
 
 [[exercises]]
 name = "structs52"
 path = "exercises/structs/structs52/main_test.go"
 mode = "test"
 hint = """
-В WithColor создайте новый Style (копию) и присвойте его копии виджета."""
+In WithColor build a new Style, a copy, and give it to the copy of the widget."""
 
 [[exercises]]
 name = "structs53"
 path = "exercises/structs/structs53/main_test.go"
 mode = "test"
 hint = """
-Add не должен менять получатель — верните новую точку.
-Расстояние считается через math.Hypot разностей координат."""
+Add must not change the receiver, so return a new point.
+The distance comes from math.Hypot of the coordinate differences."""
 
 [[exercises]]
 name = "structs54"
 path = "exercises/structs/structs54/main_test.go"
 mode = "test"
 hint = """
-Город хранится в поле адреса, а не в самом заказе."""
+The city lives in the address field, not in the order itself."""
 
 [[exercises]]
 name = "structs55"
 path = "exercises/structs/structs55/main_test.go"
 mode = "test"
 hint = """
-Сравните поля по отдельности, а срез — поэлементно (или через reflect.DeepEqual)."""
+Compare the fields one by one, and the slice element by element, or with reflect.DeepEqual."""
 
 [[exercises]]
 name = "structs56"
 path = "exercises/structs/structs56/main_test.go"
 mode = "test"
 hint = """
-Через указатель поля доступны напрямую: p.X. Проверьте, какое поле меняется."""
+Through a pointer the fields are reached directly: p.X. Check which field changes."""
 
 [[exercises]]
 name = "structs57"
 path = "exercises/structs/structs57/main_test.go"
 mode = "test"
 hint = """
-Обнуляйте переменную перед каждым Unmarshal (или объявляйте её внутри цикла)."""
+Zero the variable before every Unmarshal, or declare it inside the loop."""
 
 [[exercises]]
 name = "structs58"
 path = "exercises/structs/structs58/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте баланс отправителя, затем уменьшите один баланс
-и увеличьте другой."""
+Check the balance of the sender first, then lower one balance
+and raise the other."""
 
 [[exercises]]
 name = "structs59"
 path = "exercises/structs/structs59/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение поля Port в литерале."""
+Check the value of the Port field in the literal."""
 
 [[exercises]]
 name = "structs60"
 path = "exercises/structs/structs60/main_test.go"
 mode = "test"
 hint = """
-Сравните валюты до сложения. Результат — новая структура."""
+Compare the currencies before adding. The result is a new struct."""
 
 [[exercises]]
 name = "structs61"
 path = "exercises/structs/structs61/main_test.go"
 mode = "test"
 hint = """
-Внутри String не форматируйте сам получатель через %v.
-Выводите поля напрямую или преобразуйте к типу без методов."""
+Inside String do not format the receiver itself with %v.
+Print the fields directly, or convert to a type without methods."""
 
 [[exercises]]
 name = "structs62"
 path = "exercises/structs/structs62/main_test.go"
 mode = "test"
 hint = """
-Сравните запрос с остатком. При нулевом остатке удалите ключ."""
+Compare the request against the stock. At zero stock delete the key."""
 
 [[exercises]]
 name = "structs63"
 path = "exercises/structs/structs63/main_test.go"
 mode = "test"
 hint = """
-Каналы и функции нельзя сериализовать в JSON. Пометьте поле тегом "-"."""
+Channels and functions cannot be serialized to JSON. Mark the field with the "-" tag."""
 
 [[exercises]]
 name = "structs64"
 path = "exercises/structs/structs64/main_test.go"
 mode = "test"
 hint = """
-Изменять нужно поле вложенной структуры."""
+What has to be changed is a field of the nested struct."""
 
 [[exercises]]
 name = "structs65"
 path = "exercises/structs/structs65/main_test.go"
 mode = "test"
 hint = """
-Каждая фигура должна реализовать Area. Проверьте формулы
-и то, что Square действительно удовлетворяет интерфейсу."""
+Every shape has to implement Area. Check the formulas
+and that Square really satisfies the interface."""
 
 [[exercises]]
 name = "structs66"
 path = "exercises/structs/structs66/main_test.go"
 mode = "test"
 hint = """
-Проверка должна срабатывать, когда указатель равен nil."""
+The check has to fire when the pointer is nil."""
 
 [[exercises]]
 name = "structs67"
 path = "exercises/structs/structs67/main_test.go"
 mode = "test"
 hint = """
-Либо создавайте Logger в конструкторе, либо сделайте метод Logger
-безопасным для nil-получателя."""
+Either build the Logger in the constructor, or make the Logger method
+safe for a nil receiver."""
 
 [[exercises]]
 name = "structs68"
 path = "exercises/structs/structs68/main_test.go"
 mode = "test"
 hint = """
-При превышении лимита отбрасывайте самые старые элементы.
-Last не должен выходить за границы."""
+Once the limit is passed, drop the oldest elements.
+Last must not run past the bounds."""
 
 [[exercises]]
 name = "structs69"
 path = "exercises/structs/structs69/main_test.go"
 mode = "test"
 hint = """
-Укажите явно, чьё поле нужно: r.Author.Name."""
+Say explicitly whose field you want: r.Author.Name."""
 
 [[exercises]]
 name = "structs70"
 path = "exercises/structs/structs70/main_test.go"
 mode = "test"
 hint = """
-В рубле 100 копеек."""
+There are 100 cents in a unit."""
 
 [[exercises]]
 name = "structs71"
 path = "exercises/structs/structs71/main_test.go"
 mode = "test"
 hint = """
-Where должен накапливать условия, а Build — соединять их через " AND ".
-Каждый метод возвращает тот же *QueryBuilder."""
+Where has to collect the conditions, and Build joins them with " AND ".
+Every method returns the same *QueryBuilder."""
 
 [[exercises]]
 name = "structs72"
 path = "exercises/structs/structs72/main_test.go"
 mode = "test"
 hint = """
-Проверьте, по какому ключу записывается значение."""
+Check the key the value is stored under."""
 
 [[exercises]]
 name = "structs73"
 path = "exercises/structs/structs73/main_test.go"
 mode = "test"
 hint = """
-Размер типа, содержащего себя, был бы бесконечным. Используйте *Category."""
+The size of a type holding itself would be infinite. Use a *Category."""
 
 [[exercises]]
 name = "structs74"
 path = "exercises/structs/structs74/main_test.go"
 mode = "test"
 hint = """
-Методы не должны менять получатель — возвращайте новые значения.
-Проверьте формулу масштабирования."""
+The methods must not change the receiver, so return new values.
+Check the scaling formula."""
 
 [[exercises]]
 name = "structs75"
 path = "exercises/structs/structs75/main_test.go"
 mode = "test"
 hint = """
-Меняйте поле копии, а не исходной переменной через указатель."""
+Change the field of the copy rather than the original through a pointer."""
 
 [[exercises]]
 name = "structs76"
 path = "exercises/structs/structs76/main_test.go"
 mode = "test"
 hint = """
-Храните в интерфейсе указатель *Circle и меняйте поле через него."""
+Store a *Circle pointer in the interface and change the field through it."""
 
 [[exercises]]
 name = "structs77"
 path = "exercises/structs/structs77/main_test.go"
 mode = "test"
 hint = """
-Периметр — удвоенная сумма сторон. Scale должен менять исходный прямоугольник,
-значит, нужен получатель-указатель."""
+The perimeter is twice the sum of the sides. Scale has to change the original
+rectangle, so it needs a pointer receiver."""
 
 [[exercises]]
 name = "structs78"
 path = "exercises/structs/structs78/main_test.go"
 mode = "test"
 hint = """
-e.Name — это поле Employee. Имя человека доступно как e.Person.Name."""
+e.Name is the field of Employee. The name of the person is e.Person.Name."""
 
 [[exercises]]
 name = "structs79"
 path = "exercises/structs/structs79/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое поле возвращается."""
+Check which field is returned."""
 
 [[exercises]]
 name = "structs80"
 path = "exercises/structs/structs80/main_test.go"
 mode = "test"
 hint = """
-Значение Card не реализует Stringer. Объявите String со значимым получателем."""
+A Card value does not satisfy Stringer. Declare String with a value receiver."""
 
 [[exercises]]
 name = "structs81"
 path = "exercises/structs/structs81/main_test.go"
 mode = "test"
 hint = """
-Нулевое значение Point — это Point{}."""
+The zero value of Point is Point{}."""
 
 [[exercises]]
 name = "structs82"
 path = "exercises/structs/structs82/main_test.go"
 mode = "test"
 hint = """
-Меньшие значения идут в левое поддерево, большие — в правое.
-InOrder: левое поддерево, узел, правое поддерево."""
+Smaller values go to the left subtree and larger ones to the right.
+InOrder is: left subtree, node, right subtree."""
 
 [[exercises]]
 name = "structs83"
 path = "exercises/structs/structs83/main_test.go"
 mode = "test"
 hint = """
-Чтобы различать «не задано» и false, используйте указатель *bool:
-nil пропускается, а указатель на false сериализуется."""
+To tell "unset" from false, use a *bool:
+nil is dropped, while a pointer to false is serialized."""
 
 [[exercises]]
 name = "structs84"
 path = "exercises/structs/structs84/main_test.go"
 mode = "test"
 hint = """
-Проверьте заполненность в Push. Pop берёт первый элемент."""
+Check whether it is full in Push. Pop takes the first element."""
 
 [[exercises]]
 name = "structs85"
 path = "exercises/structs/structs85/main_test.go"
 mode = "test"
 hint = """
-Тег записывается в обратных кавычках: `json:"имя"`. Проверьте имя в теге."""
+A tag is written in backquotes: `json:"name"`. Check the name in the tag."""
 
 [[exercises]]
 name = "structs86"
 path = "exercises/structs/structs86/main_test.go"
 mode = "test"
 hint = """
-При конфликте на одной глубине поле не сериализуется. Дайте полям
-разные JSON-имена (например, "meta_id" и "audit_id")."""
+On a clash at the same depth the field is not serialized. Give the fields
+different JSON names, "meta_id" and "audit_id" for instance."""
 
 [[exercises]]
 name = "structs87"
 path = "exercises/structs/structs87/main_test.go"
 mode = "test"
 hint = """
-Экспортируемое имя начинается с заглавной буквы."""
+An exported name starts with a capital letter."""
 
 [[exercises]]
 name = "structs88"
 path = "exercises/structs/structs88/main_test.go"
 mode = "test"
 hint = """
-Новый узел должен указывать на старую голову, а голова — на новый узел.
-В Values двигайтесь по полю next до nil."""
+The new node has to point at the old head, and the head at the new node.
+In Values walk the next field until nil."""
 
 [[exercises]]
 name = "structs89"
 path = "exercises/structs/structs89/main_test.go"
 mode = "test"
 hint = """
-Для цепочки метод должен вернуть тот же указатель."""
+For chaining the method has to return the same pointer."""
 
 [[exercises]]
 name = "structs90"
 path = "exercises/structs/structs90/main_test.go"
 mode = "test"
 hint = """
-Проверьте теги полей и передачу указателя в Unmarshal."""
+Check the field tags and that a pointer is handed to Unmarshal."""
 
 [[exercises]]
 name = "structs91"
 path = "exercises/structs/structs91/main_test.go"
 mode = "test"
 hint = """
-Встроенный метод ничего не знает о внешней структуре. Объявите Rename
-у Product, чтобы он менял поле Product."""
+An embedded method knows nothing about the outer struct. Declare Rename
+on Product so that it changes the field of Product."""
 
 [[exercises]]
 name = "structs92"
 path = "exercises/structs/structs92/main_test.go"
 mode = "test"
 hint = """
-Сократите на НОД и перенесите знак знаменателя в числитель.
-Add должен возвращать результат через NewRat."""
+Divide by the GCD and move the sign of the denominator into the numerator.
+Add has to return its result through NewRat."""
 
 [[exercises]]
 name = "structs93"
 path = "exercises/structs/structs93/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое значение присваивается полю."""
+Check which value is assigned to the field."""
 
 [[exercises]]
 name = "structs94"
 path = "exercises/structs/structs94/main_test.go"
 mode = "test"
 hint = """
-Создайте в копии новую map и перенесите в неё все пары."""
+Build a new map in the copy and move every pair into it."""
 
 [[exercises]]
 name = "structs95"
 path = "exercises/structs/structs95/main_test.go"
 mode = "test"
 hint = """
-Сверьте, какому полю присваивается каждое значение."""
+Check which field each value is assigned to."""
 
 [[exercises]]
 name = "structs96"
 path = "exercises/structs/structs96/main_test.go"
 mode = "test"
 hint = """
-Проверьте наличие книги и её статус. Return для невыданной книги — ошибка."""
+Check that the book exists and what its state is. Returning a book that is not out is an error."""
 
 [[exercises]]
 name = "structs97"
 path = "exercises/structs/structs97/main_test.go"
 mode = "test"
 hint = """
-Сделайте получатель указателем и обработайте nil внутри метода."""
+Make the receiver a pointer and handle nil inside the method."""
 
 [[exercises]]
 name = "structs98"
 path = "exercises/structs/structs98/main_test.go"
 mode = "test"
 hint = """
-Площадь — произведение сторон."""
+The area is the product of the sides."""
 
 [[exercises]]
 name = "structs99"
 path = "exercises/structs/structs99/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте поля по старшинству: major, затем minor, затем patch."""
+Compare the fields in order of weight: major, then minor, then patch."""
 
 [[exercises]]
 name = "structs100"
 path = "exercises/structs/structs100/main_test.go"
 mode = "test"
 hint = """
-Перепишите литерал с явными именами полей."""
+Rewrite the literal with explicit field names."""
 
 [[exercises]]
 name = "structs101"
 path = "exercises/structs/structs101/main_test.go"
 mode = "test"
 hint = """
-Less должен сравнивать возраст, а Swap — менять элементы местами."""
+Less has to compare the ages and Swap has to exchange the elements."""
 
 [[exercises]]
 name = "structs102"
 path = "exercises/structs/structs102/main_test.go"
 mode = "test"
 hint = """
-Проверьте формат в Sprintf."""
+Check the format in the Sprintf."""
 
 [[exercises]]
 name = "structs103"
 path = "exercises/structs/structs103/main_test.go"
 mode = "test"
 hint = """
-a.Describe() внутри Admin.Describe — это рекурсия. Вызовите метод
-встроенного поля явно: a.User.Describe()."""
+a.Describe() inside Admin.Describe is a recursion. Call the method
+of the embedded field explicitly: a.User.Describe()."""
 
 # ===== generated exercises: anonymous_functions =====
 [[exercises]]

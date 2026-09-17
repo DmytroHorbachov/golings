@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Inventory.Remove уменьшает количество и удаляет товар при нуле;
-// нельзя убрать больше, чем есть.
-// Тренирует: методы с проверками над полем-map.
-// Сложность: medium
+// Inventory.Remove lowers the quantity and drops the item at zero;
+// more than there is cannot be taken away.
+// Practices methods with checks over a map field.
 package main_test
 
 import (

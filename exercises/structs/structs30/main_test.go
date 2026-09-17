@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stopwatch накапливает время интервалов Start/Stop; время подаётся явно.
-// Тренирует: состояние в структуре и time.Duration.
-// Сложность: medium
+// Stopwatch adds up the Start/Stop intervals, with the time passed in explicitly.
+// Practices state in a struct plus time.Duration.
 package main_test
 
 import (

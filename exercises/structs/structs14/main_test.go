@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countAdults считает людей старше 17 лет.
-// Тренирует: range по срезу структур.
-// Сложность: easy
+// countAdults counts the people over 17.
+// Practices a range over a slice of structs.
 package main_test
 
 import "testing"

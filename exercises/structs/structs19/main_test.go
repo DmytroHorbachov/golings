@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Student.Average возвращает средний балл (0 без оценок), Best — лучший балл.
-// Тренирует: методы над полем-срезом.
-// Сложность: medium
+// Student.Average returns the average mark, 0 with no marks, and Best the highest one.
+// Practices methods over a slice field.
 package main_test
 
 import "testing"

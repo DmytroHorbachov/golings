@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Notifier встраивает интерфейс Sender. Структура создана без Sender,
-// и вызов метода паникует.
-// Тренирует: встроенный интерфейс — поле, которое по умолчанию nil.
-// Сложность: hard
+// Notifier embeds the Sender interface. The struct is built without a Sender,
+// and the method call panics.
+// An embedded interface is a field, and it is nil by default.
 package main_test
 
 import "testing"

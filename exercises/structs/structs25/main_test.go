@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Структуры Measurement с «пустым» значением NaN должны считаться равными.
-// Тренирует: == для структур сравнивает float-поля по IEEE (NaN != NaN).
-// Сложность: hard
+// Measurement structs with a "missing" value of NaN have to count as equal.
+// == on structs compares float fields under IEEE rules, and NaN != NaN.
 package main_test
 
 import (

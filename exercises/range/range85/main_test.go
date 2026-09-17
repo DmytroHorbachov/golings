@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// columnMax возвращает максимум каждого столбца прямоугольной таблицы.
-// Тренирует: range по строкам и столбцам с общим результатом.
-// Сложность: medium
+// columnMax returns the maximum of every column of a rectangular table.
+// Practices a range over rows and columns with a shared result.
 package main_test
 
 import (

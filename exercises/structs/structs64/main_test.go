@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// setCity меняет город в адресе пользователя через указатель на пользователя.
-// Тренирует: изменение вложенного поля.
-// Сложность: easy
+// setCity changes the city in the address of a user through a pointer to the user.
+// Practices changing a nested field.
 package main_test
 
 import "testing"

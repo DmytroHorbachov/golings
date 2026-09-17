@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// chars возвращает символы строки как срез строк.
-// Для кириллицы получаются обрывки байтов.
-// Тренирует: s[i:i+1] берёт один байт, а не символ.
-// Сложность: hard
+// chars returns the characters of a string as a slice of strings.
+// For non-ASCII text it produces byte fragments.
+// s[i:i+1] takes a single byte, not a character.
 package main_test
 
 import (

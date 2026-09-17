@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Celsius и Fahrenheit — именованные типы с методами перевода друг в друга.
-// Тренирует: методы на типах, не являющихся структурами.
-// Сложность: medium
+// Celsius and Fahrenheit are named types with methods converting between them.
+// Practices methods on types that are not structs.
 package main_test
 
 import "testing"
