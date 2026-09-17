@@ -1,0 +1,44 @@
+// range59
+// Make the tests pass!
+
+// I AM NOT DONE
+//
+// wordFreq считает слова без учёта регистра, разделяя текст по любым небуквенным символам.
+// Тренирует: range по рунам и накопление текущего слова.
+// Сложность: medium
+package main_test
+
+import (
+	"reflect"
+	"strings"
+	"testing"
+	"unicode"
+)
+
+func wordFreq(text string) map[string]int {
+	m := map[string]int{}
+	var cur strings.Builder
+	flush := func() {
+		if cur.Len() > 0 {
+			m[cur.String()]++
+			cur.Reset()
+		}
+	}
+	for _, r := range text {
+		if r == ' ' {
+			flush()
+			continue
+		}
+		cur.WriteRune(r)
+	}
+	return m
+}
+
+func TestWordFreq(t *testing.T) {
+	_ = unicode.IsLetter
+	got := wordFreq("Go, go! Кот и КОТ.")
+	want := map[string]int{"go": 2, "кот": 2, "и": 1}
+	if !reflect.DeepEqual(got, want) {
+		t.Errorf("wordFreq = %v", got)
+	}
+}
