@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// merge объединяет несколько каналов в один и закрывает его, когда все
-// входные каналы закрыты.
-// Тренирует: fan-in с WaitGroup.
-// Сложность: medium
+// merge combines several channels into one and closes it once all the
+// input channels are closed.
+// Practices fan-in with a WaitGroup.
 package main_test
 
 import (

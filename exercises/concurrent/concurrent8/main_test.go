@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Метод Add объявлен со значимым получателем: каждый вызов блокирует
-// копию мьютекса и меняет копию данных.
-// Тренирует: структуры с мьютексом используют получатель-указатель.
-// Сложность: hard
+// The Add method has a value receiver: every call locks a copy
+// of the mutex and changes a copy of the data.
+// Structs with a mutex use a pointer receiver.
 package main_test
 
 import (

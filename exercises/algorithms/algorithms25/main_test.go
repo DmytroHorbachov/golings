@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Срез отсортирован по неубыванию. Верните индексы
-// i < j пары с суммой target или (-1, -1).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. The slice is sorted in non-decreasing order.
+// Return the indices i < j of a pair with the sum target, or (-1, -1).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

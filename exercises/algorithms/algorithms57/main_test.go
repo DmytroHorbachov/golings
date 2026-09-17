@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: жадность после сортировки. Ребёнок с аппетитом g[i] доволен печеньем
-// размера s[j] >= g[i]. Каждому ребёнку — не больше одного печенья.
-// Верните максимальное число довольных детей.
-// Сложность: easy. Ожидаемая асимптотика: O(n·log n) по времени, O(1) доп. памяти
+// Pattern: greedy after sorting. A child with appetite g[i] is content with
+// a cookie of size s[j] >= g[i]. Each child gets at most one cookie.
+// Return the maximum number of content children.
+// Expected asymptotics: O(n·log n) time, O(1) extra space.
 package main_test
 
 import (

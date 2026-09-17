@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// runTasks собирает ошибки задач в буферизованный канал и считает их.
-// Счётчик ошибок увеличивается неверно.
-// Тренирует: чтение всех значений из канала.
-// Сложность: easy
+// runTasks collects task errors into a buffered channel and counts them.
+// The error count is incremented incorrectly.
+// Practices reading all values out of a channel.
 package main_test
 
 import (

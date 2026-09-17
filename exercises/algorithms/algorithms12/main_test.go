@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: хэш-таблицы с вычисляемым ключом. Сгруппируйте слова-анаграммы.
-// Порядок групп — по первому появлению, порядок слов в группе — как во входе.
-// Сложность: medium. Ожидаемая асимптотика: O(n·k·log k) по времени, O(n·k) по памяти
+// Pattern: hash tables with a computed key. Group anagram words together.
+// Groups are ordered by first appearance; words within a group — as in
+// the input.
+// Expected asymptotics: O(n·k·log k) time, O(n·k) space.
 package main_test
 
 import (

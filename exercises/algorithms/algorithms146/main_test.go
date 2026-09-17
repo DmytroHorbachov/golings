@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: подсчёт частот и bucket sort. Верните k самых частых элементов,
-// отсортированных по убыванию частоты; при равной частоте — по возрастанию значения.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени (блочная сортировка), O(n) по памяти
+// Pattern: frequency counting and bucket sort. Return the k most frequent
+// elements sorted by descending frequency; on equal frequency — by ascending
+// value.
+// Expected asymptotics: O(n) time (bucket sort), O(n) space.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП «рюкзак» по достижимым суммам. Можно ли разделить
-// неотрицательные числа на две части с равными суммами?
-// Сложность: medium. Ожидаемая асимптотика: O(n·S) по времени, O(S) по памяти
+// Pattern: knapsack DP over reachable sums. Can the non-negative
+// numbers be split into two parts with equal sums?
+// Expected asymptotics: O(n·S) time, O(S) space.
 package main_test
 
 import "testing"

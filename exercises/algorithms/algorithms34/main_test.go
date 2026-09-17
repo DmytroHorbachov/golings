@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два прохода жадности. Каждому ребёнку нужна хотя бы одна конфета,
-// и ребёнок с более высоким рейтингом получает больше конфет, чем соседи
-// с меньшим рейтингом. Верните минимальное количество конфет.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: two-pass greedy. Each child needs at least one candy, and a
+// child with a higher rating gets more candies than neighbors with a
+// lower rating. Return the minimum number of candies.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

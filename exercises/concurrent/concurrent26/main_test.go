@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// wordCounts считает слова в нескольких текстах параллельно и объединяет в общую map.
-// Тренирует: мьютекс вокруг общей map.
-// Сложность: medium
+// wordCounts counts the words of several texts in parallel and merges them into one map.
+// Practices a mutex around a shared map.
 package main_test
 
 import (

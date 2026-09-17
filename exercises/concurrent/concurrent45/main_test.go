@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fetchAll обрабатывает URL параллельно, но не больше limit одновременно,
-// и возвращает результаты в исходном порядке.
-// Тренирует: семафор и запись результатов по индексу.
-// Сложность: medium
+// fetchAll handles the URLs in parallel, no more than limit at once,
+// and returns the results in the original order.
+// Practices a semaphore plus writing the results by index.
 package main_test
 
 import (

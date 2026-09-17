@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек. Проверьте, что скобки ()[]{} в строке правильно вложены
-// и закрыты. Другие символы не встречаются.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: stack. Check that the brackets ()[]{} in the string are properly
+// nested and closed. No other characters occur.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

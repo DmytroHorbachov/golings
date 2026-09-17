@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parallelLen считает длины строк параллельно и возвращает их в исходном порядке
-// через канал пар (индекс, результат).
-// Тренирует: передача индекса вместе с результатом.
-// Сложность: medium
+// parallelLen computes string lengths in parallel and returns them in their
+// original order via a channel of (index, result) pairs.
+// Practices passing the index along with the result.
 package main_test
 
 import (

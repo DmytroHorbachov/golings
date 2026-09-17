@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по ответу. Есть кучки бананов и h часов. За час можно
-// съесть до k бананов из одной кучки. Найдите минимальную скорость k.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log m) по времени, O(1) по памяти
+// Pattern: binary search on the answer. There are piles of bananas and
+// h hours. In one hour you can eat up to k bananas from a single pile.
+// Find the minimum speed k.
+// Expected asymptotics: O(n·log m) time, O(1) space.
 package main_test
 
 import "testing"

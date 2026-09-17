@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: мин-куча (или двоичный поиск с обходом). На карте высот вода
-// поднимается со временем; в момент t можно плавать по клеткам с высотой не выше t.
-// Верните минимальное время, чтобы добраться из (0,0) в правый нижний угол.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c·log(r·c)) по времени, O(r·c) по памяти
+// Pattern: min-heap (or binary search with traversal). On a height map
+// the water rises over time; at time t you can swim over cells with
+// height at most t. Return the minimum time to get from (0,0) to the
+// bottom-right corner.
+// Expected asymptotics: O(r·c·log(r·c)) time, O(r·c) space.
 package main_test
 
 import (

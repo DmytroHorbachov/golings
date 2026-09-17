@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Несколько производителей пишут в один канал; первый закончивший закрывает его,
-// и остальные паникуют.
-// Тренирует: закрывать канал должен тот, кто знает, что отправителей больше нет.
-// Сложность: hard
+// Several producers write into one channel; the first one to finish closes it
+// and the rest panic.
+// The channel is closed by whoever knows there are no senders left.
 package main_test
 
 import (

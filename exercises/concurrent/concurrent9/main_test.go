@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// readAll читает значения, пока канал не закрыт, используя форму v, ok.
-// Тренирует: признак ok при чтении из канала.
-// Сложность: easy
+// readAll reads values until the channel is closed, using the v, ok form.
+// Practices the ok flag when receiving from a channel.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Broadcaster рассылает сообщение всем подписчикам по их каналам.
-// Тренирует: срез каналов под мьютексом.
-// Сложность: medium
+// Broadcaster sends a message to all subscribers over their channels.
+// Practices a slice of channels guarded by a mutex.
 package main_test
 
 import (

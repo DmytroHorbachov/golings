@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Срез отсортирован и может содержать отрицательные числа.
-// Верните отсортированные квадраты элементов без повторной сортировки.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: two pointers. The slice is sorted and may contain negative
+// numbers. Return the sorted squares of the elements without sorting again.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

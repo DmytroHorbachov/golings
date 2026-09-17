@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск. Верните индекс target в отсортированном срезе
-// различных чисел или -1.
-// Сложность: easy. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: binary search. Return the index of target in a sorted slice of
+// distinct numbers, or -1.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import "testing"

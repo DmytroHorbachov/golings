@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stop может вызываться из нескольких мест; повторный close паникует.
-// Тренирует: канал закрывается ровно один раз.
-// Сложность: hard
+// Stop may be called from several places; a second close panics.
+// Practices closing a channel exactly once.
 package main_test
 
 import (

@@ -3680,7 +3680,7 @@ name = "primitive_types39"
 path = "exercises/primitive_types/primitive_types39/main_test.go"
 mode = "test"
 hint = """
-In Unicode the letter ё (U+0451) comes after я (U+044F). Allow for it separately."""
+In Unicode the accented vowels (e.g. ί, U+03AF) sit outside the contiguous 'α'..'ω' range. Allow for them separately."""
 
 [[exercises]]
 name = "primitive_types40"
@@ -9419,736 +9419,736 @@ name = "concurrent4"
 path = "exercises/concurrent/concurrent4/main_test.go"
 mode = "test"
 hint = """
-Передавайте *sync.WaitGroup."""
+Pass a *sync.WaitGroup."""
 
 [[exercises]]
 name = "concurrent5"
 path = "exercises/concurrent/concurrent5/main_test.go"
 mode = "test"
 hint = """
-На сигнал quit нужно выйти из функции, а не только из select.
-Счётчик увеличивается на каждое событие."""
+On the quit signal the function has to return, not just leave the select.
+The counter goes up on every event."""
 
 [[exercises]]
 name = "concurrent6"
 path = "exercises/concurrent/concurrent6/main_test.go"
 mode = "test"
 hint = """
-Перед основным select проверьте quit неблокирующим select с default."""
+Before the main select, check quit with a non-blocking select with a default."""
 
 [[exercises]]
 name = "concurrent7"
 path = "exercises/concurrent/concurrent7/main_test.go"
 mode = "test"
 hint = """
-Слушайте канал ctx.Done(), а не ctx.Value."""
+Listen on the ctx.Done() channel rather than on ctx.Value."""
 
 [[exercises]]
 name = "concurrent8"
 path = "exercises/concurrent/concurrent8/main_test.go"
 mode = "test"
 hint = """
-Сделайте получатель указателем, чтобы блокировка и данные были общими."""
+Make the receiver a pointer so the lock and the data are shared."""
 
 [[exercises]]
 name = "concurrent9"
 path = "exercises/concurrent/concurrent9/main_test.go"
 mode = "test"
 hint = """
-ok == false означает, что канал закрыт и данных больше нет."""
+ok == false means the channel is closed and there is no more data."""
 
 [[exercises]]
 name = "concurrent10"
 path = "exercises/concurrent/concurrent10/main_test.go"
 mode = "test"
 hint = """
-После сигнала done дочитайте оставшиеся в буфере сообщения
-неблокирующим чтением, а затем завершитесь."""
+After the done signal, read the messages left in the buffer with a
+non-blocking receive, and then finish."""
 
 [[exercises]]
 name = "concurrent11"
 path = "exercises/concurrent/concurrent11/main_test.go"
 mode = "test"
 hint = """
-Ёмкость канала-семафора равна максимальному числу одновременных задач."""
+The capacity of the semaphore channel is the largest number of tasks at once."""
 
 [[exercises]]
 name = "concurrent12"
 path = "exercises/concurrent/concurrent12/main_test.go"
 mode = "test"
 hint = """
-Сохраните только первую ошибку (sync.Once) и вызовите cancel.
-Задачи должны реагировать на ctx.Done()."""
+Keep only the first error, with a sync.Once, and call cancel.
+The tasks have to react to ctx.Done()."""
 
 [[exercises]]
 name = "concurrent13"
 path = "exercises/concurrent/concurrent13/main_test.go"
 mode = "test"
 hint = """
-Используйте atomic.LoadInt64 для чтения."""
+Use atomic.LoadInt64 for the read."""
 
 [[exercises]]
 name = "concurrent14"
 path = "exercises/concurrent/concurrent14/main_test.go"
 mode = "test"
 hint = """
-Закрытие канала разблокирует всех его получателей."""
+Closing a channel unblocks every receiver of it."""
 
 [[exercises]]
 name = "concurrent15"
 path = "exercises/concurrent/concurrent15/main_test.go"
 mode = "test"
 hint = """
-Оставьте только отложенный вызов Done."""
+Keep the deferred Done only."""
 
 [[exercises]]
 name = "concurrent16"
 path = "exercises/concurrent/concurrent16/main_test.go"
 mode = "test"
 hint = """
-Используйте буферизованный канал результата, чтобы горутина могла
-завершиться и после таймаута, и select с time.After."""
+Use a buffered result channel so the goroutine can finish even after the
+timeout, and a select with time.After."""
 
 [[exercises]]
 name = "concurrent17"
 path = "exercises/concurrent/concurrent17/main_test.go"
 mode = "test"
 hint = """
-Внутри функции инициализации не вызывайте методы, которые сами
-используют этот Once. Работайте с полями напрямую."""
+Inside the initialization function do not call methods that use this
+Once themselves. Work on the fields directly."""
 
 [[exercises]]
 name = "concurrent18"
 path = "exercises/concurrent/concurrent18/main_test.go"
 mode = "test"
 hint = """
-Inc должен захватывать эксклюзивную блокировку, Value — блокировку чтения."""
+Inc has to take the exclusive lock and Value the read lock."""
 
 [[exercises]]
 name = "concurrent19"
 path = "exercises/concurrent/concurrent19/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие цикла."""
+Check the loop condition."""
 
 [[exercises]]
 name = "concurrent20"
 path = "exercises/concurrent/concurrent20/main_test.go"
 mode = "test"
 hint = """
-Производители не должны закрывать общий канал. Закройте его
-в отдельной горутине после wg.Wait."""
+The producers must not close the shared channel. Close it
+in a goroutine of its own after wg.Wait."""
 
 [[exercises]]
 name = "concurrent21"
 path = "exercises/concurrent/concurrent21/main_test.go"
 mode = "test"
 hint = """
-Добавляйте значения в текущий пакет. Когда он заполнится, сохраните его
-и начните новый. После закрытия канала сохраните непустой остаток."""
+Append the values to the current batch. Once it is full, store it
+and start a new one. After the channel closes, store a non-empty remainder."""
 
 [[exercises]]
 name = "concurrent22"
 path = "exercises/concurrent/concurrent22/main_test.go"
 mode = "test"
 hint = """
-Нужно получить столько значений, сколько каналов."""
+As many values have to be received as there are channels."""
 
 [[exercises]]
 name = "concurrent23"
 path = "exercises/concurrent/concurrent23/main_test.go"
 mode = "test"
 hint = """
-Всегда сохраняйте значения одного типа — здесь *Config."""
+Always store values of one type, a *Config here."""
 
 [[exercises]]
 name = "concurrent24"
 path = "exercises/concurrent/concurrent24/main_test.go"
 mode = "test"
 hint = """
-Внутри цикла воркер должен проверять ctx.Done() через select
-и выходить при отмене."""
+Inside the loop the worker has to check ctx.Done() with a select
+and leave on a cancellation."""
 
 [[exercises]]
 name = "concurrent25"
 path = "exercises/concurrent/concurrent25/main_test.go"
 mode = "test"
 hint = """
-Создайте канал с буфером хотя бы на один элемент."""
+Build the channel with room for at least one element."""
 
 [[exercises]]
 name = "concurrent26"
 path = "exercises/concurrent/concurrent26/main_test.go"
 mode = "test"
 hint = """
-Защищайте запись в общую map мьютексом (или считайте в локальные map
-и объединяйте в конце)."""
+Guard the writes to the shared map with a mutex, or count into local maps
+and merge them at the end."""
 
 [[exercises]]
 name = "concurrent27"
 path = "exercises/concurrent/concurrent27/main_test.go"
 mode = "test"
 hint = """
-Нужно дождаться подтверждения от обработчика. Используйте канал
-подтверждения (или небуферизованную пару запрос-ответ)."""
+An acknowledgement from the handler has to be waited for. Use an
+acknowledgement channel, or an unbuffered request/response pair."""
 
 [[exercises]]
 name = "concurrent28"
 path = "exercises/concurrent/concurrent28/main_test.go"
 mode = "test"
 hint = """
-len(ch) — число элементов в буфере, cap(ch) — его размер."""
+len(ch) is the number of elements in the buffer and cap(ch) is its size."""
 
 [[exercises]]
 name = "concurrent29"
 path = "exercises/concurrent/concurrent29/main_test.go"
 mode = "test"
 hint = """
-Получите из канала готовности ровно столько сигналов, сколько сервисов."""
+Receive exactly as many signals from the ready channel as there are services."""
 
 [[exercises]]
 name = "concurrent30"
 path = "exercises/concurrent/concurrent30/main_test.go"
 mode = "test"
 hint = """
-После закрытия ctx.Done() причину сообщает ctx.Err()."""
+Once ctx.Done() is closed, ctx.Err() says why."""
 
 [[exercises]]
 name = "concurrent31"
 path = "exercises/concurrent/concurrent31/main_test.go"
 mode = "test"
 hint = """
-Объявите отдельные типы ключей для каждого компонента."""
+Declare a separate key type for every component."""
 
 [[exercises]]
 name = "concurrent32"
 path = "exercises/concurrent/concurrent32/main_test.go"
 mode = "test"
 hint = """
-Сохраните sync.Once в структуре и выполняйте создание соединения через Do."""
+Keep a sync.Once in the struct and open the connection through Do."""
 
 [[exercises]]
 name = "concurrent33"
 path = "exercises/concurrent/concurrent33/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое поле структуры заполняется данными."""
+Check which field of the struct the data goes into."""
 
 [[exercises]]
 name = "concurrent34"
 path = "exercises/concurrent/concurrent34/main_test.go"
 mode = "test"
 hint = """
-Отпустите RLock, затем возьмите Lock и повторно проверьте наличие ключа."""
+Release the RLock, then take the Lock and check for the key again."""
 
 [[exercises]]
 name = "concurrent35"
 path = "exercises/concurrent/concurrent35/main_test.go"
 mode = "test"
 hint = """
-Буфер канала должен вмещать ответы всех зеркал, иначе опоздавшие
-горутины заблокируются. Верните первое полученное значение."""
+The buffer of the channel has to hold the answers of every mirror, otherwise the
+late goroutines block. Return the first value received."""
 
 [[exercises]]
 name = "concurrent36"
 path = "exercises/concurrent/concurrent36/main_test.go"
 mode = "test"
 hint = """
-Создавайте дочерний контекст от переданного ctx."""
+Build the child context from the ctx that was passed in."""
 
 [[exercises]]
 name = "concurrent37"
 path = "exercises/concurrent/concurrent37/main_test.go"
 mode = "test"
 hint = """
-Нужно дождаться завершения всех горутин."""
+Every goroutine has to be waited for."""
 
 [[exercises]]
 name = "concurrent38"
 path = "exercises/concurrent/concurrent38/main_test.go"
 mode = "test"
 hint = """
-Используйте форму v, ok := <-ch и выходите из функции, когда ok == false."""
+Use the v, ok := <-ch form and return when ok == false."""
 
 [[exercises]]
 name = "concurrent39"
 path = "exercises/concurrent/concurrent39/main_test.go"
 mode = "test"
 hint = """
-Прочитайте текущее значение, проверьте его и попытайтесь заменить через CAS.
-Если CAS не удался, повторите."""
+Read the current value, check it and try to replace it with a CAS.
+When the CAS fails, try again."""
 
 [[exercises]]
 name = "concurrent40"
 path = "exercises/concurrent/concurrent40/main_test.go"
 mode = "test"
 hint = """
-Тип элементов канала должен совпадать с типом отправляемых значений."""
+The element type of the channel has to match the type of the values being sent."""
 
 [[exercises]]
 name = "concurrent41"
 path = "exercises/concurrent/concurrent41/main_test.go"
 mode = "test"
 hint = """
-Если вызов для ключа уже идёт, отпустите мьютекс и ждите его WaitGroup.
-Иначе зарегистрируйте новый вызов, выполните функцию и удалите запись."""
+When a call for the key is already running, release the mutex and wait on its WaitGroup.
+Otherwise register a new call, run the function and remove the entry."""
 
 [[exercises]]
 name = "concurrent42"
 path = "exercises/concurrent/concurrent42/main_test.go"
 mode = "test"
 hint = """
-Сразу после Lock отложите Unlock."""
+Defer the Unlock right after the Lock."""
 
 [[exercises]]
 name = "concurrent43"
 path = "exercises/concurrent/concurrent43/main_test.go"
 mode = "test"
 hint = """
-Создайте таймер до цикла и используйте его канал в select."""
+Build the timer before the loop and use its channel in the select."""
 
 [[exercises]]
 name = "concurrent44"
 path = "exercises/concurrent/concurrent44/main_test.go"
 mode = "test"
 hint = """
-Load возвращает interface{}; приведите его к нужному типу."""
+Load returns an interface{}; assert it to the type you need."""
 
 [[exercises]]
 name = "concurrent45"
 path = "exercises/concurrent/concurrent45/main_test.go"
 mode = "test"
 hint = """
-Захватывайте слот семафора до работы и освобождайте после.
-Результат записывайте по индексу, а не через append."""
+Take a semaphore slot before the work and release it afterwards.
+Write the result by index rather than with append."""
 
 [[exercises]]
 name = "concurrent46"
 path = "exercises/concurrent/concurrent46/main_test.go"
 mode = "test"
 hint = """
-Перенесите wg.Add(1) перед оператором go."""
+Move the wg.Add(1) in front of the go statement."""
 
 [[exercises]]
 name = "concurrent47"
 path = "exercises/concurrent/concurrent47/main_test.go"
 mode = "test"
 hint = """
-Функция отмены, возвращённая WithCancel, должна быть вызвана."""
+The cancel function returned by WithCancel has to be called."""
 
 [[exercises]]
 name = "concurrent48"
 path = "exercises/concurrent/concurrent48/main_test.go"
 mode = "test"
 hint = """
-Защитите запись мьютексом или используйте sync.Map."""
+Guard the writes with a mutex, or use a sync.Map."""
 
 [[exercises]]
 name = "concurrent49"
 path = "exercises/concurrent/concurrent49/main_test.go"
 mode = "test"
 hint = """
-Закройте jobs после отправки всех задач. Канал results закрывайте
-в отдельной горутине после wg.Wait, чтобы range по нему завершился."""
+Close jobs once every job has been sent. Close the results channel
+in a goroutine of its own after wg.Wait, so the range over it ends."""
 
 [[exercises]]
 name = "concurrent50"
 path = "exercises/concurrent/concurrent50/main_test.go"
 mode = "test"
 hint = """
-Всегда захватывайте мьютексы в одном порядке, например по возрастанию ID."""
+Always take the mutexes in one order, by rising ID for instance."""
 
 [[exercises]]
 name = "concurrent51"
 path = "exercises/concurrent/concurrent51/main_test.go"
 mode = "test"
 hint = """
-После отправки всех значений закройте канал (удобно через defer)."""
+Close the channel once every value has been sent, conveniently with a defer."""
 
 [[exercises]]
 name = "concurrent52"
 path = "exercises/concurrent/concurrent52/main_test.go"
 mode = "test"
 hint = """
-Каждый фильтр пропускает числа, не делящиеся на его простое число.
-Новый фильтр подключается к выходу предыдущего."""
+Every filter lets through the numbers its prime does not divide.
+A new filter is attached to the output of the previous one."""
 
 [[exercises]]
 name = "concurrent53"
 path = "exercises/concurrent/concurrent53/main_test.go"
 mode = "test"
 hint = """
-Используйте тот же ключ, что и при записи."""
+Use the same key the value was stored under."""
 
 [[exercises]]
 name = "concurrent54"
 path = "exercises/concurrent/concurrent54/main_test.go"
 mode = "test"
 hint = """
-Каждый игрок получает счётчик из своего канала, увеличивает и
-отправляет в канал другого игрока. Остановка — при достижении лимита."""
+Each player receives the counter from its own channel, increments it
+and sends it to the other player's channel. Stop when the limit is reached."""
 
 [[exercises]]
 name = "concurrent55"
 path = "exercises/concurrent/concurrent55/main_test.go"
 mode = "test"
 hint = """
-Передавайте в функцию двунаправленный канал (он неявно приводится к нужному направлению)."""
+Pass a bidirectional channel to the function (it is implicitly converted to the required direction)."""
 
 [[exercises]]
 name = "concurrent56"
 path = "exercises/concurrent/concurrent56/main_test.go"
 mode = "test"
 hint = """
-LoadOrStore возвращает признак loaded — был ли ключ раньше."""
+LoadOrStore returns the loaded flag — whether the key already existed."""
 
 [[exercises]]
 name = "concurrent57"
 path = "exercises/concurrent/concurrent57/main_test.go"
 mode = "test"
 hint = """
-Вынесите чтение баланса во внутренний метод, который ожидает, что
-мьютекс уже захвачен, и вызывайте его из Deposit."""
+Move the balance read into an internal method that expects
+the mutex to be already held, and call it from Deposit."""
 
 [[exercises]]
 name = "concurrent58"
 path = "exercises/concurrent/concurrent58/main_test.go"
 mode = "test"
 hint = """
-Enter увеличивает текущее значение и обновляет пик под одной блокировкой;
-Leave уменьшает текущее значение."""
+Enter increments the current value and updates the peak under one lock;
+Leave decrements the current value."""
 
 [[exercises]]
 name = "concurrent59"
 path = "exercises/concurrent/concurrent59/main_test.go"
 mode = "test"
 hint = """
-Вызывайте внутри вспомогательную функцию без блокировки."""
+Call a helper function inside that does not lock."""
 
 [[exercises]]
 name = "concurrent60"
 path = "exercises/concurrent/concurrent60/main_test.go"
 mode = "test"
 hint = """
-Take должен ждать в цикле, пока очередь пуста (cond.Wait).
-Put после добавления вызывает cond.Signal."""
+Take must wait in a loop while the queue is empty (cond.Wait).
+Put calls cond.Signal after adding."""
 
 [[exercises]]
 name = "concurrent61"
 path = "exercises/concurrent/concurrent61/main_test.go"
 mode = "test"
 hint = """
-Состояние (множество увиденных) живёт внутри горутины этапа.
-Не забудьте закрыть выходной канал."""
+The state (the set of seen items) lives inside the stage goroutine.
+Do not forget to close the output channel."""
 
 [[exercises]]
 name = "concurrent62"
 path = "exercises/concurrent/concurrent62/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что передаётся в вызов литерала."""
+Check what is passed in the call of the literal."""
 
 [[exercises]]
 name = "concurrent63"
 path = "exercises/concurrent/concurrent63/main_test.go"
 mode = "test"
 hint = """
-Для каждого входа запустите горутину-пересыльщика. Выходной канал
-закрывается после завершения всех пересыльщиков."""
+Start a forwarder goroutine for each input. The output channel
+is closed after all forwarders finish."""
 
 [[exercises]]
 name = "concurrent64"
 path = "exercises/concurrent/concurrent64/main_test.go"
 mode = "test"
 hint = """
-Операция n++ не атомарна: чтение и запись могут перемешаться.
-Защитите её мьютексом."""
+The n++ operation is not atomic: the read and write can interleave.
+Protect it with a mutex."""
 
 [[exercises]]
 name = "concurrent65"
 path = "exercises/concurrent/concurrent65/main_test.go"
 mode = "test"
 hint = """
-Каждый этап, создающий канал, должен закрыть его, когда входные данные
-закончились. Проверьте также операцию в square."""
+Every stage that creates a channel must close it when its input
+is exhausted. Check the operation in square too."""
 
 [[exercises]]
 name = "concurrent66"
 path = "exercises/concurrent/concurrent66/main_test.go"
 mode = "test"
 hint = """
-Скопируйте нужные данные под мьютексом, отпустите его и только потом отправляйте."""
+Copy the needed data under the mutex, release it, and only then send."""
 
 [[exercises]]
 name = "concurrent67"
 path = "exercises/concurrent/concurrent67/main_test.go"
 mode = "test"
 hint = """
-Каждая прочитанная ошибка увеличивает счётчик на единицу."""
+Every error read increments the counter by one."""
 
 [[exercises]]
 name = "concurrent68"
 path = "exercises/concurrent/concurrent68/main_test.go"
 mode = "test"
 hint = """
-Считайте срабатывания и выходите из цикла, когда их достаточно.
-Не забудьте остановить тикер (defer ticker.Stop())."""
+Count the ticks and leave the loop when there are enough.
+Do not forget to stop the ticker (defer ticker.Stop())."""
 
 [[exercises]]
 name = "concurrent69"
 path = "exercises/concurrent/concurrent69/main_test.go"
 mode = "test"
 hint = """
-Используйте sync.Once вместо ручной двойной проверки."""
+Use sync.Once instead of a manual double check."""
 
 [[exercises]]
 name = "concurrent70"
 path = "exercises/concurrent/concurrent70/main_test.go"
 mode = "test"
 hint = """
-Счётчик WaitGroup нужно увеличивать на единицу для каждой горутины."""
+The WaitGroup counter must be incremented by one for each goroutine."""
 
 [[exercises]]
 name = "concurrent71"
 path = "exercises/concurrent/concurrent71/main_test.go"
 mode = "test"
 hint = """
-Перед записью захватите мьютекс и отложите его освобождение."""
+Acquire the mutex before writing and defer its release."""
 
 [[exercises]]
 name = "concurrent72"
 path = "exercises/concurrent/concurrent72/main_test.go"
 mode = "test"
 hint = """
-Защитите запись мьютексом или отправляйте ошибки в канал."""
+Protect the write with a mutex or send the errors to a channel."""
 
 [[exercises]]
 name = "concurrent73"
 path = "exercises/concurrent/concurrent73/main_test.go"
 mode = "test"
 hint = """
-Готовность обозначается значением 1."""
+Readiness is signaled by the value 1."""
 
 [[exercises]]
 name = "concurrent74"
 path = "exercises/concurrent/concurrent74/main_test.go"
 mode = "test"
 hint = """
-Создайте производный контекст со значением и передайте его дальше,
-а не исходный."""
+Create a derived context with the value and pass that on,
+not the original one."""
 
 [[exercises]]
 name = "concurrent75"
 path = "exercises/concurrent/concurrent75/main_test.go"
 mode = "test"
 hint = """
-Размер буфера должен вмещать сообщения от всех горутин."""
+The buffer size must hold the messages from all goroutines."""
 
 [[exercises]]
 name = "concurrent76"
 path = "exercises/concurrent/concurrent76/main_test.go"
 mode = "test"
 hint = """
-Копируйте только данные, а не всю структуру с мьютексом.
-Верните копию нужных полей."""
+Copy only the data, not the whole struct with the mutex.
+Return a copy of the needed fields."""
 
 [[exercises]]
 name = "concurrent77"
 path = "exercises/concurrent/concurrent77/main_test.go"
 mode = "test"
 hint = """
-Каждое значение нужно отправить в оба канала; после окончания входа
-закройте оба выхода."""
+Each value must be sent to both channels; when the input is exhausted,
+close both outputs."""
 
 [[exercises]]
 name = "concurrent78"
 path = "exercises/concurrent/concurrent78/main_test.go"
 mode = "test"
 hint = """
-Когда меняется условие, важное для всех ожидающих, используйте Broadcast."""
+When a condition important to all waiters changes, use Broadcast."""
 
 [[exercises]]
 name = "concurrent79"
 path = "exercises/concurrent/concurrent79/main_test.go"
 mode = "test"
 hint = """
-Свободное место — ёмкость минус занятое."""
+Free space is capacity minus occupied."""
 
 [[exercises]]
 name = "concurrent80"
 path = "exercises/concurrent/concurrent80/main_test.go"
 mode = "test"
 hint = """
-Замените if на for: после пробуждения условие может снова оказаться ложным."""
+Replace if with for: after waking up the condition may be false again."""
 
 [[exercises]]
 name = "concurrent81"
 path = "exercises/concurrent/concurrent81/main_test.go"
 mode = "test"
 hint = """
-Создайте таймер один раз до цикла и выходите, когда он сработал
-или все результаты получены."""
+Create the timer once before the loop and exit when it has fired
+or all results are received."""
 
 [[exercises]]
 name = "concurrent82"
 path = "exercises/concurrent/concurrent82/main_test.go"
 mode = "test"
 hint = """
-Верните значение, прочитанное из канала."""
+Return the value read from the channel."""
 
 [[exercises]]
 name = "concurrent83"
 path = "exercises/concurrent/concurrent83/main_test.go"
 mode = "test"
 hint = """
-Используйте defer Unlock сразу после Lock и уберите ручные Unlock."""
+Use defer Unlock right after Lock and remove the manual Unlocks."""
 
 [[exercises]]
 name = "concurrent84"
 path = "exercises/concurrent/concurrent84/main_test.go"
 mode = "test"
 hint = """
-Таймер сообщает о срабатывании через канал timer.C."""
+The timer reports firing via the timer.C channel."""
 
 [[exercises]]
 name = "concurrent85"
 path = "exercises/concurrent/concurrent85/main_test.go"
 mode = "test"
 hint = """
-Границы частей не должны выходить за срез. Каждая горутина отправляет
-сумму своей части, а главная горутина читает столько сумм, сколько частей."""
+Part boundaries must stay within the slice. Each goroutine sends
+the sum of its part, and the main goroutine reads as many sums as there are parts."""
 
 [[exercises]]
 name = "concurrent86"
 path = "exercises/concurrent/concurrent86/main_test.go"
 mode = "test"
 hint = """
-Функция должна только отправлять значения — уберите чтение."""
+The function must only send values — remove the receive."""
 
 [[exercises]]
 name = "concurrent87"
 path = "exercises/concurrent/concurrent87/main_test.go"
 mode = "test"
 hint = """
-При !ok присвойте каналу nil — ветка перестанет срабатывать.
-Выходите, когда оба канала равны nil."""
+On !ok assign nil to the channel — the case stops firing.
+Exit when both channels are nil."""
 
 [[exercises]]
 name = "concurrent88"
 path = "exercises/concurrent/concurrent88/main_test.go"
 mode = "test"
 hint = """
-Защитите append мьютексом или пишите по заранее известному индексу."""
+Protect the append with a mutex or write to a precomputed index."""
 
 [[exercises]]
 name = "concurrent89"
 path = "exercises/concurrent/concurrent89/main_test.go"
 mode = "test"
 hint = """
-Между попытками ждите либо паузу, либо отмену. При отмене верните ctx.Err()."""
+Between attempts wait for either the pause or cancellation. On cancellation return ctx.Err()."""
 
 [[exercises]]
 name = "concurrent90"
 path = "exercises/concurrent/concurrent90/main_test.go"
 mode = "test"
 hint = """
-Закрывать канал должен отправитель. Уберите close из потребителя
-и закройте канал в производителе."""
+The sender must close the channel. Remove close from the consumer
+and close the channel in the producer."""
 
 [[exercises]]
 name = "concurrent91"
 path = "exercises/concurrent/concurrent91/main_test.go"
 mode = "test"
 hint = """
-Без default select ждёт, пока канал станет готов."""
+Without default, select waits until the channel is ready."""
 
 [[exercises]]
 name = "concurrent92"
 path = "exercises/concurrent/concurrent92/main_test.go"
 mode = "test"
 hint = """
-Shutdown должен закрыть канал задач и дождаться сигнала завершения
-от воркера."""
+Shutdown must close the task channel and wait for the completion
+signal from the worker."""
 
 [[exercises]]
 name = "concurrent93"
 path = "exercises/concurrent/concurrent93/main_test.go"
 mode = "test"
 hint = """
-Оберните close в sync.Once."""
+Wrap the close in sync.Once."""
 
 [[exercises]]
 name = "concurrent94"
 path = "exercises/concurrent/concurrent94/main_test.go"
 mode = "test"
 hint = """
-Проверьте длительность, переданную в time.After."""
+Check the duration passed to time.After."""
 
 [[exercises]]
 name = "concurrent95"
 path = "exercises/concurrent/concurrent95/main_test.go"
 mode = "test"
 hint = """
-Для каждой однократной операции нужен свой sync.Once."""
+Each one-time operation needs its own sync.Once."""
 
 [[exercises]]
 name = "concurrent96"
 path = "exercises/concurrent/concurrent96/main_test.go"
 mode = "test"
 hint = """
-Отправляйте в канал структуру с индексом и значением,
-а при сборке записывайте значение по индексу."""
+Send a struct with the index and value to the channel,
+and write the value by index when collecting."""
 
 [[exercises]]
 name = "concurrent97"
 path = "exercises/concurrent/concurrent97/main_test.go"
 mode = "test"
 hint = """
-Загрузку нужно выполнять через once.Do."""
+The load must be performed via once.Do."""
 
 [[exercises]]
 name = "concurrent98"
 path = "exercises/concurrent/concurrent98/main_test.go"
 mode = "test"
 hint = """
-Subscribe добавляет новый буферизованный канал в список.
-Publish отправляет сообщение в каждый канал списка."""
+Subscribe adds a new buffered channel to the list.
+Publish sends the message to every channel in the list."""
 
 [[exercises]]
 name = "concurrent99"
 path = "exercises/concurrent/concurrent99/main_test.go"
 mode = "test"
 hint = """
-Блокировку чтения снимают методом RUnlock."""
+The read lock is released with the RUnlock method."""
 
 [[exercises]]
 name = "concurrent100"
 path = "exercises/concurrent/concurrent100/main_test.go"
 mode = "test"
 hint = """
-Оберните отправку в select с веткой <-ctx.Done()."""
+Wrap the send in a select with a <-ctx.Done() case."""
 
 [[exercises]]
 name = "concurrent101"
 path = "exercises/concurrent/concurrent101/main_test.go"
 mode = "test"
 hint = """
-Snapshot должен захватить мьютекс и вернуть новую map с копией данных,
-а не саму внутреннюю map."""
+Snapshot must take the mutex and return a new map with a copy of the data,
+not the internal map itself."""
 
 [[exercises]]
 name = "concurrent102"
 path = "exercises/concurrent/concurrent102/main_test.go"
 mode = "test"
 hint = """
-Используйте atomic.AddInt64 вместо ++."""
+Use atomic.AddInt64 instead of ++."""
 
 [[exercises]]
 name = "concurrent103"
 path = "exercises/concurrent/concurrent103/main_test.go"
 mode = "test"
 hint = """
-Отправьте задачи воркерам до wg.Wait (или используйте буферизованный канал)."""
+Send the tasks to the workers before wg.Wait (or use a buffered channel)."""
 
 # ===== generated exercises: algorithms =====
 [[exercises]]
@@ -10156,1195 +10156,1195 @@ name = "algorithms1"
 path = "exercises/algorithms/algorithms1/main_test.go"
 mode = "test"
 hint = """
-Перебирайте кандидатов, начиная с текущего индекса (а не с нуля),
-чтобы не порождать перестановки одной комбинации."""
+Iterate over candidates starting from the current index (not from zero)
+to avoid permutations of the same combination."""
 
 [[exercises]]
 name = "algorithms2"
 path = "exercises/algorithms/algorithms2/main_test.go"
 mode = "test"
 hint = """
-Положите в кучу все клетки границы. Извлекайте самую низкую, добавляйте
-её соседей, и если сосед ниже текущего уровня — на нём накапливается вода."""
+Put all border cells into a heap. Extract the lowest one, add
+its neighbors, and if a neighbor is below the current level — water accumulates on it."""
 
 [[exercises]]
 name = "algorithms3"
 path = "exercises/algorithms/algorithms3/main_test.go"
 mode = "test"
 hint = """
-Найдите середину быстрым и медленным указателями, разверните вторую половину
-и сравните её с первой."""
+Find the middle with fast and slow pointers, reverse the second half
+and compare it with the first."""
 
 [[exercises]]
 name = "algorithms4"
 path = "exercises/algorithms/algorithms4/main_test.go"
 mode = "test"
 hint = """
-Держите очередь текущего уровня. На каждом шаге обрабатывайте все узлы
-уровня и собирайте их детей в следующий уровень."""
+Keep a queue of the current level. At each step process all nodes
+of the level and collect their children into the next level."""
 
 [[exercises]]
 name = "algorithms5"
 path = "exercises/algorithms/algorithms5/main_test.go"
 mode = "test"
 hint = """
-Посчитайте сумму первого окна, затем сдвигайте окно: прибавляйте входящий
-элемент и вычитайте уходящий."""
+Compute the sum of the first window, then slide the window: add the incoming
+element and subtract the outgoing one."""
 
 [[exercises]]
 name = "algorithms6"
 path = "exercises/algorithms/algorithms6/main_test.go"
 mode = "test"
 hint = """
-Считайте обратную задачу: dp[e] — сколько этажей можно проверить e яйцами
-за m бросков. Увеличивайте m, пока покрытие не достигнет n."""
+Solve the inverse problem: dp[e] — how many floors can be checked with e eggs
+in m drops. Increase m until the coverage reaches n."""
 
 [[exercises]]
 name = "algorithms7"
 path = "exercises/algorithms/algorithms7/main_test.go"
 mode = "test"
 hint = """
-Число единиц в i равно числу единиц в i/2 плюс младший бит i."""
+The number of ones in i equals the number of ones in i/2 plus the low bit of i."""
 
 [[exercises]]
 name = "algorithms8"
 path = "exercises/algorithms/algorithms8/main_test.go"
 mode = "test"
 hint = """
-Используйте мин-кучу по текущему расстоянию. Ответ — максимум расстояний,
-если достижимы все вершины."""
+Use a min-heap keyed by current distance. The answer is the maximum distance,
+provided all vertices are reachable."""
 
 [[exercises]]
 name = "algorithms9"
 path = "exercises/algorithms/algorithms9/main_test.go"
 mode = "test"
 hint = """
-Число путей в клетку — сумма путей сверху и слева. Достаточно хранить
-одну строку и обновлять её слева направо."""
+The number of paths to a cell is the sum of the paths from above and the left. One row
+is enough, updated left to right."""
 
 [[exercises]]
 name = "algorithms10"
 path = "exercises/algorithms/algorithms10/main_test.go"
 mode = "test"
 hint = """
-Идите справа налево и держите в стеке кандидатов по убыванию: снимайте
-со стека все элементы, не большие текущего."""
+Go right to left and keep candidates on a stack in decreasing order: pop
+all elements not greater than the current one."""
 
 [[exercises]]
 name = "algorithms11"
 path = "exercises/algorithms/algorithms11/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте проекты по требуемому капиталу. На каждом шаге добавляйте
-в кучу все доступные проекты и берите самый прибыльный."""
+Sort the projects by required capital. At each step add
+all affordable projects to the heap and take the most profitable one."""
 
 [[exercises]]
 name = "algorithms12"
 path = "exercises/algorithms/algorithms12/main_test.go"
 mode = "test"
 hint = """
-Ключ группы — слово с отсортированными буквами. Храните индекс группы в map,
-а сами группы — в срезе, чтобы сохранить порядок."""
+The group key is the word with sorted letters. Store the group index in a map
+and the groups themselves in a slice to keep the order."""
 
 [[exercises]]
 name = "algorithms13"
 path = "exercises/algorithms/algorithms13/main_test.go"
 mode = "test"
 hint = """
-Посчитайте руны первой строки в map, затем уменьшайте счётчики для второй.
-Любой отрицательный счётчик или разные длины означают false."""
+Count the runes of the first string in a map, then decrement the counters for the second one.
+Any negative counter or different lengths mean false."""
 
 [[exercises]]
 name = "algorithms14"
 path = "exercises/algorithms/algorithms14/main_test.go"
 mode = "test"
 hint = """
-Первым проходом запишите в ответ произведения всех элементов слева,
-вторым проходом справа налево домножьте на произведения элементов справа."""
+In the first pass write the products of all elements to the left into the answer;
+in a second right-to-left pass multiply by the products of the elements to the right."""
 
 [[exercises]]
 name = "algorithms15"
 path = "exercises/algorithms/algorithms15/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте по ширине по возрастанию, а при равной ширине — по высоте
-по убыванию. Затем найдите LIS по высотам."""
+Sort by width ascending, and for equal widths by height
+descending. Then find the LIS over the heights."""
 
 [[exercises]]
 name = "algorithms16"
 path = "exercises/algorithms/algorithms16/main_test.go"
 mode = "test"
 hint = """
-Ответ определяется самой частой задачей: (maxCount-1)*(n+1) + количество задач
-с максимальной частотой, но не меньше общего числа задач."""
+The answer is determined by the most frequent task: (maxCount-1)*(n+1) + the number of tasks
+with the maximum frequency, but not less than the total number of tasks."""
 
 [[exercises]]
 name = "algorithms17"
 path = "exercises/algorithms/algorithms17/main_test.go"
 mode = "test"
 hint = """
-Для кандидата limit жадно набирайте части, пока сумма не превышает limit,
-и считайте их количество. Ищите минимальный limit, дающий не больше k частей."""
+For a candidate limit greedily gather parts while the sum does not exceed limit,
+and count them. Find the minimal limit that yields at most k parts."""
 
 [[exercises]]
 name = "algorithms18"
 path = "exercises/algorithms/algorithms18/main_test.go"
 mode = "test"
 hint = """
-Храните увиденные значения во множестве map[int]struct{}."""
+Store seen values in a map[int]struct{} set."""
 
 [[exercises]]
 name = "algorithms19"
 path = "exercises/algorithms/algorithms19/main_test.go"
 mode = "test"
 hint = """
-Новая клетка увеличивает счётчик на единицу, затем объединяйте её
-с уже существующими соседями, уменьшая счётчик за каждое объединение.
-Повторная установка той же клетки ничего не меняет."""
+A new cell increments the counter by one, then merge it
+with existing neighbors, decrementing the counter for each merge.
+Re-setting the same cell changes nothing."""
 
 [[exercises]]
 name = "algorithms20"
 path = "exercises/algorithms/algorithms20/main_test.go"
 mode = "test"
 hint = """
-Наибольший квадрат находится на одном из концов. Заполняйте результат
-с конца, сравнивая модули крайних элементов."""
+The largest square is at one of the ends. Fill the result
+from the back, comparing the absolute values of the end elements."""
 
 [[exercises]]
 name = "algorithms21"
 path = "exercises/algorithms/algorithms21/main_test.go"
 mode = "test"
 hint = """
-Храните последнюю позицию каждого символа. Если текущий символ уже есть
-в окне, сдвиньте левую границу за его прошлую позицию."""
+Store the last position of each character. If the current character is already
+in the window, move the left bound past its previous position."""
 
 [[exercises]]
 name = "algorithms22"
 path = "exercises/algorithms/algorithms22/main_test.go"
 mode = "test"
 hint = """
-Ищите наибольшее m, для которого m*m <= x. Чтобы не было переполнения,
-сравнивайте m с x/m."""
+Find the largest m such that m*m <= x. To avoid overflow,
+compare m with x/m."""
 
 [[exercises]]
 name = "algorithms23"
 path = "exercises/algorithms/algorithms23/main_test.go"
 mode = "test"
 hint = """
-Проверка скорости k: сумма ceil(p/k) по кучкам не больше h.
-Ищите минимальное подходящее k на отрезке [1, max(piles)]."""
+Check speed k: the sum of ceil(p/k) over the piles is at most h.
+Find the minimal suitable k on the segment [1, max(piles)]."""
 
 [[exercises]]
 name = "algorithms24"
 path = "exercises/algorithms/algorithms24/main_test.go"
 mode = "test"
 hint = """
-Для каждой точки считайте наклоны до остальных, приводя дробь
-(dy, dx) к несократимому виду с фиксированным знаком знаменателя."""
+For each point count the slopes to the others, reducing the fraction
+(dy, dx) to lowest terms with a fixed sign of the denominator."""
 
 [[exercises]]
 name = "algorithms25"
 path = "exercises/algorithms/algorithms25/main_test.go"
 mode = "test"
 hint = """
-Начните с концов: если сумма мала — сдвигайте левый указатель,
-если велика — правый."""
+Start from both ends: if the sum is too small move the left pointer,
+if too large move the right one."""
 
 [[exercises]]
 name = "algorithms26"
 path = "exercises/algorithms/algorithms26/main_test.go"
 mode = "test"
 hint = """
-Храните для каждой частоты двусвязный список (container/list) ключей и
-минимальную частоту. При обращении переносите ключ в список частоты+1."""
+For each frequency keep a doubly linked list (container/list) of keys and
+the minimum frequency. On access move the key to the frequency+1 list."""
 
 [[exercises]]
 name = "algorithms27"
 path = "exercises/algorithms/algorithms27/main_test.go"
 mode = "test"
 hint = """
-Рекурсивно решайте для каждого элемента: включить или пропустить.
-Сохраняйте копию текущего набора, а не сам изменяемый срез."""
+Recurse for each element: include or skip it.
+Save a copy of the current set, not the mutable slice itself."""
 
 [[exercises]]
 name = "algorithms28"
 path = "exercises/algorithms/algorithms28/main_test.go"
 mode = "test"
 hint = """
-Обходите клетки, всегда выбирая из кучи клетку с наименьшей высотой.
-Ответ — максимальная высота на пройденном пути."""
+Traverse cells, always taking the lowest cell from the heap.
+The answer is the maximum height along the path."""
 
 [[exercises]]
 name = "algorithms29"
 path = "exercises/algorithms/algorithms29/main_test.go"
 mode = "test"
 hint = """
-Глубина узла — единица плюс наибольшая из глубин его поддеревьев."""
+The depth of a node is one plus the largest depth of its subtrees."""
 
 [[exercises]]
 name = "algorithms30"
 path = "exercises/algorithms/algorithms30/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте срез. Для каждого i ищите пару двумя указателями справа от i,
-пропуская повторяющиеся значения и для i, и для указателей."""
+Sort the slice. For each i search for a pair with two pointers to the right of i,
+skipping duplicate values both for i and for the pointers."""
 
 [[exercises]]
 name = "algorithms31"
 path = "exercises/algorithms/algorithms31/main_test.go"
 mode = "test"
 hint = """
-dp[i][j] — расстояние между префиксами. При совпадении символов берите
-dp[i-1][j-1], иначе 1 плюс минимум из трёх соседних значений."""
+dp[i][j] is the distance between prefixes. If the characters match take
+dp[i-1][j-1], otherwise 1 plus the minimum of the three neighboring values."""
 
 [[exercises]]
 name = "algorithms32"
 path = "exercises/algorithms/algorithms32/main_test.go"
 mode = "test"
 hint = """
-Выберите опорный элемент, переставьте меньшие элементы влево,
-затем рекурсивно отсортируйте обе части."""
+Pick a pivot, move smaller elements to the left,
+then recursively sort both parts."""
 
 [[exercises]]
 name = "algorithms33"
 path = "exercises/algorithms/algorithms33/main_test.go"
 mode = "test"
 hint = """
-XOR числа с самим собой даёт 0, а с нулём — само число."""
+XOR of a number with itself gives 0, and with zero — the number itself."""
 
 [[exercises]]
 name = "algorithms34"
 path = "exercises/algorithms/algorithms34/main_test.go"
 mode = "test"
 hint = """
-Пройдите слева направо, увеличивая конфеты при росте рейтинга, затем
-справа налево, беря максимум из текущего значения и требования справа."""
+Go left to right, increasing candies when the rating rises, then
+right to left, taking the maximum of the current value and the requirement from the right."""
 
 [[exercises]]
 name = "algorithms35"
 path = "exercises/algorithms/algorithms35/main_test.go"
 mode = "test"
 hint = """
-Ищите наименьшее v, для которого isBad(v) истинно, двоичным поиском
-на полуинтервале [1, n+1)."""
+Find the smallest v for which isBad(v) is true with binary search
+on the half-open interval [1, n+1)."""
 
 [[exercises]]
 name = "algorithms36"
 path = "exercises/algorithms/algorithms36/main_test.go"
 mode = "test"
 hint = """
-Возводите основание в квадрат и делите показатель пополам, домножая
-результат при нечётном показателе. Для отрицательного n возьмите
-обратное значение."""
+Square the base and halve the exponent, multiplying
+the result on odd exponents. For negative n take
+the reciprocal."""
 
 [[exercises]]
 name = "algorithms37"
 path = "exercises/algorithms/algorithms37/main_test.go"
 mode = "test"
 hint = """
-Постройте trie из слов и запускайте DFS из каждой клетки, спускаясь по trie.
-Помечайте посещённые клетки и восстанавливайте их при возврате."""
+Build a trie from the words and run DFS from each cell, descending the trie.
+Mark visited cells and restore them on the way back."""
 
 [[exercises]]
 name = "algorithms38"
 path = "exercises/algorithms/algorithms38/main_test.go"
 mode = "test"
 hint = """
-Начните обход со всех гнилых апельсинов одновременно и считайте уровни.
-В конце проверьте, не остались ли свежие."""
+Start the traversal from all rotten oranges at once and count the levels.
+At the end check whether any fresh ones remain."""
 
 [[exercises]]
 name = "algorithms39"
 path = "exercises/algorithms/algorithms39/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте левое поддерево одного узла с правым поддеревом другого."""
+Compare the left subtree of one node with the right subtree of the other."""
 
 [[exercises]]
 name = "algorithms40"
 path = "exercises/algorithms/algorithms40/main_test.go"
 mode = "test"
 hint = """
-Передавайте вниз допустимый диапазон значений: для левого поддерева
-верхняя граница — значение узла, для правого — нижняя."""
+Pass down the valid range of values: for the left subtree
+the upper bound is the node's value, for the right one the lower bound."""
 
 [[exercises]]
 name = "algorithms41"
 path = "exercises/algorithms/algorithms41/main_test.go"
 mode = "test"
 hint = """
-Держите массив tails: tails[i] — наименьший возможный последний элемент
-возрастающей подпоследовательности длины i+1. Новый элемент заменяет
-первый элемент tails, который не меньше его (двоичный поиск)."""
+Keep an array tails: tails[i] is the smallest possible last element
+of an increasing subsequence of length i+1. A new element replaces
+the first tails element not smaller than it (binary search)."""
 
 [[exercises]]
 name = "algorithms42"
 path = "exercises/algorithms/algorithms42/main_test.go"
 mode = "test"
 hint = """
-Это число в 26-ричной системе, где 'A' = 1. Умножайте накопленное
-значение на 26 и прибавляйте очередную букву."""
+It is a number in base 26, where 'A' = 1. Multiply the accumulated
+value by 26 and add the next letter."""
 
 [[exercises]]
 name = "algorithms43"
 path = "exercises/algorithms/algorithms43/main_test.go"
 mode = "test"
 hint = """
-Напишите вспомогательную функцию для числа меньше 1000 и применяйте её
-к группам разрядов, добавляя нужный суффикс. Ноль — особый случай."""
+Write a helper for numbers below 1000 and apply it
+to groups of digits, adding the proper suffix. Zero is a special case."""
 
 [[exercises]]
 name = "algorithms44"
 path = "exercises/algorithms/algorithms44/main_test.go"
 mode = "test"
 hint = """
-Храните узлы двусвязного списка в map по ключу. При обращении переносите
-узел в начало списка, при переполнении удаляйте узел с конца."""
+Store doubly linked list nodes in a map by key. On access move
+the node to the front of the list; on overflow remove the node from the back."""
 
 [[exercises]]
 name = "algorithms45"
 path = "exercises/algorithms/algorithms45/main_test.go"
 mode = "test"
 hint = """
-Открывающие скобки кладите в стек. Закрывающая должна соответствовать
-вершине стека. В конце стек должен быть пуст."""
+Push opening brackets onto a stack. A closing one must match
+the top of the stack. At the end the stack must be empty."""
 
 [[exercises]]
 name = "algorithms46"
 path = "exercises/algorithms/algorithms46/main_test.go"
 mode = "test"
 hint = """
-Одна из половин [lo, mid] или [mid, hi] всегда отсортирована. Определите,
-какая, и проверьте, лежит ли target в её диапазоне."""
+One of the halves [lo, mid] or [mid, hi] is always sorted. Determine
+which one and check whether target lies in its range."""
 
 [[exercises]]
 name = "algorithms47"
 path = "exercises/algorithms/algorithms47/main_test.go"
 mode = "test"
 hint = """
-Используйте медленный и быстрый «указатели» по последовательности сумм
-квадратов цифр: если они встретились не в 1, есть цикл."""
+Use slow and fast 'pointers' over the sequence of digit-square
+sums: if they meet at something other than 1, there is a cycle."""
 
 [[exercises]]
 name = "algorithms48"
 path = "exercises/algorithms/algorithms48/main_test.go"
 mode = "test"
 hint = """
-Считайте с конца: нужное здоровье перед клеткой — минимум из требований
-соседей справа и снизу минус значение клетки, но не меньше 1."""
+Compute from the end: the health needed before a cell is the minimum of the requirements
+of the neighbors to the right and below minus the cell value, but at least 1."""
 
 [[exercises]]
 name = "algorithms49"
 path = "exercises/algorithms/algorithms49/main_test.go"
 mode = "test"
 hint = """
-Возвращайте из рекурсии глубину, а при обнаружении дисбаланса — признак -1,
-который распространяется вверх."""
+Return the depth from the recursion, and on detecting an imbalance the flag -1,
+which propagates upward."""
 
 [[exercises]]
 name = "algorithms50"
 path = "exercises/algorithms/algorithms50/main_test.go"
 mode = "test"
 hint = """
-Ставьте '(' пока их меньше n, а ')' — пока закрытых меньше открытых."""
+Place '(' while there are fewer than n of them, and ')' while there are fewer closed than open."""
 
 [[exercises]]
 name = "algorithms51"
 path = "exercises/algorithms/algorithms51/main_test.go"
 mode = "test"
 hint = """
-Для значения x количество чисел не больше x равно сумме min(x/i, n) по строкам.
-Найдите наименьшее x, для которого это количество не меньше k."""
+For a value x the count of numbers not exceeding x is the sum of min(x/i, n) over the rows.
+Find the smallest x for which this count is at least k."""
 
 [[exercises]]
 name = "algorithms52"
 path = "exercises/algorithms/algorithms52/main_test.go"
 mode = "test"
 hint = """
-Делите срез пополам, сортируйте половины рекурсивно и сливайте их
-двумя указателями."""
+Split the slice in half, sort the halves recursively, and merge them
+with two pointers."""
 
 [[exercises]]
 name = "algorithms53"
 path = "exercises/algorithms/algorithms53/main_test.go"
 mode = "test"
 hint = """
-Держите в куче текущие элементы всех списков и максимум среди них.
-Каждый раз извлекайте минимум и продвигайте его список."""
+Keep the current elements of all lists in a heap and the maximum among them.
+Each time extract the minimum and advance its list."""
 
 [[exercises]]
 name = "algorithms54"
 path = "exercises/algorithms/algorithms54/main_test.go"
 mode = "test"
 hint = """
-Используйте кучу с обратным сравнением (максимум в корне) из container/heap."""
+Use a heap with reversed comparison (maximum at the root) from container/heap."""
 
 [[exercises]]
 name = "algorithms55"
 path = "exercises/algorithms/algorithms55/main_test.go"
 mode = "test"
 hint = """
-Начните с самых дальних стенок и каждый раз сдвигайте указатель
-на более низкой стенке: только так площадь может вырасти."""
+Start with the outermost walls and each time move the pointer
+at the lower wall: only that way can the area grow."""
 
 [[exercises]]
 name = "algorithms56"
 path = "exercises/algorithms/algorithms56/main_test.go"
 mode = "test"
 hint = """
-Для каждого камня храните множество длин прыжков, которыми на него можно
-попасть, и раскладывайте из них достижимые следующие камни."""
+For each stone store the set of jump lengths that can reach it,
+and expand from them to the reachable next stones."""
 
 [[exercises]]
 name = "algorithms57"
 path = "exercises/algorithms/algorithms57/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте оба набора и двигайтесь двумя указателями, отдавая
-наименее требовательному ребёнку наименьшее подходящее печенье."""
+Sort both sets and move with two pointers, giving
+the least demanding child the smallest suitable cookie."""
 
 [[exercises]]
 name = "algorithms58"
 path = "exercises/algorithms/algorithms58/main_test.go"
 mode = "test"
 hint = """
-Считайте входящие степени. Держите множество доступных курсов и каждый раз
-берите наименьший; после его изучения уменьшайте степени зависимых курсов."""
+Count in-degrees. Keep a set of available courses and each time
+take the smallest one; after taking it decrement the degrees of dependent courses."""
 
 [[exercises]]
 name = "algorithms59"
 path = "exercises/algorithms/algorithms59/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте соседние слова и берите первую различающуюся пару букв как ребро.
-Отдельно проверьте случай, когда слово-префикс идёт после длинного слова."""
+Compare adjacent words and take the first differing pair of letters as an edge.
+Separately check the case where a prefix word comes after a longer word."""
 
 [[exercises]]
 name = "algorithms60"
 path = "exercises/algorithms/algorithms60/main_test.go"
 mode = "test"
 hint = """
-Стоимость достижения ступени i равна её цене плюс минимум из стоимостей
-достижения i-1 и i-2. Ответ — минимум для двух последних ступеней."""
+The cost of reaching step i is its price plus the minimum of the costs
+of reaching i-1 and i-2. The answer is the minimum for the last two steps."""
 
 [[exercises]]
 name = "algorithms61"
 path = "exercises/algorithms/algorithms61/main_test.go"
 mode = "test"
 hint = """
-Держите для каждого аэропорта отсортированный список назначений.
-Рекурсивно уходите по наименьшему доступному билету, а аэропорт добавляйте
-в ответ после возврата; в конце разверните список."""
+Keep a sorted list of destinations for each airport.
+Recursively depart along the smallest available ticket, and add the airport
+to the answer after returning; reverse the list at the end."""
 
 [[exercises]]
 name = "algorithms62"
 path = "exercises/algorithms/algorithms62/main_test.go"
 mode = "test"
 hint = """
-Обменяйте ссылки на поддеревья текущего узла и рекурсивно обработайте оба."""
+Swap the child links of the current node and recurse into both."""
 
 [[exercises]]
 name = "algorithms63"
 path = "exercises/algorithms/algorithms63/main_test.go"
 mode = "test"
 hint = """
-Обходите сетку; встретив непосещённую единицу, увеличивайте счётчик
-и «затапливайте» всю её область поиском в глубину."""
+Scan the grid; on hitting an unvisited one, increment the counter
+and 'flood' its whole region with depth-first search."""
 
 [[exercises]]
 name = "algorithms64"
 path = "exercises/algorithms/algorithms64/main_test.go"
 mode = "test"
 hint = """
-Для каждой клетки считайте длину пути, начинающегося в ней, и запоминайте
-результат: повторные вычисления брать из кэша."""
+For each cell compute the length of the path starting there and memoize
+the result: take repeated computations from the cache."""
 
 [[exercises]]
 name = "algorithms65"
 path = "exercises/algorithms/algorithms65/main_test.go"
 mode = "test"
 hint = """
-Идите по t и сдвигайте указатель в s при совпадении символов.
-Ответ — дошёл ли указатель до конца s."""
+Walk over t and advance the pointer in s on matching characters.
+The answer is whether the pointer reached the end of s."""
 
 [[exercises]]
 name = "algorithms66"
 path = "exercises/algorithms/algorithms66/main_test.go"
 mode = "test"
 hint = """
-На каждом уровне меняйте местами текущий элемент с каждым из оставшихся,
-рекурсивно обрабатывайте хвост и возвращайте элементы на место."""
+At each level swap the current element with each of the remaining ones,
+recurse on the tail, and restore the elements."""
 
 [[exercises]]
 name = "algorithms67"
 path = "exercises/algorithms/algorithms67/main_test.go"
 mode = "test"
 hint = """
-dp[i][j] — совпадает ли префикс строки длины i с префиксом шаблона длины j.
-Для '*' есть два случая: ноль повторений или ещё одно повторение."""
+dp[i][j] — whether the string prefix of length i matches the pattern prefix of length j.
+For '*' there are two cases: zero repetitions or one more repetition."""
 
 [[exercises]]
 name = "algorithms68"
 path = "exercises/algorithms/algorithms68/main_test.go"
 mode = "test"
 hint = """
-Идите с конца: если цифра меньше 9, увеличьте её и возвращайте результат,
-иначе обнуляйте и переходите к следующей. В конце может понадобиться
-новый старший разряд."""
+Go from the end: if the digit is less than 9, increment it and return the result,
+otherwise zero it and move on. At the end a
+new leading digit may be needed."""
 
 [[exercises]]
 name = "algorithms69"
 path = "exercises/algorithms/algorithms69/main_test.go"
 mode = "test"
 hint = """
-Запускайте DFS из каждой клетки, совпадающей с первой буквой. Помечайте
-клетку как посещённую на время рекурсии и восстанавливайте после."""
+Run DFS from every cell matching the first letter. Mark
+the cell as visited for the duration of the recursion and restore it afterwards."""
 
 [[exercises]]
 name = "algorithms70"
 path = "exercises/algorithms/algorithms70/main_test.go"
 mode = "test"
 hint = """
-Идите по строкам. Для каждой строки пробуйте столбцы, не занятые
-по вертикали и по обеим диагоналям (индексы r+c и r-c)."""
+Go row by row. For each row try columns not occupied
+vertically or on either diagonal (indices r+c and r-c)."""
 
 [[exercises]]
 name = "algorithms71"
 path = "exercises/algorithms/algorithms71/main_test.go"
 mode = "test"
 hint = """
-Храните вместе с каждым элементом минимум стека на момент его добавления."""
+Store, alongside each element, the stack minimum at the moment it was pushed."""
 
 [[exercises]]
 name = "algorithms72"
 path = "exercises/algorithms/algorithms72/main_test.go"
 mode = "test"
 hint = """
-Указатель w отмечает позицию для следующего ненулевого элемента.
-Меняйте nums[i] и nums[w] местами при встрече ненулевого значения."""
+The pointer w marks the position for the next nonzero element.
+Swap nums[i] and nums[w] when a nonzero value is encountered."""
 
 [[exercises]]
 name = "algorithms73"
 path = "exercises/algorithms/algorithms73/main_test.go"
 mode = "test"
 hint = """
-При слиянии двух отсортированных половин каждый элемент правой части,
-который меньше текущего элемента левой, даёт столько инверсий,
-сколько элементов осталось в левой части."""
+While merging two sorted halves, each element of the right part
+that is smaller than the current element of the left yields as many inversions
+as elements remaining in the left part."""
 
 [[exercises]]
 name = "algorithms74"
 path = "exercises/algorithms/algorithms74/main_test.go"
 mode = "test"
 hint = """
-Сдвигайте результат влево и добавляйте младший бит исходного числа,
-одновременно сдвигая его вправо. Всего 32 шага."""
+Shift the result left and add the low bit of the source number
+while shifting it right. 32 steps in total."""
 
 [[exercises]]
 name = "algorithms75"
 path = "exercises/algorithms/algorithms75/main_test.go"
 mode = "test"
 hint = """
-Храните в стеке индексы дней с убывающей температурой. Когда пришёл
-более тёплый день, снимайте дни со стека и записывайте для них разницу индексов."""
+Keep on a stack the indices of days with decreasing temperatures. When
+a warmer day arrives, pop days off the stack and record the index difference for them."""
 
 [[exercises]]
 name = "algorithms76"
 path = "exercises/algorithms/algorithms76/main_test.go"
 mode = "test"
 hint = """
-Операция x & (x-1) обнуляет младший установленный бит."""
+The operation x & (x-1) clears the lowest set bit."""
 
 [[exercises]]
 name = "algorithms77"
 path = "exercises/algorithms/algorithms77/main_test.go"
 mode = "test"
 hint = """
-Храните в map, сколько раз встречалась каждая префиксная сумма (начиная с 0).
-Для текущей суммы s добавляйте к ответу количество префиксов, равных s - k."""
+Keep in a map how many times each prefix sum has occurred (starting from 0).
+For the current sum s add to the answer the count of prefixes equal to s - k."""
 
 [[exercises]]
 name = "algorithms78"
 path = "exercises/algorithms/algorithms78/main_test.go"
 mode = "test"
 hint = """
-Для узла считайте лучший «вклад вниз»: значение узла плюс максимум из вкладов
-поддеревьев (отрицательные вклады отбрасывайте). Ответ обновляйте суммой
-узла и обоих вкладов."""
+For each node compute its best 'downward gain': the node value plus the maximum of the subtree
+gains (drop negative gains). Update the answer with the sum of
+the node and both gains."""
 
 [[exercises]]
 name = "algorithms79"
 path = "exercises/algorithms/algorithms79/main_test.go"
 mode = "test"
 hint = """
-Отрицательные числа палиндромами не считаются. Разворачивайте половину
-числа и сравнивайте с оставшейся частью."""
+Negative numbers are not palindromes. Reverse half
+of the number and compare it with the remaining part."""
 
 [[exercises]]
 name = "algorithms80"
 path = "exercises/algorithms/algorithms80/main_test.go"
 mode = "test"
 hint = """
-Держите текущий результат и знак. При '(' сохраните результат и знак в стек
-и начните заново; при ')' — умножьте результат на сохранённый знак и прибавьте
-к сохранённому результату."""
+Keep the current result and sign. On '(' push the result and sign onto a stack
+and start over; on ')' multiply the result by the saved sign and add it
+to the saved result."""
 
 [[exercises]]
 name = "algorithms81"
 path = "exercises/algorithms/algorithms81/main_test.go"
 mode = "test"
 hint = """
-Если общая сумма нечётна — нельзя. Иначе ищите достижимость суммы S/2,
-обновляя массив достижимых сумм справа налево для каждого числа."""
+If the total sum is odd — impossible. Otherwise look for reachability of the sum S/2,
+updating the reachable-sums array right to left for each number."""
 
 [[exercises]]
 name = "algorithms82"
 path = "exercises/algorithms/algorithms82/main_test.go"
 mode = "test"
 hint = """
-Медленный указатель делает один шаг, быстрый — два. Если они встретились,
-цикл есть; если быстрый дошёл до конца — нет."""
+The slow pointer takes one step, the fast one two. If they meet,
+there is a cycle; if the fast one reaches the end — there is not."""
 
 [[exercises]]
 name = "algorithms83"
 path = "exercises/algorithms/algorithms83/main_test.go"
 mode = "test"
 hint = """
-Каждый узел хранит детей по символам и признак конца слова.
-Search требует признак конца, StartsWith — только наличие пути."""
+Each node stores children by character and an end-of-word flag.
+Search requires the end flag, StartsWith only the path's existence."""
 
 [[exercises]]
 name = "algorithms84"
 path = "exercises/algorithms/algorithms84/main_test.go"
 mode = "test"
 hint = """
-Поддерживайте отсортированную копию окна: вставляйте новый элемент
-двоичным поиском и удаляйте уходящий тоже двоичным поиском."""
+Maintain a sorted copy of the window: insert the new element
+with binary search and remove the outgoing one with binary search too."""
 
 [[exercises]]
 name = "algorithms85"
 path = "exercises/algorithms/algorithms85/main_test.go"
 mode = "test"
 hint = """
-Постройте список смежности и обойдите граф от start, отмечая посещённые
-вершины."""
+Build an adjacency list and traverse the graph from start, marking visited
+vertices."""
 
 [[exercises]]
 name = "algorithms86"
 path = "exercises/algorithms/algorithms86/main_test.go"
 mode = "test"
 hint = """
-Держите границы low (для 0) и high (для 2) и текущий индекс mid.
-0 меняйте с low, 2 — с high (не сдвигая mid), 1 пропускайте."""
+Keep the bounds low (for 0) and high (for 2) and the current index mid.
+Swap 0 with low, 2 with high (without advancing mid), skip 1."""
 
 [[exercises]]
 name = "algorithms87"
 path = "exercises/algorithms/algorithms87/main_test.go"
 mode = "test"
 hint = """
-Считайте, сколько каждого символа нужно. Расширяйте окно вправо, пока все
-символы не покрыты, затем сжимайте слева, обновляя лучший ответ."""
+Count how many of each character are needed. Extend the window right until all
+characters are covered, then shrink from the left, updating the best answer."""
 
 [[exercises]]
 name = "algorithms88"
 path = "exercises/algorithms/algorithms88/main_test.go"
 mode = "test"
 hint = """
-Идите по списку, перенаправляя указатель Next текущего узла на предыдущий."""
+Walk the list, redirecting the current node's Next pointer to the previous one."""
 
 [[exercises]]
 name = "algorithms89"
 path = "exercises/algorithms/algorithms89/main_test.go"
 mode = "test"
 hint = """
-Для позиции i учитывайте одну цифру (если она не '0') и две цифры
-(если число от 10 до 26). Храните два предыдущих значения."""
+For position i account for one digit (if it is not '0') and two digits
+(if the number is between 10 and 26). Keep the two previous values."""
 
 [[exercises]]
 name = "algorithms90"
 path = "exercises/algorithms/algorithms90/main_test.go"
 mode = "test"
 hint = """
-Держите максимумы слева и справа. Двигайте указатель с меньшим максимумом:
-вода над ним равна этому максимуму минус высота столбца."""
+Keep the maxima to the left and right. Move the pointer with the smaller maximum:
+the water above it equals that maximum minus the bar height."""
 
 [[exercises]]
 name = "algorithms91"
 path = "exercises/algorithms/algorithms91/main_test.go"
 mode = "test"
 hint = """
-Держите в куче k наибольших элементов: добавляйте новый и, если размер
-превысил k, удаляйте минимальный."""
+Keep the k largest elements in a heap: add the new one and, if the size
+exceeds k, remove the minimum."""
 
 [[exercises]]
 name = "algorithms92"
 path = "exercises/algorithms/algorithms92/main_test.go"
 mode = "test"
 hint = """
-Запишите значения в прямом порядке, помечая отсутствующие узлы символом "#".
-При разборе читайте токены по очереди и восстанавливайте узлы рекурсивно."""
+Write the values in preorder, marking missing nodes with "#".
+When parsing, read the tokens one by one and rebuild the nodes recursively."""
 
 [[exercises]]
 name = "algorithms93"
 path = "exercises/algorithms/algorithms93/main_test.go"
 mode = "test"
 hint = """
-Деревья одинаковы, если оба пусты либо значения корней совпадают
-и одинаковы соответствующие поддеревья."""
+The trees are equal if both are empty, or the root values match
+and the corresponding subtrees are equal."""
 
 [[exercises]]
 name = "algorithms94"
 path = "exercises/algorithms/algorithms94/main_test.go"
 mode = "test"
 hint = """
-Храните в стеке индексы, начиная с -1 как «базы». Для ')' снимайте вершину;
-если стек опустел — положите текущий индекс как новую базу, иначе длина
-равна i минус новая вершина."""
+Keep indices on a stack, starting with -1 as the 'base'. For ')' pop the top;
+if the stack becomes empty push the current index as the new base, otherwise the length
+is i minus the new top."""
 
 [[exercises]]
 name = "algorithms95"
 path = "exercises/algorithms/algorithms95/main_test.go"
 mode = "test"
 hint = """
-Для каждого центра (символ и промежуток между символами) расширяйтесь,
-пока символы слева и справа совпадают."""
+For each center (a character and a gap between characters) expand
+while the characters on the left and right match."""
 
 [[exercises]]
 name = "algorithms96"
 path = "exercises/algorithms/algorithms96/main_test.go"
 mode = "test"
 hint = """
-Храните минимальную цену до текущего дня и обновляйте лучший результат
-разницей текущей цены и этого минимума."""
+Keep the minimum price up to the current day and update the best result
+with the difference between the current price and that minimum."""
 
 [[exercises]]
 name = "algorithms97"
 path = "exercises/algorithms/algorithms97/main_test.go"
 mode = "test"
 hint = """
-dp[s] — минимум монет для суммы s. Перебирайте суммы по возрастанию
-и для каждой монеты обновляйте dp[s] через dp[s-coin] + 1."""
+dp[s] is the minimum number of coins for sum s. Iterate the sums in increasing order
+and for each coin update dp[s] via dp[s-coin] + 1."""
 
 [[exercises]]
 name = "algorithms98"
 path = "exercises/algorithms/algorithms98/main_test.go"
 mode = "test"
 hint = """
-Держите max-кучу меньшей половины и min-кучу большей. Балансируйте размеры;
-медиана — вершина большей кучи или среднее вершин."""
+Keep a max-heap of the smaller half and a min-heap of the larger one. Balance the sizes;
+the median is the top of the larger heap or the average of the two tops."""
 
 [[exercises]]
 name = "algorithms99"
 path = "exercises/algorithms/algorithms99/main_test.go"
 mode = "test"
 hint = """
-Для каждого узла путь через него равен сумме глубин поддеревьев.
-Считайте глубину рекурсивно и попутно обновляйте лучший ответ."""
+For each node the path through it equals the sum of its subtree depths.
+Compute the depth recursively and update the best answer along the way."""
 
 [[exercises]]
 name = "algorithms100"
 path = "exercises/algorithms/algorithms100/main_test.go"
 mode = "test"
 hint = """
-dp[i] — можно ли разобрать префикс длины i. Для каждой позиции проверяйте
-все предыдущие точки разбиения и наличие подстроки в словаре."""
+dp[i] — whether the prefix of length i can be segmented. For each position check
+all previous split points and whether the substring is in the dictionary."""
 
 [[exercises]]
 name = "algorithms101"
 path = "exercises/algorithms/algorithms101/main_test.go"
 mode = "test"
 hint = """
-Обходите граф в глубину, запоминая время входа и минимальное достижимое
-время. Ребро (u, v) — мост, если low[v] > tin[u]."""
+Traverse the graph in depth-first order, recording the entry time and the minimum reachable
+time. The edge (u, v) is a bridge if low[v] > tin[u]."""
 
 [[exercises]]
 name = "algorithms102"
 path = "exercises/algorithms/algorithms102/main_test.go"
 mode = "test"
 hint = """
-Для каждого элемента сдвигайте вправо все большие элементы слева
-и вставляйте его на освободившееся место."""
+For each element shift all greater elements on its left
+one position right and insert it into the freed spot."""
 
 [[exercises]]
 name = "algorithms103"
 path = "exercises/algorithms/algorithms103/main_test.go"
 mode = "test"
 hint = """
-Храните частоту каждого значения и отдельный стек для каждой частоты.
-Pop берёт из стека максимальной частоты и уменьшает частоту значения."""
+Store the frequency of each value and a separate stack per frequency.
+Pop takes from the stack of the maximum frequency and decrements the value's frequency."""
 
 [[exercises]]
 name = "algorithms104"
 path = "exercises/algorithms/algorithms104/main_test.go"
 mode = "test"
 hint = """
-Возьмите первую строку как кандидата и укорачивайте её, пока она не станет
-префиксом каждой следующей строки."""
+Take the first string as the candidate and shorten it until it becomes
+a prefix of every following string."""
 
 [[exercises]]
 name = "algorithms105"
 path = "exercises/algorithms/algorithms105/main_test.go"
 mode = "test"
 hint = """
-Сначала постройте max-кучу, просеивая элементы от середины к началу.
-Затем меняйте корень с последним элементом и просеивайте корень
-в уменьшающейся куче."""
+First build the max-heap by sifting elements from the middle toward the beginning.
+Then swap the root with the last element and sift the root
+in the shrinking heap."""
 
 [[exercises]]
 name = "algorithms106"
 path = "exercises/algorithms/algorithms106/main_test.go"
 mode = "test"
 hint = """
-Двигайте указатели с двух концов, пропуская лишние символы,
-и сравнивайте символы в нижнем регистре."""
+Move the pointers from both ends, skipping extraneous characters,
+and compare characters in lower case."""
 
 [[exercises]]
 name = "algorithms107"
 path = "exercises/algorithms/algorithms107/main_test.go"
 mode = "test"
 hint = """
-Используйте фиктивную голову. Сдвиньте быстрый указатель на n+1 шагов,
-затем двигайте оба до конца: медленный окажется перед удаляемым узлом."""
+Use a dummy head. Advance the fast pointer n+1 steps,
+then move both to the end: the slow one ends up right before the node to delete."""
 
 [[exercises]]
 name = "algorithms108"
 path = "exercises/algorithms/algorithms108/main_test.go"
 mode = "test"
 hint = """
-Храните в стеке индексы столбцов с возрастающей высотой. Когда встречается
-более низкий столбец, снимайте столбцы и считайте площадь, где снятый столбец —
-самый низкий. В конце добавьте «столбец» высоты 0."""
+Keep on a stack the indices of bars with increasing heights. When
+a lower bar arrives, pop bars and compute the area with the popped bar as
+the lowest. Append a bar of height 0 at the end."""
 
 [[exercises]]
 name = "algorithms109"
 path = "exercises/algorithms/algorithms109/main_test.go"
 mode = "test"
 hint = """
-Стоимость клетки — её значение плюс минимум из стоимостей соседей сверху
-и слева. Первая строка и первый столбец считаются накоплением."""
+The cost of a cell is its value plus the minimum of the costs of the neighbors above
+and to the left. The first row and column are running sums."""
 
 [[exercises]]
 name = "algorithms110"
 path = "exercises/algorithms/algorithms110/main_test.go"
 mode = "test"
 hint = """
-Первый элемент прямого обхода — корень. Его позиция в симметричном обходе
-делит массив на левое и правое поддеревья. Позиции храните в map."""
+The first preorder element is the root. Its position in the inorder traversal
+splits the array into the left and right subtrees. Store the positions in a map."""
 
 [[exercises]]
 name = "algorithms111"
 path = "exercises/algorithms/algorithms111/main_test.go"
 mode = "test"
 hint = """
-У положительной степени двойки ровно один установленный бит,
-поэтому x & (x-1) равно нулю."""
+A positive power of two has exactly one set bit,
+so x & (x-1) is zero."""
 
 [[exercises]]
 name = "algorithms112"
 path = "exercises/algorithms/algorithms112/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что впереди есть k узлов. Разверните их, соедините с предыдущей
-частью и продолжите с конца развёрнутой группы."""
+Check that there are k nodes ahead. Reverse them, connect to the preceding
+part, and continue from the end of the reversed group."""
 
 [[exercises]]
 name = "algorithms113"
 path = "exercises/algorithms/algorithms113/main_test.go"
 mode = "test"
 hint = """
-Отмечайте составные числа, начиная с квадрата каждого простого
-и шагая на его величину."""
+Mark composite numbers starting from the square of each prime
+and stepping by the prime."""
 
 [[exercises]]
 name = "algorithms114"
 path = "exercises/algorithms/algorithms114/main_test.go"
 mode = "test"
 hint = """
-Когда быстрый указатель дойдёт до конца, медленный будет в середине."""
+When the fast pointer reaches the end, the slow one is at the middle."""
 
 [[exercises]]
 name = "algorithms115"
 path = "exercises/algorithms/algorithms115/main_test.go"
 mode = "test"
 hint = """
-XOR даёт сложение без переносов, а (a & b) << 1 — сами переносы.
-Повторяйте, пока переносы не исчезнут; используйте беззнаковый тип."""
+XOR gives addition without carries, and (a & b) << 1 — the carries themselves.
+Repeat until the carries vanish; use an unsigned type."""
 
 [[exercises]]
 name = "algorithms116"
 path = "exercises/algorithms/algorithms116/main_test.go"
 mode = "test"
 hint = """
-Идите по массиву, запоминая самую дальнюю достижимую позицию. Когда
-доходите до конца текущего прыжка, увеличивайте счётчик и продлевайте границу."""
+Walk the array, tracking the farthest reachable position. When
+you reach the end of the current jump, increment the counter and extend the boundary."""
 
 [[exercises]]
 name = "algorithms117"
 path = "exercises/algorithms/algorithms117/main_test.go"
 mode = "test"
 hint = """
-Проходите массив один раз и храните в map уже увиденные значения и их индексы.
-Для текущего элемента ищите в map дополнение target - v."""
+Scan the array once and keep the already seen values and their indices in a map.
+For the current element look up the complement target - v in the map."""
 
 [[exercises]]
 name = "algorithms118"
 path = "exercises/algorithms/algorithms118/main_test.go"
 mode = "test"
 hint = """
-Ищите разбиение меньшего среза так, чтобы левые части обоих срезов вместе
-содержали половину элементов и все левые элементы были не больше правых."""
+Look for a partition of the smaller slice such that the left parts of both slices together
+contain half of the elements and all left elements are not greater than the right ones."""
 
 [[exercises]]
 name = "algorithms119"
 path = "exercises/algorithms/algorithms119/main_test.go"
 mode = "test"
 hint = """
-Заведите фиктивный узел и хвост. Присоединяйте к хвосту меньший из текущих
-узлов, в конце присоедините остаток."""
+Create a dummy node and a tail. Append the smaller of the current
+nodes to the tail; attach the remainder at the end."""
 
 [[exercises]]
 name = "algorithms120"
 path = "exercises/algorithms/algorithms120/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте по началу. Если очередной интервал начинается не позже конца
-последнего в ответе, расширьте последний, иначе добавьте новый."""
+Sort by start. If the next interval starts no later than the end
+of the last one in the answer, extend it; otherwise add a new one."""
 
 [[exercises]]
 name = "algorithms121"
 path = "exercises/algorithms/algorithms121/main_test.go"
 mode = "test"
 hint = """
-Находите первую пустую клетку и пробуйте цифры, проверяя строку, столбец
-и квадрат. При неудаче возвращайте клетку в исходное состояние."""
+Find the first empty cell and try digits, checking the row, column,
+and box. On failure restore the cell to its original state."""
 
 [[exercises]]
 name = "algorithms122"
 path = "exercises/algorithms/algorithms122/main_test.go"
 mode = "test"
 hint = """
-Сужайте отрезок [lo, hi], сравнивая target со средним элементом.
-Середину считайте как lo + (hi-lo)/2."""
+Narrow the segment [lo, hi] by comparing target with the middle element.
+Compute the middle as lo + (hi-lo)/2."""
 
 [[exercises]]
 name = "algorithms123"
 path = "exercises/algorithms/algorithms123/main_test.go"
 mode = "test"
 hint = """
-Обновляйте массив лучших ценностей по вместимости справа налево,
-чтобы каждый предмет учитывался один раз."""
+Update the best-value array over capacities from right to left
+so that each item is counted once."""
 
 [[exercises]]
 name = "algorithms124"
 path = "exercises/algorithms/algorithms124/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте по началу и проверьте, что каждая встреча начинается
-не раньше конца предыдущей."""
+Sort by start and check that each meeting begins
+no earlier than the end of the previous one."""
 
 [[exercises]]
 name = "algorithms125"
 path = "exercises/algorithms/algorithms125/main_test.go"
 mode = "test"
 hint = """
-Для каждого слова проверьте разбиение на части, которые есть в множестве
-остальных слов (DP по позициям), требуя минимум две части."""
+For each word check a split into parts that are in the set
+of the other words (DP over positions), requiring at least two parts."""
 
 [[exercises]]
 name = "algorithms126"
 path = "exercises/algorithms/algorithms126/main_test.go"
 mode = "test"
 hint = """
-Если суммарного топлива меньше суммарных затрат, ответа нет. Иначе старт —
-позиция после места, где текущий баланс стал отрицательным."""
+If the total fuel is less than the total cost, there is no answer. Otherwise the start is
+the position after the point where the running balance became negative."""
 
 [[exercises]]
 name = "algorithms127"
 path = "exercises/algorithms/algorithms127/main_test.go"
 mode = "test"
 hint = """
-Положите в мин-кучу (container/heap) головы всех непустых списков.
-Извлекайте минимальный узел, присоединяйте его к ответу и добавляйте в кучу
-следующий узел того же списка."""
+Put the heads of all non-empty lists into a min-heap (container/heap).
+Extract the minimum node, append it to the answer, and push into the heap
+the next node of the same list."""
 
 [[exercises]]
 name = "algorithms128"
 path = "exercises/algorithms/algorithms128/main_test.go"
 mode = "test"
 hint = """
-Реализуйте find со сжатием путей и union по размеру. Каждое успешное
-объединение уменьшает количество компонент на единицу."""
+Implement find with path compression and union by size. Each successful
+union decreases the number of components by one."""
 
 [[exercises]]
 name = "algorithms129"
 path = "exercises/algorithms/algorithms129/main_test.go"
 mode = "test"
 hint = """
-Держите счётчики пятёрок и десяток. Сдачу с 20 выгоднее давать
-как 10 + 5, оставляя пятёрки на потом."""
+Keep counters of fives and tens. Change for a 20 is best given
+as 10 + 5, saving fives for later."""
 
 [[exercises]]
 name = "algorithms130"
 path = "exercises/algorithms/algorithms130/main_test.go"
 mode = "test"
 hint = """
-При ДП по строке: dp[j] для шаблона обновляется слева направо;
-'*' позволяет либо пропустить символ строки, либо съесть его."""
+With DP over the string: dp[j] for the pattern is updated left to right;
+'*' allows either skipping the string character or consuming it."""
 
 [[exercises]]
 name = "algorithms131"
 path = "exercises/algorithms/algorithms131/main_test.go"
 mode = "test"
 hint = """
-Идите с конца обеих строк, складывая цифры и перенос. Результат
-собирайте в обратном порядке, затем разверните."""
+Go from the end of both strings, adding the digits and the carry. Build the result
+in reverse order, then reverse it."""
 
 [[exercises]]
 name = "algorithms132"
 path = "exercises/algorithms/algorithms132/main_test.go"
 mode = "test"
 hint = """
-Для каждого дома выбирайте лучшее из двух: пропустить его или взять
-вместе с лучшим результатом до предыдущего дома."""
+For each house choose the better of two options: skip it, or take it
+together with the best result up to the previous house."""
 
 [[exercises]]
 name = "algorithms133"
 path = "exercises/algorithms/algorithms133/main_test.go"
 mode = "test"
 hint = """
-Способов дойти до ступени i столько же, сколько сумма способов
-дойти до i-1 и i-2. Храните два последних значения."""
+The number of ways to reach step i is the sum of the ways
+to reach i-1 and i-2. Keep the two latest values."""
 
 [[exercises]]
 name = "algorithms134"
 path = "exercises/algorithms/algorithms134/main_test.go"
 mode = "test"
 hint = """
-Считайте dp[l][r] — лучшие очки для открытого интервала (l, r), перебирая,
-какой шарик лопается последним."""
+Compute dp[l][r] — the best score for the open interval (l, r), trying
+which balloon bursts last."""
 
 [[exercises]]
 name = "algorithms135"
 path = "exercises/algorithms/algorithms135/main_test.go"
 mode = "test"
 hint = """
-Если символы совпали, ответ — 1 плюс значение для обоих укороченных префиксов,
-иначе — максимум из двух вариантов с одним укороченным префиксом."""
+If the characters match, the answer is 1 plus the value for both shortened prefixes,
+otherwise — the maximum of the two options with one shortened prefix."""
 
 [[exercises]]
 name = "algorithms136"
 path = "exercises/algorithms/algorithms136/main_test.go"
 mode = "test"
 hint = """
-Стройте уровни BFS. Для слова перебирайте все позиции и все буквы,
-проверяя наличие получившегося слова в множестве."""
+Build BFS levels. For a word try all positions and all letters,
+checking whether the resulting word is in the set."""
 
 [[exercises]]
 name = "algorithms137"
 path = "exercises/algorithms/algorithms137/main_test.go"
 mode = "test"
 hint = """
-Держите кандидата и счётчик: при нулевом счётчике текущий элемент становится
-кандидатом; совпадение увеличивает счётчик, несовпадение уменьшает."""
+Keep a candidate and a counter: when the counter is zero the current element becomes
+the candidate; a match increments the counter, a mismatch decrements it."""
 
 [[exercises]]
 name = "algorithms138"
 path = "exercises/algorithms/algorithms138/main_test.go"
 mode = "test"
 hint = """
-Храните в стеке пары (накопленная строка, множитель). При '[' кладите текущее
-состояние в стек, при ']' — повторите текущую строку и приклейте к сохранённой."""
+Keep pairs (accumulated string, multiplier) on a stack. On '[' push the current
+state onto the stack; on ']' repeat the current string and append it to the saved one."""
 
 [[exercises]]
 name = "algorithms139"
 path = "exercises/algorithms/algorithms139/main_test.go"
 mode = "test"
 hint = """
-Для каждой строки постройте высоты столбцов из единиц, заканчивающихся
-в этой строке, и решите задачу о наибольшем прямоугольнике в гистограмме."""
+For each row build the bar heights of the ones ending
+in that row, and solve the largest-rectangle-in-histogram problem."""
 
 [[exercises]]
 name = "algorithms140"
 path = "exercises/algorithms/algorithms140/main_test.go"
 mode = "test"
 hint = """
-Складывайте цифры вместе с переносом, пока хотя бы один список не кончился
-или перенос не нулевой."""
+Add the digits together with the carry while at least one list still has nodes
+or the carry is nonzero."""
 
 [[exercises]]
 name = "algorithms141"
 path = "exercises/algorithms/algorithms141/main_test.go"
 mode = "test"
 hint = """
-XOR даёт единицы в различающихся битах — остаётся их посчитать."""
+XOR gives ones in the differing bits — all that remains is to count them."""
 
 [[exercises]]
 name = "algorithms142"
 path = "exercises/algorithms/algorithms142/main_test.go"
 mode = "test"
 hint = """
-dp[j] — число способов получить префикс t длины j. Обновляйте массив
-справа налево для каждого символа s."""
+dp[j] is the number of ways to obtain the prefix of t of length j. Update the array
+right to left for each character of s."""
 
 [[exercises]]
 name = "algorithms143"
 path = "exercises/algorithms/algorithms143/main_test.go"
 mode = "test"
 hint = """
-Отсортируйте встречи по началу. Держите в куче времена окончания занятых
-комнат: если самая ранняя освободилась, переиспользуйте её."""
+Sort the meetings by start time. Keep the end times of occupied
+rooms in a heap: if the earliest one is free, reuse it."""
 
 [[exercises]]
 name = "algorithms144"
 path = "exercises/algorithms/algorithms144/main_test.go"
 mode = "test"
 hint = """
-Указатель записи w стоит после последнего уникального значения.
-Записывайте элемент, если он отличается от nums[w-1]."""
+The write pointer w stands after the last unique value.
+Write an element if it differs from nums[w-1]."""
 
 [[exercises]]
 name = "algorithms145"
 path = "exercises/algorithms/algorithms145/main_test.go"
 mode = "test"
 hint = """
-Ответ лежит в диапазоне 1..n+1. Переставьте каждое число v из этого диапазона
-на позицию v-1 (обменами), затем найдите первую позицию, где nums[i] != i+1."""
+The answer lies in the range 1..n+1. Move every value v from that range
+to position v-1 (by swaps), then find the first position where nums[i] != i+1."""
 
 [[exercises]]
 name = "algorithms146"
 path = "exercises/algorithms/algorithms146/main_test.go"
 mode = "test"
 hint = """
-Посчитайте частоты, разложите значения по «корзинам» индекса-частоты
-и собирайте ответ, идя от больших частот к меньшим (сортируя каждую корзину)."""
+Count the frequencies, bucket the values by frequency index
+and assemble the answer going from larger frequencies to smaller (sorting each bucket)."""
 
 [[exercises]]
 name = "algorithms147"
 path = "exercises/algorithms/algorithms147/main_test.go"
 mode = "test"
 hint = """
-Ищите первый индекс, где nums[i] >= target, на полуинтервале [0, len)."""
+Find the first index where nums[i] >= target on the half-open interval [0, len)."""
 
 [[exercises]]
 name = "algorithms148"
 path = "exercises/algorithms/algorithms148/main_test.go"
 mode = "test"
 hint = """
-Симметричный обход BST даёт значения по возрастанию. Считайте посещённые
-узлы и остановитесь на k-м."""
+Inorder traversal of a BST yields values in ascending order. Count the visited
+nodes and stop at the k-th one."""
 
 [[exercises]]
 name = "algorithms149"
 path = "exercises/algorithms/algorithms149/main_test.go"
 mode = "test"
 hint = """
-Если цвет клетки уже совпадает с новым, ничего делать не нужно.
-Иначе рекурсивно перекрашивайте соседей исходного цвета."""
+If the cell's color already matches the new one, there is nothing to do.
+Otherwise recursively recolor the neighbors of the original color."""
 
 [[exercises]]
 name = "algorithms150"
 path = "exercises/algorithms/algorithms150/main_test.go"
 mode = "test"
 hint = """
-Храните в деке индексы с убывающими значениями. Удаляйте с хвоста меньшие
-элементы перед добавлением и с головы — вышедшие за окно индексы."""
+Store indexes with decreasing values in the deque. Remove smaller
+elements from the back before adding, and indexes that left the window from the front."""

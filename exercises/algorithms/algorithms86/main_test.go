@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: три указателя. Срез содержит только 0, 1 и 2. Отсортируйте его
-// за один проход на месте, не используя подсчёт.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: three pointers. The slice contains only 0, 1, and 2. Sort it
+// in place in a single pass without counting.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

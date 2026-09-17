@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// limited запускает задачи так, чтобы одновременно работали не больше 2.
-// Размер семафора задан неверно.
-// Тренирует: буферизованный канал как семафор.
-// Сложность: easy
+// limited runs the tasks so that no more than 2 are working at once.
+// The size of the semaphore is wrong.
+// Practices a buffered channel as a semaphore.
 package main_test
 
 import (

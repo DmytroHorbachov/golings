@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП. Строка цифр кодирует буквы: "1" — A, ..., "26" — Z.
-// Посчитайте количество способов её раскодировать. Ведущий ноль делает
-// разбор невозможным.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: one-dimensional DP. A digit string encodes letters:
+// "1" — A, ..., "26" — Z. Count the number of ways to decode it.
+// A leading zero makes decoding impossible.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// startWorkers запускает воркеры, которые крутятся до отмены контекста,
-// и возвращает функцию ожидания их завершения.
-// Тренирует: ctx.Done() в цикле воркера.
-// Сложность: medium
+// startWorkers starts workers that run until the context is cancelled,
+// and returns a function waiting for them to finish.
+// Practices ctx.Done() in a worker loop.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. По высотам столбцов посчитайте, сколько воды
-// задержится между ними после дождя.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. Given the heights of bars, compute how much water
+// is trapped between them after rain.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

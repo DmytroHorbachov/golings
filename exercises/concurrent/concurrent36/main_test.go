@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fetch запускает дочернюю операцию с таймаутом, но строит её контекст
-// от context.Background, и отмена родителя до неё не доходит.
-// Тренирует: производные контексты должны наследовать родительский.
-// Сложность: hard
+// fetch starts a child operation with a timeout, and builds its context
+// from context.Background, so a cancellation of the parent never reaches it.
+// Derived contexts have to inherit from the parent.
 package main_test
 
 import (

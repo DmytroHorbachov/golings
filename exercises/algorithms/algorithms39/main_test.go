@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: параллельный обход двух поддеревьев. Проверьте, что дерево
-// симметрично относительно своего центра.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: parallel traversal of two subtrees. Check that the tree is
+// symmetric about its center.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

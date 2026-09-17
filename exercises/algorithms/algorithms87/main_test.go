@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: скользящее окно со счётчиками. Найдите самую короткую подстроку s,
-// содержащую все символы t (с учётом кратности). Если такой нет — "".
-// При нескольких минимальных окнах верните самое левое.
-// Сложность: hard. Ожидаемая асимптотика: O(n + m) по времени, O(k) по памяти
+// Pattern: a sliding window with counters. Find the shortest substring of s
+// containing all characters of t (with multiplicity). If none — "".
+// If several minimal windows exist, return the leftmost one.
+// Expected asymptotics: O(n + m) time, O(k) space.
 package main_test
 
 import "testing"

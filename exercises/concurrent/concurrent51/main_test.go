@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// numbers отправляет числа и должна закрыть канал, иначе range у получателя
-// никогда не закончится.
-// Тренирует: close для сигнала об окончании данных.
-// Сложность: easy
+// numbers sends the numbers and has to close the channel, otherwise the range on the
+// receiving side never ends.
+// close as the signal that the data has run out.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// poll выполняет проверку по тикеру заданное число раз и останавливает тикер.
-// Тренирует: time.Ticker и его остановку.
-// Сложность: medium
+// poll runs a check on a ticker a given number of times and stops
+// the ticker.
+// Practices time.Ticker and stopping it.
 package main_test
 
 import (

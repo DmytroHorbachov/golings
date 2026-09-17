@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в ширину. Верните значения узлов по уровням: первый уровень —
-// корень, затем его дети и так далее.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: breadth-first traversal. Return the node values level by level:
+// the first level is the root, then its children, and so on.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

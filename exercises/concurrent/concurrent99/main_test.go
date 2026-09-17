@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Get читает под RLock, но освобождает не тот замок, и программа падает.
-// Тренирует: парность методов RWMutex.
-// Сложность: easy
+// Get reads under RLock but releases the wrong lock, and the program crashes.
+// Practices pairing RWMutex methods.
 package main_test
 
 import (

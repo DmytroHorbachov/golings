@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП «рюкзак». Каждый предмет можно взять не больше одного раза.
-// Верните максимальную суммарную ценность при вместимости capacity.
-// Сложность: medium. Ожидаемая асимптотика: O(n·W) по времени, O(W) по памяти
+// Pattern: knapsack dynamic programming. Each item can be taken at most
+// once. Return the maximum total value with the given capacity.
+// Expected asymptotics: O(n·W) time, O(W) space.
 package main_test
 
 import "testing"

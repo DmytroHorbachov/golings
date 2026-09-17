@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Config загружается один раз, сколько бы горутин ни вызывали Get.
-// Тренирует: sync.Once.Do.
-// Сложность: easy
+// Config is loaded once, no matter how many goroutines call Get.
+// Practices sync.Once.Do.
 package main_test
 
 import (

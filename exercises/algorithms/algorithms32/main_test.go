@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: разделяй и властвуй с разбиением Ломуто. Отсортируйте срез на месте,
-// не используя пакет sort.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log n) в среднем, O(log n) по памяти
+// Pattern: divide and conquer with Lomuto partitioning. Sort a slice
+// in place without using the sort package.
+// Expected asymptotics: O(n·log n) on average, O(log n) space.
 package main_test
 
 import (

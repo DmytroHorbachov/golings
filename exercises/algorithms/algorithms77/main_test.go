@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: префиксные суммы и хэш-таблица. Посчитайте количество непрерывных
-// подмассивов, сумма которых равна k (числа могут быть отрицательными).
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: prefix sums and a hash table. Count the number of contiguous
+// subarrays whose sum equals k (the numbers may be negative).
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

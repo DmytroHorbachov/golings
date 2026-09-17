@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Сервер ждёт сигнала остановки через канал done, но канал никто не закрывает.
-// Тренирует: close(done) как широковещательный сигнал.
-// Сложность: easy
+// The server waits for a stop signal on a done channel, and nobody closes the channel.
+// close(done) as a broadcast signal.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// tryRead читает значение из канала, если оно есть, иначе сразу возвращает false.
-// Тренирует: ветку default в select.
-// Сложность: easy
+// tryRead reads a value from the channel if one is available, otherwise it
+// returns false immediately.
+// Practices the default case in a select.
 package main_test
 
 import (

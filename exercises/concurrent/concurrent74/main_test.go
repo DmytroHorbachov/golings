@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// handle передаёт идентификатор запроса через контекст вглубь вызовов.
-// Тренирует: context.WithValue и передача ctx вниз по стеку.
-// Сложность: medium
+// handle passes a request identifier through the context deep into
+// the calls.
+// Practices context.WithValue and passing ctx down the stack.
 package main_test
 
 import (

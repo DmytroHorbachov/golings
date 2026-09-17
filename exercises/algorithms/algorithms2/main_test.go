@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: мин-куча по границе. Посчитайте объём воды, который задержится
-// на прямоугольной карте высот после дождя.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c·log(r·c)) по времени, O(r·c) по памяти
+// Pattern: a min-heap on the boundary. Compute the volume of water
+// trapped on a rectangular height map after rain.
+// Expected asymptotics: O(r·c·log(r·c)) time, O(r·c) space.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// mergeTwo читает из двух каналов, пока оба не закроются. Закрытый канал
-// должен быть исключён из select присваиванием nil.
-// Тренирует: nil-канал блокирует ветку select навсегда.
-// Сложность: medium
+// mergeTwo reads from two channels until both are closed. A closed channel
+// must be excluded from the select by assigning nil.
+// Practices a nil channel blocking a select case forever.
 package main_test
 
 import (

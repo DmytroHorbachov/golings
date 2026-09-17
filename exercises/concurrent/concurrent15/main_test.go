@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Воркер вызывает wg.Done и в defer, и явно при ошибке.
-// Счётчик становится отрицательным, и программа паникует.
-// Тренирует: одна горутина — один Done.
-// Сложность: hard
+// The worker calls wg.Done both in a defer and explicitly on an error.
+// The counter goes negative and the program panics.
+// One goroutine, one Done.
 package main_test
 
 import (

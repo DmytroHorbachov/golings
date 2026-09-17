@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Конфигурация хранится в atomic.Value; при обновлении сохраняется значение
-// другого типа, и Store паникует.
-// Тренирует: atomic.Value требует одного конкретного типа для всех Store.
-// Сложность: hard
+// The configuration lives in an atomic.Value; an update stores a value
+// of another type, and Store panics.
+// atomic.Value asks for one concrete type across every Store.
 package main_test
 
 import (

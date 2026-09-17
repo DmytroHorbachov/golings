@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: использование массива как хэш-таблицы. Найдите наименьшее
-// положительное целое, которого нет в срезе. Разрешается переставлять элементы.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(1) доп. памяти
+// Pattern: using the array as a hash table. Find the smallest positive
+// integer missing from the slice. Rearranging elements is allowed.
+// Expected asymptotics: O(n) time, O(1) extra space.
 package main_test
 
 import "testing"

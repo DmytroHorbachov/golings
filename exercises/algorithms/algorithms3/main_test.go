@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: середина списка и разворот половины. Проверьте, читается ли список
-// одинаково в обе стороны.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) доп. памяти
+// Pattern: find the middle of the list and reverse the second half.
+// Check whether the list reads the same in both directions.
+// Expected asymptotics: O(n) time, O(1) extra space.
 package main_test
 
 import "testing"

@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: хэш-таблицы и списки по частотам. Кэш ёмкости capacity вытесняет
-// ключ с наименьшим числом обращений; при равенстве — самый давно использованный.
-// Get и Put увеличивают частоту ключа.
-// Сложность: hard. Ожидаемая асимптотика: O(1) на операцию, O(capacity) по памяти
+// Pattern: hash tables and lists by frequency. A cache of the given
+// capacity evicts the key with the fewest accesses; on a tie — the least
+// recently used. Get and Put increase the key's frequency.
+// Expected asymptotics: O(1) per operation, O(capacity) space.
 package main_test
 
 import (

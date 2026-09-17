@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: быстрый и медленный указатели (Флойд). Определите, есть ли цикл
-// в списке, не используя дополнительную память.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: fast and slow pointers (Floyd). Determine whether the list
+// has a cycle without using extra memory.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

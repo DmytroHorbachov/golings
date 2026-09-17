@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Каждая горутина должна записать свой номер. Номер передаётся параметром.
-// Тренирует: передача значения в go func(v int){...}(v).
-// Сложность: easy
+// Each goroutine must record its own number. The number is passed as
+// a parameter.
+// Practices passing a value via go func(v int){...}(v).
 package main_test
 
 import (

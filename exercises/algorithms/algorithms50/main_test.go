@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом и ограничениями. Верните все правильные
-// скобочные последовательности из n пар (в лексикографическом порядке
-// при выборе ')' после '(').
-// Сложность: medium. Ожидаемая асимптотика: O(4^n / √n) по времени, O(n) по памяти
+// Pattern: backtracking with constraints. Return all valid bracket
+// sequences of n pairs (in lexicographic order when ')' follows '(').
+// Expected asymptotics: O(4^n / √n) time, O(n) space.
 package main_test
 
 import (

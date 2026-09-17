@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// getOrCreate держит RLock и пытается взять Lock для записи — это взаимоблокировка.
-// Тренирует: RWMutex не поддерживает «повышение» блокировки.
-// Сложность: hard
+// getOrCreate holds an RLock and tries to take the write Lock, which is a deadlock.
+// An RWMutex cannot upgrade a lock.
 package main_test
 
 import (

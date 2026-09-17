@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: жадность по «границе достижимости». nums[i] — максимальная длина
-// прыжка из позиции i. Верните минимальное число прыжков до конца
-// (достижимость гарантирована).
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: greedy over the "reach boundary". nums[i] is the maximum jump
+// length from position i. Return the minimum number of jumps to reach the
+// end (reaching it is guaranteed).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

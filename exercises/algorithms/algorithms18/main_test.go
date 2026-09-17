@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: хэш-таблицы. Верните true, если хотя бы одно значение
-// встречается в срезе больше одного раза.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: hash tables. Return true if at least one value occurs more than
+// once in the slice.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

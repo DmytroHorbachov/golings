@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек стеков по частоте. Push добавляет значение; Pop удаляет и
-// возвращает самое частое значение, при равенстве — добавленное последним.
-// Сложность: hard. Ожидаемая асимптотика: O(1) на операцию, O(n) по памяти
+// Pattern: a stack of stacks by frequency. Push adds a value; Pop removes
+// and returns the most frequent value; on ties — the one added last.
+// Expected asymptotics: O(1) per operation, O(n) space.
 package main_test
 
 import "testing"

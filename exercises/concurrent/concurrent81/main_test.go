@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// gather ждёт результаты задач до дедлайна и возвращает то, что успело прийти.
-// Тренирует: один общий таймер на весь сбор.
-// Сложность: medium
+// gather waits for task results up to a deadline and returns what arrived.
+// Practices a single shared timer for the whole collection.
 package main_test
 
 import (

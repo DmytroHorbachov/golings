@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка по капиталу и max-куча по прибыли. Начиная с капитала w,
-// можно выполнить не больше k проектов; каждый требует капитала capital[i]
-// и приносит profits[i]. Верните максимальный итоговый капитал.
-// Сложность: hard. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: sorting by capital and a max-heap of profits. Starting with
+// capital w, at most k projects may be completed; each requires
+// capital[i] and yields profits[i]. Return the maximum final capital.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

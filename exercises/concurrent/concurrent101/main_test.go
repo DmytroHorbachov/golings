@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stats считает HTTP-коды из многих горутин; Snapshot возвращает копию map.
-// Тренирует: мьютекс и возврат копии защищённых данных.
-// Сложность: medium
+// Stats counts HTTP codes from many goroutines; Snapshot returns a map copy.
+// Practices a mutex and returning a copy of the guarded data.
 package main_test
 
 import (

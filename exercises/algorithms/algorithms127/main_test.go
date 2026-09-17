@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: куча. Слейте k отсортированных списков в один отсортированный список
-// и верните его голову. Списков может не быть вовсе.
-// Сложность: hard. Ожидаемая асимптотика: O(N·log k) по времени, O(k) по памяти
+// Pattern: a heap. Merge k sorted lists into a single sorted list and
+// return its head. There may be no lists at all.
+// Expected asymptotics: O(N·log k) time, O(k) space.
 package main_test
 
 import (

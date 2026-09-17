@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Store записывает в map из многих горутин, но блокировка забыта.
-// Тренирует: мьютекс для записи в map.
-// Сложность: medium
+// Store writes to a map from many goroutines, but locking is missing.
+// Practices a mutex for writing to a map.
 package main_test
 
 import (

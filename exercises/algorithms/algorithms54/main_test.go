@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: max-куча. Пока камней больше одного, берите два самых тяжёлых:
-// равные исчезают, разные дают камень с разностью весов. Верните вес последнего
-// камня или 0.
-// Сложность: easy. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: max-heap. While more than one stone remains, take the two
+// heaviest: equal ones both disappear, unequal ones yield a stone with the
+// difference of their weights. Return the weight of the last stone or 0.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// gather добавляет результаты в общий срез из многих горутин;
-// часть результатов теряется.
-// Тренирует: append не потокобезопасен.
-// Сложность: hard
+// gather appends results to a shared slice from many goroutines;
+// some results get lost.
+// Practices that append is not thread-safe.
 package main_test
 
 import (

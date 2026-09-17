@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Gate.Open должен разбудить всех ожидающих, но Signal будит только одного.
-// Тренирует: разница между Signal и Broadcast.
-// Сложность: hard
+// Gate.Open must wake all waiters, but Signal wakes only one.
+// Practices the difference between Signal and Broadcast.
 package main_test
 
 import (

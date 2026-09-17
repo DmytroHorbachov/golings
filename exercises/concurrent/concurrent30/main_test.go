@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// slow должна вернуть context.DeadlineExceeded, если контекст истёк.
-// Тренирует: ctx.Err().
-// Сложность: easy
+// slow has to return context.DeadlineExceeded when the context has run out.
+// Practices ctx.Err().
 package main_test
 
 import (

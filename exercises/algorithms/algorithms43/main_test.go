@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: разбор по группам разрядов. Запишите неотрицательное число
-// английскими словами, как принято: группы по три цифры с суффиксами
+// Pattern: parsing by digit groups. Write a non-negative number in English
+// words, as is customary: groups of three digits with the suffixes
 // Thousand, Million, Billion.
-// Сложность: hard. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import (

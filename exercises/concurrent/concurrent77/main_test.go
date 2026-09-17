@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// tee копирует каждое значение из входа в два выхода.
-// Тренирует: отправку одного значения в несколько каналов.
-// Сложность: medium
+// tee copies every value from the input into two outputs.
+// Practices sending one value to several channels.
 package main_test
 
 import (

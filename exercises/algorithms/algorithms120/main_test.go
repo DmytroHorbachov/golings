@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка интервалов. Объедините пересекающиеся и соприкасающиеся
-// интервалы и верните их в порядке возрастания начала.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: sorting intervals. Merge overlapping and touching intervals and
+// return them in ascending order of start.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

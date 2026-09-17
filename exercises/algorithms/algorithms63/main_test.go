@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в глубину по сетке. Посчитайте количество областей из '1',
-// соединённых по горизонтали и вертикали.
-// Сложность: medium. Ожидаемая асимптотика: O(r·c) по времени, O(r·c) по памяти
+// Pattern: depth-first traversal over a grid. Count the number of regions
+// of '1's connected horizontally and vertically.
+// Expected asymptotics: O(r·c) time, O(r·c) space.
 package main_test
 
 import "testing"

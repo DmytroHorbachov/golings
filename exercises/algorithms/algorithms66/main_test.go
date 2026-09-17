@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом и обменами. Верните все перестановки набора
-// различных чисел (в любом порядке).
-// Сложность: medium. Ожидаемая асимптотика: O(n·n!) по времени, O(n) доп. памяти
+// Pattern: backtracking with swaps. Return all permutations of a set of
+// distinct numbers (in any order).
+// Expected asymptotics: O(n·n!) time, O(n) extra space.
 package main_test
 
 import (

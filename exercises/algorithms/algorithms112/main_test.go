@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: развороты подсписков. Разверните узлы списка группами по k;
-// неполная последняя группа остаётся как есть.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: reversing sublists. Reverse the nodes of a list in groups of k;
+// an incomplete final group stays as is.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

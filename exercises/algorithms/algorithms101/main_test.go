@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: алгоритм Тарьяна. Найдите все рёбра неориентированного графа,
-// удаление которых увеличивает число компонент связности.
-// Рёбра возвращайте с меньшей вершиной первой, отсортированными.
-// Сложность: hard. Ожидаемая асимптотика: O(V + E) по времени, O(V + E) по памяти
+// Pattern: Tarjan's algorithm. Find all edges of an undirected graph
+// whose removal increases the number of connected components.
+// Return the edges with the smaller vertex first, sorted.
+// Expected asymptotics: O(V + E) time, O(V + E) space.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// batch читает значения из канала и группирует их в пакеты размера n;
-// последний неполный пакет тоже возвращается.
-// Тренирует: накопление значений из канала.
-// Сложность: medium
+// batch reads values from a channel and groups them into batches of size n;
+// the last, partial batch is returned as well.
+// Practices collecting values from a channel.
 package main_test
 
 import (

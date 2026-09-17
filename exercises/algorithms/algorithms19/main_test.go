@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: динамический union-find. Клетки добавляются по одной; после каждой
-// операции верните текущее количество островов.
-// Сложность: hard. Ожидаемая асимптотика: O(k·α(rc)) по времени, O(r·c) по памяти
+// Pattern: incremental union-find. Cells are added one at a time; after each
+// operation, return the current number of islands.
+// Expected asymptotics: O(k·α(rc)) time, O(r·c) space.
 package main_test
 
 import (

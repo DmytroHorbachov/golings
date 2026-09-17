@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по значению. Таблица m×n содержит i*j. Найдите
-// k-е по величине число (с учётом повторов, k с единицы).
-// Сложность: hard. Ожидаемая асимптотика: O(m·log(m·n)) по времени, O(1) по памяти
+// Pattern: binary search on the value. An m×n table contains i*j. Find the
+// k-th smallest number (counting duplicates, k is 1-based).
+// Expected asymptotics: O(m·log(m·n)) time, O(1) space.
 package main_test
 
 import "testing"

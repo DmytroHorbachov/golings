@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// sumSquares запускает горутины и ждёт их через WaitGroup, но Wait не ждёт ничего.
-// Тренирует: wg.Add перед запуском горутины.
-// Сложность: easy
+// sumSquares launches goroutines and waits for them with a WaitGroup,
+// but Wait does not wait for anything.
+// Practices calling wg.Add before launching a goroutine.
 package main_test
 
 import (

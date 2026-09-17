@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: решето Эратосфена. Посчитайте количество простых чисел,
-// строго меньших n. Решение должно быть быстрее перебора делителей.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log log n) по времени, O(n) по памяти
+// Pattern: the sieve of Eratosthenes. Count the number of primes strictly
+// less than n. The solution must be faster than trial division.
+// Expected asymptotics: O(n·log log n) time, O(n) space.
 package main_test
 
 import "testing"

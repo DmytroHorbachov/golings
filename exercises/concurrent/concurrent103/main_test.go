@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Главная горутина ждёт воркеров, а затем отправляет им задачу, которую
-// они ждут. Возникает взаимоблокировка.
-// Тренирует: порядок операций при синхронизации.
-// Сложность: hard
+// The main goroutine waits for the workers and then sends them the task they
+// are waiting for, causing a deadlock.
+// Practices the order of operations when synchronizing.
 package main_test
 
 import (

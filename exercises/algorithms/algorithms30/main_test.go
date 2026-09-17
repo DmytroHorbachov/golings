@@ -3,9 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка и два указателя. Найдите все уникальные тройки чисел
-// с суммой 0. Каждая тройка упорядочена по возрастанию, тройки — лексикографически.
-// Сложность: medium. Ожидаемая асимптотика: O(n²) по времени, O(1) доп. памяти (без учёта сортировки и ответа)
+// Pattern: sorting and two pointers. Find all unique triples of numbers
+// with a sum of 0. Each triple is ordered ascending; the triples are
+// ordered lexicographically.
+// Expected asymptotics: O(n²) time, O(1) extra space (ignoring sorting
+// and the answer).
 package main_test
 
 import (

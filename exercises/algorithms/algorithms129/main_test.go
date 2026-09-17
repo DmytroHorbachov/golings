@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: жадность. Стакан стоит 5; покупатели платят купюрами 5, 10 или 20.
-// Верните true, если каждому удалось дать сдачу (касса пуста в начале).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: greedy. A cup costs 5; customers pay with bills of 5, 10, or 20.
+// Return true if change could be given to everyone (the register starts
+// empty).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

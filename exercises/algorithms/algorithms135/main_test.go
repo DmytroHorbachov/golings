@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП по префиксам. Найдите длину наибольшей общей
-// подпоследовательности двух строк.
-// Сложность: medium. Ожидаемая асимптотика: O(n·m) по времени, O(min(n, m)) по памяти
+// Pattern: 2D DP over prefixes. Find the length of the longest common
+// subsequence of two strings.
+// Expected asymptotics: O(n·m) time, O(min(n, m)) space.
 package main_test
 
 import "testing"

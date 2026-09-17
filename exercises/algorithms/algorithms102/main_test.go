@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка вставками. Отсортируйте срез по возрастанию на месте,
-// не используя пакет sort.
-// Сложность: easy. Ожидаемая асимптотика: O(n²) по времени, O(1) по памяти
+// Pattern: insertion sort. Sort a slice in ascending order in place,
+// without using the sort package.
+// Expected asymptotics: O(n²) time, O(1) space.
 package main_test
 
 import (

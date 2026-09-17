@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек. Строка вида "3[a2[c]]" раскрывается в "accaccacc".
-// Числа — положительные, скобки корректны, внутри — латинские буквы.
-// Сложность: medium. Ожидаемая асимптотика: O(n·k) по времени, O(n) по памяти
+// Pattern: a stack. A string like "3[a2[c]]" expands to "accaccacc".
+// Numbers are positive, brackets are balanced, and the inside contains
+// Latin letters.
+// Expected asymptotics: O(n·k) time, O(n) space.
 package main_test
 
 import (

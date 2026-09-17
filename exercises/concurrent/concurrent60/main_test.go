@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// BlockingQueue.Take ждёт, пока появится элемент; Put добавляет и будит ожидающих.
-// Тренирует: sync.Cond.
-// Сложность: easy
+// BlockingQueue.Take waits until an element appears; Put adds one and
+// wakes up waiters.
+// Practices sync.Cond.
 package main_test
 
 import (

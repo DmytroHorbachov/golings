@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// handoff отправляет задачу обработчику и сразу проверяет, что она обработана.
-// С буферизованным каналом отправка не ждёт обработчика.
-// Тренирует: небуферизованный канал — точка встречи, буферизованный — нет.
-// Сложность: hard
+// handoff sends a task to a handler and checks right away that it was handled.
+// With a buffered channel the send does not wait for the handler.
+// An unbuffered channel is a rendezvous; a buffered one is not.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: скользящее окно. Найдите длину самой длинной подстроки (в символах),
-// в которой все символы различны.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(k) по памяти
+// Pattern: sliding window. Find the length of the longest substring
+// (in characters) in which all characters are distinct.
+// Expected asymptotics: O(n) time, O(k) space.
 package main_test
 
 import "testing"

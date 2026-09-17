@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: параллельный обход. Проверьте, что два дерева одинаковы
-// по структуре и значениям.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: parallel traversal. Check that two trees are identical
+// in structure and values.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: битовые операции. Посчитайте, в скольких битах различаются
-// два неотрицательных числа.
-// Сложность: easy. Ожидаемая асимптотика: O(1) по времени, O(1) по памяти
+// Pattern: bit manipulation. Count in how many bits two non-negative
+// numbers differ.
+// Expected asymptotics: O(1) time, O(1) space.
 package main_test
 
 import "testing"

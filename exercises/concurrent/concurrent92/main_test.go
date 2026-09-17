@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Server принимает задачи через канал; Shutdown закрывает вход и ждёт,
-// пока будут обработаны все принятые задачи.
-// Тренирует: закрытие канала и ожидание воркера.
-// Сложность: medium
+// Server accepts tasks through a channel; Shutdown closes the input and
+// waits until every accepted task has been processed.
+// Practices closing a channel and waiting for the worker.
 package main_test
 
 import (

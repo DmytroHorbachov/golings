@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия с границами. Проверьте, что дерево — корректное двоичное
-// дерево поиска: слева строго меньше, справа строго больше.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: recursion with bounds. Check that the tree is a valid binary
+// search tree: strictly smaller on the left, strictly greater on the right.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import (

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: поиск в глубину с мемоизацией. Найдите длину самого длинного пути
-// по соседним клеткам, где значения строго возрастают.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c) по времени, O(r·c) по памяти
+// Pattern: depth-first search with memoization. Find the length of the
+// longest path over adjacent cells where the values strictly increase.
+// Expected asymptotics: O(r·c) time, O(r·c) space.
 package main_test
 
 import "testing"

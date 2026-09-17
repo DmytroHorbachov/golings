@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// checkAll проверяет адреса параллельно и сохраняет ошибку в общую переменную
-// без синхронизации.
-// Тренирует: запись в общую переменную из горутин требует защиты.
-// Сложность: hard
+// checkAll checks hosts in parallel and saves the error into a shared
+// variable without synchronization.
+// Practices that writing to a shared variable from goroutines needs
+// protection.
 package main_test
 
 import (

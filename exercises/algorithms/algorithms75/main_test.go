@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: монотонный стек. Для каждого дня найдите, через сколько дней
-// станет теплее; если такого дня нет — 0.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: monotonic stack. For each day, find how many days until it gets
+// warmer; if there is no such day — 0.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

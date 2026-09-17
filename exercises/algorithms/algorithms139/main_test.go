@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: гистограммы по строкам и монотонный стек. В бинарной матрице найдите
-// площадь наибольшего прямоугольника, состоящего только из '1'.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c) по времени, O(c) по памяти
+// Pattern: row histograms and a monotonic stack. In a binary matrix, find
+// the area of the largest rectangle consisting only of '1'.
+// Expected asymptotics: O(r·c) time, O(c) space.
 package main_test
 
 import "testing"

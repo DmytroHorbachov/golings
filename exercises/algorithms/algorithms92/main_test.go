@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход с маркерами пустых узлов. Превратите дерево в строку и обратно
-// так, чтобы восстановленное дерево совпадало с исходным.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: traversal with markers for empty nodes. Turn a tree into a string
+// and back so that the restored tree equals the original.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

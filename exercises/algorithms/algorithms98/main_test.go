@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: две кучи. Реализуйте структуру, принимающую числа по одному
-// и возвращающую текущую медиану.
-// Сложность: hard. Ожидаемая асимптотика: O(log n) на добавление, O(1) на медиану
+// Pattern: two heaps. Implement a structure that accepts numbers one at
+// a time and returns the current median.
+// Expected asymptotics: O(log n) per addition, O(1) per median query.
 package main_test
 
 import (

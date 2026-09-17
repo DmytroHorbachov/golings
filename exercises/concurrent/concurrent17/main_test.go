@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// init вызывает Get, который снова входит в тот же once.Do — это взаимоблокировка.
-// Тренирует: вызов Do изнутри f того же Once блокируется навсегда.
-// Сложность: hard
+// init calls Get, which enters the same once.Do again, which is a deadlock.
+// Calling Do from inside the f of the same Once blocks forever.
 package main_test
 
 import (

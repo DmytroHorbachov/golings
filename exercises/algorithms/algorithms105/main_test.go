@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичная куча в массиве. Отсортируйте срез на месте, не используя
-// пакеты sort и container/heap.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log n) по времени, O(1) по памяти
+// Pattern: a binary heap in an array. Sort a slice in place, without
+// using the sort and container/heap packages.
+// Expected asymptotics: O(n·log n) time, O(1) space.
 package main_test
 
 import (

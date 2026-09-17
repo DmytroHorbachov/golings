@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Проверьте, можно ли получить s из t, удалив
-// некоторые символы и не меняя порядок остальных.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. Check whether s can be obtained from t by
+// removing some characters without changing the order of the rest.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

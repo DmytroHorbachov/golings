@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fetch возвращает через канал структуру с данными и ошибкой.
-// Тренирует: каналы структур.
-// Сложность: easy
+// fetch returns a struct holding the data and an error through a channel.
+// Practices channels of structs.
 package main_test
 
 import "testing"

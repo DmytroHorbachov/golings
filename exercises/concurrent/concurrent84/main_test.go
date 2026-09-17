@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// waitTimer ждёт срабатывания таймера через его канал.
-// Тренирует: time.NewTimer и поле C.
-// Сложность: easy
+// waitTimer waits for the timer to fire through its channel.
+// Practices time.NewTimer and its C field.
 package main_test
 
 import (

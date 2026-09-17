@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Проверьте, что строка — палиндром, если учитывать
-// только ASCII-буквы и цифры и не учитывать регистр.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. Check that a string is a palindrome, considering
+// only ASCII letters and digits and ignoring case.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

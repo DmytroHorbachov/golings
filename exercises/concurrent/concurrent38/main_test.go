@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sumUntilClosed читает из канала в цикле с select и складывает значения.
-// После закрытия канала чтение сразу возвращает ноль, и цикл не заканчивается.
-// Тренирует: признак ok при чтении в select.
-// Сложность: hard
+// sumUntilClosed reads from a channel in a select loop and adds the values up.
+// Once the channel is closed a receive returns zero at once, and the loop never ends.
+// Practices the ok flag when receiving in a select.
 package main_test
 
 import (

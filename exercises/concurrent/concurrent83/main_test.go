@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// update снимает блокировку в двух местах при раннем выходе, и программа
-// аварийно завершается: «unlock of unlocked mutex».
-// Тренирует: одна пара Lock/Unlock на путь выполнения.
-// Сложность: hard
+// update releases the lock in two places on early exit, and the program
+// crashes with "unlock of unlocked mutex".
+// Practices one Lock/Unlock pair per execution path.
 package main_test
 
 import (

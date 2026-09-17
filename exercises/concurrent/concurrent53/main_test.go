@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// requestID достаёт идентификатор запроса из контекста.
-// Тренирует: context.WithValue и ctx.Value.
-// Сложность: easy
+// requestID pulls the request identifier out of the context.
+// Practices context.WithValue and ctx.Value.
 package main_test
 
 import (

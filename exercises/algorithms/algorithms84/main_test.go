@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: скользящее окно с упорядоченной структурой. Для каждого окна
-// размера k верните медиану (для чётного k — среднее двух центральных).
-// Сложность: hard. Ожидаемая асимптотика: O(n·k) по времени (или O(n log k) с кучами), O(k) по памяти
+// Pattern: a sliding window with an ordered structure. For each window
+// of size k return the median (for even k — the mean of the two middle values).
+// Expected asymptotics: O(n·k) time (or O(n log k) with heaps), O(k) space.
 package main_test
 
 import (

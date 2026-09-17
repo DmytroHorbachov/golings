@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// store отправляет значение в канал и тут же его читает в той же горутине.
-// Без буфера отправка блокируется навсегда.
-// Тренирует: буферизованные каналы.
-// Сложность: easy
+// store sends a value into a channel and reads it back in the same goroutine.
+// With no buffer the send blocks forever.
+// Practices buffered channels.
 package main_test
 
 import (

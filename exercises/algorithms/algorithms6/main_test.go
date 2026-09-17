@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП по числу попыток. Есть k яиц и здание из n этажей. Найдите
-// минимальное число бросков, гарантированно определяющее критический этаж.
-// Сложность: hard. Ожидаемая асимптотика: O(k·n) по времени, O(k) по памяти
+// Pattern: DP over the number of attempts. There are k eggs and a building
+// with n floors. Find the minimum number of drops that guarantees
+// identifying the critical floor.
+// Expected asymptotics: O(k·n) time, O(k) space.
 package main_test
 
 import "testing"

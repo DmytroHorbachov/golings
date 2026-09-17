@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: битовые операции. Проверьте, является ли целое число степенью
-// двойки. Ноль и отрицательные числа степенями двойки не считаются.
-// Сложность: easy. Ожидаемая асимптотика: O(1) по времени, O(1) по памяти
+// Pattern: bit manipulation. Check whether an integer is a power of two.
+// Zero and negative numbers do not count as powers of two.
+// Expected asymptotics: O(1) time, O(1) space.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pending возвращает количество непрочитанных сообщений в буферизованном канале.
-// Тренирует: len для каналов.
-// Сложность: easy
+// pending returns the number of unread messages in a buffered channel.
+// Practices len on channels.
 package main_test
 
 import "testing"

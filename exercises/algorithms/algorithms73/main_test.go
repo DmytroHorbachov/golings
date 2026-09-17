@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка слиянием с подсчётом. Посчитайте пары индексов i < j,
-// для которых nums[i] > nums[j]. Исходный срез менять нельзя.
-// Сложность: hard. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: merge sort with counting. Count pairs of indices i < j for which
+// nums[i] > nums[j]. The input slice must not be modified.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import "testing"

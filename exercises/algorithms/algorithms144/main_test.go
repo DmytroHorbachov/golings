@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. В отсортированном срезе оставьте на месте только
-// уникальные значения в начале и верните их количество.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. In a sorted slice, keep only unique values in
+// place at the beginning and return their count.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

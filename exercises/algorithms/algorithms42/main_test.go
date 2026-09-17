@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: система счисления по основанию 26. Переведите заголовок столбца
-// ("A", "B", ..., "Z", "AA", ...) в его номер.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: base-26 numeral system. Convert a column title
+// ("A", "B", ..., "Z", "AA", ...) to its number.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

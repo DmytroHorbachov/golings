@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Высоты стенок заданы в срезе. Найдите максимальную
-// площадь воды между двумя стенками (ширина × меньшая высота).
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. Wall heights are given in a slice. Find the maximum
+// area of water between two walls (width × the smaller height).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

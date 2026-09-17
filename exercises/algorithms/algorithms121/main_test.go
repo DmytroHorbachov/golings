@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом и проверкой ограничений. Заполните поле 9×9
-// (пустые клетки — '.') цифрами 1–9 так, чтобы в каждой строке, столбце
-// и квадрате 3×3 цифры не повторялись. Решение существует и единственно.
-// Сложность: hard. Ожидаемая асимптотика: O(9^k) по времени, O(1) по памяти
+// Pattern: backtracking with constraint checking. Fill a 9×9 board (empty
+// cells are '.') with digits 1–9 so that no digit repeats in any row,
+// column, or 3×3 square. A solution exists and is unique.
+// Expected asymptotics: O(9^k) time, O(1) space.
 package main_test
 
 import "testing"

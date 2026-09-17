@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия по дереву. Верните количество узлов на самом длинном пути
-// от корня до листа. У пустого дерева глубина 0.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: tree recursion. Return the number of nodes on the longest path
+// from the root to a leaf. An empty tree has depth 0.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

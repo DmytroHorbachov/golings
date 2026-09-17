@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: битовые операции. Каждое число встречается дважды, кроме одного.
-// Найдите его, не используя дополнительную память.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: bit manipulation. Every number appears twice except one.
+// Find it without using extra memory.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

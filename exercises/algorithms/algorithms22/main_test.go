@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по ответу. Верните целую часть квадратного корня
-// из неотрицательного x без math.Sqrt.
-// Сложность: easy. Ожидаемая асимптотика: O(log x) по времени, O(1) по памяти
+// Pattern: binary search on the answer. Return the integer part of the
+// square root of a non-negative x without math.Sqrt.
+// Expected asymptotics: O(log x) time, O(1) space.
 package main_test
 
 import "testing"

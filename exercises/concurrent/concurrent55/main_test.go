@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция чтения ожидает <-chan, а ей передают канал только для отправки.
-// Код не компилируется.
-// Тренирует: chan<- нельзя превратить в <-chan.
-// Сложность: hard
+// The reading function expects a <-chan but is given a send-only channel.
+// The code does not compile.
+// Practices that chan<- cannot be turned into <-chan.
 package main_test
 
 import "testing"

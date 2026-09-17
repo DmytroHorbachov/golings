@@ -3,11 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в ширину по неявному графу. Найдите длину кратчайшей цепочки
-// превращений beginWord → endWord, где на каждом шаге меняется одна буква,
-// и каждое промежуточное слово есть в словаре. Если цепочки нет — 0.
-// Длина считается в словах, включая начальное и конечное.
-// Сложность: hard. Ожидаемая асимптотика: O(N·L²) по времени, O(N·L) по памяти
+// Pattern: BFS over an implicit graph. Find the length of the shortest
+// transformation chain beginWord → endWord, where each step changes one
+// letter and every intermediate word is in the dictionary. If there is no
+// chain — 0. The length is counted in words, including the first and last.
+// Expected asymptotics: O(N·L²) time, O(N·L) space.
 package main_test
 
 import "testing"

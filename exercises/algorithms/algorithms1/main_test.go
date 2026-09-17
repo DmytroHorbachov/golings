@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом. Из различных положительных чисел составьте все
-// комбинации с суммой target; каждое число можно брать сколько угодно раз.
-// Комбинации не должны повторяться (числа внутри — по неубыванию).
-// Сложность: medium. Ожидаемая асимптотика: O(n^(t/min)) по времени, O(t/min) по памяти
+// Pattern: backtracking. From distinct positive numbers, build all
+// combinations that sum to target; each number may be used any number
+// of times. Combinations must not repeat (numbers within each — in
+// non-decreasing order).
+// Expected asymptotics: O(n^(t/min)) time, O(t/min) space.
 package main_test
 
 import (

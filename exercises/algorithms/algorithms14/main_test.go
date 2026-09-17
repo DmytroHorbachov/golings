@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: префиксы и суффиксы. Для каждой позиции i верните произведение всех
-// элементов, кроме nums[i], не используя деление.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) доп. памяти (кроме ответа)
+// Pattern: prefixes and suffixes. For each position i, return the product of
+// all elements except nums[i], without using division.
+// Expected asymptotics: O(n) time, O(1) extra space (excluding the answer).
 package main_test
 
 import (

@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП с конца. Рыцарь идёт из левого верхнего в правый нижний
-// угол (вправо и вниз); в клетках он теряет или получает здоровье. Найдите
-// минимальное стартовое здоровье, при котором оно всегда остаётся положительным.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c) по времени, O(c) по памяти
+// Pattern: 2D DP from the end. A knight walks from the top-left to the
+// bottom-right corner (moving right and down); in each cell he loses or
+// gains health. Find the minimum starting health such that it always
+// stays positive.
+// Expected asymptotics: O(r·c) time, O(c) space.
 package main_test
 
 import "testing"

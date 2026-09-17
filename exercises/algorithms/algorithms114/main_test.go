@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: быстрый и медленный указатели. Верните средний узел списка;
-// при чётной длине — второй из двух средних.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: fast and slow pointers. Return the middle node of a list;
+// for even lengths — the second of the two middle nodes.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// loop обрабатывает события, пока не придёт сигнал quit, и возвращает
-// количество обработанных событий.
-// Тренирует: for-select с return.
-// Сложность: medium
+// loop handles events until the quit signal arrives, and returns
+// how many events it handled.
+// Practices for-select with a return.
 package main_test
 
 import (

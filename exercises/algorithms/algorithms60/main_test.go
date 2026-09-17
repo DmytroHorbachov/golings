@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП. Каждая ступень стоит cost[i]; начинать можно
-// с нулевой или первой ступени, шагать на 1 или 2. Верните минимальную
-// стоимость подъёма на вершину (за последней ступенью).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: 1D DP. Each step costs cost[i]; you may start at step zero or
+// one and step up by 1 or 2. Return the minimum cost of reaching the top
+// (beyond the last step).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

@@ -3,11 +3,11 @@
 
 // I AM NOT DONE
 //
-// Snapshot читает под RLock и внутри вызывает метод, который снова берёт RLock.
-// Если в это время писатель ждёт Lock, повторный RLock блокируется —
-// взаимоблокировка.
-// Тренирует: RWMutex не допускает рекурсивных блокировок чтения.
-// Сложность: hard
+// Snapshot reads under RLock and inside calls a method that takes
+// RLock again.
+// If a writer is waiting on Lock at that moment, the second RLock
+// blocks — deadlock.
+// Practices that RWMutex does not allow recursive read locks.
 package main_test
 
 import (

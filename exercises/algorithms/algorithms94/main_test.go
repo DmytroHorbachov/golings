@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек индексов. Найдите длину самой длинной подстроки из '(' и ')',
-// являющейся правильной скобочной последовательностью.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: a stack of indices. Find the length of the longest substring
+// of '(' and ')' that is a valid parentheses sequence.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Один sync.Once используется и для загрузки конфигурации, и для открытия базы.
-// Вторая функция никогда не выполняется.
-// Тренирует: Once выполняет только первую переданную функцию.
-// Сложность: hard
+// A single sync.Once is used both for loading the config and for opening
+// the database.
+// The second function never runs.
+// Practices that Once runs only the first function given to it.
 package main_test
 
 import (

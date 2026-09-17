@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: быстрое возведение в степень. Вычислите x в степени n
-// (n может быть отрицательным) без math.Pow.
-// Сложность: medium. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: fast exponentiation. Compute x to the power of n
+// (n may be negative) without math.Pow.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import (

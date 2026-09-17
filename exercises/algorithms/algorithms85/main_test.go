@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в глубину или ширину. Определите, есть ли путь между
-// вершинами start и end в неориентированном графе.
-// Сложность: easy. Ожидаемая асимптотика: O(V + E) по времени, O(V + E) по памяти
+// Pattern: depth-first or breadth-first traversal. Determine whether
+// a path exists between vertices start and end in an undirected graph.
+// Expected asymptotics: O(V + E) time, O(V + E) space.
 package main_test
 
 import "testing"

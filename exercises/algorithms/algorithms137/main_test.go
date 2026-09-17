@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: голосование Бойера–Мура. Гарантируется, что в непустом срезе есть
-// элемент, встречающийся больше n/2 раз. Найдите его без дополнительной памяти.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: Boyer–Moore voting. It is guaranteed that a non-empty slice
+// contains an element occurring more than n/2 times. Find it without extra
+// memory.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

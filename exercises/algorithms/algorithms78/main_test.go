@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия с побочным результатом. Путь — последовательность узлов,
-// соединённых рёбрами, идущая в любом направлении, но без повторов. Найдите
-// максимальную сумму значений такого пути (дерево непустое, значения любые).
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: recursion with a side result. A path is a sequence of nodes
+// connected by edges, going in any direction but without repeats. Find the
+// maximum sum of values along such a path (the tree is non-empty, the
+// values are arbitrary).
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

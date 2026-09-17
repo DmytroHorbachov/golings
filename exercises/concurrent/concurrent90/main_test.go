@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// consumer получает канал только для чтения и пытается его закрыть.
-// Код не компилируется.
-// Тренирует: закрывать можно только канал, в который разрешена отправка.
-// Сложность: hard
+// consumer receives a read-only channel and tries to close it.
+// The code does not compile.
+// Practices that only a channel you may send to can be closed.
 package main_test
 
 import "testing"

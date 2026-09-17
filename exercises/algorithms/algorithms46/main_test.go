@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: модифицированный двоичный поиск. Отсортированный срез различных чисел
-// циклически сдвинут. Верните индекс target или -1.
-// Сложность: medium. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: modified binary search. A sorted slice of distinct numbers has
+// been rotated. Return the index of target, or -1.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import "testing"

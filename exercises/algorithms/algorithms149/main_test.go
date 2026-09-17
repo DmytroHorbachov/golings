@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в глубину по сетке. Перекрасьте область одинакового цвета,
-// связанную с клеткой (sr, sc), в цвет newColor.
-// Сложность: easy. Ожидаемая асимптотика: O(r·c) по времени, O(r·c) по памяти
+// Pattern: DFS over a grid. Recolor the region of the same color connected
+// to the cell (sr, sc) with newColor.
+// Expected asymptotics: O(r·c) time, O(r·c) space.
 package main_test
 
 import (

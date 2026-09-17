@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// retry повторяет операцию, пока она не удастся или не будет отменён контекст.
-// Тренирует: select между ожиданием и ctx.Done().
-// Сложность: medium
+// retry repeats the operation until it succeeds or the context is cancelled.
+// Practices a select between waiting and ctx.Done().
 package main_test
 
 import (

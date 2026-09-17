@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП. Найдите минимальное число операций (вставка,
-// удаление, замена символа), превращающих одну строку в другую.
-// Сложность: hard. Ожидаемая асимптотика: O(n·m) по времени, O(min(n, m)) по памяти
+// Pattern: two-dimensional DP. Find the minimum number of operations
+// (insertion, deletion, character replacement) that turn one string
+// into another.
+// Expected asymptotics: O(n·m) time, O(min(n, m)) space.
 package main_test
 
 import "testing"

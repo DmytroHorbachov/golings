@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек. Вычислите выражение из целых чисел, '+', '-', скобок и пробелов.
-// Унарный минус допускается перед числом или скобкой.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: a stack. Evaluate an expression consisting of integers, '+', '-',
+// parentheses, and spaces. A unary minus is allowed before a number or
+// a parenthesis.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

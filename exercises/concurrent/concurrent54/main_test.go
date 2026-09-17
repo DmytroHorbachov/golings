@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Две горутины по очереди передают мяч через каналы, увеличивая счётчик.
-// Тренирует: чередование через небуферизованные каналы.
-// Сложность: medium
+// Two goroutines take turns passing a ball through channels,
+// incrementing a counter.
+// Practices alternating through unbuffered channels.
 package main_test
 
 import (

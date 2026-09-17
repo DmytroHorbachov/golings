@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Snapshot копирует структуру вместе с захваченным мьютексом; попытка
-// захватить копию зависает навсегда.
-// Тренирует: структуры с мьютексом нельзя копировать.
-// Сложность: hard
+// Snapshot copies the struct along with its locked mutex; trying to
+// lock the copy hangs forever.
+// Practices that structs with a mutex must not be copied.
 package main_test
 
 import (

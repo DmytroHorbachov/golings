@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// waitReady запускает сервисы и ждёт, пока каждый сообщит о готовности.
-// Тренирует: сбор сигналов от N горутин.
-// Сложность: medium
+// waitReady starts the services and waits until each of them reports it is ready.
+// Practices collecting signals from N goroutines.
 package main_test
 
 import (

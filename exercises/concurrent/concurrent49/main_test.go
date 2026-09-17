@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// process раздаёт задачи n воркерам и собирает результаты (квадраты чисел).
-// Тренирует: каналы jobs/results и закрытие results после завершения воркеров.
-// Сложность: medium
+// process hands the jobs to n workers and collects the results, the squares of the numbers.
+// Practices jobs/results channels and closing results once the workers are done.
 package main_test
 
 import (

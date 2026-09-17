@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск нижней границы. Верните индекс target в отсортированном
-// срезе или позицию, куда его нужно вставить.
-// Сложность: easy. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: binary search for the lower bound. Return the index of target
+// in a sorted slice, or the position where it should be inserted.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import "testing"

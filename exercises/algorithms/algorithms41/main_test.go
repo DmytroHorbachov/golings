@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП с двоичным поиском. Найдите длину наибольшей строго возрастающей
-// подпоследовательности.
-// Сложность: hard. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: DP with binary search. Find the length of the longest strictly
+// increasing subsequence.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

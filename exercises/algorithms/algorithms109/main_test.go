@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП. Найдите минимальную сумму чисел на пути из левого
-// верхнего в правый нижний угол сетки, двигаясь вправо и вниз.
-// Сложность: medium. Ожидаемая асимптотика: O(r·c) по времени, O(c) по памяти
+// Pattern: 2D dynamic programming. Find the minimum sum of numbers on a
+// path from the top-left to the bottom-right corner of a grid, moving
+// right and down.
+// Expected asymptotics: O(r·c) time, O(c) space.
 package main_test
 
 import "testing"

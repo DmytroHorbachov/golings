@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: работа с цифрами числа. Проверьте, читается ли целое число
-// одинаково слева направо и справа налево, не преобразуя его в строку.
-// Сложность: easy. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: working with the digits of a number. Check whether an integer
+// reads the same left to right and right to left, without converting it
+// to a string.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import "testing"

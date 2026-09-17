@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом и множествами занятых линий. Посчитайте,
-// сколькими способами можно расставить n ферзей на доске n×n так,
-// чтобы они не били друг друга.
-// Сложность: hard. Ожидаемая асимптотика: O(n!) по времени, O(n) по памяти
+// Pattern: backtracking with sets of occupied lines. Count in how many ways
+// n queens can be placed on an n×n board so that none of them attack each
+// other.
+// Expected asymptotics: O(n!) time, O(n) space.
 package main_test
 
 import "testing"

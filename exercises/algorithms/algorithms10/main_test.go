@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: монотонный стек. Для каждого элемента верните первый элемент
-// правее него, который больше; если такого нет — -1.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: a monotonic stack. For each element, return the first element
+// to its right that is greater; if there is none — -1.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

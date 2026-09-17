@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isReady проверяет атомарный флаг готовности.
-// Тренирует: atomic.LoadInt32 и StoreInt32.
-// Сложность: easy
+// isReady checks an atomic readiness flag.
+// Practices atomic.LoadInt32 and StoreInt32.
 package main_test
 
 import (

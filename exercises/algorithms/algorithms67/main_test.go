@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП. Шаблон содержит '.' (любой символ) и '*' (ноль или
-// более повторений предыдущего символа). Шаблон должен покрывать всю строку.
-// Сложность: hard. Ожидаемая асимптотика: O(n·m) по времени, O(n·m) по памяти
+// Pattern: 2D dynamic programming. The pattern contains '.' (any character)
+// and '*' (zero or more repetitions of the previous character). The pattern
+// must cover the entire string.
+// Expected asymptotics: O(n·m) time, O(n·m) space.
 package main_test
 
 import "testing"

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП. Посчитайте, сколькими способами можно получить
-// строку t как подпоследовательность строки s.
-// Сложность: hard. Ожидаемая асимптотика: O(n·m) по времени, O(m) по памяти
+// Pattern: 2D DP. Count in how many ways string t can be obtained as a
+// subsequence of string s.
+// Expected asymptotics: O(n·m) time, O(m) space.
 package main_test
 
 import "testing"

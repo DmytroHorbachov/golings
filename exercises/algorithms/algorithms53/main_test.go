@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: k указателей и мин-куча. Из каждого отсортированного списка нужно
-// взять хотя бы одно число. Найдите наименьший по длине отрезок [a, b],
-// содержащий такие числа; при равной длине — с меньшим началом.
-// Сложность: hard. Ожидаемая асимптотика: O(N·log k) по времени, O(k) по памяти
+// Pattern: k pointers and a min-heap. At least one number must be taken from
+// each sorted list. Find the shortest interval [a, b] containing such
+// numbers; if tied in length, the one with the smaller start.
+// Expected asymptotics: O(N·log k) time, O(k) space.
 package main_test
 
 import (

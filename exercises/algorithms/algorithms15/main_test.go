@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка и наибольшая возрастающая подпоследовательность.
-// Конверт [w, h] вкладывается в другой, если строго меньше по обеим сторонам.
-// Верните максимальное число вложенных друг в друга конвертов.
-// Сложность: hard. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: sorting and the longest increasing subsequence.
+// An envelope [w, h] fits into another if it is strictly smaller on
+// both sides. Return the maximum number of nested envelopes.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

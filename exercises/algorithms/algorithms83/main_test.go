@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: префиксное дерево. Реализуйте Insert, Search (точное слово)
-// и StartsWith (есть ли слово с таким префиксом). Слова из строчных латинских букв.
-// Сложность: medium. Ожидаемая асимптотика: O(len) на операцию, O(общая длина) по памяти
+// Pattern: a trie. Implement Insert, Search (exact word),
+// and StartsWith (whether any word has this prefix).
+// Words consist of lowercase Latin letters.
+// Expected asymptotics: O(len) per operation, O(total length) space.
 package main_test
 
 import "testing"

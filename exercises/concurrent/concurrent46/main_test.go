@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// wg.Add вызывается внутри запущенной горутины, и Wait возвращается раньше,
-// чем работа начата.
-// Тренирует: Add нужно вызывать до старта горутины.
-// Сложность: hard
+// wg.Add is called inside the goroutine that was started, and Wait returns before
+// the work has even begun.
+// Add has to be called before the goroutine starts.
 package main_test
 
 import (

@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: жадность с накоплением. На круговом маршруте заправка i даёт gas[i]
-// топлива, а переезд к следующей стоит cost[i]. Верните индекс старта, с которого
-// можно объехать круг, или -1.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: greedy with accumulation. On a circular route, station i gives
+// gas[i] fuel, and driving to the next station costs cost[i]. Return the
+// starting index from which the full circle can be completed, or -1.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

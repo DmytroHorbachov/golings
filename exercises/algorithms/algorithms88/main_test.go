@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: связные списки. Разверните односвязный список: последний узел
-// должен стать головой. Верните новую голову списка.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: linked lists. Reverse a singly linked list: the last node
+// must become the head. Return the new head of the list.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

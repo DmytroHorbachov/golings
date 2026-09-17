@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: расширение от центра. Найдите самую длинную подстроку-палиндром
-// (в байтах); при нескольких одинаковой длины — самую левую.
-// Сложность: medium. Ожидаемая асимптотика: O(n²) по времени, O(1) по памяти
+// Pattern: expansion from the center. Find the longest palindromic substring
+// (in bytes); if several have the same length — the leftmost one.
+// Expected asymptotics: O(n²) time, O(1) space.
 package main_test
 
 import "testing"

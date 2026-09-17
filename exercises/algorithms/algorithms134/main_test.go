@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: интервальное ДП. Лопая шарик i, вы получаете nums[i-1]*nums[i]*nums[i+1]
-// (за границами считается 1). Найдите максимальные очки за все шарики.
-// Сложность: hard. Ожидаемая асимптотика: O(n³) по времени, O(n²) по памяти
+// Pattern: interval DP. Popping balloon i earns you nums[i-1]*nums[i]*nums[i+1]
+// (values outside the bounds count as 1). Find the maximum score over all
+// balloons.
+// Expected asymptotics: O(n³) time, O(n²) space.
 package main_test
 
 import "testing"

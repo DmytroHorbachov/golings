@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// listen должна завершиться через total после начала, даже если сообщения
-// продолжают приходить. time.After в каждой итерации перезапускает таймер.
-// Тренирует: общий таймаут создаётся один раз.
-// Сложность: hard
+// listen has to finish total after it started, even while messages
+// keep arriving. A time.After in every iteration restarts the timer.
+// A shared timeout is created once.
 package main_test
 
 import (

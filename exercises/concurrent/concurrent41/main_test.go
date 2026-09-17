@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Group выполняет функцию один раз для одновременных запросов с одним ключом
-// (как singleflight); остальные ждут и получают тот же результат.
-// Тренирует: map ожиданий под мьютексом и WaitGroup на запрос.
-// Сложность: medium
+// Group runs a function once for concurrent requests sharing a key,
+// the way singleflight does; the rest wait and get the same result.
+// Practices a map of waiters under a mutex plus a WaitGroup per request.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Take ждёт элемент через sync.Cond, но после пробуждения не перепроверяет
-// условие. При Broadcast несколько потребителей просыпаются для одного элемента.
-// Тренирует: Wait всегда вызывается в цикле.
-// Сложность: hard
+// Take waits for an element using sync.Cond, but after waking it does not
+// recheck the condition. On Broadcast, several consumers wake for one item.
+// Practices calling Wait in a loop.
 package main_test
 
 import (

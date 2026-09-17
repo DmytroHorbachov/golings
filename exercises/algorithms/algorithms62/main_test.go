@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия по дереву. Поменяйте местами левое и правое поддеревья
-// на всех уровнях и верните корень.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: tree recursion. Swap the left and right subtrees at every level
+// and return the root.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import (

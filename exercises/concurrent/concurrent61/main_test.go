@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// dedupe читает поток и пропускает дальше только первые вхождения значений.
-// Тренирует: горутина-этап со своим состоянием.
-// Сложность: medium
+// dedupe reads a stream and passes on only the first occurrence of
+// each value.
+// Practices a stage goroutine with its own state.
 package main_test
 
 import (

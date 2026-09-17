@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: система непересекающихся множеств (union-find). Посчитайте
-// количество компонент связности в неориентированном графе на n вершинах.
-// Сложность: medium. Ожидаемая асимптотика: O(E·α(V)) по времени, O(V) по памяти
+// Pattern: disjoint set union (union-find). Count the number of connected
+// components in an undirected graph with n vertices.
+// Expected asymptotics: O(E·α(V)) time, O(V) space.
 package main_test
 
 import "testing"

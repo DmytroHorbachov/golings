@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка интервалов. Определите, можно ли посетить все встречи
-// [начало, конец), то есть нет ли пересечений.
-// Сложность: easy. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: sorting intervals. Determine whether all meetings [start, end)
+// can be attended, i.e. whether there are no overlaps.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

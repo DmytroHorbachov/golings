@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Два компонента кладут значения в контекст по строковому ключу "id".
-// Второе значение перекрывает первое, и первый компонент читает чужие данные.
-// Тренирует: ключи контекста должны иметь собственный неэкспортируемый тип.
-// Сложность: hard
+// Two components put values in the context under the string key "id".
+// The second value buries the first, and the first component reads somebody else's data.
+// Context keys need an unexported type of their own.
 package main_test
 
 import (

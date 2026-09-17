@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: поиск в глубину с возвратом. Проверьте, можно ли собрать слово,
-// двигаясь по соседним клеткам без повторного использования клетки.
-// Сложность: medium. Ожидаемая асимптотика: O(r·c·4^L) по времени, O(L) по памяти
+// Pattern: depth-first search with backtracking. Check whether the word can
+// be assembled by moving to adjacent cells without reusing a cell.
+// Expected asymptotics: O(r·c·4^L) time, O(L) space.
 package main_test
 
 import "testing"

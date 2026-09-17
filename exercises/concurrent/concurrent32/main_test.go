@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Client создаёт соединение лениво при первом использовании из любой горутины;
-// соединение должно создаваться ровно один раз.
-// Тренирует: sync.Once в методе.
-// Сложность: medium
+// Client opens a connection lazily on first use from any goroutine;
+// the connection has to be opened exactly once.
+// Practices sync.Once in a method.
 package main_test
 
 import (

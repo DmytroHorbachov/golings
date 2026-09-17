@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сложение в столбик. Сложите два двоичных числа, заданных строками,
-// и верните результат строкой без ведущих нулей (кроме самого "0").
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: column addition. Add two binary numbers given as strings and
+// return the result as a string without leading zeros (except "0" itself).
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// waitResult ждёт результат не дольше 50 мс. Таймаут указан слишком большим.
-// Тренирует: time.After в select.
-// Сложность: easy
+// waitResult waits for a result for at most 50 ms. The timeout is set much
+// too large.
+// Practices time.After in a select.
 package main_test
 
 import (

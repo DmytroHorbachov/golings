@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя с отставанием. Удалите n-й с конца узел за один проход
-// (1 <= n <= длина списка) и верните голову.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers with a lag. Remove the n-th node from the end in
+// one pass (1 <= n <= length of the list) and return the head.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

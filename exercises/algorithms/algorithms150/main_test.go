@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: монотонная очередь (дек). Для каждого окна размера k верните
-// его максимум. Решение должно работать за линейное время.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(k) по памяти
+// Pattern: a monotonic queue (deque). For each window of size k, return
+// its maximum. The solution must run in linear time.
+// Expected asymptotics: O(n) time, O(k) space.
 package main_test
 
 import (

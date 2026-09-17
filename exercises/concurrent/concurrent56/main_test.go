@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// seen отмечает идентификаторы в sync.Map и сообщает, встречался ли он раньше.
-// Тренирует: LoadOrStore.
-// Сложность: easy
+// seen marks identifiers in a sync.Map and reports whether one has
+// been seen before.
+// Practices LoadOrStore.
 package main_test
 
 import (

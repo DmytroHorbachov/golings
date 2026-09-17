@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: топологическая сортировка по парам соседних слов. По списку слов,
-// отсортированному в неизвестном алфавите, восстановите порядок букв.
-// При неоднозначности берите меньшую по коду букву; при противоречии — "".
-// Сложность: hard. Ожидаемая асимптотика: O(C) по времени, O(1) по памяти
+// Pattern: topological sort over adjacent word pairs. Given a list of words
+// sorted in an unknown alphabet, restore the order of the letters.
+// If ambiguous, take the letter with the smaller code; on a contradiction — "".
+// Expected asymptotics: O(C) time, O(1) space.
 package main_test
 
 import (

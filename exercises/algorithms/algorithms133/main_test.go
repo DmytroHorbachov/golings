@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП. Сколькими способами можно подняться на n ступеней,
-// делая шаги по 1 или 2 ступени? Для n = 0 ответ 1.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: 1D DP. In how many ways can you climb n stairs taking steps of
+// 1 or 2 stairs? For n = 0 the answer is 1.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

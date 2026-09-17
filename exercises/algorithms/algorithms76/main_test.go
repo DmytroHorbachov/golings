@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: битовые трюки. Посчитайте единичные биты в беззнаковом числе
-// без math/bits.
-// Сложность: easy. Ожидаемая асимптотика: O(k) по времени (k — число единиц), O(1) по памяти
+// Pattern: bit tricks. Count the set bits in an unsigned number without
+// using math/bits.
+// Expected asymptotics: O(k) time (k is the number of set bits), O(1) space.
 package main_test
 
 import "testing"

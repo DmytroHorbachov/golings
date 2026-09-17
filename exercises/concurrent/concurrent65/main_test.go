@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Конвейер: gen выдаёт числа, square возводит в квадрат, sum складывает.
-// Тренирует: этапы конвейера, каждый закрывает свой выходной канал.
-// Сложность: medium
+// Pipeline: gen emits numbers, square squares them, sum adds them up.
+// Practices pipeline stages, each closing its own output channel.
 package main_test
 
 import (

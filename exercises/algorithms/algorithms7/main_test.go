@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП по битам. Верните срез, где элемент i — количество единичных
-// битов числа i (для i от 0 до n).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: DP over bits. Return a slice where element i is the number of
+// set bits of the number i (for i from 0 to n).
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import (

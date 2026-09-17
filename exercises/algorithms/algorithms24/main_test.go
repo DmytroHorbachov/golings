@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: подсчёт наклонов через нормированные дроби. Найдите максимальное
-// число точек, лежащих на одной прямой.
-// Сложность: hard. Ожидаемая асимптотика: O(n²) по времени, O(n) по памяти
+// Pattern: counting slopes via normalized fractions. Find the maximum
+// number of points lying on a single straight line.
+// Expected asymptotics: O(n²) time, O(n) space.
 package main_test
 
 import "testing"

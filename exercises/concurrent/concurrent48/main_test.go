@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// index заполняет map из нескольких горутин; программа падает с
-// «concurrent map writes» или гонкой.
-// Тренирует: map не безопасна для конкурентной записи.
-// Сложность: hard
+// index fills a map from several goroutines; the program dies with
+// "concurrent map writes" or a race.
+// A map is not safe for concurrent writes.
 package main_test
 
 import (

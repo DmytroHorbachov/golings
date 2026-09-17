@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: скользящее окно фиксированного размера. Верните наибольшую сумму
-// k подряд идущих элементов; если элементов меньше k — 0.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: a sliding window of fixed size. Return the largest sum of
+// k consecutive elements; if there are fewer than k — 0.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

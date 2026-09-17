@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reserve атомарно уменьшает количество мест, если оно больше нуля.
-// Тренирует: atomic.CompareAndSwapInt32 в цикле.
-// Сложность: medium
+// reserve atomically lowers the number of seats while it is above zero.
+// Practices atomic.CompareAndSwapInt32 in a loop.
 package main_test
 
 import (

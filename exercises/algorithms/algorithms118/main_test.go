@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по разбиению. Найдите медиану объединения двух
-// отсортированных срезов (хотя бы один непустой).
-// Сложность: hard. Ожидаемая асимптотика: O(log min(m, n)) по времени, O(1) по памяти
+// Pattern: binary search over the partition. Find the median of the union
+// of two sorted slices (at least one is non-empty).
+// Expected asymptotics: O(log min(m, n)) time, O(1) space.
 package main_test
 
 import (

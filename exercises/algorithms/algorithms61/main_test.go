@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: эйлеров путь (алгоритм Хирхольцера). По списку билетов [from, to]
-// постройте маршрут, начинающийся в "JFK" и использующий все билеты.
-// При выборе берите лексикографически меньший аэропорт.
-// Сложность: hard. Ожидаемая асимптотика: O(E·log E) по времени, O(E) по памяти
+// Pattern: Eulerian path (Hierholzer's algorithm). Given a list of [from, to]
+// tickets, build an itinerary starting at "JFK" that uses all the tickets.
+// When choosing, take the lexicographically smaller airport.
+// Expected asymptotics: O(E·log E) time, O(E) space.
 package main_test
 
 import (

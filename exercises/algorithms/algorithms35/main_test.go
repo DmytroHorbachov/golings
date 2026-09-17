@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по предикату. Версии 1..n; начиная с некоторой,
-// все версии плохие. Найдите первую плохую, вызывая isBad как можно реже.
-// Если плохих нет — верните n+1.
-// Сложность: easy. Ожидаемая асимптотика: O(log n) вызовов, O(1) по памяти
+// Pattern: binary search on a predicate. Versions 1..n; starting from
+// some version, all versions are bad. Find the first bad one, calling
+// isBad as rarely as possible. If there are no bad ones — return n+1.
+// Expected asymptotics: O(log n) calls, O(1) space.
 package main_test
 
 import "testing"

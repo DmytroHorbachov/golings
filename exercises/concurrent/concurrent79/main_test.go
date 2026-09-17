@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// freeSlots возвращает, сколько ещё сообщений поместится в буфер.
-// Тренирует: cap и len для каналов.
-// Сложность: easy
+// freeSlots returns how many more messages fit in the buffer.
+// Practices cap and len for channels.
 package main_test
 
 import "testing"

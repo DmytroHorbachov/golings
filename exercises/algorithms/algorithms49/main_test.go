@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия с ранним выходом. Дерево сбалансировано, если у каждого узла
-// глубины поддеревьев отличаются не больше чем на 1.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: recursion with early exit. A tree is balanced if the depths of
+// every node's subtrees differ by no more than 1.
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

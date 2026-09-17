@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: жадность и подсчёт. Задачи обозначены буквами; одинаковые задачи
-// должны выполняться с интервалом не меньше n тактов. Верните минимальное
-// количество тактов (включая простои).
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: greedy counting. Tasks are denoted by letters; identical tasks
+// must be executed with a gap of at least n ticks. Return the minimum
+// number of ticks (including idle time).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

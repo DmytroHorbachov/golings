@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// compute запускает вычисление в горутине, но не читает результат из канала.
-// Тренирует: получение значения из канала.
-// Сложность: easy
+// compute starts a computation in a goroutine but never reads the result
+// from the channel.
+// Practices receiving a value from a channel.
 package main_test
 
 import "testing"

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: битовая арифметика. Сложите два целых числа, не используя
-// операторы + и -. Числа могут быть отрицательными.
-// Сложность: hard. Ожидаемая асимптотика: O(1) по времени, O(1) по памяти
+// Pattern: bit arithmetic. Add two integers without using the + and -
+// operators. The numbers may be negative.
+// Expected asymptotics: O(1) time, O(1) space.
 package main_test
 
 import "testing"

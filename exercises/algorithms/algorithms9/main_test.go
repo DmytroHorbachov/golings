@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП. Сколько путей из левого верхнего угла сетки r×c
-// в правый нижний, если ходить можно только вправо и вниз?
-// Сложность: medium. Ожидаемая асимптотика: O(r·c) по времени, O(c) по памяти
+// Pattern: two-dimensional DP. How many paths lead from the top-left corner
+// of an r×c grid to the bottom-right one, if you may only move right
+// and down?
+// Expected asymptotics: O(r·c) time, O(c) space.
 package main_test
 
 import "testing"

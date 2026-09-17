@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обнаружение цикла (Флойд). Число счастливое, если повторная замена
-// на сумму квадратов его цифр приводит к 1.
-// Сложность: easy. Ожидаемая асимптотика: O(log n) по времени, O(1) по памяти
+// Pattern: cycle detection (Floyd). A number is happy if repeatedly
+// replacing it with the sum of the squares of its digits leads to 1.
+// Expected asymptotics: O(log n) time, O(1) space.
 package main_test
 
 import "testing"

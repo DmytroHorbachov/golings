@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: подсчёт частот. Проверьте, что строки состоят из одних и тех же
-// символов Unicode в том же количестве.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(k) по памяти (k — размер алфавита)
+// Pattern: counting frequencies. Check that the strings consist of the same
+// Unicode characters in the same quantities.
+// Expected asymptotics: O(n) time, O(k) space (k is the alphabet size).
 package main_test
 
 import "testing"

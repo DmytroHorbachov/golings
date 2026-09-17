@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// primes строит конвейер фильтров и возвращает первые n простых чисел.
-// Тренирует: динамический конвейер горутин.
-// Сложность: medium
+// primes builds a pipeline of filters and returns the first n prime numbers.
+// Practices a goroutine pipeline that grows.
 package main_test
 
 import (

@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: работа с числом-массивом. Цифры числа хранятся в срезе
-// от старшей к младшей. Прибавьте 1 и верните результат.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) доп. памяти
+// Pattern: working with a number as a digit array. The digits are stored in
+// a slice from most significant to least significant. Add 1 and return the
+// result.
+// Expected asymptotics: O(n) time, O(1) extra space.
 package main_test
 
 import (

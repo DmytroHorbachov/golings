@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Instance создаёт синглтон с «двойной проверкой»: первая проверка идёт без
-// блокировки и вызывает гонку.
-// Тренирует: чтение общего поля тоже требует синхронизации.
-// Сложность: hard
+// Instance creates a singleton with "double-checked locking": the first
+// check happens without a lock and causes a race.
+// Practices that reading a shared field also requires synchronization.
 package main_test
 
 import (

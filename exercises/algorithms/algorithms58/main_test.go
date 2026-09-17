@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: топологическая сортировка (алгоритм Кана). Курс a требует курс b
-// (пара [a, b]). Верните порядок изучения курсов 0..n-1 или nil при цикле.
-// При нескольких вариантах берите курс с наименьшим номером.
-// Сложность: medium. Ожидаемая асимптотика: O(V + E) по времени, O(V + E) по памяти
+// Pattern: topological sort (Kahn's algorithm). Course a requires course b
+// (pair [a, b]). Return an order for taking courses 0..n-1, or nil on a cycle.
+// If several variants exist, take the course with the smallest number.
+// Expected asymptotics: O(V + E) time, O(V + E) space.
 package main_test
 
 import (

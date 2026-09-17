@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: симметричный обход BST. Верните k-е наименьшее значение (k с единицы).
-// Если узлов меньше k — верните -1.
-// Сложность: medium. Ожидаемая асимптотика: O(h + k) по времени, O(h) по памяти
+// Pattern: in-order traversal of a BST. Return the k-th smallest value
+// (k is 1-based). If there are fewer than k nodes — return -1.
+// Expected asymptotics: O(h + k) time, O(h) space.
 package main_test
 
 import "testing"

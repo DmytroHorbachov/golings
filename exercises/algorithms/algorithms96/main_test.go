@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: один проход с минимумом. Цены заданы по дням; купите один раз
-// и продайте позже. Верните максимальную прибыль (0, если прибыли нет).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: a single pass tracking the minimum. Prices are given per day;
+// buy once and sell later. Return the maximum profit (0 if there is none).
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

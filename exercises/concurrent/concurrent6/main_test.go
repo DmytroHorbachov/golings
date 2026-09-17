@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// drain должна прекратить обработку сразу, если сигнал quit уже получен,
-// даже когда в очереди есть работа. Обычный select выбирает ветку случайно.
-// Тренирует: select не гарантирует порядок; приоритет требует отдельной проверки.
-// Сложность: hard
+// drain has to stop straight away once the quit signal has arrived,
+// even while there is work in the queue. A plain select picks a branch at random.
+// select gives no ordering; a priority calls for a check of its own.
 package main_test
 
 import "testing"

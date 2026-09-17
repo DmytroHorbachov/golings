@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// lines передаёт строки через канал, но канал объявлен с другим типом элементов.
-// Код не компилируется.
-// Тренирует: типизированные каналы.
-// Сложность: easy
+// lines passes strings through a channel, and the channel is declared with another element type.
+// The code does not compile.
+// Practices typed channels.
 package main_test
 
 import (

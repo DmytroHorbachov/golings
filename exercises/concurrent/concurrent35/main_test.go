@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fastest опрашивает несколько зеркал и возвращает первый ответ;
-// остальные горутины не должны зависнуть навсегда.
-// Тренирует: буферизованный канал на всех отправителей.
-// Сложность: medium
+// fastest asks several mirrors and returns the first answer;
+// the other goroutines must not hang forever.
+// Practices a buffer large enough for every sender.
 package main_test
 
 import (

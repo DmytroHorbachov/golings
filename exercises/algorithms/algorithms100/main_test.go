@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП по позициям строки. Можно ли разбить строку
-// на последовательность слов из словаря (слова можно использовать много раз)?
-// Сложность: medium. Ожидаемая асимптотика: O(n²·L) по времени, O(n) по памяти
+// Pattern: one-dimensional DP over string positions. Can the string be split
+// into a sequence of dictionary words (words may be reused)?
+// Expected asymptotics: O(n²·L) time, O(n) space.
 package main_test
 
 import "testing"

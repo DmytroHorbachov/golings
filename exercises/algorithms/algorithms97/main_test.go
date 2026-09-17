@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП. Найдите минимальное количество монет для суммы
-// amount (монет каждого номинала неограниченно) или -1.
-// Сложность: medium. Ожидаемая асимптотика: O(n·amount) по времени, O(amount) по памяти
+// Pattern: one-dimensional DP. Find the minimum number of coins that sum
+// to amount (each denomination is unlimited), or -1.
+// Expected asymptotics: O(n·amount) time, O(amount) space.
 package main_test
 
 import "testing"

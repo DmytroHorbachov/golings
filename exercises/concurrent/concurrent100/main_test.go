@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// emit отправляет события в канал; когда получатель ушёл и контекст отменён,
-// отправка блокируется навсегда.
-// Тренирует: блокирующие отправки тоже должны слушать ctx.Done().
-// Сложность: hard
+// emit sends events to a channel; when the receiver is gone and the context
+// is cancelled, the send blocks forever.
+// Practices that blocking sends must also listen to ctx.Done().
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Счётчик увеличивается через atomic, но читается напрямую.
-// Детектор гонок сообщает об ошибке.
-// Тренирует: все обращения к атомарной переменной — только через atomic.
-// Сложность: hard
+// The counter is raised through atomic and read directly.
+// The race detector reports a problem.
+// Every access to an atomic variable has to go through atomic.
 package main_test
 
 import (

@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: префиксное дерево и поиск с возвратом. Найдите все слова из словаря,
-// которые можно собрать на доске, двигаясь по соседним клеткам (без повторного
-// использования клетки). Ответ отсортирован по алфавиту.
-// Сложность: hard. Ожидаемая асимптотика: O(r·c·4^L) по времени, O(общая длина слов) по памяти
+// Pattern: trie and backtracking. Find all words from the dictionary that
+// can be built on the board by moving to neighboring cells (without
+// reusing a cell). The answer is sorted alphabetically.
+// Expected asymptotics: O(r·c·4^L) time, O(total word length) space.
 package main_test
 
 import (

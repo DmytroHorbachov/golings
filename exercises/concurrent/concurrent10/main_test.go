@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// consume обрабатывает сообщения, пока не получит сигнал done
-// и очередь не опустеет.
-// Тренирует: select между каналом данных и каналом остановки.
-// Сложность: medium
+// consume handles messages until the done signal arrives
+// and the queue has run dry.
+// Practices a select between a data channel and a stop channel.
 package main_test
 
 import (

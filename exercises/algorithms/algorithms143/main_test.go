@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: сортировка и мин-куча времён окончания. Найдите минимальное число
-// переговорок, чтобы провести все встречи [начало, конец).
-// Сложность: medium. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: sorting and a min-heap of end times. Find the minimum number
+// of meeting rooms needed to hold all meetings [start, end).
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

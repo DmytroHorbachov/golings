@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: разделяй и властвуй со слиянием. Верните новый отсортированный срез,
-// не меняя исходный и не используя пакет sort.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log n) по времени, O(n) по памяти
+// Pattern: divide and conquer with merge. Return a new sorted slice without
+// modifying the original and without using the sort package.
+// Expected asymptotics: O(n·log n) time, O(n) space.
 package main_test
 
 import (

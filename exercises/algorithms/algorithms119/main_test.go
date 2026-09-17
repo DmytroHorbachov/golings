@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: связные списки и фиктивная голова. Слейте два отсортированных списка
-// в один отсортированный, переиспользуя узлы.
-// Сложность: easy. Ожидаемая асимптотика: O(n + m) по времени, O(1) по памяти
+// Pattern: linked lists and a dummy head. Merge two sorted lists into one
+// sorted list, reusing the nodes.
+// Expected asymptotics: O(n + m) time, O(1) space.
 package main_test
 
 import (

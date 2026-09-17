@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: мин-куча размера k. Верните k-е по величине число среза
-// (с учётом повторов), не сортируя весь срез.
-// Сложность: medium. Ожидаемая асимптотика: O(n·log k) по времени, O(k) по памяти
+// Pattern: a min-heap of size k. Return the k-th largest number of the slice
+// (counting duplicates) without sorting the entire slice.
+// Expected asymptotics: O(n·log k) time, O(k) space.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// runAll выполняет задачи параллельно; первая ошибка отменяет контекст
-// остальных задач и возвращается.
-// Тренирует: context.WithCancel и sync.Once для первой ошибки.
-// Сложность: medium
+// runAll runs the tasks in parallel; the first error cancels the context
+// of the others and is returned.
+// Practices context.WithCancel plus sync.Once for the first error.
 package main_test
 
 import (

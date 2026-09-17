@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия с побочным результатом. Верните длину самого длинного пути
-// между любыми двумя узлами (в рёбрах).
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(h) по памяти
+// Pattern: recursion with a side result. Return the length of the longest
+// path between any two nodes (in edges).
+// Expected asymptotics: O(n) time, O(h) space.
 package main_test
 
 import "testing"

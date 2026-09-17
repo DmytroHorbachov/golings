@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Deposit вызывает Balance, и оба метода захватывают один мьютекс.
-// Мьютекс Go не реентрантный — вызов зависает навсегда.
-// Тренирует: выделение внутренних функций без блокировки.
-// Сложность: hard
+// Deposit calls Balance, and both methods grab the same mutex.
+// Go's mutex is not reentrant — the call hangs forever.
+// Practices factoring out internal functions that run without the lock.
 package main_test
 
 import (

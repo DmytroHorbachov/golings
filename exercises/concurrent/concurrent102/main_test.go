@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countHits увеличивает счётчик из многих горутин без синхронизации.
-// Тренирует: sync/atomic.
-// Сложность: easy
+// countHits increments a counter from many goroutines without synchronization.
+// Practices sync/atomic.
 package main_test
 
 import (

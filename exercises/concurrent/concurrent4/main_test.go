@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// worker получает WaitGroup по значению, и Done уменьшает счётчик копии.
-// Тренирует: WaitGroup нельзя копировать.
-// Сложность: easy
+// worker takes the WaitGroup by value, so Done lowers the counter of a copy.
+// A WaitGroup must not be copied.
 package main_test
 
 import (

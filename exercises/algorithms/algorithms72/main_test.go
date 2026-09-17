@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: два указателя. Переместите все нули в конец среза на месте,
-// сохранив порядок остальных элементов.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: two pointers. Move all zeros to the end of the slice in place,
+// keeping the order of the remaining elements.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import (

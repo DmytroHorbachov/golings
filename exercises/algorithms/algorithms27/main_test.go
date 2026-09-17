@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: перебор с возвратом. Верните все подмножества набора различных чисел.
-// Порядок: по возрастанию размера «маски» включений, элементы внутри — как во входе.
-// Сложность: medium. Ожидаемая асимптотика: O(n·2^n) по времени, O(n) доп. памяти
+// Pattern: backtracking. Return all subsets of a set of distinct numbers.
+// Order: by increasing size of the inclusion "mask"; elements within a
+// subset follow input order.
+// Expected asymptotics: O(n·2^n) time, O(n) extra space.
 package main_test
 
 import (

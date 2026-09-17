@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: хэш-таблица и двусвязный список. Реализуйте кэш ёмкости capacity:
-// Get возвращает значение (или -1) и делает ключ самым свежим, Put вставляет
-// или обновляет значение, вытесняя самый давно использованный ключ.
-// Сложность: medium. Ожидаемая асимптотика: O(1) на операцию, O(capacity) по памяти
+// Pattern: hash table and doubly linked list. Implement a cache with the
+// given capacity: Get returns the value (or -1) and marks the key as most
+// recently used, Put inserts or updates a value, evicting the least
+// recently used key.
+// Expected asymptotics: O(1) per operation, O(capacity) space.
 package main_test
 
 import "testing"

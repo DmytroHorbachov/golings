@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// produce объявлен с каналом только для отправки, но пытается из него читать.
-// Код не компилируется.
-// Тренирует: направленные каналы chan<- и <-chan.
-// Сложность: easy
+// produce is declared with a send-only channel but tries to read from it.
+// The code does not compile.
+// Practices directional channels chan<- and <-chan.
 package main_test
 
 import "testing"

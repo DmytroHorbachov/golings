@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Конфигурация публикуется через atomic.Value; Current возвращает её.
-// Тренирует: Store и Load с утверждением типа.
-// Сложность: easy
+// The configuration is published through an atomic.Value, and Current returns it.
+// Practices Store and Load with a type assertion.
 package main_test
 
 import (

@@ -3,10 +3,11 @@
 
 // I AM NOT DONE
 //
-// Паттерн: массивы и хэш-таблицы. Найдите индексы i < j двух разных элементов,
-// сумма которых равна target, и верните их. Если пары нет — (-1, -1).
-// Если пар несколько, верните пару с наименьшим j.
-// Сложность: easy. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: arrays and hash tables. Find the indices i < j of two distinct
+// elements whose sum equals target, and return them. If there is no
+// pair — (-1, -1). If several pairs exist, return the pair with the
+// smallest j.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

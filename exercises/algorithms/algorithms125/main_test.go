@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: словарь и динамическое программирование по строке. Найдите слова,
-// которые целиком составляются из двух или более других слов словаря.
-// Ответ отсортирован по алфавиту.
-// Сложность: hard. Ожидаемая асимптотика: O(n·L²) по времени, O(n·L) по памяти
+// Pattern: a dictionary and dynamic programming over a string. Find the
+// words that are entirely composed of two or more other words of the
+// dictionary. The answer is sorted alphabetically.
+// Expected asymptotics: O(n·L²) time, O(n·L) space.
 package main_test
 
 import (

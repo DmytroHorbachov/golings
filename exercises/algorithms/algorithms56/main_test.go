@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: ДП по состояниям (позиция, длина прыжка). Камни заданы возрастающими
-// координатами. Первый прыжок — длины 1; после прыжка длины k следующий может
-// быть k-1, k или k+1. Можно ли добраться до последнего камня?
-// Сложность: hard. Ожидаемая асимптотика: O(n²) по времени, O(n²) по памяти
+// Pattern: DP over states (position, jump length). Stones are given as
+// increasing coordinates. The first jump has length 1; after a jump of
+// length k the next one may be k-1, k, or k+1. Can you reach the last stone?
+// Expected asymptotics: O(n²) time, O(n²) space.
 package main_test
 
 import "testing"

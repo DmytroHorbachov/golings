@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// mergeCount читает из двух каналов по одному значению из каждого.
-// Тренирует: select в цикле.
-// Сложность: easy
+// mergeCount reads one value from each of two channels.
+// Practices select in a loop.
 package main_test
 
 import "testing"

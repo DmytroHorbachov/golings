@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// startWorkers должен запустить ровно n воркеров.
-// Тренирует: запуск горутин в цикле.
-// Сложность: easy
+// startWorkers has to start exactly n workers.
+// Practices starting goroutines in a loop.
 package main_test
 
 import (

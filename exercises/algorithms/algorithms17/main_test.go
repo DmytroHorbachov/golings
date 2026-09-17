@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двоичный поиск по ответу и жадная проверка. Разбейте срез
-// неотрицательных чисел на k непустых непрерывных частей так, чтобы
-// наибольшая сумма части была минимальной. Верните эту сумму.
-// Сложность: hard. Ожидаемая асимптотика: O(n·log S) по времени, O(1) по памяти
+// Pattern: binary search on the answer with a greedy check. Split a slice
+// of non-negative numbers into k non-empty contiguous parts so that the
+// largest part sum is minimal. Return that sum.
+// Expected asymptotics: O(n·log S) time, O(1) space.
 package main_test
 
 import "testing"

@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: связные списки с переносом. Числа хранятся в списках цифрами
-// в обратном порядке. Верните сумму в том же формате.
-// Сложность: medium. Ожидаемая асимптотика: O(max(n, m)) по времени, O(max(n, m)) по памяти
+// Pattern: linked lists with carry. Numbers are stored in lists as digits
+// in reverse order. Return the sum in the same format.
+// Expected asymptotics: O(max(n, m)) time, O(max(n, m)) space.
 package main_test
 
 import (

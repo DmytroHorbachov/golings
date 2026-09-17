@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// parallelSum делит срез на части, суммирует их в горутинах и складывает итог.
-// Тренирует: разбиение работы и сбор результатов через канал.
-// Сложность: medium
+// parallelSum splits a slice into parts, sums them in goroutines, and adds
+// up the totals.
+// Practices splitting work and collecting results through a channel.
 package main_test
 
 import "testing"

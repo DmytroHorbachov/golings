@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// collect запускает горутины, заполняющие срез, и сразу возвращает результат.
-// Тренирует: wg.Wait перед чтением результатов.
-// Сложность: easy
+// collect starts goroutines filling a slice and returns the result straight away.
+// Practices wg.Wait before reading the results.
 package main_test
 
 import (

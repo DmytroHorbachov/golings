@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: обход в ширину по уровням. Клетки: 0 — пусто, 1 — свежий апельсин,
-// 2 — гнилой. Каждую минуту гниль переходит на соседей. Верните минуты,
-// за которые сгниют все, или -1, если это невозможно.
-// Сложность: medium. Ожидаемая асимптотика: O(r·c) по времени, O(r·c) по памяти
+// Pattern: breadth-first traversal by levels. Cells: 0 — empty, 1 — a fresh
+// orange, 2 — a rotten one. Each minute the rot spreads to neighbors.
+// Return the minutes until all rot, or -1 if that is impossible.
+// Expected asymptotics: O(r·c) time, O(r·c) space.
 package main_test
 
 import "testing"

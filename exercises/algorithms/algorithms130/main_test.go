@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: двумерное ДП или два указателя с откатом. '?' заменяет один символ,
-// '*' — любую (в том числе пустую) последовательность.
-// Сложность: hard. Ожидаемая асимптотика: O(n·m) по времени, O(m) по памяти
+// Pattern: 2D DP or two pointers with backtracking. '?' matches one
+// character, '*' — any (including empty) sequence.
+// Expected asymptotics: O(n·m) time, O(m) space.
 package main_test
 
 import "testing"

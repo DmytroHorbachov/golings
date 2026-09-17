@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Горутины отправляют ошибки в канал, который читается только после wg.Wait.
-// Канал без буфера блокирует горутины навсегда.
-// Тренирует: буфер на количество отправителей.
-// Сложность: easy
+// Goroutines send errors into a channel that is only read after wg.Wait.
+// The unbuffered channel blocks the goroutines forever.
+// Practices a buffer sized for the number of senders.
 package main_test
 
 import (

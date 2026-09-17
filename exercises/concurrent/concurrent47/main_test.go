@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// stopAll должна отменить контекст, чтобы воркер завершился.
-// Тренирует: context.WithCancel.
-// Сложность: easy
+// stopAll has to cancel the context so the worker finishes.
+// Practices context.WithCancel.
 package main_test
 
 import (

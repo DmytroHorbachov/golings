@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: монотонный стек. Найдите площадь наибольшего прямоугольника,
-// который помещается в гистограмму со столбцами ширины 1.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: a monotonic stack. Find the area of the largest rectangle
+// that fits in a histogram with bars of width 1.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

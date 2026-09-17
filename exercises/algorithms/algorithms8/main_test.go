@@ -3,10 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: алгоритм Дейкстры. Рёбра [from, to, weight] задают ориентированный
-// граф на вершинах 1..n. Верните время, за которое сигнал из вершины k дойдёт
-// до всех, или -1.
-// Сложность: hard. Ожидаемая асимптотика: O(E·log V) по времени, O(V + E) по памяти
+// Pattern: Dijkstra's algorithm. Edges [from, to, weight] define a directed
+// graph on vertices 1..n. Return the time it takes for a signal from
+// vertex k to reach all vertices, or -1.
+// Expected asymptotics: O(E·log V) time, O(V + E) space.
 package main_test
 
 import (

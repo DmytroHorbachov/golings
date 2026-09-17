@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// worker должен завершиться при отмене контекста.
-// Тренирует: case <-ctx.Done().
-// Сложность: easy
+// worker has to finish when the context is cancelled.
+// Practices case <-ctx.Done().
 package main_test
 
 import (

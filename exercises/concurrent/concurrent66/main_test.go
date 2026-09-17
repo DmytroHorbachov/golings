@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Publisher отправляет событие подписчику, удерживая мьютекс; подписчику для
-// обработки нужен тот же мьютекс — взаимоблокировка.
-// Тренирует: не выполняйте блокирующие операции под блокировкой.
-// Сложность: hard
+// Publisher sends an event to a subscriber while holding a mutex; the
+// subscriber needs the same mutex to process it — deadlock.
+// Practices not performing blocking operations under a lock.
 package main_test
 
 import (

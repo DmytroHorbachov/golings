@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// transfer блокирует два счёта. Встречные переводы захватывают мьютексы
-// в разном порядке и взаимно блокируются.
-// Тренирует: единый порядок захвата блокировок.
-// Сложность: hard
+// transfer locks two accounts. Transfers in opposite directions take the mutexes
+// in different orders and deadlock.
+// Practices a single locking order.
 package main_test
 
 import (

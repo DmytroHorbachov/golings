@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// SafeCounter хранит счётчики в map под RWMutex: Inc пишет, Value читает.
-// Тренирует: Lock для записи и RLock для чтения.
-// Сложность: medium
+// SafeCounter keeps counters in a map under an RWMutex: Inc writes and Value reads.
+// Practices Lock for writing and RLock for reading.
 package main_test
 
 import (

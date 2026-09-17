@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: одномерное ДП. Нельзя грабить два соседних дома. Найдите
-// максимальную сумму, которую можно унести.
-// Сложность: medium. Ожидаемая асимптотика: O(n) по времени, O(1) по памяти
+// Pattern: 1D DP. You cannot rob two adjacent houses. Find the maximum sum
+// you can carry away.
+// Expected asymptotics: O(n) time, O(1) space.
 package main_test
 
 import "testing"

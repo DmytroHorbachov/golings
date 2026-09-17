@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Inc захватывает мьютекс и забывает его отпустить; второй вызов зависает.
-// Тренирует: defer mu.Unlock().
-// Сложность: easy
+// Inc takes the mutex and forgets to release it; the second call hangs.
+// Practices defer mu.Unlock().
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Visits.Hit вызывается из многих горутин; счётчик теряет обновления,
-// а детектор гонок сообщает об ошибке.
-// Тренирует: защиту общей переменной мьютексом.
-// Сложность: hard
+// Visits.Hit is called from many goroutines; the counter loses updates
+// and the race detector reports an error.
+// Practices protecting a shared variable with a mutex.
 package main_test
 
 import (

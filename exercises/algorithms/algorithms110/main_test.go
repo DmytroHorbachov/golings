@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: рекурсия с хэш-таблицей позиций. По прямому и симметричному обходам
-// (значения уникальны) восстановите дерево.
-// Сложность: hard. Ожидаемая асимптотика: O(n) по времени, O(n) по памяти
+// Pattern: recursion with a hash table of positions. Given the preorder
+// and inorder traversals (values are unique), rebuild the tree.
+// Expected asymptotics: O(n) time, O(n) space.
 package main_test
 
 import "testing"

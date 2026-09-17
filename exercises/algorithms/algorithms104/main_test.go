@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// Паттерн: посимвольное сравнение. Верните самый длинный общий префикс
-// всех строк; если его нет — пустую строку.
-// Сложность: easy. Ожидаемая асимптотика: O(S) по времени (S — сумма длин), O(1) по памяти
+// Pattern: character-by-character comparison. Return the longest common
+// prefix of all strings; if there is none — an empty string.
+// Expected asymptotics: O(S) time (S is the sum of lengths), O(1) space.
 package main_test
 
 import (

@@ -3,9 +3,10 @@
 
 // I AM NOT DONE
 //
-// Паттерн: стек с дополнительным состоянием. Реализуйте стек с операциями
-// Push, Pop, Top и Min, каждая за O(1). Операции над пустым стеком не вызываются.
-// Сложность: medium. Ожидаемая асимптотика: O(1) на операцию, O(n) по памяти
+// Pattern: a stack with extra state. Implement a stack with Push, Pop, Top,
+// and Min operations, each in O(1). Operations on an empty stack are never
+// called.
+// Expected asymptotics: O(1) per operation, O(n) space.
 package main_test
 
 import "testing"

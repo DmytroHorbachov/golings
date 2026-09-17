@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// callWithTimeout ждёт результат не дольше заданного времени.
-// Медленный вызов не должен заставлять ждать.
-// Тренирует: select между результатом и таймером; буфер для результата.
-// Сложность: medium
+// callWithTimeout waits for a result no longer than a given time.
+// A slow call must not hold it up.
+// Practices a select between the result and a timer, plus a buffer for the result.
 package main_test
 
 import (

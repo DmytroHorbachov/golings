@@ -3,9 +3,9 @@
 
 // I AM NOT DONE
 //
-// tracker отмечает вход и выход задач и запоминает пиковое число одновременных.
-// Тренирует: мьютекс для нескольких связанных полей.
-// Сложность: medium
+// tracker records tasks entering and leaving and remembers the peak
+// number of concurrent ones.
+// Practices a mutex guarding several related fields.
 package main_test
 
 import (
