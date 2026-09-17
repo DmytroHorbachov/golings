@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Set[T] позволяет добавлять элементы и проверять наличие.
-// Тренирует: обобщённый тип на основе map.
-// Сложность: easy
+// Set[T] allows adding elements and checking for them.
+// Practices a generic type built on a map.
 package main_test
 
 import "testing"

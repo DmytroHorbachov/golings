@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// FindMax возвращает максимум, а для пустого среза — нулевое значение.
-// Вызывающий код не может отличить пустой срез от среза с максимумом 0.
-// Тренирует: нулевое значение T не подходит как признак отсутствия.
-// Сложность: hard
+// FindMax returns the maximum, and the zero value for an empty slice.
+// The caller cannot tell an empty slice from a slice whose maximum is 0.
+// The zero value of T does not work as a marker of absence.
 package main_test
 
 import "testing"

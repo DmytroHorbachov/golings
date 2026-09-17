@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// SortedKeys возвращает ключи map в порядке возрастания.
-// Тренирует: обобщённые ключи с ограничением Ordered.
-// Сложность: medium
+// SortedKeys returns the keys of a map in ascending order.
+// Practices generic keys with an Ordered constraint.
 package main_test
 
 import (

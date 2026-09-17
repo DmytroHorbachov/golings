@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// List[T] поддерживает PushBack и All (все значения по порядку).
-// Тренирует: обобщённые рекурсивные типы.
-// Сложность: medium
+// List[T] offers PushBack and All, every value in order.
+// Practices generic recursive types.
 package main_test
 
 import (

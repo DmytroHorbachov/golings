@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// GroupBy группирует элементы по ключу, вычисленному функцией.
-// Тренирует: два параметра типа, один из которых comparable.
-// Сложность: medium
+// GroupBy groups the elements by a key computed by a function.
+// Practices two type parameters, one of them comparable.
 package main_test
 
 import (

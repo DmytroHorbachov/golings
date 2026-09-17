@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Clamp ограничивает значение диапазоном [lo, hi].
-// Тренирует: обобщённые сравнения.
-// Сложность: easy
+// Clamp confines a value to the range [lo, hi].
+// Practices generic comparisons.
 package main_test
 
 import "testing"

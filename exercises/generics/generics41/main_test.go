@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Uniq удаляет повторы, сохраняя порядок первого появления.
-// Тренирует: обобщённое множество внутри функции.
-// Сложность: medium
+// Uniq removes the repeats, keeping the order of first appearance.
+// Practices a generic set inside a function.
 package main_test
 
 import (

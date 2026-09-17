@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Half делит значение пополам, умножая на 0.5. Код не компилируется:
-// в наборе типов есть целые, для которых 0.5 не представимо.
-// Тренирует: константы проверяются для всех типов ограничения.
-// Сложность: hard
+// Half halves a value by multiplying it by 0.5. The code does not compile:
+// the type set holds integer types, which cannot represent 0.5.
+// Constants are checked against every type of a constraint.
 package main_test
 
 import "testing"

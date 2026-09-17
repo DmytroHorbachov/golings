@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stack[T] предоставляет Peek и Pop, возвращающие (T, bool).
-// Тренирует: нулевое значение T для пустого стека.
-// Сложность: medium
+// Stack[T] offers Peek and Pop, both returning (T, bool).
+// Practices the zero value of T for an empty stack.
 package main_test
 
 import "testing"

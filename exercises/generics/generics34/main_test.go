@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// SumBy суммирует значения, извлечённые из элементов функцией.
-// Тренирует: два параметра типа: элемент и числовой результат.
-// Сложность: medium
+// SumBy adds up the values pulled out of the elements by a function.
+// Practices two type parameters: the element and the numeric result.
 package main_test
 
 import "testing"

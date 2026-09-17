@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Обобщённую функцию сохраняют в переменную. Код не компилируется:
-// её нельзя использовать без инстанциации.
-// Тренирует: значение функции требует конкретных аргументов типа.
-// Сложность: hard
+// A generic function is stored in a variable. The code does not compile:
+// it cannot be used without being instantiated.
+// A function value needs concrete type arguments.
 package main_test
 
 import "testing"

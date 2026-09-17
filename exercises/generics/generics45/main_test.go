@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Sum складывает элементы среза чисел любого числового типа.
-// Тренирует: ограничение Number и нулевое значение T.
-// Сложность: easy
+// Sum adds up the elements of a slice of numbers of any numeric type.
+// Practices the Number constraint and the zero value of T.
 package main_test
 
 import "testing"

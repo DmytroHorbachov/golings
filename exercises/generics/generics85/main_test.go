@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Метод Push объявлен на *Stack[T]. Выражение метода Stack[int].Push
-// не компилируется: у значения нет этого метода.
-// Тренирует: выражение метода с указателем-получателем пишется (*T).Method.
-// Сложность: hard
+// The Push method is declared on *Stack[T]. The method expression Stack[int].Push
+// does not compile: a value does not have that method.
+// A method expression with a pointer receiver is written (*T).Method.
 package main_test
 
 import "testing"

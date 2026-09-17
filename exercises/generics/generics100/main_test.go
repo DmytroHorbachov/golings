@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// SumAll складывает значения типа Cents (type Cents int).
-// Код не компилируется: ограничение принимает только int.
-// Тренирует: без ~ именованные типы не входят в набор типов.
-// Сложность: hard
+// SumAll adds up values of type Cents (type Cents int).
+// The code does not compile: the constraint only accepts int.
+// Without a ~ the named types are not in the type set.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Wrapper[T] пытается встроить T, чтобы продвинуть его методы.
-// Код не компилируется: параметр типа нельзя встроить.
-// Тренирует: ограничения обобщённых структур.
-// Сложность: hard
+// Wrapper[T] tries to embed T so that its methods are promoted.
+// The code does not compile: a type parameter cannot be embedded.
+// Practices the limits of generic structs.
 package main_test
 
 import "testing"

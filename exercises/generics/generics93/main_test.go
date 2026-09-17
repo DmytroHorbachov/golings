@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Метод Queue.Push объявлен с получателем Queue без [T].
-// Код не компилируется.
-// Тренирует: получатель метода обобщённого типа должен перечислять параметры.
-// Сложность: hard
+// The Queue.Push method is declared with a Queue receiver, without the [T].
+// The code does not compile.
+// The receiver of a method on a generic type has to list the parameters.
 package main_test
 
 import "testing"

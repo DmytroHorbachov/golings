@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Frequencies считает количество вхождений каждого значения.
-// Тренирует: map[T]int в обобщённой функции.
-// Сложность: medium
+// Frequencies counts how often every value occurs.
+// Practices map[T]int in a generic function.
 package main_test
 
 import (

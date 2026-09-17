@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Map применяет функцию к каждому элементу среза любого типа.
-// Код не компилируется: параметр типа объявлен без ограничения.
-// Тренирует: синтаксис [T any].
-// Сложность: easy
+// Map applies a function to every element of a slice of any type.
+// The code does not compile: the type parameter is declared without a constraint.
+// Practices the [T any] syntax.
 package main_test
 
 import (

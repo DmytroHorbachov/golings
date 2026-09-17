@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Must возвращает значение или паникует при ошибке.
-// Тренирует: обобщённые помощники для пары (T, error).
-// Сложность: easy
+// Must returns a value, or panics on an error.
+// Practices generic helpers for a (T, error) pair.
 package main_test
 
 import (

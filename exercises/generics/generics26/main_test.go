@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Merge объединяет map; при совпадении ключей используется resolve.
-// Тренирует: обобщённые map и функция разрешения конфликтов.
-// Сложность: medium
+// Merge joins maps, using resolve when the keys clash.
+// Practices generic maps plus a conflict resolution function.
 package main_test
 
 import (

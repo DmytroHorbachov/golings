@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Convert преобразует срез одного типа в срез другого.
-// Тренирует: несколько параметров типа.
-// Сложность: easy
+// Convert turns a slice of one type into a slice of another.
+// Practices several type parameters.
 package main_test
 
 import (

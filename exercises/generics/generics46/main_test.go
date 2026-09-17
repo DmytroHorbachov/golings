@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Scale умножает значение на 1000. Код не компилируется: в ограничении есть int8,
-// в который 1000 не помещается.
-// Тренирует: константы в обобщённом коде должны подходить всем типам из набора.
-// Сложность: hard
+// Scale multiplies a value by 1000. The code does not compile: the constraint holds int8,
+// which cannot hold 1000.
+// Constants in generic code have to fit every type of the set.
 package main_test
 
 import "testing"

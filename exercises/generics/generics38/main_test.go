@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Код пытается объявить срез значений ограничения Number.
-// Не компилируется: интерфейс с набором типов можно использовать только как ограничение.
-// Тренирует: разница между ограничением и обычным интерфейсом.
-// Сложность: hard
+// The code tries to declare a slice of values of the Number constraint.
+// It does not compile: an interface with a type set may only be used as a constraint.
+// Practices the difference between a constraint and an ordinary interface.
 package main_test
 
 import "testing"

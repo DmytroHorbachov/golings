@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// PQ[T] — очередь с приоритетом на container/heap с функцией сравнения.
-// Тренирует: обобщённый тип, реализующий heap.Interface.
-// Сложность: medium
+// PQ[T] is a priority queue on container/heap with a comparison function.
+// Practices a generic type implementing heap.Interface.
 package main_test
 
 import (

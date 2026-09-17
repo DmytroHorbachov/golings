@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// FirstOr возвращает первый элемент или значение «ничего». Код не компилируется:
-// nil нельзя использовать как значение параметра типа.
-// Тренирует: нулевое значение T получается через var zero T.
-// Сложность: hard
+// FirstOr returns the first element, or a "nothing" value. The code does not compile:
+// nil cannot be used as a value of a type parameter.
+// The zero value of T comes from var zero T.
 package main_test
 
 import "testing"

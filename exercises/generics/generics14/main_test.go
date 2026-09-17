@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// CountEqual считает элементы, равные x. При инстанциации типом any
-// сравнение срезов внутри интерфейсов паникует во время выполнения.
-// Тренирует: comparable допускает интерфейсные типы, но == может паниковать.
-// Сложность: hard
+// CountEqual counts the elements equal to x. Instantiated with any,
+// comparing slices inside interfaces panics at run time.
+// comparable allows interface types, and == may still panic.
 package main_test
 
 import (

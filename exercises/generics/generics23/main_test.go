@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Bus[E] доставляет события типа E подписчикам.
-// Тренирует: обобщённый тип со срезом функций.
-// Сложность: medium
+// Bus[E] delivers events of type E to the subscribers.
+// Practices a generic type with a slice of functions.
 package main_test
 
 import (

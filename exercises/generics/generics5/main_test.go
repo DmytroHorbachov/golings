@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Max возвращает большее из двух значений упорядочиваемого типа.
-// Тренирует: пользовательское ограничение с объединением типов.
-// Сложность: easy
+// Max returns the larger of two values of an ordered type.
+// Practices a constraint of your own with a union of types.
 package main_test
 
 import "testing"

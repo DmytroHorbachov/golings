@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ParallelMap применяет функцию в горутинах и сохраняет порядок.
-// Тренирует: обобщённые функции с горутинами.
-// Сложность: medium
+// ParallelMap applies a function in goroutines and keeps the order.
+// Practices generic functions with goroutines.
 package main_test
 
 import (

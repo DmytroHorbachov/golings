@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Total суммирует значения Cents и возвращает T. Результат нельзя сложить с int
-// без преобразования.
-// Тренирует: результат сохраняет именованный тип аргумента.
-// Сложность: hard
+// Total adds up Cents values and returns a T. The result cannot be added to an int
+// without a conversion.
+// The result keeps the named type of the argument.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Queue[T] сообщает количество элементов.
-// Тренирует: методы обобщённого типа.
-// Сложность: easy
+// Queue[T] reports the number of elements.
+// Practices methods on a generic type.
 package main_test
 
 import "testing"

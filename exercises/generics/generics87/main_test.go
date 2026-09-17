@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Tree[T] вставляет значения и возвращает их по возрастанию.
-// Тренирует: обобщённые рекурсивные структуры с Ordered.
-// Сложность: medium
+// Tree[T] inserts values and returns them in ascending order.
+// Practices generic recursive structures with Ordered.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// BFS возвращает вершины в порядке обхода в ширину для графа с вершинами
-// любого сравнимого типа.
-// Тренирует: обобщённые map и очередь.
-// Сложность: medium
+// BFS returns the vertices in breadth first order for a graph whose vertices
+// are of any comparable type.
+// Practices generic maps and a queue.
 package main_test
 
 import (

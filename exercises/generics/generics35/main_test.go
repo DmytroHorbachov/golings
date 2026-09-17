@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// average должна посчитать среднее по float64, вызывая Sum с явным аргументом типа.
-// Тренирует: явное указание аргументов типа.
-// Сложность: easy
+// average has to compute the mean in float64, calling Sum with an explicit type argument.
+// Practices explicit type arguments.
 package main_test
 
 import "testing"

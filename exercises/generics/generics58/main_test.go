@@ -3,11 +3,10 @@
 
 // I AM NOT DONE
 //
-// Ratio делит два значения параметра типа как float64.
-// Код не компилируется: T ограничен any, а преобразование к float64
-// допустимо только для числовых типов.
-// Тренирует: конверсии зависят от набора типов ограничения.
-// Сложность: hard
+// Ratio divides two type parameter values as float64.
+// The code does not compile: T is constrained by any, and a conversion to float64
+// is only allowed for numeric types.
+// Conversions depend on the type set of the constraint.
 package main_test
 
 import "testing"

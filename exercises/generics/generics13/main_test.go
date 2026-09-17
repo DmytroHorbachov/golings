@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Total вызывается для среза int32, но ограничение этот тип не содержит.
-// Тренирует: объединение типов в ограничении.
-// Сложность: easy
+// Total is called on a slice of int32, and the constraint does not list that type.
+// Practices a union of types in a constraint.
 package main_test
 
 import "testing"

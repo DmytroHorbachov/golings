@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Set[[]int] не компилируется: срезы не удовлетворяют comparable.
-// Нужно хранить уникальные наборы чисел.
-// Тренирует: ограничение comparable исключает срезы, map и функции.
-// Сложность: hard
+// Set[[]int] does not compile: slices do not satisfy comparable.
+// Distinct sets of numbers have to be stored.
+// The comparable constraint rules out slices, maps and functions.
 package main_test
 
 import (

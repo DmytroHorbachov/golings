@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Pipe собирает функцию из цепочки преобразований одного типа.
-// Тренирует: обобщённые срезы функций.
-// Сложность: medium
+// Pipe builds a function out of a chain of transformations of one type.
+// Practices generic slices of functions.
 package main_test
 
 import (

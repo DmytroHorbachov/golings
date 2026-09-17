@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Describe возвращает описание значения в зависимости от его типа.
-// Код не компилируется: type switch нельзя применить к значению параметра типа.
-// Тренирует: для type switch значение нужно привести к interface{}.
-// Сложность: hard
+// Describe returns a description of a value depending on its type.
+// The code does not compile: a type switch cannot be used on a type parameter value.
+// For a type switch the value has to be converted to an interface{}.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Double удваивает значения, в том числе именованного типа Celsius.
-// Код не компилируется: ограничение принимает только сам float64.
-// Тренирует: ~T включает все типы с базовым типом T.
-// Сложность: easy
+// Double doubles values, the named type Celsius included.
+// The code does not compile: the constraint only accepts float64 itself.
+// ~T covers every type whose underlying type is T.
 package main_test
 
 import "testing"

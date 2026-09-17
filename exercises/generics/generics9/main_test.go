@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// As пытается привести значение к типу T. Код не компилируется:
-// утверждение типа применимо только к интерфейсному значению.
-// Тренирует: v.(T) требует, чтобы v было интерфейсом.
-// Сложность: hard
+// As tries to convert a value to the type T. The code does not compile:
+// a type assertion only works on an interface value.
+// v.(T) needs v to be an interface.
 package main_test
 
 import "testing"

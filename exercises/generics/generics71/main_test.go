@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Box[T] должна уметь преобразовывать значение в другой тип. Код не
-// компилируется: у методов не может быть собственных параметров типа.
-// Тренирует: ограничение языка на методы.
-// Сложность: hard
+// Box[T] has to be able to convert its value to another type. The code does
+// not compile: methods cannot have type parameters of their own.
+// Practices that limit of the language.
 package main_test
 
 import (

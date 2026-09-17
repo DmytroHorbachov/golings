@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// MaxOf возвращает максимум среза. Код не компилируется:
-// comparable не поддерживает <.
-// Тренирует: comparable даёт только == и !=.
-// Сложность: hard
+// MaxOf returns the maximum of a slice. The code does not compile:
+// comparable does not support <.
+// comparable only gives == and !=.
 package main_test
 
 import "testing"

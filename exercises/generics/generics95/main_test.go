@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// SwapPtr меняет местами значения по двум указателям.
-// Тренирует: обобщённые указатели *T.
-// Сложность: easy
+// SwapPtr swaps the values behind two pointers.
+// Practices generic pointers *T.
 package main_test
 
 import "testing"

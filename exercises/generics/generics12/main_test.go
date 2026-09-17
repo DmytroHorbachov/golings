@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Zip объединяет два среза разных типов в срез пар; длина — по короткому.
-// Тренирует: обобщённая структура как результат.
-// Сложность: medium
+// Zip joins two slices of different types into a slice of pairs, as long as the shorter one.
+// Practices a generic struct as the result.
 package main_test
 
 import (

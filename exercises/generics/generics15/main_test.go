@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Memoize оборачивает функцию, кэшируя результаты по аргументу.
-// Тренирует: обобщённые замыкания.
-// Сложность: medium
+// Memoize wraps a function, caching the results by argument.
+// Practices generic closures.
 package main_test
 
 import (

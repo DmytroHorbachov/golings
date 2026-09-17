@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Avg считает среднее, преобразуя сумму во float64.
-// Тренирует: преобразование значений параметра типа.
-// Сложность: easy
+// Avg computes the average, converting the sum to a float64.
+// Practices converting the values of a type parameter.
 package main_test
 
 import "testing"

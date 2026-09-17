@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// SortBy сортирует срез по ключу, вычисленному функцией, не меняя вход.
-// Тренирует: обобщённая обёртка над sort.Slice.
-// Сложность: medium
+// SortBy sorts a slice by a key computed by a function, leaving the input alone.
+// Practices a generic wrapper around sort.Slice.
 package main_test
 
 import (

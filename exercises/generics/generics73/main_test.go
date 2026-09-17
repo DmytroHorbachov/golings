@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Retry[T] вызывает функцию до успеха (не больше n раз) и возвращает её результат.
-// Тренирует: обобщённые функции, возвращающие (T, error).
-// Сложность: medium
+// Retry[T] calls a function until it succeeds, at most n times, and returns its result.
+// Practices generic functions returning (T, error).
 package main_test
 
 import (

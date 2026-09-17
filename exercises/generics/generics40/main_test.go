@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Pair{1, "a"} не компилируется: для составных литералов аргументы типа
-// не выводятся.
-// Тренирует: инстанциация типа указывается явно или через функцию-конструктор.
-// Сложность: hard
+// Pair{1, "a"} does not compile: type arguments are not inferred for
+// composite literals.
+// An instantiation is written out explicitly, or comes from a constructor function.
 package main_test
 
 import "testing"

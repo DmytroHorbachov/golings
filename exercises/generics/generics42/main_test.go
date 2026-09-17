@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Values возвращает значения map в виде среза.
-// Тренирует: обобщённые map.
-// Сложность: easy
+// Values returns the values of a map as a slice.
+// Practices generic maps.
 package main_test
 
 import (

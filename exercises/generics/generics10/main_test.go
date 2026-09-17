@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Filter оставляет элементы, удовлетворяющие предикату.
-// Тренирует: обобщённые функции высшего порядка.
-// Сложность: easy
+// Filter keeps the elements satisfying a predicate.
+// Practices generic higher order functions.
 package main_test
 
 import (

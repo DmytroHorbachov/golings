@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Ptr возвращает указатель на копию переданного значения.
-// Тренирует: обобщённые вспомогательные функции.
-// Сложность: easy
+// Ptr returns a pointer to a copy of the value it is given.
+// Practices generic helper functions.
 package main_test
 
 import "testing"

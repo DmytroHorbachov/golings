@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Mean возвращает среднее значение среза как float64 и false для пустого среза.
-// Тренирует: преобразование T во float64.
-// Сложность: medium
+// Mean returns the average of a slice as a float64, and false for an empty slice.
+// Practices converting a T to float64.
 package main_test
 
 import "testing"

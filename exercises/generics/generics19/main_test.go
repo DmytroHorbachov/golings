@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Range генерирует значения от start до end (не включая) с шагом step
-// для любого числового типа.
-// Тренирует: арифметику в обобщённых функциях.
-// Сложность: medium
+// Range produces the values from start up to but not including end, stepping by step,
+// for any numeric type.
+// Practices arithmetic in generic functions.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Contains проверяет наличие элемента в срезе.
-// Код не компилируется: для == нужен другой ограничитель.
-// Тренирует: ограничение comparable.
-// Сложность: easy
+// Contains checks whether an element is in a slice.
+// The code does not compile: == calls for another constraint.
+// Practices the comparable constraint.
 package main_test
 
 import "testing"

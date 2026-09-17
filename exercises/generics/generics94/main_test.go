@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Partition делит срез на два по предикату.
-// Тренирует: обобщённые множественные результаты.
-// Сложность: medium
+// Partition splits a slice in two by a predicate.
+// Practices generic multiple results.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Pair[K, V] хранит ключ и значение; Swap меняет их местами.
-// Тренирует: обобщённую структуру с двумя параметрами.
-// Сложность: easy
+// Pair[K, V] holds a key and a value; Swap exchanges them.
+// Practices a generic struct with two parameters.
 package main_test
 
 import "testing"

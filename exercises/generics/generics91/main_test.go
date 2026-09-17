@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Optional[T] хранит значение и признак наличия.
-// Тренирует: обобщённые структуры с конструктором.
-// Сложность: easy
+// Optional[T] holds a value along with a flag saying whether it is there.
+// Practices generic structs with a constructor.
 package main_test
 
 import "testing"

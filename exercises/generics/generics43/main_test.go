@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// BinarySearch ищет элемент в отсортированном срезе любого упорядочиваемого типа.
-// Тренирует: обобщённые алгоритмы.
-// Сложность: medium
+// BinarySearch looks an element up in a sorted slice of any ordered type.
+// Practices generic algorithms.
 package main_test
 
 import "testing"

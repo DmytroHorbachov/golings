@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// JoinAll вызывает String у всех элементов. Для []Point код не компилируется:
-// String объявлен на *Point, и Point не удовлетворяет ограничению.
-// Тренирует: набор методов типа-аргумента должен содержать методы ограничения.
-// Сложность: hard
+// JoinAll calls String on every element. For a []Point the code does not compile:
+// String is declared on *Point, so Point does not satisfy the constraint.
+// The method set of the type argument has to hold the methods of the constraint.
 package main_test
 
 import (

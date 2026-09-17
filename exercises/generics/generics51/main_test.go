@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// MapOpt преобразует значение Optional, сохраняя отсутствие значения.
-// Тренирует: обобщённые функции над обобщёнными типами.
-// Сложность: medium
+// MapOpt transforms an Optional value while keeping the absence of a value.
+// Practices generic functions over generic types.
 package main_test
 
 import (

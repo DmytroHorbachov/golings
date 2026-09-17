@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Reverse возвращает новый срез в обратном порядке.
-// Тренирует: обобщённые функции над срезами.
-// Сложность: easy
+// Reverse returns a new slice in reverse order.
+// Practices generic functions over slices.
 package main_test
 
 import (

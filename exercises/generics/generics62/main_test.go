@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Last[S []E, E any] не принимает именованный тип среза.
-// Код не компилируется при вызове с Stack.
-// Тренирует: []E в ограничении без ~ соответствует только самому []E.
-// Сложность: hard
+// Last[S []E, E any] does not accept a named slice type.
+// The code does not compile when called with a Stack.
+// []E in a constraint without a ~ matches only []E itself.
 package main_test
 
 import "testing"

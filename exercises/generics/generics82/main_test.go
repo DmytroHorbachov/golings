@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// ParseAll создаёт значения типа T и вызывает у них метод Set с получателем-указателем.
-// Код не компилируется: у T нет метода Set, он есть только у *T.
-// Тренирует: паттерн ограничения «указатель на T с методом».
-// Сложность: hard
+// ParseAll builds values of type T and calls their Set method, which has a pointer receiver.
+// The code does not compile: T has no Set method, only *T does.
+// Practices the "pointer to T with a method" constraint pattern.
 package main_test
 
 import (

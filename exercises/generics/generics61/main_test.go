@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Reduce сворачивает срез в одно значение, начиная с init.
-// Тренирует: параметры типа для элемента и аккумулятора.
-// Сложность: easy
+// Reduce folds a slice into one value, starting from init.
+// Practices type parameters for the element and the accumulator.
 package main_test
 
 import "testing"

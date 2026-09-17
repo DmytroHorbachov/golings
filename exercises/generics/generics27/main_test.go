@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Find возвращает первый элемент, удовлетворяющий условию, и признак.
-// Тренирует: обобщённый поиск.
-// Сложность: easy
+// Find returns the first element satisfying a condition, along with a flag.
+// Practices a generic search.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// activeNames возвращает имена активных пользователей в верхнем регистре,
-// используя обобщённые Filter и Map.
-// Тренирует: композицию обобщённых функций с выводом типов.
-// Сложность: medium
+// activeNames returns the names of the active users in upper case,
+// using the generic Filter and Map.
+// Practices composing generic functions with type inference.
 package main_test
 
 import (

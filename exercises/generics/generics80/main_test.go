@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Percent вычисляет долю part от whole в процентах с дробной частью.
-// Для целых типов дробная часть теряется.
-// Тренирует: операции над T выполняются в типе T.
-// Сложность: hard
+// Percent computes part as a percentage of whole, decimals included.
+// For integer types the fractional part is lost.
+// Operations on a T happen in the type T.
 package main_test
 
 import "testing"

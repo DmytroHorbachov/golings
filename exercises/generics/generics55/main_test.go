@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Result[T] хранит значение или ошибку; Map применяет функцию, только если ошибки нет.
-// Тренирует: обобщённые типы-обёртки.
-// Сложность: medium
+// Result[T] holds a value or an error; Map applies a function only when there is no error.
+// Practices generic wrapper types.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Negate возвращает -v, но в ограничение попали беззнаковые типы.
-// Код не компилируется.
-// Тренирует: -1 не представимо в uint, поэтому операции со знаком требуют знаковых типов.
-// Сложность: hard
+// Negate returns -v, and the constraint lists unsigned types.
+// The code does not compile.
+// -1 cannot be represented in a uint, so signed arithmetic calls for signed types.
 package main_test
 
 import "testing"

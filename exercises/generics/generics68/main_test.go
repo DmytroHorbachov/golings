@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Chunk делит срез любого типа на части размера n.
-// Тренирует: обобщённые срезы срезов.
-// Сложность: medium
+// Chunk splits a slice of any type into parts of size n.
+// Practices generic slices of slices.
 package main_test
 
 import (

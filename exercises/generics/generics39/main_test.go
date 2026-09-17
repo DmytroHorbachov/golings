@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// CountIf считает элементы, удовлетворяющие условию.
-// Тренирует: обобщённый предикат.
-// Сложность: easy
+// CountIf counts the elements satisfying a condition.
+// Practices a generic predicate.
 package main_test
 
 import "testing"

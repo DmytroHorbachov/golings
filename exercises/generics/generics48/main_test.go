@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Union и Intersect работают с обобщёнными множествами.
-// Тренирует: обобщённые функции над Set[T].
-// Сложность: medium
+// Union and Intersect work on generic sets.
+// Practices generic functions over a Set[T].
 package main_test
 
 import "testing"

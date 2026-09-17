@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Box[T] хранит значение; Get его возвращает.
-// Тренирует: методы обобщённого типа.
-// Сложность: easy
+// Box[T] holds a value, and Get returns it.
+// Practices methods on a generic type.
 package main_test
 
 import "testing"

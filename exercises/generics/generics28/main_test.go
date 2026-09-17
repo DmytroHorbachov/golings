@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Flatten превращает [][]T в []T.
-// Тренирует: обобщённые вложенные срезы.
-// Сложность: medium
+// Flatten turns a [][]T into a []T.
+// Practices generic nested slices.
 package main_test
 
 import (

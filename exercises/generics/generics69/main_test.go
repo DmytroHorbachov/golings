@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Abs возвращает модуль числа любого знакового типа.
-// Тренирует: ограничение на знаковые числа.
-// Сложность: easy
+// Abs returns the absolute value of a number of any signed type.
+// Practices a constraint over signed numbers.
 package main_test
 
 import "testing"

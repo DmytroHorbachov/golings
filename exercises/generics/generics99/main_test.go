@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// MinMaxBy возвращает элементы с минимальным и максимальным ключом.
-// Тренирует: обобщённая функция с функцией-ключом и ограничением Ordered.
-// Сложность: medium
+// MinMaxBy returns the elements with the smallest and the largest key.
+// Practices a generic function with a key function and an Ordered constraint.
 package main_test
 
 import "testing"

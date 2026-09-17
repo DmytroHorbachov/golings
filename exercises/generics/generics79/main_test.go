@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Min возвращает меньшее из значений.
-// Тренирует: обобщённые функции с ограничением.
-// Сложность: easy
+// Min returns the smaller of the values.
+// Practices generic functions with a constraint.
 package main_test
 
 import "testing"

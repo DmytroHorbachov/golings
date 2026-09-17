@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Remove удаляет из среза все элементы, равные x. Код не компилируется.
-// Тренирует: any не гарантирует поддержку ==.
-// Сложность: hard
+// Remove drops every element equal to x from a slice. The code does not compile.
+// any does not guarantee that == works.
 package main_test
 
 import (

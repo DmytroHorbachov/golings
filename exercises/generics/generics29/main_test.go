@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Box[int] и Box[int64] — разные типы. Код не компилируется при присваивании.
-// Тренирует: инстанциации обобщённого типа несовместимы между собой.
-// Сложность: hard
+// Box[int] and Box[int64] are different types. The assignment does not compile.
+// Instantiations of a generic type are not compatible with each other.
 package main_test
 
 import "testing"

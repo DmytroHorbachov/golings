@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// NewAll создаёт n «сбрасываемых» объектов типа T. Для T = *Buffer
-// нулевое значение — nil, и вызов Reset паникует.
-// Тренирует: нулевое значение типа-указателя не является готовым объектом.
-// Сложность: hard
+// NewAll builds n resettable objects of type T. For T = *Buffer
+// the zero value is nil, and calling Reset panics.
+// The zero value of a pointer type is not a ready object.
 package main_test
 
 import "testing"

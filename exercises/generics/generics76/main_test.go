@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Node[T] ссылается на себя, но без аргумента типа. Код не компилируется.
-// Тренирует: внутри обобщённого типа ссылка на него требует [T].
-// Сложность: hard
+// Node[T] refers to itself, and without a type argument. The code does not compile.
+// Inside a generic type a reference to it needs the [T].
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Ring[T] хранит последние n значений; Items возвращает их от старых к новым.
-// Тренирует: обобщённый тип с фиксированной ёмкостью.
-// Сложность: medium
+// Ring[T] keeps the last n values; Items returns them from the oldest to the newest.
+// Practices a generic type with a fixed capacity.
 package main_test
 
 import (

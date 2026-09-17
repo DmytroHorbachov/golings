@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// AddMatrix складывает две матрицы любого числового типа.
-// Тренирует: обобщённые двумерные срезы.
-// Сложность: medium
+// AddMatrix adds two matrices of any numeric type.
+// Practices generic two dimensional slices.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Cache[K, V] хранит не больше cap элементов и при переполнении удаляет
-// самый старый ключ (FIFO).
-// Тренирует: обобщённый тип с map и срезом порядка.
-// Сложность: medium
+// Cache[K, V] holds no more than cap entries and drops the oldest key
+// when it is full (FIFO).
+// Practices a generic type with a map and a slice for the order.
 package main_test
 
 import "testing"

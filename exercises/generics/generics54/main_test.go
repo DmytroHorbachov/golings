@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Total суммирует значения; при вызове с []int8 сумма переполняется.
-// Тренирует: арифметика в обобщённом коде выполняется в типе аргумента.
-// Сложность: hard
+// Total adds up values; called on a []int8 the sum overflows.
+// Arithmetic in generic code happens in the type of the argument.
 package main_test
 
 import "testing"

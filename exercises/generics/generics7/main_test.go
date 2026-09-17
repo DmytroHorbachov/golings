@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Clear заменяет все элементы среза нулевыми значениями их типа.
-// Тренирует: var zero T.
-// Сложность: easy
+// Clear replaces every element of a slice with the zero value of its type.
+// Practices var zero T.
 package main_test
 
 import "testing"

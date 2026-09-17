@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Stack[T] хранит элементы любого типа; Pop возвращает последний.
-// Тренирует: обобщённые типы и методы.
-// Сложность: easy
+// Stack[T] holds elements of any type; Pop returns the last one.
+// Practices generic types and methods.
 package main_test
 
 import "testing"

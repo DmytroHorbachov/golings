@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Repeat возвращает срез из n копий значения.
-// Тренирует: make со срезом параметризованного типа.
-// Сложность: easy
+// Repeat returns a slice of n copies of a value.
+// Practices make with a slice of a parameterized type.
 package main_test
 
 import (

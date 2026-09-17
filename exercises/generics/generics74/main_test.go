@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Parse[T] создаёт значение нужного типа из строки. Вызов без аргумента типа
-// не компилируется: компилятор не выводит T по возвращаемому значению.
-// Тренирует: вывод типов работает только по аргументам.
-// Сложность: hard
+// Parse[T] builds a value of the wanted type from a string. A call without a type
+// argument does not compile: the compiler does not infer T from the result.
+// Inference works from the arguments only.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Keys возвращает ключи любой map.
-// Тренирует: параметры K comparable и V any.
-// Сложность: easy
+// Keys returns the keys of any map.
+// Practices a comparable K and an any V.
 package main_test
 
 import (

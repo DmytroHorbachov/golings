@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// IsNil должна возвращать true и для nil-указателя любого типа.
-// any(v) == nil не срабатывает для nil-указателя.
-// Тренирует: интерфейс с типизированным nil не равен nil.
-// Сложность: hard
+// IsNil has to return true for a nil pointer of any type as well.
+// any(v) == nil does not match for a nil pointer.
+// An interface holding a typed nil is not nil.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Container[T].Format должен форматировать int-значения особым образом.
-// Код не компилируется: нельзя объявить метод только для Container[int].
-// Тренирует: методы объявляются для всех инстанциаций сразу.
-// Сложность: hard
+// Container[T].Format has to print int values in a special way.
+// The code does not compile: a method cannot be declared for Container[int] alone.
+// Methods are declared for every instantiation at once.
 package main_test
 
 import (

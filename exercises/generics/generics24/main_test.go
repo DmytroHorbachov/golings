@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// OrDefault возвращает def, если v равно нулевому значению типа.
-// Тренирует: сравнение с нулевым значением через comparable.
-// Сложность: easy
+// OrDefault returns def when v equals the zero value of its type.
+// Practices comparing with the zero value through comparable.
 package main_test
 
 import "testing"

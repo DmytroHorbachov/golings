@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Equal сравнивает два среза поэлементно.
-// Тренирует: comparable в обобщённом сравнении.
-// Сложность: easy
+// Equal compares two slices element by element.
+// Practices comparable in a generic comparison.
 package main_test
 
 import "testing"

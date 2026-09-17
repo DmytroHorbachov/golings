@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Last возвращает последний элемент и признак успеха.
-// Тренирует: обобщённый результат (T, bool).
-// Сложность: easy
+// Last returns the final element along with a success flag.
+// Practices a generic (T, bool) result.
 package main_test
 
 import "testing"

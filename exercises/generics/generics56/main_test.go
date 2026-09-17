@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Filter возвращает []T, и результат теряет методы именованного типа Names.
-// Код не компилируется: у []string нет метода Join.
-// Тренирует: паттерн S ~[]E сохраняет тип среза.
-// Сложность: hard
+// Filter returns a []T, and the result loses the methods of the named type Names.
+// The code does not compile: a []string has no Join method.
+// The S ~[]E pattern keeps the slice type.
 package main_test
 
 import (

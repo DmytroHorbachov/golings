@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// UniqBy оставляет первый элемент для каждого значения ключа.
-// Тренирует: обобщённые T и K comparable.
-// Сложность: medium
+// UniqBy keeps the first element for every key value.
+// Practices a generic T with a comparable K.
 package main_test
 
 import (
