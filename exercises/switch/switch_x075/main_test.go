@@ -1,0 +1,32 @@
+// switch_x075: Перекрывающиеся диапазоны
+// Make the tests pass!
+// I AM NOT DONE
+//
+// shirtSize: до 90 см — "S", до 100 — "M", до 110 — "L", иначе "XL".
+// Ветки перекрываются, и первая «съедает» остальные.
+// Тренирует: в switch выполняется первая подходящая ветка.
+// Сложность: hard
+package main_test
+
+import "testing"
+
+func shirtSize(chest int) string {
+	switch {
+	case chest < 110:
+		return "L"
+	case chest < 100:
+		return "M"
+	case chest < 90:
+		return "S"
+	}
+	return "XL"
+}
+
+func TestShirtSize(t *testing.T) {
+	cases := map[int]string{85: "S", 90: "M", 99: "M", 105: "L", 110: "XL"}
+	for in, want := range cases {
+		if got := shirtSize(in); got != want {
+			t.Errorf("shirtSize(%d) = %s, want %s", in, got, want)
+		}
+	}
+}

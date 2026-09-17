@@ -1,0 +1,33 @@
+// switch_x006: Тип значения
+// Make the tests pass!
+// I AM NOT DONE
+//
+// kind возвращает "int", "string" или "other" в зависимости от динамического типа.
+// Тренирует: type switch.
+// Сложность: easy
+package main_test
+
+import "testing"
+
+func kind(v interface{}) string {
+	switch v.(type) {
+	case int:
+		return "int"
+	case []byte:
+		return "string"
+	default:
+		return "other"
+	}
+}
+
+func TestKind(t *testing.T) {
+	cases := []struct {
+		in   interface{}
+		want string
+	}{{1, "int"}, {"go", "string"}, {1.5, "other"}, {[]byte("x"), "other"}}
+	for _, c := range cases {
+		if got := kind(c.in); got != c.want {
+			t.Errorf("kind(%v) = %s, want %s", c.in, got, c.want)
+		}
+	}
+}

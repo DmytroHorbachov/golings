@@ -2663,3 +2663,763 @@ mode = "test"
 hint = """
 == сравнивает и момент, и часовой пояс (и монотонные часы).
 Для сравнения моментов у time.Time есть специальный метод."""
+
+# ===== generated exercises: switch =====
+[[exercises]]
+name = "switch_x012"
+path = "exercises/switch/switch_x012/main_test.go"
+mode = "test"
+hint = """
+Сопоставьте константы и возвращаемые строки."""
+
+[[exercises]]
+name = "switch_x057"
+path = "exercises/switch/switch_x057/main_test.go"
+mode = "test"
+hint = """
+Открывающие скобки кладите на стек. Для закрывающей проверьте,
+что стек не пуст и сверху лежит парная открывающая. В конце стек пуст."""
+
+[[exercises]]
+name = "switch_x099"
+path = "exercises/switch/switch_x099/main_test.go"
+mode = "test"
+hint = """
+TrimRight(s, "\n") оставляет "\r" в конце строки.
+Уберите все пробельные символы по краям."""
+
+[[exercises]]
+name = "switch_x073"
+path = "exercises/switch/switch_x073/main_test.go"
+mode = "test"
+hint = """
+Арифметика с interface{} невозможна. Разнесите int и float64
+по отдельным веткам — тогда v получит конкретный тип."""
+
+[[exercises]]
+name = "switch_x044"
+path = "exercises/switch/switch_x044/main_test.go"
+mode = "test"
+hint = """
+Клавиша и соответствующая стрелка должны быть в одной ветке.
+Вверх — это dy = -1."""
+
+[[exercises]]
+name = "switch_x042"
+path = "exercises/switch/switch_x042/main_test.go"
+mode = "test"
+hint = """
+Ключ собирается как "METHOD path". Проверьте, что метод и путь
+в каждом case совпадают с ожидаемыми, и что остальное даёт "notFound"."""
+
+[[exercises]]
+name = "switch_x075"
+path = "exercises/switch/switch_x075/main_test.go"
+mode = "test"
+hint = """
+Условие n < 110 истинно и для 85. Упорядочьте ветки от самой узкой
+границы к самой широкой."""
+
+[[exercises]]
+name = "switch_x069"
+path = "exercises/switch/switch_x069/main_test.go"
+mode = "test"
+hint = """
+fallthrough безусловно выполняет тело следующего case. Здесь ветки
+должны быть независимыми — уберите fallthrough."""
+
+[[exercises]]
+name = "switch_x006"
+path = "exercises/switch/switch_x006/main_test.go"
+mode = "test"
+hint = """
+В type switch в case указываются типы. Сверьте тип во второй ветке."""
+
+[[exercises]]
+name = "switch_x093"
+path = "exercises/switch/switch_x093/main_test.go"
+mode = "test"
+hint = """
+Переведите номинал в целые центы с округлением (math.Round)
+и делайте switch по целому числу."""
+
+[[exercises]]
+name = "switch_x054"
+path = "exercises/switch/switch_x054/main_test.go"
+mode = "test"
+hint = """
+Каждая ветка должна соответствовать своему отношению между a и b."""
+
+[[exercises]]
+name = "switch_x047"
+path = "exercises/switch/switch_x047/main_test.go"
+mode = "test"
+hint = """
+Порядок важен: гласные — тоже буквы, поэтому проверяйте их раньше
+согласных. Цифры и прочее — отдельные ветки."""
+
+[[exercises]]
+name = "switch_x007"
+path = "exercises/switch/switch_x007/main_test.go"
+mode = "test"
+hint = """
+Проверьте тело ветки для деления."""
+
+[[exercises]]
+name = "switch_x090"
+path = "exercises/switch/switch_x090/main_test.go"
+mode = "test"
+hint = """
+Объявите переменную результата до switch, а в ветках только присваивайте её."""
+
+[[exercises]]
+name = "switch_x074"
+path = "exercises/switch/switch_x074/main_test.go"
+mode = "test"
+hint = """
+Case fmt.Stringer подходит любому типу с методом String, включая Money.
+Более конкретный тип нужно проверять раньше."""
+
+[[exercises]]
+name = "switch_x062"
+path = "exercises/switch/switch_x062/main_test.go"
+mode = "test"
+hint = """
+Добавьте недостающие баллы и обработайте некорректные значения."""
+
+[[exercises]]
+name = "switch_x087"
+path = "exercises/switch/switch_x087/main_test.go"
+mode = "test"
+hint = """
+Если конкретное значение не нужно, используйте форму switch x.(type)
+без объявления переменной."""
+
+[[exercises]]
+name = "switch_x021"
+path = "exercises/switch/switch_x021/main_test.go"
+mode = "test"
+hint = """
+Проверьте действие для жёлтого сигнала."""
+
+[[exercises]]
+name = "switch_x077"
+path = "exercises/switch/switch_x077/main_test.go"
+mode = "test"
+hint = """
+Сравнение с NaN всегда ложно. Используйте switch без тега
+и проверку math.IsNaN в первой ветке."""
+
+[[exercises]]
+name = "switch_x082"
+path = "exercises/switch/switch_x082/main_test.go"
+mode = "test"
+hint = """
+Используйте switch без тега и errors.Is в каждой ветке."""
+
+[[exercises]]
+name = "switch_x048"
+path = "exercises/switch/switch_x048/main_test.go"
+mode = "test"
+hint = """
+Приведите n к диапазону 0..6 с учётом отрицательных чисел,
+а уже затем выбирайте ветку."""
+
+[[exercises]]
+name = "switch_x068"
+path = "exercises/switch/switch_x068/main_test.go"
+mode = "test"
+hint = """
+Чтобы выйти из цикла из-под switch, используйте метку на цикле
+и break с этой меткой (или return)."""
+
+[[exercises]]
+name = "switch_x072"
+path = "exercises/switch/switch_x072/main_test.go"
+mode = "test"
+hint = """
+switch n { case n < 0: } сравнивает int с bool.
+Уберите тег, чтобы каждый case был самостоятельным условием."""
+
+[[exercises]]
+name = "switch_x070"
+path = "exercises/switch/switch_x070/main_test.go"
+mode = "test"
+hint = """
+В type switch нельзя использовать fallthrough.
+Объедините типы в одном case через запятую."""
+
+[[exercises]]
+name = "switch_x013"
+path = "exercises/switch/switch_x013/main_test.go"
+mode = "test"
+hint = """
+Компилятор сообщает "duplicate case". Какой размер пропущен?"""
+
+[[exercises]]
+name = "switch_x083"
+path = "exercises/switch/switch_x083/main_test.go"
+mode = "test"
+hint = """
+Динамический тип значения — *Circle, поэтому case Circle не подходит.
+Укажите типы-указатели в case."""
+
+[[exercises]]
+name = "switch_x003"
+path = "exercises/switch/switch_x003/main_test.go"
+mode = "test"
+hint = """
+default выполняется, когда ни одна ветка не подошла.
+Проверьте, что она возвращает."""
+
+[[exercises]]
+name = "switch_x014"
+path = "exercises/switch/switch_x014/main_test.go"
+mode = "test"
+hint = """
+Проверьте диапазон в ветке для букв: нужны и строчные, и заглавные."""
+
+[[exercises]]
+name = "switch_x096"
+path = "exercises/switch/switch_x096/main_test.go"
+mode = "test"
+hint = """
+Структура со срезом не поддерживает ==. Замените срез в ключе
+сравнимым значением, например строкой."""
+
+[[exercises]]
+name = "switch_x032"
+path = "exercises/switch/switch_x032/main_test.go"
+mode = "test"
+hint = """
+В type switch можно написать case nil — он срабатывает для пустого интерфейса."""
+
+[[exercises]]
+name = "switch_x094"
+path = "exercises/switch/switch_x094/main_test.go"
+mode = "test"
+hint = """
+После strings.ToLower тег никогда не будет равен "Yes" или "NO".
+Приведите литералы в case к той же форме."""
+
+[[exercises]]
+name = "switch_x097"
+path = "exercises/switch/switch_x097/main_test.go"
+mode = "test"
+hint = """
+Если prev == "exit", ветка case prev сработает раньше ветки "exit".
+Поставьте проверку константы выше проверки переменной."""
+
+[[exercises]]
+name = "switch_x050"
+path = "exercises/switch/switch_x050/main_test.go"
+mode = "test"
+hint = """
+Для оператора снимите два верхних значения: сначала правый операнд,
+затем левый. Результат положите обратно. Числа просто кладите на стек."""
+
+[[exercises]]
+name = "switch_x076"
+path = "exercises/switch/switch_x076/main_test.go"
+mode = "test"
+hint = """
+Инициализатор switch kind := ... создаёт новую kind, скрывающую результат.
+Голый return возвращает внешнюю, неизменённую переменную. Используйте =."""
+
+[[exercises]]
+name = "switch_x033"
+path = "exercises/switch/switch_x033/main_test.go"
+mode = "test"
+hint = """
+Роль root имеет те же права, что и admin."""
+
+[[exercises]]
+name = "switch_x091"
+path = "exercises/switch/switch_x091/main_test.go"
+mode = "test"
+hint = """
+Нулевое значение поля Status совпадает с первой константой iota.
+Сдвиньте нумерацию, чтобы 0 не соответствовал ни одному реальному статусу."""
+
+[[exercises]]
+name = "switch_x071"
+path = "exercises/switch/switch_x071/main_test.go"
+mode = "test"
+hint = """
+Из последней ветки некуда «проваливаться». Уберите лишний fallthrough."""
+
+[[exercises]]
+name = "switch_x060"
+path = "exercises/switch/switch_x060/main_test.go"
+mode = "test"
+hint = """
+Направо: N->E->S->W->N. Налево — в обратную сторону.
+Проверьте обе таблицы."""
+
+[[exercises]]
+name = "switch_x058"
+path = "exercises/switch/switch_x058/main_test.go"
+mode = "test"
+hint = """
+Для каждого исходного статуса перечислите разрешённые целевые.
+Всё, что не разрешено явно, запрещено."""
+
+[[exercises]]
+name = "switch_x022"
+path = "exercises/switch/switch_x022/main_test.go"
+mode = "test"
+hint = """
+Код 404 означает "Not Found". Проверьте, какой код стоит в этой ветке."""
+
+[[exercises]]
+name = "switch_x001"
+path = "exercises/switch/switch_x001/main_test.go"
+mode = "test"
+hint = """
+Сверьте значения в ветках case с номерами дней."""
+
+[[exercises]]
+name = "switch_x024"
+path = "exercises/switch/switch_x024/main_test.go"
+mode = "test"
+hint = """
+Проверьте выражение, по которому выполняется switch."""
+
+[[exercises]]
+name = "switch_x041"
+path = "exercises/switch/switch_x041/main_test.go"
+mode = "test"
+hint = """
+Для add нужно ровно два аргумента, для neg — один.
+При неверном числе аргументов верните ошибку."""
+
+[[exercises]]
+name = "switch_x045"
+path = "exercises/switch/switch_x045/main_test.go"
+mode = "test"
+hint = """
+Сопоставьте каждому уровню число по возрастанию важности,
+неизвестные уровни отправьте в default. Затем сравните числа."""
+
+[[exercises]]
+name = "switch_x004"
+path = "exercises/switch/switch_x004/main_test.go"
+mode = "test"
+hint = """
+Ветки проверяются по порядку. Проверьте условие для "small"."""
+
+[[exercises]]
+name = "switch_x092"
+path = "exercises/switch/switch_x092/main_test.go"
+mode = "test"
+hint = """
+Read|Write — это отдельное значение 3. Либо добавьте для него ветку,
+либо используйте switch без тега с побитовыми проверками."""
+
+[[exercises]]
+name = "switch_x064"
+path = "exercises/switch/switch_x064/main_test.go"
+mode = "test"
+hint = """
+Сначала отсеките некорректные значения, затем проверьте диапазоны по порядку."""
+
+[[exercises]]
+name = "switch_x055"
+path = "exercises/switch/switch_x055/main_test.go"
+mode = "test"
+hint = """
+Внутри ветки "food" нужен собственный switch по подкатегории.
+Проверьте ставку для книг."""
+
+[[exercises]]
+name = "switch_x029"
+path = "exercises/switch/switch_x029/main_test.go"
+mode = "test"
+hint = """
+Шкала Кельвина сдвинута относительно Цельсия на 273.15."""
+
+[[exercises]]
+name = "switch_x065"
+path = "exercises/switch/switch_x065/main_test.go"
+mode = "test"
+hint = """
+Бит 4 — чтение, 2 — запись, 1 — выполнение. Каждый бит проверяется
+независимо, поэтому нужны три отдельных проверки, а не одна цепочка.
+Проверьте и функцию bit: какой символ она возвращает, если бит не установлен?"""
+
+[[exercises]]
+name = "switch_x061"
+path = "exercises/switch/switch_x061/main_test.go"
+mode = "test"
+hint = """
+Сверьте списки и ставки с условием."""
+
+[[exercises]]
+name = "switch_x010"
+path = "exercises/switch/switch_x010/main_test.go"
+mode = "test"
+hint = """
+Проверьте пару для направления "E"."""
+
+[[exercises]]
+name = "switch_x008"
+path = "exercises/switch/switch_x008/main_test.go"
+mode = "test"
+hint = """
+В switch можно сначала вычислить значение: switch ext := ...; ext { }.
+Проверьте, какое значение сопоставляется с ".json"."""
+
+[[exercises]]
+name = "switch_x053"
+path = "exercises/switch/switch_x053/main_test.go"
+mode = "test"
+hint = """
+Число — всё, кроме последнего символа. Множитель зависит от суффикса:
+s — 1, m — 60, h — 3600. Неизвестный суффикс — ошибка."""
+
+[[exercises]]
+name = "switch_x009"
+path = "exercises/switch/switch_x009/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение, возвращаемое для оценки B."""
+
+[[exercises]]
+name = "switch_x059"
+path = "exercises/switch/switch_x059/main_test.go"
+mode = "test"
+hint = """
+Проверяйте сначала пустую строку, затем ключевые слова, затем числа.
+Число — непустая строка только из цифр."""
+
+[[exercises]]
+name = "switch_x100"
+path = "exercises/switch/switch_x100/main_test.go"
+mode = "test"
+hint = """
+После break выполнение продолжается после switch — в том же теле цикла.
+Чтобы перейти к следующей строке, нужен continue."""
+
+[[exercises]]
+name = "switch_x067"
+path = "exercises/switch/switch_x067/main_test.go"
+mode = "test"
+hint = """
+У полиции приоритет зависит от сирены — проверьте это внутри ветки.
+Сверьте список спецслужб с высшим приоритетом."""
+
+[[exercises]]
+name = "switch_x049"
+path = "exercises/switch/switch_x049/main_test.go"
+mode = "test"
+hint = """
+Для групп image/* и text/* проверяйте префикс, для JSON — точное
+значение или суффикс +json. Проверьте порядок и условия."""
+
+[[exercises]]
+name = "switch_x051"
+path = "exercises/switch/switch_x051/main_test.go"
+mode = "test"
+hint = """
+Для каждой группы символов значение считается как смещение от начала
+группы. Буквы a–f и A–F означают 10–15."""
+
+[[exercises]]
+name = "switch_x088"
+path = "exercises/switch/switch_x088/main_test.go"
+mode = "test"
+hint = """
+Значение (*User)(nil) имеет динамический тип *User.
+Проверьте значение на nil внутри ветки *User."""
+
+[[exercises]]
+name = "switch_x020"
+path = "exercises/switch/switch_x020/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какие константы time.Weekday перечислены в case."""
+
+[[exercises]]
+name = "switch_x031"
+path = "exercises/switch/switch_x031/main_test.go"
+mode = "test"
+hint = """
+Земля — третья планета от Солнца."""
+
+[[exercises]]
+name = "switch_x052"
+path = "exercises/switch/switch_x052/main_test.go"
+mode = "test"
+hint = """
+Пустой код нужно обработать отдельной веткой с ошибкой.
+Проверьте списки стран."""
+
+[[exercises]]
+name = "switch_x080"
+path = "exercises/switch/switch_x080/main_test.go"
+mode = "test"
+hint = """
+Пустая ветка case "sat": ничего не делает и завершает switch.
+Перечислите значения через запятую в одной ветке."""
+
+[[exercises]]
+name = "switch_x056"
+path = "exercises/switch/switch_x056/main_test.go"
+mode = "test"
+hint = """
+У доллара знак стоит перед числом, у евро и рубля — после, через пробел.
+Для неизвестных валют выводится сам код."""
+
+[[exercises]]
+name = "switch_x040"
+path = "exercises/switch/switch_x040/main_test.go"
+mode = "test"
+hint = """
+Если значение текущей цифры меньше следующей, его нужно вычесть.
+Проверьте также значения в switch."""
+
+[[exercises]]
+name = "switch_x005"
+path = "exercises/switch/switch_x005/main_test.go"
+mode = "test"
+hint = """
+Посмотрите, какие дни перечислены в ветке, возвращающей true."""
+
+[[exercises]]
+name = "switch_x028"
+path = "exercises/switch/switch_x028/main_test.go"
+mode = "test"
+hint = """
+Проверьте метку в ветке, возвращающей 2."""
+
+[[exercises]]
+name = "switch_x011"
+path = "exercises/switch/switch_x011/main_test.go"
+mode = "test"
+hint = """
+Сверьте значение цифры L."""
+
+[[exercises]]
+name = "switch_x078"
+path = "exercises/switch/switch_x078/main_test.go"
+mode = "test"
+hint = """
+Каждое next() извлекает новый токен. Прочитайте токен один раз
+и сделайте его тегом switch."""
+
+[[exercises]]
+name = "switch_x081"
+path = "exercises/switch/switch_x081/main_test.go"
+mode = "test"
+hint = """
+Чтобы найти ошибку нужного типа внутри цепочки, используйте errors.As."""
+
+[[exercises]]
+name = "switch_x002"
+path = "exercises/switch/switch_x002/main_test.go"
+mode = "test"
+hint = """
+В case можно перечислить значения через запятую. Какой гласной не хватает?"""
+
+[[exercises]]
+name = "switch_x039"
+path = "exercises/switch/switch_x039/main_test.go"
+mode = "test"
+hint = """
+Для десятки добавьте проверку баланса внутри ветки.
+Неизвестные монеты не должны менять баланс."""
+
+[[exercises]]
+name = "switch_x089"
+path = "exercises/switch/switch_x089/main_test.go"
+mode = "test"
+hint = """
+Первый символ нужно получить как руну, например через []rune(s)[0]
+или utf8.DecodeRuneInString. Не забудьте про пустую строку."""
+
+[[exercises]]
+name = "switch_x079"
+path = "exercises/switch/switch_x079/main_test.go"
+mode = "test"
+hint = """
+switch v { case 1: } совпадёт только с int(1). Используйте type switch
+и проверяйте значение внутри каждой ветки."""
+
+[[exercises]]
+name = "switch_x038"
+path = "exercises/switch/switch_x038/main_test.go"
+mode = "test"
+hint = """
+Каждое время года — это три месяца. Декабрь относится к зиме.
+Проверьте все списки и ветку для некорректных месяцев."""
+
+[[exercises]]
+name = "switch_x023"
+path = "exercises/switch/switch_x023/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие второй ветки."""
+
+[[exercises]]
+name = "switch_x098"
+path = "exercises/switch/switch_x098/main_test.go"
+mode = "test"
+hint = """
+Именованный тип отличается от базового. Добавьте ID в список типов."""
+
+[[exercises]]
+name = "switch_x086"
+path = "exercises/switch/switch_x086/main_test.go"
+mode = "test"
+hint = """
+Проваливание в следующую ветку не происходит само собой.
+Проверьте, в какой ветке пропущен fallthrough."""
+
+[[exercises]]
+name = "switch_x026"
+path = "exercises/switch/switch_x026/main_test.go"
+mode = "test"
+hint = """
+Сверьте приветствие для "es"."""
+
+[[exercises]]
+name = "switch_x036"
+path = "exercises/switch/switch_x036/main_test.go"
+mode = "test"
+hint = """
+В ветке деления сначала проверьте делитель. Неизвестные операторы
+должны попадать в default и возвращать ошибку."""
+
+[[exercises]]
+name = "switch_x016"
+path = "exercises/switch/switch_x016/main_test.go"
+mode = "test"
+hint = """
+Конь и слон стоят одинаково — перечислите их в одном case."""
+
+[[exercises]]
+name = "switch_x063"
+path = "exercises/switch/switch_x063/main_test.go"
+mode = "test"
+hint = """
+ИМТ = вес / (рост в метрах)². Проверьте формулу и порядок веток."""
+
+[[exercises]]
+name = "switch_x037"
+path = "exercises/switch/switch_x037/main_test.go"
+mode = "test"
+hint = """
+В форме switch v := x.(type) внутри каждой ветки v имеет тип этой ветки.
+Добавьте недостающую ветку и проверьте форматирование строк."""
+
+[[exercises]]
+name = "switch_x043"
+path = "exercises/switch/switch_x043/main_test.go"
+mode = "test"
+hint = """
+Структуры сравниваются поле за полем. Перечислите все выигрышные пары
+для первого игрока в одной ветке, а ничью обработайте до switch."""
+
+[[exercises]]
+name = "switch_x030"
+path = "exercises/switch/switch_x030/main_test.go"
+mode = "test"
+hint = """
+Проверьте символ для пик ('S')."""
+
+[[exercises]]
+name = "switch_x035"
+path = "exercises/switch/switch_x035/main_test.go"
+mode = "test"
+hint = """
+Каждое состояние должно переходить ровно в следующее по цепочке.
+Для конечного и неизвестного состояния верните ошибку."""
+
+[[exercises]]
+name = "switch_x019"
+path = "exercises/switch/switch_x019/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение для запада."""
+
+[[exercises]]
+name = "switch_x025"
+path = "exercises/switch/switch_x025/main_test.go"
+mode = "test"
+hint = """
+Сравнивать удобнее уже приведённое к одному регистру значение."""
+
+[[exercises]]
+name = "switch_x015"
+path = "exercises/switch/switch_x015/main_test.go"
+mode = "test"
+hint = """
+Сколько сторон у квадрата?"""
+
+[[exercises]]
+name = "switch_x066"
+path = "exercises/switch/switch_x066/main_test.go"
+mode = "test"
+hint = """
+Посчитайте ведущие '#'. Заголовок — только если после них идёт пробел,
+а уровень не больше 3."""
+
+[[exercises]]
+name = "switch_x085"
+path = "exercises/switch/switch_x085/main_test.go"
+mode = "test"
+hint = """
+time.Saturday имеет тип time.Weekday, а тег — int.
+Преобразуйте тег к time.Weekday."""
+
+[[exercises]]
+name = "switch_x017"
+path = "exercises/switch/switch_x017/main_test.go"
+mode = "test"
+hint = """
+Сколько центов в quarter?"""
+
+[[exercises]]
+name = "switch_x034"
+path = "exercises/switch/switch_x034/main_test.go"
+mode = "test"
+hint = """
+Проверьте код зелёного цвета: зелёная компонента — средняя пара цифр."""
+
+[[exercises]]
+name = "switch_x095"
+path = "exercises/switch/switch_x095/main_test.go"
+mode = "test"
+hint = """
+Компилятор не знает, что другие значения не придут. Добавьте ветку default
+(например, возвращающую 0) или return после switch."""
+
+[[exercises]]
+name = "switch_x027"
+path = "exercises/switch/switch_x027/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие ветки, возвращающей -1."""
+
+[[exercises]]
+name = "switch_x046"
+path = "exercises/switch/switch_x046/main_test.go"
+mode = "test"
+hint = """
+Для каждого специального символа пишите двухсимвольную последовательность,
+а обычные символы копируйте как есть."""
+
+[[exercises]]
+name = "switch_x018"
+path = "exercises/switch/switch_x018/main_test.go"
+mode = "test"
+hint = """
+Проверьте порог для мегабайт: 1 MB = 1024 * 1024 байт."""
+
+[[exercises]]
+name = "switch_x084"
+path = "exercises/switch/switch_x084/main_test.go"
+mode = "test"
+hint = """
+Срезы несравнимы. Превратите их в сравнимое значение, например
+склейте ноты в строку, и сравнивайте со строками."""
