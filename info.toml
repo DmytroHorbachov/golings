@@ -1907,3 +1907,759 @@ mode = "test"
 hint = """
 Сейчас defer безусловно перезаписывает err результатом Close.
 Присваивайте ошибку закрытия, только если err ещё nil."""
+
+# ===== generated exercises: if =====
+[[exercises]]
+name = "if_x033"
+path = "exercises/if/if_x033/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение, которое возвращается для недостаточного веса."""
+
+[[exercises]]
+name = "if_x054"
+path = "exercises/if/if_x054/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте, что оба этажа в допустимом диапазоне.
+Затем сравните target с current."""
+
+[[exercises]]
+name = "if_x042"
+path = "exercises/if/if_x042/main_test.go"
+mode = "test"
+hint = """
+Сначала обработайте точки на осях. Четверти нумеруются против часовой
+стрелки, начиная с x>0, y>0."""
+
+[[exercises]]
+name = "if_x078"
+path = "exercises/if/if_x078/main_test.go"
+mode = "test"
+hint = """
+Позиция 0 — это корректное совпадение. Отсутствие обозначается -1.
+Или воспользуйтесь strings.Contains."""
+
+[[exercises]]
+name = "if_x034"
+path = "exercises/if/if_x034/main_test.go"
+mode = "test"
+hint = """
+Одиночный знак = — это присваивание, а не сравнение."""
+
+[[exercises]]
+name = "if_x083"
+path = "exercises/if/if_x083/main_test.go"
+mode = "test"
+hint = """
+!(a && b) равно !a || !b, а не !a && !b."""
+
+[[exercises]]
+name = "if_x062"
+path = "exercises/if/if_x062/main_test.go"
+mode = "test"
+hint = """
+Проверка корректности должна идти первой и возвращать ошибку.
+Сверьте границы групп."""
+
+[[exercises]]
+name = "if_x022"
+path = "exercises/if/if_x022/main_test.go"
+mode = "test"
+hint = """
+Проверьте набор символов, в котором ищется буква."""
+
+[[exercises]]
+name = "if_x085"
+path = "exercises/if/if_x085/main_test.go"
+mode = "test"
+hint = """
+Перед обращением к s[len(s)-1] убедитесь, что строка не пуста.
+Или используйте strings.HasSuffix, которая это учитывает."""
+
+[[exercises]]
+name = "if_x075"
+path = "exercises/if/if_x075/main_test.go"
+mode = "test"
+hint = """
+m[k] для отсутствующего ключа вернёт 0 — так же, как и для нулевого остатка.
+Используйте второй результат индексации."""
+
+[[exercises]]
+name = "if_x055"
+path = "exercises/if/if_x055/main_test.go"
+mode = "test"
+hint = """
+Конь ходит буквой «Г»: по одной оси на 1, по другой на 2.
+Целевая клетка тоже должна быть на доске."""
+
+[[exercises]]
+name = "if_x003"
+path = "exercises/if/if_x003/main_test.go"
+mode = "test"
+hint = """
+strings.TrimSpace убирает пробелы по краям. Что должно остаться у «пустой» строки?"""
+
+[[exercises]]
+name = "if_x015"
+path = "exercises/if/if_x015/main_test.go"
+mode = "test"
+hint = """
+HasPrefix проверяет начало строки, HasSuffix — конец."""
+
+[[exercises]]
+name = "if_x010"
+path = "exercises/if/if_x010/main_test.go"
+mode = "test"
+hint = """
+Менять знак нужно только у отрицательных чисел."""
+
+[[exercises]]
+name = "if_x098"
+path = "exercises/if/if_x098/main_test.go"
+mode = "test"
+hint = """
+flags&mask != 0 означает «хотя бы один бит». Чтобы проверить все биты,
+результат маскирования должен совпасть с самой маской."""
+
+[[exercises]]
+name = "if_x050"
+path = "exercises/if/if_x050/main_test.go"
+mode = "test"
+hint = """
+minor имеет значение, только если major совпадают."""
+
+[[exercises]]
+name = "if_x087"
+path = "exercises/if/if_x087/main_test.go"
+mode = "test"
+hint = """
+Два разных указателя никогда не равны, даже если указывают на равные
+структуры. Разыменуйте их (с проверкой на nil)."""
+
+[[exercises]]
+name = "if_x021"
+path = "exercises/if/if_x021/main_test.go"
+mode = "test"
+hint = """
+Проверьте верхнюю границу для "afternoon"."""
+
+[[exercises]]
+name = "if_x029"
+path = "exercises/if/if_x029/main_test.go"
+mode = "test"
+hint = """
+Возвращать false можно только после проверки ВСЕХ элементов."""
+
+[[exercises]]
+name = "if_x024"
+path = "exercises/if/if_x024/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение возвращается при превышении 100."""
+
+[[exercises]]
+name = "if_x026"
+path = "exercises/if/if_x026/main_test.go"
+mode = "test"
+hint = """
+Расширение находится в конце имени файла."""
+
+[[exercises]]
+name = "if_x080"
+path = "exercises/if/if_x080/main_test.go"
+mode = "test"
+hint = """
+a <= x <= b разбирается как (a <= x) <= b — сравнение bool с числом.
+Разбейте условие на два сравнения и соедините их через &&."""
+
+[[exercises]]
+name = "if_x040"
+path = "exercises/if/if_x040/main_test.go"
+mode = "test"
+hint = """
+Момент открытия входит в интервал, момент закрытия — нет.
+«Не раньше open» — это !t.Before(open)."""
+
+[[exercises]]
+name = "if_x023"
+path = "exercises/if/if_x023/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие для координаты y."""
+
+[[exercises]]
+name = "if_x074"
+path = "exercises/if/if_x074/main_test.go"
+mode = "test"
+hint = """
+Для uint выражение a - b < 0 всегда ложно. Сравнивайте сами значения."""
+
+[[exercises]]
+name = "if_x091"
+path = "exercises/if/if_x091/main_test.go"
+mode = "test"
+hint = """
+Каждая кириллическая буква занимает 2 байта в UTF-8.
+Считайте руны с помощью пакета unicode/utf8."""
+
+[[exercises]]
+name = "if_x099"
+path = "exercises/if/if_x099/main_test.go"
+mode = "test"
+hint = """
+'é' занимает в UTF-8 два байта, а s[0] — только первый из них.
+Декодируйте первую руну (пакет unicode/utf8) или сравнивайте строковый префикс."""
+
+[[exercises]]
+name = "if_x073"
+path = "exercises/if/if_x073/main_test.go"
+mode = "test"
+hint = """
+used + size может «перевалить» через максимум int и стать отрицательным.
+Перенесите слагаемое в другую часть неравенства: size <= limit - used."""
+
+[[exercises]]
+name = "if_x001"
+path = "exercises/if/if_x001/main_test.go"
+mode = "test"
+hint = """
+Возраст ровно 18 тоже подходит. Какой оператор включает границу?"""
+
+[[exercises]]
+name = "if_x006"
+path = "exercises/if/if_x006/main_test.go"
+mode = "test"
+hint = """
+Число делится без остатка, если остаток равен нулю."""
+
+[[exercises]]
+name = "if_x063"
+path = "exercises/if/if_x063/main_test.go"
+mode = "test"
+hint = """
+Нормализуйте обе строки одинаково. Отдельно обработайте случай,
+когда нормализованная строка пустая."""
+
+[[exercises]]
+name = "if_x090"
+path = "exercises/if/if_x090/main_test.go"
+mode = "test"
+hint = """
+time.Duration считается в наносекундах. Выразите порог через time.Second."""
+
+[[exercises]]
+name = "if_x094"
+path = "exercises/if/if_x094/main_test.go"
+mode = "test"
+hint = """
+Отложенный вызов внутри if выполнится только при выходе из transfer,
+то есть после "end". Вынесите блокируемую часть в отдельную функцию."""
+
+[[exercises]]
+name = "if_x043"
+path = "exercises/if/if_x043/main_test.go"
+mode = "test"
+hint = """
+Первый выигрывает в трёх комбинациях: rock-scissors, scissors-paper, paper-rock.
+Ничья — когда ходы совпадают; иначе выигрывает второй."""
+
+[[exercises]]
+name = "if_x045"
+path = "exercises/if/if_x045/main_test.go"
+mode = "test"
+hint = """
+Самое специфичное правило (оба условия сразу) проверяется первым."""
+
+[[exercises]]
+name = "if_x053"
+path = "exercises/if/if_x053/main_test.go"
+mode = "test"
+hint = """
+Считайте превышение как разницу скорости и лимита, а не саму скорость.
+Проверьте границы диапазонов."""
+
+[[exercises]]
+name = "if_x069"
+path = "exercises/if/if_x069/main_test.go"
+mode = "test"
+hint = """
+n и err существуют только внутри конструкции if. Либо объявите их
+до if, либо верните результат из ветки else."""
+
+[[exercises]]
+name = "if_x014"
+path = "exercises/if/if_x014/main_test.go"
+mode = "test"
+hint = """
+Число, кратное 15, кратно и 3. Какое условие должно идти первым?"""
+
+[[exercises]]
+name = "if_x016"
+path = "exercises/if/if_x016/main_test.go"
+mode = "test"
+hint = """
+Пустой, но не nil срез не равен nil. Что у них общего?"""
+
+[[exercises]]
+name = "if_x046"
+path = "exercises/if/if_x046/main_test.go"
+mode = "test"
+hint = """
+Пройдите по символам и отметьте, встречались ли цифра и заглавная буква.
+В конце все три требования должны выполняться одновременно."""
+
+[[exercises]]
+name = "if_x036"
+path = "exercises/if/if_x036/main_test.go"
+mode = "test"
+hint = """
+Прочитайте условие вслух: «если баланс не меньше цены»."""
+
+[[exercises]]
+name = "if_x076"
+path = "exercises/if/if_x076/main_test.go"
+mode = "test"
+hint = """
+Утверждение типа с одним результатом паникует, если тип не тот.
+Используйте форму с двумя результатами прямо в if."""
+
+[[exercises]]
+name = "if_x005"
+path = "exercises/if/if_x005/main_test.go"
+mode = "test"
+hint = """
+Срабатывает первая истинная ветка. Какое условие должно проверяться первым?"""
+
+[[exercises]]
+name = "if_x009"
+path = "exercises/if/if_x009/main_test.go"
+mode = "test"
+hint = """
+Обе границы входят в диапазон."""
+
+[[exercises]]
+name = "if_x061"
+path = "exercises/if/if_x061/main_test.go"
+mode = "test"
+hint = """
+Приведите строку к нижнему регистру один раз, затем сравнивайте.
+Не забудьте вернуть значение по умолчанию."""
+
+[[exercises]]
+name = "if_x086"
+path = "exercises/if/if_x086/main_test.go"
+mode = "test"
+hint = """
+Значение 42, положенное в interface{}, имеет тип int, а не int64.
+Утверждение типа требует точного совпадения."""
+
+[[exercises]]
+name = "if_x059"
+path = "exercises/if/if_x059/main_test.go"
+mode = "test"
+hint = """
+Если текущее время вышло за пределы окна, начните новое окно
+и обнулите счётчик. Затем проверьте, не превышен ли лимит."""
+
+[[exercises]]
+name = "if_x018"
+path = "exercises/if/if_x018/main_test.go"
+mode = "test"
+hint = """
+Каждая сторона должна быть строго меньше суммы двух других.
+Условия должны выполняться одновременно."""
+
+[[exercises]]
+name = "if_x066"
+path = "exercises/if/if_x066/main_test.go"
+mode = "test"
+hint = """
+Внутри диапазона 18–22 ничего менять не нужно.
+Проверьте, какой порог включает и какой выключает обогрев."""
+
+[[exercises]]
+name = "if_x039"
+path = "exercises/if/if_x039/main_test.go"
+mode = "test"
+hint = """
+В if можно объявить переменные: if n, err := ...; условие { }.
+Порт подходит, если ошибки нет И он в допустимом диапазоне."""
+
+[[exercises]]
+name = "if_x019"
+path = "exercises/if/if_x019/main_test.go"
+mode = "test"
+hint = """
+Проверьте граничное условие для пенсионеров."""
+
+[[exercises]]
+name = "if_x037"
+path = "exercises/if/if_x037/main_test.go"
+mode = "test"
+hint = """
+Идите от меньших порогов к большим и следите за границами:
+10000 ещё облагается по нулевой ставке, 50000 — по ставке 10%."""
+
+[[exercises]]
+name = "if_x056"
+path = "exercises/if/if_x056/main_test.go"
+mode = "test"
+hint = """
+a — медиана, если оно лежит между b и c (в любом порядке).
+Аналогично для b; иначе медиана — c."""
+
+[[exercises]]
+name = "if_x038"
+path = "exercises/if/if_x038/main_test.go"
+mode = "test"
+hint = """
+Каждая проверка должна сразу возвращать свою причину.
+Сверьте порядок проверок и тексты с условием."""
+
+[[exercises]]
+name = "if_x084"
+path = "exercises/if/if_x084/main_test.go"
+mode = "test"
+hint = """
+Допустимые индексы: от 0 до len-1 включительно."""
+
+[[exercises]]
+name = "if_x020"
+path = "exercises/if/if_x020/main_test.go"
+mode = "test"
+hint = """
+Посмотрите, в какой ветке стоимость доставки равна нулю."""
+
+[[exercises]]
+name = "if_x017"
+path = "exercises/if/if_x017/main_test.go"
+mode = "test"
+hint = """
+Проверка на nil должна срабатывать, когда указатель ПУСТОЙ."""
+
+[[exercises]]
+name = "if_x031"
+path = "exercises/if/if_x031/main_test.go"
+mode = "test"
+hint = """
+Проверяйте признак наличия ключа ok, а не само значение."""
+
+[[exercises]]
+name = "if_x030"
+path = "exercises/if/if_x030/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие про кратность 400."""
+
+[[exercises]]
+name = "if_x093"
+path = "exercises/if/if_x093/main_test.go"
+mode = "test"
+hint = """
+Для срезов оператор == не определён. Сравните длины, а затем
+элементы по одному в цикле."""
+
+[[exercises]]
+name = "if_x072"
+path = "exercises/if/if_x072/main_test.go"
+mode = "test"
+hint = """
+"10" < "9", потому что '1' < '9'. Сравнивайте числа, а не строки:
+сначала преобразуйте их (или сравните длины, затем строки)."""
+
+[[exercises]]
+name = "if_x058"
+path = "exercises/if/if_x058/main_test.go"
+mode = "test"
+hint = """
+Сначала разберите случай зарядки, внутри него — полный заряд.
+Затем обработайте разрядку."""
+
+[[exercises]]
+name = "if_x008"
+path = "exercises/if/if_x008/main_test.go"
+mode = "test"
+hint = """
+Значение по умолчанию нужно, когда ошибка ЕСТЬ."""
+
+[[exercises]]
+name = "if_x032"
+path = "exercises/if/if_x032/main_test.go"
+mode = "test"
+hint = """
+Нечётное число даёт ненулевой остаток при делении на 2."""
+
+[[exercises]]
+name = "if_x065"
+path = "exercises/if/if_x065/main_test.go"
+mode = "test"
+hint = """
+Сначала посчитайте базовую цену по весу, затем примените
+множитель экспресс-доставки ко всему результату."""
+
+[[exercises]]
+name = "if_x047"
+path = "exercises/if/if_x047/main_test.go"
+mode = "test"
+hint = """
+Зима «перескакивает» через границу года, поэтому её удобнее проверить
+отдельным условием. Не забудьте про некорректные месяцы."""
+
+[[exercises]]
+name = "if_x002"
+path = "exercises/if/if_x002/main_test.go"
+mode = "test"
+hint = """
+День не может одновременно быть и субботой, и воскресеньем."""
+
+[[exercises]]
+name = "if_x035"
+path = "exercises/if/if_x035/main_test.go"
+mode = "test"
+hint = """
+Разница может быть отрицательной. Сравнивайте модуль разности."""
+
+[[exercises]]
+name = "if_x096"
+path = "exercises/if/if_x096/main_test.go"
+mode = "test"
+hint = """
+Во втором инициализаторе объявлены новые n и err. В ветке else видна
+последняя объявленная n. Дайте второй паре другие имена."""
+
+[[exercises]]
+name = "if_x027"
+path = "exercises/if/if_x027/main_test.go"
+mode = "test"
+hint = """
+Отрезки пересекаются, если каждый начинается не позже конца другого."""
+
+[[exercises]]
+name = "if_x044"
+path = "exercises/if/if_x044/main_test.go"
+mode = "test"
+hint = """
+Равносторонний треугольник удовлетворяет и условию равнобедренного.
+Для равнобедренного достаточно совпадения ЛЮБОЙ пары сторон."""
+
+[[exercises]]
+name = "if_x012"
+path = "exercises/if/if_x012/main_test.go"
+mode = "test"
+hint = """
+При 0 градусов вода уже жидкая, а при 100 — пар."""
+
+[[exercises]]
+name = "if_x095"
+path = "exercises/if/if_x095/main_test.go"
+mode = "test"
+hint = """
+Каждый вызов pop извлекает элемент. Вызовите pop один раз
+в инициализаторе if и используйте результат."""
+
+[[exercises]]
+name = "if_x011"
+path = "exercises/if/if_x011/main_test.go"
+mode = "test"
+hint = """
+Пароль из ровно 8 символов допустим."""
+
+[[exercises]]
+name = "if_x071"
+path = "exercises/if/if_x071/main_test.go"
+mode = "test"
+hint = """
+NaN < 0 — false, поэтому условие «меньше нуля» его не ловит.
+Добавьте отдельную проверку с помощью пакета math."""
+
+[[exercises]]
+name = "if_x007"
+path = "exercises/if/if_x007/main_test.go"
+mode = "test"
+hint = """
+В пакете strings есть функция сравнения без учёта регистра."""
+
+[[exercises]]
+name = "if_x067"
+path = "exercises/if/if_x067/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте, что балл в диапазоне A, и уже внутри уточните знак."""
+
+[[exercises]]
+name = "if_x004"
+path = "exercises/if/if_x004/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение, которое возвращается в ветке else."""
+
+[[exercises]]
+name = "if_x068"
+path = "exercises/if/if_x068/main_test.go"
+mode = "test"
+hint = """
+Правый операнд && вычисляется, только если левый истинен.
+Поставьте проверку длины первой."""
+
+[[exercises]]
+name = "if_x048"
+path = "exercises/if/if_x048/main_test.go"
+mode = "test"
+hint = """
+Сверьте каждую пару «текущий -> следующий» с условием."""
+
+[[exercises]]
+name = "if_x049"
+path = "exercises/if/if_x049/main_test.go"
+mode = "test"
+hint = """
+Каждый диапазон ограничен с двух сторон. Числа вне 100–599 — unknown."""
+
+[[exercises]]
+name = "if_x100"
+path = "exercises/if/if_x100/main_test.go"
+mode = "test"
+hint = """
+У int64 отрицательных значений на одно больше, чем положительных.
+Обработайте math.MinInt64 отдельным условием до смены знака."""
+
+[[exercises]]
+name = "if_x081"
+path = "exercises/if/if_x081/main_test.go"
+mode = "test"
+hint = """
+Проверьте указатель на nil до разыменования. Сделайте это в том же
+условии, используя сокращённое вычисление &&."""
+
+[[exercises]]
+name = "if_x079"
+path = "exercises/if/if_x079/main_test.go"
+mode = "test"
+hint = """
+Компилятор разрешает сравнивать interface{}, но если внутри срез или map,
+будет паника. Для глубокого сравнения используйте reflect.DeepEqual."""
+
+[[exercises]]
+name = "if_x013"
+path = "exercises/if/if_x013/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие для третьего числа."""
+
+[[exercises]]
+name = "if_x064"
+path = "exercises/if/if_x064/main_test.go"
+mode = "test"
+hint = """
+Проверки: существует ли пользователь, не заблокирован ли он,
+совпадает ли пароль. Именно в таком порядке."""
+
+[[exercises]]
+name = "if_x057"
+path = "exercises/if/if_x057/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте месяц. Затем определите число дней в нём:
+февраль — 28, апрель, июнь, сентябрь, ноябрь — 30, остальные — 31."""
+
+[[exercises]]
+name = "if_x052"
+path = "exercises/if/if_x052/main_test.go"
+mode = "test"
+hint = """
+После бесплатного часа посчитайте оставшиеся минуты и округлите
+количество часов вверх: неполный час считается целым."""
+
+[[exercises]]
+name = "if_x025"
+path = "exercises/if/if_x025/main_test.go"
+mode = "test"
+hint = """
+Сравните счётчик с порогом так, чтобы 3 попытки уже блокировали."""
+
+[[exercises]]
+name = "if_x088"
+path = "exercises/if/if_x088/main_test.go"
+mode = "test"
+hint = """
+errors.New возвращает указатель на новую структуру, поэтому две ошибки
+с одинаковым текстом не равны. Сравнивайте с объявленной переменной."""
+
+[[exercises]]
+name = "if_x092"
+path = "exercises/if/if_x092/main_test.go"
+mode = "test"
+hint = """
+float64(float32(0.1)) != 0.1. Сравнивайте в исходном типе float32,
+тогда константа 0.1 округлится так же."""
+
+[[exercises]]
+name = "if_x051"
+path = "exercises/if/if_x051/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте корректность суммы. Затем сравните сумму с
+balance + limit (списать можно, пока результат не ниже -limit)."""
+
+[[exercises]]
+name = "if_x077"
+path = "exercises/if/if_x077/main_test.go"
+mode = "test"
+hint = """
+-3 % 2 == -1, а не 1. Сравнивайте остаток с нулём."""
+
+[[exercises]]
+name = "if_x070"
+path = "exercises/if/if_x070/main_test.go"
+mode = "test"
+hint = """
+В ветке if объявлена новая переменная с тем же именем.
+Присвойте значение внешней переменной."""
+
+[[exercises]]
+name = "if_x082"
+path = "exercises/if/if_x082/main_test.go"
+mode = "test"
+hint = """
+a || b && c означает a || (b && c). Расставьте скобки так,
+чтобы блокировка действовала на обе роли."""
+
+[[exercises]]
+name = "if_x041"
+path = "exercises/if/if_x041/main_test.go"
+mode = "test"
+hint = """
+Найдите позицию @ и проверьте, что он единственный. Затем ищите точку
+в части после @ и проверьте её положение."""
+
+[[exercises]]
+name = "if_x097"
+path = "exercises/if/if_x097/main_test.go"
+mode = "test"
+hint = """
+1/2 — это целочисленное деление констант, результат 0.
+Сравните без деления: done*2 >= total."""
+
+[[exercises]]
+name = "if_x060"
+path = "exercises/if/if_x060/main_test.go"
+mode = "test"
+hint = """
+Проверьте длину и первый символ, затем каждый из остальных:
+цифра, a–f или A–F."""
+
+[[exercises]]
+name = "if_x028"
+path = "exercises/if/if_x028/main_test.go"
+mode = "test"
+hint = """
+Проверьте границы диапазона: заглавные буквы идут от 'A' до 'Z'."""
+
+[[exercises]]
+name = "if_x089"
+path = "exercises/if/if_x089/main_test.go"
+mode = "test"
+hint = """
+== сравнивает и момент, и часовой пояс (и монотонные часы).
+Для сравнения моментов у time.Time есть специальный метод."""
