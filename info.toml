@@ -7197,3 +7197,738 @@ mode = "test"
 hint = """
 Пропускайте пробел, если предыдущий записанный символ — тоже пробел.
 Предыдущий символ нужно обновлять на каждой итерации."""
+
+# ===== generated exercises: structs =====
+[[exercises]]
+name = "structs_x038"
+path = "exercises/structs/structs_x038/main_test.go"
+mode = "test"
+hint = """
+Less должен сравнивать возраст, а Swap — менять элементы местами."""
+
+[[exercises]]
+name = "structs_x013"
+path = "exercises/structs/structs_x013/main_test.go"
+mode = "test"
+hint = """
+Проверьте формат в Sprintf."""
+
+[[exercises]]
+name = "structs_x069"
+path = "exercises/structs/structs_x069/main_test.go"
+mode = "test"
+hint = """
+a.Describe() внутри Admin.Describe — это рекурсия. Вызовите метод
+встроенного поля явно: a.User.Describe()."""
+
+[[exercises]]
+name = "structs_x053"
+path = "exercises/structs/structs_x053/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте поля по старшинству: major, затем minor, затем patch."""
+
+[[exercises]]
+name = "structs_x080"
+path = "exercises/structs/structs_x080/main_test.go"
+mode = "test"
+hint = """
+Перепишите литерал с явными именами полей."""
+
+[[exercises]]
+name = "structs_x096"
+path = "exercises/structs/structs_x096/main_test.go"
+mode = "test"
+hint = """
+Сделайте получатель указателем и обработайте nil внутри метода."""
+
+[[exercises]]
+name = "structs_x079"
+path = "exercises/structs/structs_x079/main_test.go"
+mode = "test"
+hint = """
+Создайте в копии новую map и перенесите в неё все пары."""
+
+[[exercises]]
+name = "structs_x056"
+path = "exercises/structs/structs_x056/main_test.go"
+mode = "test"
+hint = """
+Проверьте наличие книги и её статус. Return для невыданной книги — ошибка."""
+
+[[exercises]]
+name = "structs_x005"
+path = "exercises/structs/structs_x005/main_test.go"
+mode = "test"
+hint = """
+Площадь — произведение сторон."""
+
+[[exercises]]
+name = "structs_x063"
+path = "exercises/structs/structs_x063/main_test.go"
+mode = "test"
+hint = """
+Сократите на НОД и перенесите знак знаменателя в числитель.
+Add должен возвращать результат через NewRat."""
+
+[[exercises]]
+name = "structs_x002"
+path = "exercises/structs/structs_x002/main_test.go"
+mode = "test"
+hint = """
+Сверьте, какому полю присваивается каждое значение."""
+
+[[exercises]]
+name = "structs_x046"
+path = "exercises/structs/structs_x046/main_test.go"
+mode = "test"
+hint = """
+Проверьте теги полей и передачу указателя в Unmarshal."""
+
+[[exercises]]
+name = "structs_x095"
+path = "exercises/structs/structs_x095/main_test.go"
+mode = "test"
+hint = """
+Встроенный метод ничего не знает о внешней структуре. Объявите Rename
+у Product, чтобы он менял поле Product."""
+
+[[exercises]]
+name = "structs_x006"
+path = "exercises/structs/structs_x006/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение присваивается полю."""
+
+[[exercises]]
+name = "structs_x027"
+path = "exercises/structs/structs_x027/main_test.go"
+mode = "test"
+hint = """
+Для цепочки метод должен вернуть тот же указатель."""
+
+[[exercises]]
+name = "structs_x039"
+path = "exercises/structs/structs_x039/main_test.go"
+mode = "test"
+hint = """
+Новый узел должен указывать на старую голову, а голова — на новый узел.
+В Values двигайтесь по полю next до nil."""
+
+[[exercises]]
+name = "structs_x049"
+path = "exercises/structs/structs_x049/main_test.go"
+mode = "test"
+hint = """
+Проверьте заполненность в Push. Pop берёт первый элемент."""
+
+[[exercises]]
+name = "structs_x024"
+path = "exercises/structs/structs_x024/main_test.go"
+mode = "test"
+hint = """
+Экспортируемое имя начинается с заглавной буквы."""
+
+[[exercises]]
+name = "structs_x066"
+path = "exercises/structs/structs_x066/main_test.go"
+mode = "test"
+hint = """
+Меньшие значения идут в левое поддерево, большие — в правое.
+InOrder: левое поддерево, узел, правое поддерево."""
+
+[[exercises]]
+name = "structs_x042"
+path = "exercises/structs/structs_x042/main_test.go"
+mode = "test"
+hint = """
+Периметр — удвоенная сумма сторон. Scale должен менять исходный прямоугольник,
+значит, нужен получатель-указатель."""
+
+[[exercises]]
+name = "structs_x014"
+path = "exercises/structs/structs_x014/main_test.go"
+mode = "test"
+hint = """
+Тег записывается в обратных кавычках: `json:"имя"`. Проверьте имя в теге."""
+
+[[exercises]]
+name = "structs_x064"
+path = "exercises/structs/structs_x064/main_test.go"
+mode = "test"
+hint = """
+Методы не должны менять получатель — возвращайте новые значения.
+Проверьте формулу масштабирования."""
+
+[[exercises]]
+name = "structs_x088"
+path = "exercises/structs/structs_x088/main_test.go"
+mode = "test"
+hint = """
+При конфликте на одной глубине поле не сериализуется. Дайте полям
+разные JSON-имена (например, "meta_id" и "audit_id")."""
+
+[[exercises]]
+name = "structs_x036"
+path = "exercises/structs/structs_x036/main_test.go"
+mode = "test"
+hint = """
+Where должен накапливать условия, а Build — соединять их через " AND ".
+Каждый метод возвращает тот же *QueryBuilder."""
+
+[[exercises]]
+name = "structs_x003"
+path = "exercises/structs/structs_x003/main_test.go"
+mode = "test"
+hint = """
+Нулевое значение Point — это Point{}."""
+
+[[exercises]]
+name = "structs_x074"
+path = "exercises/structs/structs_x074/main_test.go"
+mode = "test"
+hint = """
+Чтобы различать «не задано» и false, используйте указатель *bool:
+nil пропускается, а указатель на false сериализуется."""
+
+[[exercises]]
+name = "structs_x077"
+path = "exercises/structs/structs_x077/main_test.go"
+mode = "test"
+hint = """
+Значение Card не реализует Stringer. Объявите String со значимым получателем."""
+
+[[exercises]]
+name = "structs_x092"
+path = "exercises/structs/structs_x092/main_test.go"
+mode = "test"
+hint = """
+e.Name — это поле Employee. Имя человека доступно как e.Person.Name."""
+
+[[exercises]]
+name = "structs_x025"
+path = "exercises/structs/structs_x025/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое поле возвращается."""
+
+[[exercises]]
+name = "structs_x016"
+path = "exercises/structs/structs_x016/main_test.go"
+mode = "test"
+hint = """
+Меняйте поле копии, а не исходной переменной через указатель."""
+
+[[exercises]]
+name = "structs_x022"
+path = "exercises/structs/structs_x022/main_test.go"
+mode = "test"
+hint = """
+Проверьте, по какому ключу записывается значение."""
+
+[[exercises]]
+name = "structs_x067"
+path = "exercises/structs/structs_x067/main_test.go"
+mode = "test"
+hint = """
+При превышении лимита отбрасывайте самые старые элементы.
+Last не должен выходить за границы."""
+
+[[exercises]]
+name = "structs_x051"
+path = "exercises/structs/structs_x051/main_test.go"
+mode = "test"
+hint = """
+Каждая фигура должна реализовать Area. Проверьте формулы
+и то, что Square действительно удовлетворяет интерфейсу."""
+
+[[exercises]]
+name = "structs_x091"
+path = "exercises/structs/structs_x091/main_test.go"
+mode = "test"
+hint = """
+Храните в интерфейсе указатель *Circle и меняйте поле через него."""
+
+[[exercises]]
+name = "structs_x023"
+path = "exercises/structs/structs_x023/main_test.go"
+mode = "test"
+hint = """
+В рубле 100 копеек."""
+
+[[exercises]]
+name = "structs_x050"
+path = "exercises/structs/structs_x050/main_test.go"
+mode = "test"
+hint = """
+Сравните запрос с остатком. При нулевом остатке удалите ключ."""
+
+[[exercises]]
+name = "structs_x086"
+path = "exercises/structs/structs_x086/main_test.go"
+mode = "test"
+hint = """
+Размер типа, содержащего себя, был бы бесконечным. Используйте *Category."""
+
+[[exercises]]
+name = "structs_x017"
+path = "exercises/structs/structs_x017/main_test.go"
+mode = "test"
+hint = """
+Проверка должна срабатывать, когда указатель равен nil."""
+
+[[exercises]]
+name = "structs_x052"
+path = "exercises/structs/structs_x052/main_test.go"
+mode = "test"
+hint = """
+Сравните валюты до сложения. Результат — новая структура."""
+
+[[exercises]]
+name = "structs_x070"
+path = "exercises/structs/structs_x070/main_test.go"
+mode = "test"
+hint = """
+Укажите явно, чьё поле нужно: r.Author.Name."""
+
+[[exercises]]
+name = "structs_x032"
+path = "exercises/structs/structs_x032/main_test.go"
+mode = "test"
+hint = """
+Изменять нужно поле вложенной структуры."""
+
+[[exercises]]
+name = "structs_x007"
+path = "exercises/structs/structs_x007/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение поля Port в литерале."""
+
+[[exercises]]
+name = "structs_x004"
+path = "exercises/structs/structs_x004/main_test.go"
+mode = "test"
+hint = """
+Через указатель поля доступны напрямую: p.X. Проверьте, какое поле меняется."""
+
+[[exercises]]
+name = "structs_x071"
+path = "exercises/structs/structs_x071/main_test.go"
+mode = "test"
+hint = """
+Либо создавайте Logger в конструкторе, либо сделайте метод Logger
+безопасным для nil-получателя."""
+
+[[exercises]]
+name = "structs_x041"
+path = "exercises/structs/structs_x041/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте баланс отправителя, затем уменьшите один баланс
+и увеличьте другой."""
+
+[[exercises]]
+name = "structs_x010"
+path = "exercises/structs/structs_x010/main_test.go"
+mode = "test"
+hint = """
+Город хранится в поле адреса, а не в самом заказе."""
+
+[[exercises]]
+name = "structs_x100"
+path = "exercises/structs/structs_x100/main_test.go"
+mode = "test"
+hint = """
+Каналы и функции нельзя сериализовать в JSON. Пометьте поле тегом "-"."""
+
+[[exercises]]
+name = "structs_x087"
+path = "exercises/structs/structs_x087/main_test.go"
+mode = "test"
+hint = """
+Внутри String не форматируйте сам получатель через %v.
+Выводите поля напрямую или преобразуйте к типу без методов."""
+
+[[exercises]]
+name = "structs_x018"
+path = "exercises/structs/structs_x018/main_test.go"
+mode = "test"
+hint = """
+Встраиваемый тип указывается без имени поля."""
+
+[[exercises]]
+name = "structs_x043"
+path = "exercises/structs/structs_x043/main_test.go"
+mode = "test"
+hint = """
+Add не должен менять получатель — верните новую точку.
+Расстояние считается через math.Hypot разностей координат."""
+
+[[exercises]]
+name = "structs_x012"
+path = "exercises/structs/structs_x012/main_test.go"
+mode = "test"
+hint = """
+Проверьте значения по умолчанию в конструкторе."""
+
+[[exercises]]
+name = "structs_x045"
+path = "exercises/structs/structs_x045/main_test.go"
+mode = "test"
+hint = """
+Присваивание структуры копирует только заголовок среза.
+Создайте новый срез и скопируйте элементы."""
+
+[[exercises]]
+name = "structs_x026"
+path = "exercises/structs/structs_x026/main_test.go"
+mode = "test"
+hint = """
+Нужно сравнить оба поля."""
+
+[[exercises]]
+name = "structs_x093"
+path = "exercises/structs/structs_x093/main_test.go"
+mode = "test"
+hint = """
+Обнуляйте переменную перед каждым Unmarshal (или объявляйте её внутри цикла)."""
+
+[[exercises]]
+name = "structs_x072"
+path = "exercises/structs/structs_x072/main_test.go"
+mode = "test"
+hint = """
+Сравните поля по отдельности, а срез — поэлементно (или через reflect.DeepEqual)."""
+
+[[exercises]]
+name = "structs_x098"
+path = "exercises/structs/structs_x098/main_test.go"
+mode = "test"
+hint = """
+В WithColor создайте новый Style (копию) и присвойте его копии виджета."""
+
+[[exercises]]
+name = "structs_x019"
+path = "exercises/structs/structs_x019/main_test.go"
+mode = "test"
+hint = """
+Значения в позиционном литерале идут в порядке объявления полей."""
+
+[[exercises]]
+name = "structs_x068"
+path = "exercises/structs/structs_x068/main_test.go"
+mode = "test"
+hint = """
+Значение Counter не имеет метода Inc. Положите в интерфейс указатель &Counter{}."""
+
+[[exercises]]
+name = "structs_x034"
+path = "exercises/structs/structs_x034/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что добавляется в множество."""
+
+[[exercises]]
+name = "structs_x078"
+path = "exercises/structs/structs_x078/main_test.go"
+mode = "test"
+hint = """
+Проверьте поле Sender на nil и используйте поведение по умолчанию
+(в этом упражнении — просто вернуть false)."""
+
+[[exercises]]
+name = "structs_x059"
+path = "exercises/structs/structs_x059/main_test.go"
+mode = "test"
+hint = """
+Если значение не задано (Valid == false), выводите "-". Иначе формат "%.1f°C"."""
+
+[[exercises]]
+name = "structs_x020"
+path = "exercises/structs/structs_x020/main_test.go"
+mode = "test"
+hint = """
+Проверьте начальное значение поля."""
+
+[[exercises]]
+name = "structs_x001"
+path = "exercises/structs/structs_x001/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какие поля участвуют в склейке."""
+
+[[exercises]]
+name = "structs_x065"
+path = "exercises/structs/structs_x065/main_test.go"
+mode = "test"
+hint = """
+Сначала сумма всех позиций (цена * количество), затем
+вычтите процент скидки: total - total*discount/100."""
+
+[[exercises]]
+name = "structs_x028"
+path = "exercises/structs/structs_x028/main_test.go"
+mode = "test"
+hint = """
+Результат append нужно сохранить в поле."""
+
+[[exercises]]
+name = "structs_x008"
+path = "exercises/structs/structs_x008/main_test.go"
+mode = "test"
+hint = """
+Встроенное поле объявляется одним только именем типа."""
+
+[[exercises]]
+name = "structs_x073"
+path = "exercises/structs/structs_x073/main_test.go"
+mode = "test"
+hint = """
+Пакет json работает через рефлексию и видит только экспортируемые поля.
+Переименуйте поле так, чтобы оно начиналось с заглавной буквы."""
+
+[[exercises]]
+name = "structs_x062"
+path = "exercises/structs/structs_x062/main_test.go"
+mode = "test"
+hint = """
+Сутки — 1440 минут. После сложения приведите значение в диапазон
+[0, 1440) с учётом отрицательных чисел."""
+
+[[exercises]]
+name = "structs_x085"
+path = "exercises/structs/structs_x085/main_test.go"
+mode = "test"
+hint = """
+Объявите свой тип на основе int и добавьте метод к нему."""
+
+[[exercises]]
+name = "structs_x044"
+path = "exercises/structs/structs_x044/main_test.go"
+mode = "test"
+hint = """
+c[i][j] = сумма a[i][k]*b[k][j]. Определитель: ad - bc."""
+
+[[exercises]]
+name = "structs_x089"
+path = "exercises/structs/structs_x089/main_test.go"
+mode = "test"
+hint = """
+Значение тега json может содержать опции через запятую: "name,omitempty".
+Возьмите часть до запятой; пустое имя означает имя поля."""
+
+[[exercises]]
+name = "structs_x055"
+path = "exercises/structs/structs_x055/main_test.go"
+mode = "test"
+hint = """
+Изменяйте элемент среза по индексу, а не копию из range.
+Сотрудники других отделов не меняются."""
+
+[[exercises]]
+name = "structs_x075"
+path = "exercises/structs/structs_x075/main_test.go"
+mode = "test"
+hint = """
+Unmarshal не может изменить копию. Передайте адрес переменной."""
+
+[[exercises]]
+name = "structs_x009"
+path = "exercises/structs/structs_x009/main_test.go"
+mode = "test"
+hint = """
+Структуры сравниваются по всем полям. Проверьте оператор."""
+
+[[exercises]]
+name = "structs_x076"
+path = "exercises/structs/structs_x076/main_test.go"
+mode = "test"
+hint = """
+Объявите MarshalJSON со значимым получателем — тогда он сработает
+и для значений, и для указателей."""
+
+[[exercises]]
+name = "structs_x090"
+path = "exercises/structs/structs_x090/main_test.go"
+mode = "test"
+hint = """
+Тип в утверждении должен точно совпадать с динамическим типом: *Square."""
+
+[[exercises]]
+name = "structs_x021"
+path = "exercises/structs/structs_x021/main_test.go"
+mode = "test"
+hint = """
+Имя метода должно точно совпадать с именем в интерфейсе."""
+
+[[exercises]]
+name = "structs_x030"
+path = "exercises/structs/structs_x030/main_test.go"
+mode = "test"
+hint = """
+Складывать нужно количество, а не цену."""
+
+[[exercises]]
+name = "structs_x058"
+path = "exercises/structs/structs_x058/main_test.go"
+mode = "test"
+hint = """
+F = C*9/5 + 32, C = (F-32)*5/9. Результат нужно преобразовать
+к целевому типу."""
+
+[[exercises]]
+name = "structs_x083"
+path = "exercises/structs/structs_x083/main_test.go"
+mode = "test"
+hint = """
+Напишите метод Equal: поле Value равно, если значения равны
+или оба NaN."""
+
+[[exercises]]
+name = "structs_x048"
+path = "exercises/structs/structs_x048/main_test.go"
+mode = "test"
+hint = """
+Start запоминает момент начала и флаг работы. Stop прибавляет
+разницу к накопленному времени и сбрасывает флаг; Stop без Start ничего не делает."""
+
+[[exercises]]
+name = "structs_x011"
+path = "exercises/structs/structs_x011/main_test.go"
+mode = "test"
+hint = """
+Совершеннолетие начинается с 18."""
+
+[[exercises]]
+name = "structs_x082"
+path = "exercises/structs/structs_x082/main_test.go"
+mode = "test"
+hint = """
+Используйте reflect.DeepEqual для сравнения таких структур."""
+
+[[exercises]]
+name = "structs_x033"
+path = "exercises/structs/structs_x033/main_test.go"
+mode = "test"
+hint = """
+Проверьте оператор сравнения."""
+
+[[exercises]]
+name = "structs_x029"
+path = "exercises/structs/structs_x029/main_test.go"
+mode = "test"
+hint = """
+Имя встроенного поля совпадает с именем типа."""
+
+[[exercises]]
+name = "structs_x040"
+path = "exercises/structs/structs_x040/main_test.go"
+mode = "test"
+hint = """
+Peek не должен удалять элемент. Pop удаляет последний.
+Проверяйте пустой стек."""
+
+[[exercises]]
+name = "structs_x094"
+path = "exercises/structs/structs_x094/main_test.go"
+mode = "test"
+hint = """
+Создайте json.NewDecoder, включите DisallowUnknownFields и вызовите Decode."""
+
+[[exercises]]
+name = "structs_x047"
+path = "exercises/structs/structs_x047/main_test.go"
+mode = "test"
+hint = """
+Создайте map в конструкторе. В Register проверьте наличие имени
+и верните ошибку при повторе."""
+
+[[exercises]]
+name = "structs_x099"
+path = "exercises/structs/structs_x099/main_test.go"
+mode = "test"
+hint = """
+Переименуйте поле (например, в elapsed), оставив метод Elapsed."""
+
+[[exercises]]
+name = "structs_x015"
+path = "exercises/structs/structs_x015/main_test.go"
+mode = "test"
+hint = """
+Опция добавляется через запятую после имени в теге."""
+
+[[exercises]]
+name = "structs_x054"
+path = "exercises/structs/structs_x054/main_test.go"
+mode = "test"
+hint = """
+Границы включаются. Диапазоны пересекаются, если каждый начинается
+не позже конца другого."""
+
+[[exercises]]
+name = "structs_x057"
+path = "exercises/structs/structs_x057/main_test.go"
+mode = "test"
+hint = """
+Защититесь от пустого среза в обоих методах. Среднее считается во float64."""
+
+[[exercises]]
+name = "structs_x097"
+path = "exercises/structs/structs_x097/main_test.go"
+mode = "test"
+hint = """
+Преобразуйте map в map[string]int с ключом вида "x,y" перед сериализацией
+(или реализуйте MarshalText у ключа)."""
+
+[[exercises]]
+name = "structs_x035"
+path = "exercises/structs/structs_x035/main_test.go"
+mode = "test"
+hint = """
+Разделите строку по '@': частей должно быть ровно две, и обе непустые.
+При ошибке возвращайте nil и ошибку."""
+
+[[exercises]]
+name = "structs_x081"
+path = "exercises/structs/structs_x081/main_test.go"
+mode = "test"
+hint = """
+Используйте указатель на Service там, где нужен интерфейс."""
+
+[[exercises]]
+name = "structs_x031"
+path = "exercises/structs/structs_x031/main_test.go"
+mode = "test"
+hint = """
+Проверьте, на сколько увеличивается счётчик."""
+
+[[exercises]]
+name = "structs_x084"
+path = "exercises/structs/structs_x084/main_test.go"
+mode = "test"
+hint = """
+Сохраните результат в переменную, измените поле и используйте переменную."""
+
+[[exercises]]
+name = "structs_x060"
+path = "exercises/structs/structs_x060/main_test.go"
+mode = "test"
+hint = """
+Сравните имена, затем длины срезов и все элементы по порядку."""
+
+[[exercises]]
+name = "structs_x061"
+path = "exercises/structs/structs_x061/main_test.go"
+mode = "test"
+hint = """
+Объявите у Dog собственный метод Sound. Имя доступно как d.Name
+благодаря продвижению полей."""
+
+[[exercises]]
+name = "structs_x037"
+path = "exercises/structs/structs_x037/main_test.go"
+mode = "test"
+hint = """
+Встройте Logger в Service без имени поля и инициализируйте его префикс
+в конструкторе."""
