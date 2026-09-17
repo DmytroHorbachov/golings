@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// nearlyEqual сравнивает числа с относительной точностью 1e-9, чтобы работать
-// и для очень больших, и для маленьких значений.
-// Тренирует: сравнение float с учётом масштаба.
-// Сложность: medium
+// nearlyEqual compares numbers with a relative precision of 1e-9, so that it works
+// for very large and very small values alike.
+// Practices comparing floats with their scale in mind.
 package main_test
 
 import (

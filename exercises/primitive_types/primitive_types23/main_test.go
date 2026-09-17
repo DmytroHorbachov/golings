@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// boolToInt должна вернуть 1 для true и 0 для false.
-// Код не компилируется: bool нельзя преобразовать в int.
-// Тренирует: отсутствие неявных преобразований bool.
-// Сложность: medium
+// boolToInt must return 1 for true and 0 for false.
+// The code does not compile: a bool cannot be converted to an int.
+// Go has no implicit conversion for a bool.
 package main_test
 
 import "testing"

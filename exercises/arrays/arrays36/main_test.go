@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sumColumns суммирует столбцы матрицы 2×3 (2 строки, 3 столбца).
-// Индексы строк и столбцов перепутаны.
-// Тренирует: len(m) и len(m[0]) у неквадратных массивов.
-// Сложность: hard
+// sumColumns adds up the columns of a 2 by 3 matrix (2 rows, 3 columns).
+// The row and column indexes are muddled up.
+// len(m) and len(m[0]) on a non-square array.
 package main_test
 
 import "testing"

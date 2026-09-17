@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// encode записывает uint32 в 4 байта в порядке big-endian, decode читает обратно.
-// Тренирует: пакет encoding/binary.
-// Сложность: medium
+// encode writes a uint32 into 4 bytes in big-endian order, and decode reads it back.
+// Practices the encoding/binary package.
 package main_test
 
 import (

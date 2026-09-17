@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fieldCount должна вернуть число полей в строке, разделённой запятыми.
-// Тренирует: strings.Split.
-// Сложность: easy
+// fieldCount must return the number of fields in a comma separated line.
+// Practices strings.Split.
 package main_test
 
 import (

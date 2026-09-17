@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shipping: для заказов от 5000 доставка бесплатна; для заказов от 1000 — 100;
-// иначе 300. fallthrough приводит к неверной цене.
-// Тренирует: fallthrough передаёт управление в следующую ветку без проверки её условия.
-// Сложность: hard
+// shipping: orders of 5000 and up ship free; orders of 1000 and up cost 100;
+// anything else 300. A fallthrough produces the wrong price.
+// fallthrough moves to the next branch without checking its condition.
 package main_test
 
 import "testing"

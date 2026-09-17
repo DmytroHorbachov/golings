@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// steps считает, сколько шагов по 0.1 нужно, чтобы дойти от 0 до 1.
-// Условие != 1.0 никогда не выполняется точно, и цикл упирается в предохранитель.
-// Тренирует: нельзя управлять циклом точным сравнением float.
-// Сложность: hard
+// steps counts how many 0.1 steps it takes to go from 0 to 1.
+// The condition != 1.0 never holds exactly, and the loop hits its safety limit.
+// A loop must not be driven by an exact float comparison.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// boxes должна вернуть число коробок для items предметов, если в коробку
-// помещается 6 штук.
-// Тренирует: math.Ceil и преобразования float64/int.
-// Сложность: easy
+// boxes must return the number of boxes needed for items items when a box
+// holds 6 of them.
+// Practices math.Ceil and float64/int conversions.
 package main_test
 
 import (

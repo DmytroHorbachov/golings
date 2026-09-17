@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isVowel должна вернуть true для всех пяти гласных a, e, i, o, u.
-// Тренирует: несколько значений в одной ветке case.
-// Сложность: easy
+// isVowel must return true for all five vowels a, e, i, o and u.
+// Practices several values in one case.
 package main_test
 
 import "testing"

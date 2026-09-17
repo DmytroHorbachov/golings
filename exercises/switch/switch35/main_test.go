@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// describe должна вернуть "nil" и для nil-интерфейса, и для nil-указателя *User.
-// Тренирует: nil-указатель в интерфейсе попадает в ветку своего типа, а не в case nil.
-// Сложность: hard
+// describe must return "nil" for a nil interface as well as for a nil *User pointer.
+// A nil pointer in an interface lands in the branch of its own type, not in case nil.
 package main_test
 
 import "testing"

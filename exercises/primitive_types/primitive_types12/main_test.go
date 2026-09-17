@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// distance должна вернуть расстояние между (x1, y1) и (x2, y2).
-// Тренирует: math.Hypot.
-// Сложность: easy
+// distance must return the distance between (x1, y1) and (x2, y2).
+// Practices math.Hypot.
 package main_test
 
 import (

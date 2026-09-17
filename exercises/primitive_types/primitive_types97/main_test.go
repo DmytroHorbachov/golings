@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parsePairs разбирает строку "a=1;b=20" в map[string]int, пропуская
-// пустые и некорректные пары.
-// Тренирует: strings.Split, strings.Cut и strconv.Atoi вместе.
-// Сложность: medium
+// parsePairs parses the string "a=1;b=20" into a map[string]int, skipping
+// empty and malformed pairs.
+// Practices strings.Split, strings.Cut and strconv.Atoi together.
 package main_test
 
 import (

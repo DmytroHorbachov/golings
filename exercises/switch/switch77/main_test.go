@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// reading возвращает "missing" для NaN, иначе "low" (<10) или "high".
-// Ветка case math.NaN() никогда не срабатывает.
-// Тренирует: NaN не равен ничему, поэтому switch по значению его не поймает.
-// Сложность: hard
+// reading returns "missing" for NaN, and "low" (<10) or "high" otherwise.
+// The case math.NaN() branch never fires.
+// NaN equals nothing, so a switch on the value cannot catch it.
 package main_test
 
 import (

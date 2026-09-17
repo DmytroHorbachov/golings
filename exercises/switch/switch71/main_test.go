@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// run выполняет команды "add a b" и "neg a", проверяя число аргументов.
-// Тренирует: switch по первому слову и проверку len(args).
-// Сложность: medium
+// run carries out the commands "add a b" and "neg a", checking the argument count.
+// Practices a switch on the first word plus a check of len(args).
 package main_test
 
 import (

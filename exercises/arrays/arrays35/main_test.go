@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// indexOf возвращает индекс первого вхождения x или -1.
-// Тренирует: возврат индекса из range.
-// Сложность: easy
+// indexOf returns the index of the first occurrence of x, or -1.
+// Practices returning the index from a range.
 package main_test
 
 import "testing"

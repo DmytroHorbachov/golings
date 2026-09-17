@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bubbleSort сортирует массив по возрастанию на месте.
-// Тренирует: указатель на массив и вложенные циклы.
-// Сложность: medium
+// bubbleSort sorts an array in ascending order in place.
+// Practices an array pointer and nested loops.
 package main_test
 
 import "testing"

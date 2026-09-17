@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fill записывает значение во все элементы массива по указателю.
-// Тренирует: индексацию через указатель на массив.
-// Сложность: easy
+// fill writes a value into every element of an array through a pointer.
+// Practices indexing through a pointer to an array.
 package main_test
 
 import "testing"

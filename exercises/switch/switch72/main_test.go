@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstNegative должна вернуть индекс первого отрицательного числа.
-// break в switch не останавливает цикл, и находится последнее отрицательное.
-// Тренирует: break внутри switch выходит только из switch.
-// Сложность: hard
+// firstNegative must return the index of the first negative number.
+// A break in the switch does not stop the loop, so the last negative one is found.
+// A break inside a switch only leaves the switch.
 package main_test
 
 import "testing"

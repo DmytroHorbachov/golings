@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// status должна вернуть "enabled=true" или "enabled=false".
-// Тренирует: глагол %t для bool.
-// Сложность: easy
+// status must return "enabled=true" or "enabled=false".
+// Practices the %t verb for a bool.
 package main_test
 
 import (

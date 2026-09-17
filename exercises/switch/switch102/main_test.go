@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// command разбирает строку, прочитанную из файла. Строки из Windows-файлов
-// оканчиваются на "\r\n", и команды не распознаются.
-// Тренирует: невидимые символы в теге switch.
-// Сложность: hard
+// command parses a line read from a file. Lines from Windows files
+// end in "\r\n", and the commands are not recognized.
+// Practices invisible characters in a switch tag.
 package main_test
 
 import (

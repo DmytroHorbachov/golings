@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// clearFirstColumn должна обнулить первый столбец матрицы.
-// Матрица не меняется.
-// Тренирует: range по массиву массивов выдаёт копии строк.
-// Сложность: hard
+// clearFirstColumn must zero the first column of a matrix.
+// The matrix does not change.
+// A range over an array of arrays yields copies of the rows.
 package main_test
 
 import "testing"

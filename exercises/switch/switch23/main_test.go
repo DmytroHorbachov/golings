@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// greetingLang определяет язык по первой букве: 'п' — "ru", 'h' — "en".
-// Код не компилируется: руна 'п' не помещается в byte.
-// Тренирует: s[0] — это байт, а case-константы должны помещаться в тип тега.
-// Сложность: hard
+// greetingLang guesses the language from the first letter: 'п' is "ru", 'h' is "en".
+// The code does not compile: the rune 'п' does not fit in a byte.
+// s[0] is a byte, and the case constants have to fit the type of the tag.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// toSigned должна преобразовать uint64 в int64 и вернуть ошибку,
-// если значение не помещается.
-// Тренирует: преобразование между знаковым и беззнаковым типом не проверяет диапазон.
-// Сложность: hard
+// toSigned must convert a uint64 to an int64 and return an error
+// when the value does not fit.
+// A conversion between a signed and an unsigned type does not check the range.
 package main_test
 
 import (

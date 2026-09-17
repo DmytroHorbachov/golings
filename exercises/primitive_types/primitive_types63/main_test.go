@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// shout должна перевести строку в верхний регистр.
-// Тренирует: функции пакета strings.
-// Сложность: easy
+// shout must turn a string into upper case.
+// Practices the functions of the strings package.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// dayKind принимает номер дня как int и сравнивает его с константами time.Weekday.
-// Код не компилируется из-за несовпадения типов.
-// Тренирует: case-значения должны быть совместимы с типом тега.
-// Сложность: hard
+// dayKind takes the day number as an int and compares it against the time.Weekday constants.
+// The code does not compile because the types do not match.
+// The case values have to be compatible with the type of the tag.
 package main_test
 
 import (

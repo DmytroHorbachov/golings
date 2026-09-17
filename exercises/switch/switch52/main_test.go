@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// tokenKind определяет вид токена: "keyword" (if, for, func), "number" (только цифры),
-// "ident" (остальное непустое), "empty".
-// Тренирует: switch с вызовами функций в условиях.
-// Сложность: medium
+// tokenKind works out the kind of a token: "keyword" (if, for, func), "number" (digits only),
+// "ident" (anything else that is not empty) or "empty".
+// Practices a switch with function calls in the conditions.
 package main_test
 
 import (

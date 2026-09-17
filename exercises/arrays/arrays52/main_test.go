@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// buildTable строит таблицу шифра Цезаря [26]byte для сдвига k,
-// а encrypt кодирует ей строчные буквы.
-// Тренирует: предвычисленный массив подстановки.
-// Сложность: medium
+// buildTable builds a [26]byte Caesar cipher table for a shift of k,
+// and encrypt uses it on lowercase letters.
+// Practices a precomputed substitution array.
 package main_test
 
 import "testing"

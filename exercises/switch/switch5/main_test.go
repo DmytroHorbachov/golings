@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// escape заменяет перевод строки на \n, табуляцию на \t и обратный слеш на \\.
-// Тренирует: switch по руне внутри цикла со strings.Builder.
-// Сложность: medium
+// escape replaces a newline with \n, a tab with \t and a backslash with \\.
+// Practices a switch on a rune inside a loop with a strings.Builder.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// alphabetSize должна вернуть число букв от 'a' до 'z' включительно.
-// Тренирует: арифметику над rune-константами.
-// Сложность: easy
+// alphabetSize must return the number of letters from 'a' to 'z' inclusive.
+// Practices arithmetic on rune constants.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// permString превращает число 0–7 в строку прав вида "r-x".
-// Тренирует: switch по отдельным битам.
-// Сложность: medium
+// permString turns a number from 0 to 7 into a permission string such as "r-x".
+// Practices a switch over individual bits.
 package main_test
 
 import "testing"

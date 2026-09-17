@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shirtSize: до 90 см — "S", до 100 — "M", до 110 — "L", иначе "XL".
-// Ветки перекрываются, и первая «съедает» остальные.
-// Тренирует: в switch выполняется первая подходящая ветка.
-// Сложность: hard
+// shirtSize: up to 90 cm is "S", up to 100 "M", up to 110 "L", anything else "XL".
+// The branches overlap, and the first one swallows the rest.
+// The first matching branch of a switch is the one that runs.
 package main_test
 
 import "testing"

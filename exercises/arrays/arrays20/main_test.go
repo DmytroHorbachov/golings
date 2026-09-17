@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fullName склеивает части имени через пробел.
-// Тренирует: преобразование массива в срез для strings.Join.
-// Сложность: easy
+// fullName joins the parts of a name with spaces.
+// Practices turning an array into a slice for strings.Join.
 package main_test
 
 import (

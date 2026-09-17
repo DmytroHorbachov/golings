@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// httpCode возвращает код из *StatusError в цепочке ошибок или 500.
-// type switch не видит ошибку, обёрнутую через %w.
-// Тренирует: type switch проверяет только верхний уровень ошибки.
-// Сложность: hard
+// httpCode returns the code of a *StatusError in the error chain, or 500.
+// The type switch does not see an error wrapped with %w.
+// A type switch only looks at the top level of an error.
 package main_test
 
 import (

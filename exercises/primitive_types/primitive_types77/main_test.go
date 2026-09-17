@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// total суммирует цены в рублях с копейками и возвращает сумму в копейках.
-// Сумма десяти цен по 0.10 не равна 100 копейкам.
-// Тренирует: накопление ошибки float64 в денежных расчётах.
-// Сложность: hard
+// total adds up prices in whole units with fractions and returns the sum in cents.
+// The sum of ten prices of 0.10 is not 100 cents.
+// Practices float64 error building up in money calculations.
 package main_test
 
 import (

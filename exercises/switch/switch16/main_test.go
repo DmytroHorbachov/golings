@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sides возвращает количество сторон фигуры.
-// Тренирует: switch по строке с возвратом значения.
-// Сложность: easy
+// sides returns the number of sides of a shape.
+// Practices a switch on a string returning a value.
 package main_test
 
 import "testing"

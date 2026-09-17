@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// mask должна заменить каждый символ строки, кроме первого, на '•'.
-// Сейчас результат содержит мусор вместо точек.
-// Тренирует: '•' — руна вне диапазона byte; её нужно писать через WriteRune.
-// Сложность: hard
+// mask must replace every character of a string but the first with '•'.
+// Right now the result holds junk instead of the dots.
+// '•' is a rune outside the byte range and has to be written with WriteRune.
 package main_test
 
 import (

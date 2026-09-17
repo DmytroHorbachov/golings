@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// cString превращает буфер фиксированного размера с C-строкой (оканчивается
-// нулевым байтом) в строку Go. Сейчас в строку попадают нулевые байты.
-// Тренирует: string(buf) копирует все байты, включая \x00.
-// Сложность: hard
+// cString turns a fixed size buffer holding a C string, terminated by a zero
+// byte, into a Go string. Right now the zero bytes end up in the string.
+// string(buf) copies every byte, \x00 included.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parsePercent превращает "45.5%" в 0.455. Строка без знака % — ошибка.
-// Тренирует: strings.CutSuffix-подобную логику и strconv.ParseFloat.
-// Сложность: medium
+// parsePercent turns "45.5%" into 0.455. A string without the % sign is an error.
+// Practices strings.CutSuffix style logic and strconv.ParseFloat.
 package main_test
 
 import (

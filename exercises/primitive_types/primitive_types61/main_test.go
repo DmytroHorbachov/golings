@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pack кладёт два uint16 в один uint32 (hi — старшая половина), unpack — обратно.
-// Тренирует: расширение типа перед сдвигом.
-// Сложность: medium
+// pack puts two uint16 values into one uint32 (hi in the upper half), and unpack reverses it.
+// Practices widening a type before a shift.
 package main_test
 
 import "testing"

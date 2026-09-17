@@ -2672,759 +2672,760 @@ name = "switch4"
 path = "exercises/switch/switch4/main_test.go"
 mode = "test"
 hint = """
-Проверьте порог для мегабайт: 1 MB = 1024 * 1024 байт."""
+Check the threshold for megabytes: 1 MB is 1024 * 1024 bytes."""
 
 [[exercises]]
 name = "switch5"
 path = "exercises/switch/switch5/main_test.go"
 mode = "test"
 hint = """
-Для каждого специального символа пишите двухсимвольную последовательность,
-а обычные символы копируйте как есть."""
+Write a two character sequence for every special character,
+and copy ordinary characters as they are."""
 
 [[exercises]]
 name = "switch6"
 path = "exercises/switch/switch6/main_test.go"
 mode = "test"
 hint = """
-Срезы несравнимы. Превратите их в сравнимое значение, например
-склейте ноты в строку, и сравнивайте со строками."""
+Slices are not comparable. Turn them into a comparable value, by joining
+the notes into a string for instance, and compare strings."""
 
 [[exercises]]
 name = "switch7"
 path = "exercises/switch/switch7/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие ветки, возвращающей -1."""
+Check the condition of the branch that returns -1."""
 
 [[exercises]]
 name = "switch8"
 path = "exercises/switch/switch8/main_test.go"
 mode = "test"
 hint = """
-Посчитайте ведущие '#'. Заголовок — только если после них идёт пробел,
-а уровень не больше 3."""
+Count the leading '#'. It is a heading only when a space follows them
+and the level is no higher than 3."""
 
 [[exercises]]
 name = "switch9"
 path = "exercises/switch/switch9/main_test.go"
 mode = "test"
 hint = """
-Проверьте код зелёного цвета: зелёная компонента — средняя пара цифр."""
+Check the code of green: the green component is the middle pair of digits."""
 
 [[exercises]]
 name = "switch10"
 path = "exercises/switch/switch10/main_test.go"
 mode = "test"
 hint = """
-Компилятор не знает, что другие значения не придут. Добавьте ветку default
-(например, возвращающую 0) или return после switch."""
+The compiler does not know that no other value can turn up. Add a default branch,
+returning 0 for instance, or a return after the switch."""
 
 [[exercises]]
 name = "switch11"
 path = "exercises/switch/switch11/main_test.go"
 mode = "test"
 hint = """
-Каждое состояние должно переходить ровно в следующее по цепочке.
-Для конечного и неизвестного состояния верните ошибку."""
+Every state has to move to exactly the next one in the chain.
+Return an error for the final state and for unknown ones."""
 
 [[exercises]]
 name = "switch12"
 path = "exercises/switch/switch12/main_test.go"
 mode = "test"
 hint = """
-time.Saturday имеет тип time.Weekday, а тег — int.
-Преобразуйте тег к time.Weekday."""
+time.Saturday has type time.Weekday while the tag is an int.
+Convert the tag to a time.Weekday."""
 
 [[exercises]]
 name = "switch13"
 path = "exercises/switch/switch13/main_test.go"
 mode = "test"
 hint = """
-Сколько центов в quarter?"""
+How many cents is a quarter?"""
 
 [[exercises]]
 name = "switch14"
 path = "exercises/switch/switch14/main_test.go"
 mode = "test"
 hint = """
-Проваливание в следующую ветку не происходит само собой.
-Проверьте, в какой ветке пропущен fallthrough."""
+Falling through to the next branch does not happen on its own.
+Find the branch where the fallthrough is missing."""
 
 [[exercises]]
 name = "switch15"
 path = "exercises/switch/switch15/main_test.go"
 mode = "test"
 hint = """
-Структуры сравниваются поле за полем. Перечислите все выигрышные пары
-для первого игрока в одной ветке, а ничью обработайте до switch."""
+Structs are compared field by field. List every winning pair for the first
+player in one branch, and handle the draw before the switch."""
 
 [[exercises]]
 name = "switch16"
 path = "exercises/switch/switch16/main_test.go"
 mode = "test"
 hint = """
-Сколько сторон у квадрата?"""
+How many sides does a square have?"""
 
 [[exercises]]
 name = "switch17"
 path = "exercises/switch/switch17/main_test.go"
 mode = "test"
 hint = """
-В форме switch v := x.(type) внутри каждой ветки v имеет тип этой ветки.
-Добавьте недостающую ветку и проверьте форматирование строк."""
+In switch v := x.(type) the variable v has the type of the branch it is in.
+Add the missing branch and check how the strings are formatted."""
 
 [[exercises]]
 name = "switch18"
 path = "exercises/switch/switch18/main_test.go"
 mode = "test"
 hint = """
-Именованный тип отличается от базового. Добавьте ID в список типов."""
+A named type is distinct from its underlying type. Add ID to the list of types."""
 
 [[exercises]]
 name = "switch19"
 path = "exercises/switch/switch19/main_test.go"
 mode = "test"
 hint = """
-Сравнивать удобнее уже приведённое к одному регистру значение."""
+It is easier to compare a value that has already been folded to one case."""
 
 [[exercises]]
 name = "switch20"
 path = "exercises/switch/switch20/main_test.go"
 mode = "test"
 hint = """
-switch v { case 1: } совпадёт только с int(1). Используйте type switch
-и проверяйте значение внутри каждой ветки."""
+switch v { case 1: } only matches int(1). Use a type switch
+and check the value inside each branch."""
 
 [[exercises]]
 name = "switch21"
 path = "exercises/switch/switch21/main_test.go"
 mode = "test"
 hint = """
-ИМТ = вес / (рост в метрах)². Проверьте формулу и порядок веток."""
+BMI is the weight divided by the height in metres squared. Check the formula
+and the order of the branches."""
 
 [[exercises]]
 name = "switch22"
 path = "exercises/switch/switch22/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение для запада."""
+Check the value for west."""
 
 [[exercises]]
 name = "switch23"
 path = "exercises/switch/switch23/main_test.go"
 mode = "test"
 hint = """
-Первый символ нужно получить как руну, например через []rune(s)[0]
-или utf8.DecodeRuneInString. Не забудьте про пустую строку."""
+Take the first character as a rune, with []rune(s)[0]
+or utf8.DecodeRuneInString. Mind the empty string."""
 
 [[exercises]]
 name = "switch24"
 path = "exercises/switch/switch24/main_test.go"
 mode = "test"
 hint = """
-В ветке деления сначала проверьте делитель. Неизвестные операторы
-должны попадать в default и возвращать ошибку."""
+Check the divisor first in the division branch. Unknown operators
+have to land in the default and return an error."""
 
 [[exercises]]
 name = "switch25"
 path = "exercises/switch/switch25/main_test.go"
 mode = "test"
 hint = """
-Проверьте символ для пик ('S')."""
+Check the symbol for spades ('S')."""
 
 [[exercises]]
 name = "switch26"
 path = "exercises/switch/switch26/main_test.go"
 mode = "test"
 hint = """
-Чтобы найти ошибку нужного типа внутри цепочки, используйте errors.As."""
+To find an error of a given type inside a chain, use errors.As."""
 
 [[exercises]]
 name = "switch27"
 path = "exercises/switch/switch27/main_test.go"
 mode = "test"
 hint = """
-Конь и слон стоят одинаково — перечислите их в одном case."""
+A knight and a bishop are worth the same, so list them in one case."""
 
 [[exercises]]
 name = "switch28"
 path = "exercises/switch/switch28/main_test.go"
 mode = "test"
 hint = """
-Каждое время года — это три месяца. Декабрь относится к зиме.
-Проверьте все списки и ветку для некорректных месяцев."""
+Every season is three months. December belongs to winter.
+Check all of the lists and the branch for invalid months."""
 
 [[exercises]]
 name = "switch29"
 path = "exercises/switch/switch29/main_test.go"
 mode = "test"
 hint = """
-Сверьте приветствие для "es"."""
+Check the greeting for "es"."""
 
 [[exercises]]
 name = "switch30"
 path = "exercises/switch/switch30/main_test.go"
 mode = "test"
 hint = """
-Каждое next() извлекает новый токен. Прочитайте токен один раз
-и сделайте его тегом switch."""
+Every next() takes a new token. Read the token once
+and make it the tag of the switch."""
 
 [[exercises]]
 name = "switch31"
 path = "exercises/switch/switch31/main_test.go"
 mode = "test"
 hint = """
-Для десятки добавьте проверку баланса внутри ветки.
-Неизвестные монеты не должны менять баланс."""
+Add the balance check inside the branch for the ten.
+Unknown coins must leave the balance alone."""
 
 [[exercises]]
 name = "switch32"
 path = "exercises/switch/switch32/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие второй ветки."""
+Check the condition of the second branch."""
 
 [[exercises]]
 name = "switch33"
 path = "exercises/switch/switch33/main_test.go"
 mode = "test"
 hint = """
-Пустая ветка case "sat": ничего не делает и завершает switch.
-Перечислите значения через запятую в одной ветке."""
+An empty branch case "sat": does nothing and ends the switch.
+List the values separated by commas in one branch."""
 
 [[exercises]]
 name = "switch34"
 path = "exercises/switch/switch34/main_test.go"
 mode = "test"
 hint = """
-Если значение текущей цифры меньше следующей, его нужно вычесть.
-Проверьте также значения в switch."""
+When the value of the current numeral is smaller than the next one it has to be subtracted.
+Check the values in the switch too."""
 
 [[exercises]]
 name = "switch35"
 path = "exercises/switch/switch35/main_test.go"
 mode = "test"
 hint = """
-Значение (*User)(nil) имеет динамический тип *User.
-Проверьте значение на nil внутри ветки *User."""
+The value (*User)(nil) has the dynamic type *User.
+Check the value against nil inside the *User branch."""
 
 [[exercises]]
 name = "switch36"
 path = "exercises/switch/switch36/main_test.go"
 mode = "test"
 hint = """
-У доллара знак стоит перед числом, у евро и рубля — после, через пробел.
-Для неизвестных валют выводится сам код."""
+The dollar sign goes before the number, the euro and the rouble after it with a space.
+An unknown currency prints its own code."""
 
 [[exercises]]
 name = "switch37"
 path = "exercises/switch/switch37/main_test.go"
 mode = "test"
 hint = """
-В case можно перечислить значения через запятую. Какой гласной не хватает?"""
+A case can list values separated by commas. Which vowel is missing?"""
 
 [[exercises]]
 name = "switch38"
 path = "exercises/switch/switch38/main_test.go"
 mode = "test"
 hint = """
-Пустой код нужно обработать отдельной веткой с ошибкой.
-Проверьте списки стран."""
+The empty code needs a branch of its own returning an error.
+Check the lists of countries."""
 
 [[exercises]]
 name = "switch39"
 path = "exercises/switch/switch39/main_test.go"
 mode = "test"
 hint = """
-После break выполнение продолжается после switch — в том же теле цикла.
-Чтобы перейти к следующей строке, нужен continue."""
+After a break execution carries on past the switch, still inside the loop body.
+Moving on to the next line calls for a continue."""
 
 [[exercises]]
 name = "switch40"
 path = "exercises/switch/switch40/main_test.go"
 mode = "test"
 hint = """
-Сверьте значение цифры L."""
+Check the value of the numeral L."""
 
 [[exercises]]
 name = "switch41"
 path = "exercises/switch/switch41/main_test.go"
 mode = "test"
 hint = """
-Read|Write — это отдельное значение 3. Либо добавьте для него ветку,
-либо используйте switch без тега с побитовыми проверками."""
+Read|Write is a value of its own, 3. Either add a branch for it,
+or use a tagless switch with bitwise checks."""
 
 [[exercises]]
 name = "switch42"
 path = "exercises/switch/switch42/main_test.go"
 mode = "test"
 hint = """
-Для каждой группы символов значение считается как смещение от начала
-группы. Буквы a–f и A–F означают 10–15."""
+For every group of characters the value is the offset from the start of
+the group. The letters a-f and A-F stand for 10-15."""
 
 [[exercises]]
 name = "switch43"
 path = "exercises/switch/switch43/main_test.go"
 mode = "test"
 hint = """
-Проверьте метку в ветке, возвращающей 2."""
+Check the label in the branch that returns 2."""
 
 [[exercises]]
 name = "switch44"
 path = "exercises/switch/switch44/main_test.go"
 mode = "test"
 hint = """
-Для групп image/* и text/* проверяйте префикс, для JSON — точное
-значение или суффикс +json. Проверьте порядок и условия."""
+Check a prefix for the image/* and text/* groups, and an exact value or
+the +json suffix for JSON. Check the order and the conditions."""
 
 [[exercises]]
 name = "switch45"
 path = "exercises/switch/switch45/main_test.go"
 mode = "test"
 hint = """
-Посмотрите, какие дни перечислены в ветке, возвращающей true."""
+Look at which days are listed in the branch that returns true."""
 
 [[exercises]]
 name = "switch46"
 path = "exercises/switch/switch46/main_test.go"
 mode = "test"
 hint = """
-Из последней ветки некуда «проваливаться». Уберите лишний fallthrough."""
+There is nowhere to fall through to from the last branch. Drop the stray fallthrough."""
 
 [[exercises]]
 name = "switch47"
 path = "exercises/switch/switch47/main_test.go"
 mode = "test"
 hint = """
-Земля — третья планета от Солнца."""
+Earth is the third planet from the Sun."""
 
 [[exercises]]
 name = "switch48"
 path = "exercises/switch/switch48/main_test.go"
 mode = "test"
 hint = """
-У полиции приоритет зависит от сирены — проверьте это внутри ветки.
-Сверьте список спецслужб с высшим приоритетом."""
+The priority of the police depends on the siren, so check it inside the branch.
+Check the list of the highest priority services too."""
 
 [[exercises]]
 name = "switch49"
 path = "exercises/switch/switch49/main_test.go"
 mode = "test"
 hint = """
-Нулевое значение поля Status совпадает с первой константой iota.
-Сдвиньте нумерацию, чтобы 0 не соответствовал ни одному реальному статусу."""
+The zero value of the Status field coincides with the first iota constant.
+Shift the numbering so that 0 matches no real status."""
 
 [[exercises]]
 name = "switch50"
 path = "exercises/switch/switch50/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какие константы time.Weekday перечислены в case."""
+Check which time.Weekday constants the case lists."""
 
 [[exercises]]
 name = "switch51"
 path = "exercises/switch/switch51/main_test.go"
 mode = "test"
 hint = """
-Инициализатор switch kind := ... создаёт новую kind, скрывающую результат.
-Голый return возвращает внешнюю, неизменённую переменную. Используйте =."""
+The initializer switch kind := ... creates a new kind that hides the result.
+A naked return returns the outer, untouched variable. Use = instead."""
 
 [[exercises]]
 name = "switch52"
 path = "exercises/switch/switch52/main_test.go"
 mode = "test"
 hint = """
-Проверяйте сначала пустую строку, затем ключевые слова, затем числа.
-Число — непустая строка только из цифр."""
+Check for the empty string first, then the keywords, then the numbers.
+A number is a non-empty string of digits only."""
 
 [[exercises]]
 name = "switch53"
 path = "exercises/switch/switch53/main_test.go"
 mode = "test"
 hint = """
-Если prev == "exit", ветка case prev сработает раньше ветки "exit".
-Поставьте проверку константы выше проверки переменной."""
+When prev == "exit", the case prev branch fires before the "exit" one.
+Put the constant check above the variable one."""
 
 [[exercises]]
 name = "switch54"
 path = "exercises/switch/switch54/main_test.go"
 mode = "test"
 hint = """
-Число — всё, кроме последнего символа. Множитель зависит от суффикса:
-s — 1, m — 60, h — 3600. Неизвестный суффикс — ошибка."""
+The number is everything but the last character. The factor comes from the suffix:
+s is 1, m is 60, h is 3600. An unknown suffix is an error."""
 
 [[exercises]]
 name = "switch55"
 path = "exercises/switch/switch55/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение, возвращаемое для оценки B."""
+Check the value returned for the grade B."""
 
 [[exercises]]
 name = "switch56"
 path = "exercises/switch/switch56/main_test.go"
 mode = "test"
 hint = """
-Сверьте списки и ставки с условием."""
+Check the lists and the rates against the description."""
 
 [[exercises]]
 name = "switch57"
 path = "exercises/switch/switch57/main_test.go"
 mode = "test"
 hint = """
-В switch можно сначала вычислить значение: switch ext := ...; ext { }.
-Проверьте, какое значение сопоставляется с ".json"."""
+A switch can compute a value first: switch ext := ...; ext { }.
+Check which value is matched with ".json"."""
 
 [[exercises]]
 name = "switch58"
 path = "exercises/switch/switch58/main_test.go"
 mode = "test"
 hint = """
-После strings.ToLower тег никогда не будет равен "Yes" или "NO".
-Приведите литералы в case к той же форме."""
+After strings.ToLower the tag is never "Yes" or "NO".
+Put the case literals in the same form."""
 
 [[exercises]]
 name = "switch59"
 path = "exercises/switch/switch59/main_test.go"
 mode = "test"
 hint = """
-Бит 4 — чтение, 2 — запись, 1 — выполнение. Каждый бит проверяется
-независимо, поэтому нужны три отдельных проверки, а не одна цепочка.
-Проверьте и функцию bit: какой символ она возвращает, если бит не установлен?"""
+Bit 4 is read, 2 is write and 1 is execute. Every bit is checked
+on its own, so three separate checks are needed rather than one chain.
+Check the bit function too: what does it return when the bit is not set?"""
 
 [[exercises]]
 name = "switch60"
 path = "exercises/switch/switch60/main_test.go"
 mode = "test"
 hint = """
-Структура со срезом не поддерживает ==. Замените срез в ключе
-сравнимым значением, например строкой."""
+A struct with a slice does not support ==. Replace the slice in the key
+with a comparable value, a string for instance."""
 
 [[exercises]]
 name = "switch61"
 path = "exercises/switch/switch61/main_test.go"
 mode = "test"
 hint = """
-Проверьте пару для направления "E"."""
+Check the pair for the direction "E"."""
 
 [[exercises]]
 name = "switch62"
 path = "exercises/switch/switch62/main_test.go"
 mode = "test"
 hint = """
-Динамический тип значения — *Circle, поэтому case Circle не подходит.
-Укажите типы-указатели в case."""
+The dynamic type of the value is *Circle, so case Circle does not match.
+List the pointer types in the cases."""
 
 [[exercises]]
 name = "switch63"
 path = "exercises/switch/switch63/main_test.go"
 mode = "test"
 hint = """
-Внутри ветки "food" нужен собственный switch по подкатегории.
-Проверьте ставку для книг."""
+The "food" branch needs a switch of its own over the subcategory.
+Check the rate for books."""
 
 [[exercises]]
 name = "switch64"
 path = "exercises/switch/switch64/main_test.go"
 mode = "test"
 hint = """
-Шкала Кельвина сдвинута относительно Цельсия на 273.15."""
+The Kelvin scale is offset from Celsius by 273.15."""
 
 [[exercises]]
 name = "switch65"
 path = "exercises/switch/switch65/main_test.go"
 mode = "test"
 hint = """
-Сначала отсеките некорректные значения, затем проверьте диапазоны по порядку."""
+Rule the invalid values out first, then check the ranges in order."""
 
 [[exercises]]
 name = "switch66"
 path = "exercises/switch/switch66/main_test.go"
 mode = "test"
 hint = """
-Ветки проверяются по порядку. Проверьте условие для "small"."""
+The branches are checked in order. Check the condition for "small"."""
 
 [[exercises]]
 name = "switch67"
 path = "exercises/switch/switch67/main_test.go"
 mode = "test"
 hint = """
-В type switch нельзя использовать fallthrough.
-Объедините типы в одном case через запятую."""
+A type switch does not allow fallthrough.
+List the types in one case, separated by commas."""
 
 [[exercises]]
 name = "switch68"
 path = "exercises/switch/switch68/main_test.go"
 mode = "test"
 hint = """
-Сопоставьте каждому уровню число по возрастанию важности,
-неизвестные уровни отправьте в default. Затем сравните числа."""
+Give every level a number rising with its importance and send unknown
+levels to the default. Then compare the numbers."""
 
 [[exercises]]
 name = "switch69"
 path = "exercises/switch/switch69/main_test.go"
 mode = "test"
 hint = """
-Проверьте выражение, по которому выполняется switch."""
+Check the expression the switch runs on."""
 
 [[exercises]]
 name = "switch70"
 path = "exercises/switch/switch70/main_test.go"
 mode = "test"
 hint = """
-switch n { case n < 0: } сравнивает int с bool.
-Уберите тег, чтобы каждый case был самостоятельным условием."""
+switch n { case n < 0: } compares an int with a bool.
+Drop the tag so that every case is a condition of its own."""
 
 [[exercises]]
 name = "switch71"
 path = "exercises/switch/switch71/main_test.go"
 mode = "test"
 hint = """
-Для add нужно ровно два аргумента, для neg — один.
-При неверном числе аргументов верните ошибку."""
+add needs exactly two arguments and neg needs one.
+Return an error when the count is wrong."""
 
 [[exercises]]
 name = "switch72"
 path = "exercises/switch/switch72/main_test.go"
 mode = "test"
 hint = """
-Чтобы выйти из цикла из-под switch, используйте метку на цикле
-и break с этой меткой (или return)."""
+To leave the loop from inside a switch, label the loop
+and break with that label, or return."""
 
 [[exercises]]
 name = "switch73"
 path = "exercises/switch/switch73/main_test.go"
 mode = "test"
 hint = """
-Сверьте значения в ветках case с номерами дней."""
+Check the values in the cases against the day numbers."""
 
 [[exercises]]
 name = "switch74"
 path = "exercises/switch/switch74/main_test.go"
 mode = "test"
 hint = """
-Для каждого исходного статуса перечислите разрешённые целевые.
-Всё, что не разрешено явно, запрещено."""
+List the allowed targets for every source state.
+Anything not allowed explicitly is forbidden."""
 
 [[exercises]]
 name = "switch75"
 path = "exercises/switch/switch75/main_test.go"
 mode = "test"
 hint = """
-Используйте switch без тега и errors.Is в каждой ветке."""
+Use a tagless switch with errors.Is in every branch."""
 
 [[exercises]]
 name = "switch76"
 path = "exercises/switch/switch76/main_test.go"
 mode = "test"
 hint = """
-Код 404 означает "Not Found". Проверьте, какой код стоит в этой ветке."""
+The code 404 means "Not Found". Check which code that branch carries."""
 
 [[exercises]]
 name = "switch77"
 path = "exercises/switch/switch77/main_test.go"
 mode = "test"
 hint = """
-Сравнение с NaN всегда ложно. Используйте switch без тега
-и проверку math.IsNaN в первой ветке."""
+A comparison with NaN is always false. Use a tagless switch
+with math.IsNaN in the first branch."""
 
 [[exercises]]
 name = "switch78"
 path = "exercises/switch/switch78/main_test.go"
 mode = "test"
 hint = """
-Роль root имеет те же права, что и admin."""
+The root role has the same rights as admin."""
 
 [[exercises]]
 name = "switch79"
 path = "exercises/switch/switch79/main_test.go"
 mode = "test"
 hint = """
-Направо: N->E->S->W->N. Налево — в обратную сторону.
-Проверьте обе таблицы."""
+To the right: N->E->S->W->N. To the left it goes the other way.
+Check both tables."""
 
 [[exercises]]
 name = "switch80"
 path = "exercises/switch/switch80/main_test.go"
 mode = "test"
 hint = """
-Если конкретное значение не нужно, используйте форму switch x.(type)
-без объявления переменной."""
+When the value itself is not needed, use the switch x.(type) form
+without declaring a variable."""
 
 [[exercises]]
 name = "switch81"
 path = "exercises/switch/switch81/main_test.go"
 mode = "test"
 hint = """
-Для оператора снимите два верхних значения: сначала правый операнд,
-затем левый. Результат положите обратно. Числа просто кладите на стек."""
+For an operator pop the top two values: the right operand first,
+then the left one. Push the result back. Numbers are simply pushed."""
 
 [[exercises]]
 name = "switch82"
 path = "exercises/switch/switch82/main_test.go"
 mode = "test"
 hint = """
-В type switch можно написать case nil — он срабатывает для пустого интерфейса."""
+A type switch may have a case nil, which fires for an empty interface."""
 
 [[exercises]]
 name = "switch83"
 path = "exercises/switch/switch83/main_test.go"
 mode = "test"
 hint = """
-Приведите n к диапазону 0..6 с учётом отрицательных чисел,
-а уже затем выбирайте ветку."""
+Map n into the range 0..6 taking negative numbers into account,
+and only then pick the branch."""
 
 [[exercises]]
 name = "switch84"
 path = "exercises/switch/switch84/main_test.go"
 mode = "test"
 hint = """
-Case fmt.Stringer подходит любому типу с методом String, включая Money.
-Более конкретный тип нужно проверять раньше."""
+case fmt.Stringer matches any type with a String method, Money included.
+The more specific type has to be checked first."""
 
 [[exercises]]
 name = "switch85"
 path = "exercises/switch/switch85/main_test.go"
 mode = "test"
 hint = """
-Проверьте диапазон в ветке для букв: нужны и строчные, и заглавные."""
+Check the range in the branch for letters: both lower and upper case are needed."""
 
 [[exercises]]
 name = "switch86"
 path = "exercises/switch/switch86/main_test.go"
 mode = "test"
 hint = """
-Объявите переменную результата до switch, а в ветках только присваивайте её."""
+Declare the result variable before the switch and only assign to it in the branches."""
 
 [[exercises]]
 name = "switch87"
 path = "exercises/switch/switch87/main_test.go"
 mode = "test"
 hint = """
-Добавьте недостающие баллы и обработайте некорректные значения."""
+Add the missing scores and deal with the invalid values."""
 
 [[exercises]]
 name = "switch88"
 path = "exercises/switch/switch88/main_test.go"
 mode = "test"
 hint = """
-default выполняется, когда ни одна ветка не подошла.
-Проверьте, что она возвращает."""
+The default runs when no branch matched.
+Check what it returns."""
 
 [[exercises]]
 name = "switch89"
 path = "exercises/switch/switch89/main_test.go"
 mode = "test"
 hint = """
-Переведите номинал в целые центы с округлением (math.Round)
-и делайте switch по целому числу."""
+Turn the value into whole cents with math.Round
+and switch on the integer."""
 
 [[exercises]]
 name = "switch90"
 path = "exercises/switch/switch90/main_test.go"
 mode = "test"
 hint = """
-Порядок важен: гласные — тоже буквы, поэтому проверяйте их раньше
-согласных. Цифры и прочее — отдельные ветки."""
+The order matters: vowels are letters too, so check them before the
+consonants. Digits and the rest get branches of their own."""
 
 [[exercises]]
 name = "switch91"
 path = "exercises/switch/switch91/main_test.go"
 mode = "test"
 hint = """
-Компилятор сообщает "duplicate case". Какой размер пропущен?"""
+The compiler reports "duplicate case". Which size is missing?"""
 
 [[exercises]]
 name = "switch92"
 path = "exercises/switch/switch92/main_test.go"
 mode = "test"
 hint = """
-fallthrough безусловно выполняет тело следующего case. Здесь ветки
-должны быть независимыми — уберите fallthrough."""
+fallthrough runs the body of the next case no matter what. These branches
+have to be independent, so drop the fallthrough."""
 
 [[exercises]]
 name = "switch93"
 path = "exercises/switch/switch93/main_test.go"
 mode = "test"
 hint = """
-Проверьте действие для жёлтого сигнала."""
+Check the action for the yellow signal."""
 
 [[exercises]]
 name = "switch94"
 path = "exercises/switch/switch94/main_test.go"
 mode = "test"
 hint = """
-Каждая ветка должна соответствовать своему отношению между a и b."""
+Every branch has to match its own relation between a and b."""
 
 [[exercises]]
 name = "switch95"
 path = "exercises/switch/switch95/main_test.go"
 mode = "test"
 hint = """
-Проверьте тело ветки для деления."""
+Check the body of the division branch."""
 
 [[exercises]]
 name = "switch96"
 path = "exercises/switch/switch96/main_test.go"
 mode = "test"
 hint = """
-Условие n < 110 истинно и для 85. Упорядочьте ветки от самой узкой
-границы к самой широкой."""
+The condition n < 110 holds for 85 as well. Order the branches from the
+narrowest bound to the widest."""
 
 [[exercises]]
 name = "switch97"
 path = "exercises/switch/switch97/main_test.go"
 mode = "test"
 hint = """
-Ключ собирается как "METHOD path". Проверьте, что метод и путь
-в каждом case совпадают с ожидаемыми, и что остальное даёт "notFound"."""
+The key is built as "METHOD path". Check that the method and the path in
+every case are the expected ones, and that anything else gives "notFound"."""
 
 [[exercises]]
 name = "switch98"
 path = "exercises/switch/switch98/main_test.go"
 mode = "test"
 hint = """
-В type switch в case указываются типы. Сверьте тип во второй ветке."""
+The cases of a type switch hold types. Check the type in the second branch."""
 
 [[exercises]]
 name = "switch99"
 path = "exercises/switch/switch99/main_test.go"
 mode = "test"
 hint = """
-Арифметика с interface{} невозможна. Разнесите int и float64
-по отдельным веткам — тогда v получит конкретный тип."""
+Arithmetic on an interface{} is impossible. Give int and float64
+branches of their own, and v takes a concrete type."""
 
 [[exercises]]
 name = "switch100"
 path = "exercises/switch/switch100/main_test.go"
 mode = "test"
 hint = """
-Клавиша и соответствующая стрелка должны быть в одной ветке.
-Вверх — это dy = -1."""
+A key and its arrow belong in the same branch.
+Up is dy = -1."""
 
 [[exercises]]
 name = "switch101"
 path = "exercises/switch/switch101/main_test.go"
 mode = "test"
 hint = """
-Сопоставьте константы и возвращаемые строки."""
+Match the constants with the strings that are returned."""
 
 [[exercises]]
 name = "switch102"
 path = "exercises/switch/switch102/main_test.go"
 mode = "test"
 hint = """
-TrimRight(s, "\n") оставляет "\r" в конце строки.
-Уберите все пробельные символы по краям."""
+TrimRight(s, "\n") leaves the "\r" at the end of the line.
+Strip every whitespace character from both ends."""
 
 [[exercises]]
 name = "switch103"
 path = "exercises/switch/switch103/main_test.go"
 mode = "test"
 hint = """
-Открывающие скобки кладите на стек. Для закрывающей проверьте,
-что стек не пуст и сверху лежит парная открывающая. В конце стек пуст."""
+Push the opening brackets on a stack. For a closing one check that the stack
+is not empty and that its top is the matching opener. At the end the stack is empty."""
 
 # ===== generated exercises: primitive_types =====
 [[exercises]]
@@ -3432,758 +3433,758 @@ name = "primitive_types6"
 path = "exercises/primitive_types/primitive_types6/main_test.go"
 mode = "test"
 hint = """
-Проверьте основание, переданное в FormatInt."""
+Check the base handed to FormatInt."""
 
 [[exercises]]
 name = "primitive_types7"
 path = "exercises/primitive_types/primitive_types7/main_test.go"
 mode = "test"
 hint = """
-Умножьте на 10^n, округлите до целого и разделите обратно."""
+Multiply by 10^n, round to a whole number and divide back."""
 
 [[exercises]]
 name = "primitive_types8"
 path = "exercises/primitive_types/primitive_types8/main_test.go"
 mode = "test"
 hint = """
-Проверяйте результат после каждого умножения функцией math.IsInf."""
+Check the result after every multiplication with math.IsInf."""
 
 [[exercises]]
 name = "primitive_types9"
 path = "exercises/primitive_types/primitive_types9/main_test.go"
 mode = "test"
 hint = """
-TrimSuffix убирает окончание, а для начала строки есть другая функция."""
+TrimSuffix removes an ending; there is another function for the start of a string."""
 
 [[exercises]]
 name = "primitive_types10"
 path = "exercises/primitive_types/primitive_types10/main_test.go"
 mode = "test"
 hint = """
-Возьмите приближение через math.Sqrt, а затем подправьте его:
-уменьшайте, пока r*r > n, и увеличивайте, пока (r+1)*(r+1) <= n."""
+Take an approximation from math.Sqrt and adjust it:
+lower it while r*r > n, and raise it while (r+1)*(r+1) <= n."""
 
 [[exercises]]
 name = "primitive_types11"
 path = "exercises/primitive_types/primitive_types11/main_test.go"
 mode = "test"
 hint = """
-Правило «половина к чётному» реализует отдельная функция пакета math."""
+The "half to even" rule has a function of its own in the math package."""
 
 [[exercises]]
 name = "primitive_types12"
 path = "exercises/primitive_types/primitive_types12/main_test.go"
 mode = "test"
 hint = """
-Hypot принимает разности координат по осям."""
+Hypot takes the differences of the coordinates along each axis."""
 
 [[exercises]]
 name = "primitive_types13"
 path = "exercises/primitive_types/primitive_types13/main_test.go"
 mode = "test"
 hint = """
-Счётчик сдвига не может быть отрицательным. Для отрицательного n
-выполните сдвиг вправо на -n."""
+A shift count cannot be negative. For a negative n
+shift right by -n instead."""
 
 [[exercises]]
 name = "primitive_types14"
 path = "exercises/primitive_types/primitive_types14/main_test.go"
 mode = "test"
 hint = """
-Число — вся строка без последнего символа. Для Фаренгейта
-примените формулу (F - 32) * 5 / 9. Неизвестная единица — ошибка."""
+The number is the whole string but the last character. For Fahrenheit
+apply (F - 32) * 5 / 9. An unknown unit is an error."""
 
 [[exercises]]
 name = "primitive_types15"
 path = "exercises/primitive_types/primitive_types15/main_test.go"
 mode = "test"
 hint = """
-Проверьте разделитель, передаваемый в Split."""
+Check the separator handed to Split."""
 
 [[exercises]]
 name = "primitive_types16"
 path = "exercises/primitive_types/primitive_types16/main_test.go"
 mode = "test"
 hint = """
-a + b вычисляется в uint8 и переполняется до деления.
-Выполните сложение в более широком типе."""
+a + b is computed in uint8 and overflows before the division.
+Do the addition in a wider type."""
 
 [[exercises]]
 name = "primitive_types17"
 path = "exercises/primitive_types/primitive_types17/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какая функция вызывается."""
+Check which function is being called."""
 
 [[exercises]]
 name = "primitive_types18"
 path = "exercises/primitive_types/primitive_types18/main_test.go"
 mode = "test"
 hint = """
-Переполнение возможно, только если знаки слагаемых одинаковы,
-а знак результата — другой."""
+An overflow is only possible when the operands share a sign
+and the result carries the other one."""
 
 [[exercises]]
 name = "primitive_types19"
 path = "exercises/primitive_types/primitive_types19/main_test.go"
 mode = "test"
 hint = """
-Арабские или деванагари цифры — тоже «цифры» для unicode.
-Проверяйте диапазон байтов '0'..'9'."""
+Arabic or Devanagari digits count as digits to unicode.
+Check the byte range '0'..'9' instead."""
 
 [[exercises]]
 name = "primitive_types20"
 path = "exercises/primitive_types/primitive_types20/main_test.go"
 mode = "test"
 hint = """
-math.Pow(x, y) возводит x в степень y. Проверьте порядок аргументов."""
+math.Pow(x, y) raises x to the power of y. Check the order of the arguments."""
 
 [[exercises]]
 name = "primitive_types21"
 path = "exercises/primitive_types/primitive_types21/main_test.go"
 mode = "test"
 hint = """
-Все байты ASCII меньше 128. Многобайтовые символы UTF-8 содержат
-байты от 128 и выше. Проверяйте каждый байт."""
+Every ASCII byte is below 128. Multibyte UTF-8 characters contain
+bytes of 128 and above. Check every byte."""
 
 [[exercises]]
 name = "primitive_types22"
 path = "exercises/primitive_types/primitive_types22/main_test.go"
 mode = "test"
 hint = """
-Для булевых значений используется глагол %t."""
+Boolean values are printed with the %t verb."""
 
 [[exercises]]
 name = "primitive_types23"
 path = "exercises/primitive_types/primitive_types23/main_test.go"
 mode = "test"
 hint = """
-Преобразования int(b) для bool в Go нет. Используйте условный оператор if."""
+There is no int(b) conversion for a bool in Go. Use an if instead."""
 
 [[exercises]]
 name = "primitive_types24"
 path = "exercises/primitive_types/primitive_types24/main_test.go"
 mode = "test"
 hint = """
-math.Mod(-30, 360) = -30. Если результат отрицательный, прибавьте 360."""
+math.Mod(-30, 360) = -30. Add 360 when the result is negative."""
 
 [[exercises]]
 name = "primitive_types25"
 path = "exercises/primitive_types/primitive_types25/main_test.go"
 mode = "test"
 hint = """
-Итерируйтесь по рунам через range и проверяйте каждую функцией unicode."""
+Iterate over the runes with range and check each of them with a unicode function."""
 
 [[exercises]]
 name = "primitive_types26"
 path = "exercises/primitive_types/primitive_types26/main_test.go"
 mode = "test"
 hint = """
-Используйте strconv.FormatFloat с форматом 'f' и точностью -1
-(минимально необходимое число знаков)."""
+Use strconv.FormatFloat with the 'f' format and a precision of -1,
+which is the smallest number of digits needed."""
 
 [[exercises]]
 name = "primitive_types27"
 path = "exercises/primitive_types/primitive_types27/main_test.go"
 mode = "test"
 hint = """
-Точность задаётся между % и f: %.Nf."""
+The precision goes between the % and the f: %.Nf."""
 
 [[exercises]]
 name = "primitive_types28"
 path = "exercises/primitive_types/primitive_types28/main_test.go"
 mode = "test"
 hint = """
-Split всегда возвращает хотя бы один элемент. Обработайте пустую строку
-отдельно (и пропускайте пустые элементы)."""
+Split always returns at least one element. Handle the empty string
+separately, and skip empty elements."""
 
 [[exercises]]
 name = "primitive_types29"
 path = "exercises/primitive_types/primitive_types29/main_test.go"
 mode = "test"
 hint = """
-Последний аргумент Replace задаёт количество замен. -1 означает «все»."""
+The last argument of Replace is the number of replacements. -1 means all of them."""
 
 [[exercises]]
 name = "primitive_types30"
 path = "exercises/primitive_types/primitive_types30/main_test.go"
 mode = "test"
 hint = """
-Разбейте строку на слова, для каждого слова переведите руны:
-первую в верхний регистр, остальные в нижний. Затем соберите строку."""
+Split the string into words and convert the runes of each word:
+the first to upper case, the rest to lower case. Then join it back."""
 
 [[exercises]]
 name = "primitive_types31"
 path = "exercises/primitive_types/primitive_types31/main_test.go"
 mode = "test"
 hint = """
-strings.Split(s, " ") создаёт пустые элементы между соседними пробелами.
-Есть функция, которая разбивает по любым пробельным символам."""
+strings.Split(s, " ") produces empty elements between neighbouring spaces.
+There is a function that splits on any whitespace."""
 
 [[exercises]]
 name = "primitive_types32"
 path = "exercises/primitive_types/primitive_types32/main_test.go"
 mode = "test"
 hint = """
-binary.BigEndian и binary.LittleEndian дают противоположный порядок.
-Для записи есть PutUint32, для чтения — Uint32."""
+binary.BigEndian and binary.LittleEndian give opposite orders.
+PutUint32 writes and Uint32 reads."""
 
 [[exercises]]
 name = "primitive_types33"
 path = "exercises/primitive_types/primitive_types33/main_test.go"
 mode = "test"
 hint = """
-s[:n] берёт n байт, а не n символов. Преобразуйте строку в []rune
-и режьте срез рун."""
+s[:n] takes n bytes, not n characters. Convert the string to a []rune
+and slice the runes."""
 
 [[exercises]]
 name = "primitive_types34"
 path = "exercises/primitive_types/primitive_types34/main_test.go"
 mode = "test"
 hint = """
-Байт '7' имеет код 55. Чтобы получить число 7, вычтите '0'.
-Не забудьте пропускать нецифровые символы."""
+The byte '7' has the code 55. Subtract '0' to get the number 7.
+Remember to skip the non-digit characters."""
 
 [[exercises]]
 name = "primitive_types35"
 path = "exercises/primitive_types/primitive_types35/main_test.go"
 mode = "test"
 hint = """
-Строка Go может содержать нулевые байты. Найдите первый нулевой байт
-(bytes.IndexByte) и возьмите часть буфера до него."""
+A Go string may hold zero bytes. Find the first one with bytes.IndexByte
+and take the part of the buffer before it."""
 
 [[exercises]]
 name = "primitive_types36"
 path = "exercises/primitive_types/primitive_types36/main_test.go"
 mode = "test"
 hint = """
-Проверьте порядок аргументов: сначала где ищем, потом что ищем."""
+Check the order of the arguments: where to look first, what to look for second."""
 
 [[exercises]]
 name = "primitive_types37"
 path = "exercises/primitive_types/primitive_types37/main_test.go"
 mode = "test"
 hint = """
-Частей должно быть ровно четыре. Каждая часть — непустое число
-от 0 до 255; строка с ведущим нулём длиннее одного символа некорректна."""
+There have to be exactly four parts. Every part is a non-empty number
+from 0 to 255; a string longer than one character with a leading zero is invalid."""
 
 [[exercises]]
 name = "primitive_types38"
 path = "exercises/primitive_types/primitive_types38/main_test.go"
 mode = "test"
 hint = """
-Индексы среза: первый включается, второй — нет. Код начинается после скобки."""
+In a slice the first index is included and the second is not. The code starts after the bracket."""
 
 [[exercises]]
 name = "primitive_types39"
 path = "exercises/primitive_types/primitive_types39/main_test.go"
 mode = "test"
 hint = """
-В Unicode буква ё (U+0451) лежит после я (U+044F). Добавьте её отдельно."""
+In Unicode the letter ё (U+0451) comes after я (U+044F). Allow for it separately."""
 
 [[exercises]]
 name = "primitive_types40"
 path = "exercises/primitive_types/primitive_types40/main_test.go"
 mode = "test"
 hint = """
-Разность 'z' - 'a' не учитывает одну из границ."""
+The difference 'z' - 'a' leaves one of the bounds out."""
 
 [[exercises]]
 name = "primitive_types41"
 path = "exercises/primitive_types/primitive_types41/main_test.go"
 mode = "test"
 hint = """
-%b для отрицательного int8 печатает знак минус. Сначала преобразуйте
-значение в uint8 — биты сохранятся, а знак исчезнет."""
+%b prints a minus sign for a negative int8. Convert the value to a uint8
+first: the bits survive and the sign disappears."""
 
 [[exercises]]
 name = "primitive_types42"
 path = "exercises/primitive_types/primitive_types42/main_test.go"
 mode = "test"
 hint = """
-Для многобайтовых символов индекс i «перескакивает». Ведите собственный
-счётчик символов или используйте []rune."""
+With multibyte characters the index i jumps. Keep a character counter
+of your own, or use a []rune."""
 
 [[exercises]]
 name = "primitive_types43"
 path = "exercises/primitive_types/primitive_types43/main_test.go"
 mode = "test"
 hint = """
-Для целых чисел используется глагол %d, а %s — для строк."""
+Integers use the %d verb, while %s is for strings."""
 
 [[exercises]]
 name = "primitive_types44"
 path = "exercises/primitive_types/primitive_types44/main_test.go"
 mode = "test"
 hint = """
-Считайте длину серии одинаковых символов. Когда символ меняется
-(или строка заканчивается), запишите символ и длину серии."""
+Count the length of each run of equal characters. When the character changes,
+or the string ends, write the character and the length of the run."""
 
 [[exercises]]
 name = "primitive_types45"
 path = "exercises/primitive_types/primitive_types45/main_test.go"
 mode = "test"
 hint = """
-Не вычисляйте заглавную букву арифметикой. Используйте unicode.ToUpper,
-который знает все исключения."""
+Do not work the capital out with arithmetic. Use unicode.ToUpper,
+which knows all the exceptions."""
 
 [[exercises]]
 name = "primitive_types46"
 path = "exercises/primitive_types/primitive_types46/main_test.go"
 mode = "test"
 hint = """
-В имени может быть несколько точек; расширение идёт после последней."""
+A name may hold several dots; the extension follows the last one."""
 
 [[exercises]]
 name = "primitive_types47"
 path = "exercises/primitive_types/primitive_types47/main_test.go"
 mode = "test"
 hint = """
--7 / 2 в Go даёт -3. Если остаток не нулевой и знаки делимого и делителя
-различаются, результат нужно уменьшить на единицу."""
+-7 / 2 gives -3 in Go. When the remainder is not zero and the signs of the
+dividend and the divisor differ, the result has to be lowered by one."""
 
 [[exercises]]
 name = "primitive_types48"
 path = "exercises/primitive_types/primitive_types48/main_test.go"
 mode = "test"
 hint = """
-Идите справа налево; каждую вторую цифру удваивайте и, если результат
-больше 9, вычитайте 9. Сумма всех цифр должна делиться на 10."""
+Go from right to left; double every second digit and subtract 9 when the
+result is over 9. The sum of all the digits has to divide by 10."""
 
 [[exercises]]
 name = "primitive_types49"
 path = "exercises/primitive_types/primitive_types49/main_test.go"
 mode = "test"
 hint = """
-Проверьте строку функцией utf8.ValidString до подсчёта."""
+Check the string with utf8.ValidString before counting."""
 
 [[exercises]]
 name = "primitive_types50"
 path = "exercises/primitive_types/primitive_types50/main_test.go"
 mode = "test"
 hint = """
-int64(a*b) сначала перемножает int32 (с переполнением), а уже потом
-расширяет результат. Преобразуйте каждый множитель."""
+int64(a*b) multiplies two int32 values first, overflowing, and only widens
+afterwards. Convert each factor instead."""
 
 [[exercises]]
 name = "primitive_types51"
 path = "exercises/primitive_types/primitive_types51/main_test.go"
 mode = "test"
 hint = """
-Для строчных: 'z' - (r - 'a'). Для заглавных — то же с 'A' и 'Z'."""
+For lower case: 'z' - (r - 'a'). For upper case the same with 'A' and 'Z'."""
 
 [[exercises]]
 name = "primitive_types52"
 path = "exercises/primitive_types/primitive_types52/main_test.go"
 mode = "test"
 hint = """
-Для беззнаковых типов в пакете math есть константы MaxUint8, MaxUint16..."""
+For the unsigned types the math package has MaxUint8, MaxUint16 and so on."""
 
 [[exercises]]
 name = "primitive_types53"
 path = "exercises/primitive_types/primitive_types53/main_test.go"
 mode = "test"
 hint = """
-Младший полубайт нужно сдвинуть влево на 4, старший — вправо на 4,
-и объединить результаты через |."""
+The low nibble has to move 4 bits left and the high one 4 bits right,
+and the results are joined with |."""
 
 [[exercises]]
 name = "primitive_types54"
 path = "exercises/primitive_types/primitive_types54/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте нормализованные строки: например, приведённые к нижнему регистру."""
+Compare normalized strings, folded to lower case for instance."""
 
 [[exercises]]
 name = "primitive_types55"
 path = "exercises/primitive_types/primitive_types55/main_test.go"
 mode = "test"
 hint = """
-string(r) для руны даёт строку из этого символа.
-strconv.Itoa превращает в строку число, а не символ."""
+string(r) for a rune gives a string of that one character.
+strconv.Itoa turns a number into a string, not a character."""
 
 [[exercises]]
 name = "primitive_types56"
 path = "exercises/primitive_types/primitive_types56/main_test.go"
 mode = "test"
 hint = """
-Считайте отдельно буквы и гласные. Делите во float64 и только
-если букв больше нуля."""
+Count the letters and the vowels separately. Divide in float64 and only
+when there is at least one letter."""
 
 [[exercises]]
 name = "primitive_types57"
 path = "exercises/primitive_types/primitive_types57/main_test.go"
 mode = "test"
 hint = """
-Изменения в срезе байт не отражаются на исходной строке.
-Верните новую строку, собранную из изменённого среза."""
+Changes to the byte slice do not show up in the original string.
+Return a new string built from the changed slice."""
 
 [[exercises]]
 name = "primitive_types58"
 path = "exercises/primitive_types/primitive_types58/main_test.go"
 mode = "test"
 hint = """
-Для каждого байта проверяйте младший бит (b & 1) и сдвигайте байт вправо,
-пока он не станет нулём."""
+For every byte check the lowest bit (b & 1) and shift the byte right
+until it reaches zero."""
 
 [[exercises]]
 name = "primitive_types59"
 path = "exercises/primitive_types/primitive_types59/main_test.go"
 mode = "test"
 hint = """
-В пакете unicode есть функции IsUpper и IsLower."""
+The unicode package has IsUpper and IsLower."""
 
 [[exercises]]
 name = "primitive_types60"
 path = "exercises/primitive_types/primitive_types60/main_test.go"
 mode = "test"
 hint = """
-0.1, сложенное десять раз, не равно 1.0. Используйте целочисленный
-счётчик или сравнение с допуском."""
+0.1 added ten times does not equal 1.0. Use an integer counter
+or a comparison with a tolerance."""
 
 [[exercises]]
 name = "primitive_types61"
 path = "exercises/primitive_types/primitive_types61/main_test.go"
 mode = "test"
 hint = """
-Сдвиг uint16 на 16 бит даёт 0 — сначала расширьте значение до uint32.
-При распаковке используйте сдвиг и преобразование к uint16."""
+Shifting a uint16 by 16 bits gives 0, so widen the value to uint32 first.
+Unpacking uses a shift and a conversion to uint16."""
 
 [[exercises]]
 name = "primitive_types62"
 path = "exercises/primitive_types/primitive_types62/main_test.go"
 mode = "test"
 hint = """
-Для float64 0/0 = NaN, и программа молча продолжает работу.
-Обработайте пустой срез явно."""
+For a float64 0/0 is NaN and the program quietly carries on.
+Handle the empty slice explicitly."""
 
 [[exercises]]
 name = "primitive_types63"
 path = "exercises/primitive_types/primitive_types63/main_test.go"
 mode = "test"
 hint = """
-Нужна функция, обратная strings.ToLower."""
+What is needed is the opposite of strings.ToLower."""
 
 [[exercises]]
 name = "primitive_types64"
 path = "exercises/primitive_types/primitive_types64/main_test.go"
 mode = "test"
 hint = """
-Соберите срез рун только из букв в нижнем регистре,
-затем сравнивайте его с двух концов."""
+Build a slice of runes holding the lowercased letters only,
+then compare it from both ends."""
 
 [[exercises]]
 name = "primitive_types65"
 path = "exercises/primitive_types/primitive_types65/main_test.go"
 mode = "test"
 hint = """
-byte('•') обрезает код символа до одного байта. Для записи произвольного
-символа Unicode используйте WriteRune."""
+byte('•') truncates the code of the character to a single byte. To write any
+Unicode character, use WriteRune."""
 
 [[exercises]]
 name = "primitive_types66"
 path = "exercises/primitive_types/primitive_types66/main_test.go"
 mode = "test"
 hint = """
-Сравнение само по себе имеет тип bool. Проверьте знак сравнения."""
+A comparison is of type bool by itself. Check the comparison operator."""
 
 [[exercises]]
 name = "primitive_types67"
 path = "exercises/primitive_types/primitive_types67/main_test.go"
 mode = "test"
 hint = """
-math.Round(-0.4) даёт -0. -0 == 0 истинно, поэтому можно заменить
-результат нулём, если он равен нулю."""
+math.Round(-0.4) gives -0. Since -0 == 0 holds, the result can be replaced
+with zero when it equals zero."""
 
 [[exercises]]
 name = "primitive_types68"
 path = "exercises/primitive_types/primitive_types68/main_test.go"
 mode = "test"
 hint = """
-math.Sqrt от отрицательного числа даёт NaN. Используйте cmplx.Sqrt
-от дискриминанта, приведённого к complex128."""
+math.Sqrt of a negative number gives NaN. Use cmplx.Sqrt on the
+discriminant converted to a complex128."""
 
 [[exercises]]
 name = "primitive_types69"
 path = "exercises/primitive_types/primitive_types69/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какой символ ищется."""
+Check which character is being looked for."""
 
 [[exercises]]
 name = "primitive_types70"
 path = "exercises/primitive_types/primitive_types70/main_test.go"
 mode = "test"
 hint = """
-Удалите пробелы-разделители разрядов и замените запятую на точку."""
+Remove the group separating spaces and replace the comma with a dot."""
 
 [[exercises]]
 name = "primitive_types71"
 path = "exercises/primitive_types/primitive_types71/main_test.go"
 mode = "test"
 hint = """
-fmt.Sprint печатает срез как список чисел. Нужна прямая конверсия типа."""
+fmt.Sprint prints a slice as a list of numbers. A plain type conversion is what is needed."""
 
 [[exercises]]
 name = "primitive_types72"
 path = "exercises/primitive_types/primitive_types72/main_test.go"
 mode = "test"
 hint = """
-Результат не помещается в int32. Используйте int64 и для вычисления,
-и для результата."""
+The result does not fit in an int32. Use int64 both for the computation
+and for the result."""
 
 [[exercises]]
 name = "primitive_types73"
 path = "exercises/primitive_types/primitive_types73/main_test.go"
 mode = "test"
 hint = """
-Абсолютный порог не подходит для 1e20. Сравните |a-b| с eps,
-умноженным на наибольший из модулей a и b."""
+An absolute threshold does not work for 1e20. Compare |a-b| against eps
+times the larger of the absolute values of a and b."""
 
 [[exercises]]
 name = "primitive_types74"
 path = "exercises/primitive_types/primitive_types74/main_test.go"
 mode = "test"
 hint = """
-Код следующего символа больше на единицу."""
+The code of the next character is one higher."""
 
 [[exercises]]
 name = "primitive_types75"
 path = "exercises/primitive_types/primitive_types75/main_test.go"
 mode = "test"
 hint = """
-При выходе за диапазон ParseFloat возвращает ±Inf и ошибку с ErrRange.
-Не отбрасывайте ошибку; дополнительно отклоните NaN и бесконечности."""
+Out of range, ParseFloat returns ±Inf and an error wrapping ErrRange.
+Do not drop the error; reject NaN and the infinities as well."""
 
 [[exercises]]
 name = "primitive_types76"
 path = "exercises/primitive_types/primitive_types76/main_test.go"
 mode = "test"
 hint = """
-%X печатает заглавные буквы, %x — строчные."""
+%X prints capital letters and %x lowercase ones."""
 
 [[exercises]]
 name = "primitive_types77"
 path = "exercises/primitive_types/primitive_types77/main_test.go"
 mode = "test"
 hint = """
-Суммирование дробных чисел накапливает погрешность, а преобразование
-в int её не исправляет. Переводите каждую цену в копейки с округлением
-и складывайте целые числа."""
+Adding fractional numbers accumulates rounding error, and the conversion
+to int does not undo it. Turn every price into cents with rounding
+and add up the integers."""
 
 [[exercises]]
 name = "primitive_types78"
 path = "exercises/primitive_types/primitive_types78/main_test.go"
 mode = "test"
 hint = """
-Для заглавной буквы верните строчную и наоборот; остальные символы
-оставьте без изменений."""
+Return a lowercase letter for a capital one and the other way round;
+leave every other character alone."""
 
 [[exercises]]
 name = "primitive_types79"
 path = "exercises/primitive_types/primitive_types79/main_test.go"
 mode = "test"
 hint = """
-int(-0.5) == 0, хотя -0.5 лежит в интервале -1.
-Округлите частное вниз с помощью math.Floor до преобразования."""
+int(-0.5) == 0, although -0.5 lies in bucket -1.
+Round the quotient down with math.Floor before the conversion."""
 
 [[exercises]]
 name = "primitive_types80"
 path = "exercises/primitive_types/primitive_types80/main_test.go"
 mode = "test"
 hint = """
-Приведите букву к нижнему регистру, пропустите не-буквы,
-индекс в массиве — смещение от 'a'."""
+Fold the letter to lower case, skip anything that is not a letter,
+and use the offset from 'a' as the index."""
 
 [[exercises]]
 name = "primitive_types81"
 path = "exercises/primitive_types/primitive_types81/main_test.go"
 mode = "test"
 hint = """
-Флаг 0 и ширина перед глаголом: %0Nb."""
+The 0 flag and a width go before the verb: %0Nb."""
 
 [[exercises]]
 name = "primitive_types82"
 path = "exercises/primitive_types/primitive_types82/main_test.go"
 mode = "test"
 hint = """
-TrimLeft удаляет слева все символы, входящие в набор, сколько бы их ни было.
-Для удаления конкретного префикса есть TrimPrefix."""
+TrimLeft removes every character of the set from the left, however many there are.
+TrimPrefix is the one that removes a given prefix."""
 
 [[exercises]]
 name = "primitive_types83"
 path = "exercises/primitive_types/primitive_types83/main_test.go"
 mode = "test"
 hint = """
-Второй аргумент ParseInt — основание системы счисления."""
+The second argument of ParseInt is the base."""
 
 [[exercises]]
 name = "primitive_types84"
 path = "exercises/primitive_types/primitive_types84/main_test.go"
 mode = "test"
 hint = """
-Разделите строку по точке. Дробную часть дополните нулями до двух цифр
-и сложите: рубли * 100 + копейки."""
+Split the string on the dot. Pad the fractional part with zeros to two digits
+and add them up: units * 100 + cents."""
 
 [[exercises]]
 name = "primitive_types85"
 path = "exercises/primitive_types/primitive_types85/main_test.go"
 mode = "test"
 hint = """
-Константа 0x80 = 128, а int8 хранит значения до 127.
-Работайте с битами в беззнаковом типе: преобразуйте значение в uint8."""
+The constant 0x80 is 128, while an int8 holds values up to 127.
+Work with the bits in an unsigned type: convert the value to a uint8."""
 
 [[exercises]]
 name = "primitive_types86"
 path = "exercises/primitive_types/primitive_types86/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какая подстрока считается."""
+Check which substring is being counted."""
 
 [[exercises]]
 name = "primitive_types87"
 path = "exercises/primitive_types/primitive_types87/main_test.go"
 mode = "test"
 hint = """
-Красный — старший байт из трёх: сдвиг на 16. Зелёный — на 8.
-Каждый результат маскируется 0xFF."""
+Red is the top byte of the three, so shift by 16. Green shifts by 8.
+Every result is masked with 0xFF."""
 
 [[exercises]]
 name = "primitive_types88"
 path = "exercises/primitive_types/primitive_types88/main_test.go"
 mode = "test"
 hint = """
-Для чисел с плавающей точкой остаток считает функция из пакета math."""
+For floating point numbers the remainder comes from a function in the math package."""
 
 [[exercises]]
 name = "primitive_types89"
 path = "exercises/primitive_types/primitive_types89/main_test.go"
 mode = "test"
 hint = """
-Значения больше math.MaxInt64 после преобразования становятся отрицательными.
-Проверьте диапазон до преобразования."""
+Values above math.MaxInt64 come out negative after the conversion.
+Check the range before converting."""
 
 [[exercises]]
 name = "primitive_types90"
 path = "exercises/primitive_types/primitive_types90/main_test.go"
 mode = "test"
 hint = """
-Старший полубайт — b >> 4, младший — b & 0x0F.
-Каждый из них — индекс в строке цифр."""
+The high nibble is b >> 4 and the low one is b & 0x0F.
+Each of them indexes into the string of digits."""
 
 [[exercises]]
 name = "primitive_types91"
 path = "exercises/primitive_types/primitive_types91/main_test.go"
 mode = "test"
 hint = """
-Сдвиг отрицательного знакового числа сохраняет знак (дополняет единицами).
-Преобразуйте значение в uint32, сдвиньте и верните обратно."""
+Shifting a negative signed number keeps the sign by filling with ones.
+Convert the value to a uint32, shift, and convert back."""
 
 [[exercises]]
 name = "primitive_types92"
 path = "exercises/primitive_types/primitive_types92/main_test.go"
 mode = "test"
 hint = """
-Часы — minutes / 60, минуты — остаток. Для ведущих нулей
-используйте ширину 2 и флаг 0."""
+The hours are minutes / 60 and the minutes are the remainder. For the leading
+zeros use a width of 2 with the 0 flag."""
 
 [[exercises]]
 name = "primitive_types93"
 path = "exercises/primitive_types/primitive_types93/main_test.go"
 mode = "test"
 hint = """
-Квадратный корень здесь не подходит. В math есть функция кубического корня."""
+A square root is not what is needed here. math has a cube root function."""
 
 [[exercises]]
 name = "primitive_types94"
 path = "exercises/primitive_types/primitive_types94/main_test.go"
 mode = "test"
 hint = """
-Делите на 1024, пока значение не станет меньше 1024, запоминая единицу.
-Байты выводятся целым числом, остальное — с одним знаком (%.1f)."""
+Divide by 1024 while the value is 1024 or more, remembering the unit.
+Bytes print as a whole number, everything else with one decimal (%.1f)."""
 
 [[exercises]]
 name = "primitive_types95"
 path = "exercises/primitive_types/primitive_types95/main_test.go"
 mode = "test"
 hint = """
-Аргумент math.Inf задаёт знак: положительный или отрицательный."""
+The argument of math.Inf picks the sign, positive or negative."""
 
 [[exercises]]
 name = "primitive_types96"
 path = "exercises/primitive_types/primitive_types96/main_test.go"
 mode = "test"
 hint = """
-ParseInt с bitSize 64 примет 300, а преобразование int8 его обрежет.
-Укажите bitSize 8 — тогда ParseInt сам вернёт ошибку диапазона."""
+ParseInt with a bitSize of 64 accepts 300, and the conversion to int8 truncates it.
+Pass a bitSize of 8 and ParseInt returns a range error itself."""
 
 [[exercises]]
 name = "primitive_types97"
 path = "exercises/primitive_types/primitive_types97/main_test.go"
 mode = "test"
 hint = """
-Сначала разделите строку по ';', затем каждую часть — по '='.
-Значение нужно превратить в число и пропустить пару при ошибке."""
+Split the string on ';' first, then each part on '='.
+The value has to be turned into a number, and the pair skipped on an error."""
 
 [[exercises]]
 name = "primitive_types98"
 path = "exercises/primitive_types/primitive_types98/main_test.go"
 mode = "test"
 hint = """
-Floor округляет вниз (к минус бесконечности). Нужно округление к нулю."""
+Floor rounds down, towards minus infinity. What is needed is rounding towards zero."""
 
 [[exercises]]
 name = "primitive_types99"
 path = "exercises/primitive_types/primitive_types99/main_test.go"
 mode = "test"
 hint = """
-Преобразование string(b) для числа трактует его как код символа.
-Соберите []byte и преобразуйте весь срез в строку."""
+The conversion string(b) of a number reads it as a character code.
+Build a []byte and convert the whole slice to a string."""
 
 [[exercises]]
 name = "primitive_types100"
 path = "exercises/primitive_types/primitive_types100/main_test.go"
 mode = "test"
 hint = """
-На каждом шаге сдвиньте накопленное значение на 1 бит влево
-и добавьте текущий бит. Проверяйте символы."""
+At every step shift what has been accumulated one bit left
+and add the current bit. Check the characters."""
 
 [[exercises]]
 name = "primitive_types101"
 path = "exercises/primitive_types/primitive_types101/main_test.go"
 mode = "test"
 hint = """
-При основании 0 префикс 0 означает восьмеричное число, 0x — шестнадцатеричное.
-Для десятичных идентификаторов укажите основание 10."""
+With a base of 0 a leading 0 means octal and 0x means hexadecimal.
+For decimal identifiers pass a base of 10."""
 
 [[exercises]]
 name = "primitive_types102"
 path = "exercises/primitive_types/primitive_types102/main_test.go"
 mode = "test"
 hint = """
-%s выводит строку как есть, %q — в кавычках Go-синтаксиса."""
+%s prints a string as it is, while %q prints it quoted in Go syntax."""
 
 [[exercises]]
 name = "primitive_types103"
 path = "exercises/primitive_types/primitive_types103/main_test.go"
 mode = "test"
 hint = """
-Проверьте наличие суффикса, отрежьте его, разберите число
-и разделите на 100."""
+Check that the suffix is there, cut it off, parse the number
+and divide it by 100."""
 
 [[exercises]]
 name = "primitive_types104"
 path = "exercises/primitive_types/primitive_types104/main_test.go"
 mode = "test"
 hint = """
-Неполная коробка тоже нужна. Какая функция округляет вверх?"""
+A partly filled box is needed too. Which function rounds up?"""
 
 [[exercises]]
 name = "primitive_types105"
 path = "exercises/primitive_types/primitive_types105/main_test.go"
 mode = "test"
 hint = """
-Atoi не пропускает пробельные символы. Очистите строку перед разбором."""
+Atoi does not skip whitespace. Clean the string up before parsing it."""
 
 # ===== generated exercises: arrays =====
 [[exercises]]
@@ -4191,382 +4192,382 @@ name = "arrays3"
 path = "exercises/arrays/arrays3/main_test.go"
 mode = "test"
 hint = """
-В литерале можно писать index: value. Проверьте индекс."""
+A literal may be written as index: value. Check the index."""
 
 [[exercises]]
 name = "arrays4"
 path = "exercises/arrays/arrays4/main_test.go"
 mode = "test"
 hint = """
-Добавьте в конец перечисления служебную константу-счётчик
-и используйте её как размер массива. Не забудьте название нового цвета."""
+Add a counter constant at the end of the enumeration
+and use it as the size of the array. Do not forget the name of the new colour."""
 
 [[exercises]]
 name = "arrays5"
 path = "exercises/arrays/arrays5/main_test.go"
 mode = "test"
 hint = """
-Месяцы нумеруются с 1, а индексы массива — с 0."""
+The months are numbered from 1, while array indexes start at 0."""
 
 [[exercises]]
 name = "arrays6"
 path = "exercises/arrays/arrays6/main_test.go"
 mode = "test"
 hint = """
-Проходите верхнюю строку слева направо, правый столбец сверху вниз,
-нижнюю строку справа налево и левый столбец снизу вверх, сужая границы."""
+Walk the top row left to right, the right column top to bottom,
+the bottom row right to left and the left column bottom to top, narrowing the bounds."""
 
 [[exercises]]
 name = "arrays7"
 path = "exercises/arrays/arrays7/main_test.go"
 mode = "test"
 hint = """
-Отмечайте каждую букву в массиве. Если она уже отмечена — это повтор."""
+Mark every letter in the array. A letter already marked is a repeat."""
 
 [[exercises]]
 name = "arrays8"
 path = "exercises/arrays/arrays8/main_test.go"
 mode = "test"
 hint = """
-Компилятор сообщает "duplicate index". Сверьте индексы с кодами."""
+The compiler reports "duplicate index". Check the indexes against the codes."""
 
 [[exercises]]
 name = "arrays9"
 path = "exercises/arrays/arrays9/main_test.go"
 mode = "test"
 hint = """
-Окон столько, сколько позиций, где помещаются 3 элемента: len-2.
-Для каждого окна сложите три элемента и разделите на 3."""
+There are as many windows as positions where 3 elements fit: len-2.
+For every window add the three elements up and divide by 3."""
 
 [[exercises]]
 name = "arrays10"
 path = "exercises/arrays/arrays10/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какой константе соответствует каждое название."""
+Check which constant each name belongs to."""
 
 [[exercises]]
 name = "arrays11"
 path = "exercises/arrays/arrays11/main_test.go"
 mode = "test"
 hint = """
-Пустые клетки пропускайте. Для каждой цифры проверьте, не встречалась
-ли она раньше, и отметьте её."""
+Skip the empty cells. For every digit check whether it has turned up
+before, and mark it."""
 
 [[exercises]]
 name = "arrays12"
 path = "exercises/arrays/arrays12/main_test.go"
 mode = "test"
 hint = """
-[n]int с переменной n недопустим. Создайте срез срезов через make."""
+[n]int with a variable n is not allowed. Build a slice of slices with make."""
 
 [[exercises]]
 name = "arrays13"
 path = "exercises/arrays/arrays13/main_test.go"
 mode = "test"
 hint = """
-Ищите на полуинтервале [lo, hi). Если средний элемент меньше цели,
-сдвигайте lo за середину, иначе hi на середину."""
+Search the half open range [lo, hi). When the middle element is smaller than
+the target, move lo past the middle, otherwise move hi to the middle."""
 
 [[exercises]]
 name = "arrays14"
 path = "exercises/arrays/arrays14/main_test.go"
 mode = "test"
 hint = """
-a[:] не копирует данные. Создайте новый срез и скопируйте
-в него элементы (или верните массив по значению)."""
+a[:] does not copy the data. Build a new slice and copy the elements
+into it, or return the array by value."""
 
 [[exercises]]
 name = "arrays15"
 path = "exercises/arrays/arrays15/main_test.go"
 mode = "test"
 hint = """
-Нужно увеличить значение элемента, а не присвоить ему номер."""
+The element has to be incremented, not set to the candidate number."""
 
 [[exercises]]
 name = "arrays16"
 path = "exercises/arrays/arrays16/main_test.go"
 mode = "test"
 hint = """
-Элемент результата [i][j] — это элемент исходной матрицы [j][i].
-Пройдите по всем парам (i, j)."""
+The result element [i][j] is the element [j][i] of the original matrix.
+Walk every pair (i, j)."""
 
 [[exercises]]
 name = "arrays17"
 path = "exercises/arrays/arrays17/main_test.go"
 mode = "test"
 hint = """
-Проверка len(p) > 0 для указателя на массив всегда истинна.
-Проверяйте сам указатель на nil."""
+The check len(p) > 0 is always true for an array pointer.
+Check the pointer itself against nil."""
 
 [[exercises]]
 name = "arrays18"
 path = "exercises/arrays/arrays18/main_test.go"
 mode = "test"
 hint = """
-Длина массива — часть его типа, и её возвращает len."""
+The length of an array is part of its type, and len returns it."""
 
 [[exercises]]
 name = "arrays19"
 path = "exercises/arrays/arrays19/main_test.go"
 mode = "test"
 hint = """
-Начните с нуля и применяйте ^= к каждому байту.
-Проверка — это сравнение результата с ожидаемым значением."""
+Start from zero and apply ^= to every byte.
+The check is a comparison of the result with the expected value."""
 
 [[exercises]]
 name = "arrays20"
 path = "exercises/arrays/arrays20/main_test.go"
 mode = "test"
 hint = """
-strings.Join принимает срез. Срез всего массива — a[:].
-Проверьте разделитель."""
+strings.Join takes a slice. The slice of the whole array is a[:].
+Check the separator."""
 
 [[exercises]]
 name = "arrays21"
 path = "exercises/arrays/arrays21/main_test.go"
 mode = "test"
 hint = """
-Нельзя присвоить m[k].Scores[i]. Извлеките значение, измените
-и положите обратно (или храните указатели)."""
+m[k].Scores[i] cannot be assigned to. Take the value out, change it
+and put it back, or store pointers."""
 
 [[exercises]]
 name = "arrays22"
 path = "exercises/arrays/arrays22/main_test.go"
 mode = "test"
 hint = """
-a[low:high] включает low и не включает high."""
+a[low:high] includes low and excludes high."""
 
 [[exercises]]
 name = "arrays23"
 path = "exercises/arrays/arrays23/main_test.go"
 mode = "test"
 hint = """
-Компилятор разрешает ==, но при несравнимом динамическом типе будет паника.
-Используйте reflect.DeepEqual."""
+The compiler allows ==, but an incomparable dynamic type makes it panic.
+Use reflect.DeepEqual."""
 
 [[exercises]]
 name = "arrays24"
 path = "exercises/arrays/arrays24/main_test.go"
 mode = "test"
 hint = """
-Берите меньший из текущих элементов двух массивов.
-Когда один массив закончился, допишите остаток другого."""
+Take the smaller of the current elements of the two arrays.
+When one array runs out, append the rest of the other one."""
 
 [[exercises]]
 name = "arrays25"
 path = "exercises/arrays/arrays25/main_test.go"
 mode = "test"
 hint = """
-defer logState(a) копирует массив сразу. Отложите замыкание,
-которое прочитает массив при выходе."""
+defer logState(a) copies the array straight away. Defer a closure
+that reads the array at return time."""
 
 [[exercises]]
 name = "arrays26"
 path = "exercises/arrays/arrays26/main_test.go"
 mode = "test"
 hint = """
-Храните позицию следующей записи и количество элементов.
-При чтении начинайте с самого старого элемента: (pos - count + size) % size."""
+Keep the position of the next write and the number of elements.
+Start reading from the oldest element: (pos - count + size) % size."""
 
 [[exercises]]
 name = "arrays27"
 path = "exercises/arrays/arrays27/main_test.go"
 mode = "test"
 hint = """
-len(m) — количество строк. Количество столбцов — длина строки."""
+len(m) is the number of rows. The number of columns is the length of a row."""
 
 [[exercises]]
 name = "arrays28"
 path = "exercises/arrays/arrays28/main_test.go"
 mode = "test"
 hint = """
-Переберите смещения dr, dc от -1 до 1, пропустив (0, 0),
-и проверьте, что соседняя клетка в пределах поля."""
+Try the offsets dr, dc from -1 to 1, skipping (0, 0),
+and check that the neighbour is on the board."""
 
 [[exercises]]
 name = "arrays29"
 path = "exercises/arrays/arrays29/main_test.go"
 mode = "test"
 hint = """
-Изменение v не затрагивает элемент массива. Обращайтесь к элементу
-по индексу: items[i].Price."""
+Changing v leaves the array element alone. Reach the element
+by index: items[i].Price."""
 
 [[exercises]]
 name = "arrays30"
 path = "exercises/arrays/arrays30/main_test.go"
 mode = "test"
 hint = """
-Функция cap применима и к массивам."""
+The cap function works on arrays as well."""
 
 [[exercises]]
 name = "arrays31"
 path = "exercises/arrays/arrays31/main_test.go"
 mode = "test"
 hint = """
-Держите индекс w следующей позиции для записи. Записывайте элемент,
-только если он отличается от последнего записанного."""
+Keep an index w for the next write position. Write an element only
+when it differs from the last one written."""
 
 [[exercises]]
 name = "arrays32"
 path = "exercises/arrays/arrays32/main_test.go"
 mode = "test"
 hint = """
-Обменять значения можно одной инструкцией: x, y = y, x."""
+Two values can be swapped in one statement: x, y = y, x."""
 
 [[exercises]]
 name = "arrays33"
 path = "exercises/arrays/arrays33/main_test.go"
 mode = "test"
 hint = """
-row := grid[r] создаёт копию строки. Либо меняйте grid[r][c] напрямую,
-либо возьмите указатель на строку: row := &grid[r]."""
+row := grid[r] makes a copy of the row. Either change grid[r][c] directly,
+or take a pointer to the row: row := &grid[r]."""
 
 [[exercises]]
 name = "arrays34"
 path = "exercises/arrays/arrays34/main_test.go"
 mode = "test"
 hint = """
-На каждом проходе сравнивайте соседние элементы и меняйте их,
-если левый больше правого. Функция должна менять исходный массив."""
+On every pass compare the neighbouring elements and swap them when the
+left one is larger. The function has to change the original array."""
 
 [[exercises]]
 name = "arrays35"
 path = "exercises/arrays/arrays35/main_test.go"
 mode = "test"
 hint = """
-Вернуть нужно позицию элемента, а не его значение."""
+What has to be returned is the position of the element, not its value."""
 
 [[exercises]]
 name = "arrays36"
 path = "exercises/arrays/arrays36/main_test.go"
 mode = "test"
 hint = """
-Внешний индекс пробегает строки (len(m)), внутренний — столбцы (len(m[0])).
-Сумма столбца j накапливается из m[i][j]."""
+The outer index runs over the rows (len(m)) and the inner one over the columns (len(m[0])).
+The sum of column j builds up from m[i][j]."""
 
 [[exercises]]
 name = "arrays37"
 path = "exercises/arrays/arrays37/main_test.go"
 mode = "test"
 hint = """
-p[i] для указателя на массив работает как (*p)[i].
-Проверьте, какое значение записывается."""
+p[i] on an array pointer works like (*p)[i].
+Check which value is being written."""
 
 [[exercises]]
 name = "arrays38"
 path = "exercises/arrays/arrays38/main_test.go"
 mode = "test"
 hint = """
-row — копия строки, а не сама строка. Изменяйте элемент через
-индекс строки: m[i][0]."""
+row is a copy of the row, not the row itself. Change the element through
+the row index: m[i][0]."""
 
 [[exercises]]
 name = "arrays39"
 path = "exercises/arrays/arrays39/main_test.go"
 mode = "test"
 hint = """
-Частей должно быть ровно четыре, каждая — число 0–255.
-При форматировании соберите части через точку."""
+There have to be exactly four parts, each a number from 0 to 255.
+When formatting, join the parts with dots."""
 
 [[exercises]]
 name = "arrays40"
 path = "exercises/arrays/arrays40/main_test.go"
 mode = "test"
 hint = """
-Компилятор не поймает эту ошибку, потому что параметр — interface{}.
-Передайте срез, ссылающийся на массив: a[:]."""
+The compiler cannot catch this because the parameter is an interface{}.
+Pass a slice over the array: a[:]."""
 
 [[exercises]]
 name = "arrays41"
 path = "exercises/arrays/arrays41/main_test.go"
 mode = "test"
 hint = """
-Проверьте знак сравнения."""
+Check the comparison operator."""
 
 [[exercises]]
 name = "arrays42"
 path = "exercises/arrays/arrays42/main_test.go"
 mode = "test"
 hint = """
-На побочной диагонали сумма индексов строки и столбца равна n-1."""
+On the anti diagonal the row and column indexes add up to n-1."""
 
 [[exercises]]
 name = "arrays43"
 path = "exercises/arrays/arrays43/main_test.go"
 mode = "test"
 hint = """
-Объявленный через var массив уже заполнен нулевыми значениями."""
+An array declared with var is already filled with zero values."""
 
 [[exercises]]
 name = "arrays44"
 path = "exercises/arrays/arrays44/main_test.go"
 mode = "test"
 hint = """
-Элемент с индексом i переходит на позицию (i + k) % n.
-Нормализуйте k и пишите в новый массив."""
+The element at index i moves to position (i + k) % n.
+Normalize k and write into a new array."""
 
 [[exercises]]
 name = "arrays45"
 path = "exercises/arrays/arrays45/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте координаты по одной: равны, если значения равны
-или обе NaN."""
+Compare the coordinates one by one: they match when the values are equal
+or when both are NaN."""
 
 [[exercises]]
 name = "arrays46"
 path = "exercises/arrays/arrays46/main_test.go"
 mode = "test"
 hint = """
-На диагонали должны стоять единицы, вне диагонали — нули.
-Для сравнения всей матрицы можно построить эталон."""
+The diagonal holds ones and everything else holds zeros.
+A reference matrix can be built to compare the whole thing at once."""
 
 [[exercises]]
 name = "arrays47"
 path = "exercises/arrays/arrays47/main_test.go"
 mode = "test"
 hint = """
-(i - 1) % n для i = 0 даёт -1. Прибавьте n перед взятием остатка."""
+(i - 1) % n gives -1 for i = 0. Add n before taking the remainder."""
 
 [[exercises]]
 name = "arrays48"
 path = "exercises/arrays/arrays48/main_test.go"
 mode = "test"
 hint = """
-Достаточно одного выключенного переключателя, чтобы результат был false."""
+A single switch that is off is enough to make the result false."""
 
 [[exercises]]
 name = "arrays49"
 path = "exercises/arrays/arrays49/main_test.go"
 mode = "test"
 hint = """
-Для каждой строки начните с её первого элемента и сравнивайте
-с остальными элементами этой же строки."""
+For every row start from its first element and compare it
+against the other elements of that same row."""
 
 [[exercises]]
 name = "arrays50"
 path = "exercises/arrays/arrays50/main_test.go"
 mode = "test"
 hint = """
-for i, v := range a итерирует по копии a, поэтому изменения a[i+1]
-не видны в v на следующей итерации. Итерируйтесь по указателю &a
-или читайте a[i] напрямую."""
+for i, v := range a iterates over a copy of a, so a change to a[i+1]
+is not visible in v on the next iteration. Range over the pointer &a
+or read a[i] directly."""
 
 [[exercises]]
 name = "arrays51"
 path = "exercises/arrays/arrays51/main_test.go"
 mode = "test"
 hint = """
-У массива из N элементов последний индекс равен N-1."""
+In an array of N elements the last index is N-1."""
 
 [[exercises]]
 name = "arrays52"
 path = "exercises/arrays/arrays52/main_test.go"
 mode = "test"
 hint = """
-table[i] — буква, в которую переходит 'a'+i. Для шифрования
-ищите элемент по индексу c - 'a'."""
+table[i] is the letter 'a'+i turns into. To encrypt, look the element up
+at the index c - 'a'."""
 
 [[exercises]]
 name = "arrays53"

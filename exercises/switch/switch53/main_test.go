@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// handle обрабатывает команду. Команда exit должна завершать работу,
-// даже если она совпадает с предыдущей командой.
-// Тренирует: case могут быть переменными, и тогда при совпадении выигрывает первый.
-// Сложность: hard
+// handle deals with a command. The exit command has to stop the work
+// even when it matches the previous command.
+// A case may be a variable, and on a tie the first one wins.
 package main_test
 
 import "testing"

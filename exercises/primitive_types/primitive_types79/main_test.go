@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// bucket возвращает номер интервала шириной size, куда попадает x:
-// [0, size) — 0, [-size, 0) — -1.
-// Тренирует: int(x) усекает к нулю, а не округляет вниз.
-// Сложность: hard
+// bucket returns the number of the interval of width size that x falls into:
+// [0, size) is 0 and [-size, 0) is -1.
+// int(x) truncates towards zero rather than rounding down.
 package main_test
 
 import (

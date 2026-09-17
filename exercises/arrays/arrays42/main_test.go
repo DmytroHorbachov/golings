@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// diagonals возвращает суммы главной и побочной диагоналей матрицы 4×4.
-// Тренирует: индексы [i][n-1-i].
-// Сложность: medium
+// diagonals returns the sums of the main and the anti diagonal of a 4 by 4 matrix.
+// Practices the indexes [i][n-1-i].
 package main_test
 
 import "testing"

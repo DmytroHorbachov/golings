@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bits8 должна вернуть двоичное представление байта ровно из 8 цифр.
-// Тренирует: ширину и заполнение нулями в fmt.
-// Сложность: easy
+// bits8 must return the binary form of a byte as exactly 8 digits.
+// Practices width and zero padding in fmt.
 package main_test
 
 import (

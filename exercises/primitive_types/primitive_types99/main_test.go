@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// rawString должна собрать строку из «сырых» байтов (не текста).
-// Для байтов больше 127 длина результата не совпадает с числом байтов.
-// Тренирует: string(byte(200)) кодирует руну U+00C8 в UTF-8 (два байта).
-// Сложность: hard
+// rawString must build a string out of raw bytes rather than text.
+// For bytes above 127 the length of the result does not match the number of bytes.
+// string(byte(200)) encodes the rune U+00C8 in UTF-8, which takes two bytes.
 package main_test
 
 import "testing"

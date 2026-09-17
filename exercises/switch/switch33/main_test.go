@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isWeekend должна вернуть true для субботы и воскресенья.
-// Для субботы сейчас возвращается false.
-// Тренирует: в Go нет неявного «проваливания» в следующий case.
-// Сложность: hard
+// isWeekend must return true for Saturday and Sunday.
+// Right now Saturday returns false.
+// Go has no implicit fallthrough to the next case.
 package main_test
 
 import "testing"

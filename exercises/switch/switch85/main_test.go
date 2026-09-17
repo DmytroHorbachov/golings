@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// charClass возвращает "digit", "letter" или "other".
-// Тренирует: switch без тега с диапазонами символов.
-// Сложность: easy
+// charClass returns "digit", "letter" or "other".
+// Practices a tagless switch with character ranges.
 package main_test
 
 import "testing"

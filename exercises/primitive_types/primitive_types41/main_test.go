@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bitsOf возвращает 8 бит числа int8 в дополнительном коде: -1 -> "11111111".
-// Тренирует: преобразование int8 в uint8 и форматирование.
-// Сложность: medium
+// bitsOf returns the 8 bits of an int8 in two's complement: -1 -> "11111111".
+// Practices converting an int8 to a uint8 and formatting it.
 package main_test
 
 import (

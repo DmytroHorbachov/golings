@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Названия уровней хранятся в массиве, индексом служит константа уровня.
-// Тренирует: массив с индексированным литералом по константам.
-// Сложность: easy
+// The level names live in an array indexed by the level constant.
+// Practices an array literal indexed by constants.
 package main_test
 
 import "testing"

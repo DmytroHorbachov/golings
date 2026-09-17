@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// priority для транспорта: "ambulance" и "fire" — 1; "police" — 2 (но 1 при
-// включённой сирене); остальные — 3.
-// Тренирует: switch с дополнительным условием в ветке.
-// Сложность: medium
+// priority for vehicles: "ambulance" and "fire" are 1; "police" is 2, or 1 with
+// the siren on; everything else is 3.
+// Practices a switch with an extra condition in a branch.
 package main_test
 
 import "testing"

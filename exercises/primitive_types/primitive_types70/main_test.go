@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseLocal разбирает число, записанное с десятичной запятой и пробелами
-// между разрядами: "1 234,5" -> 1234.5.
-// Тренирует: подготовку строки перед strconv.ParseFloat.
-// Сложность: medium
+// parseLocal parses a number written with a decimal comma and spaces
+// between the groups of digits: "1 234,5" -> 1234.5.
+// Practices preparing a string for strconv.ParseFloat.
 package main_test
 
 import (

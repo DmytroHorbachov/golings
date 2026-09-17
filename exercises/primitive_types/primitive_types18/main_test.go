@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// addChecked складывает int64 и сообщает о переполнении.
-// Тренирует: обнаружение переполнения через знаки операндов и результата.
-// Сложность: medium
+// addChecked adds two int64 values and reports an overflow.
+// Practices detecting overflow from the signs of the operands and the result.
 package main_test
 
 import (

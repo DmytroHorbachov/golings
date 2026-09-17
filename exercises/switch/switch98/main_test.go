@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// kind возвращает "int", "string" или "other" в зависимости от динамического типа.
-// Тренирует: type switch.
-// Сложность: easy
+// kind returns "int", "string" or "other" depending on the dynamic type.
+// Practices a type switch.
 package main_test
 
 import "testing"

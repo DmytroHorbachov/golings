@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cents переводит название монеты в центы.
-// Тренирует: switch с возвратом значения.
-// Сложность: easy
+// cents turns the name of a coin into cents.
+// Practices a switch that returns a value.
 package main_test
 
 import "testing"

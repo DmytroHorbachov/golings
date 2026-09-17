@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// vat возвращает ставку НДС: для категории "food" — 10, но для подкатегории
-// "delicacy" — 20; для "books" — 0; для остальных — 20.
-// Тренирует: switch внутри ветки switch.
-// Сложность: medium
+// vat returns the VAT rate: the "food" category is 10, except for the "delicacy"
+// subcategory which is 20; "books" is 0; everything else 20.
+// Practices a switch inside a branch of a switch.
 package main_test
 
 import "testing"

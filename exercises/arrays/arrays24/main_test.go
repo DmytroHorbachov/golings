@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// merge объединяет два отсортированных массива по 3 элемента в один отсортированный.
-// Тренирует: два указателя по массивам.
-// Сложность: medium
+// merge combines two sorted arrays of 3 elements into one sorted array.
+// Practices two indexes walking two arrays.
 package main_test
 
 import "testing"

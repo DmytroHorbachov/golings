@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstTwo должна вернуть срез с первыми двумя элементами массива.
-// Тренирует: получение среза из массива.
-// Сложность: easy
+// firstTwo must return a slice holding the first two elements of an array.
+// Practices slicing an array.
 package main_test
 
 import (

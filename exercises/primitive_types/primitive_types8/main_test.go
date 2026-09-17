@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// product перемножает множители и должна вернуть ошибку, если результат
-// перестал быть конечным числом.
-// Тренирует: переполнение float64 даёт +Inf без паники.
-// Сложность: hard
+// product multiplies the factors and must return an error when the result
+// stops being a finite number.
+// A float64 overflow gives +Inf without a panic.
 package main_test
 
 import (

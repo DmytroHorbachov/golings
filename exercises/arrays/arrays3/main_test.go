@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sparse должна вернуть массив длины 5, где только третий элемент (индекс 2) равен 10.
-// Тренирует: литерал массива с явными индексами.
-// Сложность: easy
+// sparse must return an array of length 5 where only the third element (index 2) is 10.
+// Practices an array literal with explicit indexes.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// degrees возвращает азимут направления: N=0, E=90, S=180, W=270.
-// Тренирует: switch по строке.
-// Сложность: easy
+// degrees returns the bearing of a direction: N=0, E=90, S=180, W=270.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

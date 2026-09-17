@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// popcount должна посчитать единичные биты во всех байтах среза без math/bits.
-// Тренирует: побитовые операции над byte.
-// Сложность: medium
+// popcount must count the set bits in every byte of a slice without math/bits.
+// Practices bitwise operations on a byte.
 package main_test
 
 import "testing"

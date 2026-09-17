@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Ring хранит последние 3 значения. Push добавляет значение, вытесняя самое старое;
-// Items возвращает значения от старого к новому.
-// Тренирует: фиксированный массив и индекс по модулю.
-// Сложность: medium
+// Ring keeps the last 3 values. Push adds a value, pushing the oldest one out,
+// and Items returns the values from the oldest to the newest.
+// Practices a fixed array with an index taken modulo its size.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstOr возвращает первый элемент массива по указателю или def, если указатель nil.
-// len от nil-указателя на массив не паникует, а вот индексация — да.
-// Тренирует: len(p) для *[N]T — константа N, даже если p == nil.
-// Сложность: hard
+// firstOr returns the first element of an array through a pointer, or def when the pointer is nil.
+// len of a nil array pointer does not panic, while indexing it does.
+// len(p) for a *[N]T is the constant N, even when p == nil.
 package main_test
 
 import "testing"

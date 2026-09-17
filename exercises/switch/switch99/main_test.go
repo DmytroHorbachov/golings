@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// double удваивает число типа int или float64 и возвращает его как float64.
-// Код не компилируется: в ветке с двумя типами v остаётся interface{}.
-// Тренирует: в case с несколькими типами переменная имеет тип выражения switch.
-// Сложность: hard
+// double doubles an int or a float64 and returns it as a float64.
+// The code does not compile: in a branch listing two types v stays an interface{}.
+// In a case with several types the variable keeps the type of the switch expression.
 package main_test
 
 import "testing"

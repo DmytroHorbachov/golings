@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rotateRight сдвигает элементы массива вправо на k позиций (k может быть больше длины).
-// Тренирует: индексы по модулю длины массива.
-// Сложность: medium
+// rotateRight shifts the elements of an array k places to the right, k possibly exceeding the length.
+// Practices indexes taken modulo the length of the array.
 package main_test
 
 import "testing"

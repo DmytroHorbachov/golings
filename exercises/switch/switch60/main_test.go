@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// tariff выбирает тариф по ключу-структуре. Код не компилируется:
-// структура содержит срез и поэтому несравнима.
-// Тренирует: в switch можно использовать только сравнимые типы.
-// Сложность: hard
+// tariff picks a tariff by a struct key. The code does not compile:
+// the struct holds a slice and is therefore not comparable.
+// Only comparable types may be used in a switch.
 package main_test
 
 import "testing"

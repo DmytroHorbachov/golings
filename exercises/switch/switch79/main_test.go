@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// turn поворачивает направление N/E/S/W налево или направо.
-// Тренирует: вложенный выбор по двум параметрам.
-// Сложность: medium
+// turn rotates a direction N/E/S/W to the left or to the right.
+// Practices a nested choice over two parameters.
 package main_test
 
 import "testing"

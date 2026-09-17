@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// frac360 должна вернуть остаток от деления угла на 360 (угол неотрицательный).
-// Код не компилируется: оператор % не определён для float64.
-// Тренирует: math.Mod.
-// Сложность: easy
+// frac360 must return the remainder of an angle divided by 360, the angle being non-negative.
+// The code does not compile: the % operator is not defined for float64.
+// Practices math.Mod.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// classify считает гласные, согласные, цифры и прочие символы ASCII-строки.
-// Тренирует: switch без тега внутри цикла.
-// Сложность: medium
+// classify counts the vowels, consonants, digits and other characters of an ASCII string.
+// Practices a tagless switch inside a loop.
 package main_test
 
 import (

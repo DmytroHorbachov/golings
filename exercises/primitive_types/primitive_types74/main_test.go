@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// nextLetter должна вернуть букву, следующую за данной ('a' -> 'b').
-// Тренирует: арифметику над byte.
-// Сложность: easy
+// nextLetter must return the letter following the given one ('a' -> 'b').
+// Practices byte arithmetic.
 package main_test
 
 import "testing"

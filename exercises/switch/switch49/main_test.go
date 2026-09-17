@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Статус заказа задан через iota. Новый заказ без явного статуса
-// считается "paid", хотя статус просто не задан.
-// Тренирует: нулевое значение enum должно означать «не задано».
-// Сложность: hard
+// The order status is declared with iota. A new order with no status set
+// counts as "paid", although the status is simply unset.
+// The zero value of an enum should mean "unset".
 package main_test
 
 import "testing"

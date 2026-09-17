@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// typeName возвращает "nil" для nil-интерфейса, "bool" для bool, иначе "other".
-// Тренирует: case nil в type switch.
-// Сложность: easy
+// typeName returns "nil" for a nil interface, "bool" for a bool, and "other" otherwise.
+// Practices case nil in a type switch.
 package main_test
 
 import "testing"

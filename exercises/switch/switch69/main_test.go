@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// describeLen описывает длину строки: "empty", "short" (1–3), "long".
-// Тренирует: switch по результату выражения len().
-// Сложность: easy
+// describeLen describes the length of a string: "empty", "short" (1-3) or "long".
+// Practices a switch on the result of len().
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rowMins возвращает минимальный элемент каждой строки матрицы 3×4.
-// Тренирует: вложенный цикл и результат-массив.
-// Сложность: medium
+// rowMins returns the smallest element of every row of a 3 by 4 matrix.
+// Practices a nested loop with an array result.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// highBitSet проверяет, установлен ли старший бит у значения int8.
-// Код не компилируется: маска 0x80 не помещается в int8.
-// Тренирует: типизированные операнды и диапазон констант.
-// Сложность: hard
+// highBitSet checks whether the top bit of an int8 is set.
+// The code does not compile: the mask 0x80 does not fit in an int8.
+// Practices typed operands and the range of the constants.
 package main_test
 
 import "testing"

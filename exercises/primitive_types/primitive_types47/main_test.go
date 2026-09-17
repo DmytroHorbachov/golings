@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// floorDiv должна делить нацело с округлением к минус бесконечности: -7/2 = -4.
-// Тренирует: целочисленное деление в Go округляет к нулю.
-// Сложность: hard
+// floorDiv must divide rounding towards minus infinity: -7/2 = -4.
+// Integer division in Go rounds towards zero.
 package main_test
 
 import "testing"

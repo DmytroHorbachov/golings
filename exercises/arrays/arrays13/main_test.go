@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// find ищет значение в отсортированном массиве и возвращает индекс или -1.
-// Тренирует: границы lo/hi в двоичном поиске.
-// Сложность: medium
+// find looks a value up in a sorted array and returns its index, or -1.
+// Practices the lo/hi bounds of a binary search.
 package main_test
 
 import "testing"

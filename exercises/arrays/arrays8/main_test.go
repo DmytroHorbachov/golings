@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Таблица сообщений заполняется индексированным литералом.
-// Код не компилируется: один и тот же индекс указан дважды.
-// Тренирует: индексы в литерале массива должны быть уникальными.
-// Сложность: hard
+// The message table is built with an indexed literal.
+// The code does not compile: the same index is given twice.
+// The indexes in an array literal have to be distinct.
 package main_test
 
 import "testing"

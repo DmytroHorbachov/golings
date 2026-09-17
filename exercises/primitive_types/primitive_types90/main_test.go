@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toHex должна закодировать байты в строку из шестнадцатеричных цифр.
-// Тренирует: выделение полубайтов сдвигом и маской.
-// Сложность: medium
+// toHex must encode bytes as a string of hexadecimal digits.
+// Practices picking nibbles out with a shift and a mask.
 package main_test
 
 import "testing"

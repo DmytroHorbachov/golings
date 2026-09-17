@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parseRoman переводит строку римских цифр в число, учитывая вычитание (IV = 4).
-// Тренирует: switch внутри цикла и сравнение с соседним символом.
-// Сложность: medium
+// parseRoman turns a string of roman numerals into a number, subtraction included (IV = 4).
+// Practices a switch inside a loop and a comparison with the next character.
 package main_test
 
 import "testing"

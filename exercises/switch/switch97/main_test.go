@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// route возвращает имя обработчика по методу и пути.
-// Тренирует: switch по составному ключу-строке.
-// Сложность: medium
+// route returns the name of the handler for a method and a path.
+// Practices a switch on a compound string key.
 package main_test
 
 import "testing"

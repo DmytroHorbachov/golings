@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// discountAll уменьшает цену каждого товара на 10%.
-// Цены в массиве не меняются.
-// Тренирует: переменная значения в range — копия элемента.
-// Сложность: hard
+// discountAll cuts the price of every item by 10%.
+// The prices in the array do not change.
+// The value variable of a range is a copy of the element.
 package main_test
 
 import "testing"

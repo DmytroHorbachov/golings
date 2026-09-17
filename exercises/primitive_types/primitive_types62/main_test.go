@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// mean возвращает среднее значение; для пустого среза должна вернуть 0.
-// Во float деление 0/0 не паникует, а даёт NaN.
-// Тренирует: деление на ноль для целых и для float64 ведёт себя по-разному.
-// Сложность: hard
+// mean returns the average value, and must return 0 for an empty slice.
+// In floating point 0/0 does not panic, it gives NaN.
+// Division by zero behaves differently for integers and for float64.
 package main_test
 
 import (

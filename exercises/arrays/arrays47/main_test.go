@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// prev возвращает индекс предыдущей позиции в кольцевом массиве из 5 элементов.
-// Для позиции 0 получается -1 и программа паникует.
-// Тренирует: остаток от деления отрицательного числа при индексации массива.
-// Сложность: hard
+// prev returns the index of the previous position in a ring array of 5 elements.
+// For position 0 it comes out as -1 and the program panics.
+// The remainder of a negative number when indexing an array.
 package main_test
 
 import "testing"

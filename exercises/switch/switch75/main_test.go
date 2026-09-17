@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// retryable возвращает true для ErrTimeout и ErrBusy, даже если они обёрнуты.
-// switch по значению ошибки обёртки не видит.
-// Тренирует: сравнение ошибок в case выполняется через ==.
-// Сложность: hard
+// retryable returns true for ErrTimeout and ErrBusy, even when they are wrapped.
+// A switch on the error value does not see through the wrappers.
+// A case compares errors with ==.
 package main_test
 
 import (

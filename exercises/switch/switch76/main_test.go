@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// statusText возвращает текст для HTTP-кода.
-// Тренирует: switch по целому числу.
-// Сложность: easy
+// statusText returns the text of an HTTP status code.
+// Practices a switch on an integer.
 package main_test
 
 import "testing"

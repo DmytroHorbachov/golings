@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// table должна создать таблицу размера n×n. Код не компилируется:
-// размер массива должен быть константой.
-// Тренирует: для размеров, известных только во время выполнения, нужны срезы.
-// Сложность: hard
+// table must build an n by n table. The code does not compile:
+// the size of an array has to be a constant.
+// Sizes known only at run time call for slices.
 package main_test
 
 import "testing"

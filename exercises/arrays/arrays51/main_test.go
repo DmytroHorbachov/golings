@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// last должна вернуть последний элемент массива.
-// Тренирует: индексацию с нуля.
-// Сложность: easy
+// last must return the final element of an array.
+// Practices zero based indexing.
 package main_test
 
 import "testing"

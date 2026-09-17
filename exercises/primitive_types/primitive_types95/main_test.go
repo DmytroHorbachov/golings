@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// lowestStart должна вернуть отрицательную бесконечность — стартовое значение
-// для поиска максимума.
-// Тренирует: math.Inf и знак бесконечности.
-// Сложность: easy
+// lowestStart must return negative infinity, the starting value
+// for a search for a maximum.
+// Practices math.Inf and the sign of an infinity.
 package main_test
 
 import (

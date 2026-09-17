@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// checksum считает XOR всех байтов блока [8]byte, а verify сравнивает
-// контрольную сумму с ожидаемой.
-// Тренирует: побитовые операции над элементами массива.
-// Сложность: medium
+// checksum computes the XOR of every byte of an [8]byte block, and verify compares
+// the checksum against the expected one.
+// Practices bitwise operations over array elements.
 package main_test
 
 import "testing"

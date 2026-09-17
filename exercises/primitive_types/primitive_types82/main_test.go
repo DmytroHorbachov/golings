@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// stripPrefix убирает префикс "abc-" из идентификатора ровно один раз.
-// Для "abc-cab-1" сейчас удаляется слишком много.
-// Тренирует: TrimLeft принимает набор символов (cutset), а не подстроку.
-// Сложность: hard
+// stripPrefix removes the prefix "abc-" from an identifier exactly once.
+// For "abc-cab-1" it currently removes too much.
+// TrimLeft takes a set of characters (a cutset), not a substring.
 package main_test
 
 import (

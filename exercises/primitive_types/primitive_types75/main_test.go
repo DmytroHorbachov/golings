@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseAmount должна отклонять числа, не помещающиеся в float64 ("1e400").
-// ParseFloat возвращает +Inf вместе с ошибкой, а код ошибку игнорирует.
-// Тренирует: strconv.ParseFloat и ошибка ErrRange.
-// Сложность: hard
+// parseAmount must reject numbers that do not fit in a float64 ("1e400").
+// ParseFloat returns +Inf along with an error, and the code ignores the error.
+// Practices strconv.ParseFloat and the ErrRange error.
 package main_test
 
 import (

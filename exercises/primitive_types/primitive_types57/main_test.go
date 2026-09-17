@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// censor должна заменить все цифры в строке на '*'.
-// Байты меняются, но функция возвращает исходную строку.
-// Тренирует: []byte(s) создаёт копию; строка при этом не меняется.
-// Сложность: hard
+// censor must replace every digit in a string with '*'.
+// The bytes are changed, yet the function returns the original string.
+// []byte(s) makes a copy, and the string itself does not change.
 package main_test
 
 import "testing"

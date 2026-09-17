@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// outcome определяет результат игры «камень-ножницы-бумага» с помощью switch
-// по структуре-паре ходов.
-// Тренирует: сравнимые структуры в case.
-// Сложность: medium
+// outcome decides a game of rock paper scissors with a switch
+// over a struct holding the pair of moves.
+// Practices comparable structs in a case.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rle кодирует строку: "aaabcc" -> "a3b1c2".
-// Тренирует: сравнение соседних символов и strconv.Itoa.
-// Сложность: medium
+// rle encodes a string: "aaabcc" -> "a3b1c2".
+// Practices comparing neighbouring characters and strconv.Itoa.
 package main_test
 
 import (

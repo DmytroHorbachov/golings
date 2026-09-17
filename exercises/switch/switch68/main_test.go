@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shouldLog возвращает true, если уровень сообщения не ниже минимального.
-// Уровни: debug < info < warn < error; неизвестный уровень считается error.
-// Тренирует: switch для преобразования строки в число.
-// Сложность: medium
+// shouldLog returns true when the level of a message is at least the minimum one.
+// The levels are debug < info < warn < error, and an unknown level counts as error.
+// Practices a switch that turns a string into a number.
 package main_test
 
 import "testing"

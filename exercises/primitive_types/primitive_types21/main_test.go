@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isASCII проверяет, что строка состоит только из ASCII-символов.
-// Тренирует: сравнение байтов с границей 0x7F.
-// Сложность: medium
+// isASCII checks that a string holds ASCII characters only.
+// Practices comparing bytes against the 0x7F boundary.
 package main_test
 
 import "testing"

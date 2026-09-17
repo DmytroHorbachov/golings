@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// area принимает стороны как int32 и должна вернуть площадь как int64.
-// Для больших сторон результат переполняется ещё до преобразования.
-// Тренирует: порядок преобразования типов при умножении.
-// Сложность: easy
+// area takes the sides as int32 values and must return the area as an int64.
+// For large sides the result overflows before the conversion.
+// Practices the order of the conversions in a multiplication.
 package main_test
 
 import "testing"

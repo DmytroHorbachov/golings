@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// spiral возвращает элементы матрицы 3×3 в порядке обхода по спирали.
-// Тренирует: сжимающиеся границы top/bottom/left/right.
-// Сложность: medium
+// spiral returns the elements of a 3 by 3 matrix in spiral order.
+// Practices shrinking top/bottom/left/right bounds.
 package main_test
 
 import (

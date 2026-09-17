@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// roundTo округляет число до n знаков после запятой.
-// Тренирует: math.Pow10 и math.Round.
-// Сложность: medium
+// roundTo rounds a number to n decimal places.
+// Practices math.Pow10 and math.Round.
 package main_test
 
 import (

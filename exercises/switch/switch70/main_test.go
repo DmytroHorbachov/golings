@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// classify возвращает "neg", "zero" или "pos". Код не компилируется:
-// в case стоят логические выражения, а switch идёт по числу.
-// Тренирует: switch x сравнивает x с каждым case; для условий нужен switch без тега.
-// Сложность: hard
+// classify returns "neg", "zero" or "pos". The code does not compile:
+// the cases hold boolean expressions while the switch runs on a number.
+// switch x compares x against every case; conditions call for a tagless switch.
 package main_test
 
 import "testing"

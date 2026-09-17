@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// propagate проходит по массиву и переносит «заражение» вперёд: если элемент
-// заражён, следующий тоже становится заражённым. Сейчас распространяется только на один шаг.
-// Тренирует: range по массиву-значению вычисляет копию массива один раз.
-// Сложность: hard
+// propagate walks the array and carries an infection forward: when an element
+// is infected the next one becomes infected too. Right now it only spreads one step.
+// A range over an array value evaluates a copy of the array once.
 package main_test
 
 import "testing"

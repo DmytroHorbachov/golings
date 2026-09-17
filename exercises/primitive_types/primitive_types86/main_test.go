@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countA должна посчитать, сколько раз буква 'a' встречается в строке.
-// Тренирует: strings.Count.
-// Сложность: easy
+// countA must count how many times the letter 'a' occurs in a string.
+// Practices strings.Count.
 package main_test
 
 import (

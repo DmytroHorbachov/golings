@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// daysIn возвращает число дней в месяце (1–12) для невисокосного года.
-// Тренирует: массив как таблицу значений.
-// Сложность: easy
+// daysIn returns the number of days in a month (1-12) of a non-leap year.
+// Practices an array as a lookup table.
 package main_test
 
 import "testing"

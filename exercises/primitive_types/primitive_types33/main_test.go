@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// truncate должна оставить не более n символов строки и добавить "…", если строка
-// была длиннее. Сейчас кириллица превращается в «битые» символы.
-// Тренирует: срез строки режет по байтам и может разрезать символ UTF-8.
-// Сложность: hard
+// truncate must keep at most n characters of a string and add "…" when it was
+// longer. Right now cyrillic text turns into broken characters.
+// Slicing a string cuts bytes and can split a UTF-8 character.
 package main_test
 
 import (

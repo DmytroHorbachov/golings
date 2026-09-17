@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// price должна форматировать число с двумя знаками после точки.
-// Тренирует: точность в глаголе %f.
-// Сложность: easy
+// price must format a number with two decimal places.
+// Practices the precision of the %f verb.
 package main_test
 
 import (

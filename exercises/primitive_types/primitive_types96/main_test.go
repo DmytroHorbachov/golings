@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseLevel разбирает уровень громкости в int8 и должна отклонять значения
-// вне диапазона. Сейчас 300 молча превращается в 44.
-// Тренирует: параметр bitSize в strconv.ParseInt.
-// Сложность: hard
+// parseLevel parses a volume level into an int8 and must reject values
+// outside the range. Right now 300 quietly turns into 44.
+// Practices the bitSize parameter of strconv.ParseInt.
 package main_test
 
 import (

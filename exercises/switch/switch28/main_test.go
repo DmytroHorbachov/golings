@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// season возвращает время года для номера месяца (1–12) и "invalid" иначе.
-// Тренирует: списки значений в case.
-// Сложность: medium
+// season returns the season of a month number (1-12), and "invalid" otherwise.
+// Practices lists of values in a case.
 package main_test
 
 import "testing"

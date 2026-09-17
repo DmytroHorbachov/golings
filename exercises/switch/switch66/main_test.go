@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bucket относит число к корзине: "neg" для < 0, "small" для 0..9, "big" для 10+.
-// Тренирует: switch без тега как замену цепочке if-else.
-// Сложность: easy
+// bucket sorts a number into a bucket: "neg" below 0, "small" for 0..9, "big" for 10 and up.
+// Practices a tagless switch in place of an if-else chain.
 package main_test
 
 import "testing"

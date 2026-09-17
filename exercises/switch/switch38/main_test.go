@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// zone возвращает зону доставки по коду страны: "domestic" для RU,
-// "near" для BY и KZ, "far" для остальных; пустой код — ошибка.
-// Тренирует: switch с проверкой ошибочного значения.
-// Сложность: medium
+// zone returns the delivery zone of a country code: "domestic" for RU,
+// "near" for BY and KZ, "far" for the rest; an empty code is an error.
+// Practices a switch that checks for an invalid value.
 package main_test
 
 import (

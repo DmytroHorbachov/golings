@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// highest должна вернуть большее из двух чисел.
-// Тренирует: функции math.Max и math.Min.
-// Сложность: easy
+// highest must return the larger of two numbers.
+// Practices math.Max and math.Min.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// roundCents округляет сумму до целых копеек по банковскому правилу:
-// половина округляется до чётного (0.5 -> 0, 1.5 -> 2, 2.5 -> 2).
-// Тренирует: math.Round округляет половину от нуля; есть math.RoundToEven.
-// Сложность: hard
+// roundCents rounds an amount to whole cents the banker's way:
+// a half goes to the even value (0.5 -> 0, 1.5 -> 2, 2.5 -> 2).
+// math.Round sends a half away from zero; math.RoundToEven exists too.
 package main_test
 
 import (

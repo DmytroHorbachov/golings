@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cols возвращает количество столбцов матрицы 2×4.
-// Тренирует: len для вложенного массива.
-// Сложность: easy
+// cols returns the number of columns of a 2 by 4 matrix.
+// Practices len on a nested array.
 package main_test
 
 import "testing"

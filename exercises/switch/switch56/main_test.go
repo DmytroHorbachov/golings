@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// taxRate: "food" и "medicine" — 10, "books" — 0, "alcohol" — 25, остальное — 20.
-// Тренирует: switch со списками значений и default.
-// Сложность: medium
+// taxRate: "food" and "medicine" are 10, "books" 0, "alcohol" 25, everything else 20.
+// Practices a switch with lists of values and a default.
 package main_test
 
 import "testing"

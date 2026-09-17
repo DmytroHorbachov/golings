@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// mimeType возвращает MIME-тип по расширению файла.
-// Тренирует: switch с инициализирующей инструкцией.
-// Сложность: easy
+// mimeType returns the MIME type for a file extension.
+// Practices a switch with an init statement.
 package main_test
 
 import (

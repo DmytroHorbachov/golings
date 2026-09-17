@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// plain должна вывести число без экспоненты и без лишних нулей: 1e21 -> "1000000000000000000000".
-// Тренирует: %v для больших float64 переходит на экспоненциальную форму.
-// Сложность: hard
+// plain must print a number with no exponent and no stray zeros: 1e21 -> "1000000000000000000000".
+// %v switches to the exponent form for large float64 values.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// neighbors считает живых соседей клетки на поле 4×4 (края не зациклены).
-// Тренирует: обход соседних индексов с проверкой границ.
-// Сложность: medium
+// neighbors counts the live neighbours of a cell on a 4 by 4 board, with no wrapping.
+// Practices walking the neighbouring indexes with bounds checks.
 package main_test
 
 import "testing"

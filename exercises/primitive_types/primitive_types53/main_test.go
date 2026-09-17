@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// swapNibbles меняет местами старший и младший полубайты байта: 0xAB -> 0xBA.
-// Тренирует: сдвиги влево и вправо и побитовое ИЛИ.
-// Сложность: medium
+// swapNibbles swaps the high and low nibbles of a byte: 0xAB -> 0xBA.
+// Practices shifts left and right and the bitwise OR.
 package main_test
 
 import "testing"

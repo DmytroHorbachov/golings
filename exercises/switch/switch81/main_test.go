@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// evalRPN вычисляет выражение в обратной польской записи ("3 4 + 2 *").
-// Тренирует: switch по токену и работу со стеком.
-// Сложность: medium
+// evalRPN evaluates an expression in reverse polish notation ("3 4 + 2 *").
+// Practices a switch on a token and working with a stack.
 package main_test
 
 import (

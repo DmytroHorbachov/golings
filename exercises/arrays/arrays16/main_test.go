@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// transpose меняет строки и столбцы матрицы 3×3 местами.
-// Тренирует: вложенные циклы по двумерному массиву.
-// Сложность: medium
+// transpose swaps the rows and the columns of a 3 by 3 matrix.
+// Practices nested loops over a two dimensional array.
 package main_test
 
 import "testing"

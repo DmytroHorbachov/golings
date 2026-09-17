@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// letters считает буквы любых алфавитов, пропуская цифры, пробелы и знаки.
-// Тренирует: итерацию по рунам и unicode.IsLetter.
-// Сложность: medium
+// letters counts the letters of any alphabet, skipping digits, spaces and punctuation.
+// Practices iterating over runes and unicode.IsLetter.
 package main_test
 
 import (

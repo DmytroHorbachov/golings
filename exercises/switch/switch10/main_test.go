@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// unitFactor возвращает множитель для единиц "cm", "m", "km".
-// Код не компилируется: switch без default не является завершающей инструкцией.
-// Тренирует: правила «terminating statement» в Go.
-// Сложность: hard
+// unitFactor returns the factor for the units "cm", "m" and "km".
+// The code does not compile: a switch without a default is not a terminating statement.
+// Practices the terminating statement rules of Go.
 package main_test
 
 import "testing"

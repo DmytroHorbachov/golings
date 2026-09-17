@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// describe переводит балл 1–5 в слово, а для остальных возвращает ошибку.
-// Тренирует: switch с возвратом ошибки в default.
-// Сложность: medium
+// describe turns a score of 1-5 into a word and returns an error for anything else.
+// Practices a switch returning an error from its default.
 package main_test
 
 import (

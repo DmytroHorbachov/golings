@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// key переводит клавишу в команду; регистр букв не важен.
-// Тренирует: нормализацию значения прямо в выражении switch.
-// Сложность: easy
+// key turns a key press into a command, ignoring case.
+// Practices normalizing the value right in the switch expression.
 package main_test
 
 import (

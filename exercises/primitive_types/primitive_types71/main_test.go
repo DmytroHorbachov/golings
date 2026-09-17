@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fromBytes должна превратить срез байт в строку.
-// Тренирует: преобразование []byte в string.
-// Сложность: easy
+// fromBytes must turn a byte slice into a string.
+// Practices the conversion from []byte to string.
 package main_test
 
 import (

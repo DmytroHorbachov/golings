@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// digitSum должна сложить все цифры в строке, игнорируя прочие символы.
-// Тренирует: преобразование байта-цифры в число.
-// Сложность: medium
+// digitSum must add up every digit in a string, ignoring the other characters.
+// Practices turning a digit byte into a number.
 package main_test
 
 import "testing"

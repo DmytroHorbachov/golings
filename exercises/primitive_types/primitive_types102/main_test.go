@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// quoted должна вернуть строку в двойных кавычках с экранированием.
-// Тренирует: глагол %q.
-// Сложность: easy
+// quoted must return the string in double quotes with the escapes applied.
+// Practices the %q verb.
 package main_test
 
 import (

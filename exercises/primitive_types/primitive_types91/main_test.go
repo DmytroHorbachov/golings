@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// unsignedShift должна сдвигать биты int32 вправо, заполняя освободившиеся
-// старшие биты нулями (как >>> в Java).
-// Тренирует: для знаковых типов >> — арифметический сдвиг.
-// Сложность: hard
+// unsignedShift must shift the bits of an int32 right, filling the vacated
+// top bits with zeros, the way >>> does in Java.
+// For signed types >> is an arithmetic shift.
 package main_test
 
 import "testing"

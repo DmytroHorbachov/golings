@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// romanValue возвращает значение одной римской цифры.
-// Тренирует: switch по руне.
-// Сложность: easy
+// romanValue returns the value of a single roman numeral.
+// Practices a switch on a rune.
 package main_test
 
 import "testing"

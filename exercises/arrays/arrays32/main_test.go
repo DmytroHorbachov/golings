@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// swapEnds меняет местами первый и последний элементы.
-// Тренирует: множественное присваивание элементов массива.
-// Сложность: easy
+// swapEnds swaps the first and the last element.
+// Practices a multiple assignment of array elements.
 package main_test
 
 import "testing"

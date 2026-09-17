@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// money форматирует сумму: "$5", "5 €", "5 ₽"; неизвестная валюта — "5 XXX".
-// Тренирует: switch с разным порядком частей в ветках.
-// Сложность: medium
+// money formats an amount: "$5", "5 €", "5 ₽"; an unknown currency gives "5 XXX".
+// Practices a switch whose branches order the parts differently.
 package main_test
 
 import (

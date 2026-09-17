@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hexVal возвращает значение шестнадцатеричной цифры или -1.
-// Тренирует: switch без тега с арифметикой над символами.
-// Сложность: medium
+// hexVal returns the value of a hexadecimal digit, or -1.
+// Practices a tagless switch with arithmetic on characters.
 package main_test
 
 import "testing"

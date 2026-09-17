@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sortScores сортирует массив очков по убыванию. Сейчас код паникует:
-// sort.Slice получает массив, а не срез.
-// Тренирует: sort.Slice принимает interface{} и работает только со срезами.
-// Сложность: hard
+// sortScores sorts an array of scores in descending order. Right now the code panics:
+// sort.Slice is given an array rather than a slice.
+// sort.Slice takes an interface{} and only works on slices.
 package main_test
 
 import (

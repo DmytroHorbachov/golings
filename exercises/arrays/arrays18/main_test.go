@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// size должна вернуть количество элементов массива.
-// Тренирует: встроенную функцию len для массивов.
-// Сложность: easy
+// size must return the number of elements of an array.
+// Practices the builtin len for arrays.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// allOn возвращает true, только если все переключатели включены.
-// Тренирует: проверку всех элементов массива.
-// Сложность: easy
+// allOn returns true only when every switch is on.
+// Practices checking every element of an array.
 package main_test
 
 import "testing"

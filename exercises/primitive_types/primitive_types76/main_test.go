@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hexID должна вернуть число в виде строчных шестнадцатеричных цифр.
-// Тренирует: глагол %x.
-// Сложность: easy
+// hexID must return a number as lowercase hexadecimal digits.
+// Practices the %x verb.
 package main_test
 
 import (

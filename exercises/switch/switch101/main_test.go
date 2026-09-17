@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Status.String должна возвращать "active", "blocked" и "unknown".
-// Тренирует: switch в методе именованного типа.
-// Сложность: easy
+// Status.String must return "active", "blocked" and "unknown".
+// Practices a switch in a method of a named type.
 package main_test
 
 import "testing"

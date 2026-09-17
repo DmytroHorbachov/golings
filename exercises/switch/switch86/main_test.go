@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// encode переводит число в десятичную или шестнадцатеричную строку.
-// Код не компилируется: переменная, объявленная в case, не видна после switch.
-// Тренирует: каждая ветка case — отдельная область видимости.
-// Сложность: hard
+// encode turns a number into a decimal or a hexadecimal string.
+// The code does not compile: a variable declared in a case is not visible after the switch.
+// Every case branch is a scope of its own.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isInt должна считать целыми и int, и значения типа ID (type ID int).
-// Тренирует: type switch сравнивает точный тип; ID — не int.
-// Сложность: hard
+// isInt must treat both an int and a value of type ID (type ID int) as integers.
+// A type switch matches the exact type, and ID is not int.
 package main_test
 
 import "testing"

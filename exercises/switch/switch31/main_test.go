@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// insert принимает монету и возвращает новый баланс; монеты 1, 2 и 5 принимаются,
-// монеты 10 — только если баланс меньше 10; остальное отклоняется (баланс не меняется).
-// Тренирует: switch с условием внутри ветки.
-// Сложность: medium
+// insert takes a coin and returns the new balance; the coins 1, 2 and 5 are accepted,
+// a 10 only while the balance is below 10, and anything else is rejected without changing the balance.
+// Practices a switch with a condition inside a branch.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validIPv4 проверяет адрес вида "192.168.0.1": четыре числа 0–255
-// без ведущих нулей (кроме самого "0").
-// Тренирует: strings.Split, strconv.Atoi и проверки диапазонов.
-// Сложность: medium
+// validIPv4 checks an address such as "192.168.0.1": four numbers from 0 to 255
+// with no leading zeros, apart from "0" itself.
+// Practices strings.Split, strconv.Atoi and range checks.
 package main_test
 
 import (

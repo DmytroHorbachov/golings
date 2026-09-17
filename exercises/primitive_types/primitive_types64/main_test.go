@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isPalindrome проверяет фразу, игнорируя регистр и все символы, кроме букв.
-// Работает с любым алфавитом.
-// Тренирует: []rune, unicode.IsLetter и unicode.ToLower.
-// Сложность: medium
+// isPalindrome checks a phrase, ignoring case and every character but letters.
+// It works for any alphabet.
+// Practices []rune, unicode.IsLetter and unicode.ToLower.
 package main_test
 
 import (

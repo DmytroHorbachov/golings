@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// answer понимает "yes"/"no" в любом регистре. Тег уже приводится
-// к нижнему регистру, но ответ не распознаётся.
-// Тренирует: case-значения должны быть в той же нормальной форме, что и тег.
-// Сложность: hard
+// answer understands "yes" and "no" in any case. The tag is already folded
+// to lower case, yet the answer is not recognized.
+// The case values have to be in the same normal form as the tag.
 package main_test
 
 import (

@@ -3,11 +3,10 @@
 
 // I AM NOT DONE
 //
-// levels должна вернуть список ролей, которые включает данная роль:
-// admin включает editor и viewer, editor включает viewer.
-// Код не компилируется.
-// Тренирует: fallthrough нельзя ставить в последней ветке switch.
-// Сложность: hard
+// levels must return the roles a given role includes:
+// admin includes editor and viewer, editor includes viewer.
+// The code does not compile.
+// A fallthrough is not allowed in the last branch of a switch.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// compound вычисляет сумму вклада: amount * (1 + rate)^years.
-// Тренирует: math.Pow.
-// Сложность: easy
+// compound computes the value of a deposit: amount * (1 + rate)^years.
+// Practices math.Pow.
 package main_test
 
 import (

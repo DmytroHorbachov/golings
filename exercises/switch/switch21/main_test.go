@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// bmiClass считает ИМТ и возвращает "under" (<18.5), "normal" (<25),
-// "over" (<30) или "obese".
-// Тренирует: switch true по вычисленному значению.
-// Сложность: medium
+// bmiClass computes the BMI and returns "under" (<18.5), "normal" (<25),
+// "over" (<30) or "obese".
+// Practices switch true over a computed value.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// delta переводит клавишу в смещение (dx, dy). Поддерживаются WASD и стрелки.
-// Ось y направлена вниз.
-// Тренирует: объединение альтернативных значений в case.
-// Сложность: medium
+// delta turns a key into an offset (dx, dy). WASD and the arrow keys are supported.
+// The y axis points down.
+// Practices grouping alternative values in a case.
 package main_test
 
 import "testing"

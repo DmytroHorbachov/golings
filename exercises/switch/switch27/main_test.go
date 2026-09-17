@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// pieceValue возвращает ценность шахматной фигуры: пешка 1, конь и слон 3,
-// ладья 5, ферзь 9.
-// Тренирует: объединение значений в одной ветке.
-// Сложность: easy
+// pieceValue returns the value of a chess piece: a pawn 1, a knight and a bishop 3,
+// a rook 5, a queen 9.
+// Practices grouping values in one branch.
 package main_test
 
 import "testing"

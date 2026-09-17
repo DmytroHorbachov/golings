@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ext должна вернуть расширение файла после последней точки.
-// Тренирует: strings.LastIndex.
-// Сложность: easy
+// ext must return the file extension after the last dot.
+// Practices strings.LastIndex.
 package main_test
 
 import (

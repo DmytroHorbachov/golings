@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// convert переводит температуру из Цельсия в указанную шкалу ("F" или "K").
-// Тренирует: switch с вычислениями в ветках.
-// Сложность: easy
+// convert turns a temperature from Celsius into the given scale ("F" or "K").
+// Practices a switch with computations in the branches.
 package main_test
 
 import "testing"

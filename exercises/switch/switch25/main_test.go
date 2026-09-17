@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// suitSymbol возвращает символ масти.
-// Тренирует: switch по руне с возвратом строки.
-// Сложность: easy
+// suitSymbol returns the symbol of a suit.
+// Practices a switch on a rune returning a string.
 package main_test
 
 import "testing"

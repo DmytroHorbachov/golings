@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toCelsius разбирает строки вида "36.6C" или "98.6F" и возвращает градусы Цельсия.
-// Тренирует: работу с последним байтом строки и ParseFloat.
-// Сложность: medium
+// toCelsius parses strings such as "36.6C" or "98.6F" and returns degrees Celsius.
+// Practices working with the last byte of a string and ParseFloat.
 package main_test
 
 import (

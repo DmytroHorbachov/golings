@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// coinName определяет монету по номиналу, вычисленному как сумма долей.
-// Для 0.1+0.2 ветка 0.3 не срабатывает.
-// Тренирует: switch сравнивает float точно, а вычисления дают погрешность.
-// Сложность: hard
+// coinName names a coin by a value computed as a sum of fractions.
+// For 0.1+0.2 the 0.3 branch does not fire.
+// A switch compares floats exactly, while the arithmetic carries rounding error.
 package main_test
 
 import (

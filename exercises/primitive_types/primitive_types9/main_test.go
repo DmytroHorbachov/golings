@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// stripScheme должна убрать "https://" в начале URL, если он есть.
-// Тренирует: strings.TrimPrefix.
-// Сложность: easy
+// stripScheme must remove a leading "https://" from a URL when it is there.
+// Practices strings.TrimPrefix.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// canMove проверяет переход задачи между статусами:
-// todo -> doing, doing -> done или todo, done -> (никуда).
-// Тренирует: switch по исходному состоянию и проверку целевого.
-// Сложность: medium
+// canMove checks a task moving between states:
+// todo -> doing, doing -> done or todo, done -> nowhere.
+// Practices a switch on the source state with a check of the target.
 package main_test
 
 import "testing"

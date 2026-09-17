@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Названия цветов хранятся в массиве размера numColors. Добавили цвет Purple,
-// но размер массива задан числом и тест падает.
-// Тренирует: связывание размера массива с константой-счётчиком iota.
-// Сложность: hard
+// The colour names live in an array of size numColors. A Purple colour was added,
+// but the size of the array is written as a number and the test fails.
+// Practices tying the size of an array to an iota counter constant.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseBin разбирает двоичную строку в uint64 без strconv.
-// Любой символ кроме 0 и 1 — ошибка; пустая строка — тоже.
-// Тренирует: сдвиг влево и побитовое ИЛИ.
-// Сложность: medium
+// parseBin parses a binary string into a uint64 without strconv.
+// Any character other than 0 and 1 is an error, and so is an empty string.
+// Practices the left shift and the bitwise OR.
 package main_test
 
 import (

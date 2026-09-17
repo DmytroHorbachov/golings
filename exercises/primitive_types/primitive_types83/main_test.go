@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fromBinary должна разобрать строку из нулей и единиц.
-// Тренирует: strconv.ParseInt с основанием.
-// Сложность: easy
+// fromBinary must parse a string of zeros and ones.
+// Practices strconv.ParseInt with a base.
 package main_test
 
 import (

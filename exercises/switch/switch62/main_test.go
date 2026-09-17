@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// area считает площадь фигуры. Фигуры передаются как указатели,
-// а в type switch указаны типы-значения.
-// Тренирует: *Circle и Circle — разные типы для type switch.
-// Сложность: hard
+// area computes the area of a shape. The shapes are passed as pointers,
+// while the type switch lists value types.
+// *Circle and Circle are different types to a type switch.
 package main_test
 
 import "testing"

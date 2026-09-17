@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// domainStart должна вернуть позицию символа '@' в адресе.
-// Тренирует: strings.Index и strings.IndexByte.
-// Сложность: easy
+// domainStart must return the position of the '@' in an address.
+// Practices strings.Index and strings.IndexByte.
 package main_test
 
 import (

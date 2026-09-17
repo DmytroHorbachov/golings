@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hasGo должна вернуть true, если в строке встречается "go".
-// Тренирует: strings.Contains.
-// Сложность: easy
+// hasGo must return true when a string contains "go".
+// Practices strings.Contains.
 package main_test
 
 import (

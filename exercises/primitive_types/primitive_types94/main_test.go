@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// humanBytes форматирует размер: "512 B", "1.5 KiB", "2.0 MiB".
-// Тренирует: деление float и форматирование с одной цифрой после точки.
-// Сложность: medium
+// humanBytes formats a size: "512 B", "1.5 KiB", "2.0 MiB".
+// Practices float division and formatting with one decimal place.
 package main_test
 
 import (

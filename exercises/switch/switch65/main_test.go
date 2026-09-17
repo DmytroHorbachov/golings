@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// partOfDay возвращает "night" (0–5), "morning" (6–11), "day" (12–17), "evening" (18–23)
-// и "invalid" для остальных часов.
-// Тренирует: switch true с проверкой допустимого диапазона.
-// Сложность: medium
+// partOfDay returns "night" (0-5), "morning" (6-11), "day" (12-17), "evening" (18-23)
+// and "invalid" for any other hour.
+// Practices switch true with a validity check.
 package main_test
 
 import "testing"

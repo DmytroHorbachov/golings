@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// upper переводит строчные русские буквы в заглавные вычитанием 32.
-// Для буквы «ё» результат неверный.
-// Тренирует: смещение между регистрами не одинаково для всех символов.
-// Сложность: hard
+// upper turns lowercase russian letters into capitals by subtracting 32.
+// For the letter "ё" the result is wrong.
+// The offset between the cases is not the same for every character.
 package main_test
 
 import (

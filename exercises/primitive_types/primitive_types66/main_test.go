@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isPositive должна вернуть результат сравнения напрямую.
-// Тренирует: тип bool как результат выражения сравнения.
-// Сложность: easy
+// isPositive must return the result of the comparison directly.
+// Practices the bool type as the result of a comparison.
 package main_test
 
 import "testing"

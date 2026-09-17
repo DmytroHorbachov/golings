@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sign возвращает -1, 0 или 1.
-// Тренирует: switch без тега с тремя ветками.
-// Сложность: easy
+// sign returns -1, 0 or 1.
+// Practices a tagless switch with three branches.
 package main_test
 
 import "testing"

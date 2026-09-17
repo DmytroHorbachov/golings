@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ratingStars переводит оценку 0–100 в звёзды: 90+ — 3, 70+ — 2, 50+ — 1, иначе 0.
-// Тренирует: порядок веток в switch без тега.
-// Сложность: easy
+// ratingStars turns a score of 0-100 into stars: 90+ gives 3, 70+ gives 2, 50+ gives 1, else 0.
+// Practices the order of the branches in a tagless switch.
 package main_test
 
 import "testing"

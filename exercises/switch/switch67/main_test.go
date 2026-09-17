@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// numeric должна вернуть true для int и int64 значений.
-// Код не компилируется: fallthrough в type switch запрещён.
-// Тренирует: ограничения type switch.
-// Сложность: hard
+// numeric must return true for int and int64 values.
+// The code does not compile: fallthrough is not allowed in a type switch.
+// Practices the limits of a type switch.
 package main_test
 
 import "testing"

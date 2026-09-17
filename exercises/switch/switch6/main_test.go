@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// chord называет аккорд по списку нот. Код не компилируется: срезы
-// нельзя использовать в switch.
-// Тренирует: тег switch должен быть сравнимым типом.
-// Сложность: hard
+// chord names a chord from a list of notes. The code does not compile: slices
+// cannot be used in a switch.
+// The tag of a switch has to be of a comparable type.
 package main_test
 
 import (

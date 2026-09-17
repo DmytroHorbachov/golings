@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// setCell должна поставить отметку в клетку поля.
-// Строка извлекается в переменную, изменяется, но поле остаётся прежним.
-// Тренирует: присваивание элемента-массива копирует его.
-// Сложность: hard
+// setCell must put a mark in a cell of the grid.
+// The row is taken into a variable and changed, yet the grid stays as it was.
+// Assigning an array element copies it.
 package main_test
 
 import "testing"

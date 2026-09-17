@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isOne должна вернуть true, если значение равно единице любого целого типа
-// из списка int, int64, uint8.
-// Тренирует: case 1 при switch по interface{} сравнивает и тип (int), и значение.
-// Сложность: hard
+// isOne must return true when the value is one of any of the integer types
+// int, int64 or uint8.
+// In a switch over an interface{}, case 1 matches the type (int) as well as the value.
 package main_test
 
 import "testing"

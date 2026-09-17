@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isWeekend должна вернуть true для "sat" и "sun".
-// Тренирует: список значений в case.
-// Сложность: easy
+// isWeekend must return true for "sat" and "sun".
+// Practices a list of values in a case.
 package main_test
 
 import "testing"

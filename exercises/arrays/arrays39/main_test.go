@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parseIP разбирает "10.0.0.255" в [4]byte, а formatIP собирает строку обратно.
-// Тренирует: массив фиксированного размера как тип-значение.
-// Сложность: medium
+// parseIP turns "10.0.0.255" into a [4]byte, and formatIP builds the string back.
+// Practices a fixed size array as a value type.
 package main_test
 
 import (

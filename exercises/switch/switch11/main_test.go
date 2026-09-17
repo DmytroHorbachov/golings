@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// advance переводит заказ в следующее состояние:
-// new -> paid -> shipped -> done. Для done и неизвестных состояний — ошибка.
-// Тренирует: switch как таблицу переходов.
-// Сложность: medium
+// advance moves an order to its next state:
+// new -> paid -> shipped -> done. done and unknown states give an error.
+// Practices a switch as a transition table.
 package main_test
 
 import (

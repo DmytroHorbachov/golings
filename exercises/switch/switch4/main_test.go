@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// humanSize форматирует размер: байты, KB или MB.
-// Тренирует: switch без тега с порогами.
-// Сложность: easy
+// humanSize formats a size in bytes, KB or MB.
+// Practices a tagless switch with thresholds.
 package main_test
 
 import (

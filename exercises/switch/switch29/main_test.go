@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hello возвращает приветствие по коду языка, по умолчанию — английское.
-// Тренирует: switch с default.
-// Сложность: easy
+// hello returns a greeting for a language code, falling back to English.
+// Practices a switch with a default.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// initial должна вернуть первую букву имени как строку.
-// Тренирует: преобразование rune в string.
-// Сложность: easy
+// initial must return the first letter of a name as a string.
+// Practices converting a rune to a string.
 package main_test
 
 import (

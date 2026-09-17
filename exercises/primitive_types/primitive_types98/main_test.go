@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// wholePart должна отбросить дробную часть, сохранив знак: -2.7 -> -2.
-// Тренирует: math.Trunc в отличие от math.Floor.
-// Сложность: easy
+// wholePart must drop the fractional part while keeping the sign: -2.7 -> -2.
+// Practices math.Trunc as opposed to math.Floor.
 package main_test
 
 import (

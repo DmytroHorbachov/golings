@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// points переводит буквенную оценку в баллы: A=5, B=4, C=3, остальное 0.
-// Тренирует: switch по байту.
-// Сложность: easy
+// points turns a letter grade into points: A=5, B=4, C=3, anything else 0.
+// Practices a switch on a byte.
 package main_test
 
 import "testing"

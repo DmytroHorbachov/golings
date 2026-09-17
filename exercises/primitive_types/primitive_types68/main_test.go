@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// roots решает квадратное уравнение ax²+bx+c=0 и всегда возвращает два корня
-// как complex128 (в том числе при отрицательном дискриминанте).
-// Тренирует: complex128 и пакет math/cmplx.
-// Сложность: medium
+// roots solves the quadratic equation ax²+bx+c=0 and always returns two roots
+// as complex128 values, a negative discriminant included.
+// Practices complex128 and the math/cmplx package.
 package main_test
 
 import (

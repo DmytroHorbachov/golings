@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// opposite возвращает противоположное направление: N<->S, E<->W.
-// Тренирует: switch по строковым значениям.
-// Сложность: easy
+// opposite returns the opposite direction: N<->S, E<->W.
+// Practices a switch on string values.
 package main_test
 
 import "testing"

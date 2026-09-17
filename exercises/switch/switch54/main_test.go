@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parseDur разбирает строки вида "30s", "5m", "2h" в секунды.
-// Тренирует: switch по последнему символу строки.
-// Сложность: medium
+// parseDur turns strings such as "30s", "5m" and "2h" into seconds.
+// Practices a switch on the last character of a string.
 package main_test
 
 import (

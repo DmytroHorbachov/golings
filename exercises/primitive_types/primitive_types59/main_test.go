@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// startsUpper должна вернуть true, если первая руна — заглавная буква (любой алфавит).
-// Тренирует: пакет unicode.
-// Сложность: easy
+// startsUpper must return true when the first rune is a capital letter of any alphabet.
+// Practices the unicode package.
 package main_test
 
 import (

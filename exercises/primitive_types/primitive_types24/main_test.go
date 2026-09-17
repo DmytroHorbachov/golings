@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// normalize переводит угол в диапазон [0, 360).
-// Для отрицательных углов результат отрицательный.
-// Тренирует: math.Mod сохраняет знак делимого.
-// Сложность: hard
+// normalize maps an angle into the range [0, 360).
+// For negative angles the result is negative.
+// math.Mod keeps the sign of the dividend.
 package main_test
 
 import (

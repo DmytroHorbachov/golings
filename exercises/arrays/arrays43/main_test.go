@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// emptyScores должна вернуть массив из трёх нулей.
-// Тренирует: нулевое значение массива.
-// Сложность: easy
+// emptyScores must return an array of three zeros.
+// Practices the zero value of an array.
 package main_test
 
 import "testing"

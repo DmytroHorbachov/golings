@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// calc выполняет операцию над двумя числами по символу.
-// Одна из операций выполняется неправильно.
-// Тренирует: switch по строке.
-// Сложность: easy
+// calc applies an operation to two numbers by its symbol.
+// One of the operations is wrong.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

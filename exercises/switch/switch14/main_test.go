@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// features возвращает набор функций тарифа: "pro" включает всё из "plus",
-// а "plus" — всё из "basic". Для "pro" сейчас не хватает функций.
-// Тренирует: fallthrough нужно писать явно в каждой ветке.
-// Сложность: hard
+// features returns the features of a plan: "pro" includes everything in "plus",
+// and "plus" everything in "basic". Right now "pro" is missing features.
+// fallthrough has to be written out in every branch.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minOf возвращает наименьший элемент массива.
-// Тренирует: сравнение в цикле по массиву.
-// Сложность: easy
+// minOf returns the smallest element of an array.
+// Practices a comparison in a loop over an array.
 package main_test
 
 import "testing"

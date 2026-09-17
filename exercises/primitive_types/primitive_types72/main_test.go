@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// elapsedMs возвращает разницу между двумя моментами в миллисекундах.
-// Для интервала больше 25 дней результат становится отрицательным.
-// Тренирует: int32 хранит лишь около 2.1 миллиарда (≈24.8 суток в мс).
-// Сложность: hard
+// elapsedMs returns the difference between two moments in milliseconds.
+// For an interval longer than 25 days the result turns negative.
+// An int32 only holds about 2.1 billion, which is some 24.8 days in milliseconds.
 package main_test
 
 import (

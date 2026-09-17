@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hhmm переводит минуты от полуночи в строку "07:05".
-// Тренирует: целочисленное деление и заполнение нулями в fmt.
-// Сложность: medium
+// hhmm turns minutes since midnight into a string such as "07:05".
+// Practices integer division and zero padding in fmt.
 package main_test
 
 import (

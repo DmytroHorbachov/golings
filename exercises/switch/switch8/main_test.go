@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// heading определяет уровень заголовка Markdown ("# " — 1, "## " — 2, "### " — 3),
-// для остальных строк — 0.
-// Тренирует: подсчёт перед switch и проверку деталей в ветке.
-// Сложность: medium
+// heading works out the level of a Markdown heading ("# " is 1, "## " is 2, "### " is 3),
+// and 0 for every other line.
+// Practices counting before a switch and checking the details inside a branch.
 package main_test
 
 import "testing"

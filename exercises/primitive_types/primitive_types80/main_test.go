@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// letterFreq должна посчитать латинские буквы без учёта регистра.
-// Тренирует: массив-счётчик и преобразование букв в индекс.
-// Сложность: medium
+// letterFreq must count the latin letters ignoring case.
+// Practices a counter array and turning letters into indexes.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isqrt возвращает наибольшее целое r, такое что r*r <= n.
-// Для больших n результат math.Sqrt может быть неточным.
-// Тренирует: преобразования float64/int и коррекцию погрешности.
-// Сложность: medium
+// isqrt returns the largest integer r with r*r <= n.
+// For large n the result of math.Sqrt may be inexact.
+// Practices float64/int conversions and correcting the rounding error.
 package main_test
 
 import (

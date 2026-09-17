@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// planetOrder возвращает номер планеты от Солнца.
-// Тренирует: switch по строке.
-// Сложность: easy
+// planetOrder returns the position of a planet from the Sun.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

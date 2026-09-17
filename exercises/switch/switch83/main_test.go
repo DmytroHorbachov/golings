@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// weekday возвращает название дня для номера n, где 0 — понедельник.
-// Номер может быть любым целым, в том числе отрицательным.
-// Тренирует: нормализацию значения перед switch.
-// Сложность: medium
+// weekday returns the name of the day for the number n, where 0 is Monday.
+// n may be any integer, negative ones included.
+// Practices normalizing a value before a switch.
 package main_test
 
 import "testing"

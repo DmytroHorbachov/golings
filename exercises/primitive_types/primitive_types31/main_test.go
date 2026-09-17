@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// wordCount должна посчитать слова, разделённые любым количеством пробелов.
-// Тренирует: strings.Fields.
-// Сложность: easy
+// wordCount must count words separated by any number of spaces.
+// Practices strings.Fields.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// maxByte должна вернуть наибольшее значение типа uint8.
-// Тренирует: диапазон беззнаковых типов и константы math.
-// Сложность: easy
+// maxByte must return the largest value of the uint8 type.
+// Practices the range of the unsigned types and the math constants.
 package main_test
 
 import (

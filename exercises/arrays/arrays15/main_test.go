@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// vote увеличивает число голосов за кандидата с номером i.
-// Тренирует: изменение элемента массива через указатель.
-// Сложность: easy
+// vote increases the number of votes for the candidate with number i.
+// Practices changing an array element through a pointer.
 package main_test
 
 import "testing"

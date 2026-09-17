@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// dashes должна заменить все пробелы на дефисы.
-// Тренирует: strings.Replace и strings.ReplaceAll.
-// Сложность: easy
+// dashes must replace every space with a dash.
+// Practices strings.Replace and strings.ReplaceAll.
 package main_test
 
 import (

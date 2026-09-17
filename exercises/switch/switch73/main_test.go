@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// dayName должна вернуть название дня по номеру (1 — "Mon" ... 3 — "Wed").
-// Тренирует: switch по значению.
-// Сложность: easy
+// dayName must return the name of a day by its number (1 is "Mon" ... 3 is "Wed").
+// Practices a switch on a value.
 package main_test
 
 import "testing"

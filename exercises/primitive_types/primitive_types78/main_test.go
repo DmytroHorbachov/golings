@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// swapCase меняет регистр каждой буквы на противоположный.
-// Тренирует: unicode.IsUpper, ToLower, ToUpper.
-// Сложность: medium
+// swapCase flips the case of every letter.
+// Practices unicode.IsUpper, ToLower and ToUpper.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isWorkday использует time.Weekday. Суббота и воскресенье — выходные.
-// Тренирует: switch по значениям именованного типа из стандартной библиотеки.
-// Сложность: easy
+// isWorkday uses time.Weekday. Saturday and Sunday are the weekend.
+// Practices a switch over the values of a named type from the standard library.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// httpMethod возвращает действие для метода или "unsupported" для остальных.
-// Тренирует: ветку default.
-// Сложность: easy
+// httpMethod returns the action for a method, or "unsupported" for the rest.
+// Practices the default branch.
 package main_test
 
 import "testing"

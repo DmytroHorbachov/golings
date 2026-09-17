@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shiftBy сдвигает число влево на n бит, а при отрицательном n — вправо.
-// Сейчас отрицательный n вызывает панику.
-// Тренирует: сдвиг на отрицательную величину — паника времени выполнения.
-// Сложность: hard
+// shiftBy shifts a number left by n bits, or right when n is negative.
+// Right now a negative n panics.
+// A shift by a negative count is a run time panic.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// validRow проверяет, что в строке судоку цифры 1–9 не повторяются (0 — пустая клетка).
-// Тренирует: массив-счётчик [10]bool.
-// Сложность: medium
+// validRow checks that the digits 1-9 do not repeat in a sudoku row, 0 being an empty cell.
+// Practices a [10]bool counter array.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// render выводит Money особым образом, а остальные fmt.Stringer — через String().
-// Money тоже реализует Stringer, и до своей ветки не доходит.
-// Тренирует: ветки type switch проверяются по порядку, интерфейсы «перехватывают» типы.
-// Сложность: hard
+// render prints Money in a special way and every other fmt.Stringer through String().
+// Money is a Stringer too, so it never reaches its own branch.
+// The branches of a type switch are checked in order, and an interface catches types early.
 package main_test
 
 import (

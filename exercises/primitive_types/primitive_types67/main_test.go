@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// formatTemp округляет температуру до целого и выводит её; значение "-0"
-// выглядит странно и должно печататься как "0".
-// Тренирует: в float64 существует -0, и он печатается со знаком.
-// Сложность: hard
+// formatTemp rounds a temperature to a whole number and prints it; the value "-0"
+// looks odd and has to be printed as "0".
+// float64 has a -0, and it prints with its sign.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// titleCase должна сделать первую букву каждого слова заглавной, остальные — строчными.
-// Тренирует: работу с []rune и функциями unicode.
-// Сложность: medium
+// titleCase must uppercase the first letter of every word and lowercase the rest.
+// Practices working with []rune and the unicode functions.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// toCents переводит строку "12.34" в 1234 копейки, не используя float.
-// Допускается 0, 1 или 2 цифры после точки.
-// Тренирует: разбор строки на целую и дробную части.
-// Сложность: medium
+// toCents turns the string "12.34" into 1234 cents without using floats.
+// 0, 1 or 2 digits after the dot are allowed.
+// Practices splitting a string into its whole and fractional parts.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// balanced проверяет, что скобки ()[]{} расставлены правильно.
-// Тренирует: switch по символу вместе со стеком.
-// Сложность: medium
+// balanced checks that the brackets ()[]{} are properly nested.
+// Practices a switch on a character together with a stack.
 package main_test
 
 import "testing"

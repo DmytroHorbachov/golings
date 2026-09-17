@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseID разбирает числовой идентификатор, который может начинаться с нулей.
-// "010" должен давать 10, а получается 8.
-// Тренирует: base 0 в strconv.ParseInt определяет систему по префиксу.
-// Сложность: hard
+// parseID parses a numeric identifier that may start with zeros.
+// "010" has to give 10, but comes out as 8.
+// Base 0 in strconv.ParseInt picks the base from the prefix.
 package main_test
 
 import (

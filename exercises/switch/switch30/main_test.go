@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// nextAction читает очередной токен и возвращает действие.
-// Функция вызывает next() в нескольких ветках и теряет токены.
-// Тренирует: выражения в case вычисляются последовательно до первого совпадения.
-// Сложность: hard
+// nextAction reads the next token and returns an action.
+// The function calls next() in several branches and loses tokens.
+// The case expressions are evaluated one by one until one matches.
 package main_test
 
 import (

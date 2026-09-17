@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isIdentity проверяет, что матрица 3×3 единичная.
-// Тренирует: сравнение элементов по условию i == j.
-// Сложность: medium
+// isIdentity checks that a 3 by 3 matrix is the identity matrix.
+// Practices comparing elements against the condition i == j.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sumValid суммирует числа из строк, пропуская комментарии "#...".
-// break в switch не пропускает итерацию, и комментарии ломают сумму.
-// Тренирует: break выходит из switch, а continue переходит к следующей итерации цикла.
-// Сложность: hard
+// sumValid adds up the numbers in the lines, skipping "#..." comments.
+// A break in the switch does not skip the iteration, so comments break the sum.
+// break leaves the switch, while continue moves on to the next iteration of the loop.
 package main_test
 
 import (

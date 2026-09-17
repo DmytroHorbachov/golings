@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// avg должна вернуть среднее двух значений яркости (0..255).
-// Для ярких пикселей результат неправильный.
-// Тренирует: переполнение промежуточного результата в uint8.
-// Сложность: hard
+// avg must return the average of two brightness values (0..255).
+// For bright pixels the result is wrong.
+// The intermediate result overflows a uint8.
 package main_test
 
 import "testing"

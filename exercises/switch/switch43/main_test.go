@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// priority переводит метку в число: "high" — 1, "medium" — 2, "low" — 3, иначе 0.
-// Тренирует: switch по строке.
-// Сложность: easy
+// priority turns a label into a number: "high" is 1, "medium" 2, "low" 3, else 0.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// calc возвращает результат или ошибку: "division by zero" и "unknown operator".
-// Тренирует: switch с проверками внутри веток и default.
-// Сложность: medium
+// calc returns the result, or the errors "division by zero" and "unknown operator".
+// Practices a switch with checks inside the branches and a default.
 package main_test
 
 import (

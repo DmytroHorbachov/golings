@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// snapshot должна вернуть независимую копию показаний, которую не затронут
-// последующие измерения. Сейчас «снимок» меняется вместе с массивом.
-// Тренирует: срез массива arr[:] ссылается на тот же массив.
-// Сложность: hard
+// snapshot must return an independent copy of the readings that later measurements
+// cannot touch. Right now the snapshot changes along with the array.
+// The slice arr[:] refers to the same array.
 package main_test
 
 import "testing"

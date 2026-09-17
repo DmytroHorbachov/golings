@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// accessLevel переводит роль в уровень: "guest" — 0, "user" — 1, "admin" и "root" — 2.
-// Тренирует: несколько значений в case.
-// Сложность: easy
+// accessLevel turns a role into a level: "guest" is 0, "user" 1, "admin" and "root" 2.
+// Practices several values in a case.
 package main_test
 
 import "testing"

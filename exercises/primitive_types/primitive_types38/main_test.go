@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// areaCode должна вернуть три цифры кода из номера вида "(495)1234567".
-// Тренирует: срез строки s[i:j] (j не включается).
-// Сложность: easy
+// areaCode must return the three digit code from a number such as "(495)1234567".
+// Practices the string slice s[i:j], where j is excluded.
 package main_test
 
 import "testing"

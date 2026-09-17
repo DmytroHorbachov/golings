@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// vowelRatio возвращает долю гласных среди латинских букв строки (0 для строки без букв).
-// Тренирует: деление float64 и защиту от деления на ноль.
-// Сложность: medium
+// vowelRatio returns the share of vowels among the latin letters of a string, 0 when there are none.
+// Practices float64 division and guarding against a division by zero.
 package main_test
 
 import (

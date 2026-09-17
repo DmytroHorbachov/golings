@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rgb раскладывает цвет 0xRRGGBB на три компоненты.
-// Тренирует: сдвиги и маски над uint32.
-// Сложность: medium
+// rgb splits a 0xRRGGBB colour into its three components.
+// Practices shifts and masks over a uint32.
 package main_test
 
 import "testing"

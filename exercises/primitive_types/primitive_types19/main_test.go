@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// onlyDigits проверяет, что строка — корректное десятичное число для strconv.Atoi.
-// unicode.IsDigit пропускает цифры других письменностей, и Atoi затем падает.
-// Тренирует: unicode.IsDigit шире, чем '0'..'9'.
-// Сложность: hard
+// onlyDigits checks that a string is a decimal number strconv.Atoi will accept.
+// unicode.IsDigit lets digits of other scripts through, and Atoi then fails.
+// unicode.IsDigit is wider than '0'..'9'.
 package main_test
 
 import (

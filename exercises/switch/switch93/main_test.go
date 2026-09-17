@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// action возвращает "go", "slow", "stop" для сигналов green, yellow, red.
-// Тренирует: switch по строке.
-// Сложность: easy
+// action returns "go", "slow" and "stop" for the signals green, yellow and red.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

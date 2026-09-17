@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// compareWords сравнивает два числа и возвращает "less", "equal" или "greater".
-// Тренирует: switch без тега с тремя исходами.
-// Сложность: medium
+// compareWords compares two numbers and returns "less", "equal" or "greater".
+// Practices a tagless switch with three outcomes.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// edge должна вернуть длину ребра куба по его объёму.
-// Тренирует: функции пакета math для корней.
-// Сложность: easy
+// edge must return the length of the edge of a cube from its volume.
+// Practices the root functions of the math package.
 package main_test
 
 import (

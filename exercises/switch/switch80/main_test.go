@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// category определяет категорию значения по типу. Код не компилируется:
-// переменная type switch объявлена, но ни в одной ветке не используется.
-// Тренирует: форма switch v := x.(type) требует использовать v.
-// Сложность: hard
+// category works out the category of a value from its type. The code does not compile:
+// the type switch variable is declared but used in none of the branches.
+// The switch v := x.(type) form requires v to be used.
 package main_test
 
 import "testing"

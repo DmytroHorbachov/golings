@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// luhn проверяет номер карты по алгоритму Луна (пробелы игнорируются).
-// Тренирует: цифры из байтов и обход строки справа налево.
-// Сложность: medium
+// luhn validates a card number with the Luhn algorithm, ignoring spaces.
+// Practices digits from bytes and walking a string from right to left.
 package main_test
 
 import "testing"

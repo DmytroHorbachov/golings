@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toBinary должна вернуть двоичное представление числа.
-// Тренирует: strconv.FormatInt.
-// Сложность: easy
+// toBinary must return the binary representation of a number.
+// Practices strconv.FormatInt.
 package main_test
 
 import (

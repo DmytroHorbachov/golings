@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseQty разбирает количество из пользовательского ввода вроде " 42\n".
-// strconv.Atoi не прощает пробелов.
-// Тренирует: строгость функций strconv.
-// Сложность: hard
+// parseQty parses a quantity out of user input such as " 42\n".
+// strconv.Atoi does not forgive whitespace.
+// Practices how strict the strconv functions are.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// record обновляет оценку ученика в map[string]Report, где у Report есть
-// массив Scores. Код не компилируется: элемент map нельзя менять по частям.
-// Тренирует: значения map не адресуемы.
-// Сложность: hard
+// record updates a pupil's score in a map[string]Report, where Report holds
+// a Scores array. The code does not compile: a map element cannot be changed in part.
+// Map values are not addressable.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hexColor возвращает HEX-код основного цвета.
-// Тренирует: switch по строке.
-// Сложность: easy
+// hexColor returns the HEX code of a primary colour.
+// Practices a switch on a string.
 package main_test
 
 import "testing"

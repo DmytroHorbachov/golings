@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countRunes должна вернуть число символов или ошибку, если строка содержит
-// некорректные байты UTF-8. Сейчас мусорные байты считаются символами.
-// Тренирует: range по невалидной строке выдаёт utf8.RuneError.
-// Сложность: hard
+// countRunes must return the number of characters, or an error when the string holds
+// invalid UTF-8 bytes. Right now the junk bytes are counted as characters.
+// A range over an invalid string yields utf8.RuneError.
 package main_test
 
 import (

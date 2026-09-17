@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// charAt должна вернуть n-й символ строки (считая с нуля) или пустую строку.
-// range по строке выдаёт байтовые смещения, а не номера символов.
-// Тренирует: индекс в for i, r := range s — это позиция байта.
-// Сложность: hard
+// charAt must return the n-th character of a string, counting from zero, or an empty string.
+// A range over a string gives byte offsets rather than character numbers.
+// The index in for i, r := range s is a byte position.
 package main_test
 
 import "testing"

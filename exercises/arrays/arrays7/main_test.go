@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// allUnique проверяет, что в строке из строчных латинских букв нет повторов.
-// Тренирует: массив [26]bool как множество.
-// Сложность: easy
+// allUnique checks that a string of lowercase latin letters has no repeats.
+// Practices a [26]bool array as a set.
 package main_test
 
 import "testing"

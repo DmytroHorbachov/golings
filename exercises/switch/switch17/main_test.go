@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// format превращает значение в строку: int — число, string — в кавычках,
-// bool — "yes"/"no", остальное — "?".
-// Тренирует: type switch с привязкой переменной (v := x.(type)).
-// Сложность: medium
+// format turns a value into a string: an int as a number, a string in quotes,
+// a bool as "yes"/"no", and anything else as "?".
+// Practices a type switch binding a variable (v := x.(type)).
 package main_test
 
 import (

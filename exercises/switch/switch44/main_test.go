@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// group возвращает "image", "text", "json" или "binary" по MIME-типу.
-// Тренирует: switch без тега с функциями strings.
-// Сложность: medium
+// group returns "image", "text", "json" or "binary" for a MIME type.
+// Practices a tagless switch with functions from strings.
 package main_test
 
 import (

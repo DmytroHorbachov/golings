@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// dedupe убирает повторы из отсортированного массива на месте и возвращает
-// количество уникальных элементов.
-// Тренирует: запись в массив по отдельному индексу.
-// Сложность: medium
+// dedupe removes the repeats from a sorted array in place and returns
+// the number of distinct elements.
+// Practices writing to an array through a separate index.
 package main_test
 
 import "testing"

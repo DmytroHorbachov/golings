@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// movingAvg возвращает средние значения по окнам из 3 подряд идущих элементов.
-// Тренирует: окно фиксированного размера над массивом.
-// Сложность: medium
+// movingAvg returns the averages over windows of 3 consecutive elements.
+// Practices a fixed size window over an array.
 package main_test
 
 import "testing"

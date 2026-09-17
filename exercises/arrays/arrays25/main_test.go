@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// process записывает в журнал итоговое состояние массива при выходе.
-// Журнал содержит начальное состояние.
-// Тренирует: аргументы отложенного вызова (включая массивы) копируются в момент defer.
-// Сложность: hard
+// process logs the final state of the array when it returns.
+// The log holds the initial state.
+// The arguments of a deferred call, arrays included, are copied at the defer.
 package main_test
 
 import "testing"

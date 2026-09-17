@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sortNames сортирует имена по алфавиту без учёта регистра.
-// Сейчас все заглавные буквы идут раньше строчных.
-// Тренирует: строки сравниваются побайтово: 'Z' (90) < 'a' (97).
-// Сложность: hard
+// sortNames sorts names alphabetically, ignoring case.
+// Right now every capital letter comes before the lowercase ones.
+// Strings compare byte by byte: 'Z' (90) < 'a' (97).
 package main_test
 
 import (

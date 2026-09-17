@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sameArgs сравнивает два набора аргументов [2]interface{}.
-// Если среди аргументов есть срезы, сравнение == паникует.
-// Тренирует: массив интерфейсов сравним на этапе компиляции, но может паниковать.
-// Сложность: hard
+// sameArgs compares two argument sets of type [2]interface{}.
+// When the arguments hold slices, a comparison with == panics.
+// An array of interfaces is comparable at compile time, yet it may panic.
 package main_test
 
 import (

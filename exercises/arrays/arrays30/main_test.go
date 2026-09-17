@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// capacity возвращает ёмкость массива; у массива она всегда равна длине.
-// Тренирует: cap для массивов.
-// Сложность: easy
+// capacity returns the capacity of an array, which always equals its length.
+// Practices cap on arrays.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// samePoint сравнивает точки [2]float64 и должна считать равными
-// точки с «пропущенными» (NaN) координатами на тех же позициях.
-// Тренирует: == для массивов сравнивает элементы, а NaN != NaN.
-// Сложность: hard
+// samePoint compares [2]float64 points and must treat points with
+// missing (NaN) coordinates in the same places as equal.
+// == on arrays compares the elements, and NaN != NaN.
 package main_test
 
 import (

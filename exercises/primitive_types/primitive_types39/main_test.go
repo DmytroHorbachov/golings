@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isRussian проверяет, что строка состоит только из строчных русских букв.
-// Слова с буквой «ё» сейчас отклоняются.
-// Тренирует: 'ё' находится вне непрерывного диапазона 'а'..'я' в Unicode.
-// Сложность: hard
+// isRussian checks that a string holds lowercase russian letters only.
+// Words with the letter "ё" are rejected right now.
+// 'ё' sits outside the contiguous 'а'..'я' range in Unicode.
 package main_test
 
 import "testing"

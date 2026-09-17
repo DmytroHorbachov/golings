@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// describe возвращает "read", "write", "read-write" или "none" для набора флагов.
-// Для Read|Write возвращается "none": switch по значению не видит комбинацию.
-// Тренирует: битовые флаги нельзя разбирать switch-ем по отдельным константам.
-// Сложность: hard
+// describe returns "read", "write", "read-write" or "none" for a set of flags.
+// Read|Write comes out as "none": a switch on the value does not see the combination.
+// Bit flags cannot be taken apart by a switch over the individual constants.
 package main_test
 
 import "testing"

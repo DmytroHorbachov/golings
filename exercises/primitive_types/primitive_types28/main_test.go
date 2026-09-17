@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// tags разбирает строку тегов через запятую. Для пустой строки должно
-// получиться ноль тегов, а получается один пустой тег.
-// Тренирует: strings.Split("", ",") возвращает [""], а не пустой срез.
-// Сложность: hard
+// tags parses a comma separated string of tags. An empty string must give
+// no tags at all, yet it gives one empty tag.
+// strings.Split("", ",") returns [""], not an empty slice.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// detectKind возвращает вид файла через именованный результат;
-// неизвестный вид заменяется на "unknown". Сейчас возвращается пустая строка.
-// Тренирует: := в инициализаторе switch объявляет новую переменную.
-// Сложность: hard
+// detectKind returns the kind of a file through a named result,
+// replacing an unknown kind with "unknown". Right now it returns an empty string.
+// := in a switch initializer declares a new variable.
 package main_test
 
 import (

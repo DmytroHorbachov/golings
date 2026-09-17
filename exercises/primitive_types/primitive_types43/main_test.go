@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// label должна вернуть строку "item-7" для числа 7.
-// Тренирует: форматирование целых чисел через fmt.Sprintf.
-// Сложность: easy
+// label must return the string "item-7" for the number 7.
+// Practices formatting integers with fmt.Sprintf.
 package main_test
 
 import (

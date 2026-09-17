@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sizeLabel возвращает метку размера. Код не компилируется: два одинаковых case.
-// Тренирует: константы в case должны быть уникальными.
-// Сложность: easy
+// sizeLabel returns a size label. The code does not compile: two identical cases.
+// The constants in the cases have to be distinct.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// atbash заменяет латинскую букву зеркальной: a<->z, b<->y; регистр сохраняется,
-// прочие символы не меняются.
-// Тренирует: арифметику над рунами для двух диапазонов.
-// Сложность: medium
+// atbash replaces a latin letter with its mirror: a<->z, b<->y; the case is kept
+// and every other character is left alone.
+// Practices rune arithmetic over two ranges.
 package main_test
 
 import (
