@@ -1130,3 +1130,780 @@ mode = "test"
 hint = """
 time.Duration(1.5) усекается до 1 наносекунды ещё до умножения.
 Умножайте секунды на количество наносекунд в секунде, пока значение ещё float64."""
+
+# ===== generated exercises: functions =====
+[[exercises]]
+name = "functions_x043"
+path = "exercises/functions/functions_x043/main_test.go"
+mode = "test"
+hint = """
+Обращение к отсутствующему ключу возвращает nil-функцию; её вызов паникует.
+Используйте форму v, ok := m[k]."""
+
+[[exercises]]
+name = "functions_x069"
+path = "exercises/functions/functions_x069/main_test.go"
+mode = "test"
+hint = """
+append может вернуть новый срез, но изменить длину среза у вызывающего
+функция не может. Верните новый срез или примите указатель на срез."""
+
+[[exercises]]
+name = "functions_x086"
+path = "exercises/functions/functions_x086/main_test.go"
+mode = "test"
+hint = """
+strings.Builder запоминает свой адрес и запрещает запись в копию.
+Передавайте его во вспомогательную функцию по указателю."""
+
+[[exercises]]
+name = "functions_x088"
+path = "exercises/functions/functions_x088/main_test.go"
+mode = "test"
+hint = """
+m[k] нельзя взять по адресу, поэтому pointer-метод на нём не вызвать.
+Храните в map указатели на структуры."""
+
+[[exercises]]
+name = "functions_x041"
+path = "exercises/functions/functions_x041/main_test.go"
+mode = "test"
+hint = """
+Состояние (два последних числа) должно жить вне возвращаемой функции,
+иначе оно создаётся заново при каждом вызове."""
+
+[[exercises]]
+name = "functions_x032"
+path = "exercises/functions/functions_x032/main_test.go"
+mode = "test"
+hint = """
+Пустое сообщение — это всё ещё ошибка. Отсутствие ошибки обозначается nil."""
+
+[[exercises]]
+name = "functions_x095"
+path = "exercises/functions/functions_x095/main_test.go"
+mode = "test"
+hint = """
+cur постоянно меняется, а в res кладётся срез, смотрящий на тот же массив.
+Сохраняйте копию текущего состояния."""
+
+[[exercises]]
+name = "functions_x061"
+path = "exercises/functions/functions_x061/main_test.go"
+mode = "test"
+hint = """
+В базовом случае нужно вернуть накопленное значение,
+а в рекурсивном — передать обновлённый аккумулятор."""
+
+[[exercises]]
+name = "functions_x071"
+path = "exercises/functions/functions_x071/main_test.go"
+mode = "test"
+hint = """
+Функция получает копию структуры. Чтобы изменить оригинал,
+передайте указатель."""
+
+[[exercises]]
+name = "functions_x028"
+path = "exercises/functions/functions_x028/main_test.go"
+mode = "test"
+hint = """
+sort.Search ищет наименьший индекс, для которого предикат истинен.
+Элемент, равный target, тоже подходит."""
+
+[[exercises]]
+name = "functions_x049"
+path = "exercises/functions/functions_x049/main_test.go"
+mode = "test"
+hint = """
+Как только проверка вернула ошибку, её нужно сразу вернуть,
+не вызывая остальные проверки."""
+
+[[exercises]]
+name = "functions_x097"
+path = "exercises/functions/functions_x097/main_test.go"
+mode = "test"
+hint = """
+Как и bufio.Scanner.Bytes, scan переиспользует буфер. Если данные нужны
+после возврата из callback, скопируйте их."""
+
+[[exercises]]
+name = "functions_x040"
+path = "exercises/functions/functions_x040/main_test.go"
+mode = "test"
+hint = """
+Выходите из функции сразу при первом успехе. Запоминайте ошибку
+каждой попытки, чтобы вернуть последнюю."""
+
+[[exercises]]
+name = "functions_x052"
+path = "exercises/functions/functions_x052/main_test.go"
+mode = "test"
+hint = """
+Если target меньше среднего элемента, ищите в левой половине [lo, mid),
+иначе в правой (mid, hi). Пустой диапазон — это lo >= hi."""
+
+[[exercises]]
+name = "functions_x011"
+path = "exercises/functions/functions_x011/main_test.go"
+mode = "test"
+hint = """
+Функция less(i, j) должна возвращать true, если элемент i
+должен стоять раньше элемента j."""
+
+[[exercises]]
+name = "functions_x054"
+path = "exercises/functions/functions_x054/main_test.go"
+mode = "test"
+hint = """
+Результат каждой функции — вход для следующей. Начните с исходного x
+и последовательно обновляйте его."""
+
+[[exercises]]
+name = "functions_x083"
+path = "exercises/functions/functions_x083/main_test.go"
+mode = "test"
+hint = """
+Копия значения, сделанная при создании функции, дальше не меняется.
+Обе функции должны обращаться к одной и той же переменной."""
+
+[[exercises]]
+name = "functions_x001"
+path = "exercises/functions/functions_x001/main_test.go"
+mode = "test"
+hint = """
+Аргументы сопоставляются с параметрами строго по позиции.
+Посмотрите на сигнатуру power и на вызов."""
+
+[[exercises]]
+name = "functions_x020"
+path = "exercises/functions/functions_x020/main_test.go"
+mode = "test"
+hint = """
+В пакете unicode есть функция, проверяющая, что руна — цифра."""
+
+[[exercises]]
+name = "functions_x015"
+path = "exercises/functions/functions_x015/main_test.go"
+mode = "test"
+hint = """
+Глагол %v превращает ошибку в текст, а %w сохраняет её внутри новой ошибки."""
+
+[[exercises]]
+name = "functions_x079"
+path = "exercises/functions/functions_x079/main_test.go"
+mode = "test"
+hint = """
+Board — массив, и функция получает его полную копию.
+Передайте указатель на массив; индексировать его можно так же."""
+
+[[exercises]]
+name = "functions_x008"
+path = "exercises/functions/functions_x008/main_test.go"
+mode = "test"
+hint = """
+Посмотрите на операцию внутри возвращаемой функции."""
+
+[[exercises]]
+name = "functions_x002"
+path = "exercises/functions/functions_x002/main_test.go"
+mode = "test"
+hint = """
+Срез можно «развернуть» в список аргументов, если поставить после него ..."""
+
+[[exercises]]
+name = "functions_x092"
+path = "exercises/functions/functions_x092/main_test.go"
+mode = "test"
+hint = """
+Значения func можно сравнивать только с nil. Сравнивайте плагины
+по полю, которое однозначно их идентифицирует."""
+
+[[exercises]]
+name = "functions_x074"
+path = "exercises/functions/functions_x074/main_test.go"
+mode = "test"
+hint = """
+defer f() с f == nil не падает сразу, но паникует при выходе из функции.
+Регистрируйте отложенный вызов, только если функция не nil."""
+
+[[exercises]]
+name = "functions_x094"
+path = "exercises/functions/functions_x094/main_test.go"
+mode = "test"
+hint = """
+[]string и []interface{} — разные типы с разным представлением в памяти.
+Создайте []interface{} и скопируйте элементы по одному."""
+
+[[exercises]]
+name = "functions_x037"
+path = "exercises/functions/functions_x037/main_test.go"
+mode = "test"
+hint = """
+errors.As принимает указатель на переменную нужного типа и заполняет её,
+если такая ошибка есть в цепочке. Утверждение типа не смотрит в обёртки."""
+
+[[exercises]]
+name = "functions_x019"
+path = "exercises/functions/functions_x019/main_test.go"
+mode = "test"
+hint = """
+Сначала применяется g, затем к её результату — f."""
+
+[[exercises]]
+name = "functions_x075"
+path = "exercises/functions/functions_x075/main_test.go"
+mode = "test"
+hint = """
+Без многоточия весь срез передаётся как один аргумент и печатается в скобках."""
+
+[[exercises]]
+name = "functions_x009"
+path = "exercises/functions/functions_x009/main_test.go"
+mode = "test"
+hint = """
+Чётное число делится на 2 без остатка."""
+
+[[exercises]]
+name = "functions_x010"
+path = "exercises/functions/functions_x010/main_test.go"
+mode = "test"
+hint = """
+strings.Map вызывает переданную функцию для каждой руны.
+Проверьте, какую функцию вы передаёте."""
+
+[[exercises]]
+name = "functions_x091"
+path = "exercises/functions/functions_x091/main_test.go"
+mode = "test"
+hint = """
+Вызов метода на nil-указателе законен; паника возникает при обращении
+к полю. Обработайте l == nil в самом методе."""
+
+[[exercises]]
+name = "functions_x017"
+path = "exercises/functions/functions_x017/main_test.go"
+mode = "test"
+hint = """
+gcd(a, b) = gcd(b, a mod b), а gcd(a, 0) = a.
+Проверьте порядок аргументов в рекурсивном вызове."""
+
+[[exercises]]
+name = "functions_x022"
+path = "exercises/functions/functions_x022/main_test.go"
+mode = "test"
+hint = """
+x^n = x * x^(n-1). Проверьте, какой аргумент уменьшается."""
+
+[[exercises]]
+name = "functions_x031"
+path = "exercises/functions/functions_x031/main_test.go"
+mode = "test"
+hint = """
+Необязательный аргумент есть, если в срезе хотя бы один элемент."""
+
+[[exercises]]
+name = "functions_x100"
+path = "exercises/functions/functions_x100/main_test.go"
+mode = "test"
+hint = """
+Inc с получателем-значением увеличивает поле у копии.
+Сделайте получатели указателями."""
+
+[[exercises]]
+name = "functions_x096"
+path = "exercises/functions/functions_x096/main_test.go"
+mode = "test"
+hint = """
+Когда паника перехвачена, функция возвращает текущие значения именованных
+результатов. Сбросьте срез в отложенной функции."""
+
+[[exercises]]
+name = "functions_x027"
+path = "exercises/functions/functions_x027/main_test.go"
+mode = "test"
+hint = """
+TrimFunc удаляет символы, для которых функция возвращает true.
+Удалять нужно то, что НЕ является буквой или цифрой."""
+
+[[exercises]]
+name = "functions_x068"
+path = "exercises/functions/functions_x068/main_test.go"
+mode = "test"
+hint = """
+recover возвращает не nil, только когда его вызывает сама отложенная функция,
+а не функция, вызванная из неё. Перенесите вызов recover в defer."""
+
+[[exercises]]
+name = "functions_x051"
+path = "exercises/functions/functions_x051/main_test.go"
+mode = "test"
+hint = """
+Строка длины 0 или 1 — палиндром. Иначе сравните крайние символы
+и проверьте середину, отрезав по одному символу с каждого конца."""
+
+[[exercises]]
+name = "functions_x090"
+path = "exercises/functions/functions_x090/main_test.go"
+mode = "test"
+hint = """
+Имя init нельзя использовать как обычную функцию. Вынесите начальную
+настройку в отдельную функцию и вызывайте её и из init, и из reset."""
+
+[[exercises]]
+name = "functions_x082"
+path = "exercises/functions/functions_x082/main_test.go"
+mode = "test"
+hint = """
+Срез, возвращённый как есть, указывает на тот же массив, что и поле.
+Верните копию."""
+
+[[exercises]]
+name = "functions_x036"
+path = "exercises/functions/functions_x036/main_test.go"
+mode = "test"
+hint = """
+Перед вычислением проверьте, нет ли значения в кэше.
+После вычисления сохраните результат в кэш."""
+
+[[exercises]]
+name = "functions_x046"
+path = "exercises/functions/functions_x046/main_test.go"
+mode = "test"
+hint = """
+Создайте срез, начинающийся с префикса, добавьте к нему все args
+через append(..., args...) и передайте его в format с многоточием."""
+
+[[exercises]]
+name = "functions_x064"
+path = "exercises/functions/functions_x064/main_test.go"
+mode = "test"
+hint = """
+Если осталась одна строка или один столбец, путь один.
+Иначе сумма путей после шага вправо и шага вниз."""
+
+[[exercises]]
+name = "functions_x012"
+path = "exercises/functions/functions_x012/main_test.go"
+mode = "test"
+hint = """
+После обработки особого случая функцию нужно завершить."""
+
+[[exercises]]
+name = "functions_x018"
+path = "exercises/functions/functions_x018/main_test.go"
+mode = "test"
+hint = """
+FieldsFunc разбивает строку в местах, где функция возвращает true.
+Разделитель — это всё, что НЕ является буквой."""
+
+[[exercises]]
+name = "functions_x029"
+path = "exercises/functions/functions_x029/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какая функция соответствует каждому символу."""
+
+[[exercises]]
+name = "functions_x059"
+path = "exercises/functions/functions_x059/main_test.go"
+mode = "test"
+hint = """
+Определите длину результата как минимум из длин и не выходите за границы."""
+
+[[exercises]]
+name = "functions_x058"
+path = "exercises/functions/functions_x058/main_test.go"
+mode = "test"
+hint = """
+Аккумулятор стартует с init и на каждом шаге заменяется результатом f.
+Проверьте порядок аргументов f."""
+
+[[exercises]]
+name = "functions_x025"
+path = "exercises/functions/functions_x025/main_test.go"
+mode = "test"
+hint = """
+Первым выполнится тот defer, который был зарегистрирован последним.
+Посмотрите, в каком порядке добавляются записи cleanup."""
+
+[[exercises]]
+name = "functions_x035"
+path = "exercises/functions/functions_x035/main_test.go"
+mode = "test"
+hint = """
+Функции из пакета strings можно передавать без вызова, если сигнатура подходит."""
+
+[[exercises]]
+name = "functions_x006"
+path = "exercises/functions/functions_x006/main_test.go"
+mode = "test"
+hint = """
+Скобки после имени вызывают функцию. Чтобы передать саму функцию,
+скобки не нужны."""
+
+[[exercises]]
+name = "functions_x057"
+path = "exercises/functions/functions_x057/main_test.go"
+mode = "test"
+hint = """
+Прямой порядок: сначала узел, затем левое поддерево, затем правое."""
+
+[[exercises]]
+name = "functions_x066"
+path = "exercises/functions/functions_x066/main_test.go"
+mode = "test"
+hint = """
+Проверьте пустой список до обращения к первому элементу.
+И убедитесь, что при успехе ошибка равна nil."""
+
+[[exercises]]
+name = "functions_x039"
+path = "exercises/functions/functions_x039/main_test.go"
+mode = "test"
+hint = """
+Чтобы первый middleware оказался снаружи, оборачивать нужно,
+начиная с последнего. Пройдите список в обратном порядке."""
+
+[[exercises]]
+name = "functions_x084"
+path = "exercises/functions/functions_x084/main_test.go"
+mode = "test"
+hint = """
+sort.Slice переставляет элементы переданного среза, а замыкание less
+читает элементы другого, неизменного среза."""
+
+[[exercises]]
+name = "functions_x099"
+path = "exercises/functions/functions_x099/main_test.go"
+mode = "test"
+hint = """
+Переполнение нельзя надёжно обнаружить после умножения.
+Проверьте заранее: r > limit / i означает, что r * i не поместится."""
+
+[[exercises]]
+name = "functions_x023"
+path = "exercises/functions/functions_x023/main_test.go"
+mode = "test"
+hint = """
+Последняя цифра — n % 10, оставшаяся часть — n / 10."""
+
+[[exercises]]
+name = "functions_x047"
+path = "exercises/functions/functions_x047/main_test.go"
+mode = "test"
+hint = """
+Храните в замыкании признак «уже вызвано» и результат первого вызова."""
+
+[[exercises]]
+name = "functions_x098"
+path = "exercises/functions/functions_x098/main_test.go"
+mode = "test"
+hint = """
+f() даёт nil, а f(s...) передаёт s как есть, даже пустой, но не nil.
+Отличайте эти случаи сравнением с nil, а не по длине."""
+
+[[exercises]]
+name = "functions_x026"
+path = "exercises/functions/functions_x026/main_test.go"
+mode = "test"
+hint = """
+Обёрнутая ошибка — это другое значение, поэтому == не срабатывает.
+В пакете errors есть функция, которая разворачивает цепочку."""
+
+[[exercises]]
+name = "functions_x044"
+path = "exercises/functions/functions_x044/main_test.go"
+mode = "test"
+hint = """
+0 — чётное. n чётно, если n-1 нечётно, и наоборот.
+Проверьте базовые случаи обеих функций."""
+
+[[exercises]]
+name = "functions_x038"
+path = "exercises/functions/functions_x038/main_test.go"
+mode = "test"
+hint = """
+Каждая опция — функция, принимающая *Server. Их нужно вызвать по очереди
+для созданного сервера. Проверьте также, какое поле меняет WithTimeout."""
+
+[[exercises]]
+name = "functions_x004"
+path = "exercises/functions/functions_x004/main_test.go"
+mode = "test"
+hint = """
+Любое произведение, в котором есть множитель 0, равно нулю.
+Чему равен факториал нуля?"""
+
+[[exercises]]
+name = "functions_x003"
+path = "exercises/functions/functions_x003/main_test.go"
+mode = "test"
+hint = """
+Проверьте порядок выражений в инструкции return."""
+
+[[exercises]]
+name = "functions_x089"
+path = "exercises/functions/functions_x089/main_test.go"
+mode = "test"
+hint = """
+defer во внешней функции срабатывает, когда она возвращает обработчик,
+то есть до его вызова. Перенесите defer внутрь возвращаемой функции."""
+
+[[exercises]]
+name = "functions_x021"
+path = "exercises/functions/functions_x021/main_test.go"
+mode = "test"
+hint = """
+Вызов f(g()) работает, только если результаты g точно совпадают
+с параметрами f. Добавлять к ним другие аргументы нельзя."""
+
+[[exercises]]
+name = "functions_x033"
+path = "exercises/functions/functions_x033/main_test.go"
+mode = "test"
+hint = """
+Именованные результаты — обычные переменные. Проверьте формулу для y."""
+
+[[exercises]]
+name = "functions_x045"
+path = "exercises/functions/functions_x045/main_test.go"
+mode = "test"
+hint = """
+Объявите у GreeterFunc метод Greet, который просто вызывает саму функцию.
+При передаче обычной функции её нужно привести к типу GreeterFunc."""
+
+[[exercises]]
+name = "functions_x016"
+path = "exercises/functions/functions_x016/main_test.go"
+mode = "test"
+hint = """
+Сравнение должно находить большее значение, а не меньшее."""
+
+[[exercises]]
+name = "functions_x034"
+path = "exercises/functions/functions_x034/main_test.go"
+mode = "test"
+hint = """
+Проверьте разделитель, передаваемый в strings.Join.
+И посмотрите, сколько элементов в срезе после make и append."""
+
+[[exercises]]
+name = "functions_x042"
+path = "exercises/functions/functions_x042/main_test.go"
+mode = "test"
+hint = """
+recover работает только внутри отложенной функции. Чтобы вернуть ошибку
+из defer, у функции должен быть именованный результат."""
+
+[[exercises]]
+name = "functions_x065"
+path = "exercises/functions/functions_x065/main_test.go"
+mode = "test"
+hint = """
+Развёрнутая строка = развёрнутый хвост + первый символ.
+Работайте с []rune, чтобы не ломать многобайтовые символы."""
+
+[[exercises]]
+name = "functions_x005"
+path = "exercises/functions/functions_x005/main_test.go"
+mode = "test"
+hint = """
+Посмотрите, какая из функций передаётся в transform."""
+
+[[exercises]]
+name = "functions_x024"
+path = "exercises/functions/functions_x024/main_test.go"
+mode = "test"
+hint = """
+Сигнатура функции должна точно совпадать с типом Handler.
+Неиспользуемый параметр можно назвать _."""
+
+[[exercises]]
+name = "functions_x093"
+path = "exercises/functions/functions_x093/main_test.go"
+mode = "test"
+hint = """
+Инициализатор commands ссылается на help, а help читает commands.
+Заполните таблицу в функции init, а не в объявлении переменной."""
+
+[[exercises]]
+name = "functions_x030"
+path = "exercises/functions/functions_x030/main_test.go"
+mode = "test"
+hint = """
+Рекурсия должна остановиться до того, как в результат попадёт ноль."""
+
+[[exercises]]
+name = "functions_x055"
+path = "exercises/functions/functions_x055/main_test.go"
+mode = "test"
+hint = """
+Обе возвращаемые функции должны замыкаться на одну и ту же переменную-счётчик.
+Обёртка увеличивает её и вызывает f."""
+
+[[exercises]]
+name = "functions_x070"
+path = "exercises/functions/functions_x070/main_test.go"
+mode = "test"
+hint = """
+Присваивание параметру новой map не влияет на переменную вызывающего.
+Удалите элементы из существующей map через delete."""
+
+[[exercises]]
+name = "functions_x062"
+path = "exercises/functions/functions_x062/main_test.go"
+mode = "test"
+hint = """
+Источник вернул значение, только если ok == true. Остановитесь
+на первом таком источнике; если ни один не подошёл, верните "", false."""
+
+[[exercises]]
+name = "functions_x081"
+path = "exercises/functions/functions_x081/main_test.go"
+mode = "test"
+hint = """
+Утверждение типа без второго результата паникует при несовпадении.
+Используйте type switch: для error берите его, для прочего — fmt.Errorf."""
+
+[[exercises]]
+name = "functions_x087"
+path = "exercises/functions/functions_x087/main_test.go"
+mode = "test"
+hint = """
+Метод со значимым получателем получает копию s в момент регистрации defer.
+Отложите анонимную функцию, которая вызовет метод при выходе."""
+
+[[exercises]]
+name = "functions_x077"
+path = "exercises/functions/functions_x077/main_test.go"
+mode = "test"
+hint = """
+Отложенные вызовы в цикле накапливаются до конца всей функции.
+Вынесите тело итерации в отдельную (например, анонимную) функцию."""
+
+[[exercises]]
+name = "functions_x048"
+path = "exercises/functions/functions_x048/main_test.go"
+mode = "test"
+hint = """
+Каждый уровень принимает одно число и возвращает функцию следующего уровня.
+Внутренняя функция видит параметры всех внешних."""
+
+[[exercises]]
+name = "functions_x013"
+path = "exercises/functions/functions_x013/main_test.go"
+mode = "test"
+hint = """
+Чтобы вызвать функциональный литерал сразу, после его тела нужны ()."""
+
+[[exercises]]
+name = "functions_x073"
+path = "exercises/functions/functions_x073/main_test.go"
+mode = "test"
+hint = """
+Выражение c.Value при значимом получателе копирует c сразу.
+Сделайте получатель указателем, чтобы метод видел изменения."""
+
+[[exercises]]
+name = "functions_x063"
+path = "exercises/functions/functions_x063/main_test.go"
+mode = "test"
+hint = """
+Код после f() не выполнится при панике. Зафиксируйте старт ДО f,
+а конечное время запишите внутри отложенной анонимной функции."""
+
+[[exercises]]
+name = "functions_x076"
+path = "exercises/functions/functions_x076/main_test.go"
+mode = "test"
+hint = """
+В выражении count := func... имя count ещё не существует внутри литерала.
+Сначала объявите переменную нужного функционального типа, затем присвойте."""
+
+[[exercises]]
+name = "functions_x072"
+path = "exercises/functions/functions_x072/main_test.go"
+mode = "test"
+hint = """
+Передача среза через ... не копирует элементы: вариативный параметр
+указывает на тот же массив. Работайте с копией."""
+
+[[exercises]]
+name = "functions_x007"
+path = "exercises/functions/functions_x007/main_test.go"
+mode = "test"
+hint = """
+Какое число не меняет произведение?"""
+
+[[exercises]]
+name = "functions_x085"
+path = "exercises/functions/functions_x085/main_test.go"
+mode = "test"
+hint = """
+В цепочку положено значение NotFound, а ищется *NotFound.
+Для errors.As это разные типы."""
+
+[[exercises]]
+name = "functions_x014"
+path = "exercises/functions/functions_x014/main_test.go"
+mode = "test"
+hint = """
+Тест сравнивает текст ошибки дословно."""
+
+[[exercises]]
+name = "functions_x060"
+path = "exercises/functions/functions_x060/main_test.go"
+mode = "test"
+hint = """
+Возвращаемая функция принимает только второй аргумент,
+а первый берёт из замыкания."""
+
+[[exercises]]
+name = "functions_x056"
+path = "exercises/functions/functions_x056/main_test.go"
+mode = "test"
+hint = """
+Для int добавляйте значение в результат, для []interface{} —
+рекурсивно разворачивайте и добавляйте все элементы."""
+
+[[exercises]]
+name = "functions_x067"
+path = "exercises/functions/functions_x067/main_test.go"
+mode = "test"
+hint = """
+Добавляйте функции в срез в Add. В Run пройдите срез с конца
+и после выполнения очистите его."""
+
+[[exercises]]
+name = "functions_x078"
+path = "exercises/functions/functions_x078/main_test.go"
+mode = "test"
+hint = """
+len — не ключевое слово, а обычный предобъявленный идентификатор.
+Локальная переменная с таким именем скрывает встроенную функцию. Переименуйте её."""
+
+[[exercises]]
+name = "functions_x050"
+path = "exercises/functions/functions_x050/main_test.go"
+mode = "test"
+hint = """
+Перенесите n-1 дисков на вспомогательный стержень, затем самый большой
+на целевой, затем n-1 дисков со вспомогательного на целевой.
+Следите за порядком аргументов."""
+
+[[exercises]]
+name = "functions_x053"
+path = "exercises/functions/functions_x053/main_test.go"
+mode = "test"
+hint = """
+Если возрасты различаются, решает возраст. Только при равенстве
+возрастов нужно сравнивать имена."""
+
+[[exercises]]
+name = "functions_x080"
+path = "exercises/functions/functions_x080/main_test.go"
+mode = "test"
+hint = """
+Сейчас defer безусловно перезаписывает err результатом Close.
+Присваивайте ошибку закрытия, только если err ещё nil."""

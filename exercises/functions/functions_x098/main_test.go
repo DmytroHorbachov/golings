@@ -1,0 +1,39 @@
+// functions_x098: nil или пустой вариативный срез
+// Make the tests pass!
+// I AM NOT DONE
+//
+// setTags без аргументов оставляет теги как есть, а с явно переданным
+// пустым срезом (setTags(empty...)) — очищает их.
+// Тренирует: при вызове без аргументов вариативный параметр равен nil.
+// Сложность: hard
+package main_test
+
+import (
+	"reflect"
+	"testing"
+)
+
+type Item struct{ Tags []string }
+
+func (it *Item) setTags(tags ...string) {
+	if len(tags) == 0 {
+		return
+	}
+	it.Tags = tags
+}
+
+func TestSetTags(t *testing.T) {
+	it := &Item{Tags: []string{"go"}}
+	it.setTags()
+	if !reflect.DeepEqual(it.Tags, []string{"go"}) {
+		t.Errorf("setTags() changed tags to %v", it.Tags)
+	}
+	it.setTags([]string{}...)
+	if len(it.Tags) != 0 {
+		t.Errorf("setTags(empty...) should clear tags, got %v", it.Tags)
+	}
+	it.setTags("a", "b")
+	if !reflect.DeepEqual(it.Tags, []string{"a", "b"}) {
+		t.Errorf("setTags(a, b) = %v", it.Tags)
+	}
+}
