@@ -1,0 +1,31 @@
+// slices_x059: Чётные и нечётные позиции
+// Make the tests pass!
+// I AM NOT DONE
+//
+// splitAlternate раскладывает элементы с чётными и нечётными индексами в два среза.
+// Тренирует: индекс в range и два результата.
+// Сложность: medium
+package main_test
+
+import (
+	"reflect"
+	"testing"
+)
+
+func splitAlternate(s []string) (even, odd []string) {
+	for _, v := range s {
+		if len(v)%2 == 0 {
+			even = append(even, v)
+		} else {
+			odd = append(odd, v)
+		}
+	}
+	return
+}
+
+func TestSplitAlternate(t *testing.T) {
+	e, o := splitAlternate([]string{"a", "bb", "c", "dd", "e"})
+	if !reflect.DeepEqual(e, []string{"a", "c", "e"}) || !reflect.DeepEqual(o, []string{"bb", "dd"}) {
+		t.Errorf("splitAlternate = %v, %v", e, o)
+	}
+}

@@ -4941,3 +4941,756 @@ mode = "test"
 hint = """
 Добавьте в конец перечисления служебную константу-счётчик
 и используйте её как размер массива. Не забудьте название нового цвета."""
+
+# ===== generated exercises: slices =====
+[[exercises]]
+name = "slices_x052"
+path = "exercises/slices/slices_x052/main_test.go"
+mode = "test"
+hint = """
+У результата len(m[0]) строк по len(m) элементов. Элемент [j][i] = m[i][j]."""
+
+[[exercises]]
+name = "slices_x068"
+path = "exercises/slices/slices_x068/main_test.go"
+mode = "test"
+hint = """
+s[:2] имеет ёмкость исходного среза, поэтому append записывает бонус
+прямо в s[2]. Скопируйте данные в новый срез перед append."""
+
+[[exercises]]
+name = "slices_x064"
+path = "exercises/slices/slices_x064/main_test.go"
+mode = "test"
+hint = """
+Добавляйте индекс при каждом совпадении, не останавливаясь на первом."""
+
+[[exercises]]
+name = "slices_x051"
+path = "exercises/slices/slices_x051/main_test.go"
+mode = "test"
+hint = """
+Начало страницы — (n-1)*size. Если оно за концом среза — вернуть пустой.
+Конец страницы не должен выходить за len(s)."""
+
+[[exercises]]
+name = "slices_x066"
+path = "exercises/slices/slices_x066/main_test.go"
+mode = "test"
+hint = """
+Окон len-k+1. Для каждого окна найдите максимум среди его элементов,
+начиная с первого элемента окна."""
+
+[[exercises]]
+name = "slices_x033"
+path = "exercises/slices/slices_x033/main_test.go"
+mode = "test"
+hint = """
+Строка — это один элемент таблицы, распаковывать её не нужно."""
+
+[[exercises]]
+name = "slices_x040"
+path = "exercises/slices/slices_x040/main_test.go"
+mode = "test"
+hint = """
+Нормализуйте k по модулю длины. Результат — s[k:] и затем s[:k].
+Учтите пустой срез."""
+
+[[exercises]]
+name = "slices_x057"
+path = "exercises/slices/slices_x057/main_test.go"
+mode = "test"
+hint = """
+Определите общую длину как минимум из двух длин и создайте результат
+этой длины."""
+
+[[exercises]]
+name = "slices_x016"
+path = "exercises/slices/slices_x016/main_test.go"
+mode = "test"
+hint = """
+Последний индекс — len(s)-1."""
+
+[[exercises]]
+name = "slices_x002"
+path = "exercises/slices/slices_x002/main_test.go"
+mode = "test"
+hint = """
+Результат append нужно сохранить (или вернуть)."""
+
+[[exercises]]
+name = "slices_x096"
+path = "exercises/slices/slices_x096/main_test.go"
+mode = "test"
+hint = """
+Обмен s[i] и s[n-1-i] для всех i возвращает элементы на место.
+Идите только до середины."""
+
+[[exercises]]
+name = "slices_x038"
+path = "exercises/slices/slices_x038/main_test.go"
+mode = "test"
+hint = """
+Pop берёт последний элемент и укорачивает срез на один.
+Не забудьте проверку пустого стека."""
+
+[[exercises]]
+name = "slices_x071"
+path = "exercises/slices/slices_x071/main_test.go"
+mode = "test"
+hint = """
+Удаление через append сдвигает элементы в том же массиве.
+Постройте результат в новом срезе."""
+
+[[exercises]]
+name = "slices_x008"
+path = "exercises/slices/slices_x008/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие, по которому число добавляется."""
+
+[[exercises]]
+name = "slices_x063"
+path = "exercises/slices/slices_x063/main_test.go"
+mode = "test"
+hint = """
+Соберите пары из map в срез, затем отсортируйте функцией с двумя
+критериями: сначала количество (по убыванию), потом слово."""
+
+[[exercises]]
+name = "slices_x018"
+path = "exercises/slices/slices_x018/main_test.go"
+mode = "test"
+hint = """
+Создайте срез из одного элемента и допишите к нему исходный срез."""
+
+[[exercises]]
+name = "slices_x056"
+path = "exercises/slices/slices_x056/main_test.go"
+mode = "test"
+hint = """
+Скопируйте срез, отсортируйте копию по убыванию и верните первые k
+элементов (но не больше длины)."""
+
+[[exercises]]
+name = "slices_x017"
+path = "exercises/slices/slices_x017/main_test.go"
+mode = "test"
+hint = """
+Срез первых n элементов — от 0 до n, не включая n."""
+
+[[exercises]]
+name = "slices_x058"
+path = "exercises/slices/slices_x058/main_test.go"
+mode = "test"
+hint = """
+Срезы разной длины не равны. Затем сравните элементы по индексу."""
+
+[[exercises]]
+name = "slices_x094"
+path = "exercises/slices/slices_x094/main_test.go"
+mode = "test"
+hint = """
+make([]T, 0, n) — срез длины 0, любой s[i] за пределами.
+Используйте append или задайте длину n."""
+
+[[exercises]]
+name = "slices_x092"
+path = "exercises/slices/slices_x092/main_test.go"
+mode = "test"
+hint = """
+Трюк s[:0] экономит память, но перезаписывает исходные данные.
+Если оригинал нужен, создайте новый срез."""
+
+[[exercises]]
+name = "slices_x032"
+path = "exercises/slices/slices_x032/main_test.go"
+mode = "test"
+hint = """
+Третий аргумент make задаёт ёмкость."""
+
+[[exercises]]
+name = "slices_x014"
+path = "exercises/slices/slices_x014/main_test.go"
+mode = "test"
+hint = """
+Первый индекс выбирает строку, второй — элемент в ней."""
+
+[[exercises]]
+name = "slices_x023"
+path = "exercises/slices/slices_x023/main_test.go"
+mode = "test"
+hint = """
+Для []string есть своя функция сортировки в пакете sort."""
+
+[[exercises]]
+name = "slices_x100"
+path = "exercises/slices/slices_x100/main_test.go"
+mode = "test"
+hint = """
+Получатель Stack — копия заголовка среза, и новая длина теряется.
+Сделайте получатель указателем и присваивайте *s."""
+
+[[exercises]]
+name = "slices_x009"
+path = "exercises/slices/slices_x009/main_test.go"
+mode = "test"
+hint = """
+Вернуть false можно только после проверки всех элементов."""
+
+[[exercises]]
+name = "slices_x090"
+path = "exercises/slices/slices_x090/main_test.go"
+mode = "test"
+hint = """
+Срез разделяет массив с вызывающим кодом. Отсортируйте копию."""
+
+[[exercises]]
+name = "slices_x084"
+path = "exercises/slices/slices_x084/main_test.go"
+mode = "test"
+hint = """
+Используйте sort.SliceStable — он сохраняет относительный порядок равных элементов."""
+
+[[exercises]]
+name = "slices_x049"
+path = "exercises/slices/slices_x049/main_test.go"
+mode = "test"
+hint = """
+Создайте срез результата и храните текущую сумму отдельно."""
+
+[[exercises]]
+name = "slices_x003"
+path = "exercises/slices/slices_x003/main_test.go"
+mode = "test"
+hint = """
+Чтобы добавить все элементы среза, распакуйте его многоточием."""
+
+[[exercises]]
+name = "slices_x043"
+path = "exercises/slices/slices_x043/main_test.go"
+mode = "test"
+hint = """
+Посчитайте сумму первого окна, затем для каждого сдвига прибавляйте
+входящий элемент и вычитайте уходящий. Окон len-k+1."""
+
+[[exercises]]
+name = "slices_x029"
+path = "exercises/slices/slices_x029/main_test.go"
+mode = "test"
+hint = """
+Сравнение с nil не распознаёт пустой, но не nil срез."""
+
+[[exercises]]
+name = "slices_x069"
+path = "exercises/slices/slices_x069/main_test.go"
+mode = "test"
+hint = """
+Если у base есть свободная ёмкость, оба append пишут в одну и ту же ячейку.
+Создавайте каждый вариант из собственной копии base."""
+
+[[exercises]]
+name = "slices_x024"
+path = "exercises/slices/slices_x024/main_test.go"
+mode = "test"
+hint = """
+Для отрицательных чисел ноль — плохая стартовая точка."""
+
+[[exercises]]
+name = "slices_x013"
+path = "exercises/slices/slices_x013/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение, возвращаемое при отсутствии элемента."""
+
+[[exercises]]
+name = "slices_x098"
+path = "exercises/slices/slices_x098/main_test.go"
+mode = "test"
+hint = """
+Ограничьте n длиной среза перед взятием подсреза."""
+
+[[exercises]]
+name = "slices_x095"
+path = "exercises/slices/slices_x095/main_test.go"
+mode = "test"
+hint = """
+Первый append записывает x прямо в s[i] (ёмкость позволяет), и хвост
+s[i:] уже испорчен. Скопируйте хвост до вставки или соберите результат в новом срезе."""
+
+[[exercises]]
+name = "slices_x077"
+path = "exercises/slices/slices_x077/main_test.go"
+mode = "test"
+hint = """
+Либо создайте срез с нулевой длиной и ёмкостью n, либо записывайте
+по индексу вместо append."""
+
+[[exercises]]
+name = "slices_x015"
+path = "exercises/slices/slices_x015/main_test.go"
+mode = "test"
+hint = """
+Проверьте разделитель."""
+
+[[exercises]]
+name = "slices_x087"
+path = "exercises/slices/slices_x087/main_test.go"
+mode = "test"
+hint = """
+Сравните количество скопированных элементов с длиной источника."""
+
+[[exercises]]
+name = "slices_x005"
+path = "exercises/slices/slices_x005/main_test.go"
+mode = "test"
+hint = """
+Нижняя граница среза включается."""
+
+[[exercises]]
+name = "slices_x010"
+path = "exercises/slices/slices_x010/main_test.go"
+mode = "test"
+hint = """
+Сумма должна накапливаться, а не перезаписываться."""
+
+[[exercises]]
+name = "slices_x072"
+path = "exercises/slices/slices_x072/main_test.go"
+mode = "test"
+hint = """
+var s []T — это nil. Для пустого массива в JSON инициализируйте
+срез явно: make([]T, 0) или []T{}."""
+
+[[exercises]]
+name = "slices_x061"
+path = "exercises/slices/slices_x061/main_test.go"
+mode = "test"
+hint = """
+SearchInts возвращает позицию вставки. Расширьте срез, сдвиньте хвост
+через copy и запишите значение."""
+
+[[exercises]]
+name = "slices_x039"
+path = "exercises/slices/slices_x039/main_test.go"
+mode = "test"
+hint = """
+Dequeue берёт первый элемент и сдвигает начало среза.
+Для пустой очереди верните false."""
+
+[[exercises]]
+name = "slices_x076"
+path = "exercises/slices/slices_x076/main_test.go"
+mode = "test"
+hint = """
+make([]T, 0, n) создаёт срез длины 0 — в него copy ничего не запишет.
+Создайте срез нужной длины."""
+
+[[exercises]]
+name = "slices_x025"
+path = "exercises/slices/slices_x025/main_test.go"
+mode = "test"
+hint = """
+Нужны все элементы, кроме последнего: [:len-1]."""
+
+[[exercises]]
+name = "slices_x053"
+path = "exercises/slices/slices_x053/main_test.go"
+mode = "test"
+hint = """
+Разбейте строку на слова, поменяйте местами симметричные элементы
+до середины и соберите строку обратно."""
+
+[[exercises]]
+name = "slices_x078"
+path = "exercises/slices/slices_x078/main_test.go"
+mode = "test"
+hint = """
+Ограничьте ёмкость полным выражением среза s[0:2:2],
+тогда append будет вынужден выделить новый массив."""
+
+[[exercises]]
+name = "slices_x004"
+path = "exercises/slices/slices_x004/main_test.go"
+mode = "test"
+hint = """
+Свободное место — это разница между ёмкостью и длиной."""
+
+[[exercises]]
+name = "slices_x012"
+path = "exercises/slices/slices_x012/main_test.go"
+mode = "test"
+hint = """
+Элемент i результата — это элемент len-1-i исходного среза."""
+
+[[exercises]]
+name = "slices_x091"
+path = "exercises/slices/slices_x091/main_test.go"
+mode = "test"
+hint = """
+После копирования элементов обнулите последний элемент (s[len(s)-1] = nil)
+до того, как укоротить срез."""
+
+[[exercises]]
+name = "slices_x074"
+path = "exercises/slices/slices_x074/main_test.go"
+mode = "test"
+hint = """
+Элементы, добавленные во время range, не попадут в итерацию.
+Используйте цикл с условием i < len(queue), которое проверяется каждый раз."""
+
+[[exercises]]
+name = "slices_x001"
+path = "exercises/slices/slices_x001/main_test.go"
+mode = "test"
+hint = """
+Второй аргумент make задаёт длину среза."""
+
+[[exercises]]
+name = "slices_x055"
+path = "exercises/slices/slices_x055/main_test.go"
+mode = "test"
+hint = """
+После сортировки одинаковые строки стоят рядом. Добавляйте строку,
+только если она отличается от последней добавленной."""
+
+[[exercises]]
+name = "slices_x006"
+path = "exercises/slices/slices_x006/main_test.go"
+mode = "test"
+hint = """
+Верхняя граница не включается. Какая граница оставит всё, кроме последнего?"""
+
+[[exercises]]
+name = "slices_x081"
+path = "exercises/slices/slices_x081/main_test.go"
+mode = "test"
+hint = """
+Расширение через s[:n] не обнуляет элементы. Очистите добавленную
+часть явно после расширения."""
+
+[[exercises]]
+name = "slices_x036"
+path = "exercises/slices/slices_x036/main_test.go"
+mode = "test"
+hint = """
+Для каждой строки добавьте все её элементы в результат."""
+
+[[exercises]]
+name = "slices_x082"
+path = "exercises/slices/slices_x082/main_test.go"
+mode = "test"
+hint = """
+Перед обращением к s[0] проверьте длину среза."""
+
+[[exercises]]
+name = "slices_x022"
+path = "exercises/slices/slices_x022/main_test.go"
+mode = "test"
+hint = """
+Сортировать нужно копию, а вернуть — отсортированную копию."""
+
+[[exercises]]
+name = "slices_x097"
+path = "exercises/slices/slices_x097/main_test.go"
+mode = "test"
+hint = """
+Не предполагайте, что все строки длины len(rows[0]).
+Пропускайте строки, в которых нет столбца c."""
+
+[[exercises]]
+name = "slices_x045"
+path = "exercises/slices/slices_x045/main_test.go"
+mode = "test"
+hint = """
+Каждый элемент попадает ровно в один из двух срезов в зависимости
+от результата pred."""
+
+[[exercises]]
+name = "slices_x083"
+path = "exercises/slices/slices_x083/main_test.go"
+mode = "test"
+hint = """
+Указатель &users[0], взятый до append, может указывать на старый массив.
+Берите указатель после всех append (или меняйте элемент по индексу)."""
+
+[[exercises]]
+name = "slices_x046"
+path = "exercises/slices/slices_x046/main_test.go"
+mode = "test"
+hint = """
+Увеличьте срез на один элемент, сдвиньте хвост s[i:] на одну позицию
+вправо с помощью copy (он корректно работает с перекрытием), затем запишите x."""
+
+[[exercises]]
+name = "slices_x030"
+path = "exercises/slices/slices_x030/main_test.go"
+mode = "test"
+hint = """
+sort.Reverse оборачивает sort.Interface и переворачивает порядок."""
+
+[[exercises]]
+name = "slices_x031"
+path = "exercises/slices/slices_x031/main_test.go"
+mode = "test"
+hint = """
+SearchInts возвращает индекс, куда можно вставить x. Элемент найден,
+только если индекс в пределах среза и там лежит именно x."""
+
+[[exercises]]
+name = "slices_x050"
+path = "exercises/slices/slices_x050/main_test.go"
+mode = "test"
+hint = """
+Найдите конец текущей серии j и добавьте s[i:j]; затем продолжайте с j."""
+
+[[exercises]]
+name = "slices_x027"
+path = "exercises/slices/slices_x027/main_test.go"
+mode = "test"
+hint = """
+Проверьте порядок аргументов copy: сначала приёмник, потом источник."""
+
+[[exercises]]
+name = "slices_x079"
+path = "exercises/slices/slices_x079/main_test.go"
+mode = "test"
+hint = """
+Срез row один на все строки поля. Создавайте новый срез для каждой строки."""
+
+[[exercises]]
+name = "slices_x047"
+path = "exercises/slices/slices_x047/main_test.go"
+mode = "test"
+hint = """
+Создайте новый срез и добавляйте только элементы, не равные x."""
+
+[[exercises]]
+name = "slices_x089"
+path = "exercises/slices/slices_x089/main_test.go"
+mode = "test"
+hint = """
+Перед записью проверьте, что строка создана, и при необходимости
+создайте её через make нужной длины."""
+
+[[exercises]]
+name = "slices_x037"
+path = "exercises/slices/slices_x037/main_test.go"
+mode = "test"
+hint = """
+Храните встреченные значения в map. Добавляйте элемент, только если
+его ещё не было, и сразу отмечайте его."""
+
+[[exercises]]
+name = "slices_x070"
+path = "exercises/slices/slices_x070/main_test.go"
+mode = "test"
+hint = """
+append(s[:i], s[i+1:]...) сдвигает элементы в общем массиве, но длина
+исходного среза остаётся прежней. Верните новый срез и сохраните его."""
+
+[[exercises]]
+name = "slices_x062"
+path = "exercises/slices/slices_x062/main_test.go"
+mode = "test"
+hint = """
+У результата столько строк, сколько столбцов у исходной, и наоборот.
+Элемент [i][j] исходной матрицы переходит в [j][rows-1-i]."""
+
+[[exercises]]
+name = "slices_x075"
+path = "exercises/slices/slices_x075/main_test.go"
+mode = "test"
+hint = """
+После удаления элемента i не нужно увеличивать индекс: на этом месте
+теперь новый элемент. Либо идите с конца."""
+
+[[exercises]]
+name = "slices_x026"
+path = "exercises/slices/slices_x026/main_test.go"
+mode = "test"
+hint = """
+К []byte можно добавить все байты строки: append(b, s...)."""
+
+[[exercises]]
+name = "slices_x011"
+path = "exercises/slices/slices_x011/main_test.go"
+mode = "test"
+hint = """
+Добавляйте в результат число, а не его остаток."""
+
+[[exercises]]
+name = "slices_x086"
+path = "exercises/slices/slices_x086/main_test.go"
+mode = "test"
+hint = """
+Поля от bytes.Split — подсрезы исходных данных. Изменение поля на месте
+меняет исходную строку. Используйте bytes.ToUpper (создаёт копию)."""
+
+[[exercises]]
+name = "slices_x088"
+path = "exercises/slices/slices_x088/main_test.go"
+mode = "test"
+hint = """
+Bytes() возвращает срез внутреннего массива буфера. Скопируйте его
+(или используйте String(), которая создаёт копию)."""
+
+[[exercises]]
+name = "slices_x054"
+path = "exercises/slices/slices_x054/main_test.go"
+mode = "test"
+hint = """
+Пар на одну меньше, чем элементов. Для пустого среза пар нет."""
+
+[[exercises]]
+name = "slices_x067"
+path = "exercises/slices/slices_x067/main_test.go"
+mode = "test"
+hint = """
+На каждом шаге i добавляйте a[i] и b[i], если они существуют.
+Цикл должен идти до длины более длинного среза."""
+
+[[exercises]]
+name = "slices_x041"
+path = "exercises/slices/slices_x041/main_test.go"
+mode = "test"
+hint = """
+Постройте множество из второго среза. Проходя первый, добавляйте
+элемент, если он есть во множестве, и удаляйте его оттуда."""
+
+[[exercises]]
+name = "slices_x035"
+path = "exercises/slices/slices_x035/main_test.go"
+mode = "test"
+hint = """
+Двигайтесь шагом size. Конец очередной части — min(i+size, len(s))."""
+
+[[exercises]]
+name = "slices_x019"
+path = "exercises/slices/slices_x019/main_test.go"
+mode = "test"
+hint = """
+Склейте часть до i и часть после i."""
+
+[[exercises]]
+name = "slices_x042"
+path = "exercises/slices/slices_x042/main_test.go"
+mode = "test"
+hint = """
+Постройте множество из b и оставьте в результате элементы a,
+которых нет во множестве."""
+
+[[exercises]]
+name = "slices_x020"
+path = "exercises/slices/slices_x020/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что записывается в элемент результата."""
+
+[[exercises]]
+name = "slices_x073"
+path = "exercises/slices/slices_x073/main_test.go"
+mode = "test"
+hint = """
+DeepEqual(nil-срез, []string{}) == false. Сравнивайте длины
+и элементы вручную."""
+
+[[exercises]]
+name = "slices_x093"
+path = "exercises/slices/slices_x093/main_test.go"
+mode = "test"
+hint = """
+tags — копия заголовка среза из map. После append сохраните результат
+в m[key]."""
+
+[[exercises]]
+name = "slices_x059"
+path = "exercises/slices/slices_x059/main_test.go"
+mode = "test"
+hint = """
+Решение принимается по индексу элемента, а не по его значению."""
+
+[[exercises]]
+name = "slices_x060"
+path = "exercises/slices/slices_x060/main_test.go"
+mode = "test"
+hint = """
+Внешний цикл — по первому срезу, внутренний — по второму.
+Ёмкость результата — len(a)*len(b)."""
+
+[[exercises]]
+name = "slices_x085"
+path = "exercises/slices/slices_x085/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что найденный индекс внутри среза и там действительно
+лежит искомое значение."""
+
+[[exercises]]
+name = "slices_x007"
+path = "exercises/slices/slices_x007/main_test.go"
+mode = "test"
+hint = """
+copy копирует min(len(dst), len(src)) элементов и возвращает это число.
+Проверьте, что возвращается."""
+
+[[exercises]]
+name = "slices_x034"
+path = "exercises/slices/slices_x034/main_test.go"
+mode = "test"
+hint = """
+Проверьте знак сравнения."""
+
+[[exercises]]
+name = "slices_x065"
+path = "exercises/slices/slices_x065/main_test.go"
+mode = "test"
+hint = """
+Сдвигайте начало, пока там ноль, и конец, пока там ноль.
+Следите, чтобы начало не обогнало конец."""
+
+[[exercises]]
+name = "slices_x080"
+path = "exercises/slices/slices_x080/main_test.go"
+mode = "test"
+hint = """
+Если данные нужны после повторного использования буфера,
+верните копию нужной части."""
+
+[[exercises]]
+name = "slices_x044"
+path = "exercises/slices/slices_x044/main_test.go"
+mode = "test"
+hint = """
+Пока оба среза не закончились, берите меньший элемент.
+Затем допишите остаток того среза, в котором остались элементы."""
+
+[[exercises]]
+name = "slices_x021"
+path = "exercises/slices/slices_x021/main_test.go"
+mode = "test"
+hint = """
+«Длиннее трёх» — строго больше трёх."""
+
+[[exercises]]
+name = "slices_x028"
+path = "exercises/slices/slices_x028/main_test.go"
+mode = "test"
+hint = """
+Срез нулевой длины с той же ёмкостью — это s[:0]."""
+
+[[exercises]]
+name = "slices_x099"
+path = "exercises/slices/slices_x099/main_test.go"
+mode = "test"
+hint = """
+При обходе слева направо значение s[0] «размазывается» по всему срезу.
+Копируйте справа налево или используйте copy — он учитывает перекрытие."""
+
+[[exercises]]
+name = "slices_x048"
+path = "exercises/slices/slices_x048/main_test.go"
+mode = "test"
+hint = """
+make([][]int, rows) создаёт только внешний срез с nil-строками.
+Каждую строку нужно создать отдельно."""

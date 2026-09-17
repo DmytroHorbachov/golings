@@ -1,0 +1,25 @@
+// slices_x027: Копия в больший срез
+// Make the tests pass!
+// I AM NOT DONE
+//
+// padded копирует данные в срез длины n, остальные элементы — нули.
+// Тренирует: copy в заранее созданный срез.
+// Сложность: easy
+package main_test
+
+import (
+	"reflect"
+	"testing"
+)
+
+func padded(data []int, n int) []int {
+	out := make([]int, n)
+	copy(data, out)
+	return out
+}
+
+func TestPadded(t *testing.T) {
+	if got := padded([]int{1, 2}, 4); !reflect.DeepEqual(got, []int{1, 2, 0, 0}) {
+		t.Errorf("padded = %v", got)
+	}
+}
