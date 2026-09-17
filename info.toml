@@ -5694,3 +5694,760 @@ mode = "test"
 hint = """
 make([][]int, rows) создаёт только внешний срез с nil-строками.
 Каждую строку нужно создать отдельно."""
+
+# ===== generated exercises: maps =====
+[[exercises]]
+name = "maps_x096"
+path = "exercises/maps/maps_x096/main_test.go"
+mode = "test"
+hint = """
+Используйте map только для проверки «уже встречалось»,
+а порядок храните в срезе."""
+
+[[exercises]]
+name = "maps_x071"
+path = "exercises/maps/maps_x071/main_test.go"
+mode = "test"
+hint = """
+interface{}(1) и interface{}(int64(1)) — разные ключи.
+Приведите ключ к одному типу перед записью и чтением."""
+
+[[exercises]]
+name = "maps_x077"
+path = "exercises/maps/maps_x077/main_test.go"
+mode = "test"
+hint = """
+Внутренние map нужно создавать по требованию при добавлении слова
+для языка, который встречается впервые."""
+
+[[exercises]]
+name = "maps_x027"
+path = "exercises/maps/maps_x027/main_test.go"
+mode = "test"
+hint = """
+Удалять нужно из той же map, по которой идёт цикл."""
+
+[[exercises]]
+name = "maps_x067"
+path = "exercises/maps/maps_x067/main_test.go"
+mode = "test"
+hint = """
+Посчитайте частоты символов, затем соберите множество различных частот.
+Строка подходит, если такая частота одна (или строка пуста)."""
+
+[[exercises]]
+name = "maps_x010"
+path = "exercises/maps/maps_x010/main_test.go"
+mode = "test"
+hint = """
+Присвойте новое значение по ключу id."""
+
+[[exercises]]
+name = "maps_x023"
+path = "exercises/maps/maps_x023/main_test.go"
+mode = "test"
+hint = """
+Ключ — элемент среза, значение — пустая структура."""
+
+[[exercises]]
+name = "maps_x047"
+path = "exercises/maps/maps_x047/main_test.go"
+mode = "test"
+hint = """
+Постройте map «буква -> цифра», пройдя по группам букв.
+Затем переведите каждую букву слова."""
+
+[[exercises]]
+name = "maps_x080"
+path = "exercises/maps/maps_x080/main_test.go"
+mode = "test"
+hint = """
+Нельзя полагаться на порядок range. Найдите минимальный ключ явно."""
+
+[[exercises]]
+name = "maps_x032"
+path = "exercises/maps/maps_x032/main_test.go"
+mode = "test"
+hint = """
+Удалять нужно сессии с истёкшим сроком (expires < now)."""
+
+[[exercises]]
+name = "maps_x021"
+path = "exercises/maps/maps_x021/main_test.go"
+mode = "test"
+hint = """
+Записывайте в dst значения из src под теми же ключами."""
+
+[[exercises]]
+name = "maps_x089"
+path = "exercises/maps/maps_x089/main_test.go"
+mode = "test"
+hint = """
+Сравните длины, затем проверьте, что каждая пара из одной map
+есть в другой с тем же значением (учитывая comma-ok)."""
+
+[[exercises]]
+name = "maps_x068"
+path = "exercises/maps/maps_x068/main_test.go"
+mode = "test"
+hint = """
+Чтение из nil-map безопасно, а запись — нет. Создайте map лениво
+при первой записи."""
+
+[[exercises]]
+name = "maps_x060"
+path = "exercises/maps/maps_x060/main_test.go"
+mode = "test"
+hint = """
+При записи нуля удаляйте ключ, иначе записывайте значение.
+Чтение отсутствующего элемента естественно даёт 0."""
+
+[[exercises]]
+name = "maps_x044"
+path = "exercises/maps/maps_x044/main_test.go"
+mode = "test"
+hint = """
+Создайте новую map и добавьте в неё значения обеих входных map через +=."""
+
+[[exercises]]
+name = "maps_x070"
+path = "exercises/maps/maps_x070/main_test.go"
+mode = "test"
+hint = """
+m[k].Level++ запрещено. Храните в map указатели на структуры,
+тогда можно менять поля через указатель."""
+
+[[exercises]]
+name = "maps_x039"
+path = "exercises/maps/maps_x039/main_test.go"
+mode = "test"
+hint = """
+Добавляйте ключ в срез для его значения, а после заполнения
+отсортируйте каждый срез."""
+
+[[exercises]]
+name = "maps_x015"
+path = "exercises/maps/maps_x015/main_test.go"
+mode = "test"
+hint = """
+Сверьте ключи map с кодами из теста."""
+
+[[exercises]]
+name = "maps_x095"
+path = "exercises/maps/maps_x095/main_test.go"
+mode = "test"
+hint = """
+Не возвращайте глобальную map напрямую — создавайте новую
+при каждом вызове."""
+
+[[exercises]]
+name = "maps_x024"
+path = "exercises/maps/maps_x024/main_test.go"
+mode = "test"
+hint = """
+Проверяйте флаг ok, а не само значение: ключ может хранить пустую строку."""
+
+[[exercises]]
+name = "maps_x087"
+path = "exercises/maps/maps_x087/main_test.go"
+mode = "test"
+hint = """
+В map[string]interface{} числа из JSON имеют тип float64.
+Утверждайте float64 и преобразуйте в int."""
+
+[[exercises]]
+name = "maps_x003"
+path = "exercises/maps/maps_x003/main_test.go"
+mode = "test"
+hint = """
+Второе значение индексации сообщает, есть ли ключ."""
+
+[[exercises]]
+name = "maps_x018"
+path = "exercises/maps/maps_x018/main_test.go"
+mode = "test"
+hint = """
+Для нового документа m[k] равно 0, значит следующая версия — m[k] + 1."""
+
+[[exercises]]
+name = "maps_x084"
+path = "exercises/maps/maps_x084/main_test.go"
+mode = "test"
+hint = """
+== (а значит и ключи map) учитывает часовой пояс. Нормализуйте время:
+используйте в качестве ключа t.UTC() или t.Unix()."""
+
+[[exercises]]
+name = "maps_x094"
+path = "exercises/maps/maps_x094/main_test.go"
+mode = "test"
+hint = """
+Если map используется как множество, при удалении элемента
+удаляйте ключ, а не записывайте false."""
+
+[[exercises]]
+name = "maps_x008"
+path = "exercises/maps/maps_x008/main_test.go"
+mode = "test"
+hint = """
+Складывать нужно значения map, а не количество элементов."""
+
+[[exercises]]
+name = "maps_x053"
+path = "exercises/maps/maps_x053/main_test.go"
+mode = "test"
+hint = """
+Объединение содержит ключи обоих множеств. Пересечение — только ключи,
+присутствующие в обоих."""
+
+[[exercises]]
+name = "maps_x063"
+path = "exercises/maps/maps_x063/main_test.go"
+mode = "test"
+hint = """
+Увеличивайте счётчики для первой строки и уменьшайте для второй.
+В конце все счётчики должны быть нулевыми."""
+
+[[exercises]]
+name = "maps_x016"
+path = "exercises/maps/maps_x016/main_test.go"
+mode = "test"
+hint = """
+Каждое новое появление символа должно увеличивать счётчик."""
+
+[[exercises]]
+name = "maps_x069"
+path = "exercises/maps/maps_x069/main_test.go"
+mode = "test"
+hint = """
+Для детерминированного вывода соберите ключи, отсортируйте их
+и выводите в этом порядке."""
+
+[[exercises]]
+name = "maps_x014"
+path = "exercises/maps/maps_x014/main_test.go"
+mode = "test"
+hint = """
+После сбора ключей их нужно отсортировать."""
+
+[[exercises]]
+name = "maps_x081"
+path = "exercises/maps/maps_x081/main_test.go"
+mode = "test"
+hint = """
+Значения собраны в порядке обхода map, а ключи потом отсортированы
+отдельно — связь между ними потеряна. Сортируйте ключи и берите
+значение по ключу: m[k]."""
+
+[[exercises]]
+name = "maps_x091"
+path = "exercises/maps/maps_x091/main_test.go"
+mode = "test"
+hint = """
+Преобразуйте срез байт в строку — string сравним и подходит как ключ."""
+
+[[exercises]]
+name = "maps_x092"
+path = "exercises/maps/maps_x092/main_test.go"
+mode = "test"
+hint = """
+Поле-указатель делает ключ зависимым от адреса. Храните в ключе
+значение, идентифицирующее пользователя (например, ID)."""
+
+[[exercises]]
+name = "maps_x090"
+path = "exercises/maps/maps_x090/main_test.go"
+mode = "test"
+hint = """
+delete внутри функции меняет map вызывающего. Постройте новую map
+и копируйте в неё только разрешённые ключи."""
+
+[[exercises]]
+name = "maps_x057"
+path = "exercises/maps/maps_x057/main_test.go"
+mode = "test"
+hint = """
+Храните увиденные email. Добавляйте пользователя в результат,
+только если его email ещё не встречался."""
+
+[[exercises]]
+name = "maps_x100"
+path = "exercises/maps/maps_x100/main_test.go"
+mode = "test"
+hint = """
+Изменение через указатель видно из всех map. Создайте копию структуры,
+измените её и верните указатель на копию."""
+
+[[exercises]]
+name = "maps_x013"
+path = "exercises/maps/maps_x013/main_test.go"
+mode = "test"
+hint = """
+Первый ключ — страна, второй — город."""
+
+[[exercises]]
+name = "maps_x033"
+path = "exercises/maps/maps_x033/main_test.go"
+mode = "test"
+hint = """
+Сравнивать нужно значение (владельца), а не ключ (имя файла)."""
+
+[[exercises]]
+name = "maps_x019"
+path = "exercises/maps/maps_x019/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что именно используется как ключ."""
+
+[[exercises]]
+name = "maps_x098"
+path = "exercises/maps/maps_x098/main_test.go"
+mode = "test"
+hint = """
+Используйте map[rune]int и range по строке, который декодирует руны."""
+
+[[exercises]]
+name = "maps_x029"
+path = "exercises/maps/maps_x029/main_test.go"
+mode = "test"
+hint = """
+Сверьте множитель для MB."""
+
+[[exercises]]
+name = "maps_x097"
+path = "exercises/maps/maps_x097/main_test.go"
+mode = "test"
+hint = """
+Когда в группе не осталось задач, удалите ключ группы из map."""
+
+[[exercises]]
+name = "maps_x005"
+path = "exercises/maps/maps_x005/main_test.go"
+mode = "test"
+hint = """
+Количество пар в map возвращает len."""
+
+[[exercises]]
+name = "maps_x064"
+path = "exercises/maps/maps_x064/main_test.go"
+mode = "test"
+hint = """
+Постройте множество значений. Затем пройдите по множеству (не по срезу,
+чтобы не считать дубликаты) и проверьте наличие x+k."""
+
+[[exercises]]
+name = "maps_x020"
+path = "exercises/maps/maps_x020/main_test.go"
+mode = "test"
+hint = """
+Ключ — структура с двумя полями. Проверьте порядок полей в литерале."""
+
+[[exercises]]
+name = "maps_x078"
+path = "exercises/maps/maps_x078/main_test.go"
+mode = "test"
+hint = """
+Компилятор разрешит такую map, но срез в качестве ключа вызовет панику.
+Для несравнимых значений используйте строковое представление (fmt.Sprint)."""
+
+[[exercises]]
+name = "maps_x061"
+path = "exercises/maps/maps_x061/main_test.go"
+mode = "test"
+hint = """
+Вычислите новый остаток. Если он отрицательный — ошибка без изменений;
+если ноль — удалите ключ; иначе запишите."""
+
+[[exercises]]
+name = "maps_x038"
+path = "exercises/maps/maps_x038/main_test.go"
+mode = "test"
+hint = """
+Сначала посчитайте все символы. Затем пройдите строку по порядку
+и верните первый символ со счётчиком 1."""
+
+[[exercises]]
+name = "maps_x002"
+path = "exercises/maps/maps_x002/main_test.go"
+mode = "test"
+hint = """
+Обращение к отсутствующему ключу не паникует. Проверьте, по какому ключу идёт поиск."""
+
+[[exercises]]
+name = "maps_x079"
+path = "exercises/maps/maps_x079/main_test.go"
+mode = "test"
+hint = """
+"ab"+"c" и "a"+"bc" дают одну строку. Используйте в качестве ключа
+структуру из двух полей."""
+
+[[exercises]]
+name = "maps_x054"
+path = "exercises/maps/maps_x054/main_test.go"
+mode = "test"
+hint = """
+Скопируйте defaults в новую map, затем перезапишите значениями из user."""
+
+[[exercises]]
+name = "maps_x007"
+path = "exercises/maps/maps_x007/main_test.go"
+mode = "test"
+hint = """
+Пустой литерал map уже можно заполнять. Проверьте, что возвращается."""
+
+[[exercises]]
+name = "maps_x026"
+path = "exercises/maps/maps_x026/main_test.go"
+mode = "test"
+hint = """
+Приведите код к тому же виду, в котором хранятся ключи."""
+
+[[exercises]]
+name = "maps_x048"
+path = "exercises/maps/maps_x048/main_test.go"
+mode = "test"
+hint = """
+Храните соответствие a->b и b->a. Если любое из них противоречит
+текущей паре символов — строки не изоморфны."""
+
+[[exercises]]
+name = "maps_x075"
+path = "exercises/maps/maps_x075/main_test.go"
+mode = "test"
+hint = """
+m[k] вернёт false в обоих случаях. Используйте comma-ok:
+если ключа нет — вернуть значение по умолчанию, иначе — сохранённое."""
+
+[[exercises]]
+name = "maps_x009"
+path = "exercises/maps/maps_x009/main_test.go"
+mode = "test"
+hint = """
+Для отсутствующего ключа map[string]bool вернёт false."""
+
+[[exercises]]
+name = "maps_x012"
+path = "exercises/maps/maps_x012/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое поле возвращается."""
+
+[[exercises]]
+name = "maps_x046"
+path = "exercises/maps/maps_x046/main_test.go"
+mode = "test"
+hint = """
+Если значение текущей цифры меньше следующей, его нужно вычесть.
+Проверьте также таблицу значений."""
+
+[[exercises]]
+name = "maps_x037"
+path = "exercises/maps/maps_x037/main_test.go"
+mode = "test"
+hint = """
+Для каждого элемента проверьте, встречалось ли раньше число target - v.
+Записывайте текущий элемент в map после проверки, чтобы не использовать его дважды."""
+
+[[exercises]]
+name = "maps_x025"
+path = "exercises/maps/maps_x025/main_test.go"
+mode = "test"
+hint = """
+Ключом должна быть длина слова."""
+
+[[exercises]]
+name = "maps_x059"
+path = "exercises/maps/maps_x059/main_test.go"
+mode = "test"
+hint = """
+Для каждого ключа проверьте, есть ли для него новое имя.
+Если нет — используйте старый ключ."""
+
+[[exercises]]
+name = "maps_x034"
+path = "exercises/maps/maps_x034/main_test.go"
+mode = "test"
+hint = """
+Запоминайте ключ, когда нашли большее значение."""
+
+[[exercises]]
+name = "maps_x050"
+path = "exercises/maps/maps_x050/main_test.go"
+mode = "test"
+hint = """
+Элемент большинства встречается строго больше половины раз.
+Проверяйте порог сразу после увеличения счётчика."""
+
+[[exercises]]
+name = "maps_x074"
+path = "exercises/maps/maps_x074/main_test.go"
+mode = "test"
+hint = """
+Две разные переменные с одинаковыми полями имеют разные адреса.
+Используйте в качестве ключа значение (например, ID или саму структуру)."""
+
+[[exercises]]
+name = "maps_x042"
+path = "exercises/maps/maps_x042/main_test.go"
+mode = "test"
+hint = """
+Берите адрес элемента по индексу (&items[i]), а не адрес переменной цикла."""
+
+[[exercises]]
+name = "maps_x045"
+path = "exercises/maps/maps_x045/main_test.go"
+mode = "test"
+hint = """
+Соберите ключи в срез и отсортируйте его функцией, которая сравнивает
+m[keys[i]] и m[keys[j]], а при равенстве — сами ключи."""
+
+[[exercises]]
+name = "maps_x049"
+path = "exercises/maps/maps_x049/main_test.go"
+mode = "test"
+hint = """
+Посчитайте буквы журнала, затем для каждой буквы записки уменьшайте
+счётчик; если он стал отрицательным — букв не хватает."""
+
+[[exercises]]
+name = "maps_x066"
+path = "exercises/maps/maps_x066/main_test.go"
+mode = "test"
+hint = """
+Для каждой пары (студент, курс) добавьте студента в список курса.
+После заполнения отсортируйте списки."""
+
+[[exercises]]
+name = "maps_x088"
+path = "exercises/maps/maps_x088/main_test.go"
+mode = "test"
+hint = """
+len(map) — количество пар, и сразу после make(map, n) оно равно нулю.
+Не храните «размер» отдельно от реального содержимого."""
+
+[[exercises]]
+name = "maps_x062"
+path = "exercises/maps/maps_x062/main_test.go"
+mode = "test"
+hint = """
+Разбейте путь по точкам. На каждом уровне текущее значение должно быть
+map[string]interface{}; иначе путь не найден."""
+
+[[exercises]]
+name = "maps_x036"
+path = "exercises/maps/maps_x036/main_test.go"
+mode = "test"
+hint = """
+Ключом группы может быть слово с отсортированными буквами.
+Все анаграммы дают одинаковый ключ."""
+
+[[exercises]]
+name = "maps_x073"
+path = "exercises/maps/maps_x073/main_test.go"
+mode = "test"
+hint = """
+Не используйте NaN как ключ. Считайте такие значения отдельно
+(например, в отдельном счётчике)."""
+
+[[exercises]]
+name = "maps_x093"
+path = "exercises/maps/maps_x093/main_test.go"
+mode = "test"
+hint = """
+Считайте значение в переменную, измените её через указатель
+и запишите обратно (или храните в map указатели)."""
+
+[[exercises]]
+name = "maps_x052"
+path = "exercises/maps/maps_x052/main_test.go"
+mode = "test"
+hint = """
+Для ребра (u, v) добавьте v в список соседей u. После построения
+отсортируйте каждый список."""
+
+[[exercises]]
+name = "maps_x004"
+path = "exercises/maps/maps_x004/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какой ключ передаётся в delete."""
+
+[[exercises]]
+name = "maps_x076"
+path = "exercises/maps/maps_x076/main_test.go"
+mode = "test"
+hint = """
+Изменение переменной p не затрагивает map. После изменения
+сохраните структуру обратно: m[k] = p."""
+
+[[exercises]]
+name = "maps_x072"
+path = "exercises/maps/maps_x072/main_test.go"
+mode = "test"
+hint = """
+Две переменные map указывают на одни и те же данные.
+Создайте новую map и скопируйте в неё все пары."""
+
+[[exercises]]
+name = "maps_x017"
+path = "exercises/maps/maps_x017/main_test.go"
+mode = "test"
+hint = """
+Сначала проверьте наличие ключа, затем удалите. Верните результат проверки."""
+
+[[exercises]]
+name = "maps_x086"
+path = "exercises/maps/maps_x086/main_test.go"
+mode = "test"
+hint = """
+Каждый префикс должен быть независимым: ограничьте ёмкость
+полным выражением среза или скопируйте данные."""
+
+[[exercises]]
+name = "maps_x006"
+path = "exercises/maps/maps_x006/main_test.go"
+mode = "test"
+hint = """
+Счётчик нужно увеличивать, а не устанавливать."""
+
+[[exercises]]
+name = "maps_x022"
+path = "exercises/maps/maps_x022/main_test.go"
+mode = "test"
+hint = """
+Если значение найдено, его нужно вернуть сразу, не вычисляя заново."""
+
+[[exercises]]
+name = "maps_x001"
+path = "exercises/maps/maps_x001/main_test.go"
+mode = "test"
+hint = """
+Проверьте пары ключ–значение в литерале."""
+
+[[exercises]]
+name = "maps_x065"
+path = "exercises/maps/maps_x065/main_test.go"
+mode = "test"
+hint = """
+Добавляйте в срез слова текущий индекс, а не номер вхождения."""
+
+[[exercises]]
+name = "maps_x083"
+path = "exercises/maps/maps_x083/main_test.go"
+mode = "test"
+hint = """
+Изменение содержимого существующей map видно через копию структуры,
+а присваивание самому полю — нет. Используйте получатель-указатель."""
+
+[[exercises]]
+name = "maps_x051"
+path = "exercises/maps/maps_x051/main_test.go"
+mode = "test"
+hint = """
+Каждое ребро увеличивает степень обеих вершин. Петля (u == v)
+увеличивает степень на 2."""
+
+[[exercises]]
+name = "maps_x030"
+path = "exercises/maps/maps_x030/main_test.go"
+mode = "test"
+hint = """
+В новой map ключом становится старое значение."""
+
+[[exercises]]
+name = "maps_x043"
+path = "exercises/maps/maps_x043/main_test.go"
+mode = "test"
+hint = """
+Ключи новой map, которых нет в старой, — добавленные; ключи старой,
+которых нет в новой, — удалённые. Изменённые есть в обеих, но с разными значениями."""
+
+[[exercises]]
+name = "maps_x031"
+path = "exercises/maps/maps_x031/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение записывается при посещении."""
+
+[[exercises]]
+name = "maps_x085"
+path = "exercises/maps/maps_x085/main_test.go"
+mode = "test"
+hint = """
+Используйте целочисленный ключ: цену в копейках, округлённую math.Round."""
+
+[[exercises]]
+name = "maps_x040"
+path = "exercises/maps/maps_x040/main_test.go"
+mode = "test"
+hint = """
+Внутренняя map для нового ученика равна nil. Создайте её,
+если её ещё нет, и сохраните во внешнюю map."""
+
+[[exercises]]
+name = "maps_x035"
+path = "exercises/maps/maps_x035/main_test.go"
+mode = "test"
+hint = """
+Порядок обхода map случаен, поэтому правило выбора при равенстве
+нужно закодировать явно: при одинаковом количестве выбирайте меньшее слово."""
+
+[[exercises]]
+name = "maps_x041"
+path = "exercises/maps/maps_x041/main_test.go"
+mode = "test"
+hint = """
+Ключом должна быть пара (предыдущее слово, текущее слово).
+Пар на одну меньше, чем слов."""
+
+[[exercises]]
+name = "maps_x028"
+path = "exercises/maps/maps_x028/main_test.go"
+mode = "test"
+hint = """
+Для отсутствующего ключа map[string]bool вернёт false — этого достаточно."""
+
+[[exercises]]
+name = "maps_x058"
+path = "exercises/maps/maps_x058/main_test.go"
+mode = "test"
+hint = """
+Для каждой траты прибавляйте сумму к её категории и к общему итогу."""
+
+[[exercises]]
+name = "maps_x011"
+path = "exercises/maps/maps_x011/main_test.go"
+mode = "test"
+hint = """
+Ключом должно быть само слово."""
+
+[[exercises]]
+name = "maps_x099"
+path = "exercises/maps/maps_x099/main_test.go"
+mode = "test"
+hint = """
+"%v" и "%.2f" дают разные строки для одного числа.
+Вынесите построение ключа в одну функцию и используйте её везде."""
+
+[[exercises]]
+name = "maps_x082"
+path = "exercises/maps/maps_x082/main_test.go"
+mode = "test"
+hint = """
+Возвращайте инициализированную пустую map, а не nil."""
+
+[[exercises]]
+name = "maps_x056"
+path = "exercises/maps/maps_x056/main_test.go"
+mode = "test"
+hint = """
+Кэш должен создаваться один раз при вызове memo, а не при каждом вызове
+обёртки. Перед вычислением проверьте, есть ли результат."""
+
+[[exercises]]
+name = "maps_x055"
+path = "exercises/maps/maps_x055/main_test.go"
+mode = "test"
+hint = """
+Определите метку диапазона для каждой зарплаты и увеличьте её счётчик.
+Проверьте границы."""
