@@ -6451,3 +6451,749 @@ mode = "test"
 hint = """
 Определите метку диапазона для каждой зарплаты и увеличьте её счётчик.
 Проверьте границы."""
+
+# ===== generated exercises: range =====
+[[exercises]]
+name = "range_x001"
+path = "exercises/range/range_x001/main_test.go"
+mode = "test"
+hint = """
+Первая переменная range — индекс, вторая — значение."""
+
+[[exercises]]
+name = "range_x097"
+path = "exercises/range/range_x097/main_test.go"
+mode = "test"
+hint = """
+Присваивайте новую map элементу среза: stats[i] = map[string]int{}."""
+
+[[exercises]]
+name = "range_x065"
+path = "exercises/range/range_x065/main_test.go"
+mode = "test"
+hint = """
+Соберите и отсортируйте ключи, затем для каждого ключа отсортируйте копию
+его оценок и выведите строку."""
+
+[[exercises]]
+name = "range_x036"
+path = "exercises/range/range_x036/main_test.go"
+mode = "test"
+hint = """
+Найдя отрицательное число, нужно перейти к следующей строке, а не
+к следующему элементу. Метка на внешнем цикле позволяет это сделать."""
+
+[[exercises]]
+name = "range_x024"
+path = "exercises/range/range_x024/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что именно добавляется к сумме."""
+
+[[exercises]]
+name = "range_x048"
+path = "exercises/range/range_x048/main_test.go"
+mode = "test"
+hint = """
+Копируйте значение из b, только если ключа ещё нет или новое значение больше."""
+
+[[exercises]]
+name = "range_x075"
+path = "exercises/range/range_x075/main_test.go"
+mode = "test"
+hint = """
+Используйте метку на внешнем цикле и break с меткой."""
+
+[[exercises]]
+name = "range_x088"
+path = "exercises/range/range_x088/main_test.go"
+mode = "test"
+hint = """
+После обмена на позиции i оказался новый элемент, который тоже надо
+проверить. Используйте цикл for с индексом и не увеличивайте его после удаления."""
+
+[[exercises]]
+name = "range_x046"
+path = "exercises/range/range_x046/main_test.go"
+mode = "test"
+hint = """
+Новое слово начинается, когда текущий символ — не пробел,
+а предыдущий был пробелом (или это начало строки)."""
+
+[[exercises]]
+name = "range_x064"
+path = "exercises/range/range_x064/main_test.go"
+mode = "test"
+hint = """
+Сумма чисел 0..n известна. Можно на каждой итерации прибавлять
+индекс+1 и вычитать значение: останется пропущенное число."""
+
+[[exercises]]
+name = "range_x030"
+path = "exercises/range/range_x030/main_test.go"
+mode = "test"
+hint = """
+Начальное значение произведения — единица."""
+
+[[exercises]]
+name = "range_x090"
+path = "exercises/range/range_x090/main_test.go"
+mode = "test"
+hint = """
+Индекс последней руны меньше len(s)-1, если она занимает несколько байт.
+Сравнивайте i+ширина_руны с len(s) (utf8.RuneLen)."""
+
+[[exercises]]
+name = "range_x005"
+path = "exercises/range/range_x005/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие: ноль не является положительным числом."""
+
+[[exercises]]
+name = "range_x078"
+path = "exercises/range/range_x078/main_test.go"
+mode = "test"
+hint = """
+Итерируйтесь по срезу рун, а не по строке, если индекс нужен
+для обращения к этому срезу."""
+
+[[exercises]]
+name = "range_x056"
+path = "exercises/range/range_x056/main_test.go"
+mode = "test"
+hint = """
+Сумма произведений оценки на вес делится на сумму весов.
+Нулевой общий вес даёт 0."""
+
+[[exercises]]
+name = "range_x089"
+path = "exercises/range/range_x089/main_test.go"
+mode = "test"
+hint = """
+Передайте генератору канал done и закройте его при выходе (defer).
+Генератор должен выбирать между отправкой и <-done."""
+
+[[exercises]]
+name = "range_x100"
+path = "exercises/range/range_x100/main_test.go"
+mode = "test"
+hint = """
+Соберите ключи, отсортируйте их и добавляйте заголовки в срез по порядку."""
+
+[[exercises]]
+name = "range_x010"
+path = "exercises/range/range_x010/main_test.go"
+mode = "test"
+hint = """
+Новая руна должна оказаться перед уже собранной частью."""
+
+[[exercises]]
+name = "range_x053"
+path = "exercises/range/range_x053/main_test.go"
+mode = "test"
+hint = """
+Инициализируйте результат первой строкой, а затем для каждой следующей
+строки обновляйте элемент столбца c."""
+
+[[exercises]]
+name = "range_x004"
+path = "exercises/range/range_x004/main_test.go"
+mode = "test"
+hint = """
+Складывать нужно значения, а не длины ключей."""
+
+[[exercises]]
+name = "range_x067"
+path = "exercises/range/range_x067/main_test.go"
+mode = "test"
+hint = """
+При встрече разделителя сохраните текущую часть и начните новую.
+После цикла сохраните последнюю часть."""
+
+[[exercises]]
+name = "range_x086"
+path = "exercises/range/range_x086/main_test.go"
+mode = "test"
+hint = """
+Руну нужно закодировать в UTF-8. Используйте utf8.AppendRune
+(или append(b, string(r)...))."""
+
+[[exercises]]
+name = "range_x081"
+path = "exercises/range/range_x081/main_test.go"
+mode = "test"
+hint = """
+Некорректный байт даёт r == utf8.RuneError. Но настоящий символ U+FFFD
+тоже равен RuneError — отличайте их по ширине, декодируя вручную
+utf8.DecodeRuneInString (ширина 1 означает ошибку)."""
+
+[[exercises]]
+name = "range_x060"
+path = "exercises/range/range_x060/main_test.go"
+mode = "test"
+hint = """
+Элемент лежит на диагонали, если индекс строки равен индексу столбца."""
+
+[[exercises]]
+name = "range_x062"
+path = "exercises/range/range_x062/main_test.go"
+mode = "test"
+hint = """
+Для каждого слова заведите отдельный счётчик и добавьте его в результат
+после обхода рун слова."""
+
+[[exercises]]
+name = "range_x096"
+path = "exercises/range/range_x096/main_test.go"
+mode = "test"
+hint = """
+strings.TrimSpace не меняет аргумент. Запишите результат в элемент среза."""
+
+[[exercises]]
+name = "range_x054"
+path = "exercises/range/range_x054/main_test.go"
+mode = "test"
+hint = """
+Если символ совпадает с предыдущим, увеличьте текущую длину, иначе
+начните новую серию с 1. После каждого шага сравните с лучшей."""
+
+[[exercises]]
+name = "range_x042"
+path = "exercises/range/range_x042/main_test.go"
+mode = "test"
+hint = """
+Начните максимум с первого элемента и обновляйте его на каждом шаге,
+записывая текущий максимум в результат."""
+
+[[exercises]]
+name = "range_x050"
+path = "exercises/range/range_x050/main_test.go"
+mode = "test"
+hint = """
+Элемент с индексом i имеет позицию i+1. Он подходит, если позиция делится на k."""
+
+[[exercises]]
+name = "range_x092"
+path = "exercises/range/range_x092/main_test.go"
+mode = "test"
+hint = """
+Сообщите вызывающему циклу об остановке через возвращаемое значение колбэка."""
+
+[[exercises]]
+name = "range_x003"
+path = "exercises/range/range_x003/main_test.go"
+mode = "test"
+hint = """
+Счётчик должен увеличиваться на каждой итерации."""
+
+[[exercises]]
+name = "range_x085"
+path = "exercises/range/range_x085/main_test.go"
+mode = "test"
+hint = """
+Чтобы получить значения, нужна вторая переменная range."""
+
+[[exercises]]
+name = "range_x079"
+path = "exercises/range/range_x079/main_test.go"
+mode = "test"
+hint = """
+Получите задачи один раз и перебирайте их через range."""
+
+[[exercises]]
+name = "range_x006"
+path = "exercises/range/range_x006/main_test.go"
+mode = "test"
+hint = """
+Каждое полученное значение нужно добавить в результат."""
+
+[[exercises]]
+name = "range_x027"
+path = "exercises/range/range_x027/main_test.go"
+mode = "test"
+hint = """
+Перебирайте срез, начиная со второго элемента."""
+
+[[exercises]]
+name = "range_x051"
+path = "exercises/range/range_x051/main_test.go"
+mode = "test"
+hint = """
+range не даёт прочитать ровно n значений. Используйте цикл по счётчику
+и форму v, ok := <-ch: ok == false значит, что канал закрыт."""
+
+[[exercises]]
+name = "range_x028"
+path = "exercises/range/range_x028/main_test.go"
+mode = "test"
+hint = """
+Нужна ошибка, не равная nil."""
+
+[[exercises]]
+name = "range_x069"
+path = "exercises/range/range_x069/main_test.go"
+mode = "test"
+hint = """
+Создайте канал в конструкторе (make), а не оставляйте поле нулевым."""
+
+[[exercises]]
+name = "range_x032"
+path = "exercises/range/range_x032/main_test.go"
+mode = "test"
+hint = """
+Пробел — это руна ' '."""
+
+[[exercises]]
+name = "range_x082"
+path = "exercises/range/range_x082/main_test.go"
+mode = "test"
+hint = """
+Вызовите метод на элементе среза: accounts[i].Deposit(...)."""
+
+[[exercises]]
+name = "range_x015"
+path = "exercises/range/range_x015/main_test.go"
+mode = "test"
+hint = """
+Внутренний цикл должен идти по текущей строке."""
+
+[[exercises]]
+name = "range_x012"
+path = "exercises/range/range_x012/main_test.go"
+mode = "test"
+hint = """
+continue должен срабатывать для отрицательных чисел."""
+
+[[exercises]]
+name = "range_x031"
+path = "exercises/range/range_x031/main_test.go"
+mode = "test"
+hint = """
+Разделитель ставится перед каждым элементом, кроме первого."""
+
+[[exercises]]
+name = "range_x038"
+path = "exercises/range/range_x038/main_test.go"
+mode = "test"
+hint = """
+Буквы добавляйте к текущему слову (в нижнем регистре). На небуквенном символе
+и в конце текста завершайте слово, если оно непустое."""
+
+[[exercises]]
+name = "range_x080"
+path = "exercises/range/range_x080/main_test.go"
+mode = "test"
+hint = """
+range уже декодировал руну r — используйте её: string(r)."""
+
+[[exercises]]
+name = "range_x094"
+path = "exercises/range/range_x094/main_test.go"
+mode = "test"
+hint = """
+Итерируйтесь по байтам (индексом или range по []byte(s)),
+либо приведите типы явно."""
+
+[[exercises]]
+name = "range_x035"
+path = "exercises/range/range_x035/main_test.go"
+mode = "test"
+hint = """
+Внутренний цикл должен начинаться после i, иначе пары повторятся
+и элемент сложится сам с собой. Индекс во внутреннем range считается от начала подсреза."""
+
+[[exercises]]
+name = "range_x063"
+path = "exercises/range/range_x063/main_test.go"
+mode = "test"
+hint = """
+Длину считайте в рунах. Если текущий срез короче нужного индекса,
+расширьте его нулями перед увеличением счётчика."""
+
+[[exercises]]
+name = "range_x087"
+path = "exercises/range/range_x087/main_test.go"
+mode = "test"
+hint = """
+Разыменуйте указатель: range *p. Элементы меняйте через (*p)[i]."""
+
+[[exercises]]
+name = "range_x084"
+path = "exercises/range/range_x084/main_test.go"
+mode = "test"
+hint = """
+Считайте индекс вручную отдельной переменной."""
+
+[[exercises]]
+name = "range_x043"
+path = "exercises/range/range_x043/main_test.go"
+mode = "test"
+hint = """
+Ключ — команда игрока, в срез добавляется его имя."""
+
+[[exercises]]
+name = "range_x047"
+path = "exercises/range/range_x047/main_test.go"
+mode = "test"
+hint = """
+Обычный break выходит только из внутреннего цикла. Поставьте метку
+на внешний цикл и выйдите из обоих."""
+
+[[exercises]]
+name = "range_x077"
+path = "exercises/range/range_x077/main_test.go"
+mode = "test"
+hint = """
+range только с индексом по nil-указателю на массив работает, а со значением —
+разыменовывает указатель. Проверьте указатель на nil до цикла."""
+
+[[exercises]]
+name = "range_x016"
+path = "exercises/range/range_x016/main_test.go"
+mode = "test"
+hint = """
+Обновлять ответ нужно, только если слово строго длиннее текущего."""
+
+[[exercises]]
+name = "range_x023"
+path = "exercises/range/range_x023/main_test.go"
+mode = "test"
+hint = """
+Деление на количество элементов допустимо, только если оно не ноль."""
+
+[[exercises]]
+name = "range_x021"
+path = "exercises/range/range_x021/main_test.go"
+mode = "test"
+hint = """
+Выбор символа зависит от чётности индекса, а не значения."""
+
+[[exercises]]
+name = "range_x037"
+path = "exercises/range/range_x037/main_test.go"
+mode = "test"
+hint = """
+Отправитель должен закрыть канал после последнего значения,
+иначе range никогда не закончится. Проверьте и границы цикла."""
+
+[[exercises]]
+name = "range_x052"
+path = "exercises/range/range_x052/main_test.go"
+mode = "test"
+hint = """
+Запишите в новую map только подходящие пары и верните её."""
+
+[[exercises]]
+name = "range_x068"
+path = "exercises/range/range_x068/main_test.go"
+mode = "test"
+hint = """
+Пока канал открыт, range ждёт следующего значения. Отправитель должен
+закрыть канал после отправки всех значений."""
+
+[[exercises]]
+name = "range_x055"
+path = "exercises/range/range_x055/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте руну i с руной len-1-i после приведения к нижнему регистру.
+Достаточно пройти половину среза."""
+
+[[exercises]]
+name = "range_x013"
+path = "exercises/range/range_x013/main_test.go"
+mode = "test"
+hint = """
+При встрече нуля цикл нужно прервать, а не пропустить элемент."""
+
+[[exercises]]
+name = "range_x073"
+path = "exercises/range/range_x073/main_test.go"
+mode = "test"
+hint = """
+Переменная цикла с тем же именем скрывает внешнюю. Используйте
+другое имя для переменной цикла и присваивайте внешней переменной."""
+
+[[exercises]]
+name = "range_x091"
+path = "exercises/range/range_x091/main_test.go"
+mode = "test"
+hint = """
+Пусть колбэк возвращает bool «продолжать ли», а forEach останавливается,
+когда получает false."""
+
+[[exercises]]
+name = "range_x020"
+path = "exercises/range/range_x020/main_test.go"
+mode = "test"
+hint = """
+Проверьте функцию, которой проверяется символ."""
+
+[[exercises]]
+name = "range_x083"
+path = "exercises/range/range_x083/main_test.go"
+mode = "test"
+hint = """
+Объявите переменную-результат до цикла и присваивайте её внутри."""
+
+[[exercises]]
+name = "range_x002"
+path = "exercises/range/range_x002/main_test.go"
+mode = "test"
+hint = """
+Проверьте условие отбора индексов."""
+
+[[exercises]]
+name = "range_x017"
+path = "exercises/range/range_x017/main_test.go"
+mode = "test"
+hint = """
+Перевод строки — это байт '\n'."""
+
+[[exercises]]
+name = "range_x045"
+path = "exercises/range/range_x045/main_test.go"
+mode = "test"
+hint = """
+В алфавите от 'а' до 'я' 32 буквы (без ё). Переведите букву в номер,
+сдвиньте по модулю 32 и верните обратно. Остальные символы не меняются."""
+
+[[exercises]]
+name = "range_x061"
+path = "exercises/range/range_x061/main_test.go"
+mode = "test"
+hint = """
+Если слот начинается не позже конца последнего объединённого, расширьте
+последний. Иначе добавьте слот как новый. Меняйте элемент результата по индексу."""
+
+[[exercises]]
+name = "range_x007"
+path = "exercises/range/range_x007/main_test.go"
+mode = "test"
+hint = """
+Пропустить нужно элемент с индексом 0."""
+
+[[exercises]]
+name = "range_x071"
+path = "exercises/range/range_x071/main_test.go"
+mode = "test"
+hint = """
+В range изменение i не влияет на следующую итерацию.
+Используйте классический цикл for с ручным управлением индексом."""
+
+[[exercises]]
+name = "range_x070"
+path = "exercises/range/range_x070/main_test.go"
+mode = "test"
+hint = """
+s = s[:i] внутри range не влияет на итерацию. Чтобы остановиться, используйте break."""
+
+[[exercises]]
+name = "range_x058"
+path = "exercises/range/range_x058/main_test.go"
+mode = "test"
+hint = """
+Обрежьте пробелы, пропустите пустые строки и комментарии. Разделите строку
+по первому '=' и обрежьте пробелы у ключа и значения."""
+
+[[exercises]]
+name = "range_x025"
+path = "exercises/range/range_x025/main_test.go"
+mode = "test"
+hint = """
+Изменять нужно элемент массива по индексу через указатель."""
+
+[[exercises]]
+name = "range_x008"
+path = "exercises/range/range_x008/main_test.go"
+mode = "test"
+hint = """
+Запоминать нужно индекс элемента, а не его значение."""
+
+[[exercises]]
+name = "range_x022"
+path = "exercises/range/range_x022/main_test.go"
+mode = "test"
+hint = """
+Вернуть нужно ключ (логин), когда значение совпало с id."""
+
+[[exercises]]
+name = "range_x066"
+path = "exercises/range/range_x066/main_test.go"
+mode = "test"
+hint = """
+Для строки прибавьте 1, для вложенной map — рекурсивно посчитанное количество."""
+
+[[exercises]]
+name = "range_x018"
+path = "exercises/range/range_x018/main_test.go"
+mode = "test"
+hint = """
+Нужно сложить длины срезов, а не количество проектов."""
+
+[[exercises]]
+name = "range_x072"
+path = "exercises/range/range_x072/main_test.go"
+mode = "test"
+hint = """
+break в select завершает только select. Поставьте метку на цикл
+и используйте break с меткой (или return)."""
+
+[[exercises]]
+name = "range_x033"
+path = "exercises/range/range_x033/main_test.go"
+mode = "test"
+hint = """
+После сбора ключей их нужно отсортировать."""
+
+[[exercises]]
+name = "range_x026"
+path = "exercises/range/range_x026/main_test.go"
+mode = "test"
+hint = """
+Возвращайте индекс из range — это и есть байтовое смещение."""
+
+[[exercises]]
+name = "range_x093"
+path = "exercises/range/range_x093/main_test.go"
+mode = "test"
+hint = """
+Ключи map нельзя изменить. Постройте новую map с преобразованными ключами."""
+
+[[exercises]]
+name = "range_x034"
+path = "exercises/range/range_x034/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте поле Age текущего элемента с найденным максимумом."""
+
+[[exercises]]
+name = "range_x049"
+path = "exercises/range/range_x049/main_test.go"
+mode = "test"
+hint = """
+На каждом байте сначала обновите a, затем прибавьте новое a к b.
+Оба значения берутся по модулю 65521."""
+
+[[exercises]]
+name = "range_x041"
+path = "exercises/range/range_x041/main_test.go"
+mode = "test"
+hint = """
+Индекс внешнего цикла — строка, внутреннего — столбец.
+Добавляйте каждую найденную пару, не останавливаясь."""
+
+[[exercises]]
+name = "range_x040"
+path = "exercises/range/range_x040/main_test.go"
+mode = "test"
+hint = """
+Для i > 0 сравнивайте s[i] с s[i-1]. У первого элемента соседа нет."""
+
+[[exercises]]
+name = "range_x039"
+path = "exercises/range/range_x039/main_test.go"
+mode = "test"
+hint = """
+Для каждого документа перебирайте его слова. Номер документа
+добавляйте к слову, только если он ещё не последний в списке."""
+
+[[exercises]]
+name = "range_x076"
+path = "exercises/range/range_x076/main_test.go"
+mode = "test"
+hint = """
+Внутри range s[i-1] уже перезаписан. Сохраните копию исходных данных
+и читайте значения из неё."""
+
+[[exercises]]
+name = "range_x099"
+path = "exercises/range/range_x099/main_test.go"
+mode = "test"
+hint = """
+После декодирования увеличивайте позицию на ширину символа,
+а не на единицу."""
+
+[[exercises]]
+name = "range_x011"
+path = "exercises/range/range_x011/main_test.go"
+mode = "test"
+hint = """
+Сравнивать нужно роль (значение), а не имя."""
+
+[[exercises]]
+name = "range_x009"
+path = "exercises/range/range_x009/main_test.go"
+mode = "test"
+hint = """
+При нахождении пробела нужно сразу вернуть его позицию."""
+
+[[exercises]]
+name = "range_x095"
+path = "exercises/range/range_x095/main_test.go"
+mode = "test"
+hint = """
+append может вернуть новый срез, и присваивание его переменной цикла
+теряется. Записывайте результат в grid[i]."""
+
+[[exercises]]
+name = "range_x029"
+path = "exercises/range/range_x029/main_test.go"
+mode = "test"
+hint = """
+Считать нужно только флаги со значением true."""
+
+[[exercises]]
+name = "range_x014"
+path = "exercises/range/range_x014/main_test.go"
+mode = "test"
+hint = """
+Проверьте формулу для одной позиции."""
+
+[[exercises]]
+name = "range_x059"
+path = "exercises/range/range_x059/main_test.go"
+mode = "test"
+hint = """
+Проверьте знак для каждого типа операции и то, что неизвестные
+операции не влияют на баланс."""
+
+[[exercises]]
+name = "range_x019"
+path = "exercises/range/range_x019/main_test.go"
+mode = "test"
+hint = """
+Нужно вызвать функцию и сохранить результат её вызова."""
+
+[[exercises]]
+name = "range_x098"
+path = "exercises/range/range_x098/main_test.go"
+mode = "test"
+hint = """
+Передайте отправителю канал stop и закройте его вместо канала данных.
+Отправитель выбирает между отправкой и <-stop и сам закрывает канал данных."""
+
+[[exercises]]
+name = "range_x074"
+path = "exercises/range/range_x074/main_test.go"
+mode = "test"
+hint = """
+Отправляйте указатель на новую структуру для каждого значения
+(или отправляйте структуры по значению)."""
+
+[[exercises]]
+name = "range_x057"
+path = "exercises/range/range_x057/main_test.go"
+mode = "test"
+hint = """
+Храните первое и второе значения. Новое значение больше первого сдвигает
+первое во второе; значение между ними обновляет второе. Равные первому пропускайте."""
+
+[[exercises]]
+name = "range_x044"
+path = "exercises/range/range_x044/main_test.go"
+mode = "test"
+hint = """
+Пропускайте пробел, если предыдущий записанный символ — тоже пробел.
+Предыдущий символ нужно обновлять на каждой итерации."""
