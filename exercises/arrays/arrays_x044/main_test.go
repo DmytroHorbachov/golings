@@ -1,0 +1,33 @@
+// arrays_x044: Слияние отсортированных
+// Make the tests pass!
+// I AM NOT DONE
+//
+// merge объединяет два отсортированных массива по 3 элемента в один отсортированный.
+// Тренирует: два указателя по массивам.
+// Сложность: medium
+package main_test
+
+import "testing"
+
+func merge(a, b [3]int) [6]int {
+	var out [6]int
+	i, j := 0, 0
+	for k := range out {
+		if a[i] < b[j] {
+			out[k] = a[i]
+			i++
+		} else {
+			out[k] = b[j]
+		}
+	}
+	return out
+}
+
+func TestMerge(t *testing.T) {
+	if got := merge([3]int{1, 4, 9}, [3]int{2, 3, 10}); got != [6]int{1, 2, 3, 4, 9, 10} {
+		t.Errorf("merge = %v", got)
+	}
+	if got := merge([3]int{1, 2, 3}, [3]int{4, 5, 6}); got != [6]int{1, 2, 3, 4, 5, 6} {
+		t.Errorf("merge = %v", got)
+	}
+}
