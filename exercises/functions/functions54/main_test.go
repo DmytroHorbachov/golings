@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// splitWords должна делить строку по любым небуквенным символам.
-// Тренирует: strings.FieldsFunc и функции-предикаты.
-// Сложность: easy
+// splitWords must split a string on any non-letter character.
+// Practices strings.FieldsFunc and predicate functions.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть модуль комплексного числа 3+4i и его действительную часть.
-// Тренирует: тип complex128 и функции real, imag, cmplx.Abs.
-// Сложность: medium
+// This function must return the magnitude of the complex number 3+4i and its real part.
+// Practices the complex128 type and the functions real, imag and cmplx.Abs.
 package main_test
 
 import (

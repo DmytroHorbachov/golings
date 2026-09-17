@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция almostEqual должна считать 0.1+0.2 и 0.3 равными.
-// Точное сравнение чисел с плавающей точкой здесь не работает.
-// Тренирует: погрешность вычислений с float64 и сравнение с эпсилоном.
-// Сложность: medium
+// almostEqual must treat 0.1+0.2 and 0.3 as equal.
+// An exact comparison of floating point numbers does not work here.
+// Practices float64 rounding error and comparing against an epsilon.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция countIf считает элементы, для которых pred возвращает true.
-// Предикат isEven написан с ошибкой.
-// Тренирует: функции-предикаты.
-// Сложность: easy
+// countIf counts the elements that pred returns true for.
+// The isEven predicate has a bug.
+// Practices predicate functions.
 package main_test
 
 import "testing"

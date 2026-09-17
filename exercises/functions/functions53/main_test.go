@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// chain(h, m1, m2) должна вернуть обработчик, где m1 — внешний слой.
-// Результат вызова должен быть "m1(m2(handler))".
-// Тренирует: композицию функций-обёрток.
-// Сложность: medium
+// chain(h, m1, m2) must return a handler with m1 as the outermost layer.
+// The call must produce "m1(m2(handler))".
+// Practices composing wrapper functions.
 package main_test
 
 import "testing"

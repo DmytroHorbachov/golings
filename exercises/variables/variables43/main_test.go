@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция serverConfig должна вернуть адрес вида "host:port".
-// Настройки хранятся в переменной анонимного структурного типа.
-// Тренирует: объявление переменной с анонимной структурой.
-// Сложность: medium
+// serverConfig must return an address of the form "host:port".
+// The settings live in a variable of an anonymous struct type.
+// Practices declaring a variable with an anonymous struct.
 package main_test
 
 import (

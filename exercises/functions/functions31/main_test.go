@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция divmod возвращает два значения, которые сразу передаются в format.
-// Код не компилируется из-за лишнего аргумента.
-// Тренирует: передачу нескольких результатов напрямую в другую функцию.
-// Сложность: easy
+// divmod returns two values that are handed straight to format.
+// The code does not compile because of an extra argument.
+// Practices passing several results directly into another function.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// hasPlugin должна проверить, зарегистрирован ли плагин с таким именем.
-// Код не компилируется: структуры сравниваются через ==.
-// Тренирует: функции несравнимы, а значит несравнимы и структуры с полями-функциями.
-// Сложность: hard
+// hasPlugin must report whether a plugin of that name is registered.
+// The code does not compile: structs are compared with ==.
+// Functions are not comparable, and neither are structs with function fields.
 package main_test
 
 import "testing"

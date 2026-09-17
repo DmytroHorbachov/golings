@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// paths(r, c) должна посчитать число путей из левого верхнего угла сетки r×c
-// в правый нижний, двигаясь только вправо и вниз.
-// Тренирует: рекурсию с двумя ветвями и базовыми случаями.
-// Сложность: medium
+// paths(r, c) must count the routes from the top left corner of an r by c grid
+// to the bottom right one, moving only right and down.
+// Practices recursion with two branches and base cases.
 package main_test
 
 import "testing"

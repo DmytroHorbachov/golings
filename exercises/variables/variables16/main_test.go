@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Права доступа rw-r--r-- в восьмеричной записи — 644, в десятичной — 420.
-// Сейчас число записано в десятичной системе.
-// Тренирует: восьмеричные литералы 0o.
-// Сложность: easy
+// The permissions rw-r--r-- are 644 in octal, which is 420 in decimal.
+// The number is currently written in decimal.
+// Practices octal literals written with 0o.
 package main_test
 
 import "testing"

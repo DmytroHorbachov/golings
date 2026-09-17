@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// handler возвращает функцию-обработчик; очистка должна выполняться
-// после обработки, при каждом вызове обработчика.
-// Тренирует: defer относится к той функции, в теле которой он записан.
-// Сложность: hard
+// handler returns a handler function; the cleanup must run
+// after the handling, on every call of the handler.
+// A defer belongs to the function whose body it is written in.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// batteryStatus: при зарядке — "charging" (или "full" при 100%),
-// без зарядки: до 15% — "low", иначе "ok".
-// Тренирует: вложенные if по нескольким признакам.
-// Сложность: medium
+// batteryStatus: while charging it is "charging", or "full" at 100%;
+// on battery it is "low" up to 15% and "ok" otherwise.
+// Practices nested ifs over several signals.
 package main_test
 
 import "testing"

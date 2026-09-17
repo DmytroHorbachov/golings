@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция round должна округлять до ближайшего целого, половинки — от нуля.
-// Для отрицательных чисел текущая формула ошибается.
-// Тренирует: преобразование float в int отбрасывает дробную часть к нулю.
-// Сложность: hard
+// round must round to the nearest integer, with halves going away from zero.
+// The current formula is wrong for negative numbers.
+// Converting a float to an int truncates towards zero.
 package main_test
 
 import (

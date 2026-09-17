@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// needsReview: заказ НЕ требует проверки, только если он оплачен И сумма
-// меньше 10000. Во всех остальных случаях проверка нужна.
-// Тренирует: корректное отрицание составного условия.
-// Сложность: hard
+// needsReview: an order does NOT need a review only when it is paid AND
+// the amount is below 10000. Every other case needs one.
+// Practices negating a compound condition correctly.
 package main_test
 
 import "testing"

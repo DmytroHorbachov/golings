@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// portOrDefault разбирает порт; если строка не число или порт вне 1..65535 — 8080.
-// Тренирует: if с инициализацией и несколькими условиями.
-// Сложность: medium
+// portOrDefault parses a port; a non-numeric string or a port outside 1..65535 gives 8080.
+// Practices an if with an init statement and several conditions.
 package main_test
 
 import (

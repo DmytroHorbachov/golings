@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// lookup ищет ключ последовательно в нескольких источниках-функциях
-// и возвращает первое найденное значение.
-// Тренирует: функции с результатом (value, ok).
-// Сложность: medium
+// lookup tries a key against several source functions in turn
+// and returns the first value found.
+// Practices functions with a (value, ok) result.
 package main_test
 
 import "testing"

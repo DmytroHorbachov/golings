@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// factorial должна вернуть n! как uint64 или ErrOverflow, если результат не помещается.
-// Сейчас 21! молча превращается в неверное число.
-// Тренирует: обнаружение переполнения до выполнения умножения.
-// Сложность: hard
+// factorial must return n! as a uint64, or ErrOverflow when it does not fit.
+// Right now 21! quietly turns into a wrong number.
+// Practices detecting overflow before the multiplication happens.
 package main_test
 
 import (

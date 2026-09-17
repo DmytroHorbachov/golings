@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Ожидается, что Width=0, Height=1, Depth=2.
-// Сейчас две константы объявлены в одной строке спецификации.
-// Тренирует: iota увеличивается по строкам (ConstSpec), а не по именам.
-// Сложность: hard
+// Width=0, Height=1 and Depth=2 are expected.
+// Right now two constants share one specification line.
+// iota grows per line (per ConstSpec), not per name.
 package main_test
 
 import "testing"

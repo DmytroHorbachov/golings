@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isAdult должна вернуть true для возраста 18 и старше.
-// Тренирует: операторы сравнения в условии if.
-// Сложность: easy
+// isAdult must return true for an age of 18 or more.
+// Practices the comparison operators in an if.
 package main_test
 
 import "testing"

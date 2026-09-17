@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// mentions должна вернуть true, если в тексте есть имя.
-// Когда имя стоит в самом начале, функция возвращает false.
-// Тренирует: strings.Index возвращает 0 для совпадения в начале и -1 при отсутствии.
-// Сложность: hard
+// mentions must return true when the name occurs in the text.
+// When the name sits at the very start it returns false.
+// strings.Index returns 0 for a match at the start and -1 for no match.
 package main_test
 
 import (

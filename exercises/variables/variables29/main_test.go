@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// letter(i) должна вернуть i-ю строчную латинскую букву ("a" для 0),
-// а index(c) — номер буквы c.
-// Тренирует: преобразования между rune, byte, int и string.
-// Сложность: medium
+// letter(i) must return the i-th lowercase latin letter ("a" for 0),
+// and index(c) the position of the letter c.
+// Practices conversions between rune, byte, int and string.
 package main_test
 
 import (

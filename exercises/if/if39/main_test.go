@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validateWeight должна отклонять отрицательные значения и NaN.
-// Сейчас NaN принимается как корректный вес.
-// Тренирует: любое сравнение с NaN ложно.
-// Сложность: hard
+// validateWeight must reject negative values and NaN.
+// Right now NaN passes as a valid weight.
+// Every comparison with NaN is false.
 package main_test
 
 import (

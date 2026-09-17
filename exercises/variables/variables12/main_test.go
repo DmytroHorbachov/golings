@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция validate возвращает error и должна вернуть nil, если ошибок нет.
-// Однако результат никогда не равен nil.
-// Тренирует: интерфейс, содержащий nil-указатель, сам не равен nil.
-// Сложность: hard
+// validate returns an error and must return nil when nothing is wrong.
+// The result is never nil, though.
+// An interface holding a nil pointer is not itself nil.
 package main_test
 
 import "testing"

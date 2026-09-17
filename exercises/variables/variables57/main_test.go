@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция csvLine должна склеить поля через запятую.
-// Нулевое значение strings.Builder готово к работе без инициализации.
-// Тренирует: переменные с полезным нулевым значением.
-// Сложность: medium
+// csvLine must join the fields with commas.
+// The zero value of a strings.Builder is ready to use without initialization.
+// Practices variables with a useful zero value.
 package main_test
 
 import (

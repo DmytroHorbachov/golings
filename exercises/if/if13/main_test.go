@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// parkingFee: первые 60 минут бесплатно, затем 100 за каждый начатый час.
-// Тренирует: условия и округление вверх.
-// Сложность: medium
+// parkingFee: the first 60 minutes are free, then 100 for every hour begun.
+// Practices conditions and rounding up.
 package main_test
 
 import "testing"

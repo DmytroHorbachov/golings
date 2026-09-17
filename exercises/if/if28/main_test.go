@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// verbose принимает *bool: nil означает «не задано» и трактуется как false.
-// Сейчас при nil функция паникует.
-// Тренирует: разыменование nil-указателя в условии.
-// Сложность: hard
+// verbose takes a *bool, where nil means "unset" and counts as false.
+// Right now it panics on nil.
+// Practices dereferencing a nil pointer in a condition.
 package main_test
 
 import "testing"

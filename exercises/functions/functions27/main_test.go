@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// processItems должна в конце сообщить, сколько элементов обработано.
-// В отчёте всегда 0.
-// Тренирует: при defer s.Method() получатель-значение копируется сразу.
-// Сложность: hard
+// processItems must report how many items were processed when it returns.
+// The report always says 0.
+// With defer s.Method() a value receiver is copied straight away.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Тип GreeterFunc — адаптер, позволяющий использовать функцию как Greeter.
-// Сейчас у типа нет метода, и функция не удовлетворяет интерфейсу.
-// Тренирует: методы у функциональных типов (как http.HandlerFunc).
-// Сложность: medium
+// GreeterFunc is an adapter that lets a function be used as a Greeter.
+// The type has no method yet, so the function does not satisfy the interface.
+// Practices methods on function types, the way http.HandlerFunc works.
 package main_test
 
 import "testing"

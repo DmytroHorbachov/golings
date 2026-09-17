@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Уровни логирования должны нумероваться с единицы: Debug=1, Info=2, Warn=3.
-// Тренирует: константы и генератор iota.
-// Сложность: easy
+// The log levels must be numbered from one: Debug=1, Info=2, Warn=3.
+// Practices constants and the iota generator.
 package main_test
 
 import "testing"

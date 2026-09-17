@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция capitalize должна сделать первую букву ASCII-строки заглавной.
-// Код не компилируется: байт строки нельзя изменить.
-// Тренирует: неизменяемость строк и преобразование в []byte.
-// Сложность: hard
+// capitalize must uppercase the first letter of an ASCII string.
+// The code does not compile: a byte of a string cannot be assigned to.
+// Practices string immutability and the conversion to []byte.
 package main_test
 
 import "testing"

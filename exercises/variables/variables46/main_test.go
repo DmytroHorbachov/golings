@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция clock должна разложить число секунд на часы, минуты и секунды.
-// Тренирует: целочисленное деление и остаток на нескольких переменных.
-// Сложность: medium
+// clock must split a number of seconds into hours, minutes and seconds.
+// Practices integer division and remainders across several variables.
 package main_test
 
 import "testing"

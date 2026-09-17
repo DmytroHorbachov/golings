@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fizzbuzz должна вернуть "FizzBuzz" для кратных 15, "Fizz" для 3, "Buzz" для 5.
-// Тренирует: порядок проверок, когда условия перекрываются.
-// Сложность: medium
+// fizzbuzz must return "FizzBuzz" for multiples of 15, "Fizz" for 3 and "Buzz" for 5.
+// Practices the order of the checks when the conditions overlap.
 package main_test
 
 import (

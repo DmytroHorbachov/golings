@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// logf должна передать аргументы в fmt.Sprint так, чтобы они вывелись
-// отдельными значениями, а не одним срезом.
-// Тренирует: разницу между f(args) и f(args...) для ...interface{}.
-// Сложность: hard
+// logf must hand its arguments to fmt.Sprint so they are printed
+// as separate values rather than as one slice.
+// Practices the difference between f(args) and f(args...) for ...interface{}.
 package main_test
 
 import (

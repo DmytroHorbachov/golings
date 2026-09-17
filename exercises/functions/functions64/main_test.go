@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// zipWith должна объединить два среза поэлементно с помощью f.
-// Длина результата — длина более короткого среза.
-// Тренирует: функции высшего порядка над двумя последовательностями.
-// Сложность: medium
+// zipWith must combine two slices element by element with f.
+// The result is as long as the shorter slice.
+// Practices higher order functions over two sequences.
 package main_test
 
 import (

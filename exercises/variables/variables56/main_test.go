@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть первую букву алфавита как rune.
-// Тренирует: разницу между rune-литералом и строковым литералом.
-// Сложность: easy
+// This function must return the first letter of the alphabet as a rune.
+// Practices the difference between a rune literal and a string literal.
 package main_test
 
 import "testing"

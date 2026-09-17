@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция newCounter должна вернуть указатель на int со значением start.
-// Тренирует: встроенную функцию new и разыменование указателя.
-// Сложность: medium
+// newCounter must return a pointer to an int holding start.
+// Practices the builtin new and dereferencing a pointer.
 package main_test
 
 import "testing"

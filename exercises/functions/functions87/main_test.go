@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция loadUser должна обернуть ошибку так, чтобы errors.Is её находил.
-// Тренирует: fmt.Errorf с глаголом %w.
-// Сложность: easy
+// loadUser must wrap the error so that errors.Is can find it.
+// Practices fmt.Errorf with the %w verb.
 package main_test
 
 import (

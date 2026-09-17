@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bindFirst(f, a) должна вернуть функцию одного аргумента b -> f(a, b).
-// Тренирует: частичное применение функций.
-// Сложность: medium
+// bindFirst(f, a) must return a one argument function b -> f(a, b).
+// Practices partial application.
 package main_test
 
 import (

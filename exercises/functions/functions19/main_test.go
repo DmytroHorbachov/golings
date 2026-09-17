@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция-обработчик обязана соответствовать типу Handler, но id ей не нужен.
-// Код не компилируется: сигнатура не совпадает с типом.
-// Тренирует: функциональные типы и пустой идентификатор в параметрах.
-// Сложность: easy
+// The handler has to match the Handler type, but it has no use for id.
+// The code does not compile: the signature does not match the type.
+// Practices function types and the blank identifier in a parameter list.
 package main_test
 
 import "testing"

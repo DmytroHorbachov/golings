@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isInteger должна вернуть true для значения, пришедшего как обычная целая константа.
-// Сейчас проверка на int64 не срабатывает.
-// Тренирует: нетипизированная константа в interface{} получает тип int.
-// Сложность: hard
+// isInteger must return true for a value that arrived as a plain integer constant.
+// Right now the check for an int64 never matches.
+// An untyped constant put in an interface{} takes the type int.
 package main_test
 
 import "testing"

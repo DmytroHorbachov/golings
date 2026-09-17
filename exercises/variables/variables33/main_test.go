@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция configure должна установить глобальный уровень логирования.
-// После вызова глобальная переменная не меняется.
-// Тренирует: локальная переменная скрывает одноимённую переменную пакета.
-// Сложность: hard
+// configure must set the global log level.
+// The global variable is unchanged after the call.
+// A local variable shadows the package variable of the same name.
 package main_test
 
 import "testing"

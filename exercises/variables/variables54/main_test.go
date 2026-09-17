@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция parseAmount должна вернуть число и признак успешного разбора.
-// Тренирует: strconv.ParseFloat и работу с несколькими результатами.
-// Сложность: medium
+// parseAmount must return a number along with whether it was parsed successfully.
+// Practices strconv.ParseFloat and working with several results.
 package main_test
 
 import (

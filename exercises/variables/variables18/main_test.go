@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция indexOf должна вернуть индекс первого вхождения символа или -1.
-// Сейчас она всегда возвращает начальное значение i.
-// Тренирует: := в заголовке for создаёт новую переменную.
-// Сложность: hard
+// indexOf must return the index of the first occurrence of a character, or -1.
+// Right now it always returns the initial value of i.
+// A := in a for header declares a new variable.
 package main_test
 
 import "testing"

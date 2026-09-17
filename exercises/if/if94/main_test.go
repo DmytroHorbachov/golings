@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// ageGroup возвращает "child" (<13), "teen" (13–17), "adult" (18+)
-// и ошибку для отрицательного возраста или возраста больше 150.
-// Тренирует: валидацию входа перед основной логикой.
-// Сложность: medium
+// ageGroup returns "child" (<13), "teen" (13-17) or "adult" (18+),
+// and an error for a negative age or an age above 150.
+// Practices validating the input before the main logic.
 package main_test
 
 import (

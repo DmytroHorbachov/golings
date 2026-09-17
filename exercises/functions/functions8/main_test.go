@@ -3,11 +3,10 @@
 
 // I AM NOT DONE
 //
-// readAll возвращает данные и закрывает файл в defer.
-// Ошибка чтения не должна теряться, а ошибка закрытия должна возвращаться,
-// только если других ошибок не было.
-// Тренирует: изменение именованного результата в defer без затирания ошибки.
-// Сложность: hard
+// readAll returns the data and closes the file in a defer.
+// A read error must not be lost, and the close error must only be returned
+// when nothing else went wrong.
+// Practices changing a named result in a defer without clobbering the error.
 package main_test
 
 import (

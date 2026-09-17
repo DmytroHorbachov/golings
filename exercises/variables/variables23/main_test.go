@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть, сколько товара осталось на складе, но не меньше нуля.
-// Когда заказ больше остатка, получается огромное число.
-// Тренирует: переполнение беззнаковых типов при вычитании.
-// Сложность: hard
+// This function must return how much stock is left, but never less than zero.
+// When the order is larger than the stock the result is a huge number.
+// Practices unsigned overflow on subtraction.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reduce(nums, init, f) сворачивает срез, начиная с init: f(f(init, a0), a1)...
-// Тренирует: функцию-аккумулятор.
-// Сложность: medium
+// reduce(nums, init, f) folds the slice starting from init: f(f(init, a0), a1)...
+// Practices an accumulator function.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// subsets должна вернуть все подмножества чисел (перебор с возвратом).
-// Результат содержит испорченные подмножества.
-// Тренирует: сохранённый срез разделяет массив с изменяемым буфером.
-// Сложность: hard
+// subsets must return every subset of the numbers, using backtracking.
+// The result holds damaged subsets.
+// A stored slice shares its array with the buffer that keeps changing.
 package main_test
 
 import (

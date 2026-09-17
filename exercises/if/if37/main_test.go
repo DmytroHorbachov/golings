@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shippingCost: до 1 кг — 200, до 5 кг — 400, тяжелее — 400 + 100 за каждый
-// полный килограмм сверх 5. Экспресс-доставка удваивает цену.
-// Тренирует: сочетание ветвления и модификатора.
-// Сложность: medium
+// shippingCost: up to 1 kg is 200, up to 5 kg is 400, heavier is 400 plus 100 for every
+// whole kilogram over 5. Express delivery doubles the price.
+// Practices combining a branch with a modifier.
 package main_test
 
 import "testing"

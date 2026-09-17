@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// transfer пишет в журнал "begin", затем, если нужна блокировка, "lock",
-// работу и "unlock" сразу после неё — до "end".
-// Тренирует: defer откладывает вызов до конца функции, а не блока if.
-// Сложность: hard
+// transfer logs "begin", then "lock" when a lock is needed, the work,
+// and "unlock" right after it, before "end".
+// A defer waits for the end of the function, not the end of the if block.
 package main_test
 
 import (

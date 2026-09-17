@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isOpen должна вернуть true, если момент t попадает в интервал [open, close).
-// Тренирует: сравнение time.Time методами Before и After.
-// Сложность: medium
+// isOpen must return true when the moment t falls in the interval [open, close).
+// Practices comparing time.Time values with Before and After.
 package main_test
 
 import (

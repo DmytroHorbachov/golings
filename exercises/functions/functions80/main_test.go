@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// compose(f, g) должна вернуть функцию x -> f(g(x)).
-// Тренирует: композицию функций.
-// Сложность: easy
+// compose(f, g) must return the function x -> f(g(x)).
+// Practices function composition.
 package main_test
 
 import "testing"

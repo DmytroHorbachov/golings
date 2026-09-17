@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// search(nums, target, lo, hi) ищет target в отсортированном срезе на отрезке [lo, hi).
-// Возвращает индекс или -1.
-// Тренирует: рекурсию с сужением диапазона.
-// Сложность: medium
+// search(nums, target, lo, hi) looks for target in the sorted slice over [lo, hi).
+// It returns the index, or -1.
+// Practices recursion with a shrinking range.
 package main_test
 
 import "testing"

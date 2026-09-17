@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// render собирает текст, передавая strings.Builder во вспомогательную функцию.
-// Код паникует: «illegal use of non-zero Builder copied by value».
-// Тренирует: некоторые типы нельзя копировать после начала использования.
-// Сложность: hard
+// render builds text by passing a strings.Builder to a helper function.
+// The code panics: "illegal use of non-zero Builder copied by value".
+// Some types must not be copied once they are in use.
 package main_test
 
 import (

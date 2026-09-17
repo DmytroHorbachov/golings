@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bmiCategory: меньше 18.5 — "under", от 25 — "over", иначе "normal".
-// Тренирует: ветвление по дробным порогам.
-// Сложность: easy
+// bmiCategory: below 18.5 is "under", 25 and above is "over", the rest is "normal".
+// Practices branching on fractional thresholds.
 package main_test
 
 import "testing"

@@ -3,10 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть стартовый баланс нового счёта — 100.
-// Переменная объявлена через var без инициализации и получает нулевое значение.
-// Тренирует: объявление переменной с начальным значением.
-// Сложность: easy
+// This function must return the starting balance of a new account, which is 100.
+// The variable is declared with var and no initializer, so it holds the zero value.
 package main_test
 
 import "testing"

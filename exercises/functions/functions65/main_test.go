@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// greet(name, punct...) использует первый необязательный аргумент как знак препинания,
-// а по умолчанию ставит ".".
-// Тренирует: вариативный параметр как способ задать необязательный аргумент.
-// Сложность: easy
+// greet(name, punct...) uses the first optional argument as the punctuation
+// and falls back to ".".
+// A variadic parameter as a way to offer an optional argument.
 package main_test
 
 import "testing"

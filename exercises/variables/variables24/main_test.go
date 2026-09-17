@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Константа White должна быть равна 0xFFFFFF (16777215).
-// Тренирует: шестнадцатеричные целочисленные литералы.
-// Сложность: easy
+// The constant White must be 0xFFFFFF (16777215).
+// Practices hexadecimal integer literals.
 package main_test
 
 import "testing"

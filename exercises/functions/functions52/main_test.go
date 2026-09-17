@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Names должна вернуть список имён так, чтобы вызывающий не мог
-// испортить внутреннее состояние реестра.
-// Тренирует: возврат среза отдаёт доступ к внутреннему массиву.
-// Сложность: hard
+// Names must return the list of names so that the caller cannot
+// damage the internal state of the registry.
+// Returning a slice hands out access to the internal array.
 package main_test
 
 import "testing"

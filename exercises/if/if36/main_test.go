@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseOrZero должна вернуть число из строки, а при ошибке — 0.
-// Условие проверки ошибки перевёрнуто.
-// Тренирует: идиому if err != nil.
-// Сложность: easy
+// parseOrZero must return the number held in a string, or 0 on an error.
+// The error check is the wrong way round.
+// Practices the if err != nil idiom.
 package main_test
 
 import (

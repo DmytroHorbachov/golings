@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна передать адрес настройки maxRetries в функцию, которая её меняет.
-// Код не компилируется: у константы нет адреса.
-// Тренирует: разницу между const и var.
-// Сложность: easy
+// This function must pass the address of the maxRetries setting to a function that changes it.
+// The code does not compile: a constant has no address.
+// Practices the difference between const and var.
 package main_test
 
 import "testing"

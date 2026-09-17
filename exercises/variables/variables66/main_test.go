@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть скидку: 10 для суммы от 1000, иначе 0.
-// Переменная объявлена внутри блока if и снаружи недоступна.
-// Тренирует: области видимости переменных.
-// Сложность: medium
+// This function must return the discount: 10 for a total of 1000 or more, 0 otherwise.
+// The variable is declared inside the if block and is out of reach outside it.
+// Practices variable scope.
 package main_test
 
 import "testing"

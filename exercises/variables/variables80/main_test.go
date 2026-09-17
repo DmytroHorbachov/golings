@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть среднее двух целых чисел как float64.
-// Сейчас деление выполняется над целыми, и дробная часть теряется.
-// Тренирует: явное преобразование типов перед арифметикой.
-// Сложность: easy
+// This function must return the average of two integers as a float64.
+// The division is done on integers right now and the fractional part is lost.
+// Practices explicit conversions before arithmetic.
 package main_test
 
 import "testing"

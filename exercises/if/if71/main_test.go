@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fits должна проверить, что used + size не превышает limit.
-// Для огромных значений проверка пропускает переполнение.
-// Тренирует: переполнение внутри условия if.
-// Сложность: hard
+// fits must check that used + size does not go over limit.
+// For huge values the check misses the overflow.
+// Practices overflow inside an if condition.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция findUser должна вернуть указатель на пользователя В СРЕЗЕ,
-// чтобы изменение через указатель было видно в исходных данных.
-// Тренирует: переменная range — копия элемента, а не сам элемент.
-// Сложность: hard
+// findUser must return a pointer to the user IN THE SLICE,
+// so that a change made through the pointer shows up in the original data.
+// The range variable is a copy of the element, not the element itself.
 package main_test
 
 import "testing"

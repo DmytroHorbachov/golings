@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// newer должна сравнить номера сборок, записанные строками без ведущих нулей.
-// "10" должна быть новее, чем "9".
-// Тренирует: строки сравниваются лексикографически, байт за байтом.
-// Сложность: hard
+// newer must compare build numbers written as strings with no leading zeros.
+// "10" has to be newer than "9".
+// Strings compare lexicographically, byte by byte.
 package main_test
 
 import (

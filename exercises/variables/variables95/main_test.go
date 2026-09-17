@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна увеличить значение и вернуть его. Код не компилируется.
-// Тренирует: := требует хотя бы одну новую переменную слева.
-// Сложность: easy
+// This function must increment the value and return it. The code does not compile.
+// := needs at least one new variable on the left.
 package main_test
 
 import "testing"

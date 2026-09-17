@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция square должна возвращать квадрат числа.
-// Оператор ^ выглядит как возведение в степень, но это не так.
-// Тренирует: побитовые операторы Go.
-// Сложность: hard
+// square must return the square of a number.
+// The ^ operator looks like exponentiation, but it is not.
+// Practices the bitwise operators of Go.
 package main_test
 
 import "testing"

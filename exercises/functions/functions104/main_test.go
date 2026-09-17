@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// execute должна найти команду по имени и выполнить её,
-// а для неизвестной команды вернуть "unknown command".
-// Тренирует: map[string]func и проверку наличия ключа.
-// Сложность: medium
+// execute must look a command up by name and run it,
+// returning "unknown command" for an unknown one.
+// Practices map[string]func and checking whether a key is present.
 package main_test
 
 import "testing"

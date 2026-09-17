@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// canEdit: редактировать могут администратор или владелец, но только
-// если документ не заблокирован.
-// Тренирует: && имеет более высокий приоритет, чем ||.
-// Сложность: hard
+// canEdit: an administrator or the owner may edit, but only
+// while the document is not locked.
+// && binds tighter than ||.
 package main_test
 
 import "testing"

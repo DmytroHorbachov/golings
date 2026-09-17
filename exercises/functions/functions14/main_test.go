@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// missingKey должна достать ключ из ошибки NotFound в цепочке.
-// Ошибка есть, но errors.As её не находит.
-// Тренирует: тип цели в errors.As должен точно совпадать с типом ошибки в цепочке.
-// Сложность: hard
+// missingKey must pull the key out of a NotFound error in the chain.
+// The error is there, yet errors.As does not find it.
+// The target type of errors.As has to match the error in the chain exactly.
 package main_test
 
 import (

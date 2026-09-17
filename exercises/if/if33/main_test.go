@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// oddSum должна вернуть true, если сумма двух чисел нечётна.
-// Тренирует: условие с арифметическим выражением.
-// Сложность: easy
+// oddSum must return true when the sum of two numbers is odd.
+// Practices a condition over an arithmetic expression.
 package main_test
 
 import "testing"

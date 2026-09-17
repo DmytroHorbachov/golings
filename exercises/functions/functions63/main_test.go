@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// bumpAll увеличивает все счётчики через интерфейс Incrementer.
-// Методы вызываются, но значения не меняются.
-// Тренирует: метод со значимым получателем работает с копией.
-// Сложность: hard
+// bumpAll increments every counter through the Incrementer interface.
+// The methods are called, yet the values stay put.
+// A method with a value receiver works on a copy.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна посчитать количество гласных в строке.
-// Тренирует: оператор ++ как инструкцию.
-// Сложность: easy
+// This function must count the vowels in a string.
+// Practices the ++ statement.
 package main_test
 
 import (

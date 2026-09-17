@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// abs должна вернуть модуль целого числа.
-// Тренирует: условное изменение значения.
-// Сложность: easy
+// abs must return the absolute value of an integer.
+// Practices changing a value conditionally.
 package main_test
 
 import "testing"

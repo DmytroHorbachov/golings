@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fib должна использовать кэш, переданный в параметре, и работать быстро для n=80.
-// Сейчас кэш не заполняется и не читается.
-// Тренирует: передачу map в функцию и рекурсию с мемоизацией.
-// Сложность: medium
+// fib must use the cache it is given and stay fast for n=80.
+// Right now the cache is neither filled nor read.
+// Practices passing a map into a function and memoized recursion.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// checkout возвращает причину отказа или "ok".
-// Проверки: пользователь вошёл, корзина не пуста, денег достаточно — именно в этом порядке.
-// Тренирует: guard clauses вместо вложенных if.
-// Сложность: medium
+// checkout returns the reason for a refusal, or "ok".
+// The checks are: the user is signed in, the cart is not empty, there is enough money, in that order.
+// Practices guard clauses instead of nested ifs.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// percent должна ограничить значение диапазоном 0..100.
-// Тренирует: последовательные if для нижней и верхней границы.
-// Сложность: easy
+// percent must clamp a value to the range 0..100.
+// Practices successive ifs for the lower and the upper bound.
 package main_test
 
 import "testing"

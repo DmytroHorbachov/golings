@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// inside должна проверить, лежит ли точка (x, y) внутри прямоугольника
-// от (0, 0) до (w, h), включая границы.
-// Тренирует: составные условия по двум координатам.
-// Сложность: easy
+// inside must check whether the point (x, y) lies within the rectangle
+// from (0, 0) to (w, h), borders included.
+// Practices compound conditions over two coordinates.
 package main_test
 
 import "testing"

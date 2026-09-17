@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функции переводят километры в мили и обратно.
-// Коэффициент задан неверно, и один перевод перепутан.
-// Тренирует: именованные типы, константы и преобразования.
-// Сложность: medium
+// The functions convert kilometres to miles and back.
+// The factor is wrong, and one of the conversions is the wrong way round.
+// Practices named types, constants and conversions.
 package main_test
 
 import (

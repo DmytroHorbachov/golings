@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция reverse должна развернуть строку с любыми символами Unicode.
-// Для "привет" получается мусор.
-// Тренирует: строка — это байты UTF-8, а символ — это rune.
-// Сложность: hard
+// reverse must reverse a string containing any Unicode characters.
+// "привет" comes out as garbage.
+// A string is UTF-8 bytes, while a character is a rune.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// waterState должна вернуть "ice" ниже 0, "steam" от 100, иначе "water".
-// Тренирует: цепочку условий с граничными значениями.
-// Сложность: easy
+// waterState must return "ice" below 0, "steam" from 100 up, and "water" in between.
+// Practices a chain of conditions around boundary values.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// hasAll должна вернуть true, только если установлены ВСЕ биты из mask.
-// Сейчас хватает одного совпавшего бита.
-// Тренирует: разницу между flags&mask != 0 и flags&mask == mask.
-// Сложность: hard
+// hasAll must return true only when EVERY bit of mask is set.
+// Right now a single matching bit is enough.
+// Practices the difference between flags&mask != 0 and flags&mask == mask.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Коды ответа должны быть: OK=0, (1 пропущен), NotFound=2, Forbidden=3.
-// Тренирует: пропуск значений iota с помощью _.
-// Сложность: easy
+// The status codes must be OK=0, (1 skipped), NotFound=2, Forbidden=3.
+// Practices skipping iota values with _.
 package main_test
 
 import "testing"

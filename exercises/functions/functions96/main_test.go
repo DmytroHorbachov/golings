@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// depositAll должна пополнить все счета в map.
-// Код не компилируется: у элемента map нельзя вызвать метод с указателем.
-// Тренирует: элементы map не адресуемы.
-// Сложность: hard
+// depositAll must top up every account in the map.
+// The code does not compile: a pointer method cannot be called on a map element.
+// Map elements are not addressable.
 package main_test
 
 import "testing"

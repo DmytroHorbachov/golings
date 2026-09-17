@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// absInt64 возвращает модуль числа или ошибку, если модуль не представим.
-// Для math.MinInt64 функция возвращает отрицательное число без ошибки.
-// Тренирует: -MinInt64 переполняется и снова равен MinInt64.
-// Сложность: hard
+// absInt64 returns the absolute value, or an error when it cannot be represented.
+// For math.MinInt64 it currently returns a negative number and no error.
+// -MinInt64 overflows and comes back as MinInt64 again.
 package main_test
 
 import (

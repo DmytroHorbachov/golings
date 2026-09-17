@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countNodes считает узлы дерева с помощью рекурсивной анонимной функции.
-// Код не компилируется: функция ссылается на себя до объявления.
-// Тренирует: объявление переменной-функции до присваивания рекурсивного литерала.
-// Сложность: hard
+// countNodes counts the nodes of a tree with a recursive anonymous function.
+// The code does not compile: the function refers to itself before it is declared.
+// Practices declaring a function variable before assigning a recursive literal.
 package main_test
 
 import "testing"

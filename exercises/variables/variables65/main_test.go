@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция hypot должна вернуть длину гипотенузы для целых катетов.
-// Код не компилируется: math.Sqrt принимает float64.
-// Тренирует: явные преобразования числовых типов.
-// Сложность: easy
+// hypot must return the length of the hypotenuse for integer sides.
+// The code does not compile: math.Sqrt takes a float64.
+// Practices explicit numeric conversions.
 package main_test
 
 import (

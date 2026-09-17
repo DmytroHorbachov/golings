@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isImage должна вернуть true для файлов с расширением .png.
-// Тренирует: strings.HasSuffix в условии.
-// Сложность: easy
+// isImage must return true for files with the .png extension.
+// Practices strings.HasSuffix in a condition.
 package main_test
 
 import (

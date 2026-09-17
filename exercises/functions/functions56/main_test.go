@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minOf должна вернуть минимум аргументов или ошибку, если аргументов нет.
-// Тренирует: вариативные функции и возврат (значение, error).
-// Сложность: medium
+// minOf must return the smallest argument, or an error when there are none.
+// Practices variadic functions and returning (value, error).
 package main_test
 
 import (

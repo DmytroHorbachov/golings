@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть длительность тайм-аута: seconds секунд.
-// Сейчас умножаются значения разных типов.
-// Тренирует: преобразование к именованному типу time.Duration.
-// Сложность: easy
+// This function must return a timeout of seconds seconds.
+// Values of different types are being multiplied.
+// Practices converting to the named type time.Duration.
 package main_test
 
 import (

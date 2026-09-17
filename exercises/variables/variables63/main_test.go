@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функции должны вернуть значения с типами int и float64 соответственно.
-// Тип переменной выводится из литерала, и сейчас он не тот.
-// Тренирует: вывод типа при := из нетипизированных констант.
-// Сложность: medium
+// The functions must return values of type int and float64 respectively.
+// The type of a variable is inferred from the literal, and right now it is the wrong one.
+// Practices type inference with := from untyped constants.
 package main_test
 
 import (

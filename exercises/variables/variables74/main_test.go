@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция swapPtr должна поменять местами значения, на которые указывают a и b.
-// Сейчас меняются только локальные копии указателей.
-// Тренирует: разыменование указателей при присваивании.
-// Сложность: easy
+// swapPtr must swap the values that a and b point to.
+// Right now only the local copies of the pointers are swapped.
+// Practices dereferencing pointers in an assignment.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Константы KB, MB, GB должны быть степенями 1024.
-// Тренирует: iota вместе с побитовым сдвигом.
-// Сложность: easy
+// The constants KB, MB and GB must be powers of 1024.
+// Practices iota together with a bit shift.
 package main_test
 
 import "testing"

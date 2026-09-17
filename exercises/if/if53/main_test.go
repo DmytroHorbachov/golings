@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// at должна вернуть элемент по индексу или "", если индекс вне диапазона.
-// Для индекса, равного длине, функция паникует.
-// Тренирует: границы допустимых индексов в условии.
-// Сложность: hard
+// at must return the element at an index, or "" when the index is out of range.
+// For an index equal to the length it panics.
+// Practices the bounds of the valid indexes in a condition.
 package main_test
 
 import "testing"

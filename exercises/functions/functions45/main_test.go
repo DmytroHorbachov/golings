@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isEven и isOdd определены друг через друга для неотрицательных n.
-// Сейчас базовые случаи и вызовы перепутаны.
-// Тренирует: взаимно рекурсивные функции.
-// Сложность: medium
+// isEven and isOdd are defined in terms of each other for non-negative n.
+// The base cases and the calls are muddled up.
+// Practices mutually recursive functions.
 package main_test
 
 import "testing"

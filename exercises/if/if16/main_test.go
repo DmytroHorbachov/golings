@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isOdd должна корректно работать и для отрицательных чисел.
-// Для -3 сейчас возвращается false.
-// Тренирует: знак остатка от деления в Go.
-// Сложность: hard
+// isOdd must work for negative numbers too.
+// For -3 it currently returns false.
+// Practices the sign of the remainder operator in Go.
 package main_test
 
 import "testing"

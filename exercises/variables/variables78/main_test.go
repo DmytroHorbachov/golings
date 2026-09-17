@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть наибольшее значение int32.
-// Тренирует: предопределённые константы пакета math.
-// Сложность: easy
+// This function must return the largest int32 value.
+// Practices the predefined constants of the math package.
 package main_test
 
 import (

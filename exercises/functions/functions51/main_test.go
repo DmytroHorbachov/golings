@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция steps должна вернуть журнал: "start", "work", "cleanup 2", "cleanup 1".
-// Тренирует: отложенные вызовы выполняются в обратном порядке (LIFO).
-// Сложность: easy
+// steps must return the log "start", "work", "cleanup 2", "cleanup 1".
+// Deferred calls run in reverse order (LIFO).
 package main_test
 
 import (

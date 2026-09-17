@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// place должна поставить отметку на игровом поле.
-// После вызовов поле остаётся пустым.
-// Тренирует: массивы (в отличие от срезов) копируются при передаче в функцию.
-// Сложность: hard
+// place must put a mark on the board.
+// The board stays empty after the calls.
+// Arrays, unlike slices, are copied when passed to a function.
 package main_test
 
 import "testing"

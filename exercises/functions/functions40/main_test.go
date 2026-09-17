@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isTimeout должна распознать ErrTimeout, даже если ошибка обёрнута.
-// Тренирует: errors.Is вместо сравнения через ==.
-// Сложность: easy
+// isTimeout must recognize ErrTimeout even when the error is wrapped.
+// Practices errors.Is instead of a comparison with ==.
 package main_test
 
 import (

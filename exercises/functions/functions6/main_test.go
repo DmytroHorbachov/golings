@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortPeople должна упорядочить людей по возрасту, а при равном возрасте — по имени.
-// Тренирует: функцию сравнения с несколькими критериями.
-// Сложность: medium
+// sortPeople must order people by age, and by name when the ages are equal.
+// Practices a comparison function with several criteria.
 package main_test
 
 import (

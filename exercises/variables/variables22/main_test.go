@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Дни недели заданы через iota, а метод String должен возвращать их названия.
-// Сейчас нумерация и таблица имён не совпадают.
-// Тренирует: iota, именованные типы и методы у них.
-// Сложность: easy
+// The days of the week are declared with iota, and the String method must return their names.
+// The numbering and the name table do not line up.
+// Practices iota, named types and methods on them.
 package main_test
 
 import "testing"

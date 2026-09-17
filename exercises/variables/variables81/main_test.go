@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция rect должна вернуть площадь и периметр прямоугольника 3 на 4.
-// Тренирует: объявление нескольких переменных одной инструкцией var.
-// Сложность: medium
+// rect must return the area and the perimeter of a 3 by 4 rectangle.
+// Practices declaring several variables in one var statement.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция reset должна обнулить переданный счётчик.
-// Сейчас она работает с копией значения.
-// Тренирует: указатели и изменение переменной через них.
-// Сложность: medium
+// reset must zero the counter it is given.
+// Right now it works on a copy of the value.
+// Practices pointers and changing a variable through one.
 package main_test
 
 import "testing"

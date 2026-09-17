@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция pageSize принимает *int: nil означает «использовать 20».
-// Сейчас при nil функция паникует.
-// Тренирует: нулевое значение указателя и проверку на nil.
-// Сложность: medium
+// pageSize takes a *int, where nil means "use 20".
+// Right now it panics on nil.
+// Practices the zero value of a pointer and the nil check.
 package main_test
 
 import "testing"

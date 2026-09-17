@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция revoke должна снимать флаг, независимо от того, был ли он установлен.
-// Повторный вызов сейчас снова включает флаг.
-// Тренирует: оператор сброса битов &^ и отличие от XOR.
-// Сложность: hard
+// revoke must clear a flag whether or not it was set.
+// Calling it twice currently turns the flag back on.
+// Practices the bit clear operator &^ and how it differs from XOR.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// При успешной проверке validateAge должна возвращать nil.
-// Тренирует: соглашение о возврате ошибок в Go.
-// Сложность: easy
+// validateAge must return nil when the check passes.
+// Practices the error returning convention of Go.
 package main_test
 
 import (

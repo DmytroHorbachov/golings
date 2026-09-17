@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция хранит идентификаторы как float32 и сравнивает их.
-// Разные большие идентификаторы вдруг оказываются равными.
-// Тренирует: ограниченная точность float32 для целых чисел.
-// Сложность: hard
+// The function stores identifiers as float32 and compares them.
+// Different large identifiers suddenly compare as equal.
+// Practices the limited precision of float32 for integers.
 package main_test
 
 import "testing"

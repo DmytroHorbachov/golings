@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть долю выполненных задач в процентах (0..100).
-// Для 1 из 3 ожидается 33, а получается 0.
-// Тренирует: порядок операций при целочисленном делении.
-// Сложность: hard
+// This function must return the share of finished tasks as a percentage (0..100).
+// For 1 out of 3 the expected result is 33, but it comes out as 0.
+// Practices the order of operations in integer division.
 package main_test
 
 import "testing"

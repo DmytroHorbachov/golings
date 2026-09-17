@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Каждый счётчик, созданный newCounter, должен считать независимо.
-// Сейчас все счётчики делят одно значение.
-// Тренирует: время жизни переменных и захват в замыкании.
-// Сложность: hard
+// Every counter made by newCounter must count on its own.
+// Right now all the counters share one value.
+// Practices variable lifetime and capture in a closure.
 package main_test
 
 import "testing"

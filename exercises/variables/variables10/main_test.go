@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция toggle должна инвертировать булево значение.
-// Тренирует: логическое отрицание и нулевое значение bool.
-// Сложность: easy
+// toggle must invert a boolean value.
+// Practices logical negation and the zero value of a bool.
 package main_test
 
 import "testing"

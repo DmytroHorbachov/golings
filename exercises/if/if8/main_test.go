@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// max3 должна вернуть наибольшее из трёх чисел.
-// Тренирует: последовательные if с обновлением результата.
-// Сложность: easy
+// max3 must return the largest of three numbers.
+// Practices successive ifs updating a result.
 package main_test
 
 import "testing"

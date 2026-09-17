@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// safely должна перехватить панику и вернуть false.
-// recover вызывается во вспомогательной функции, и паника не перехватывается.
-// Тренирует: recover работает, только если вызван непосредственно отложенной функцией.
-// Сложность: hard
+// safely must recover from a panic and return false.
+// recover is called in a helper function, so the panic is not caught.
+// recover only works when the deferred function calls it directly.
 package main_test
 
 import "testing"

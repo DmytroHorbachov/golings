@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Команда help перечисляет все команды из той же таблицы, в которой записана сама.
-// Код не компилируется: «initialization cycle».
-// Тренирует: порядок инициализации переменных пакета и функции init.
-// Сложность: hard
+// The help command lists every command of the very table it is stored in.
+// The code does not compile: "initialization cycle".
+// Practices the initialization order of package variables and the init function.
 package main_test
 
 import (

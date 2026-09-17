@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// add(a)(b)(c) должна вернуть a+b+c.
-// Тренирует: функции, возвращающие функции, возвращающие функции.
-// Сложность: easy
+// add(a)(b)(c) must return a+b+c.
+// Practices functions returning functions returning functions.
 package main_test
 
 import "testing"

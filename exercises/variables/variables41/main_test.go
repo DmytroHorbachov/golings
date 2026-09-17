@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция parsePort возвращает номер порта и ошибку через именованные результаты.
-// Код не компилируется: компилятор жалуется на затенённые результаты.
-// Тренирует: именованные возвращаемые значения и затенение при голом return.
-// Сложность: hard
+// parsePort returns a port number and an error through named results.
+// The code does not compile: the compiler complains about shadowed results.
+// Practices named return values and shadowing with a naked return.
 package main_test
 
 import (

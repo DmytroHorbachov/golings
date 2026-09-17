@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isTriangle должна проверить неравенство треугольника для сторон a, b, c.
-// Тренирует: составные условия из нескольких сравнений.
-// Сложность: easy
+// isTriangle must check the triangle inequality for the sides a, b and c.
+// Practices compound conditions made of several comparisons.
 package main_test
 
 import "testing"

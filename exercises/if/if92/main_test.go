@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isBlank должна вернуть true для строки, состоящей только из пробелов, или пустой.
-// Тренирует: условие с вызовом функции.
-// Сложность: easy
+// isBlank must return true for a string made of spaces only, and for an empty one.
+// Practices a condition with a function call.
 package main_test
 
 import (

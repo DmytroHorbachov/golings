@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Переменная config должна содержать результат анонимной функции, а не саму функцию.
-// Код не компилируется.
-// Тренирует: немедленно вызываемые функциональные литералы.
-// Сложность: easy
+// The variable config must hold the result of the anonymous function, not the function itself.
+// The code does not compile.
+// Practices immediately invoked function literals.
 package main_test
 
 import "testing"

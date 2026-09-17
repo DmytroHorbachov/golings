@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция safeRatio должна вернуть 0, если знаменатель равен нулю.
-// Сейчас проверка есть, но функция продолжает выполнение.
-// Тренирует: ранний return (guard clause).
-// Сложность: easy
+// safeRatio must return 0 when the denominator is zero.
+// The check is there, but the function carries on regardless.
+// Practices the early return (guard clause).
 package main_test
 
 import "testing"

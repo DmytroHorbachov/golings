@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortDesc должна отсортировать числа по убыванию.
-// Тренирует: передачу функции сравнения в sort.Slice.
-// Сложность: easy
+// sortDesc must sort the numbers in descending order.
+// Practices passing a comparison function to sort.Slice.
 package main_test
 
 import (

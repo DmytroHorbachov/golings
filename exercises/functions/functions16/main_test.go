@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// normalized должна вернуть значения, делённые на максимум, НЕ меняя срез вызывающего.
-// Сейчас исходный срез тоже меняется.
-// Тренирует: при вызове f(s...) параметр разделяет массив с s.
-// Сложность: hard
+// normalized must return the values divided by the maximum WITHOUT changing the caller's slice.
+// Right now the original slice changes too.
+// In a call f(s...) the parameter shares the array with s.
 package main_test
 
 import (

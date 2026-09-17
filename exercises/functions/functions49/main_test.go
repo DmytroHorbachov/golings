@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// applyAll применяет функцию к каждой строке. Нужно получить верхний регистр.
-// Тренирует: передачу функций стандартной библиотеки как значений.
-// Сложность: easy
+// applyAll applies a function to every string. Upper case is what is wanted.
+// Practices passing standard library functions as values.
 package main_test
 
 import (

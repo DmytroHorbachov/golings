@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// samePoint должна сравнивать точки по координатам.
-// Для разных, но одинаковых по значению точек возвращается false.
-// Тренирует: == на указателях сравнивает адреса, а не значения.
-// Сложность: hard
+// samePoint must compare points by their coordinates.
+// For distinct points holding equal values it returns false.
+// == on pointers compares addresses, not values.
 package main_test
 
 import "testing"

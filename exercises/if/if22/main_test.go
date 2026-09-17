@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isNotFound должна распознавать ошибку ErrNotFound.
-// Проверка создаёт новую ошибку с тем же текстом и сравнивает с ней.
-// Тренирует: каждый вызов errors.New создаёт уникальное значение.
-// Сложность: hard
+// isNotFound must recognize the ErrNotFound error.
+// The check builds a new error with the same text and compares against that.
+// Every call of errors.New creates a distinct value.
 package main_test
 
 import (

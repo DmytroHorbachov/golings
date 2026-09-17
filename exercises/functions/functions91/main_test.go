@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// retry должна вызывать f до успеха, но не больше attempts раз,
-// и вернуть последнюю ошибку, если все попытки неудачны.
-// Тренирует: передачу функций и управление циклом по результату.
-// Сложность: medium
+// retry must call f until it succeeds, but no more than attempts times,
+// and return the last error when every attempt fails.
+// Practices passing functions and driving a loop by a result.
 package main_test
 
 import (

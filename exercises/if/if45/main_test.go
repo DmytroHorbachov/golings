@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// nameOf должна вернуть имя пользователя или "anonymous" для nil.
-// Тренирует: проверку указателя перед обращением к полю.
-// Сложность: easy
+// nameOf must return the name of the user, or "anonymous" for nil.
+// Practices checking a pointer before reaching for a field.
 package main_test
 
 import "testing"

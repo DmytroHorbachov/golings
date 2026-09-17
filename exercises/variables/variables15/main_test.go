@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна записать в журнал ИТОГОВОЕ значение счётчика при выходе.
-// В журнал попадает начальное значение.
-// Тренирует: аргументы отложенного вызова вычисляются в момент defer.
-// Сложность: hard
+// This function must log the FINAL value of the counter when it returns.
+// The initial value is logged instead.
+// The arguments of a deferred call are evaluated at the defer statement.
 package main_test
 
 import "testing"

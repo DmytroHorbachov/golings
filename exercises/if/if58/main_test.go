@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// describe должна вернуть строку в верхнем регистре, если значение — строка,
-// иначе "not a string". Сейчас на числе функция паникует.
-// Тренирует: форма v, ok := x.(T) не паникует при несовпадении типа.
-// Сложность: hard
+// describe must return the string in upper case when the value is a string,
+// and "not a string" otherwise. Right now a number makes it panic.
+// The v, ok := x.(T) form does not panic on a type mismatch.
 package main_test
 
 import (

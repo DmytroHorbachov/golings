@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция pages должна вернуть число страниц для total элементов по perPage на странице.
-// Неполная страница тоже считается.
-// Тренирует: целочисленное деление с округлением вверх.
-// Сложность: medium
+// pages must return the number of pages for total items at perPage per page.
+// A partial page counts as a page too.
+// Practices integer division rounding up.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция bitInfo должна вернуть количество единичных битов и длину числа в битах.
-// Тренирует: пакет math/bits и беззнаковые типы.
-// Сложность: medium
+// bitInfo must return the number of set bits and the length of the number in bits.
+// Practices the math/bits package and unsigned types.
 package main_test
 
 import (

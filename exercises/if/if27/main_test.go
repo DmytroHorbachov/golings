@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// close должна считать числа равными, если они отличаются меньше чем на 0.001.
-// Тренирует: сравнение float с допуском в условии.
-// Сложность: easy
+// close must treat numbers that differ by less than 0.001 as equal.
+// Practices comparing floats with a tolerance.
 package main_test
 
 import (

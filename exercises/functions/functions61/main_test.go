@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseAll должна вернуть либо все числа, либо nil и ошибку.
-// При ошибке сейчас возвращаются уже разобранные числа.
-// Тренирует: после recover именованные результаты содержат промежуточные значения.
-// Сложность: hard
+// parseAll must return either all the numbers, or nil and an error.
+// On an error it currently returns the numbers parsed so far.
+// After a recover the named results still hold their intermediate values.
 package main_test
 
 import (

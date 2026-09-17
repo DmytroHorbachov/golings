@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// joinAll должна передать все строки в fmt.Sprint как отдельные аргументы.
-// Код не компилируется.
-// Тренирует: []T нельзя передать как ...interface{}, даже если T подходит.
-// Сложность: hard
+// joinAll must pass every string to fmt.Sprint as a separate argument.
+// The code does not compile.
+// A []T cannot be passed as ...interface{}, even when T would fit.
 package main_test
 
 import (

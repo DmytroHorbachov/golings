@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// startsWithE проверяет, что строка начинается с буквы 'é'.
-// Сравнение первого байта никогда не срабатывает.
-// Тренирует: s[0] — байт UTF-8, а не символ.
-// Сложность: hard
+// startsWithE checks that a string starts with the letter 'é'.
+// Comparing the first byte never matches.
+// s[0] is a UTF-8 byte, not a character.
 package main_test
 
 import (

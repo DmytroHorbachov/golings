@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция formatPrice должна вернуть цену ровно с двумя знаками после запятой.
-// Тренирует: strconv.FormatFloat и его параметры.
-// Сложность: easy
+// formatPrice must return the price with exactly two decimal places.
+// Practices strconv.FormatFloat and its parameters.
 package main_test
 
 import (

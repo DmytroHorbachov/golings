@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Калькулятор хранит функции в map по символу операции.
-// Две операции привязаны не к тем функциям.
-// Тренирует: функции как значения в map.
-// Сложность: medium
+// The calculator keeps its functions in a map keyed by the operator symbol.
+// Two of the operators are wired to the wrong functions.
+// Practices functions as map values.
 package main_test
 
 import "testing"

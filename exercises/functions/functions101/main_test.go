@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// fibGen должна вернуть функцию, которая при каждом вызове выдаёт следующее
-// число Фибоначчи: 0, 1, 1, 2, 3, 5...
-// Тренирует: замыкания, хранящие состояние между вызовами.
-// Сложность: medium
+// fibGen must return a function that hands out the next Fibonacci number
+// on every call: 0, 1, 1, 2, 3, 5 and so on.
+// Practices closures that keep state between calls.
 package main_test
 
 import "testing"

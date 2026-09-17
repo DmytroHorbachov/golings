@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// walk обходит дерево в прямом порядке и вызывает visit для каждого узла.
-// Сейчас обход пропускает правые поддеревья и посещает узел после детей.
-// Тренирует: callback-функции и рекурсию по дереву.
-// Сложность: medium
+// walk traverses the tree in preorder and calls visit for every node.
+// Right now it skips the right subtrees and visits a node after its children.
+// Practices callback functions and recursion over a tree.
 package main_test
 
 import (

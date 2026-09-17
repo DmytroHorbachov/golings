@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция tax должна вернуть налог 20% от цены в копейках (с усечением).
-// Код не компилируется: дробная константа не может участвовать в int-выражении.
-// Тренирует: нетипизированные константы и явные преобразования.
-// Сложность: easy
+// tax must return 20% tax on a price in cents, truncated.
+// The code does not compile: a fractional constant cannot take part in an int expression.
+// Practices untyped constants and explicit conversions.
 package main_test
 
 import "testing"

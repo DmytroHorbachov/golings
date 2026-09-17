@@ -3,10 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция minTemp должна вернуть минимальную температуру, а для пустого
-// среза — +Inf. Сейчас для положительных температур возвращается 0.
-// Тренирует: специальные значения float64 и начальное значение переменной.
-// Сложность: medium
+// minTemp must return the lowest temperature, and +Inf for an empty slice.
+// Right now it returns 0 for positive temperatures.
 package main_test
 
 import (

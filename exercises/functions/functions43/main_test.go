@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// digitSum должна рекурсивно вычислять сумму цифр неотрицательного числа.
-// Тренирует: рекурсию и целочисленную арифметику.
-// Сложность: easy
+// digitSum must compute the digit sum of a non-negative number recursively.
+// Practices recursion and integer arithmetic.
 package main_test
 
 import "testing"

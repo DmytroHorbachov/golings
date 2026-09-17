@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция toByte должна «прижимать» значение к диапазону 0..255.
-// Сейчас 300 превращается в 44, а -5 — в 251.
-// Тренирует: преобразование целых типов не проверяет диапазон.
-// Сложность: hard
+// toByte must clamp a value to the range 0..255.
+// Right now 300 turns into 44 and -5 turns into 251.
+// An integer conversion does not check the range.
 package main_test
 
 import "testing"

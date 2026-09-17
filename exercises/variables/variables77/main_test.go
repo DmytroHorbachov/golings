@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция reverseDigits должна записать цифры неотрицательного числа в обратном порядке.
-// Тренирует: целочисленное деление и остаток, обновление нескольких переменных.
-// Сложность: medium
+// reverseDigits must write the digits of a non-negative number in reverse order.
+// Practices integer division and remainders while updating several variables.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isDigitCode должна проверить, что код символа между '0' и '9'.
-// Код не компилируется: запись вида a < x < b в Go не работает.
-// Тренирует: сравнения не объединяются в цепочки, как в математике.
-// Сложность: hard
+// isDigitCode must check that the code of a character is between '0' and '9'.
+// The code does not compile: a < x < b is not valid Go.
+// Comparisons do not chain the way they do in mathematics.
 package main_test
 
 import "testing"

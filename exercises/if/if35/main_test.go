@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isComment должна вернуть true для строк, начинающихся с '#'.
-// На пустой строке функция паникует.
-// Тренирует: сокращённое вычисление (short-circuit) логических операторов.
-// Сложность: hard
+// isComment must return true for lines starting with '#'.
+// It panics on an empty string.
+// Practices the short circuit of the logical operators.
 package main_test
 
 import "testing"

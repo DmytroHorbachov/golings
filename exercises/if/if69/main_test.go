@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// tooSlow должна вернуть true, если запрос длился дольше 5 секунд.
-// Сейчас «медленным» считается почти любой запрос.
-// Тренирует: нетипизированная константа 5 в сравнении с Duration — это 5 наносекунд.
-// Сложность: hard
+// tooSlow must return true when a request took longer than 5 seconds.
+// Right now almost every request counts as slow.
+// In a comparison against a Duration the untyped constant 5 means 5 nanoseconds.
 package main_test
 
 import (

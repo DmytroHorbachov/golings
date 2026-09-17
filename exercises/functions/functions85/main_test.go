@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pipeline(fs...) должна вернуть функцию, применяющую fs по порядку: сначала fs[0].
-// Тренирует: срезы функций и накопление результата.
-// Сложность: medium
+// pipeline(fs...) must return a function applying fs in order, fs[0] first.
+// Practices slices of functions and carrying a result along.
 package main_test
 
 import "testing"

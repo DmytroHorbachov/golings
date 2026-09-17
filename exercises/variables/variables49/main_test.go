@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция hours должна перевести количество минут в часы (дробные).
-// Тренирует: time.Duration, константы time.Minute и метод Hours.
-// Сложность: medium
+// hours must convert a number of minutes into (fractional) hours.
+// Practices time.Duration, the time.Minute constant and the Hours method.
 package main_test
 
 import (

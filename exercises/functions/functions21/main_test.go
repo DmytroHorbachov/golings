@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция transform применяет f к каждому элементу.
-// Нужно получить квадраты, но передана не та функция.
-// Тренирует: передачу функции как значения.
-// Сложность: easy
+// transform applies f to every element.
+// Squares are wanted, but the wrong function is passed in.
+// Practices passing a function as a value.
 package main_test
 
 import (

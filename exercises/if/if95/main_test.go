@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isQuestion должна вернуть true для строк, оканчивающихся на '?'.
-// На пустой строке функция паникует.
-// Тренирует: len(s)-1 для пустой строки равно -1.
-// Сложность: hard
+// isQuestion must return true for strings ending in '?'.
+// It panics on an empty string.
+// len(s)-1 is -1 for an empty string.
 package main_test
 
 import "testing"

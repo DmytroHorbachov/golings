@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция reversed должна вернуть элементы среза в обратном порядке.
-// Сейчас она паникует.
-// Тренирует: беззнаковый счётчик всегда >= 0, а 0-1 «оборачивается».
-// Сложность: hard
+// reversed must return the elements of a slice in reverse order.
+// Right now it panics.
+// An unsigned counter is always >= 0, and 0-1 wraps around.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// discountFor должна вернуть скидку из таблицы или 0, если кода нет.
-// Тренирует: if с инициализирующей инструкцией и comma-ok.
-// Сложность: easy
+// discountFor must return the discount from the table, or 0 when the code is missing.
+// Practices an if with an init statement and comma-ok.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция safeDiv должна вернуть ошибку вместо паники при делении на ноль.
-// Паника перехватывается, но вызывающий код получает nil.
-// Тренирует: отложенная функция может изменить только именованные результаты.
-// Сложность: hard
+// safeDiv must return an error instead of panicking on a division by zero.
+// The panic is recovered, but the caller still gets nil.
+// A deferred function can only change named results.
 package main_test
 
 import (

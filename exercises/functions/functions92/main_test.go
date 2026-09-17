@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// promote должна повысить уровень сотрудника на 1.
-// После вызова уровень не меняется.
-// Тренирует: структуры передаются в функцию копией.
-// Сложность: hard
+// promote must raise the level of an employee by 1.
+// The level is unchanged after the call.
+// Structs are passed to a function as a copy.
 package main_test
 
 import "testing"

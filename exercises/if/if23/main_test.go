@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// overlap должна вернуть true, если отрезки [a1, a2] и [b1, b2] пересекаются.
-// Тренирует: условие пересечения диапазонов.
-// Сложность: easy
+// overlap must return true when the ranges [a1, a2] and [b1, b2] overlap.
+// Practices the condition for two ranges to meet.
 package main_test
 
 import "testing"

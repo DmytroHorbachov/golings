@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// strong должна требовать: длину от 8, хотя бы одну цифру и хотя бы одну заглавную букву.
-// Тренирует: флаги, вычисляемые в цикле, и итоговое условие.
-// Сложность: medium
+// strong must require a length of 8 or more, at least one digit and at least one capital letter.
+// Practices flags computed in a loop and a final condition.
 package main_test
 
 import (

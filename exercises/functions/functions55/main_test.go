@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// reset должна вернуть настройки пакета в исходное состояние.
-// Код не компилируется: init вызывается явно.
-// Тренирует: функции init вызываются только рантаймом и недоступны по имени.
-// Сложность: hard
+// reset must return the package settings to their initial state.
+// The code does not compile: init is called explicitly.
+// init functions are called by the runtime only and cannot be referred to by name.
 package main_test
 
 import "testing"

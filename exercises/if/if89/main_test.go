@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// compareVersion сравнивает версии (major, minor): -1, 0 или 1.
-// Тренирует: вложенное сравнение по нескольким полям.
-// Сложность: medium
+// compareVersion compares versions (major, minor) and returns -1, 0 or 1.
+// Practices a nested comparison over several fields.
 package main_test
 
 import "testing"

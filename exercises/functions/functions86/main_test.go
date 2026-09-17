@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// newAccount возвращает функции deposit и balance, работающие с одним счётом.
-// Сейчас balance не видит пополнений.
-// Тренирует: замыкания разделяют переменную, а не её копию.
-// Сложность: hard
+// newAccount returns a deposit and a balance function working on one account.
+// Right now balance does not see the deposits.
+// Closures share the variable itself, not a copy of it.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sameTitle сравнивает заголовки без учёта регистра и лишних пробелов по краям.
-// Пустые (после обрезки) заголовки никогда не считаются одинаковыми.
-// Тренирует: подготовку данных перед условием.
-// Сложность: medium
+// sameTitle compares titles ignoring case and the spaces around them.
+// Titles that are empty after trimming are never equal.
+// Practices preparing the data before the condition.
 package main_test
 
 import (

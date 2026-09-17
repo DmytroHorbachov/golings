@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна сложить показания датчиков, каждое в пределах int8.
-// Для больших сумм результат внезапно становится отрицательным.
-// Тренирует: переполнение целых чисел фиксированного размера.
-// Сложность: hard
+// This function must add up sensor readings, each within the range of an int8.
+// For large totals the result suddenly turns negative.
+// Practices overflow of fixed size integers.
 package main_test
 
 import "testing"

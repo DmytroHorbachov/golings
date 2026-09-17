@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция lowNibble должна вернуть младшие 4 бита числа.
-// Маска записана двоичным литералом, но в ней ошибка.
-// Тренирует: двоичные литералы 0b и побитовое И.
-// Сложность: easy
+// lowNibble must return the low 4 bits of a number.
+// The mask is written as a binary literal, and it is wrong.
+// Practices 0b binary literals and the bitwise AND.
 package main_test
 
 import "testing"

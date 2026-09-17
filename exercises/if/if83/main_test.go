@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// greeting: до 12 часов — "morning", до 18 — "afternoon", иначе "evening".
-// Тренирует: последовательные проверки с ранним return.
-// Сложность: easy
+// greeting: before 12 it is "morning", before 18 "afternoon", and "evening" after that.
+// Practices successive checks with early returns.
 package main_test
 
 import "testing"

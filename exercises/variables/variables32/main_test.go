@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция nextID должна выдавать последовательные номера: 1, 2, 3...
-// Тренирует: переменные уровня пакета и порядок инкремента.
-// Сложность: medium
+// nextID must hand out consecutive numbers: 1, 2, 3 and so on.
+// Practices package level variables and the order of the increment.
 package main_test
 
 import "testing"

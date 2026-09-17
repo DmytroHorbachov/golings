@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isVowel должна вернуть true для строчных латинских гласных.
-// Тренирует: условие с strings.ContainsRune.
-// Сложность: easy
+// isVowel must return true for lowercase latin vowels.
+// Practices a condition with strings.ContainsRune.
 package main_test
 
 import (

@@ -3,10 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция alerts должна вернуть количество показаний выше порога Threshold.
-// Порог и показания имеют тип Celsius; сейчас код не компилируется.
-// Тренирует: типизированные константы и совместимость типов.
-// Сложность: medium
+// alerts must return how many readings are above the Threshold.
+// The threshold and the readings are of type Celsius; the code does not compile.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// discount: участники клуба получают 10%, заказы от 5000 — 5%,
-// а участники с заказом от 5000 — 15%.
-// Тренирует: порядок проверки комбинированных условий.
-// Сложность: medium
+// discount: club members get 10%, orders of 5000 or more get 5%,
+// and a member with an order of 5000 or more gets 15%.
+// Practices the order of the checks for combined conditions.
 package main_test
 
 import "testing"

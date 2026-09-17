@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// run превращает любую панику в ошибку. Паника может нести error или строку.
-// Со строкой функция сама паникует внутри defer.
-// Тренирует: recover возвращает interface{}; тип значения нужно проверять.
-// Сложность: hard
+// run turns any panic into an error. A panic may carry an error or a string.
+// With a string the function panics inside its own defer.
+// recover returns an interface{}; the type of the value has to be checked.
 package main_test
 
 import (

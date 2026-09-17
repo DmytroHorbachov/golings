@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pow(x, n) должна вычислять x^n для n >= 0 рекурсивно.
-// Тренирует: рекурсию с уменьшением аргумента.
-// Сложность: easy
+// pow(x, n) must compute x^n recursively for n >= 0.
+// Practices recursion with a shrinking argument.
 package main_test
 
 import "testing"

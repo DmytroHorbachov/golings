@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция featureEnabled должна понимать строки "true", "1", "T" и т.д.
-// Неизвестные значения считаются выключенными.
-// Тренирует: strconv.ParseBool и обработку ошибки.
-// Сложность: medium
+// featureEnabled must understand "true", "1", "T" and the other accepted spellings.
+// Anything else counts as disabled.
+// Practices strconv.ParseBool and handling its error.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// gcd должна вычислять наибольший общий делитель по алгоритму Евклида.
-// Тренирует: рекурсивные вызовы с изменёнными аргументами.
-// Сложность: easy
+// gcd must compute the greatest common divisor with Euclid's algorithm.
+// Practices recursive calls with changed arguments.
 package main_test
 
 import "testing"

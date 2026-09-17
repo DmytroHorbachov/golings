@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// setTags без аргументов оставляет теги как есть, а с явно переданным
-// пустым срезом (setTags(empty...)) — очищает их.
-// Тренирует: при вызове без аргументов вариативный параметр равен nil.
-// Сложность: hard
+// setTags with no arguments leaves the tags alone, while an explicitly passed
+// empty slice (setTags(empty...)) clears them.
+// Called with no arguments, a variadic parameter is nil.
 package main_test
 
 import (

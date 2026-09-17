@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Права доступа хранятся как набор битовых флагов.
-// Функция can должна проверять, установлен ли нужный флаг.
-// Тренирует: 1 << iota и побитовые операции & и |.
-// Сложность: medium
+// Permissions are stored as a set of bit flags.
+// can must report whether a given flag is set.
+// Practices 1 << iota and the bitwise operators & and |.
 package main_test
 
 import "testing"

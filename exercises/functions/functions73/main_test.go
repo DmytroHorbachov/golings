@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция rot13 должна кодировать латинские буквы, остальные символы не трогать.
-// Функция-отображение передаётся в strings.Map, но передана не та.
-// Тренирует: функции высшего порядка из стандартной библиотеки.
-// Сложность: easy
+// rot13 must encode latin letters and leave every other character alone.
+// A mapping function is handed to strings.Map, and it is the wrong one.
+// Practices higher order functions from the standard library.
 package main_test
 
 import (

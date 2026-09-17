@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Cleanup накапливает функции освобождения ресурсов, а Run вызывает их
-// в обратном порядке регистрации (как defer).
-// Тренирует: хранение функций в срезе и обратный обход.
-// Сложность: medium
+// Cleanup collects release functions, and Run calls them
+// in the reverse order of registration, the way defer does.
+// Practices storing functions in a slice and walking it backwards.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isLeap должна реализовать правило: год кратен 4, но не 100, либо кратен 400.
-// Тренирует: составные логические выражения со скобками.
-// Сложность: easy
+// isLeap must implement the rule: divisible by 4 but not by 100, or divisible by 400.
+// Practices compound boolean expressions with brackets.
 package main_test
 
 import "testing"

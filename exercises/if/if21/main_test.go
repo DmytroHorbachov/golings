@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// login возвращает сообщение: "no such user", "locked", "wrong password" или "welcome".
-// Заблокированному пользователю нельзя сообщать, верен ли пароль.
-// Тренирует: порядок проверок и доступ к map с comma-ok.
-// Сложность: medium
+// login returns "no such user", "locked", "wrong password" or "welcome".
+// A locked user must not be told whether the password was right.
+// Practices the order of the checks and comma-ok on a map.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countdown(n) должна рекурсивно вернуть [n, n-1, ..., 1].
-// Сейчас в конце появляется лишний 0.
-// Тренирует: условие остановки рекурсии.
-// Сложность: easy
+// countdown(n) must return [n, n-1, ..., 1] recursively.
+// Right now a stray 0 shows up at the end.
+// Practices the stopping condition of a recursion.
 package main_test
 
 import (

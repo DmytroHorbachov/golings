@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция pushAfter сдвигает курсор и записывает значение в НОВУЮ позицию.
-// Сейчас значение пишется в старую позицию.
-// Тренирует: индексные выражения слева вычисляются до присваивания.
-// Сложность: hard
+// pushAfter advances the cursor and stores the value at the NEW position.
+// Right now the value is written to the old position.
+// Index expressions on the left are evaluated before the assignment.
 package main_test
 
 import (

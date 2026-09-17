@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть значение Big*4/8, где Big = 2^62.
-// Промежуточный результат не помещается в int64.
-// Тренирует: нетипизированные константы вычисляются с произвольной точностью.
-// Сложность: hard
+// This function must return Big*4/8, where Big = 2^62.
+// The intermediate result does not fit in an int64.
+// Untyped constants are evaluated with arbitrary precision.
 package main_test
 
 import "testing"

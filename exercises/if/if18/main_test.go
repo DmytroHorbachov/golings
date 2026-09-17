@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// validDate проверяет день и месяц с учётом длины месяцев (год не високосный).
-// Тренирует: вложенные условия и группировку случаев.
-// Сложность: medium
+// validDate checks a day and a month against the length of the month (a non-leap year).
+// Practices nested conditions and grouping cases.
 package main_test
 
 import "testing"

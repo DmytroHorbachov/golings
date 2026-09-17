@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция statusOf должна достать код из ошибки типа *HTTPError в цепочке.
-// Если такой ошибки нет, вернуть 0.
-// Тренирует: errors.As и пользовательские типы ошибок.
-// Сложность: medium
+// statusOf must pull the code out of an *HTTPError somewhere in the chain.
+// When there is no such error it returns 0.
+// Practices errors.As and custom error types.
 package main_test
 
 import (

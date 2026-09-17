@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция isMissing должна распознавать отсутствующие показания (NaN).
-// Сравнение с math.NaN() никогда не срабатывает.
-// Тренирует: особенности NaN в арифметике с плавающей точкой.
-// Сложность: hard
+// isMissing must recognize missing readings (NaN).
+// A comparison against math.NaN() never matches.
+// Practices how NaN behaves in floating point arithmetic.
 package main_test
 
 import (

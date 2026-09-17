@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция row должна собрать строку таблицы: поля разделены символом табуляции.
-// Тренирует: escape-последовательности в интерпретируемых строках.
-// Сложность: easy
+// row must build a row of a table with the fields separated by a tab.
+// Practices escape sequences in interpreted string literals.
 package main_test
 
 import "testing"

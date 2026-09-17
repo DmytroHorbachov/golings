@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Sum должна вернуть сумму значений связного списка; пустой список — это nil.
-// Сейчас вызов на пустом списке паникует.
-// Тренирует: методы с указателем-получателем можно вызывать на nil.
-// Сложность: hard
+// Sum must return the sum of the values of a linked list, where an empty list is nil.
+// Right now calling it on an empty list panics.
+// A method with a pointer receiver may be called on a nil pointer.
 package main_test
 
 import "testing"

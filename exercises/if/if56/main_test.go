@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// inRange должна проверить, что x лежит в отрезке [lo, hi] включительно.
-// Тренирует: составные условия с границами.
-// Сложность: easy
+// inRange must check that x lies in the closed range [lo, hi].
+// Practices compound conditions with bounds.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// winner возвращает "draw", "first" или "second" для ходов двух игроков.
-// Тренирует: сложные логические условия.
-// Сложность: medium
+// winner returns "draw", "first" or "second" for the moves of two players.
+// Practices involved boolean conditions.
 package main_test
 
 import "testing"

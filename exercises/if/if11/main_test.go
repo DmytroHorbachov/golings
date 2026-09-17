@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// withdraw списывает сумму, если баланс с учётом лимита овердрафта позволяет.
-// Отрицательная сумма — ошибка "invalid amount".
-// Тренирует: проверку нескольких условий с разными ошибками.
-// Сложность: medium
+// withdraw takes the amount out when the balance plus the overdraft limit allows it.
+// A negative amount is the error "invalid amount".
+// Practices checking several conditions with different errors.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Limiter разрешает не больше max запросов в окне длиной window секунд.
-// Когда окно истекает, счётчик сбрасывается.
-// Тренирует: условия, изменяющие состояние структуры.
-// Сложность: medium
+// Limiter allows no more than max requests in a window of window seconds.
+// When the window runs out, the counter is reset.
+// Practices conditions that change the state of a struct.
 package main_test
 
 import "testing"

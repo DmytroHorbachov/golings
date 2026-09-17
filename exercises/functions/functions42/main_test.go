@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// NewServer принимает опции-функции, которые меняют настройки по умолчанию.
-// Опции сейчас создаются, но не применяются, и одна из них пишет не в то поле.
-// Тренирует: паттерн functional options.
-// Сложность: medium
+// NewServer takes option functions that change the defaults.
+// The options are built but never applied, and one of them writes to the wrong field.
+// Practices the functional options pattern.
 package main_test
 
 import "testing"

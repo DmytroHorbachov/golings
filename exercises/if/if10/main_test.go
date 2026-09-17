@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sign должна вернуть -1, 0 или 1 в зависимости от знака числа.
-// Тренирует: цепочку if / else if / else.
-// Сложность: easy
+// sign must return -1, 0 or 1 depending on the sign of the number.
+// Practices an if / else if / else chain.
 package main_test
 
 import "testing"

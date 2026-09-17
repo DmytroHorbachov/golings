@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// topScores должна вернуть отсортированную по убыванию копию, не меняя исходный срез.
-// Результат получается перемешанным.
-// Тренирует: функция сравнения должна смотреть на тот же срез, который сортируется.
-// Сложность: hard
+// topScores must return a copy sorted in descending order without changing the original slice.
+// The result comes out shuffled.
+// The comparison function has to look at the very slice that is being sorted.
 package main_test
 
 import (

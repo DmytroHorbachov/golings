@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// flatten должна рекурсивно превратить вложенные []interface{} в плоский []int.
-// Тренирует: рекурсию и type switch по пустому интерфейсу.
-// Сложность: medium
+// flatten must turn nested []interface{} values into a flat []int recursively.
+// Practices recursion and a type switch on the empty interface.
 package main_test
 
 import (

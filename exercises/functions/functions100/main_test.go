@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lowerBound должна вернуть индекс первого элемента >= target в отсортированном срезе.
-// Тренирует: sort.Search и монотонные функции-предикаты.
-// Сложность: easy
+// lowerBound must return the index of the first element >= target in a sorted slice.
+// Practices sort.Search and monotone predicates.
 package main_test
 
 import (

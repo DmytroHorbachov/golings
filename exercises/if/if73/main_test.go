@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fine: превышение до 20 км/ч — 0, 21–40 — 500, 41–60 — 1500, больше — 5000.
-// Тренирует: условия по производному значению.
-// Сложность: medium
+// fine: up to 20 km/h over the limit is 0, 21-40 is 500, 41-60 is 1500, more is 5000.
+// Practices conditions over a derived value.
 package main_test
 
 import "testing"

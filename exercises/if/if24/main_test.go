@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// statusClass: 200–299 — "success", 300–399 — "redirect", 400–499 — "client error",
-// 500–599 — "server error", иначе "unknown".
-// Тренирует: проверку диапазонов с верхней и нижней границей.
-// Сложность: medium
+// statusClass: 200-299 is "success", 300-399 "redirect", 400-499 "client error",
+// 500-599 "server error", anything else "unknown".
+// Practices range checks with an upper and a lower bound.
 package main_test
 
 import "testing"

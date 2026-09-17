@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть номер заказа в виде строки "Order #42".
-// Вместо цифр в строке оказывается странный символ.
-// Тренирует: разницу между string(int) и strconv.Itoa.
-// Сложность: hard
+// This function must return the order number as the string "Order #42".
+// A strange character shows up instead of the digits.
+// Practices the difference between string(int) and strconv.Itoa.
 package main_test
 
 import (

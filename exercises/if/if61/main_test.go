@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseSwitch понимает "on"/"yes"/"1" как true и "off"/"no"/"0" как false
-// (без учёта регистра). Для остального возвращает def.
-// Тренирует: нормализацию входа перед сравнениями.
-// Сложность: medium
+// parseSwitch reads "on"/"yes"/"1" as true and "off"/"no"/"0" as false,
+// ignoring case. Anything else gives def.
+// Practices normalizing the input before the comparisons.
 package main_test
 
 import (

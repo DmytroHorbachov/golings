@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// divisible должна сообщить, делится ли a на b без остатка.
-// Тренирует: оператор остатка в условии.
-// Сложность: easy
+// divisible must report whether a divides by b with no remainder.
+// Practices the remainder operator in a condition.
 package main_test
 
 import "testing"

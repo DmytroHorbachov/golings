@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция factorial должна вычислять n! рекурсивно (0! = 1).
-// Сейчас результат всегда 0.
-// Тренирует: базовый случай рекурсии.
-// Сложность: easy
+// factorial must compute n! recursively (0! = 1).
+// Right now the result is always 0.
+// Practices the base case of a recursion.
 package main_test
 
 import "testing"

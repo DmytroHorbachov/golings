@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sameValue сравнивает два значения interface{}. Для срезов сравнение
-// через == паникует во время выполнения.
-// Тренирует: == на интерфейсах с несравнимым динамическим типом вызывает панику.
-// Сложность: hard
+// sameValue compares two interface{} values. For slices a comparison
+// with == panics at run time.
+// == on interfaces holding an incomparable dynamic type panics.
 package main_test
 
 import (

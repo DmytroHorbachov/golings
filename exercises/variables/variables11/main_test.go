@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция parseLimit должна вернуть число из строки, а при ошибке — 10.
-// Тренирует: обработку второго возвращаемого значения (error).
-// Сложность: medium
+// parseLimit must return the number held in a string, or 10 when it cannot be parsed.
+// Practices handling the second return value (an error).
 package main_test
 
 import (

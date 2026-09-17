@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция isEmpty должна сообщать, что строка пуста.
-// Тренирует: нулевое значение строки — это "", а не nil.
-// Сложность: easy
+// isEmpty must report whether a string is empty.
+// The zero value of a string is "", not nil.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть сумму всех положительных чисел и список промежуточных сумм.
-// Промежуточные суммы растут, а итог почему-то равен нулю.
-// Тренирует: затенение переменной внутри тела цикла.
-// Сложность: hard
+// This function must return the sum of all positive numbers along with the running sums.
+// The running sums grow, yet the total comes out as zero.
+// Practices shadowing inside the body of a loop.
 package main_test
 
 import (

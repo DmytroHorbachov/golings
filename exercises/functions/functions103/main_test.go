@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// addItem должна добавить элемент в корзину вызывающего кода.
-// После вызова длина корзины у вызывающего не меняется.
-// Тренирует: срез передаётся по значению (заголовок копируется).
-// Сложность: hard
+// addItem must add an item to the caller's cart.
+// The length of the caller's cart is unchanged after the call.
+// A slice is passed by value: the header is copied.
 package main_test
 
 import (

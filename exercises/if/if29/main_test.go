@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// letter для баллов 90–100: 97+ — "A+", 93–96 — "A", 90–92 — "A-";
-// для меньших баллов — "B or lower".
-// Тренирует: вложенные if внутри ветки.
-// Сложность: medium
+// letter for scores of 90-100: 97 and up is "A+", 93-96 "A", 90-92 "A-";
+// anything lower is "B or lower".
+// Practices nested ifs inside a branch.
 package main_test
 
 import "testing"

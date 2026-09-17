@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hanoi(n, from, to, via) должна вернуть список ходов для переноса n дисков.
-// Тренирует: рекурсию с несколькими рекурсивными вызовами.
-// Сложность: medium
+// hanoi(n, from, to, via) must return the list of moves for n disks.
+// Practices recursion with several recursive calls.
 package main_test
 
 import (

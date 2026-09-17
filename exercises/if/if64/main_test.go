@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// grade должна вернуть "A" для 90+, "B" для 80+, "C" для остальных.
-// Сейчас все высокие баллы получают "B".
-// Тренирует: порядок ветвей else if.
-// Сложность: medium
+// grade must return "A" for 90 and up, "B" for 80 and up, and "C" for the rest.
+// Right now every high score comes out as "B".
+// Practices the order of the else if branches.
 package main_test
 
 import "testing"

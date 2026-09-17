@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// longest должна вернуть самое длинное слово и его длину.
-// Код не компилируется, хотя len используется «как обычно».
-// Тренирует: встроенные идентификаторы можно затенить локальной переменной.
-// Сложность: hard
+// longest must return the longest word and its length.
+// The code does not compile, even though len is used "as usual".
+// A predeclared identifier can be shadowed by a local variable.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// locked должна вернуть true, если неудачных попыток входа 3 или больше.
-// Тренирует: условие с порогом.
-// Сложность: easy
+// locked must return true once there have been 3 or more failed logins.
+// Practices a condition with a threshold.
 package main_test
 
 import "testing"

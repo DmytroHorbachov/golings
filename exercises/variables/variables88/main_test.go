@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть ошибку, если хотя бы одна строка не является числом.
-// Сейчас ошибка внутри цикла «теряется», хотя парсинг падает.
-// Тренирует: затенение (shadowing) переменных оператором :=.
-// Сложность: hard
+// This function must return an error when any of the strings is not a number.
+// The error inside the loop is lost, even though the parsing fails.
+// Practices variable shadowing with the := operator.
 package main_test
 
 import (

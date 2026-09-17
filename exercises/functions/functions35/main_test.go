@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// safeCall должна выполнить f и превратить панику в ошибку.
-// Сейчас паника пролетает насквозь.
-// Тренирует: defer, recover и именованный результат.
-// Сложность: medium
+// safeCall must run f and turn a panic into an error.
+// Right now the panic flies straight through.
+// Practices defer, recover and a named result.
 package main_test
 
 import (

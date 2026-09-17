@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// label должна вернуть "big" для чисел больше 100, иначе "small".
-// Результат всегда "small".
-// Тренирует: := внутри блока if создаёт новую переменную.
-// Сложность: hard
+// label must return "big" for numbers over 100 and "small" otherwise.
+// The result is always "small".
+// := inside an if block creates a new variable.
 package main_test
 
 import "testing"

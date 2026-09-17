@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция wrapIndex должна переводить любой индекс в диапазон [0, n).
-// Для отрицательных индексов результат выходит за диапазон.
-// Тренирует: знак результата оператора % в Go.
-// Сложность: hard
+// wrapIndex must map any index into the range [0, n).
+// For negative indexes the result falls outside the range.
+// Practices the sign of the % operator in Go.
 package main_test
 
 import "testing"

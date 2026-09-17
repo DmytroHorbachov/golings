@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Переменные пакета описывают адрес базы данных.
-// Функция dsn должна собрать строку вида "db.local:5432/shop".
-// Тренирует: групповое объявление переменных через var ( ... ).
-// Сложность: medium
+// The package variables describe the address of a database.
+// dsn must build a string such as "db.local:5432/shop".
+// Practices declaring variables in a var ( ... ) group.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// logLine должна добавить префикс и передать все аргументы дальше в format.
-// Сейчас аргументы теряются.
-// Тренирует: сборку нового среза аргументов и передачу через ...
-// Сложность: medium
+// logLine must add a prefix and pass all the arguments on to format.
+// Right now the arguments are lost.
+// Practices building a new argument slice and passing it on with ...
 package main_test
 
 import (

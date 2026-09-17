@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// reverse должна рекурсивно развернуть строку из рун.
-// Тренирует: рекурсию на срезе рун и сборку результата.
-// Сложность: medium
+// reverse must reverse a string of runes recursively.
+// Practices recursion over a rune slice and building the result.
 package main_test
 
 import "testing"

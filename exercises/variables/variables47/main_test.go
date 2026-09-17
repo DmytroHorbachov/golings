@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция red должна извлечь красную компоненту из строки вида "ff8800".
-// Тренирует: strconv.ParseUint с основанием и срезы строк.
-// Сложность: easy
+// red must pull the red component out of a string such as "ff8800".
+// Practices strconv.ParseUint with a base, and string slicing.
 package main_test
 
 import (

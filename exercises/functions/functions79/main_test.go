@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isPalindrome должна рекурсивно проверять, читается ли строка одинаково с обеих сторон.
-// Тренирует: рекурсию на подстроках.
-// Сложность: medium
+// isPalindrome must check recursively whether a string reads the same both ways.
+// Practices recursion over substrings.
 package main_test
 
 import "testing"

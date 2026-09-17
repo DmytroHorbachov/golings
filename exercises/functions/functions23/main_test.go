@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// timed должна выполнить f и записать в *elapsed разницу показаний часов now,
-// даже если f паникует. Часы передаются функцией для детерминированности.
-// Тренирует: defer с замыканием для измерения длительности.
-// Сложность: medium
+// timed must run f and store the difference of the now readings in *elapsed,
+// even when f panics. The clock is passed in as a function to keep this deterministic.
+// Practices a defer with a closure for measuring a duration.
 package main_test
 
 import (

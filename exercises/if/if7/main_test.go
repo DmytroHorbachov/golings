@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// halfDone должна вернуть true, когда выполнено не меньше половины задач.
-// Сейчас условие истинно даже без выполненных задач.
-// Тренирует: нетипизированные целые константы делятся нацело.
-// Сложность: hard
+// halfDone must return true once at least half of the tasks are done.
+// Right now the condition holds even with nothing done.
+// Untyped integer constants divide as integers.
 package main_test
 
 import "testing"

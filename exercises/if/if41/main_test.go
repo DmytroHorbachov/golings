@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// nextTicket выдаёт номер из очереди, если очередь не пуста.
-// Вызов pop происходит и в условии, и в теле — номера теряются.
-// Тренирует: выражения в условии if вычисляются при каждой проверке.
-// Сложность: hard
+// nextTicket hands out a number from the queue when the queue is not empty.
+// pop is called both in the condition and in the body, so numbers go missing.
+// The expressions in an if condition are evaluated on every check.
 package main_test
 
 import (

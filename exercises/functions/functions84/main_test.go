@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// makeMultiplier(n) должна вернуть функцию, умножающую аргумент на n.
-// Тренирует: функции, возвращающие функции.
-// Сложность: easy
+// makeMultiplier(n) must return a function that multiplies its argument by n.
+// Practices functions returning functions.
 package main_test
 
 import "testing"

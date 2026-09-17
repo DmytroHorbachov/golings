@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// scan передаёт в callback срез, который будет перезаписан после возврата.
-// fields сохраняет эти срезы, и в результате оказываются испорченные данные.
-// Тренирует: контракт «данные действительны только внутри вызова».
-// Сложность: hard
+// scan hands the callback a slice that is overwritten once the callback returns.
+// fields keeps those slices, so the result ends up holding damaged data.
+// Practices the "valid only during the call" contract.
 package main_test
 
 import "testing"

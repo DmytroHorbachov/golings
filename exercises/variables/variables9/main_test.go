@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна превратить дробное число секунд (например 1.5) в time.Duration.
-// Сейчас дробная часть теряется.
-// Тренирует: time.Duration — это целое число наносекунд.
-// Сложность: hard
+// This function must turn a fractional number of seconds (1.5, say) into a time.Duration.
+// Right now the fractional part is lost.
+// A time.Duration is an integer number of nanoseconds.
 package main_test
 
 import (

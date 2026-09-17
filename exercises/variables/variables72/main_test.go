@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Константа Million должна быть равна одному миллиону.
-// Кто-то ошибся при наборе числа, и цифр не хватает.
-// Тренирует: числовые литералы с разделителем _.
-// Сложность: easy
+// The constant Million must be one million.
+// Somebody miscounted while typing the number and digits are missing.
+// Practices numeric literals with the _ separator.
 package main_test
 
 import "testing"

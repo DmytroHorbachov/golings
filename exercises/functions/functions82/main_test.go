@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция sum принимает переменное число аргументов.
-// Нужно передать в неё весь срез целиком. Код не компилируется.
-// Тренирует: передачу среза в вариативную функцию.
-// Сложность: easy
+// sum takes a variable number of arguments.
+// A whole slice has to be handed to it. The code does not compile.
+// Practices passing a slice to a variadic function.
 package main_test
 
 import "testing"

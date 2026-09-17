@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isCommand должна вернуть true для строк, начинающихся с "/".
-// Тренирует: strings.HasPrefix в условии.
-// Сложность: easy
+// isCommand must return true for strings starting with "/".
+// Practices strings.HasPrefix in a condition.
 package main_test
 
 import (

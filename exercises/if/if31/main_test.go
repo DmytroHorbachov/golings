@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// triangleKind: "equilateral" — все стороны равны, "isosceles" — две равны,
-// "scalene" — все разные.
-// Тренирует: порядок условий, когда одно является частным случаем другого.
-// Сложность: medium
+// triangleKind: "equilateral" when all sides are equal, "isosceles" when two are,
+// "scalene" when they all differ.
+// The order of the conditions matters when one case is a special case of another.
 package main_test
 
 import "testing"

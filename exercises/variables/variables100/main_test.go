@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Номера кабинетов записаны в таблице с ведущими нулями для красоты.
-// Кабинет "010" должен иметь номер 10, но получается 8.
-// Тренирует: целочисленный литерал с ведущим нулём — восьмеричный.
-// Сложность: hard
+// The room numbers are written in the table with leading zeros to look tidy.
+// Room "010" is meant to be number 10, but comes out as 8.
+// An integer literal with a leading zero is octal.
 package main_test
 
 import "testing"

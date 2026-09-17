@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция midpoint должна вернуть середину отрезка [lo, hi] для любых int64.
-// На больших значениях результат становится отрицательным.
-// Тренирует: переполнение при сложении больших чисел.
-// Сложность: hard
+// midpoint must return the middle of the range [lo, hi] for any int64.
+// For large values the result comes out negative.
+// Practices overflow when adding large numbers.
 package main_test
 
 import (

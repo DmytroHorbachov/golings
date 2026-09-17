@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция clamp должна ограничить v диапазоном [lo, hi], даже если границы
-// переданы в обратном порядке.
-// Тренирует: обмен значений переменных и последовательные проверки.
-// Сложность: medium
+// clamp must confine v to the range [lo, hi], even when the bounds
+// are passed the other way round.
+// Practices swapping values and successive checks.
 package main_test
 
 import "testing"

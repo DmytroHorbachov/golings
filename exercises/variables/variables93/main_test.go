@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть Windows-путь C:\new\table ровно в таком виде.
-// В интерпретируемой строке \n и \t превращаются в управляющие символы.
-// Тренирует: сырые строковые литералы.
-// Сложность: easy
+// This function must return the Windows path C:\new\table exactly as written.
+// In an interpreted string \n and \t turn into control characters.
+// Practices raw string literals.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// counted(f) должна вернуть обёртку над f и функцию, сообщающую число вызовов.
-// Тренирует: две функции, разделяющие одно состояние.
-// Сложность: medium
+// counted(f) must return a wrapper around f plus a function reporting the call count.
+// Practices two functions sharing one piece of state.
 package main_test
 
 import "testing"

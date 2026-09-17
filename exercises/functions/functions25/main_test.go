@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// processAll должна открыть, использовать и закрыть каждый ресурс,
-// прежде чем переходить к следующему.
-// Тренирует: defer срабатывает при выходе из функции, а не из итерации цикла.
-// Сложность: hard
+// processAll must open, use and close every resource
+// before moving on to the next one.
+// A defer runs when the function returns, not at the end of a loop iteration.
 package main_test
 
 import (

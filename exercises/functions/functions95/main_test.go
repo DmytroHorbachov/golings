@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция power(base, exp) возводит base в степень exp.
-// Вызов перепутал аргументы местами.
-// Тренирует: позиционную передачу аргументов.
-// Сложность: easy
+// power(base, exp) raises base to the power of exp.
+// The call has the arguments the wrong way round.
+// Practices positional arguments.
 package main_test
 
 import "testing"

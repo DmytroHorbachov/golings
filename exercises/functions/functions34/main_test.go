@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция minMax должна вернуть сначала минимум, потом максимум.
-// Тренирует: возврат нескольких значений.
-// Сложность: easy
+// minMax must return the minimum first and the maximum second.
+// Practices returning several values.
 package main_test
 
 import "testing"

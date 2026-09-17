@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstValid разбирает два числа и возвращает ПЕРВОЕ, если оба корректны.
-// Сейчас возвращается второе.
-// Тренирует: переменные из инициализатора else if затеняют одноимённые из if.
-// Сложность: hard
+// firstValid parses two numbers and returns the FIRST one when both are valid.
+// Right now it returns the second one.
+// Variables from an else if initializer shadow those from the if.
 package main_test
 
 import (

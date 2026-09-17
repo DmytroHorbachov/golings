@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// split делит сумму на две части: x = sum*4/9 и y = sum - x.
-// Тренирует: именованные результаты и return без выражений.
-// Сложность: easy
+// split cuts a total in two parts: x = sum*4/9 and y = sum - x.
+// Practices named results and a return with no expressions.
 package main_test
 
 import "testing"

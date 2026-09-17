@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseOr должна вернуть разобранное число или def.
-// Код не компилируется: переменная из if используется после блока.
-// Тренирует: переменные из инициализатора if видны только внутри if/else.
-// Сложность: hard
+// parseOr must return the parsed number, or def.
+// The code does not compile: a variable from the if is used after the block.
+// Variables from an if initializer are only visible inside the if and its else.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть 2 в степени n, удваивая результат в цикле.
-// Тренирует: операторы составного присваивания (+=, *=, ...).
-// Сложность: easy
+// This function must return 2 to the power of n by doubling the result in a loop.
+// Practices the compound assignment operators (+=, *= and friends).
 package main_test
 
 import "testing"

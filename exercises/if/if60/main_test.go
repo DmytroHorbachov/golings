@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// canPay должна вернуть true, если денег хватает на покупку (баланс >= цена).
-// Тренирует: порядок операндов в сравнении.
-// Сложность: easy
+// canPay must return true when there is enough money for the purchase (balance >= price).
+// Practices the order of the operands in a comparison.
 package main_test
 
 import "testing"

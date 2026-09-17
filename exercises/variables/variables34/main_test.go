@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Тип Celsius — отдельный тип на основе float64.
-// Функция должна перевести градусы Цельсия в Фаренгейты.
-// Тренирует: именованные типы и преобразование между ними.
-// Сложность: easy
+// Celsius is a distinct type based on float64.
+// This function must convert degrees Celsius to Fahrenheit.
+// Practices named types and conversions between them.
 package main_test
 
 import "testing"

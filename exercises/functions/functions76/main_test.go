@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// process должна выполнить работу и вызвать onDone, если он задан.
-// При onDone == nil функция паникует, причём уже после работы.
-// Тренирует: defer nil-функции паникует в момент выполнения отложенного вызова.
-// Сложность: hard
+// process must do the work and call onDone when one is given.
+// With onDone == nil the function panics, and only after the work is done.
+// A deferred nil function panics when the deferred call runs.
 package main_test
 
 import "testing"

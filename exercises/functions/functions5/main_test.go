@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция withdraw должна вернуть ошибку с текстом "insufficient funds".
-// Тренирует: создание ошибок через errors.New.
-// Сложность: easy
+// withdraw must return an error with the text "insufficient funds".
+// Practices building errors with errors.New.
 package main_test
 
 import (

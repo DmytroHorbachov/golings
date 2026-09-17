@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validNick разрешает ники длиной от 3 до 10 символов (не байт).
-// Кириллический ник из 6 букв сейчас отклоняется.
-// Тренирует: len(string) считает байты, а не символы.
-// Сложность: hard
+// validNick allows nicknames of 3 to 10 characters, not bytes.
+// A six letter cyrillic nickname is rejected right now.
+// len(string) counts bytes, not characters.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// validHex проверяет строку вида "#1a2B3c": решётка и ровно 6 шестнадцатеричных цифр.
-// Тренирует: условие на длину и посимвольные проверки.
-// Сложность: medium
+// validHex checks a string such as "#1a2B3c": a hash and exactly 6 hexadecimal digits.
+// Practices a length check together with per character checks.
 package main_test
 
 import "testing"

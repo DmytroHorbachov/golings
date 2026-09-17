@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция stats должна вернуть количество, сумму и среднее значение.
-// Для пустого среза среднее должно быть 0.
-// Тренирует: несколько переменных-аккумуляторов и деление без паники.
-// Сложность: medium
+// stats must return the count, the sum and the average.
+// The average of an empty slice must be 0.
+// Practices several accumulator variables and a division that cannot panic.
 package main_test
 
 import "testing"

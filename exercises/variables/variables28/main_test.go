@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Константа SecondsPerDay должна содержать число секунд в сутках.
-// Тренирует: константные выражения, вычисляемые при компиляции.
-// Сложность: easy
+// The constant SecondsPerDay must hold the number of seconds in a day.
+// Practices constant expressions evaluated at compile time.
 package main_test
 
 import "testing"

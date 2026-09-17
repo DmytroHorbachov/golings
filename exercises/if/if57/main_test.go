@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Thermostat включает обогрев ниже 18° и выключает только выше 22°.
-// Между порогами состояние не меняется.
-// Тренирует: условия, зависящие от текущего состояния.
-// Сложность: medium
+// Thermostat turns the heating on below 18 degrees and off only above 22.
+// Between the thresholds the state stays as it is.
+// Practices conditions that depend on the current state.
 package main_test
 
 import "testing"

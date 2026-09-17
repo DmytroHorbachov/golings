@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция charCount должна вернуть количество символов, а не байт.
-// Для "héllo" ожидается 5.
-// Тренирует: len(string) возвращает байты; руны считаются отдельно.
-// Сложность: medium
+// charCount must return the number of characters, not the number of bytes.
+// "héllo" is expected to be 5.
+// len(string) counts bytes; runes are counted separately.
 package main_test
 
 import (

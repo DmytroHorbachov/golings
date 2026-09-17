@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть цену с налогом. Код не компилируется:
-// налог посчитан, но нигде не используется.
-// Тренирует: Go запрещает неиспользуемые локальные переменные.
-// Сложность: easy
+// This function must return the price with tax. The code does not compile:
+// the tax is computed but never used.
+// Go rejects unused local variables.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// season по номеру месяца: 12, 1, 2 — "winter"; 3–5 — "spring"; 6–8 — "summer";
-// 9–11 — "autumn"; иначе "invalid".
-// Тренирует: условия с диапазонами и особым случаем.
-// Сложность: medium
+// season by month number: 12, 1 and 2 are "winter"; 3-5 "spring"; 6-8 "summer";
+// 9-11 "autumn"; anything else "invalid".
+// Practices range conditions with a special case.
 package main_test
 
 import "testing"

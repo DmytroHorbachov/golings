@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция apply ожидает функцию, а ей передают результат вызова.
-// Код не компилируется.
-// Тренирует: разницу между f и f().
-// Сложность: easy
+// apply expects a function, and the result of a call is handed to it instead.
+// The code does not compile.
+// Practices the difference between f and f().
 package main_test
 
 import "testing"

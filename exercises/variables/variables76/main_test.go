@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция checksum должна вернуть сумму всех байт строки.
-// Для длинных строк сумма получается подозрительно маленькой.
-// Тренирует: переполнение byte (uint8) при накоплении.
-// Сложность: hard
+// checksum must return the sum of all the bytes of a string.
+// For long strings the sum comes out suspiciously small.
+// Practices byte (uint8) overflow while accumulating.
 package main_test
 
 import "testing"

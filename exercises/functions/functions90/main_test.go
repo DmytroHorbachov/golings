@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstDigit должна вернуть индекс первой цифры в строке или -1.
-// Тренирует: strings.IndexFunc и функции из пакета unicode.
-// Сложность: easy
+// firstDigit must return the index of the first digit in a string, or -1.
+// Practices strings.IndexFunc and the functions of the unicode package.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Переменная op должна хранить функцию умножения.
-// Сейчас она не инициализирована, и вызов вызывает панику.
-// Тренирует: функции как значения и нулевое значение func-переменной.
-// Сложность: easy
+// The variable op must hold the multiplication function.
+// It is left uninitialized, so calling it panics.
+// Practices functions as values and the zero value of a func variable.
 package main_test
 
 import "testing"

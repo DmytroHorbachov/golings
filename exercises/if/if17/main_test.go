@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// strongEnough должна требовать пароль длиной не менее 8 символов.
-// Тренирует: условие на длину строки.
-// Сложность: easy
+// strongEnough must ask for a password of at least 8 characters.
+// Practices a condition on the length of a string.
 package main_test
 
 import "testing"

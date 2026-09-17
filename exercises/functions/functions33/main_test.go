@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// resetStats должна очистить статистику вызывающего кода.
-// Внутри функции map переприсваивается, и снаружи ничего не меняется.
-// Тренирует: map — ссылочный тип, но сама переменная передаётся по значению.
-// Сложность: hard
+// resetStats must clear the caller's statistics.
+// The function reassigns the map, and nothing changes outside.
+// A map is a reference type, but the variable itself is passed by value.
 package main_test
 
 import "testing"

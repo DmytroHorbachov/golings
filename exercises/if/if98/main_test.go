@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isZero должна проверить, что число равно нулю. Код не компилируется.
-// Тренирует: в условии if нужен оператор сравнения ==.
-// Сложность: easy
+// isZero must check that a number is zero. The code does not compile.
+// An if condition needs the comparison operator ==.
 package main_test
 
 import "testing"

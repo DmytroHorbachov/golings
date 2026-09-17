@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// median3 возвращает среднее по величине из трёх чисел без сортировки.
-// Тренирует: комбинирование условий через && и ||.
-// Сложность: medium
+// median3 returns the middle of three numbers without sorting them.
+// Practices combining conditions with && and ||.
 package main_test
 
 import "testing"

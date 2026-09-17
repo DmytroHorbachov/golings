@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// stockStatus должна различать товар с нулевым остатком ("out of stock")
-// и товар, которого нет в каталоге ("unknown").
-// Тренирует: чтение отсутствующего ключа map возвращает нулевое значение.
-// Сложность: hard
+// stockStatus must tell an item with zero stock ("out of stock") apart
+// from an item that is not in the catalogue at all ("unknown").
+// Reading a missing map key returns the zero value.
 package main_test
 
 import "testing"

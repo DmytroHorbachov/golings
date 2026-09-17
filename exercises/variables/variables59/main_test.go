@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Константа Timeout должна быть равна 2.5 секунды, а функция —
-// возвращать её в миллисекундах как int64.
-// Тренирует: типизированные константы time.Duration и метод Milliseconds.
-// Сложность: medium
+// The constant Timeout must be 2.5 seconds, and the function must return
+// it in milliseconds as an int64.
+// Practices typed time.Duration constants and the Milliseconds method.
 package main_test
 
 import (

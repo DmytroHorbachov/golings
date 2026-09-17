@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cleanTag должна убрать по краям строки все символы, кроме букв и цифр.
-// Тренирует: strings.TrimFunc с собственным предикатом.
-// Сложность: easy
+// cleanTag must strip everything but letters and digits from both ends of a string.
+// Practices strings.TrimFunc with a predicate of your own.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// ticketPrice: дети до 12 лет — 5, пенсионеры от 65 — 7, остальные — 10.
-// Тренирует: цепочку условий по диапазонам.
-// Сложность: easy
+// ticketPrice: children under 12 pay 5, seniors from 65 pay 7, everyone else 10.
+// Practices a chain of range conditions.
 package main_test
 
 import "testing"

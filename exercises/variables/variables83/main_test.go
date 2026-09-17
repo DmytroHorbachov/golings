@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция shift должна сдвинуть строчную латинскую букву на k позиций по кругу.
-// Сейчас буквы в конце алфавита превращаются в посторонние символы.
-// Тренирует: арифметику над byte и остаток от деления.
-// Сложность: medium
+// shift must rotate a lowercase latin letter k positions around the alphabet.
+// Right now letters near the end of the alphabet turn into stray characters.
+// Practices byte arithmetic and the remainder operator.
 package main_test
 
 import "testing"

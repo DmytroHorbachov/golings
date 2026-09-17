@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// direction возвращает "up", "down" или "idle" для лифта на этаже current,
-// которого вызвали на этаж target. Этажи вне 0..maxFloor — "error".
-// Тренирует: проверку корректности данных и сравнения.
-// Сложность: medium
+// direction returns "up", "down" or "idle" for a lift on floor current
+// called to floor target. Floors outside 0..maxFloor give "error".
+// Practices validating the data and comparing it.
 package main_test
 
 import "testing"

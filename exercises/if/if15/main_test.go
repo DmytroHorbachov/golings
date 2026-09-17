@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameUser должна считать логины "Admin" и "admin" одинаковыми.
-// Тренирует: сравнение строк в условии.
-// Сложность: easy
+// sameUser must treat the logins "Admin" and "admin" as the same.
+// Practices string comparison in a condition.
 package main_test
 
 import (

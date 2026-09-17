@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// next возвращает следующий сигнал: green -> yellow -> red -> green.
-// Для неизвестного сигнала — "red" (безопасное значение).
-// Тренирует: цепочку сравнений строк.
-// Сложность: medium
+// next returns the following signal: green -> yellow -> red -> green.
+// An unknown signal gives "red", the safe value.
+// Practices a chain of string comparisons.
 package main_test
 
 import "testing"

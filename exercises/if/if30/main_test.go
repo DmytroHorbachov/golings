@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isWeekend должна вернуть true для "sat" и "sun".
-// Тренирует: логические операторы && и ||.
-// Сложность: easy
+// isWeekend must return true for "sat" and "sun".
+// Practices the logical operators && and ||.
 package main_test
 
 import "testing"

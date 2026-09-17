@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// once(f) должна вернуть функцию, которая вызывает f только при первом вызове,
-// а затем возвращает сохранённый результат.
-// Тренирует: замыкания с флагом и кэшированным значением.
-// Сложность: medium
+// once(f) must return a function that calls f on the first call only
+// and returns the stored result afterwards.
+// Practices closures with a flag and a cached value.
 package main_test
 
 import "testing"

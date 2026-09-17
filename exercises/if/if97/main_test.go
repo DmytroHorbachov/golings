@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// quadrant возвращает номер четверти (1–4) для точки или 0, если точка на оси.
-// Тренирует: условия по двум переменным.
-// Сложность: medium
+// quadrant returns the quadrant number (1-4) of a point, or 0 when it sits on an axis.
+// Practices conditions over two variables.
 package main_test
 
 import "testing"

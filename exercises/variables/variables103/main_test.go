@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция swap должна поменять местами два значения и вернуть их.
-// Тренирует: множественное присваивание в Go.
-// Сложность: easy
+// swap must exchange two values and return them.
+// Practices multiple assignment in Go.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sameRoute сравнивает два маршрута (срезы названий остановок).
-// Код не компилируется.
-// Тренирует: срезы сравнимы только с nil.
-// Сложность: hard
+// sameRoute compares two routes, which are slices of stop names.
+// The code does not compile.
+// Slices can only be compared against nil.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция snapshotter возвращает метод-значение, который должен
-// показывать АКТУАЛЬНОЕ значение счётчика.
-// Тренирует: метод-значение с value-receiver копирует получатель в момент вычисления.
-// Сложность: hard
+// snapshotter returns a method value that must report the CURRENT
+// value of the counter.
+// A method value with a value receiver copies the receiver when it is evaluated.
 package main_test
 
 import "testing"

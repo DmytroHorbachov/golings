@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// tax считает налог: до 10000 — 0%, до 50000 — 10%, выше — 20% от всей суммы.
-// Сейчас ставки применяются к неправильным диапазонам.
-// Тренирует: цепочку else if с возрастающими порогами.
-// Сложность: medium
+// tax: up to 10000 is 0%, up to 50000 is 10%, above that 20% of the whole amount.
+// Right now the rates are applied to the wrong ranges.
+// Practices an else if chain with rising thresholds.
 package main_test
 
 import "testing"

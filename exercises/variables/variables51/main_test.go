@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция rotate должна сдвинуть три значения влево: (a, b, c) -> (b, c, a).
-// Тренирует: одновременное присваивание трёх переменных.
-// Сложность: medium
+// rotate must shift three values to the left: (a, b, c) -> (b, c, a).
+// Practices assigning three variables at once.
 package main_test
 
 import "testing"

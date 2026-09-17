@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// joinInts должна превратить числа в строку через запятую: "1,2,3".
-// Тренирует: функцию высшего порядка mapInts и strings.Join.
-// Сложность: medium
+// joinInts must turn numbers into a comma separated string: "1,2,3".
+// Practices the higher order function mapInts and strings.Join.
 package main_test
 
 import (

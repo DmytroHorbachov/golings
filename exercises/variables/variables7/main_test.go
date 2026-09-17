@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция minValue должна вернуть минимальный элемент непустого среза.
-// Для положительных чисел всегда возвращается 0.
-// Тренирует: правильный выбор начального значения переменной.
-// Сложность: easy
+// minValue must return the smallest element of a non-empty slice.
+// For positive numbers it always returns 0.
+// Practices picking the right initial value for a variable.
 package main_test
 
 import "testing"

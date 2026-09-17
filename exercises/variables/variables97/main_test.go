@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция должна вернуть n-е число Фибоначчи (fib(0)=0, fib(1)=1).
-// Тренирует: одновременное присваивание нескольких переменных.
-// Сложность: medium
+// This function must return the n-th Fibonacci number (fib(0)=0, fib(1)=1).
+// Practices assigning several variables at once.
 package main_test
 
 import "testing"

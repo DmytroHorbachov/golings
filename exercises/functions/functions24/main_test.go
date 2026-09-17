@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// maxOf должна вернуть наибольший из переданных аргументов (хотя бы один).
-// Тренирует: вариативные функции с обязательным первым параметром.
-// Сложность: easy
+// maxOf must return the largest of its arguments, of which there is at least one.
+// Practices variadic functions with a mandatory first parameter.
 package main_test
 
 import "testing"

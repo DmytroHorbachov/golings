@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция divider должна вернуть строку из n символов '-'.
-// Код не компилируется: строку нельзя умножить на число.
-// Тренирует: работа со строковыми значениями через пакет strings.
-// Сложность: easy
+// divider must return a string of n '-' characters.
+// The code does not compile: a string cannot be multiplied by a number.
+// Practices string values through the strings package.
 package main_test
 
 import (

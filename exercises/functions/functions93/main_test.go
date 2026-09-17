@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validate прогоняет значение через список проверок и возвращает первую ошибку.
-// Сейчас возвращается последняя ошибка или nil.
-// Тренирует: срез функций и ранний выход.
-// Сложность: medium
+// validate runs a value through a list of checks and returns the first error.
+// Right now it returns the last error, or nil.
+// Practices a slice of functions and an early exit.
 package main_test
 
 import (

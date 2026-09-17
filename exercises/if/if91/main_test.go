@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// knightMove проверяет, может ли шахматный конь перейти из (r1, c1) в (r2, c2)
-// на доске 8×8 (клетки 0..7).
-// Тренирует: условия с модулем разности и проверкой границ.
-// Сложность: medium
+// knightMove checks whether a knight can go from (r1, c1) to (r2, c2)
+// on an 8 by 8 board with squares 0..7.
+// Practices conditions with absolute differences and bounds checks.
 package main_test
 
 import "testing"

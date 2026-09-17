@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Переменная пакета greeting должна содержать "Hello, Gopher".
-// Имя задаётся в init(), но greeting вычисляется раньше.
-// Тренирует: порядок инициализации — сначала переменные пакета, потом init.
-// Сложность: hard
+// The package variable greeting must hold "Hello, Gopher".
+// The name is set in init(), but greeting is computed earlier.
+// Initialization order: package variables first, then init.
 package main_test
 
 import "testing"

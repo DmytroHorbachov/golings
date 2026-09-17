@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isUpper должна вернуть true для заглавных латинских букв.
-// Тренирует: сравнение рун с диапазоном символов.
-// Сложность: easy
+// isUpper must return true for uppercase latin letters.
+// Practices comparing runes against a range of characters.
 package main_test
 
 import "testing"

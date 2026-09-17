@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция product перемножает все аргументы; без аргументов результат 1.
-// Сейчас произведение всегда 0.
-// Тренирует: вариативные функции и начальное значение аккумулятора.
-// Сложность: easy
+// product multiplies all of its arguments; with no arguments the result is 1.
+// Right now the product is always 0.
+// Practices variadic functions and the initial value of an accumulator.
 package main_test
 
 import "testing"

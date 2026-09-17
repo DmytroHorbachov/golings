@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// shortage должна вернуть true, если запрошено больше, чем есть на складе.
-// Условие never-true: разность беззнаковых чисел не бывает отрицательной.
-// Тренирует: сравнение беззнаковых значений.
-// Сложность: hard
+// shortage must return true when more is asked for than the warehouse holds.
+// The condition can never hold: the difference of unsigned numbers is never negative.
+// Practices comparing unsigned values.
 package main_test
 
 import "testing"

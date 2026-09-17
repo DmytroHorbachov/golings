@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// validEmail: ровно один символ @, он не первый, и после него есть точка
-// (не сразу после @ и не в конце).
-// Тренирует: последовательность проверок с ранним возвратом.
-// Сложность: medium
+// validEmail: exactly one @, not in the first position, with a dot after it
+// that is neither right after the @ nor at the very end.
+// Practices a sequence of checks with early returns.
 package main_test
 
 import (

@@ -347,789 +347,789 @@ name = "variables7"
 path = "exercises/variables/variables7/main_test.go"
 mode = "test"
 hint = """
-Нулевое значение int — не лучший старт для поиска минимума.
-Начните с первого элемента или с максимального возможного int."""
+The zero value of an int is a poor starting point for a minimum.
+Start from the first element, or from the largest possible int."""
 
 [[exercises]]
 name = "variables8"
 path = "exercises/variables/variables8/main_test.go"
 mode = "test"
 hint = """
-Типизированную константу нельзя сравнивать с float64 без преобразования.
-Сделайте срез показаний того же типа и проверьте знак сравнения."""
+A typed constant cannot be compared to a float64 without a conversion.
+Give the readings the same type and check the comparison operator."""
 
 [[exercises]]
 name = "variables9"
 path = "exercises/variables/variables9/main_test.go"
 mode = "test"
 hint = """
-time.Duration(1.5) усекается до 1 наносекунды ещё до умножения.
-Умножайте секунды на количество наносекунд в секунде, пока значение ещё float64."""
+time.Duration(1.5) is truncated to 1 nanosecond before the multiplication.
+Multiply the seconds by the number of nanoseconds in a second while the value is still a float64."""
 
 [[exercises]]
 name = "variables10"
 path = "exercises/variables/variables10/main_test.go"
 mode = "test"
 hint = """
-Для инверсии булевой переменной в Go используется унарный оператор !."""
+Go inverts a boolean with the unary ! operator."""
 
 [[exercises]]
 name = "variables11"
 path = "exercises/variables/variables11/main_test.go"
 mode = "test"
 hint = """
-strconv.Atoi возвращает число и ошибку. Если ошибка не nil,
-верните значение по умолчанию. Не игнорируйте ошибку."""
+strconv.Atoi returns a number and an error. When the error is not nil,
+return the default value. Do not ignore the error."""
 
 [[exercises]]
 name = "variables12"
 path = "exercises/variables/variables12/main_test.go"
 mode = "test"
 hint = """
-Значение интерфейса равно nil, только если у него нет ни типа, ни значения.
-Переменная типа *ValidationError со значением nil, положенная в error,
-даёт непустой интерфейс. Возвращайте nil явно."""
+An interface value is nil only when it holds neither a type nor a value.
+A nil *ValidationError stored in an error makes the interface non-empty.
+Return nil explicitly."""
 
 [[exercises]]
 name = "variables13"
 path = "exercises/variables/variables13/main_test.go"
 mode = "test"
 hint = """
-1024 = 1 << 10. Если первая константа в блоке пропущена через _,
-то iota для KB равна 1. Какой множитель нужен при iota?"""
+1024 = 1 << 10. When the first constant of the block is skipped with _,
+iota is 1 for KB. What shift does each iota need?"""
 
 [[exercises]]
 name = "variables14"
 path = "exercises/variables/variables14/main_test.go"
 mode = "test"
 hint = """
-Начальное значение должно быть больше любого возможного элемента.
-math.Inf(1) — положительная бесконечность. Проверьте и знак сравнения."""
+The initial value has to be greater than any possible element.
+math.Inf(1) is positive infinity. Check the comparison operator too."""
 
 [[exercises]]
 name = "variables15"
 path = "exercises/variables/variables15/main_test.go"
 mode = "test"
 hint = """
-defer f(x) сразу вычисляет x и запоминает его. Чтобы прочитать переменную
-в момент выхода, отложите вызов анонимной функции, которая обращается к ней."""
+defer f(x) evaluates x right away and remembers it. To read the variable
+at return time, defer an anonymous function that reads it."""
 
 [[exercises]]
 name = "variables16"
 path = "exercises/variables/variables16/main_test.go"
 mode = "test"
 hint = """
-Восьмеричные числа в Go записываются с префиксом 0o (или просто 0)."""
+Octal numbers in Go carry the prefix 0o (or a plain leading 0)."""
 
 [[exercises]]
 name = "variables17"
 path = "exercises/variables/variables17/main_test.go"
 mode = "test"
 hint = """
-Чтобы функция могла изменить переменную вызывающего кода,
-передайте ей адрес переменной и разыменуйте его внутри."""
+For a function to change the caller's variable,
+pass it the address of the variable and dereference it inside."""
 
 [[exercises]]
 name = "variables18"
 path = "exercises/variables/variables18/main_test.go"
 mode = "test"
 hint = """
-for i := ... объявляет новую i, видимую только внутри цикла.
-Внешняя i остаётся неизменной. Используйте присваивание вместо объявления."""
+for i := ... declares a new i that is only visible inside the loop.
+The outer i is left untouched. Assign instead of declaring."""
 
 [[exercises]]
 name = "variables19"
 path = "exercises/variables/variables19/main_test.go"
 mode = "test"
 hint = """
-Переменная, объявленная через var без значения, равна нулю своего типа.
-Задайте начальное значение прямо в объявлении."""
+A variable declared with var and no value holds the zero value of its type.
+Give it a starting value in the declaration."""
 
 [[exercises]]
 name = "variables20"
 path = "exercises/variables/variables20/main_test.go"
 mode = "test"
 hint = """
-Среднее — сумма, делённая на количество, в float64.
-Деление на ноль нужно обойти отдельной проверкой."""
+The average is the sum divided by the count, in float64.
+A division by zero needs a check of its own."""
 
 [[exercises]]
 name = "variables21"
 path = "exercises/variables/variables21/main_test.go"
 mode = "test"
 hint = """
-Условие i >= 0 для uint всегда истинно. После i == 0 декремент даёт
-огромное число. Используйте знаковый тип для счётчика."""
+The condition i >= 0 is always true for a uint. Decrementing 0 gives
+a huge number. Use a signed type for the counter."""
 
 [[exercises]]
 name = "variables22"
 path = "exercises/variables/variables22/main_test.go"
 mode = "test"
 hint = """
-Проверьте, с какого числа начинается нумерация дней
-и какие индексы используются в массиве имён."""
+Check which number the days start from
+and which indexes are used in the array of names."""
 
 [[exercises]]
 name = "variables23"
 path = "exercises/variables/variables23/main_test.go"
 mode = "test"
 hint = """
-Разность двух uint не может быть отрицательной: она «оборачивается»
-через максимальное значение типа. Сравните значения до вычитания."""
+The difference of two uints cannot be negative: it wraps around
+through the maximum value of the type. Compare the values before subtracting."""
 
 [[exercises]]
 name = "variables24"
 path = "exercises/variables/variables24/main_test.go"
 mode = "test"
 hint = """
-Шестнадцатеричное число начинается с 0x. Пересчитайте количество цифр F."""
+A hexadecimal number starts with 0x. Count the F digits again."""
 
 [[exercises]]
 name = "variables25"
 path = "exercises/variables/variables25/main_test.go"
 mode = "test"
 hint = """
-Чтобы флаги можно было комбинировать, каждый должен занимать отдельный бит.
-Проверка флага — это побитовое И и сравнение с нулём."""
+To be combinable, every flag has to occupy a bit of its own.
+Testing a flag is a bitwise AND compared against zero."""
 
 [[exercises]]
 name = "variables26"
 path = "exercises/variables/variables26/main_test.go"
 mode = "test"
 hint = """
-XOR переключает бит, а не сбрасывает его. В Go есть отдельный оператор
-AND NOT, который гарантированно обнуляет указанные биты."""
+XOR toggles a bit instead of clearing it. Go has a separate AND NOT
+operator that always zeroes the given bits."""
 
 [[exercises]]
 name = "variables27"
 path = "exercises/variables/variables27/main_test.go"
 mode = "test"
 hint = """
-В math/bits есть OnesCount (число единиц) и Len (минимальное число бит
-для записи значения). Проверьте, какие функции вызываются."""
+math/bits has OnesCount (the number of set bits) and Len (the smallest number
+of bits needed to hold the value). Check which ones are being called."""
 
 [[exercises]]
 name = "variables28"
 path = "exercises/variables/variables28/main_test.go"
 mode = "test"
 hint = """
-Константы можно выражать через другие константы с помощью арифметики.
-Сколько часов в сутках?"""
+Constants can be written in terms of other constants with arithmetic.
+How many hours are there in a day?"""
 
 [[exercises]]
 name = "variables29"
 path = "exercises/variables/variables29/main_test.go"
 mode = "test"
 hint = """
-'a' + i даёт код нужного символа. Чтобы получить из кода строку,
-преобразуйте его в rune. Номер буквы — разность с 'a'."""
+'a' + i gives the code of the wanted character. To turn a code into a string,
+convert it to a rune first. The position of a letter is its distance from 'a'."""
 
 [[exercises]]
 name = "variables30"
 path = "exercises/variables/variables30/main_test.go"
 mode = "test"
 hint = """
-В пакете strings есть функция, повторяющая строку заданное число раз."""
+The strings package has a function that repeats a string a given number of times."""
 
 [[exercises]]
 name = "variables31"
 path = "exercises/variables/variables31/main_test.go"
 mode = "test"
 hint = """
-int(x) не округляет, а усекает к нулю: int(-2.9) == -2.
-Прибавлять 0.5 корректно только для положительных чисел.
-Посмотрите на функции пакета math."""
+int(x) does not round, it truncates towards zero: int(-2.9) == -2.
+Adding 0.5 is only correct for positive numbers.
+Have a look at the math package."""
 
 [[exercises]]
 name = "variables32"
 path = "exercises/variables/variables32/main_test.go"
 mode = "test"
 hint = """
-Посмотрите, что возвращается: значение до увеличения или после?
-И с какого значения начинается счётчик?"""
+Look at what is returned: the value before or after the increment?
+And which value does the counter start from?"""
 
 [[exercises]]
 name = "variables33"
 path = "exercises/variables/variables33/main_test.go"
 mode = "test"
 hint = """
-:= внутри функции объявляет новую локальную переменную, даже если
-на уровне пакета уже есть переменная с таким именем."""
+:= inside a function declares a new local variable, even when a package
+level variable of that name already exists."""
 
 [[exercises]]
 name = "variables34"
 path = "exercises/variables/variables34/main_test.go"
 mode = "test"
 hint = """
-Нельзя смешивать Celsius и Fahrenheit в одном выражении без преобразования,
-даже если под ними один и тот же float64. Сделайте явное приведение типа."""
+Celsius and Fahrenheit cannot be mixed in one expression without a conversion,
+even though both are float64 underneath. Convert explicitly."""
 
 [[exercises]]
 name = "variables35"
 path = "exercises/variables/variables35/main_test.go"
 mode = "test"
 hint = """
-Выражение вида x := x + v внутри блока создаёт новую x, которая исчезает
-в конце итерации. Нужно изменять переменную, объявленную до цикла."""
+An expression like x := x + v inside a block creates a new x that disappears
+at the end of the iteration. Assign to the variable declared before the loop."""
 
 [[exercises]]
 name = "variables36"
 path = "exercises/variables/variables36/main_test.go"
 mode = "test"
 hint = """
-Порядок переменных слева должен совпадать с порядком возвращаемых значений.
-Ненужное значение можно отбросить с помощью _."""
+The variables on the left must line up with the order of the return values.
+An unwanted value can be dropped with _."""
 
 [[exercises]]
 name = "variables37"
 path = "exercises/variables/variables37/main_test.go"
 mode = "test"
 hint = """
-strconv.ParseBool понимает несколько форм записи. Вместо ручного
-сравнения со строкой используйте её и учтите ошибку."""
+strconv.ParseBool understands several spellings. Use it instead of comparing
+against a string by hand, and take the error into account."""
 
 [[exercises]]
 name = "variables38"
 path = "exercises/variables/variables38/main_test.go"
 mode = "test"
 hint = """
-В a, s[a] = x, y индекс s[a] вычисляется со старым значением a.
-Разделите присваивание на два шага."""
+In a, s[a] = x, y the index s[a] is computed with the old value of a.
+Split the assignment in two steps."""
 
 [[exercises]]
 name = "variables39"
 path = "exercises/variables/variables39/main_test.go"
 mode = "test"
 hint = """
-Нулевое значение переменной функционального типа — nil.
-Присвойте ей функцию с подходящей сигнатурой."""
+The zero value of a function typed variable is nil.
+Assign it a function with a matching signature."""
 
 [[exercises]]
 name = "variables40"
 path = "exercises/variables/variables40/main_test.go"
 mode = "test"
 hint = """
-В пакете unicode/utf8 есть функция для подсчёта рун в строке."""
+The unicode/utf8 package has a function that counts the runes in a string."""
 
 [[exercises]]
 name = "variables41"
 path = "exercises/variables/variables41/main_test.go"
 mode = "test"
 hint = """
-Голый return возвращает внешние n и err. Если внутри блока объявить
-одноимённые переменные через :=, компилятор это запретит. Присвойте, а не объявляйте."""
+A naked return returns the outer n and err. Declaring variables of the same
+name inside a block with := is rejected by the compiler. Assign, do not declare."""
 
 [[exercises]]
 name = "variables42"
 path = "exercises/variables/variables42/main_test.go"
 mode = "test"
 hint = """
-В двойных кавычках табуляция записывается как \t.
-Внутри обратных кавычек escape-последовательности не работают."""
+Inside double quotes a tab is written as \t.
+Escape sequences do not work inside backquotes."""
 
 [[exercises]]
 name = "variables43"
 path = "exercises/variables/variables43/main_test.go"
 mode = "test"
 hint = """
-Проверьте значения полей в литерале структуры и то,
-как порт превращается в строку."""
+Check the field values in the struct literal and
+how the port is turned into a string."""
 
 [[exercises]]
 name = "variables44"
 path = "exercises/variables/variables44/main_test.go"
 mode = "test"
 hint = """
-Посмотрите, какой оператор применяется к result на каждой итерации.
-Удвоение — это умножение."""
+Look at which operator is applied to result on every iteration.
+Doubling is a multiplication."""
 
 [[exercises]]
 name = "variables45"
 path = "exercises/variables/variables45/main_test.go"
 mode = "test"
 hint = """
-Строки в Go неизменяемы. Сконвертируйте строку в срез байт,
-измените нужный байт и соберите строку обратно."""
+Strings in Go are immutable. Convert the string to a byte slice,
+change the byte you need and build a string back from it."""
 
 [[exercises]]
 name = "variables46"
 path = "exercises/variables/variables46/main_test.go"
 mode = "test"
 hint = """
-Часы — это секунды, делённые на 3600. Минуты считаются из остатка
-от часа, секунды — из остатка от минуты."""
+The hours are the seconds divided by 3600. The minutes come out of the
+remainder of the hour, the seconds out of the remainder of the minute."""
 
 [[exercises]]
 name = "variables47"
 path = "exercises/variables/variables47/main_test.go"
 mode = "test"
 hint = """
-Красная компонента — первые два символа. Их нужно разобрать
-как число в шестнадцатеричной системе (base 16)."""
+The red component is the first two characters. They have to be parsed
+as a number in base 16."""
 
 [[exercises]]
 name = "variables48"
 path = "exercises/variables/variables48/main_test.go"
 mode = "test"
 hint = """
-В Go знак остатка совпадает со знаком делимого: -1 % 5 == -1.
-Как превратить такой остаток в неотрицательный?"""
+In Go the remainder takes the sign of the dividend: -1 % 5 == -1.
+How do you turn such a remainder into a non-negative one?"""
 
 [[exercises]]
 name = "variables49"
 path = "exercises/variables/variables49/main_test.go"
 mode = "test"
 hint = """
-Сначала превратите минуты в time.Duration, умножив на time.Minute.
-У Duration есть метод, возвращающий длительность в часах как float64."""
+First turn the minutes into a time.Duration by multiplying by time.Minute.
+Duration has a method that returns the length in hours as a float64."""
 
 [[exercises]]
 name = "variables50"
 path = "exercises/variables/variables50/main_test.go"
 mode = "test"
 hint = """
-Счётчик должен увеличиваться при каждой найденной гласной.
-Сейчас он не меняется."""
+The counter has to grow on every vowel found.
+Right now it never changes."""
 
 [[exercises]]
 name = "variables51"
 path = "exercises/variables/variables51/main_test.go"
 mode = "test"
 hint = """
-Последовательные присваивания затирают значения, которые ещё нужны.
-Запишите сдвиг одной инструкцией."""
+Assigning one after another overwrites values that are still needed.
+Write the rotation as a single statement."""
 
 [[exercises]]
 name = "variables52"
 path = "exercises/variables/variables52/main_test.go"
 mode = "test"
 hint = """
-lo + hi может выйти за пределы int64. Середину можно найти,
-прибавив к lo половину расстояния до hi."""
+lo + hi can run past the limits of an int64. The midpoint can be found
+by adding half of the distance to hi to lo."""
 
 [[exercises]]
 name = "variables53"
 path = "exercises/variables/variables53/main_test.go"
 mode = "test"
 hint = """
-Чтобы iota увеличилась, но константа не создавалась,
-используйте пустой идентификатор отдельной строкой."""
+To let iota grow without declaring a constant,
+put the blank identifier on a line of its own."""
 
 [[exercises]]
 name = "variables54"
 path = "exercises/variables/variables54/main_test.go"
 mode = "test"
 hint = """
-ParseFloat принимает строку и разрядность (64). Успех определяется
-по тому, равна ли ошибка nil."""
+ParseFloat takes a string and a bit size (64). Success is decided
+by whether the error is nil."""
 
 [[exercises]]
 name = "variables55"
 path = "exercises/variables/variables55/main_test.go"
 mode = "test"
 hint = """
-Анонимная функция видит саму переменную, поэтому видит и её изменения.
-Сделайте локальную копию значения, которую больше никто не меняет."""
+The anonymous function sees the variable, so it sees the changes too.
+Make a local copy of the value that nothing else can change."""
 
 [[exercises]]
 name = "variables56"
 path = "exercises/variables/variables56/main_test.go"
 mode = "test"
 hint = """
-Строки пишутся в двойных кавычках, а одиночный символ (rune) — в одинарных."""
+Strings are written in double quotes, a single character (a rune) in single quotes."""
 
 [[exercises]]
 name = "variables57"
 path = "exercises/variables/variables57/main_test.go"
 mode = "test"
 hint = """
-Запятая нужна между полями, но не перед первым полем и не после последнего.
-Результат получают методом String."""
+A comma goes between the fields, but not before the first one or after the last one.
+The result comes out of the String method."""
 
 [[exercises]]
 name = "variables58"
 path = "exercises/variables/variables58/main_test.go"
 mode = "test"
 hint = """
-Адрес переменной цикла — это адрес копии. Возьмите адрес элемента
-среза по индексу."""
+The address of the loop variable is the address of a copy. Take the address of
+the slice element by index."""
 
 [[exercises]]
 name = "variables59"
 path = "exercises/variables/variables59/main_test.go"
 mode = "test"
 hint = """
-Константу можно выразить через time.Millisecond. У Duration есть метод
-Milliseconds, возвращающий int64."""
+The constant can be written in terms of time.Millisecond. Duration has a
+Milliseconds method that returns an int64."""
 
 [[exercises]]
 name = "variables60"
 path = "exercises/variables/variables60/main_test.go"
 mode = "test"
 hint = """
-iota в каждом блоке const начинается с нуля.
-Выражение из первой строки повторяется для следующих констант."""
+iota starts at zero in every const block.
+The expression on the first line is repeated for the constants that follow."""
 
 [[exercises]]
 name = "variables61"
 path = "exercises/variables/variables61/main_test.go"
 mode = "test"
 hint = """
-Один символ кириллицы занимает несколько байт. Переворачивайте
-не байты, а руны: сконвертируйте строку в []rune."""
+A single cyrillic character takes several bytes. Reverse runes rather than
+bytes: convert the string to a []rune."""
 
 [[exercises]]
 name = "variables62"
 path = "exercises/variables/variables62/main_test.go"
 mode = "test"
 hint = """
-Строки в Go не бывают nil. С чем стоит сравнивать строку,
-чтобы понять, что она пустая?"""
+Strings in Go are never nil. What should a string be compared against
+to find out that it is empty?"""
 
 [[exercises]]
 name = "variables63"
 path = "exercises/variables/variables63/main_test.go"
 mode = "test"
 hint = """
-Литерал 42.0 даёт float64, а 42 — int. Тип проверяется через %T."""
+The literal 42.0 gives a float64, while 42 gives an int. The type can be checked with %T."""
 
 [[exercises]]
 name = "variables64"
 path = "exercises/variables/variables64/main_test.go"
 mode = "test"
 hint = """
-По стандарту IEEE 754 NaN не равен ничему, даже самому себе.
-В пакете math есть специальная функция проверки."""
+Under IEEE 754 a NaN equals nothing, not even itself.
+The math package has a function made for this check."""
 
 [[exercises]]
 name = "variables65"
 path = "exercises/variables/variables65/main_test.go"
 mode = "test"
 hint = """
-Go не приводит int к float64 автоматически. Сконвертируйте аргумент."""
+Go does not convert an int to a float64 on its own. Convert the argument."""
 
 [[exercises]]
 name = "variables66"
 path = "exercises/variables/variables66/main_test.go"
 mode = "test"
 hint = """
-Переменная существует только внутри блока, где объявлена.
-Объявите её до if и внутри блока только присваивайте."""
+A variable only exists inside the block it is declared in.
+Declare it before the if and only assign to it inside the block."""
 
 [[exercises]]
 name = "variables67"
 path = "exercises/variables/variables67/main_test.go"
 mode = "test"
 hint = """
-Конвертация int в byte просто отбрасывает старшие биты.
-Сначала ограничьте значение, затем конвертируйте."""
+Converting an int to a byte simply drops the high bits.
+Clamp the value first, then convert."""
 
 [[exercises]]
 name = "variables68"
 path = "exercises/variables/variables68/main_test.go"
 mode = "test"
 hint = """
-new(T) выделяет память под значение типа T и возвращает *T с нулевым значением.
-Запишите нужное число через разыменование указателя."""
+new(T) allocates a value of type T and returns a *T holding the zero value.
+Store the number you need through the pointer."""
 
 [[exercises]]
 name = "variables69"
 path = "exercises/variables/variables69/main_test.go"
 mode = "test"
 hint = """
-После паники обычный return не выполняется, и функция возвращает
-значения результатов. Дайте результатам имена и присвойте ошибку им в defer."""
+After a panic the ordinary return never runs, so the function returns the
+result values. Name the results and assign the error to them in the defer."""
 
 [[exercises]]
 name = "variables70"
 path = "exercises/variables/variables70/main_test.go"
 mode = "test"
 hint = """
-FormatFloat(f, fmt, prec, bitSize): формат 'f' без экспоненты,
-prec — количество знаков после точки."""
+FormatFloat(f, fmt, prec, bitSize): the 'f' format has no exponent,
+and prec is the number of digits after the point."""
 
 [[exercises]]
 name = "variables71"
 path = "exercises/variables/variables71/main_test.go"
 mode = "test"
 hint = """
-Как только значение попадает в переменную, оно получает тип int
-и может переполниться. Константное выражение вычисляется компилятором точно."""
+As soon as a value lands in a variable it takes a type, int here, and can
+overflow. A constant expression is evaluated exactly by the compiler."""
 
 [[exercises]]
 name = "variables72"
 path = "exercises/variables/variables72/main_test.go"
 mode = "test"
 hint = """
-Go позволяет писать 1_000_000 для читаемости: подчёркивания игнорируются.
-Пересчитайте группы из трёх нулей."""
+Go allows 1_000_000 for readability: the underscores are ignored.
+Count the groups of three zeros again."""
 
 [[exercises]]
 name = "variables73"
 path = "exercises/variables/variables73/main_test.go"
 mode = "test"
 hint = """
-Проверьте значения в блоке var и то, как собирается строка.
-Число превращается в строку через strconv."""
+Check the values in the var block and how the string is built.
+A number becomes a string through strconv."""
 
 [[exercises]]
 name = "variables74"
 path = "exercises/variables/variables74/main_test.go"
 mode = "test"
 hint = """
-Присваивание a, b = b, a меняет сами указатели внутри функции.
-Нужно менять значения по этим адресам."""
+The assignment a, b = b, a swaps the pointers themselves inside the function.
+The values at those addresses are what has to be swapped."""
 
 [[exercises]]
 name = "variables75"
 path = "exercises/variables/variables75/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте не сами числа, а модуль их разности с маленьким порогом.
-В пакете math есть функция Abs."""
+Compare the absolute difference against a small threshold rather than the
+numbers themselves. The math package has Abs."""
 
 [[exercises]]
 name = "variables76"
 path = "exercises/variables/variables76/main_test.go"
 mode = "test"
 hint = """
-Тип byte хранит значения только от 0 до 255. Какой тип подойдёт
-для суммы многих байт?"""
+A byte only holds values from 0 to 255. Which type suits
+the sum of many bytes?"""
 
 [[exercises]]
 name = "variables77"
 path = "exercises/variables/variables77/main_test.go"
 mode = "test"
 hint = """
-На каждом шаге последняя цифра — n % 10. Результат сдвигается на разряд
-(умножается на 10) перед добавлением цифры, а n делится на 10."""
+At every step the last digit is n % 10. The result is shifted one place
+(multiplied by 10) before the digit is added, and n is divided by 10."""
 
 [[exercises]]
 name = "variables78"
 path = "exercises/variables/variables78/main_test.go"
 mode = "test"
 hint = """
-В пакете math есть константы MaxInt8, MaxInt16, MaxInt32, MaxInt64."""
+The math package has the constants MaxInt8, MaxInt16, MaxInt32 and MaxInt64."""
 
 [[exercises]]
 name = "variables79"
 path = "exercises/variables/variables79/main_test.go"
 mode = "test"
 hint = """
-В Go ^ — это исключающее ИЛИ (XOR). Оператора возведения в степень нет."""
+In Go ^ is exclusive or (XOR). There is no exponentiation operator."""
 
 [[exercises]]
 name = "variables80"
 path = "exercises/variables/variables80/main_test.go"
 mode = "test"
 hint = """
-Результат деления двух int — тоже int. Преобразуйте операнды
-в float64 до деления, а не после."""
+Dividing two ints gives an int. Convert the operands to float64
+before the division, not after."""
 
 [[exercises]]
 name = "variables81"
 path = "exercises/variables/variables81/main_test.go"
 mode = "test"
 hint = """
-Проверьте значения сторон и формулы площади и периметра."""
+Check the values of the sides and the formulas for area and perimeter."""
 
 [[exercises]]
 name = "variables82"
 path = "exercises/variables/variables82/main_test.go"
 mode = "test"
 hint = """
-Замыкание захватывает переменную, объявленную снаружи.
-Если эта переменная одна на весь пакет, её разделяют все замыкания.
-Создавайте переменную заново при каждом вызове фабрики."""
+A closure captures the variable declared outside it.
+When that variable belongs to the package, every closure shares it.
+Create the variable anew on each call of the factory."""
 
 [[exercises]]
 name = "variables83"
 path = "exercises/variables/variables83/main_test.go"
 mode = "test"
 hint = """
-Переведите букву в номер от 0 до 25, сдвиньте его по модулю 26
-и переведите обратно, прибавив 'a'."""
+Turn the letter into a number from 0 to 25, shift it modulo 26
+and turn it back by adding 'a'."""
 
 [[exercises]]
 name = "variables84"
 path = "exercises/variables/variables84/main_test.go"
 mode = "test"
 hint = """
-Константа существует только на этапе компиляции, взять её адрес нельзя.
-Если значение нужно изменять, это должна быть переменная."""
+A constant only exists at compile time, so its address cannot be taken.
+A value that has to change must be a variable."""
 
 [[exercises]]
 name = "variables85"
 path = "exercises/variables/variables85/main_test.go"
 mode = "test"
 hint = """
-float32 точно представляет целые числа только до 2^24.
-Выберите тип, в котором такие идентификаторы хранятся без потерь."""
+A float32 represents integers exactly only up to 2^24.
+Pick a type that holds such identifiers without loss."""
 
 [[exercises]]
 name = "variables86"
 path = "exercises/variables/variables86/main_test.go"
 mode = "test"
 hint = """
-Разыменовывать nil-указатель нельзя. Проверьте указатель перед использованием."""
+A nil pointer must not be dereferenced. Check the pointer before using it."""
 
 [[exercises]]
 name = "variables87"
 path = "exercises/variables/variables87/main_test.go"
 mode = "test"
 hint = """
-time.Second имеет тип time.Duration, а seconds — int.
-Преобразуйте int в time.Duration перед умножением."""
+time.Second has type time.Duration while seconds is an int.
+Convert the int to a time.Duration before the multiplication."""
 
 [[exercises]]
 name = "variables88"
 path = "exercises/variables/variables88/main_test.go"
 mode = "test"
 hint = """
-Внутри блока := создаёт НОВУЮ переменную, даже если снаружи есть одноимённая.
-Внешняя err так и остаётся nil. Посмотрите, куда на самом деле пишется ошибка."""
+Inside a block := creates a NEW variable, even when one of that name exists
+outside. The outer err stays nil. Look at where the error actually goes."""
 
 [[exercises]]
 name = "variables89"
 path = "exercises/variables/variables89/main_test.go"
 mode = "test"
 hint = """
-Компилятор сообщает "declared and not used". Используйте tax в результате."""
+The compiler reports "declared and not used". Use tax in the result."""
 
 [[exercises]]
 name = "variables90"
 path = "exercises/variables/variables90/main_test.go"
 mode = "test"
 hint = """
-Преобразование string(x) для целого числа трактует его как код символа Unicode.
-Для десятичного представления нужен пакет strconv."""
+The conversion string(x) of an integer reads it as a Unicode code point.
+The decimal form comes from the strconv package."""
 
 [[exercises]]
 name = "variables91"
 path = "exercises/variables/variables91/main_test.go"
 mode = "test"
 hint = """
-В одной миле 1.609344 километра. При переводе км в мили делят,
-а при переводе миль в км — умножают."""
+One mile is 1.609344 kilometres. Going from km to miles divides,
+and going from miles to km multiplies."""
 
 [[exercises]]
 name = "variables92"
 path = "exercises/variables/variables92/main_test.go"
 mode = "test"
 hint = """
-Сумма значений int8 не обязана помещаться в int8: при переполнении
-значение «заворачивается». Накапливайте сумму в типе пошире."""
+The sum of int8 values need not fit in an int8: on overflow the value
+wraps around. Accumulate the sum in a wider type."""
 
 [[exercises]]
 name = "variables93"
 path = "exercises/variables/variables93/main_test.go"
 mode = "test"
 hint = """
-В Go есть строки в обратных кавычках: внутри них escape-последовательности
-не обрабатываются."""
+Go has strings in backquotes: escape sequences are not
+processed inside them."""
 
 [[exercises]]
 name = "variables94"
 path = "exercises/variables/variables94/main_test.go"
 mode = "test"
 hint = """
-Комплексное число можно создать литералом 3 + 4i или функцией complex.
-Действительную часть возвращает встроенная функция real."""
+A complex number can be written as the literal 3 + 4i or built with complex.
+The builtin real returns the real part."""
 
 [[exercises]]
 name = "variables95"
 path = "exercises/variables/variables95/main_test.go"
 mode = "test"
 hint = """
-Переменная total уже объявлена. Для изменения существующей переменной
-используется обычное присваивание."""
+The variable total is already declared. Changing an existing variable
+calls for a plain assignment."""
 
 [[exercises]]
 name = "variables96"
 path = "exercises/variables/variables96/main_test.go"
 mode = "test"
 hint = """
-Все переменные уровня пакета инициализируются до вызова функций init.
-Задайте значение name прямо при объявлении."""
+Every package level variable is initialized before the init functions run.
+Set the value of name right in its declaration."""
 
 [[exercises]]
 name = "variables97"
 path = "exercises/variables/variables97/main_test.go"
 mode = "test"
 hint = """
-Если обновлять a и b двумя отдельными присваиваниями, второе увидит уже
-изменённое первое значение. Обновите обе переменные одной инструкцией."""
+Updating a and b in two separate assignments makes the second one see the
+value the first has already changed. Update both in a single statement."""
 
 [[exercises]]
 name = "variables98"
 path = "exercises/variables/variables98/main_test.go"
 mode = "test"
 hint = """
-Младшие четыре бита выделяет маска из четырёх единиц."""
+The low four bits are picked out by a mask of four ones."""
 
 [[exercises]]
 name = "variables99"
 path = "exercises/variables/variables99/main_test.go"
 mode = "test"
 hint = """
-Обычное деление округляет вниз. Добавьте к делимому perPage-1
-или проверьте остаток. Учтите perPage <= 0."""
+Plain division rounds down. Add perPage-1 to the dividend
+or check the remainder. Mind perPage <= 0."""
 
 [[exercises]]
 name = "variables100"
 path = "exercises/variables/variables100/main_test.go"
 mode = "test"
 hint = """
-В Go литерал, начинающийся с 0, трактуется как восьмеричный.
-Уберите ведущие нули из литералов."""
+In Go a literal starting with 0 is read as octal.
+Drop the leading zeros from the literals."""
 
 [[exercises]]
 name = "variables101"
 path = "exercises/variables/variables101/main_test.go"
 mode = "test"
 hint = """
-Символ '7' — это не число 7. Вычтите '0', чтобы получить индекс.
-И не забудьте пропускать нецифровые символы."""
+The character '7' is not the number 7. Subtract '0' to get the index.
+And remember to skip the non-digit characters."""
 
 [[exercises]]
 name = "variables102"
 path = "exercises/variables/variables102/main_test.go"
 mode = "test"
 hint = """
-При целочисленном делении дробная часть отбрасывается сразу.
-Подумайте, в каком порядке умножать и делить, чтобы не потерять точность."""
+Integer division throws the fractional part away straight away.
+Think about the order of the multiplication and the division."""
 
 [[exercises]]
 name = "variables103"
 path = "exercises/variables/variables103/main_test.go"
 mode = "test"
 hint = """
-В Go можно присвоить несколько переменных одной инструкцией: слева и справа
-по несколько выражений через запятую. Все правые части вычисляются до присваивания."""
+Go can assign several variables in one statement, with a comma separated list
+on each side. Every right hand side is evaluated before the assignment."""
 
 [[exercises]]
 name = "variables104"
 path = "exercises/variables/variables104/main_test.go"
 mode = "test"
 hint = """
-Сначала упорядочьте границы (при необходимости поменяйте их местами),
-затем сравните v с каждой из них."""
+Order the bounds first, swapping them when needed,
+then compare v against each of them."""
 
 [[exercises]]
 name = "variables105"
 path = "exercises/variables/variables105/main_test.go"
 mode = "test"
 hint = """
-Внутри одной строки const iota имеет одно и то же значение для всех имён.
-Разнесите константы по отдельным строкам."""
+Within one const line iota has the same value for every name.
+Put the constants on separate lines."""
 
 [[exercises]]
 name = "variables106"
 path = "exercises/variables/variables106/main_test.go"
 mode = "test"
 hint = """
-0.2 нельзя представить как int. Посчитайте в float64,
-а затем преобразуйте результат обратно в int."""
+0.2 cannot be represented as an int. Compute in float64
+and convert the result back to an int."""
 
 # ===== generated exercises: functions =====
 [[exercises]]
@@ -1137,776 +1137,778 @@ name = "functions5"
 path = "exercises/functions/functions5/main_test.go"
 mode = "test"
 hint = """
-Тест сравнивает текст ошибки дословно."""
+The test compares the text of the error word for word."""
 
 [[exercises]]
 name = "functions6"
 path = "exercises/functions/functions6/main_test.go"
 mode = "test"
 hint = """
-Если возрасты различаются, решает возраст. Только при равенстве
-возрастов нужно сравнивать имена."""
+When the ages differ, the age decides. Only when the ages are equal
+do the names have to be compared."""
 
 [[exercises]]
 name = "functions7"
 path = "exercises/functions/functions7/main_test.go"
 mode = "test"
 hint = """
-Какое число не меняет произведение?"""
+Which number leaves a product unchanged?"""
 
 [[exercises]]
 name = "functions8"
 path = "exercises/functions/functions8/main_test.go"
 mode = "test"
 hint = """
-Сейчас defer безусловно перезаписывает err результатом Close.
-Присваивайте ошибку закрытия, только если err ещё nil."""
+Right now the defer overwrites err with the result of Close no matter what.
+Assign the close error only while err is still nil."""
 
 [[exercises]]
 name = "functions9"
 path = "exercises/functions/functions9/main_test.go"
 mode = "test"
 hint = """
-Чтобы вызвать функциональный литерал сразу, после его тела нужны ()."""
+To call a function literal right away, put () after its body."""
 
 [[exercises]]
 name = "functions10"
 path = "exercises/functions/functions10/main_test.go"
 mode = "test"
 hint = """
-Перенесите n-1 дисков на вспомогательный стержень, затем самый большой
-на целевой, затем n-1 дисков со вспомогательного на целевой.
-Следите за порядком аргументов."""
+Move n-1 disks to the spare peg, then the largest one to the target peg,
+then the n-1 disks from the spare peg to the target one.
+Watch the order of the arguments."""
 
 [[exercises]]
 name = "functions11"
 path = "exercises/functions/functions11/main_test.go"
 mode = "test"
 hint = """
-len — не ключевое слово, а обычный предобъявленный идентификатор.
-Локальная переменная с таким именем скрывает встроенную функцию. Переименуйте её."""
+len is not a keyword, it is an ordinary predeclared identifier.
+A local variable of that name hides the builtin. Rename it."""
 
 [[exercises]]
 name = "functions12"
 path = "exercises/functions/functions12/main_test.go"
 mode = "test"
 hint = """
-Каждый уровень принимает одно число и возвращает функцию следующего уровня.
-Внутренняя функция видит параметры всех внешних."""
+Every level takes one number and returns the function of the next level.
+The inner function sees the parameters of all the outer ones."""
 
 [[exercises]]
 name = "functions13"
 path = "exercises/functions/functions13/main_test.go"
 mode = "test"
 hint = """
-Добавляйте функции в срез в Add. В Run пройдите срез с конца
-и после выполнения очистите его."""
+Append the functions to the slice in Add. In Run walk the slice from the end
+and empty it once they have run."""
 
 [[exercises]]
 name = "functions14"
 path = "exercises/functions/functions14/main_test.go"
 mode = "test"
 hint = """
-В цепочку положено значение NotFound, а ищется *NotFound.
-Для errors.As это разные типы."""
+A NotFound value was put in the chain, while a *NotFound is being looked for.
+To errors.As those are different types."""
 
 [[exercises]]
 name = "functions15"
 path = "exercises/functions/functions15/main_test.go"
 mode = "test"
 hint = """
-Для int добавляйте значение в результат, для []interface{} —
-рекурсивно разворачивайте и добавляйте все элементы."""
+For an int append the value to the result; for a []interface{}
+flatten it recursively and append all of its elements."""
 
 [[exercises]]
 name = "functions16"
 path = "exercises/functions/functions16/main_test.go"
 mode = "test"
 hint = """
-Передача среза через ... не копирует элементы: вариативный параметр
-указывает на тот же массив. Работайте с копией."""
+Passing a slice with ... does not copy the elements: the variadic parameter
+points at the same array. Work on a copy."""
 
 [[exercises]]
 name = "functions17"
 path = "exercises/functions/functions17/main_test.go"
 mode = "test"
 hint = """
-Рекурсия должна остановиться до того, как в результат попадёт ноль."""
+The recursion has to stop before a zero makes it into the result."""
 
 [[exercises]]
 name = "functions18"
 path = "exercises/functions/functions18/main_test.go"
 mode = "test"
 hint = """
-В выражении count := func... имя count ещё не существует внутри литерала.
-Сначала объявите переменную нужного функционального типа, затем присвойте."""
+In count := func... the name count does not exist yet inside the literal.
+Declare the variable of the right function type first, then assign to it."""
 
 [[exercises]]
 name = "functions19"
 path = "exercises/functions/functions19/main_test.go"
 mode = "test"
 hint = """
-Сигнатура функции должна точно совпадать с типом Handler.
-Неиспользуемый параметр можно назвать _."""
+The signature of the function has to match the Handler type exactly.
+An unused parameter may be named _."""
 
 [[exercises]]
 name = "functions20"
 path = "exercises/functions/functions20/main_test.go"
 mode = "test"
 hint = """
-Возвращаемая функция принимает только второй аргумент,
-а первый берёт из замыкания."""
+The returned function takes only the second argument
+and picks the first one up from the closure."""
 
 [[exercises]]
 name = "functions21"
 path = "exercises/functions/functions21/main_test.go"
 mode = "test"
 hint = """
-Посмотрите, какая из функций передаётся в transform."""
+Look at which of the functions is handed to transform."""
 
 [[exercises]]
 name = "functions22"
 path = "exercises/functions/functions22/main_test.go"
 mode = "test"
 hint = """
-Выражение c.Value при значимом получателе копирует c сразу.
-Сделайте получатель указателем, чтобы метод видел изменения."""
+The expression c.Value copies c right away when the receiver is a value.
+Make the receiver a pointer so the method sees the changes."""
 
 [[exercises]]
 name = "functions23"
 path = "exercises/functions/functions23/main_test.go"
 mode = "test"
 hint = """
-Код после f() не выполнится при панике. Зафиксируйте старт ДО f,
-а конечное время запишите внутри отложенной анонимной функции."""
+The code after f() does not run when f panics. Take the start BEFORE f
+and record the end time inside a deferred anonymous function."""
 
 [[exercises]]
 name = "functions24"
 path = "exercises/functions/functions24/main_test.go"
 mode = "test"
 hint = """
-Сравнение должно находить большее значение, а не меньшее."""
+The comparison has to find the larger value, not the smaller one."""
 
 [[exercises]]
 name = "functions25"
 path = "exercises/functions/functions25/main_test.go"
 mode = "test"
 hint = """
-Отложенные вызовы в цикле накапливаются до конца всей функции.
-Вынесите тело итерации в отдельную (например, анонимную) функцию."""
+Deferred calls inside a loop pile up until the whole function returns.
+Move the body of the iteration into a function of its own, an anonymous one for instance."""
 
 [[exercises]]
 name = "functions26"
 path = "exercises/functions/functions26/main_test.go"
 mode = "test"
 hint = """
-Источник вернул значение, только если ok == true. Остановитесь
-на первом таком источнике; если ни один не подошёл, верните "", false."""
+A source found the value only when ok == true. Stop at the first such
+source; when none of them matches, return "", false."""
 
 [[exercises]]
 name = "functions27"
 path = "exercises/functions/functions27/main_test.go"
 mode = "test"
 hint = """
-Метод со значимым получателем получает копию s в момент регистрации defer.
-Отложите анонимную функцию, которая вызовет метод при выходе."""
+A method with a value receiver gets a copy of s when the defer is registered.
+Defer an anonymous function that calls the method at return time instead."""
 
 [[exercises]]
 name = "functions28"
 path = "exercises/functions/functions28/main_test.go"
 mode = "test"
 hint = """
-Именованные результаты — обычные переменные. Проверьте формулу для y."""
+Named results are ordinary variables. Check the formula for y."""
 
 [[exercises]]
 name = "functions29"
 path = "exercises/functions/functions29/main_test.go"
 mode = "test"
 hint = """
-Обе возвращаемые функции должны замыкаться на одну и ту же переменную-счётчик.
-Обёртка увеличивает её и вызывает f."""
+Both returned functions have to close over the same counter variable.
+The wrapper increments it and calls f."""
 
 [[exercises]]
 name = "functions30"
 path = "exercises/functions/functions30/main_test.go"
 mode = "test"
 hint = """
-Утверждение типа без второго результата паникует при несовпадении.
-Используйте type switch: для error берите его, для прочего — fmt.Errorf."""
+A type assertion without a second result panics when the type does not match.
+Use a type switch: take an error as is, and wrap anything else with fmt.Errorf."""
 
 [[exercises]]
 name = "functions31"
 path = "exercises/functions/functions31/main_test.go"
 mode = "test"
 hint = """
-Вызов f(g()) работает, только если результаты g точно совпадают
-с параметрами f. Добавлять к ним другие аргументы нельзя."""
+A call f(g()) only works when the results of g match the parameters of f
+exactly. No other arguments may be added alongside them."""
 
 [[exercises]]
 name = "functions32"
 path = "exercises/functions/functions32/main_test.go"
 mode = "test"
 hint = """
-Развёрнутая строка = развёрнутый хвост + первый символ.
-Работайте с []rune, чтобы не ломать многобайтовые символы."""
+The reversed string is the reversed tail followed by the first character.
+Work on a []rune so multibyte characters survive."""
 
 [[exercises]]
 name = "functions33"
 path = "exercises/functions/functions33/main_test.go"
 mode = "test"
 hint = """
-Присваивание параметру новой map не влияет на переменную вызывающего.
-Удалите элементы из существующей map через delete."""
+Assigning a new map to the parameter leaves the caller's variable alone.
+Remove the entries from the existing map with delete."""
 
 [[exercises]]
 name = "functions34"
 path = "exercises/functions/functions34/main_test.go"
 mode = "test"
 hint = """
-Проверьте порядок выражений в инструкции return."""
+Check the order of the expressions in the return statement."""
 
 [[exercises]]
 name = "functions35"
 path = "exercises/functions/functions35/main_test.go"
 mode = "test"
 hint = """
-recover работает только внутри отложенной функции. Чтобы вернуть ошибку
-из defer, у функции должен быть именованный результат."""
+recover only works inside a deferred function. To return an error from
+a defer, the function needs a named result."""
 
 [[exercises]]
 name = "functions36"
 path = "exercises/functions/functions36/main_test.go"
 mode = "test"
 hint = """
-Любое произведение, в котором есть множитель 0, равно нулю.
-Чему равен факториал нуля?"""
+Any product with a factor of 0 in it is zero.
+What is the factorial of zero?"""
 
 [[exercises]]
 name = "functions37"
 path = "exercises/functions/functions37/main_test.go"
 mode = "test"
 hint = """
-Проверьте разделитель, передаваемый в strings.Join.
-И посмотрите, сколько элементов в срезе после make и append."""
+Check the separator handed to strings.Join.
+And look at how many elements the slice holds after make and append."""
 
 [[exercises]]
 name = "functions38"
 path = "exercises/functions/functions38/main_test.go"
 mode = "test"
 hint = """
-Инициализатор commands ссылается на help, а help читает commands.
-Заполните таблицу в функции init, а не в объявлении переменной."""
+The initializer of commands refers to help, and help reads commands.
+Fill the table in an init function rather than in the variable declaration."""
 
 [[exercises]]
 name = "functions39"
 path = "exercises/functions/functions39/main_test.go"
 mode = "test"
 hint = """
-Объявите у GreeterFunc метод Greet, который просто вызывает саму функцию.
-При передаче обычной функции её нужно привести к типу GreeterFunc."""
+Give GreeterFunc a Greet method that simply calls the function itself.
+A plain function has to be converted to GreeterFunc when it is passed in."""
 
 [[exercises]]
 name = "functions40"
 path = "exercises/functions/functions40/main_test.go"
 mode = "test"
 hint = """
-Обёрнутая ошибка — это другое значение, поэтому == не срабатывает.
-В пакете errors есть функция, которая разворачивает цепочку."""
+A wrapped error is a different value, so == does not match.
+The errors package has a function that unwraps the chain."""
 
 [[exercises]]
 name = "functions41"
 path = "exercises/functions/functions41/main_test.go"
 mode = "test"
 hint = """
-defer во внешней функции срабатывает, когда она возвращает обработчик,
-то есть до его вызова. Перенесите defer внутрь возвращаемой функции."""
+A defer in the outer function runs when that function returns the handler,
+that is, before the handler is ever called. Move the defer inside the returned function."""
 
 [[exercises]]
 name = "functions42"
 path = "exercises/functions/functions42/main_test.go"
 mode = "test"
 hint = """
-Каждая опция — функция, принимающая *Server. Их нужно вызвать по очереди
-для созданного сервера. Проверьте также, какое поле меняет WithTimeout."""
+Every option is a function taking a *Server. They have to be called in turn
+on the server that was created. Check which field WithTimeout changes, too."""
 
 [[exercises]]
 name = "functions43"
 path = "exercises/functions/functions43/main_test.go"
 mode = "test"
 hint = """
-Последняя цифра — n % 10, оставшаяся часть — n / 10."""
+The last digit is n % 10 and the rest of the number is n / 10."""
 
 [[exercises]]
 name = "functions44"
 path = "exercises/functions/functions44/main_test.go"
 mode = "test"
 hint = """
-f() даёт nil, а f(s...) передаёт s как есть, даже пустой, но не nil.
-Отличайте эти случаи сравнением с nil, а не по длине."""
+f() gives nil, while f(s...) passes s along as it is, empty but not nil.
+Tell the cases apart by comparing with nil rather than by length."""
 
 [[exercises]]
 name = "functions45"
 path = "exercises/functions/functions45/main_test.go"
 mode = "test"
 hint = """
-0 — чётное. n чётно, если n-1 нечётно, и наоборот.
-Проверьте базовые случаи обеих функций."""
+0 is even. n is even when n-1 is odd, and the other way round.
+Check the base case of both functions."""
 
 [[exercises]]
 name = "functions46"
 path = "exercises/functions/functions46/main_test.go"
 mode = "test"
 hint = """
-Скобки после имени вызывают функцию. Чтобы передать саму функцию,
-скобки не нужны."""
+Parentheses after a name call the function. To pass the function itself,
+leave them out."""
 
 [[exercises]]
 name = "functions47"
 path = "exercises/functions/functions47/main_test.go"
 mode = "test"
 hint = """
-Переполнение нельзя надёжно обнаружить после умножения.
-Проверьте заранее: r > limit / i означает, что r * i не поместится."""
+Overflow cannot be detected reliably after the multiplication.
+Check in advance: r > limit / i means that r * i will not fit."""
 
 [[exercises]]
 name = "functions48"
 path = "exercises/functions/functions48/main_test.go"
 mode = "test"
 hint = """
-Храните в замыкании признак «уже вызвано» и результат первого вызова."""
+Keep an "already called" flag and the result of the first call in the closure."""
 
 [[exercises]]
 name = "functions49"
 path = "exercises/functions/functions49/main_test.go"
 mode = "test"
 hint = """
-Функции из пакета strings можно передавать без вызова, если сигнатура подходит."""
+Functions from the strings package can be passed without calling them
+when the signature fits."""
 
 [[exercises]]
 name = "functions50"
 path = "exercises/functions/functions50/main_test.go"
 mode = "test"
 hint = """
-sort.Slice переставляет элементы переданного среза, а замыкание less
-читает элементы другого, неизменного среза."""
+sort.Slice moves the elements of the slice it is given, while the less closure
+reads the elements of another, untouched slice."""
 
 [[exercises]]
 name = "functions51"
 path = "exercises/functions/functions51/main_test.go"
 mode = "test"
 hint = """
-Первым выполнится тот defer, который был зарегистрирован последним.
-Посмотрите, в каком порядке добавляются записи cleanup."""
+The defer registered last is the one that runs first.
+Look at the order in which the cleanup entries are added."""
 
 [[exercises]]
 name = "functions52"
 path = "exercises/functions/functions52/main_test.go"
 mode = "test"
 hint = """
-Срез, возвращённый как есть, указывает на тот же массив, что и поле.
-Верните копию."""
+A slice returned as it is points at the same array as the field.
+Return a copy."""
 
 [[exercises]]
 name = "functions53"
 path = "exercises/functions/functions53/main_test.go"
 mode = "test"
 hint = """
-Чтобы первый middleware оказался снаружи, оборачивать нужно,
-начиная с последнего. Пройдите список в обратном порядке."""
+For the first middleware to end up on the outside, the wrapping has to start
+from the last one. Walk the list backwards."""
 
 [[exercises]]
 name = "functions54"
 path = "exercises/functions/functions54/main_test.go"
 mode = "test"
 hint = """
-FieldsFunc разбивает строку в местах, где функция возвращает true.
-Разделитель — это всё, что НЕ является буквой."""
+FieldsFunc splits the string wherever the function returns true.
+A separator is anything that is NOT a letter."""
 
 [[exercises]]
 name = "functions55"
 path = "exercises/functions/functions55/main_test.go"
 mode = "test"
 hint = """
-Имя init нельзя использовать как обычную функцию. Вынесите начальную
-настройку в отдельную функцию и вызывайте её и из init, и из reset."""
+The name init cannot be used as an ordinary function. Move the initial setup
+into a function of its own and call it from both init and reset."""
 
 [[exercises]]
 name = "functions56"
 path = "exercises/functions/functions56/main_test.go"
 mode = "test"
 hint = """
-Проверьте пустой список до обращения к первому элементу.
-И убедитесь, что при успехе ошибка равна nil."""
+Check for an empty list before reaching for the first element.
+And make sure the error is nil on success."""
 
 [[exercises]]
 name = "functions57"
 path = "exercises/functions/functions57/main_test.go"
 mode = "test"
 hint = """
-recover возвращает не nil, только когда его вызывает сама отложенная функция,
-а не функция, вызванная из неё. Перенесите вызов recover в defer."""
+recover returns something other than nil only when the deferred function itself
+calls it, not a function it calls. Move the recover into the defer."""
 
 [[exercises]]
 name = "functions58"
 path = "exercises/functions/functions58/main_test.go"
 mode = "test"
 hint = """
-Прямой порядок: сначала узел, затем левое поддерево, затем правое."""
+Preorder is the node first, then the left subtree, then the right one."""
 
 [[exercises]]
 name = "functions59"
 path = "exercises/functions/functions59/main_test.go"
 mode = "test"
 hint = """
-После обработки особого случая функцию нужно завершить."""
+Once the special case is handled, the function has to stop."""
 
 [[exercises]]
 name = "functions60"
 path = "exercises/functions/functions60/main_test.go"
 mode = "test"
 hint = """
-Аккумулятор стартует с init и на каждом шаге заменяется результатом f.
-Проверьте порядок аргументов f."""
+The accumulator starts at init and is replaced by the result of f at every step.
+Check the order of the arguments of f."""
 
 [[exercises]]
 name = "functions61"
 path = "exercises/functions/functions61/main_test.go"
 mode = "test"
 hint = """
-Когда паника перехвачена, функция возвращает текущие значения именованных
-результатов. Сбросьте срез в отложенной функции."""
+When a panic is recovered, the function returns the current values of its named
+results. Clear the slice in the deferred function."""
 
 [[exercises]]
 name = "functions62"
 path = "exercises/functions/functions62/main_test.go"
 mode = "test"
 hint = """
-TrimFunc удаляет символы, для которых функция возвращает true.
-Удалять нужно то, что НЕ является буквой или цифрой."""
+TrimFunc removes the characters the function returns true for.
+What has to go is anything that is NOT a letter or a digit."""
 
 [[exercises]]
 name = "functions63"
 path = "exercises/functions/functions63/main_test.go"
 mode = "test"
 hint = """
-Inc с получателем-значением увеличивает поле у копии.
-Сделайте получатели указателями."""
+Inc with a value receiver increments the field of a copy.
+Make the receivers pointers."""
 
 [[exercises]]
 name = "functions64"
 path = "exercises/functions/functions64/main_test.go"
 mode = "test"
 hint = """
-Определите длину результата как минимум из длин и не выходите за границы."""
+Take the length of the result as the minimum of the two lengths
+and stay inside the bounds."""
 
 [[exercises]]
 name = "functions65"
 path = "exercises/functions/functions65/main_test.go"
 mode = "test"
 hint = """
-Необязательный аргумент есть, если в срезе хотя бы один элемент."""
+The optional argument is there when the slice holds at least one element."""
 
 [[exercises]]
 name = "functions66"
 path = "exercises/functions/functions66/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какая функция соответствует каждому символу."""
+Check which function belongs to each symbol."""
 
 [[exercises]]
 name = "functions67"
 path = "exercises/functions/functions67/main_test.go"
 mode = "test"
 hint = """
-x^n = x * x^(n-1). Проверьте, какой аргумент уменьшается."""
+x^n = x * x^(n-1). Check which argument is being decreased."""
 
 [[exercises]]
 name = "functions68"
 path = "exercises/functions/functions68/main_test.go"
 mode = "test"
 hint = """
-Вызов метода на nil-указателе законен; паника возникает при обращении
-к полю. Обработайте l == nil в самом методе."""
+Calling a method on a nil pointer is legal; the panic comes from reaching for
+a field. Handle l == nil inside the method itself."""
 
 [[exercises]]
 name = "functions69"
 path = "exercises/functions/functions69/main_test.go"
 mode = "test"
 hint = """
-Если осталась одна строка или один столбец, путь один.
-Иначе сумма путей после шага вправо и шага вниз."""
+With a single row or a single column left there is exactly one route.
+Otherwise it is the sum of the routes after a step right and a step down."""
 
 [[exercises]]
 name = "functions70"
 path = "exercises/functions/functions70/main_test.go"
 mode = "test"
 hint = """
-gcd(a, b) = gcd(b, a mod b), а gcd(a, 0) = a.
-Проверьте порядок аргументов в рекурсивном вызове."""
+gcd(a, b) = gcd(b, a mod b), and gcd(a, 0) = a.
+Check the order of the arguments in the recursive call."""
 
 [[exercises]]
 name = "functions71"
 path = "exercises/functions/functions71/main_test.go"
 mode = "test"
 hint = """
-Без многоточия весь срез передаётся как один аргумент и печатается в скобках."""
+Without the ellipsis the whole slice is passed as a single argument and printed in brackets."""
 
 [[exercises]]
 name = "functions72"
 path = "exercises/functions/functions72/main_test.go"
 mode = "test"
 hint = """
-Создайте срез, начинающийся с префикса, добавьте к нему все args
-через append(..., args...) и передайте его в format с многоточием."""
+Build a slice starting with the prefix, add every arg to it
+with append(..., args...) and pass it to format with the ellipsis."""
 
 [[exercises]]
 name = "functions73"
 path = "exercises/functions/functions73/main_test.go"
 mode = "test"
 hint = """
-strings.Map вызывает переданную функцию для каждой руны.
-Проверьте, какую функцию вы передаёте."""
+strings.Map calls the function it is given for every rune.
+Check which function you are passing."""
 
 [[exercises]]
 name = "functions74"
 path = "exercises/functions/functions74/main_test.go"
 mode = "test"
 hint = """
-[]string и []interface{} — разные типы с разным представлением в памяти.
-Создайте []interface{} и скопируйте элементы по одному."""
+[]string and []interface{} are different types with different layouts in memory.
+Build an []interface{} and copy the elements over one by one."""
 
 [[exercises]]
 name = "functions75"
 path = "exercises/functions/functions75/main_test.go"
 mode = "test"
 hint = """
-Чётное число делится на 2 без остатка."""
+An even number divides by 2 with no remainder."""
 
 [[exercises]]
 name = "functions76"
 path = "exercises/functions/functions76/main_test.go"
 mode = "test"
 hint = """
-defer f() с f == nil не падает сразу, но паникует при выходе из функции.
-Регистрируйте отложенный вызов, только если функция не nil."""
+defer f() with f == nil does not fail right away, it panics when the function returns.
+Register the deferred call only when the function is not nil."""
 
 [[exercises]]
 name = "functions77"
 path = "exercises/functions/functions77/main_test.go"
 mode = "test"
 hint = """
-Перед вычислением проверьте, нет ли значения в кэше.
-После вычисления сохраните результат в кэш."""
+Look in the cache before computing.
+Store the result in the cache once it is computed."""
 
 [[exercises]]
 name = "functions78"
 path = "exercises/functions/functions78/main_test.go"
 mode = "test"
 hint = """
-Значения func можно сравнивать только с nil. Сравнивайте плагины
-по полю, которое однозначно их идентифицирует."""
+A func value may only be compared against nil. Compare plugins
+by a field that identifies them."""
 
 [[exercises]]
 name = "functions79"
 path = "exercises/functions/functions79/main_test.go"
 mode = "test"
 hint = """
-Строка длины 0 или 1 — палиндром. Иначе сравните крайние символы
-и проверьте середину, отрезав по одному символу с каждого конца."""
+A string of length 0 or 1 is a palindrome. Otherwise compare the outer characters
+and check the middle, cutting one character off each end."""
 
 [[exercises]]
 name = "functions80"
 path = "exercises/functions/functions80/main_test.go"
 mode = "test"
 hint = """
-Сначала применяется g, затем к её результату — f."""
+g is applied first, and f is applied to its result."""
 
 [[exercises]]
 name = "functions81"
 path = "exercises/functions/functions81/main_test.go"
 mode = "test"
 hint = """
-errors.As принимает указатель на переменную нужного типа и заполняет её,
-если такая ошибка есть в цепочке. Утверждение типа не смотрит в обёртки."""
+errors.As takes a pointer to a variable of the wanted type and fills it in when
+such an error is in the chain. A type assertion does not look inside the wrappers."""
 
 [[exercises]]
 name = "functions82"
 path = "exercises/functions/functions82/main_test.go"
 mode = "test"
 hint = """
-Срез можно «развернуть» в список аргументов, если поставить после него ..."""
+A slice can be spread into an argument list by putting ... after it."""
 
 [[exercises]]
 name = "functions83"
 path = "exercises/functions/functions83/main_test.go"
 mode = "test"
 hint = """
-Board — массив, и функция получает его полную копию.
-Передайте указатель на массив; индексировать его можно так же."""
+Board is an array, so the function gets a full copy of it.
+Pass a pointer to the array; it can be indexed just the same."""
 
 [[exercises]]
 name = "functions84"
 path = "exercises/functions/functions84/main_test.go"
 mode = "test"
 hint = """
-Посмотрите на операцию внутри возвращаемой функции."""
+Look at the operation inside the returned function."""
 
 [[exercises]]
 name = "functions85"
 path = "exercises/functions/functions85/main_test.go"
 mode = "test"
 hint = """
-Результат каждой функции — вход для следующей. Начните с исходного x
-и последовательно обновляйте его."""
+The result of each function is the input of the next one. Start from the original x
+and update it step by step."""
 
 [[exercises]]
 name = "functions86"
 path = "exercises/functions/functions86/main_test.go"
 mode = "test"
 hint = """
-Копия значения, сделанная при создании функции, дальше не меняется.
-Обе функции должны обращаться к одной и той же переменной."""
+A copy of the value taken when the function was created never changes afterwards.
+Both functions have to reach the very same variable."""
 
 [[exercises]]
 name = "functions87"
 path = "exercises/functions/functions87/main_test.go"
 mode = "test"
 hint = """
-Глагол %v превращает ошибку в текст, а %w сохраняет её внутри новой ошибки."""
+The %v verb turns an error into text, while %w keeps it inside the new error."""
 
 [[exercises]]
 name = "functions88"
 path = "exercises/functions/functions88/main_test.go"
 mode = "test"
 hint = """
-Как и bufio.Scanner.Bytes, scan переиспользует буфер. Если данные нужны
-после возврата из callback, скопируйте их."""
+Like bufio.Scanner.Bytes, scan reuses its buffer. When the data is needed
+after the callback returns, copy it."""
 
 [[exercises]]
 name = "functions89"
 path = "exercises/functions/functions89/main_test.go"
 mode = "test"
 hint = """
-Если target меньше среднего элемента, ищите в левой половине [lo, mid),
-иначе в правой (mid, hi). Пустой диапазон — это lo >= hi."""
+When target is smaller than the middle element, search the left half [lo, mid),
+otherwise the right one (mid, hi). An empty range is lo >= hi."""
 
 [[exercises]]
 name = "functions90"
 path = "exercises/functions/functions90/main_test.go"
 mode = "test"
 hint = """
-В пакете unicode есть функция, проверяющая, что руна — цифра."""
+The unicode package has a function that tells whether a rune is a digit."""
 
 [[exercises]]
 name = "functions91"
 path = "exercises/functions/functions91/main_test.go"
 mode = "test"
 hint = """
-Выходите из функции сразу при первом успехе. Запоминайте ошибку
-каждой попытки, чтобы вернуть последнюю."""
+Return as soon as an attempt succeeds. Remember the error of every attempt
+so the last one can be returned."""
 
 [[exercises]]
 name = "functions92"
 path = "exercises/functions/functions92/main_test.go"
 mode = "test"
 hint = """
-Функция получает копию структуры. Чтобы изменить оригинал,
-передайте указатель."""
+The function gets a copy of the struct. To change the original,
+pass a pointer."""
 
 [[exercises]]
 name = "functions93"
 path = "exercises/functions/functions93/main_test.go"
 mode = "test"
 hint = """
-Как только проверка вернула ошибку, её нужно сразу вернуть,
-не вызывая остальные проверки."""
+As soon as a check returns an error it has to be returned,
+without running the remaining checks."""
 
 [[exercises]]
 name = "functions94"
 path = "exercises/functions/functions94/main_test.go"
 mode = "test"
 hint = """
-cur постоянно меняется, а в res кладётся срез, смотрящий на тот же массив.
-Сохраняйте копию текущего состояния."""
+cur keeps changing while res is given a slice looking at that same array.
+Store a copy of the current state."""
 
 [[exercises]]
 name = "functions95"
 path = "exercises/functions/functions95/main_test.go"
 mode = "test"
 hint = """
-Аргументы сопоставляются с параметрами строго по позиции.
-Посмотрите на сигнатуру power и на вызов."""
+Arguments are matched to parameters strictly by position.
+Look at the signature of power and at the call."""
 
 [[exercises]]
 name = "functions96"
 path = "exercises/functions/functions96/main_test.go"
 mode = "test"
 hint = """
-m[k] нельзя взять по адресу, поэтому pointer-метод на нём не вызвать.
-Храните в map указатели на структуры."""
+m[k] cannot be addressed, so a pointer method cannot be called on it.
+Store pointers to the structs in the map."""
 
 [[exercises]]
 name = "functions97"
 path = "exercises/functions/functions97/main_test.go"
 mode = "test"
 hint = """
-В базовом случае нужно вернуть накопленное значение,
-а в рекурсивном — передать обновлённый аккумулятор."""
+The base case has to return what has been accumulated,
+and the recursive case has to pass the updated accumulator along."""
 
 [[exercises]]
 name = "functions98"
 path = "exercises/functions/functions98/main_test.go"
 mode = "test"
 hint = """
-Функция less(i, j) должна возвращать true, если элемент i
-должен стоять раньше элемента j."""
+The function less(i, j) has to return true when element i
+belongs before element j."""
 
 [[exercises]]
 name = "functions99"
 path = "exercises/functions/functions99/main_test.go"
 mode = "test"
 hint = """
-strings.Builder запоминает свой адрес и запрещает запись в копию.
-Передавайте его во вспомогательную функцию по указателю."""
+A strings.Builder remembers its own address and refuses writes to a copy.
+Pass it to the helper by pointer."""
 
 [[exercises]]
 name = "functions100"
 path = "exercises/functions/functions100/main_test.go"
 mode = "test"
 hint = """
-sort.Search ищет наименьший индекс, для которого предикат истинен.
-Элемент, равный target, тоже подходит."""
+sort.Search finds the smallest index the predicate is true for.
+An element equal to target qualifies too."""
 
 [[exercises]]
 name = "functions101"
 path = "exercises/functions/functions101/main_test.go"
 mode = "test"
 hint = """
-Состояние (два последних числа) должно жить вне возвращаемой функции,
-иначе оно создаётся заново при каждом вызове."""
+The state, the last two numbers, has to live outside the returned function,
+otherwise it is created afresh on every call."""
 
 [[exercises]]
 name = "functions102"
 path = "exercises/functions/functions102/main_test.go"
 mode = "test"
 hint = """
-Пустое сообщение — это всё ещё ошибка. Отсутствие ошибки обозначается nil."""
+An empty message is still an error. The absence of an error is written as nil."""
 
 [[exercises]]
 name = "functions103"
 path = "exercises/functions/functions103/main_test.go"
 mode = "test"
 hint = """
-append может вернуть новый срез, но изменить длину среза у вызывающего
-функция не может. Верните новый срез или примите указатель на срез."""
+append may return a new slice, but the function cannot change the length of the
+caller's slice. Return the new slice, or take a pointer to a slice."""
 
 [[exercises]]
 name = "functions104"
 path = "exercises/functions/functions104/main_test.go"
 mode = "test"
 hint = """
-Обращение к отсутствующему ключу возвращает nil-функцию; её вызов паникует.
-Используйте форму v, ok := m[k]."""
+Reading a missing key gives a nil function, and calling it panics.
+Use the v, ok := m[k] form."""
 
 # ===== generated exercises: if =====
 [[exercises]]
@@ -1914,755 +1916,755 @@ name = "if3"
 path = "exercises/if/if3/main_test.go"
 mode = "test"
 hint = """
-Проверьте границы диапазона: заглавные буквы идут от 'A' до 'Z'."""
+Check the bounds of the range: the uppercase letters run from 'A' to 'Z'."""
 
 [[exercises]]
 name = "if4"
 path = "exercises/if/if4/main_test.go"
 mode = "test"
 hint = """
-== сравнивает и момент, и часовой пояс (и монотонные часы).
-Для сравнения моментов у time.Time есть специальный метод."""
+== compares the moment, the time zone and the monotonic clock reading.
+time.Time has a method made for comparing moments."""
 
 [[exercises]]
 name = "if5"
 path = "exercises/if/if5/main_test.go"
 mode = "test"
 hint = """
-Сравните счётчик с порогом так, чтобы 3 попытки уже блокировали."""
+Compare the counter with the threshold so that 3 attempts already lock the account."""
 
 [[exercises]]
 name = "if6"
 path = "exercises/if/if6/main_test.go"
 mode = "test"
 hint = """
-Проверьте длину и первый символ, затем каждый из остальных:
-цифра, a–f или A–F."""
+Check the length and the first character, then each of the rest:
+a digit, a-f or A-F."""
 
 [[exercises]]
 name = "if7"
 path = "exercises/if/if7/main_test.go"
 mode = "test"
 hint = """
-1/2 — это целочисленное деление констант, результат 0.
-Сравните без деления: done*2 >= total."""
+1/2 is an integer division of constants and gives 0.
+Compare without dividing: done*2 >= total."""
 
 [[exercises]]
 name = "if8"
 path = "exercises/if/if8/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие для третьего числа."""
+Check the condition for the third number."""
 
 [[exercises]]
 name = "if9"
 path = "exercises/if/if9/main_test.go"
 mode = "test"
 hint = """
-Найдите позицию @ и проверьте, что он единственный. Затем ищите точку
-в части после @ и проверьте её положение."""
+Find the position of the @ and make sure it is the only one. Then look for a dot
+in the part after the @ and check where it sits."""
 
 [[exercises]]
 name = "if10"
 path = "exercises/if/if10/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение, которое возвращается в ветке else."""
+Check the value returned in the else branch."""
 
 [[exercises]]
 name = "if11"
 path = "exercises/if/if11/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте корректность суммы. Затем сравните сумму с
-balance + limit (списать можно, пока результат не ниже -limit)."""
+Check that the amount makes sense first. Then compare it against
+balance + limit: a withdrawal is fine while the result stays at or above -limit."""
 
 [[exercises]]
 name = "if12"
 path = "exercises/if/if12/main_test.go"
 mode = "test"
 hint = """
-a || b && c означает a || (b && c). Расставьте скобки так,
-чтобы блокировка действовала на обе роли."""
+a || b && c means a || (b && c). Place the brackets so that the lock
+applies to both roles."""
 
 [[exercises]]
 name = "if13"
 path = "exercises/if/if13/main_test.go"
 mode = "test"
 hint = """
-После бесплатного часа посчитайте оставшиеся минуты и округлите
-количество часов вверх: неполный час считается целым."""
+After the free hour, count the remaining minutes and round the number of hours
+up: an hour begun counts as a whole one."""
 
 [[exercises]]
 name = "if14"
 path = "exercises/if/if14/main_test.go"
 mode = "test"
 hint = """
-В ветке if объявлена новая переменная с тем же именем.
-Присвойте значение внешней переменной."""
+The if branch declares a new variable of the same name.
+Assign to the outer variable instead."""
 
 [[exercises]]
 name = "if15"
 path = "exercises/if/if15/main_test.go"
 mode = "test"
 hint = """
-В пакете strings есть функция сравнения без учёта регистра."""
+The strings package has a function that compares without regard to case."""
 
 [[exercises]]
 name = "if16"
 path = "exercises/if/if16/main_test.go"
 mode = "test"
 hint = """
--3 % 2 == -1, а не 1. Сравнивайте остаток с нулём."""
+-3 % 2 == -1, not 1. Compare the remainder against zero."""
 
 [[exercises]]
 name = "if17"
 path = "exercises/if/if17/main_test.go"
 mode = "test"
 hint = """
-Пароль из ровно 8 символов допустим."""
+A password of exactly 8 characters is acceptable."""
 
 [[exercises]]
 name = "if18"
 path = "exercises/if/if18/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте месяц. Затем определите число дней в нём:
-февраль — 28, апрель, июнь, сентябрь, ноябрь — 30, остальные — 31."""
+Check the month first. Then work out how many days it has:
+February 28, April, June, September and November 30, the rest 31."""
 
 [[exercises]]
 name = "if19"
 path = "exercises/if/if19/main_test.go"
 mode = "test"
 hint = """
-При 0 градусов вода уже жидкая, а при 100 — пар."""
+At 0 degrees water is already liquid, and at 100 it is steam."""
 
 [[exercises]]
 name = "if20"
 path = "exercises/if/if20/main_test.go"
 mode = "test"
 hint = """
-float64(float32(0.1)) != 0.1. Сравнивайте в исходном типе float32,
-тогда константа 0.1 округлится так же."""
+float64(float32(0.1)) != 0.1. Compare in the original float32 type,
+where the constant 0.1 rounds the same way."""
 
 [[exercises]]
 name = "if21"
 path = "exercises/if/if21/main_test.go"
 mode = "test"
 hint = """
-Проверки: существует ли пользователь, не заблокирован ли он,
-совпадает ли пароль. Именно в таком порядке."""
+The checks are: does the user exist, is the account locked, does the password match.
+In that order."""
 
 [[exercises]]
 name = "if22"
 path = "exercises/if/if22/main_test.go"
 mode = "test"
 hint = """
-errors.New возвращает указатель на новую структуру, поэтому две ошибки
-с одинаковым текстом не равны. Сравнивайте с объявленной переменной."""
+errors.New returns a pointer to a new struct, so two errors with the same text
+are not equal. Compare against the declared variable."""
 
 [[exercises]]
 name = "if23"
 path = "exercises/if/if23/main_test.go"
 mode = "test"
 hint = """
-Отрезки пересекаются, если каждый начинается не позже конца другого."""
+Two ranges overlap when each of them starts no later than the other one ends."""
 
 [[exercises]]
 name = "if24"
 path = "exercises/if/if24/main_test.go"
 mode = "test"
 hint = """
-Каждый диапазон ограничен с двух сторон. Числа вне 100–599 — unknown."""
+Every range is bounded on both sides. Numbers outside 100-599 are unknown."""
 
 [[exercises]]
 name = "if25"
 path = "exercises/if/if25/main_test.go"
 mode = "test"
 hint = """
-Компилятор разрешает сравнивать interface{}, но если внутри срез или map,
-будет паника. Для глубокого сравнения используйте reflect.DeepEqual."""
+The compiler allows comparing interface{} values, but a slice or a map inside
+one makes it panic. Use reflect.DeepEqual for a deep comparison."""
 
 [[exercises]]
 name = "if26"
 path = "exercises/if/if26/main_test.go"
 mode = "test"
 hint = """
-Сверьте каждую пару «текущий -> следующий» с условием."""
+Check every "current -> next" pair against the condition."""
 
 [[exercises]]
 name = "if27"
 path = "exercises/if/if27/main_test.go"
 mode = "test"
 hint = """
-Разница может быть отрицательной. Сравнивайте модуль разности."""
+The difference may be negative. Compare its absolute value."""
 
 [[exercises]]
 name = "if28"
 path = "exercises/if/if28/main_test.go"
 mode = "test"
 hint = """
-Проверьте указатель на nil до разыменования. Сделайте это в том же
-условии, используя сокращённое вычисление &&."""
+Check the pointer against nil before dereferencing it. Do it in the same
+condition, relying on the short circuit of &&."""
 
 [[exercises]]
 name = "if29"
 path = "exercises/if/if29/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте, что балл в диапазоне A, и уже внутри уточните знак."""
+Check that the score is in the A range first, and sort out the suffix inside."""
 
 [[exercises]]
 name = "if30"
 path = "exercises/if/if30/main_test.go"
 mode = "test"
 hint = """
-День не может одновременно быть и субботой, и воскресеньем."""
+A day cannot be Saturday and Sunday at the same time."""
 
 [[exercises]]
 name = "if31"
 path = "exercises/if/if31/main_test.go"
 mode = "test"
 hint = """
-Равносторонний треугольник удовлетворяет и условию равнобедренного.
-Для равнобедренного достаточно совпадения ЛЮБОЙ пары сторон."""
+An equilateral triangle also satisfies the isosceles condition.
+For isosceles ANY pair of equal sides is enough."""
 
 [[exercises]]
 name = "if32"
 path = "exercises/if/if32/main_test.go"
 mode = "test"
 hint = """
-У int64 отрицательных значений на одно больше, чем положительных.
-Обработайте math.MinInt64 отдельным условием до смены знака."""
+An int64 has one more negative value than positive ones.
+Handle math.MinInt64 in a condition of its own before flipping the sign."""
 
 [[exercises]]
 name = "if33"
 path = "exercises/if/if33/main_test.go"
 mode = "test"
 hint = """
-Нечётное число даёт ненулевой остаток при делении на 2."""
+An odd number leaves a non-zero remainder when divided by 2."""
 
 [[exercises]]
 name = "if34"
 path = "exercises/if/if34/main_test.go"
 mode = "test"
 hint = """
-Зима «перескакивает» через границу года, поэтому её удобнее проверить
-отдельным условием. Не забудьте про некорректные месяцы."""
+Winter wraps around the end of the year, so it is easier to check on its own.
+Do not forget the invalid months."""
 
 [[exercises]]
 name = "if35"
 path = "exercises/if/if35/main_test.go"
 mode = "test"
 hint = """
-Правый операнд && вычисляется, только если левый истинен.
-Поставьте проверку длины первой."""
+The right operand of && is only evaluated when the left one is true.
+Put the length check first."""
 
 [[exercises]]
 name = "if36"
 path = "exercises/if/if36/main_test.go"
 mode = "test"
 hint = """
-Значение по умолчанию нужно, когда ошибка ЕСТЬ."""
+The default value is needed when there IS an error."""
 
 [[exercises]]
 name = "if37"
 path = "exercises/if/if37/main_test.go"
 mode = "test"
 hint = """
-Сначала посчитайте базовую цену по весу, затем примените
-множитель экспресс-доставки ко всему результату."""
+Work out the base price from the weight first, then apply the express
+multiplier to the whole result."""
 
 [[exercises]]
 name = "if38"
 path = "exercises/if/if38/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие про кратность 400."""
+Check the part of the condition about 400."""
 
 [[exercises]]
 name = "if39"
 path = "exercises/if/if39/main_test.go"
 mode = "test"
 hint = """
-NaN < 0 — false, поэтому условие «меньше нуля» его не ловит.
-Добавьте отдельную проверку с помощью пакета math."""
+NaN < 0 is false, so a "less than zero" condition does not catch it.
+Add a check of its own using the math package."""
 
 [[exercises]]
 name = "if40"
 path = "exercises/if/if40/main_test.go"
 mode = "test"
 hint = """
-Сначала разберите случай зарядки, внутри него — полный заряд.
-Затем обработайте разрядку."""
+Handle the charging case first, and the full charge inside it.
+Then deal with running on battery."""
 
 [[exercises]]
 name = "if41"
 path = "exercises/if/if41/main_test.go"
 mode = "test"
 hint = """
-Каждый вызов pop извлекает элемент. Вызовите pop один раз
-в инициализаторе if и используйте результат."""
+Every call of pop takes an element out. Call pop once in the initializer
+of the if and use the result."""
 
 [[exercises]]
 name = "if42"
 path = "exercises/if/if42/main_test.go"
 mode = "test"
 hint = """
-Проверяйте признак наличия ключа ok, а не само значение."""
+Check the ok flag rather than the value itself."""
 
 [[exercises]]
 name = "if43"
 path = "exercises/if/if43/main_test.go"
 mode = "test"
 hint = """
-Каждая проверка должна сразу возвращать свою причину.
-Сверьте порядок проверок и тексты с условием."""
+Every check has to return its own reason straight away.
+Compare the order of the checks and the texts against the description."""
 
 [[exercises]]
 name = "if44"
 path = "exercises/if/if44/main_test.go"
 mode = "test"
 hint = """
-Во втором инициализаторе объявлены новые n и err. В ветке else видна
-последняя объявленная n. Дайте второй паре другие имена."""
+The second initializer declares a new n and err. The else branch sees the
+last n declared. Give the second pair different names."""
 
 [[exercises]]
 name = "if45"
 path = "exercises/if/if45/main_test.go"
 mode = "test"
 hint = """
-Проверка на nil должна срабатывать, когда указатель ПУСТОЙ."""
+The nil check has to fire when the pointer IS empty."""
 
 [[exercises]]
 name = "if46"
 path = "exercises/if/if46/main_test.go"
 mode = "test"
 hint = """
-a — медиана, если оно лежит между b и c (в любом порядке).
-Аналогично для b; иначе медиана — c."""
+a is the median when it lies between b and c, either way round.
+The same goes for b; otherwise the median is c."""
 
 [[exercises]]
 name = "if47"
 path = "exercises/if/if47/main_test.go"
 mode = "test"
 hint = """
-Посмотрите, в какой ветке стоимость доставки равна нулю."""
+Look at which branch makes the shipping free."""
 
 [[exercises]]
 name = "if48"
 path = "exercises/if/if48/main_test.go"
 mode = "test"
 hint = """
-"10" < "9", потому что '1' < '9'. Сравнивайте числа, а не строки:
-сначала преобразуйте их (или сравните длины, затем строки)."""
+"10" < "9" because '1' < '9'. Compare numbers rather than strings:
+convert them first, or compare the lengths and then the strings."""
 
 [[exercises]]
 name = "if49"
 path = "exercises/if/if49/main_test.go"
 mode = "test"
 hint = """
-Проверьте граничное условие для пенсионеров."""
+Check the boundary condition for the seniors."""
 
 [[exercises]]
 name = "if50"
 path = "exercises/if/if50/main_test.go"
 mode = "test"
 hint = """
-Идите от меньших порогов к большим и следите за границами:
-10000 ещё облагается по нулевой ставке, 50000 — по ставке 10%."""
+Go from the lower thresholds up and mind the boundaries:
+10000 is still taxed at 0%, and 50000 at 10%."""
 
 [[exercises]]
 name = "if51"
 path = "exercises/if/if51/main_test.go"
 mode = "test"
 hint = """
-Для срезов оператор == не определён. Сравните длины, а затем
-элементы по одному в цикле."""
+The == operator is not defined for slices. Compare the lengths, then
+the elements one by one in a loop."""
 
 [[exercises]]
 name = "if52"
 path = "exercises/if/if52/main_test.go"
 mode = "test"
 hint = """
-Каждая сторона должна быть строго меньше суммы двух других.
-Условия должны выполняться одновременно."""
+Every side has to be strictly smaller than the sum of the other two.
+All of the conditions have to hold at once."""
 
 [[exercises]]
 name = "if53"
 path = "exercises/if/if53/main_test.go"
 mode = "test"
 hint = """
-Допустимые индексы: от 0 до len-1 включительно."""
+The valid indexes run from 0 to len-1 inclusive."""
 
 [[exercises]]
 name = "if54"
 path = "exercises/if/if54/main_test.go"
 mode = "test"
 hint = """
-В if можно объявить переменные: if n, err := ...; условие { }.
-Порт подходит, если ошибки нет И он в допустимом диапазоне."""
+Variables can be declared in an if: if n, err := ...; condition { }.
+The port is fine when there is no error AND it is inside the allowed range."""
 
 [[exercises]]
 name = "if55"
 path = "exercises/if/if55/main_test.go"
 mode = "test"
 hint = """
-Значение 42, положенное в interface{}, имеет тип int, а не int64.
-Утверждение типа требует точного совпадения."""
+The value 42 stored in an interface{} has type int, not int64.
+A type assertion asks for an exact match."""
 
 [[exercises]]
 name = "if56"
 path = "exercises/if/if56/main_test.go"
 mode = "test"
 hint = """
-Обе границы входят в диапазон."""
+Both bounds belong to the range."""
 
 [[exercises]]
 name = "if57"
 path = "exercises/if/if57/main_test.go"
 mode = "test"
 hint = """
-Внутри диапазона 18–22 ничего менять не нужно.
-Проверьте, какой порог включает и какой выключает обогрев."""
+Inside the 18-22 range nothing has to change.
+Check which threshold turns the heating on and which turns it off."""
 
 [[exercises]]
 name = "if58"
 path = "exercises/if/if58/main_test.go"
 mode = "test"
 hint = """
-Утверждение типа с одним результатом паникует, если тип не тот.
-Используйте форму с двумя результатами прямо в if."""
+A type assertion with a single result panics when the type is wrong.
+Use the two result form right in the if."""
 
 [[exercises]]
 name = "if59"
 path = "exercises/if/if59/main_test.go"
 mode = "test"
 hint = """
-Если текущее время вышло за пределы окна, начните новое окно
-и обнулите счётчик. Затем проверьте, не превышен ли лимит."""
+When the current time has left the window, start a new one
+and zero the counter. Then check whether the limit is exceeded."""
 
 [[exercises]]
 name = "if60"
 path = "exercises/if/if60/main_test.go"
 mode = "test"
 hint = """
-Прочитайте условие вслух: «если баланс не меньше цены»."""
+Read the condition out loud: "when the balance is not less than the price"."""
 
 [[exercises]]
 name = "if61"
 path = "exercises/if/if61/main_test.go"
 mode = "test"
 hint = """
-Приведите строку к нижнему регистру один раз, затем сравнивайте.
-Не забудьте вернуть значение по умолчанию."""
+Lowercase the string once, then compare.
+Do not forget to return the default value."""
 
 [[exercises]]
 name = "if62"
 path = "exercises/if/if62/main_test.go"
 mode = "test"
 hint = """
-Пустой, но не nil срез не равен nil. Что у них общего?"""
+An empty slice that is not nil does not equal nil. What do the two have in common?"""
 
 [[exercises]]
 name = "if63"
 path = "exercises/if/if63/main_test.go"
 mode = "test"
 hint = """
-n и err существуют только внутри конструкции if. Либо объявите их
-до if, либо верните результат из ветки else."""
+n and err only exist inside the if statement. Either declare them
+before the if, or return the result from the else branch."""
 
 [[exercises]]
 name = "if64"
 path = "exercises/if/if64/main_test.go"
 mode = "test"
 hint = """
-Срабатывает первая истинная ветка. Какое условие должно проверяться первым?"""
+The first branch that holds is the one that runs. Which condition has to come first?"""
 
 [[exercises]]
 name = "if65"
 path = "exercises/if/if65/main_test.go"
 mode = "test"
 hint = """
-Число делится без остатка, если остаток равен нулю."""
+A number divides evenly when the remainder is zero."""
 
 [[exercises]]
 name = "if66"
 path = "exercises/if/if66/main_test.go"
 mode = "test"
 hint = """
-Отложенный вызов внутри if выполнится только при выходе из transfer,
-то есть после "end". Вынесите блокируемую часть в отдельную функцию."""
+A deferred call inside an if only runs when transfer returns, that is,
+after "end". Move the locked part into a function of its own."""
 
 [[exercises]]
 name = "if67"
 path = "exercises/if/if67/main_test.go"
 mode = "test"
 hint = """
-Пройдите по символам и отметьте, встречались ли цифра и заглавная буква.
-В конце все три требования должны выполняться одновременно."""
+Walk the characters and note whether a digit and a capital letter turned up.
+At the end all three requirements have to hold at once."""
 
 [[exercises]]
 name = "if68"
 path = "exercises/if/if68/main_test.go"
 mode = "test"
 hint = """
-Возраст ровно 18 тоже подходит. Какой оператор включает границу?"""
+An age of exactly 18 counts too. Which operator includes the boundary?"""
 
 [[exercises]]
 name = "if69"
 path = "exercises/if/if69/main_test.go"
 mode = "test"
 hint = """
-time.Duration считается в наносекундах. Выразите порог через time.Second."""
+A time.Duration counts nanoseconds. Write the threshold in terms of time.Second."""
 
 [[exercises]]
 name = "if70"
 path = "exercises/if/if70/main_test.go"
 mode = "test"
 hint = """
-Число, кратное 15, кратно и 3. Какое условие должно идти первым?"""
+A multiple of 15 is a multiple of 3 as well. Which condition has to come first?"""
 
 [[exercises]]
 name = "if71"
 path = "exercises/if/if71/main_test.go"
 mode = "test"
 hint = """
-used + size может «перевалить» через максимум int и стать отрицательным.
-Перенесите слагаемое в другую часть неравенства: size <= limit - used."""
+used + size can run past the maximum int and turn negative.
+Move a term to the other side of the inequality: size <= limit - used."""
 
 [[exercises]]
 name = "if72"
 path = "exercises/if/if72/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие для координаты y."""
+Check the condition for the y coordinate."""
 
 [[exercises]]
 name = "if73"
 path = "exercises/if/if73/main_test.go"
 mode = "test"
 hint = """
-Считайте превышение как разницу скорости и лимита, а не саму скорость.
-Проверьте границы диапазонов."""
+Work with the excess, the speed minus the limit, rather than the speed itself.
+Check the bounds of the ranges."""
 
 [[exercises]]
 name = "if74"
 path = "exercises/if/if74/main_test.go"
 mode = "test"
 hint = """
-'é' занимает в UTF-8 два байта, а s[0] — только первый из них.
-Декодируйте первую руну (пакет unicode/utf8) или сравнивайте строковый префикс."""
+'é' takes two bytes in UTF-8, and s[0] is only the first of them.
+Decode the first rune with unicode/utf8, or compare a string prefix."""
 
 [[exercises]]
 name = "if75"
 path = "exercises/if/if75/main_test.go"
 mode = "test"
 hint = """
-Расширение находится в конце имени файла."""
+The extension sits at the end of the file name."""
 
 [[exercises]]
 name = "if76"
 path = "exercises/if/if76/main_test.go"
 mode = "test"
 hint = """
-Самое специфичное правило (оба условия сразу) проверяется первым."""
+The most specific rule, the one with both conditions, has to be checked first."""
 
 [[exercises]]
 name = "if77"
 path = "exercises/if/if77/main_test.go"
 mode = "test"
 hint = """
-Каждая кириллическая буква занимает 2 байта в UTF-8.
-Считайте руны с помощью пакета unicode/utf8."""
+Every cyrillic letter takes 2 bytes in UTF-8.
+Count runes with the unicode/utf8 package."""
 
 [[exercises]]
 name = "if78"
 path = "exercises/if/if78/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое значение возвращается при превышении 100."""
+Check the value returned when the input goes over 100."""
 
 [[exercises]]
 name = "if79"
 path = "exercises/if/if79/main_test.go"
 mode = "test"
 hint = """
-Для uint выражение a - b < 0 всегда ложно. Сравнивайте сами значения."""
+For a uint the expression a - b < 0 is always false. Compare the values themselves."""
 
 [[exercises]]
 name = "if80"
 path = "exercises/if/if80/main_test.go"
 mode = "test"
 hint = """
-Первый выигрывает в трёх комбинациях: rock-scissors, scissors-paper, paper-rock.
-Ничья — когда ходы совпадают; иначе выигрывает второй."""
+The first player wins in three combinations: rock-scissors, scissors-paper, paper-rock.
+Equal moves are a draw; otherwise the second player wins."""
 
 [[exercises]]
 name = "if81"
 path = "exercises/if/if81/main_test.go"
 mode = "test"
 hint = """
-Возвращать false можно только после проверки ВСЕХ элементов."""
+false may only be returned once EVERY element has been checked."""
 
 [[exercises]]
 name = "if82"
 path = "exercises/if/if82/main_test.go"
 mode = "test"
 hint = """
-a <= x <= b разбирается как (a <= x) <= b — сравнение bool с числом.
-Разбейте условие на два сравнения и соедините их через &&."""
+a <= x <= b parses as (a <= x) <= b, comparing a bool with a number.
+Split it into two comparisons joined with &&."""
 
 [[exercises]]
 name = "if83"
 path = "exercises/if/if83/main_test.go"
 mode = "test"
 hint = """
-Проверьте верхнюю границу для "afternoon"."""
+Check the upper bound for "afternoon"."""
 
 [[exercises]]
 name = "if84"
 path = "exercises/if/if84/main_test.go"
 mode = "test"
 hint = """
-Нормализуйте обе строки одинаково. Отдельно обработайте случай,
-когда нормализованная строка пустая."""
+Normalize both strings the same way. Handle the case of an empty
+normalized string separately."""
 
 [[exercises]]
 name = "if85"
 path = "exercises/if/if85/main_test.go"
 mode = "test"
 hint = """
-Два разных указателя никогда не равны, даже если указывают на равные
-структуры. Разыменуйте их (с проверкой на nil)."""
+Two distinct pointers are never equal, even when they point at equal structs.
+Dereference them, after a nil check."""
 
 [[exercises]]
 name = "if86"
 path = "exercises/if/if86/main_test.go"
 mode = "test"
 hint = """
-Менять знак нужно только у отрицательных чисел."""
+Only negative numbers need their sign flipped."""
 
 [[exercises]]
 name = "if87"
 path = "exercises/if/if87/main_test.go"
 mode = "test"
 hint = """
-Момент открытия входит в интервал, момент закрытия — нет.
-«Не раньше open» — это !t.Before(open)."""
+The opening moment belongs to the interval, the closing one does not.
+"Not before open" is !t.Before(open)."""
 
 [[exercises]]
 name = "if88"
 path = "exercises/if/if88/main_test.go"
 mode = "test"
 hint = """
-flags&mask != 0 означает «хотя бы один бит». Чтобы проверить все биты,
-результат маскирования должен совпасть с самой маской."""
+flags&mask != 0 means "at least one bit". To check every bit,
+the masked result has to equal the mask itself."""
 
 [[exercises]]
 name = "if89"
 path = "exercises/if/if89/main_test.go"
 mode = "test"
 hint = """
-minor имеет значение, только если major совпадают."""
+The minor version only matters when the major ones are equal."""
 
 [[exercises]]
 name = "if90"
 path = "exercises/if/if90/main_test.go"
 mode = "test"
 hint = """
-HasPrefix проверяет начало строки, HasSuffix — конец."""
+HasPrefix looks at the start of a string, HasSuffix at the end."""
 
 [[exercises]]
 name = "if91"
 path = "exercises/if/if91/main_test.go"
 mode = "test"
 hint = """
-Конь ходит буквой «Г»: по одной оси на 1, по другой на 2.
-Целевая клетка тоже должна быть на доске."""
+A knight moves in an L: one square along one axis and two along the other.
+The target square has to be on the board as well."""
 
 [[exercises]]
 name = "if92"
 path = "exercises/if/if92/main_test.go"
 mode = "test"
 hint = """
-strings.TrimSpace убирает пробелы по краям. Что должно остаться у «пустой» строки?"""
+strings.TrimSpace removes the spaces around a string. What should be left of a blank one?"""
 
 [[exercises]]
 name = "if93"
 path = "exercises/if/if93/main_test.go"
 mode = "test"
 hint = """
-m[k] для отсутствующего ключа вернёт 0 — так же, как и для нулевого остатка.
-Используйте второй результат индексации."""
+m[k] for a missing key gives 0, just as it does for zero stock.
+Use the second result of the index expression."""
 
 [[exercises]]
 name = "if94"
 path = "exercises/if/if94/main_test.go"
 mode = "test"
 hint = """
-Проверка корректности должна идти первой и возвращать ошибку.
-Сверьте границы групп."""
+The validation has to come first and return an error.
+Check the bounds of the groups."""
 
 [[exercises]]
 name = "if95"
 path = "exercises/if/if95/main_test.go"
 mode = "test"
 hint = """
-Перед обращением к s[len(s)-1] убедитесь, что строка не пуста.
-Или используйте strings.HasSuffix, которая это учитывает."""
+Make sure the string is not empty before reaching for s[len(s)-1].
+Or use strings.HasSuffix, which takes care of it."""
 
 [[exercises]]
 name = "if96"
 path = "exercises/if/if96/main_test.go"
 mode = "test"
 hint = """
-Проверьте набор символов, в котором ищется буква."""
+Check the set of characters the letter is looked for in."""
 
 [[exercises]]
 name = "if97"
 path = "exercises/if/if97/main_test.go"
 mode = "test"
 hint = """
-Сначала обработайте точки на осях. Четверти нумеруются против часовой
-стрелки, начиная с x>0, y>0."""
+Deal with the points on the axes first. The quadrants are numbered anticlockwise
+starting from x>0, y>0."""
 
 [[exercises]]
 name = "if98"
 path = "exercises/if/if98/main_test.go"
 mode = "test"
 hint = """
-Одиночный знак = — это присваивание, а не сравнение."""
+A single = is an assignment, not a comparison."""
 
 [[exercises]]
 name = "if99"
 path = "exercises/if/if99/main_test.go"
 mode = "test"
 hint = """
-!(a && b) равно !a || !b, а не !a && !b."""
+!(a && b) is !a || !b, not !a && !b."""
 
 [[exercises]]
 name = "if100"
 path = "exercises/if/if100/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте, что оба этажа в допустимом диапазоне.
-Затем сравните target с current."""
+Check that both floors are inside the allowed range first.
+Then compare target with current."""
 
 [[exercises]]
 name = "if101"
 path = "exercises/if/if101/main_test.go"
 mode = "test"
 hint = """
-Позиция 0 — это корректное совпадение. Отсутствие обозначается -1.
-Или воспользуйтесь strings.Contains."""
+Position 0 is a perfectly good match. A missing match is -1.
+Or simply use strings.Contains."""
 
 [[exercises]]
 name = "if102"
 path = "exercises/if/if102/main_test.go"
 mode = "test"
 hint = """
-Проверьте значение, которое возвращается для недостаточного веса."""
+Check the value returned for an underweight result."""
 
 # ===== generated exercises: switch =====
 [[exercises]]

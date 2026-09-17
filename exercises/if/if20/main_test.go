@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isDefaultRatio проверяет, что коэффициент (float32) равен 0.1.
-// Сравнение после преобразования в float64 никогда не срабатывает.
-// Тренирует: 0.1 по-разному округляется в float32 и float64.
-// Сложность: hard
+// isDefaultRatio checks that a float32 ratio is 0.1.
+// The comparison after a conversion to float64 never matches.
+// 0.1 rounds differently in float32 and in float64.
 package main_test
 
 import "testing"

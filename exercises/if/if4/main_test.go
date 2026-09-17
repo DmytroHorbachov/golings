@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameMoment должна считать одинаковыми моменты, записанные в разных часовых поясах.
-// Тренирует: time.Time нельзя надёжно сравнивать через ==.
-// Сложность: hard
+// sameMoment must treat moments written in different time zones as equal.
+// A time.Time cannot be compared reliably with ==.
 package main_test
 
 import (

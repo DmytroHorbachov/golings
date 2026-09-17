@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция возвращает частное и остаток, а нам нужен только остаток.
-// Сейчас в переменную попадает не то значение.
-// Тренирует: пустой идентификатор _ при множественном присваивании.
-// Сложность: easy
+// The function returns a quotient and a remainder, and only the remainder is wanted.
+// The wrong value ends up in the variable.
+// Practices the blank identifier _ in a multiple assignment.
 package main_test
 
 import "testing"

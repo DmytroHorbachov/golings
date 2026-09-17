@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumTo(n, acc) должна вернуть 1+2+...+n, накапливая сумму в acc.
-// Тренирует: рекурсию с аккумулятором.
-// Сложность: medium
+// sumTo(n, acc) must return 1+2+...+n, building the sum up in acc.
+// Practices recursion with an accumulator.
 package main_test
 
 import "testing"

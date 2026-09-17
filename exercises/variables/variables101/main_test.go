@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Функция digitHistogram должна посчитать, сколько раз встречается каждая цифра.
-// Тренирует: переменную-массив и преобразование символа цифры в индекс.
-// Сложность: medium
+// digitHistogram must count how many times each digit occurs.
+// Practices an array variable and turning a digit character into an index.
 package main_test
 
 import "testing"

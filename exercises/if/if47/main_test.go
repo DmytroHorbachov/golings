@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// shipping должна вернуть 0 при сумме заказа от 3000, иначе 300.
-// Тренирует: простое ветвление по порогу.
-// Сложность: easy
+// shipping must return 0 for an order of 3000 or more, and 300 otherwise.
+// Practices a simple branch on a threshold.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Функция makeGreeter должна «запомнить» имя в момент создания приветствия.
-// Последующее изменение переменной name не должно влиять на результат.
-// Тренирует: замыкания захватывают переменную, а не её значение.
-// Сложность: hard
+// makeGreeter must capture the name at the moment the greeting is created.
+// Changing the variable name afterwards must not affect the result.
+// A closure captures the variable itself, not its value.
 package main_test
 
 import "testing"

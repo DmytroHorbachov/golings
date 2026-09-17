@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// contains должна вернуть true, если x есть в срезе.
-// Сейчас функция выходит слишком рано.
-// Тренирует: return внутри if в цикле.
-// Сложность: easy
+// contains must return true when x is in the slice.
+// Right now the function gives up too early.
+// Practices a return inside an if inside a loop.
 package main_test
 
 import "testing"
