@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// byCourse превращает map «студент -> курсы» в «курс -> студенты» (отсортированные).
-// Тренирует: обращение связи многие-ко-многим.
-// Сложность: medium
+// byCourse turns a map from pupil to courses into one from course to pupils, sorted.
+// Practices inverting a many to many relation.
 package main_test
 
 import (

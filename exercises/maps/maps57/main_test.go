@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// withoutSecrets должна вернуть конфигурацию без секретных ключей,
-// не изменяя исходную map. Сейчас секреты пропадают и у вызывающего.
-// Тренирует: map передаётся в функцию по ссылке.
-// Сложность: hard
+// withoutSecrets must return the configuration without the secret keys
+// and leave the original map alone. Right now the secrets vanish for the caller too.
+// A map is passed to a function by reference.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// squeeze заменяет подряд идущие пробелы одним пробелом.
-// Тренирует: range по строке с запоминанием предыдущего символа.
-// Сложность: medium
+// squeeze replaces runs of spaces with a single space.
+// Practices a range over a string while remembering the previous character.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// readings отправляет в канал указатели на одну и ту же структуру, меняя её.
-// Получатель сохраняет указатели, и все сохранённые значения одинаковы.
-// Тренирует: range по каналу указателей получает ссылки на общий объект.
-// Сложность: hard
+// readings sends pointers to one and the same struct into a channel, changing it as it goes.
+// The receiver keeps the pointers, and every stored value comes out the same.
+// A range over a channel of pointers yields references to a shared object.
 package main_test
 
 import "testing"

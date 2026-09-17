@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// uniqueInOrder возвращает уникальные строки в порядке первого появления.
-// Результат собирается из ключей map, и порядок теряется.
-// Тренирует: map не хранит порядок вставки.
-// Сложность: hard
+// uniqueInOrder returns the distinct strings in order of first appearance.
+// The result is built from the keys of a map, and the order is lost.
+// A map does not keep the insertion order.
 package main_test
 
 import (

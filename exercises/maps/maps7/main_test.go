@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// loadTags возвращает map тегов; для пустого ввода возвращается nil,
-// и вызывающий код паникует при добавлении тега.
-// Тренирует: nil-map можно читать, но нельзя в неё писать.
-// Сложность: hard
+// loadTags returns a map of tags; for empty input it returns nil,
+// and the caller panics when adding a tag.
+// A nil map can be read from, but not written to.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cityPopulation читает население города из map стран.
-// Тренирует: двойную индексацию map[string]map[string]int.
-// Сложность: easy
+// cityPopulation reads the population of a city out of a map of countries.
+// Practices double indexing a map[string]map[string]int.
 package main_test
 
 import "testing"

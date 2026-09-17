@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// scale умножает все элементы массива на k через указатель.
-// Тренирует: range по указателю на массив.
-// Сложность: easy
+// scale multiplies every element of an array by k through a pointer.
+// Practices a range over a pointer to an array.
 package main_test
 
 import "testing"

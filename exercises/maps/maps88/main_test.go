@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// union и intersection работают с множествами map[string]struct{}.
-// Тренирует: set-операции на map.
-// Сложность: medium
+// union and intersection work on sets of type map[string]struct{}.
+// Practices set operations on maps.
 package main_test
 
 import "testing"

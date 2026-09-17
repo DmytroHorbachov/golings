@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// secondLargest возвращает второе по величине различное значение или false.
-// Тренирует: два аккумулятора в одном range.
-// Сложность: medium
+// secondLargest returns the second largest distinct value, or false.
+// Practices two accumulators in one range.
 package main_test
 
 import "testing"

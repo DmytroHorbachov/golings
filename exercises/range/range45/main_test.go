@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumOrZero суммирует элементы массива по указателю, а для nil возвращает 0.
-// Тренирует: range с переменной значения по nil *[N]T паникует.
-// Сложность: hard
+// sumOrZero adds up the elements of an array through a pointer, and returns 0 for nil.
+// A range with a value variable over a nil *[N]T panics.
 package main_test
 
 import "testing"

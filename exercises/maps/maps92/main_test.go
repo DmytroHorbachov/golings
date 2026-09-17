@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// mergeSum объединяет две map, складывая значения совпадающих ключей,
-// и не меняет входные map.
-// Тренирует: создание новой map и накопление значений.
-// Сложность: medium
+// mergeSum joins two maps, adding the values of matching keys,
+// and leaves the input maps alone.
+// Practices building a new map and accumulating values.
 package main_test
 
 import (

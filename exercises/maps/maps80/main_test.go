@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// defaultHeaders возвращает заголовки по умолчанию; вызывающий дополняет их.
-// Изменения одного вызова видны во всех последующих.
-// Тренирует: возврат map уровня пакета отдаёт общую изменяемую структуру.
-// Сложность: hard
+// defaultHeaders returns the default headers, and the caller adds to them.
+// The changes of one call show up in every later one.
+// Returning a package level map hands out a shared mutable structure.
 package main_test
 
 import "testing"

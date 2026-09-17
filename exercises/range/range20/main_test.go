@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// indexOfE возвращает байтовую позицию буквы 'é' в строке или -1.
-// Тренирует: индекс range по строке — смещение в байтах.
-// Сложность: easy
+// indexOfE returns the byte position of the letter 'é' in a string, or -1.
+// The index of a range over a string is a byte offset.
 package main_test
 
 import "testing"

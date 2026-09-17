@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstUnique возвращает индекс первого неповторяющегося байта строки или -1.
-// Тренирует: два прохода: подсчёт и поиск.
-// Сложность: medium
+// firstUnique returns the index of the first non-repeating byte of a string, or -1.
+// Practices two passes: counting and searching.
 package main_test
 
 import "testing"

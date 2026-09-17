@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bucketize раскладывает зарплаты по диапазонам: "<50k", "50k-100k", ">=100k".
-// Тренирует: вычисление ключа map по значению.
-// Сложность: medium
+// bucketize sorts salaries into the ranges "<50k", "50k-100k" and ">=100k".
+// Practices computing a map key from a value.
 package main_test
 
 import (

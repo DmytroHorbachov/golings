@@ -3,11 +3,10 @@
 
 // I AM NOT DONE
 //
-// Индексы по email и по имени хранят указатели на один и тот же объект.
-// Функция rename должна вернуть новую копию пользователя с другим именем,
-// не меняя уже проиндексированный объект.
-// Тренирует: указатели в нескольких map — общий изменяемый объект.
-// Сложность: hard
+// The indexes by email and by name hold pointers to one and the same object.
+// rename has to return a new copy of the user under a different name
+// without touching the object that is already indexed.
+// Pointers in several maps mean one shared mutable object.
 package main_test
 
 import "testing"

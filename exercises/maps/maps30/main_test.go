@@ -3,11 +3,10 @@
 
 // I AM NOT DONE
 //
-// countReadings считает, сколько раз встретилось каждое показание; NaN
-// («нет данных») должен учитываться под одним ключом.
-// Сейчас каждое NaN создаёт новый ключ, и прочитать его нельзя.
-// Тренирует: NaN != NaN, поэтому NaN-ключи в map уникальны и недостижимы.
-// Сложность: hard
+// countReadings counts how often every reading occurs; NaN, meaning "no data",
+// has to be counted under one key.
+// Right now every NaN creates a new key and none of them can be read back.
+// NaN != NaN, so NaN keys in a map are distinct and unreachable.
 package main_test
 
 import (

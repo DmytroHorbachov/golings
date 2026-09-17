@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Кэш цен индексирован строкой, склеенной из категории и артикула.
-// Разные пары дают одинаковый ключ и перетирают друг друга.
-// Тренирует: ключи из конкатенации строк неоднозначны.
-// Сложность: hard
+// The price cache is indexed by a string glued together from a category and an article number.
+// Different pairs give the same key and overwrite each other.
+// Keys built by concatenating strings are ambiguous.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// renameKeys возвращает новую map, где ключи заменены по таблице;
-// ключи без замены остаются как есть.
-// Тренирует: comma-ok при подстановке.
-// Сложность: medium
+// renameKeys returns a new map with the keys replaced from a table;
+// keys with no replacement are kept as they are.
+// Practices comma-ok when substituting.
 package main_test
 
 import (

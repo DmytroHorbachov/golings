@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// revoke удаляет токен и сообщает, был ли он.
-// Тренирует: delete для отсутствующего ключа — не ошибка.
-// Сложность: easy
+// revoke removes a token and reports whether it was there.
+// delete on a missing key is not an error.
 package main_test
 
 import "testing"

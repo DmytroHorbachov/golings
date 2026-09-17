@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totals суммирует расходы по категориям и возвращает также общий итог.
-// Тренирует: накопление значений в map и параллельный счётчик.
-// Сложность: medium
+// totals adds up the expenses per category and returns the grand total as well.
+// Practices accumulating values in a map alongside a counter.
 package main_test
 
 import (

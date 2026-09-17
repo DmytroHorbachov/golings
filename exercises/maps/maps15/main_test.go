@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Cache.Put сохраняет значение, но метод объявлен со значимым получателем,
-// а map создаётся внутри метода. Данные теряются.
-// Тренирует: присваивание полю-map в методе со значимым получателем не видно снаружи.
-// Сложность: hard
+// Cache.Put stores a value, but the method has a value receiver
+// and the map is built inside the method. The data is lost.
+// Assigning to a map field in a method with a value receiver is invisible outside.
 package main_test
 
 import "testing"

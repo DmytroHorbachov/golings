@@ -3,10 +3,8 @@
 
 // I AM NOT DONE
 //
-// mergeSlots объединяет отсортированные занятые слоты [start, end), которые
-// пересекаются или соприкасаются.
-// Тренирует: range с изменением последнего элемента результата.
-// Сложность: medium
+// mergeSlots joins sorted busy slots [start, end) that overlap or touch.
+// Practices a range that changes the last element of the result.
 package main_test
 
 import (

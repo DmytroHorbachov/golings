@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// activeCount удаляет истёкшие сессии и возвращает количество оставшихся.
-// Тренирует: len map после delete.
-// Сложность: easy
+// activeCount removes the expired sessions and returns how many are left.
+// Practices len of a map after a delete.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// produce отправляет числа в канал, а total читает их через range.
-// total никогда не завершается.
-// Тренирует: range по каналу ждёт закрытия канала.
-// Сложность: hard
+// produce sends numbers into a channel, and total reads them with a range.
+// total never finishes.
+// A range over a channel waits for the channel to be closed.
 package main_test
 
 import (

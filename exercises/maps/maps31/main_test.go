@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// bestSeller возвращает товар с наибольшими продажами (значения уникальны).
-// Тренирует: поиск максимума по map.
-// Сложность: easy
+// bestSeller returns the item with the highest sales, the values being distinct.
+// Practices finding a maximum over a map.
 package main_test
 
 import "testing"

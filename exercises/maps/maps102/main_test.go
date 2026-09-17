@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sameFrequency проверяет, что все символы строки встречаются одинаковое число раз.
-// Тренирует: частоты частот (map значений).
-// Сложность: medium
+// sameFrequency checks that every character of a string occurs the same number of times.
+// Practices frequencies of frequencies, a map of the values.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// emptyIndex возвращает пустую, но готовую к записи map.
-// Тренирует: инициализацию map литералом {}.
-// Сложность: easy
+// emptyIndex returns an empty map that is ready to be written to.
+// Practices initializing a map with a {} literal.
 package main_test
 
 import "testing"

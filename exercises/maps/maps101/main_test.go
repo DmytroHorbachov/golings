@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// clearAll удаляет все элементы, сохраняя саму map (другие ссылаются на неё).
-// Тренирует: delete во время range безопасен.
-// Сложность: easy
+// clearAll removes every element while keeping the map itself, as others refer to it.
+// A delete during a range is safe.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// visited отмечает посещённые клетки [2]int.
-// Тренирует: массивы как ключи map.
-// Сложность: easy
+// visited marks the cells [2]int that have been visited.
+// Practices arrays as map keys.
 package main_test
 
 import "testing"

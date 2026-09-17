@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Sparse хранит только ненулевые элементы в map[[2]int]int.
-// Запись нуля должна удалять элемент.
-// Тренирует: delete для поддержания разреженности.
-// Сложность: medium
+// Sparse keeps only the non-zero elements in a map[[2]int]int.
+// Writing a zero has to remove the element.
+// Practices delete for keeping a structure sparse.
 package main_test
 
 import "testing"

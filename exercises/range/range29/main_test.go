@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// findUser возвращает логин пользователя с заданным id или "".
-// Тренирует: range по map и возврат ключа.
-// Сложность: easy
+// findUser returns the login of the user with a given id, or "".
+// Practices a range over a map and returning the key.
 package main_test
 
 import "testing"

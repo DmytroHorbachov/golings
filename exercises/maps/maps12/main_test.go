@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Корзины цен ключуются суммой в рублях (float64). Сумма 0.1+0.2
-// не находит корзину 0.3.
-// Тренирует: вычисленные float-ключи не совпадают с литералами.
-// Сложность: hard
+// The price buckets are keyed by the amount as a float64. The sum 0.1+0.2
+// does not find the 0.3 bucket.
+// Computed float keys do not match the literals.
 package main_test
 
 import (

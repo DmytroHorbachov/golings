@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// adjacency строит список смежности ориентированного графа,
-// соседи каждой вершины отсортированы.
-// Тренирует: map[string][]string.
-// Сложность: medium
+// adjacency builds the adjacency list of a directed graph,
+// with the neighbours of every vertex sorted.
+// Practices map[string][]string.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// logout удаляет сессию пользователя.
-// Тренирует: встроенную функцию delete.
-// Сложность: easy
+// logout removes the session of a user.
+// Practices the builtin delete.
 package main_test
 
 import "testing"

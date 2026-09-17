@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countPairs считает, сколько раз встречается каждая упорядоченная пара соседних слов.
-// Тренирует: структура из двух полей как ключ.
-// Сложность: medium
+// countPairs counts how often every ordered pair of neighbouring words occurs.
+// Practices a two field struct as a key.
 package main_test
 
 import "testing"

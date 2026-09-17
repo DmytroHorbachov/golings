@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sameConfig сравнивает две конфигурации. Код не компилируется:
-// map можно сравнивать только с nil.
-// Тренирует: map не поддерживают ==.
-// Сложность: hard
+// sameConfig compares two configurations. The code does not compile:
+// a map can only be compared with nil.
+// Maps do not support ==.
 package main_test
 
 import "testing"

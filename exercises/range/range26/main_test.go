@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countLeaves считает все строковые значения во вложенной структуре
-// map[string]interface{} на любой глубине.
-// Тренирует: range с рекурсией и type switch.
-// Сложность: medium
+// countLeaves counts every string value in a nested map[string]interface{}
+// structure, at any depth.
+// Practices a range with recursion and a type switch.
 package main_test
 
 import "testing"

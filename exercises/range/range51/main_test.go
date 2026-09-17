@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// readUntilZero складывает числа до первого нуля (не включая его и всё после).
-// Тренирует: break внутри range.
-// Сложность: easy
+// readUntilZero adds up the numbers before the first zero, excluding it and everything after.
+// Practices break inside a range.
 package main_test
 
 import "testing"

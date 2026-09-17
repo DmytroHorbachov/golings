@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totalStock складывает остатки всех товаров.
-// Тренирует: range по map.
-// Сложность: easy
+// totalStock adds up the stock of every item.
+// Practices a range over a map.
 package main_test
 
 import "testing"

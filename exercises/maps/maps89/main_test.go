@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// mergeInto копирует все пары из src в dst.
-// Тренирует: range по map и запись в другую map.
-// Сложность: easy
+// mergeInto copies every pair from src into dst.
+// Practices a range over a map and writing into another one.
 package main_test
 
 import (

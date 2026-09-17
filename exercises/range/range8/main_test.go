@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// collectN читает n значений и закрывает канал, чтобы остановить отправителя.
-// Отправитель при этом паникует: запись в закрытый канал.
-// Тренирует: закрывать канал должен отправитель; получатель сигнализирует отдельным каналом.
-// Сложность: hard
+// collectN reads n values and closes the channel to stop the sender.
+// The sender then panics: a send on a closed channel.
+// The sender closes a channel; a receiver signals through a channel of its own.
 package main_test
 
 import (

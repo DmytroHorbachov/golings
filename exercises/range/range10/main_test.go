@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countTrue считает включённые флаги.
-// Тренирует: range по map[string]bool.
-// Сложность: easy
+// countTrue counts the flags that are on.
+// Practices a range over a map[string]bool.
 package main_test
 
 import "testing"

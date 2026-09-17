@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// lowerKeys должна вернуть map с ключами в нижнем регистре.
-// Изменение переменной k внутри цикла не меняет ключи map.
-// Тренирует: переменная ключа в range — копия, не ссылка на ключ.
-// Сложность: hard
+// lowerKeys must return a map with the keys folded to lower case.
+// Changing the variable k inside the loop does not change the keys of the map.
+// The key variable of a range is a copy, not a reference to the key.
 package main_test
 
 import (

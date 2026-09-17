@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// runAll вызывает все функции-шаги и возвращает их результаты.
-// Тренирует: range по срезу функций.
-// Сложность: easy
+// runAll calls every step function and returns their results.
+// Practices a range over a slice of functions.
 package main_test
 
 import (

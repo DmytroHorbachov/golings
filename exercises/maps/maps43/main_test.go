@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lookupCountry ищет страну по коду без учёта регистра; ключи хранятся в верхнем регистре.
-// Тренирует: нормализацию ключа перед поиском.
-// Сложность: easy
+// lookupCountry finds a country by its code ignoring case; the keys are stored in upper case.
+// Practices normalizing a key before the lookup.
 package main_test
 
 import (

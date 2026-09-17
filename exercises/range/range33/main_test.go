@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// minIndex возвращает индекс наименьшего элемента.
-// Тренирует: запоминание индекса в range.
-// Сложность: easy
+// minIndex returns the index of the smallest element.
+// Practices remembering an index in a range.
 package main_test
 
 import "testing"

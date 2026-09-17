@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// firstSpace возвращает байтовую позицию первого пробела или -1.
-// Тренирует: индекс в range по строке — позиция байта.
-// Сложность: easy
+// firstSpace returns the byte position of the first space, or -1.
+// The index of a range over a string is a byte position.
 package main_test
 
 import "testing"

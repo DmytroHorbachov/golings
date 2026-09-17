@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// firstDup ищет первое значение, встречающееся повторно при обходе таблицы
-// по строкам; поиск должен остановиться сразу.
-// Тренирует: break с меткой из вложенного range.
-// Сложность: medium
+// firstDup looks for the first value that turns up twice while walking a table
+// row by row; the search has to stop right away.
+// Practices a labelled break out of a nested range.
 package main_test
 
 import "testing"

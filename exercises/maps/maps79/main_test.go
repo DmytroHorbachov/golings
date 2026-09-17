@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// pairsWithDiff считает количество уникальных значений x, для которых x+k тоже есть в срезе (k > 0).
-// Тренирует: множество значений и поиск соседей.
-// Сложность: medium
+// pairsWithDiff counts the distinct values x for which x+k is in the slice as well (k > 0).
+// Practices a set of values and a search for neighbours.
 package main_test
 
 import "testing"

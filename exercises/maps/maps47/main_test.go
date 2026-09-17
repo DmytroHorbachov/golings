@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Группы задач хранятся в map[string][]string. После удаления последней
-// задачи группа остаётся пустой, и число групп неверное.
-// Тренирует: пустой срез в map — всё ещё существующий ключ.
-// Сложность: hard
+// The task groups live in a map[string][]string. After the last task is removed
+// the group is left empty and the number of groups is wrong.
+// An empty slice in a map is still a key that exists.
 package main_test
 
 import "testing"

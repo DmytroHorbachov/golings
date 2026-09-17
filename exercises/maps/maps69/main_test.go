@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// report форматирует остатки товаров строкой "apple=3,kiwi=1,pear=5".
-// Результат каждый раз разный.
-// Тренирует: порядок обхода map не определён и намеренно рандомизирован.
-// Сложность: hard
+// report formats the stock as the string "apple=3,kiwi=1,pear=5".
+// The result comes out different every time.
+// The iteration order of a map is undefined and deliberately randomized.
 package main_test
 
 import (

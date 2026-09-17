@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// effective накладывает пользовательские настройки на значения по умолчанию,
-// не меняя ни одну из входных map.
-// Тренирует: копирование map и перезапись ключей.
-// Сложность: medium
+// effective lays the user settings over the defaults
+// without changing either of the input maps.
+// Practices copying a map and overwriting keys.
 package main_test
 
 import (

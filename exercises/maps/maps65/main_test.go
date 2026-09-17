@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isomorphic проверяет, можно ли заменой символов получить из a строку b
-// (разные символы переходят в разные).
-// Тренирует: две map для взаимно однозначного соответствия.
-// Сложность: medium
+// isomorphic checks whether b can be obtained from a by replacing characters,
+// distinct characters going to distinct ones.
+// Practices two maps for a one to one correspondence.
 package main_test
 
 import "testing"

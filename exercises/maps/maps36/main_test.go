@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// groupAnagrams группирует слова, являющиеся анаграммами друг друга.
-// Тренирует: вычисляемый ключ map.
-// Сложность: medium
+// groupAnagrams groups the words that are anagrams of each other.
+// Practices a computed map key.
 package main_test
 
 import (

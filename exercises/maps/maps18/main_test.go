@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// prefixes строит map «длина -> префикс строки» как срезы одного буфера,
-// а затем значения дописываются. Дописывание к одному префиксу портит другие.
-// Тренирует: срезы-значения map могут разделять массив.
-// Сложность: hard
+// prefixes builds a map from length to a prefix of a string, as slices of one buffer,
+// and the values are appended to afterwards. Appending to one prefix spoils the others.
+// Slice values in a map may share an array.
 package main_test
 
 import "testing"

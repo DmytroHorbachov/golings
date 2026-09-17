@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// wordCount считает слова в тексте.
-// Тренирует: m[k]++ в цикле.
-// Сложность: easy
+// wordCount counts the words of a text.
+// Practices m[k]++ in a loop.
 package main_test
 
 import (

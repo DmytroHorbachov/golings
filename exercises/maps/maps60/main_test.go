@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// twoSum возвращает индексы двух разных элементов с суммой target.
-// Тренирует: map «значение -> индекс» для поиска за O(n).
-// Сложность: medium
+// twoSum returns the indexes of two distinct elements adding up to target.
+// Practices a value to index map for an O(n) search.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// shiftGreek сдвигает строчные русские буквы (без ё) на k позиций по кругу.
-// Тренирует: range по рунам и арифметику над rune.
-// Сложность: medium
+// shiftGreek moves lowercase greek letters k places around the alphabet.
+// Practices a range over runes and rune arithmetic.
 package main_test
 
 import (

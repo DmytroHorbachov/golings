@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Посещения учитываются по ключу {город, *Пользователь}. Одинаковые
-// по содержимому пользователи считаются разными.
-// Тренирует: структура-ключ сравнивает поля-указатели по адресу.
-// Сложность: hard
+// Visits are counted under the key {city, *User}. Users that are equal
+// in content count as different ones.
+// A struct key compares its pointer fields by address.
 package main_test
 
 import "testing"

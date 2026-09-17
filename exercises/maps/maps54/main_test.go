@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// majority возвращает элемент, встречающийся больше n/2 раз, или false.
-// Тренирует: подсчёт и сравнение с порогом.
-// Сложность: medium
+// majority returns the element occurring more than n/2 times, or false.
+// Practices counting and comparing against a threshold.
 package main_test
 
 import "testing"

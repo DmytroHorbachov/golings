@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totalTasks считает общее количество задач во всех проектах.
-// Тренирует: range по map со срезами в значениях.
-// Сложность: easy
+// totalTasks counts the tasks across every project.
+// Practices a range over a map holding slices.
 package main_test
 
 import "testing"

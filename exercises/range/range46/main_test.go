@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// squares запускает горутину, которая отправляет квадраты чисел 1..n и закрывает канал;
-// sumSquares читает их через range.
-// Тренирует: range по каналу, закрываемому отправителем.
-// Сложность: medium
+// squares starts a goroutine sending the squares of 1..n and closing the channel;
+// sumSquares reads them with a range.
+// Practices a range over a channel the sender closes.
 package main_test
 
 import (

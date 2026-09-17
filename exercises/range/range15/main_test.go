@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countAdmins считает пользователей с ролью "admin".
-// Тренирует: range по map с проверкой значения.
-// Сложность: easy
+// countAdmins counts the users with the role "admin".
+// Practices a range over a map with a check of the value.
 package main_test
 
 import "testing"

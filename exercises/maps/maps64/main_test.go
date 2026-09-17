@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hasOwner проверяет, принадлежит ли хоть один файл пользователю.
-// Тренирует: перебор значений map.
-// Сложность: easy
+// hasOwner checks whether any file belongs to a given user.
+// Practices walking the values of a map.
 package main_test
 
 import "testing"

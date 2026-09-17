@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// balance применяет операции: "in" увеличивает баланс, "out" уменьшает,
-// операции с неизвестным типом пропускаются.
-// Тренирует: range со switch внутри.
-// Сложность: medium
+// balance applies the operations: "in" raises the balance, "out" lowers it,
+// and operations of an unknown kind are skipped.
+// Practices a range with a switch inside.
 package main_test
 
 import "testing"

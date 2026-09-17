@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hit увеличивает счётчик посещений страницы.
-// Тренирует: m[k]++ для отсутствующего ключа начинает с нуля.
-// Сложность: easy
+// hit increments the visit counter of a page.
+// m[k]++ starts from zero for a missing key.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// byLength группирует слова по их длине.
-// Тренирует: map[int][]string и append к значению.
-// Сложность: easy
+// byLength groups the words by their length.
+// Practices map[int][]string and appending to a value.
 package main_test
 
 import (

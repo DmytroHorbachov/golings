@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// lookup достаёт значение по пути "a.b.c" из вложенных map[string]interface{}.
-// Тренирует: утверждение типа при спуске по уровням.
-// Сложность: medium
+// lookup pulls a value out of nested map[string]interface{} values by the path "a.b.c".
+// Practices type assertions while walking down the levels.
 package main_test
 
 import (

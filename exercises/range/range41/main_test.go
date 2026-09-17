@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countNewlines считает переводы строк в срезе байт.
-// Тренирует: range по []byte.
-// Сложность: easy
+// countNewlines counts the newlines in a byte slice.
+// Practices a range over a []byte.
 package main_test
 
 import "testing"

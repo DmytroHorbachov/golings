@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// positions возвращает для каждого слова список его позиций в тексте.
-// Тренирует: map[string][]int.
-// Сложность: medium
+// positions returns the list of positions of every word in a text.
+// Practices map[string][]int.
 package main_test
 
 import (

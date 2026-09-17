@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// byTeam группирует имена игроков по команде; порядок внутри команды — как во входе.
-// Тренирует: range по срезу структур и map со срезами.
-// Сложность: medium
+// byTeam groups the names of the players by team, keeping the input order inside a team.
+// Practices a range over a slice of structs and a map of slices.
 package main_test
 
 import (

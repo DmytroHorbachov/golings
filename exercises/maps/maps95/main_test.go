@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// NewIndex создаёт индекс «язык -> слово -> частота». Добавление слова
-// для нового языка паникует.
-// Тренирует: make внешней map не создаёт внутренние.
-// Сложность: hard
+// NewIndex builds a language to word to frequency index. Adding a word
+// for a new language panics.
+// make on the outer map does not build the inner ones.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// emailOf возвращает email пользователя из map структур.
-// Тренирует: доступ к полю значения map.
-// Сложность: easy
+// emailOf returns the email of a user from a map of structs.
+// Practices reaching a field of a map value.
 package main_test
 
 import "testing"

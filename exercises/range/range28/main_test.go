@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// takeUntilStop должна обработать элементы до "stop" и вернуть обработанные.
-// Срез обрезается внутри цикла, но цикл продолжается.
-// Тренирует: range вычисляет срез один раз; переприсваивание переменной его не меняет.
-// Сложность: hard
+// takeUntilStop has to handle the elements before "stop" and return them.
+// The slice is cut inside the loop, and the loop carries on.
+// A range evaluates the slice once; reassigning the variable does not change it.
 package main_test
 
 import (

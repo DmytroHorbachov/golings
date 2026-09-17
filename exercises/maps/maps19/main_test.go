@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// cachedSquare сначала ищет результат в кэше и только потом вычисляет.
-// Тренирует: comma-ok при работе с кэшем.
-// Сложность: easy
+// cachedSquare looks in the cache first and only computes afterwards.
+// Practices comma-ok when working with a cache.
 package main_test
 
 import "testing"

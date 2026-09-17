@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// countLines считает одинаковые строки из [][]byte. Код не компилируется:
-// []byte нельзя использовать как ключ map.
-// Тренирует: ключ map должен быть сравнимым типом.
-// Сложность: hard
+// countLines counts equal lines held as [][]byte. The code does not compile:
+// a []byte cannot be used as a map key.
+// A map key has to be of a comparable type.
 package main_test
 
 import (

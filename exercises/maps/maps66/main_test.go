@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// sortedPairs возвращает пары «ключ=значение» в порядке ключей.
-// Ключи отсортированы, но значения к ним не подходят.
-// Тренирует: порядок обхода map нужно учитывать для ключей и значений вместе.
-// Сложность: hard
+// sortedPairs returns "key=value" pairs in key order.
+// The keys come out sorted, but the values do not match them.
+// The iteration order of a map has to be taken into account for keys and values together.
 package main_test
 
 import (

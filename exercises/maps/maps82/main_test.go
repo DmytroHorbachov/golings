@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// hasUser проверяет, есть ли пользователь в map.
-// Тренирует: форма v, ok := m[k].
-// Сложность: easy
+// hasUser checks whether a user is in the map.
+// Practices the v, ok := m[k] form.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toBytes переводит размер с единицей в байты по таблице множителей.
-// Тренирует: map как таблицу констант.
-// Сложность: easy
+// toBytes turns a size with a unit into bytes using a table of factors.
+// Practices a map as a table of constants.
 package main_test
 
 import "testing"

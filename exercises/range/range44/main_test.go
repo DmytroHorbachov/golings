@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// evenPositions возвращает индексы 0, 2, 4, ... для среза.
-// Тренирует: range с одной переменной (индексом).
-// Сложность: easy
+// evenPositions returns the indexes 0, 2, 4 and so on of a slice.
+// Practices a range with a single variable, the index.
 package main_test
 
 import (

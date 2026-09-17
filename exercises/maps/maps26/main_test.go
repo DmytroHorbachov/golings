@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// degrees считает степень каждой вершины неориентированного графа по списку рёбер.
-// Тренирует: увеличение счётчиков для обоих концов ребра.
-// Сложность: medium
+// degrees counts the degree of every vertex of an undirected graph from a list of edges.
+// Practices incrementing the counters of both ends of an edge.
 package main_test
 
 import (

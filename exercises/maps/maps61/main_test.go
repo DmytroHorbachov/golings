@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// register записывает email пользователя; повторная регистрация перезаписывает email.
-// Тренирует: ключи map уникальны.
-// Сложность: easy
+// register stores the email of a user; registering again overwrites the email.
+// Map keys are unique.
 package main_test
 
 import "testing"

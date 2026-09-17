@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Реестр хранит обработчики в map[interface{}]string. Регистрация идёт по int,
-// а поиск — по int64 из внешнего источника, и обработчик не находится.
-// Тренирует: ключи interface{} равны, только если совпадают и тип, и значение.
-// Сложность: hard
+// The registry keeps handlers in a map[interface{}]string. Registration uses an int
+// while the lookup uses an int64 from an outside source, and the handler is not found.
+// interface{} keys are equal only when both the type and the value match.
 package main_test
 
 import "testing"

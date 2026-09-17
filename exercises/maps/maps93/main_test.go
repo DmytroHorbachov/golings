@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// defaultRegion должна выбрать регион с наименьшим кодом из map «код -> регион».
-// Сейчас каждый раз выбирается разный регион.
-// Тренирует: первый элемент обхода map не определён.
-// Сложность: hard
+// defaultRegion must pick the region with the smallest code from a code to region map.
+// Right now a different region comes out every time.
+// The first element of a map iteration is undefined.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// snapshot сохраняет состояние настроек, чтобы потом можно было откатиться.
-// После изменения настроек «снимок» меняется тоже.
-// Тренирует: присваивание map копирует ссылку, а не содержимое.
-// Сложность: hard
+// snapshot saves the state of the settings so it can be rolled back to later.
+// When the settings change, the snapshot changes too.
+// Assigning a map copies the reference, not the contents.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// invert меняет местами ключи и значения (значения уникальны).
-// Тренирует: запись в новую map в цикле.
-// Сложность: easy
+// invert swaps the keys and the values, the values being distinct.
+// Practices writing into a new map in a loop.
 package main_test
 
 import (

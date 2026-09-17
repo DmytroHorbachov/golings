@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// nextVersion возвращает следующую версию документа (первая — 1).
-// Тренирует: нулевое значение отсутствующего ключа в выражении.
-// Сложность: easy
+// nextVersion returns the next version of a document, the first one being 1.
+// Practices the zero value of a missing key in an expression.
 package main_test
 
 import "testing"

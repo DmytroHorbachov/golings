@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// byValue группирует ключи по значению (значения могут повторяться);
-// списки ключей отсортированы.
-// Тренирует: map[V][]K и сортировку значений map.
-// Сложность: medium
+// byValue groups the keys by value, the values possibly repeating,
+// with the key lists sorted.
+// Practices map[V][]K and sorting the values of a map.
 package main_test
 
 import (

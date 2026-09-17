@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// seats хранит, кто сидит на месте (ряд, кресло).
-// Тренирует: структура как ключ map.
-// Сложность: easy
+// seats keeps track of who sits in a (row, seat) place.
+// Practices a struct as a map key.
 package main_test
 
 import "testing"

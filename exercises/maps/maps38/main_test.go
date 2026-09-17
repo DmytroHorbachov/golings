@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isBanned проверяет, входит ли слово в множество запрещённых.
-// Тренирует: map[string]bool как множество.
-// Сложность: easy
+// isBanned checks whether a word is in the set of banned ones.
+// Practices map[string]bool as a set.
 package main_test
 
 import "testing"

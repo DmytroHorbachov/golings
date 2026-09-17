@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// rank возвращает ключи, отсортированные по убыванию значения,
-// при равенстве — по алфавиту.
-// Тренирует: сортировку ключей по значениям map.
-// Сложность: medium
+// rank returns the keys sorted by value in descending order,
+// and alphabetically on a tie.
+// Practices sorting the keys of a map by their values.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parseConfig разбирает строки вида "key = value", пропуская пустые строки
-// и комментарии, начинающиеся с #.
-// Тренирует: continue в range по строкам.
-// Сложность: medium
+// parseConfig parses lines of the form "key = value", skipping empty lines
+// and comments starting with #.
+// Practices continue in a range over lines.
 package main_test
 
 import (

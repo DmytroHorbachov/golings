@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// portFrom достаёт порт из JSON-конфигурации, разобранной в map[string]interface{}.
-// Утверждение типа к int всегда неудачно.
-// Тренирует: encoding/json декодирует числа в interface{} как float64.
-// Сложность: hard
+// portFrom pulls the port out of a JSON configuration parsed into a map[string]interface{}.
+// The type assertion to int never succeeds.
+// encoding/json decodes numbers into an interface{} as float64.
 package main_test
 
 import (

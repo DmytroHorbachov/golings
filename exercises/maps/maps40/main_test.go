@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// isEnabled: функции включены по умолчанию, но могут быть явно выключены (false).
-// Сейчас явно выключенная функция считается включённой.
-// Тренирует: различие между «ключ со значением false» и «ключа нет».
-// Сложность: hard
+// isEnabled: features are on by default, but may be switched off explicitly (false).
+// Right now a feature switched off counts as on.
+// Practices the difference between "the key holds false" and "the key is missing".
 package main_test
 
 import "testing"

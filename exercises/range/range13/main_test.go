@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// padRows дополняет каждую строку таблицы нулями до ширины w.
-// Строки таблицы не меняются: append выполняется к переменной цикла.
-// Тренирует: v в range по [][]T — копия заголовка среза.
-// Сложность: hard
+// padRows pads every row of a table with zeros up to the width w.
+// The rows do not change: the append goes to the loop variable.
+// The v of a range over a [][]T is a copy of the slice header.
 package main_test
 
 import (

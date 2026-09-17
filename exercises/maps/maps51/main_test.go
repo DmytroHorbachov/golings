@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// charCounts считает символы строки. Для кириллицы в map попадают
-// отдельные байты UTF-8, и символы считаются неверно.
-// Тренирует: индексирование строки даёт байты, а не руны.
-// Сложность: hard
+// charCounts counts the characters of a string. For greek text the map ends up
+// holding single UTF-8 bytes, and the characters are counted wrongly.
+// Indexing a string gives bytes, not runes.
 package main_test
 
 import "testing"

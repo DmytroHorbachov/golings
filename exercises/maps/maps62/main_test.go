@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// fromRoman переводит римское число в целое с помощью таблицы значений.
-// Тренирует: map[byte]int и сравнение с соседом.
-// Сложность: medium
+// fromRoman turns a roman numeral into an integer with a table of values.
+// Practices map[byte]int and a comparison with the next character.
 package main_test
 
 import "testing"

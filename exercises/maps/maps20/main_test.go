@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// addScore записывает оценку ученика по предмету в map[ученик]map[предмет]оценка.
-// Для нового ученика запись паникует.
-// Тренирует: инициализацию вложенной map.
-// Сложность: medium
+// addScore stores a pupil's mark for a subject in a map[pupil]map[subject]mark.
+// For a new pupil the write panics.
+// Practices initializing a nested map.
 package main_test
 
 import "testing"

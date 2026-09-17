@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// online отмечает пользователей в сети в map[string]bool. При выходе
-// пользователь помечается false, и счётчик онлайна становится неверным.
-// Тренирует: len(map) считает все ключи, включая значения false.
-// Сложность: hard
+// online marks the users that are connected in a map[string]bool. On a logout
+// the user is marked false, and the online count comes out wrong.
+// len(map) counts every key, those holding false included.
 package main_test
 
 import "testing"

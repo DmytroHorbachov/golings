@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// runeWidths возвращает ширину в байтах каждого символа, декодируя строку вручную.
-// Цикл сдвигается на один байт и «видит» лишние символы.
-// Тренирует: utf8.DecodeRuneInString возвращает ширину, на которую нужно сдвинуться.
-// Сложность: hard
+// runeWidths returns the width in bytes of every character, decoding the string by hand.
+// The loop moves one byte at a time and sees characters that are not there.
+// utf8.DecodeRuneInString returns the width to move forward by.
 package main_test
 
 import (

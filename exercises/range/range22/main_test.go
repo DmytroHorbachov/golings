@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// findAll возвращает координаты (строка, столбец) всех клеток со значением x.
-// Тренирует: два уровня range с индексами.
-// Сложность: medium
+// findAll returns the (row, column) coordinates of every cell holding x.
+// Practices two levels of range with indexes.
 package main_test
 
 import (

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sumTail складывает все элементы, кроме первого.
-// Тренирует: использование индекса в теле range.
-// Сложность: easy
+// sumTail adds up every element but the first.
+// Practices using the index in the body of a range.
 package main_test
 
 import "testing"

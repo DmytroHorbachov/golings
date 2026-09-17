@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toDigits переводит слово в цифры телефонной клавиатуры (abc=2, def=3, ...).
-// Тренирует: построение обратной map из групп.
-// Сложность: medium
+// toDigits turns a word into phone keypad digits (abc=2, def=3 and so on).
+// Practices building a reverse map out of groups.
 package main_test
 
 import "testing"

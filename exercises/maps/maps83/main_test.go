@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// promote увеличивает уровень сотрудника, хранящегося в map.
-// Код не компилируется: поле значения map нельзя изменить напрямую.
-// Тренирует: значения map не адресуемы.
-// Сложность: hard
+// promote raises the level of an employee held in a map.
+// The code does not compile: a field of a map value cannot be changed directly.
+// Map values are not addressable.
 package main_test
 
 import "testing"

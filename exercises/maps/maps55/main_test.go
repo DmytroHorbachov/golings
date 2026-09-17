@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// userCount возвращает количество пользователей.
-// Тренирует: len для map.
-// Сложность: easy
+// userCount returns the number of users.
+// Practices len on a map.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// lastNonEmpty должна вернуть последнюю непустую строку.
-// Функция всегда возвращает пустую строку.
-// Тренирует: := в заголовке range объявляет новые переменные.
-// Сложность: hard
+// lastNonEmpty must return the last non-empty string.
+// The function always returns an empty string.
+// := in a range header declares new variables.
 package main_test
 
 import "testing"

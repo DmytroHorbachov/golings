@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// runeFreq считает символы строки, включая кириллицу.
-// Тренирует: map[rune]int и range по строке.
-// Сложность: easy
+// runeFreq counts the characters of a string, non-ASCII ones included.
+// Practices map[rune]int and a range over a string.
 package main_test
 
 import "testing"

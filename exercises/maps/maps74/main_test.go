@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// adjust меняет остаток товара на delta. Остаток не может стать отрицательным
-// (ошибка), а товар с нулевым остатком удаляется из map.
-// Тренирует: проверки перед изменением и delete.
-// Сложность: medium
+// adjust changes the stock of an item by delta. The stock must not go negative,
+// which is an error, and an item with no stock left is removed from the map.
+// Practices checks before a change, and delete.
 package main_test
 
 import (

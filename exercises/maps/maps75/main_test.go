@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Бронирования хранятся по времени начала. Поиск того же момента,
-// записанного в другом часовом поясе, ничего не находит.
-// Тренирует: time.Time с разными Location — разные ключи map.
-// Сложность: hard
+// The bookings are stored by their starting time. A lookup for the same moment
+// written in another time zone finds nothing.
+// A time.Time with a different Location is a different map key.
 package main_test
 
 import (

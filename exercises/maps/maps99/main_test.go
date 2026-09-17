@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// rename меняет отображаемое имя пользователя с данным id.
-// Тренирует: присваивание по ключу.
-// Сложность: easy
+// rename changes the display name of the user with a given id.
+// Practices assigning by key.
 package main_test
 
 import "testing"

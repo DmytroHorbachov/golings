@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// listKeys возвращает ключи map, отсортированные по алфавиту.
-// Тренирует: range по map и последующую сортировку.
-// Сложность: easy
+// listKeys returns the keys of a map sorted alphabetically.
+// Practices a range over a map followed by a sort.
 package main_test
 
 import (

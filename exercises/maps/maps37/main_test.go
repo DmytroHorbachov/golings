@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Реестр хранит роли по пользователю. Поиск по «такому же» пользователю
-// (новой структуре с тем же ID) ничего не находит.
-// Тренирует: ключ-указатель сравнивается по адресу, а не по содержимому.
-// Сложность: hard
+// The registry keeps roles per user. A lookup with the "same" user,
+// a new struct with the same ID, finds nothing.
+// A pointer key compares by address rather than by contents.
 package main_test
 
 import "testing"

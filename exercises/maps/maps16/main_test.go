@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// capitals должна вернуть столицы стран; одна из них указана неверно.
-// Тренирует: литерал map.
-// Сложность: easy
+// capitals must return the capitals of the countries; one of them is wrong.
+// Practices a map literal.
 package main_test
 
 import "testing"

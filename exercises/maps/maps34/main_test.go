@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// make(map, n) задаёт ёмкость, но не создаёт элементы.
-// slots возвращает, сколько слотов уже занято, и путает ёмкость с размером.
-// Тренирует: второй аргумент make для map — только подсказка.
-// Сложность: hard
+// make(map, n) sets a capacity; it does not create elements.
+// slots returns how many slots are taken and confuses the capacity with the size.
+// The second argument of make for a map is only a hint.
 package main_test
 
 import "testing"

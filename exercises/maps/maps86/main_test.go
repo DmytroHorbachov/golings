@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// errorText возвращает текст для числового кода.
-// Тренирует: map с целыми ключами.
-// Сложность: easy
+// errorText returns the text for a numeric code.
+// Practices a map with integer keys.
 package main_test
 
 import "testing"

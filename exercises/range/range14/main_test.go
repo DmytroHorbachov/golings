@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// buildIndex строит map «слово -> номера документов» (без повторов номеров).
-// Тренирует: вложенный range по срезу строк и словам.
-// Сложность: medium
+// buildIndex builds a map from a word to the numbers of the documents, with no repeats.
+// Practices a nested range over a slice of strings and their words.
 package main_test
 
 import (

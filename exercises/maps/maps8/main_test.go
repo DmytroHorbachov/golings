@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// memo оборачивает функцию так, чтобы повторные вызовы с тем же аргументом
-// брали результат из кэша.
-// Тренирует: map внутри замыкания.
-// Сложность: medium
+// memo wraps a function so that repeated calls with the same argument
+// take the result from a cache.
+// Practices a map inside a closure.
 package main_test
 
 import "testing"

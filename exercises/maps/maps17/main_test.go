@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// topWord возвращает самое частое слово; при равенстве — первое по алфавиту.
-// Тренирует: подсчёт в map и детерминированный выбор при равенстве.
-// Сложность: medium
+// topWord returns the most frequent word, the alphabetically first one on a tie.
+// Practices counting in a map and a deterministic choice on a tie.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// normalizeAll приводит строки к нижнему регистру по указателю на срез.
-// Код не компилируется: range по *[]string недопустим.
-// Тренирует: range работает с указателем на массив, но не на срез.
-// Сложность: hard
+// normalizeAll folds the strings to lower case through a pointer to a slice.
+// The code does not compile: a range over a *[]string is not allowed.
+// A range works on a pointer to an array, but not on a pointer to a slice.
 package main_test
 
 import (

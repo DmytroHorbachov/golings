@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// enabled сообщает, включена ли функция; незаданные функции выключены.
-// Тренирует: нулевое значение bool в map.
-// Сложность: easy
+// enabled reports whether a feature is on; features that are not listed are off.
+// Practices the zero value of a bool in a map.
 package main_test
 
 import "testing"

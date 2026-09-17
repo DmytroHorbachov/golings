@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// totalPrice считает стоимость корзины: цена * количество для каждой позиции.
-// Тренирует: доступ к полям в range по срезу структур.
-// Сложность: easy
+// totalPrice computes the value of a cart: price times quantity for every line.
+// Practices reaching fields in a range over a slice of structs.
 package main_test
 
 import "testing"

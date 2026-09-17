@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// isPalindrome проверяет строку без учёта регистра, сравнивая руны с двух концов.
-// Тренирует: range по []rune с индексом.
-// Сложность: medium
+// isPalindrome checks a string ignoring case, comparing runes from both ends.
+// Practices a range over a []rune with an index.
 package main_test
 
 import (

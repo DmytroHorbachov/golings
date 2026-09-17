@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// increasing проверяет, что каждый элемент больше предыдущего.
-// Тренирует: сравнение с соседом по индексу в range.
-// Сложность: medium
+// increasing checks that every element is larger than the one before it.
+// Practices comparing with a neighbour by index in a range.
 package main_test
 
 import "testing"

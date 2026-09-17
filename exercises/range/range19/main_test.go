@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// smooth заменяет каждый элемент (кроме первого) средним его и предыдущего
-// элемента ИСХОДНОГО среза. Изменения на месте используют уже изменённые значения.
-// Тренирует: range по срезу видит изменения последующих и предыдущих элементов.
-// Сложность: hard
+// smooth replaces every element but the first with the average of it and the previous
+// element of the ORIGINAL slice. Changing in place uses values that have already changed.
+// A range over a slice sees the changes made to later and earlier elements.
 package main_test
 
 import (

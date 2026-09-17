@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// sortedKeys возвращает ключи map в алфавитном порядке.
-// Тренирует: сбор ключей и sort.Strings.
-// Сложность: easy
+// sortedKeys returns the keys of a map in alphabetical order.
+// Practices collecting keys and sort.Strings.
 package main_test
 
 import (

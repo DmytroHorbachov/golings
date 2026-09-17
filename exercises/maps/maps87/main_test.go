@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// Counter накапливает счётчики. Для нового значения Counter{} запись паникует.
-// Тренирует: нулевое значение map — nil, запись в неё вызывает панику.
-// Сложность: hard
+// Counter accumulates counts. For a fresh Counter{} the write panics.
+// The zero value of a map is nil, and writing to it panics.
 package main_test
 
 import "testing"

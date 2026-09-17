@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// Цены записываются в map по ключу, собранному через Sprintf. При чтении
-// ключ форматируется иначе, и цена не находится.
-// Тренирует: ключи должны строиться одной функцией.
-// Сложность: hard
+// The prices go into a map under a key built with Sprintf. When reading, the key
+// is formatted differently and the price is not found.
+// Keys have to be built by one and the same function.
 package main_test
 
 import (

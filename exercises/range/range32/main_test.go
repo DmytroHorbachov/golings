@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// indexAfter возвращает позицию первого отрицательного числа или len(s).
-// Код не компилируется: переменная цикла недоступна после него.
-// Тренирует: переменные, объявленные в заголовке for, видны только внутри.
-// Сложность: hard
+// indexAfter returns the position of the first negative number, or len(s).
+// The code does not compile: the loop variable is out of reach afterwards.
+// Variables declared in a for header are only visible inside it.
 package main_test
 
 import "testing"

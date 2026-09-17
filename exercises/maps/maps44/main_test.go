@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// seen отмечает встреченные значения в map[interface{}]bool.
-// Для срезов программа паникует во время выполнения.
-// Тренирует: ключ interface{} должен иметь сравнимый динамический тип.
-// Сложность: hard
+// seen marks the values it has met in a map[interface{}]bool.
+// For slices the program panics at run time.
+// An interface{} key has to carry a comparable dynamic type.
 package main_test
 
 import (

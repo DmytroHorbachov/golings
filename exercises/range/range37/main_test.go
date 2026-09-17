@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// forEach вызывает функцию для каждого элемента. findFirstBig пытается
-// остановить перебор через return, но return выходит только из колбэка.
-// Тренирует: return внутри функционального литерала не прерывает внешний цикл.
-// Сложность: hard
+// forEach calls a function for every element. findFirstBig tries to
+// stop the walk with a return, and the return only leaves the callback.
+// A return inside a function literal does not break the outer loop.
 package main_test
 
 import "testing"

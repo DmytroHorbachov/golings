@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// stripes возвращает "#" для чётных позиций и "." для нечётных.
-// Тренирует: использование индекса range в вычислениях.
-// Сложность: easy
+// stripes returns "#" for the even positions and "." for the odd ones.
+// Practices using the index of a range in a computation.
 package main_test
 
 import (

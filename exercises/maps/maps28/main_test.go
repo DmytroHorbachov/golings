@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// increment передаёт счётчик из map в функцию, принимающую *int.
-// Код не компилируется: адрес элемента map взять нельзя.
-// Тренирует: элементы map могут перемещаться при росте, поэтому не адресуемы.
-// Сложность: hard
+// increment passes a counter from a map to a function taking a *int.
+// The code does not compile: the address of a map element cannot be taken.
+// Map elements may move as the map grows, so they are not addressable.
 package main_test
 
 import "testing"

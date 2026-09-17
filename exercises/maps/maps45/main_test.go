@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// canBuild проверяет, можно ли составить записку из букв журнала
-// (каждая буква используется один раз).
-// Тренирует: уменьшение счётчиков в map.
-// Сложность: medium
+// canBuild checks whether a note can be put together from the letters of a magazine,
+// every letter being used once.
+// Practices decrementing counters in a map.
 package main_test
 
 import "testing"

@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// oldest возвращает возраст самого старшего человека.
-// Тренирует: range по срезу структур и поиск максимума.
-// Сложность: easy
+// oldest returns the age of the oldest person.
+// Practices a range over a slice of structs and a search for a maximum.
 package main_test
 
 import "testing"

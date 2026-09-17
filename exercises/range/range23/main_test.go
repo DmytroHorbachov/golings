@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// consume читает сообщения до получения "quit". break внутри select
-// не выходит из цикла, и функция зависает.
-// Тренирует: break относится к ближайшему for, switch или select.
-// Сложность: hard
+// consume reads messages until "quit" arrives. A break inside the select
+// does not leave the loop, and the function hangs.
+// break belongs to the nearest for, switch or select.
 package main_test
 
 import (

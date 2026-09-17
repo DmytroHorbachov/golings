@@ -5704,756 +5704,756 @@ name = "maps4"
 path = "exercises/maps/maps4/main_test.go"
 mode = "test"
 hint = """
-Ключом должно быть само слово."""
+The key has to be the word itself."""
 
 [[exercises]]
 name = "maps5"
 path = "exercises/maps/maps5/main_test.go"
 mode = "test"
 hint = """
-Определите метку диапазона для каждой зарплаты и увеличьте её счётчик.
-Проверьте границы."""
+Work out the label of the range for every salary and increment its counter.
+Check the bounds."""
 
 [[exercises]]
 name = "maps6"
 path = "exercises/maps/maps6/main_test.go"
 mode = "test"
 hint = """
-Для отсутствующего ключа map[string]bool вернёт false — этого достаточно."""
+For a missing key a map[string]bool gives false, which is all that is needed."""
 
 [[exercises]]
 name = "maps7"
 path = "exercises/maps/maps7/main_test.go"
 mode = "test"
 hint = """
-Возвращайте инициализированную пустую map, а не nil."""
+Return an initialized empty map rather than nil."""
 
 [[exercises]]
 name = "maps8"
 path = "exercises/maps/maps8/main_test.go"
 mode = "test"
 hint = """
-Кэш должен создаваться один раз при вызове memo, а не при каждом вызове
-обёртки. Перед вычислением проверьте, есть ли результат."""
+The cache has to be built once, when memo is called, not on every call of the
+wrapper. Look in it before computing."""
 
 [[exercises]]
 name = "maps9"
 path = "exercises/maps/maps9/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое значение записывается при посещении."""
+Check which value is stored on a visit."""
 
 [[exercises]]
 name = "maps10"
 path = "exercises/maps/maps10/main_test.go"
 mode = "test"
 hint = """
-"%v" и "%.2f" дают разные строки для одного числа.
-Вынесите построение ключа в одну функцию и используйте её везде."""
+"%v" and "%.2f" give different strings for the same number.
+Move the key building into a single function and use it everywhere."""
 
 [[exercises]]
 name = "maps11"
 path = "exercises/maps/maps11/main_test.go"
 mode = "test"
 hint = """
-Для каждой траты прибавляйте сумму к её категории и к общему итогу."""
+For every expense add the amount to its category and to the grand total."""
 
 [[exercises]]
 name = "maps12"
 path = "exercises/maps/maps12/main_test.go"
 mode = "test"
 hint = """
-Используйте целочисленный ключ: цену в копейках, округлённую math.Round."""
+Use an integer key: the price in cents, rounded with math.Round."""
 
 [[exercises]]
 name = "maps13"
 path = "exercises/maps/maps13/main_test.go"
 mode = "test"
 hint = """
-В новой map ключом становится старое значение."""
+In the new map the old value becomes the key."""
 
 [[exercises]]
 name = "maps14"
 path = "exercises/maps/maps14/main_test.go"
 mode = "test"
 hint = """
-Ключом должна быть пара (предыдущее слово, текущее слово).
-Пар на одну меньше, чем слов."""
+The key has to be the pair (previous word, current word).
+There is one pair fewer than there are words."""
 
 [[exercises]]
 name = "maps15"
 path = "exercises/maps/maps15/main_test.go"
 mode = "test"
 hint = """
-Изменение содержимого существующей map видно через копию структуры,
-а присваивание самому полю — нет. Используйте получатель-указатель."""
+Changing the contents of an existing map shows through a copy of the struct,
+while assigning to the field itself does not. Use a pointer receiver."""
 
 [[exercises]]
 name = "maps16"
 path = "exercises/maps/maps16/main_test.go"
 mode = "test"
 hint = """
-Проверьте пары ключ–значение в литерале."""
+Check the key/value pairs in the literal."""
 
 [[exercises]]
 name = "maps17"
 path = "exercises/maps/maps17/main_test.go"
 mode = "test"
 hint = """
-Порядок обхода map случаен, поэтому правило выбора при равенстве
-нужно закодировать явно: при одинаковом количестве выбирайте меньшее слово."""
+The iteration order of a map is random, so the tie breaking rule has to be
+written out: on an equal count pick the smaller word."""
 
 [[exercises]]
 name = "maps18"
 path = "exercises/maps/maps18/main_test.go"
 mode = "test"
 hint = """
-Каждый префикс должен быть независимым: ограничьте ёмкость
-полным выражением среза или скопируйте данные."""
+Every prefix has to stand on its own: cap the capacity with a full slice
+expression, or copy the data."""
 
 [[exercises]]
 name = "maps19"
 path = "exercises/maps/maps19/main_test.go"
 mode = "test"
 hint = """
-Если значение найдено, его нужно вернуть сразу, не вычисляя заново."""
+When the value is found it has to be returned straight away, without computing it again."""
 
 [[exercises]]
 name = "maps20"
 path = "exercises/maps/maps20/main_test.go"
 mode = "test"
 hint = """
-Внутренняя map для нового ученика равна nil. Создайте её,
-если её ещё нет, и сохраните во внешнюю map."""
+The inner map is nil for a new pupil. Build it when it is missing
+and store it in the outer map."""
 
 [[exercises]]
 name = "maps21"
 path = "exercises/maps/maps21/main_test.go"
 mode = "test"
 hint = """
-Две переменные map указывают на одни и те же данные.
-Создайте новую map и скопируйте в неё все пары."""
+Two map variables point at the same data.
+Build a new map and copy every pair into it."""
 
 [[exercises]]
 name = "maps22"
 path = "exercises/maps/maps22/main_test.go"
 mode = "test"
 hint = """
-Счётчик нужно увеличивать, а не устанавливать."""
+The counter has to be incremented rather than set."""
 
 [[exercises]]
 name = "maps23"
 path = "exercises/maps/maps23/main_test.go"
 mode = "test"
 hint = """
-Ключи новой map, которых нет в старой, — добавленные; ключи старой,
-которых нет в новой, — удалённые. Изменённые есть в обеих, но с разными значениями."""
+Keys of the new map that the old one lacks were added; keys of the old one
+that the new one lacks were removed. The changed ones are in both, with different values."""
 
 [[exercises]]
 name = "maps24"
 path = "exercises/maps/maps24/main_test.go"
 mode = "test"
 hint = """
-Сначала проверьте наличие ключа, затем удалите. Верните результат проверки."""
+Check for the key first, then delete it. Return the result of the check."""
 
 [[exercises]]
 name = "maps25"
 path = "exercises/maps/maps25/main_test.go"
 mode = "test"
 hint = """
-Изменение переменной p не затрагивает map. После изменения
-сохраните структуру обратно: m[k] = p."""
+Changing the variable p leaves the map alone. Once it is changed,
+store the struct back: m[k] = p."""
 
 [[exercises]]
 name = "maps26"
 path = "exercises/maps/maps26/main_test.go"
 mode = "test"
 hint = """
-Каждое ребро увеличивает степень обеих вершин. Петля (u == v)
-увеличивает степень на 2."""
+Every edge raises the degree of both vertices. A loop (u == v)
+raises the degree by 2."""
 
 [[exercises]]
 name = "maps27"
 path = "exercises/maps/maps27/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какой ключ передаётся в delete."""
+Check which key is handed to delete."""
 
 [[exercises]]
 name = "maps28"
 path = "exercises/maps/maps28/main_test.go"
 mode = "test"
 hint = """
-Считайте значение в переменную, измените её через указатель
-и запишите обратно (или храните в map указатели)."""
+Read the value into a variable, change it through the pointer
+and write it back, or store pointers in the map."""
 
 [[exercises]]
 name = "maps29"
 path = "exercises/maps/maps29/main_test.go"
 mode = "test"
 hint = """
-Добавляйте в срез слова текущий индекс, а не номер вхождения."""
+Append the current index to the slice of the word, not the number of the occurrence."""
 
 [[exercises]]
 name = "maps30"
 path = "exercises/maps/maps30/main_test.go"
 mode = "test"
 hint = """
-Не используйте NaN как ключ. Считайте такие значения отдельно
-(например, в отдельном счётчике)."""
+Do not use NaN as a key. Count such values separately,
+in a counter of their own for instance."""
 
 [[exercises]]
 name = "maps31"
 path = "exercises/maps/maps31/main_test.go"
 mode = "test"
 hint = """
-Запоминайте ключ, когда нашли большее значение."""
+Remember the key whenever a larger value turns up."""
 
 [[exercises]]
 name = "maps32"
 path = "exercises/maps/maps32/main_test.go"
 mode = "test"
 hint = """
-Для ребра (u, v) добавьте v в список соседей u. После построения
-отсортируйте каждый список."""
+For an edge (u, v) append v to the neighbours of u. Sort every list
+once the map is built."""
 
 [[exercises]]
 name = "maps33"
 path = "exercises/maps/maps33/main_test.go"
 mode = "test"
 hint = """
-Ключом должна быть длина слова."""
+The key has to be the length of the word."""
 
 [[exercises]]
 name = "maps34"
 path = "exercises/maps/maps34/main_test.go"
 mode = "test"
 hint = """
-len(map) — количество пар, и сразу после make(map, n) оно равно нулю.
-Не храните «размер» отдельно от реального содержимого."""
+len(map) is the number of pairs, and right after make(map, n) it is zero.
+Do not keep a "size" apart from the actual contents."""
 
 [[exercises]]
 name = "maps35"
 path = "exercises/maps/maps35/main_test.go"
 mode = "test"
 hint = """
-Проверьте, какое поле возвращается."""
+Check which field is returned."""
 
 [[exercises]]
 name = "maps36"
 path = "exercises/maps/maps36/main_test.go"
 mode = "test"
 hint = """
-Ключом группы может быть слово с отсортированными буквами.
-Все анаграммы дают одинаковый ключ."""
+The key of a group can be the word with its letters sorted.
+Every anagram then gives the same key."""
 
 [[exercises]]
 name = "maps37"
 path = "exercises/maps/maps37/main_test.go"
 mode = "test"
 hint = """
-Две разные переменные с одинаковыми полями имеют разные адреса.
-Используйте в качестве ключа значение (например, ID или саму структуру)."""
+Two distinct variables with equal fields have different addresses.
+Use a value as the key: the ID, or the struct itself."""
 
 [[exercises]]
 name = "maps38"
 path = "exercises/maps/maps38/main_test.go"
 mode = "test"
 hint = """
-Для отсутствующего ключа map[string]bool вернёт false."""
+For a missing key a map[string]bool gives false."""
 
 [[exercises]]
 name = "maps39"
 path = "exercises/maps/maps39/main_test.go"
 mode = "test"
 hint = """
-Разбейте путь по точкам. На каждом уровне текущее значение должно быть
-map[string]interface{}; иначе путь не найден."""
+Split the path on the dots. At every level the current value has to be a
+map[string]interface{}; otherwise the path is not there."""
 
 [[exercises]]
 name = "maps40"
 path = "exercises/maps/maps40/main_test.go"
 mode = "test"
 hint = """
-m[k] вернёт false в обоих случаях. Используйте comma-ok:
-если ключа нет — вернуть значение по умолчанию, иначе — сохранённое."""
+m[k] gives false in both cases. Use comma-ok:
+when the key is missing return the default, otherwise the stored value."""
 
 [[exercises]]
 name = "maps41"
 path = "exercises/maps/maps41/main_test.go"
 mode = "test"
 hint = """
-Для каждой пары (студент, курс) добавьте студента в список курса.
-После заполнения отсортируйте списки."""
+For every (pupil, course) pair append the pupil to the list of the course.
+Sort the lists once they are built."""
 
 [[exercises]]
 name = "maps42"
 path = "exercises/maps/maps42/main_test.go"
 mode = "test"
 hint = """
-"ab"+"c" и "a"+"bc" дают одну строку. Используйте в качестве ключа
-структуру из двух полей."""
+"ab"+"c" and "a"+"bc" give the same string. Use a struct of two fields
+as the key."""
 
 [[exercises]]
 name = "maps43"
 path = "exercises/maps/maps43/main_test.go"
 mode = "test"
 hint = """
-Приведите код к тому же виду, в котором хранятся ключи."""
+Put the code in the same form the keys are stored in."""
 
 [[exercises]]
 name = "maps44"
 path = "exercises/maps/maps44/main_test.go"
 mode = "test"
 hint = """
-Компилятор разрешит такую map, но срез в качестве ключа вызовет панику.
-Для несравнимых значений используйте строковое представление (fmt.Sprint)."""
+The compiler allows such a map, but a slice as a key makes it panic.
+For values that are not comparable use a string form (fmt.Sprint)."""
 
 [[exercises]]
 name = "maps45"
 path = "exercises/maps/maps45/main_test.go"
 mode = "test"
 hint = """
-Посчитайте буквы журнала, затем для каждой буквы записки уменьшайте
-счётчик; если он стал отрицательным — букв не хватает."""
+Count the letters of the magazine, then for every letter of the note lower the
+counter; once it goes negative, the letters have run out."""
 
 [[exercises]]
 name = "maps46"
 path = "exercises/maps/maps46/main_test.go"
 mode = "test"
 hint = """
-Пустой литерал map уже можно заполнять. Проверьте, что возвращается."""
+An empty map literal can already be filled. Check what is being returned."""
 
 [[exercises]]
 name = "maps47"
 path = "exercises/maps/maps47/main_test.go"
 mode = "test"
 hint = """
-Когда в группе не осталось задач, удалите ключ группы из map."""
+When no task is left in a group, delete the key of the group from the map."""
 
 [[exercises]]
 name = "maps48"
 path = "exercises/maps/maps48/main_test.go"
 mode = "test"
 hint = """
-Соберите ключи в срез и отсортируйте его функцией, которая сравнивает
-m[keys[i]] и m[keys[j]], а при равенстве — сами ключи."""
+Collect the keys into a slice and sort it with a function comparing
+m[keys[i]] and m[keys[j]], falling back to the keys themselves."""
 
 [[exercises]]
 name = "maps49"
 path = "exercises/maps/maps49/main_test.go"
 mode = "test"
 hint = """
-Обращение к отсутствующему ключу не паникует. Проверьте, по какому ключу идёт поиск."""
+Reading a missing key does not panic. Check which key is being looked up."""
 
 [[exercises]]
 name = "maps50"
 path = "exercises/maps/maps50/main_test.go"
 mode = "test"
 hint = """
-Берите адрес элемента по индексу (&items[i]), а не адрес переменной цикла."""
+Take the address of the element by index (&items[i]), not the address of the loop variable."""
 
 [[exercises]]
 name = "maps51"
 path = "exercises/maps/maps51/main_test.go"
 mode = "test"
 hint = """
-Используйте map[rune]int и range по строке, который декодирует руны."""
+Use a map[rune]int and a range over the string, which decodes the runes."""
 
 [[exercises]]
 name = "maps52"
 path = "exercises/maps/maps52/main_test.go"
 mode = "test"
 hint = """
-Ключ — структура с двумя полями. Проверьте порядок полей в литерале."""
+The key is a struct of two fields. Check the order of the fields in the literal."""
 
 [[exercises]]
 name = "maps53"
 path = "exercises/maps/maps53/main_test.go"
 mode = "test"
 hint = """
-Изменение через указатель видно из всех map. Создайте копию структуры,
-измените её и верните указатель на копию."""
+A change through the pointer shows in every map. Make a copy of the struct,
+change the copy and return a pointer to it."""
 
 [[exercises]]
 name = "maps54"
 path = "exercises/maps/maps54/main_test.go"
 mode = "test"
 hint = """
-Элемент большинства встречается строго больше половины раз.
-Проверяйте порог сразу после увеличения счётчика."""
+A majority element occurs strictly more than half of the time.
+Check the threshold right after incrementing the counter."""
 
 [[exercises]]
 name = "maps55"
 path = "exercises/maps/maps55/main_test.go"
 mode = "test"
 hint = """
-Количество пар в map возвращает len."""
+len returns the number of pairs in a map."""
 
 [[exercises]]
 name = "maps56"
 path = "exercises/maps/maps56/main_test.go"
 mode = "test"
 hint = """
-Для каждого ключа проверьте, есть ли для него новое имя.
-Если нет — используйте старый ключ."""
+For every key check whether there is a new name for it.
+When there is not, use the old key."""
 
 [[exercises]]
 name = "maps57"
 path = "exercises/maps/maps57/main_test.go"
 mode = "test"
 hint = """
-delete внутри функции меняет map вызывающего. Постройте новую map
-и копируйте в неё только разрешённые ключи."""
+A delete inside the function changes the caller's map. Build a new map
+and copy only the allowed keys into it."""
 
 [[exercises]]
 name = "maps58"
 path = "exercises/maps/maps58/main_test.go"
 mode = "test"
 hint = """
-Сверьте множитель для MB."""
+Check the factor for MB."""
 
 [[exercises]]
 name = "maps59"
 path = "exercises/maps/maps59/main_test.go"
 mode = "test"
 hint = """
-Поле-указатель делает ключ зависимым от адреса. Храните в ключе
-значение, идентифицирующее пользователя (например, ID)."""
+A pointer field makes the key depend on an address. Put a value that
+identifies the user in the key, the ID for instance."""
 
 [[exercises]]
 name = "maps60"
 path = "exercises/maps/maps60/main_test.go"
 mode = "test"
 hint = """
-Для каждого элемента проверьте, встречалось ли раньше число target - v.
-Записывайте текущий элемент в map после проверки, чтобы не использовать его дважды."""
+For every element check whether target - v has turned up before.
+Store the current element in the map after the check, so it is not used twice."""
 
 [[exercises]]
 name = "maps61"
 path = "exercises/maps/maps61/main_test.go"
 mode = "test"
 hint = """
-Проверьте, что именно используется как ключ."""
+Check what exactly is used as the key."""
 
 [[exercises]]
 name = "maps62"
 path = "exercises/maps/maps62/main_test.go"
 mode = "test"
 hint = """
-Если значение текущей цифры меньше следующей, его нужно вычесть.
-Проверьте также таблицу значений."""
+When the value of the current numeral is smaller than the next one it has to be subtracted.
+Check the table of values too."""
 
 [[exercises]]
 name = "maps63"
 path = "exercises/maps/maps63/main_test.go"
 mode = "test"
 hint = """
-Преобразуйте срез байт в строку — string сравним и подходит как ключ."""
+Convert the byte slice to a string: a string is comparable and works as a key."""
 
 [[exercises]]
 name = "maps64"
 path = "exercises/maps/maps64/main_test.go"
 mode = "test"
 hint = """
-Сравнивать нужно значение (владельца), а не ключ (имя файла)."""
+What has to be compared is the value, the owner, not the key, the file name."""
 
 [[exercises]]
 name = "maps65"
 path = "exercises/maps/maps65/main_test.go"
 mode = "test"
 hint = """
-Храните соответствие a->b и b->a. Если любое из них противоречит
-текущей паре символов — строки не изоморфны."""
+Keep the mappings a->b and b->a. When either of them contradicts the
+current pair of characters, the strings are not isomorphic."""
 
 [[exercises]]
 name = "maps66"
 path = "exercises/maps/maps66/main_test.go"
 mode = "test"
 hint = """
-Значения собраны в порядке обхода map, а ключи потом отсортированы
-отдельно — связь между ними потеряна. Сортируйте ключи и берите
-значение по ключу: m[k]."""
+The values were collected in map order while the keys were sorted afterwards,
+so the link between them is gone. Sort the keys and take the value
+by key: m[k]."""
 
 [[exercises]]
 name = "maps67"
 path = "exercises/maps/maps67/main_test.go"
 mode = "test"
 hint = """
-Первый ключ — страна, второй — город."""
+The first key is the country and the second one the city."""
 
 [[exercises]]
 name = "maps68"
 path = "exercises/maps/maps68/main_test.go"
 mode = "test"
 hint = """
-Скопируйте defaults в новую map, затем перезапишите значениями из user."""
+Copy defaults into a new map, then overwrite it with the values from user."""
 
 [[exercises]]
 name = "maps69"
 path = "exercises/maps/maps69/main_test.go"
 mode = "test"
 hint = """
-Для детерминированного вывода соберите ключи, отсортируйте их
-и выводите в этом порядке."""
+For a deterministic result collect the keys, sort them
+and print in that order."""
 
 [[exercises]]
 name = "maps70"
 path = "exercises/maps/maps70/main_test.go"
 mode = "test"
 hint = """
-После сбора ключей их нужно отсортировать."""
+Once the keys are collected they have to be sorted."""
 
 [[exercises]]
 name = "maps71"
 path = "exercises/maps/maps71/main_test.go"
 mode = "test"
 hint = """
-Сначала посчитайте все символы. Затем пройдите строку по порядку
-и верните первый символ со счётчиком 1."""
+Count every character first. Then walk the string in order
+and return the first character with a count of 1."""
 
 [[exercises]]
 name = "maps72"
 path = "exercises/maps/maps72/main_test.go"
 mode = "test"
 hint = """
-Если map используется как множество, при удалении элемента
-удаляйте ключ, а не записывайте false."""
+When a map is used as a set, removing an element means deleting the key
+rather than storing false."""
 
 [[exercises]]
 name = "maps73"
 path = "exercises/maps/maps73/main_test.go"
 mode = "test"
 hint = """
-Каждое новое появление символа должно увеличивать счётчик."""
+Every new occurrence of a character has to raise its counter."""
 
 [[exercises]]
 name = "maps74"
 path = "exercises/maps/maps74/main_test.go"
 mode = "test"
 hint = """
-Вычислите новый остаток. Если он отрицательный — ошибка без изменений;
-если ноль — удалите ключ; иначе запишите."""
+Work out the new stock. When it is negative, return an error and change nothing;
+when it is zero, delete the key; otherwise store it."""
 
 [[exercises]]
 name = "maps75"
 path = "exercises/maps/maps75/main_test.go"
 mode = "test"
 hint = """
-== (а значит и ключи map) учитывает часовой пояс. Нормализуйте время:
-используйте в качестве ключа t.UTC() или t.Unix()."""
+== , and therefore a map key, takes the time zone into account. Normalize the time:
+use t.UTC() or t.Unix() as the key."""
 
 [[exercises]]
 name = "maps76"
 path = "exercises/maps/maps76/main_test.go"
 mode = "test"
 hint = """
-Складывать нужно значения map, а не количество элементов."""
+What has to be added up are the values of the map, not the number of elements."""
 
 [[exercises]]
 name = "maps77"
 path = "exercises/maps/maps77/main_test.go"
 mode = "test"
 hint = """
-В map[string]interface{} числа из JSON имеют тип float64.
-Утверждайте float64 и преобразуйте в int."""
+In a map[string]interface{} the numbers from JSON have type float64.
+Assert float64 and convert to int."""
 
 [[exercises]]
 name = "maps78"
 path = "exercises/maps/maps78/main_test.go"
 mode = "test"
 hint = """
-Для нового документа m[k] равно 0, значит следующая версия — m[k] + 1."""
+For a new document m[k] is 0, so the next version is m[k] + 1."""
 
 [[exercises]]
 name = "maps79"
 path = "exercises/maps/maps79/main_test.go"
 mode = "test"
 hint = """
-Постройте множество значений. Затем пройдите по множеству (не по срезу,
-чтобы не считать дубликаты) и проверьте наличие x+k."""
+Build a set of the values. Then walk the set, not the slice, so duplicates
+are not counted, and check whether x+k is there."""
 
 [[exercises]]
 name = "maps80"
 path = "exercises/maps/maps80/main_test.go"
 mode = "test"
 hint = """
-Не возвращайте глобальную map напрямую — создавайте новую
-при каждом вызове."""
+Do not return the global map directly: build a new one
+on every call."""
 
 [[exercises]]
 name = "maps81"
 path = "exercises/maps/maps81/main_test.go"
 mode = "test"
 hint = """
-Храните увиденные email. Добавляйте пользователя в результат,
-только если его email ещё не встречался."""
+Keep the emails you have seen. Append a user to the result
+only when its email is new."""
 
 [[exercises]]
 name = "maps82"
 path = "exercises/maps/maps82/main_test.go"
 mode = "test"
 hint = """
-Второе значение индексации сообщает, есть ли ключ."""
+The second value of an index expression tells whether the key is there."""
 
 [[exercises]]
 name = "maps83"
 path = "exercises/maps/maps83/main_test.go"
 mode = "test"
 hint = """
-m[k].Level++ запрещено. Храните в map указатели на структуры,
-тогда можно менять поля через указатель."""
+m[k].Level++ is not allowed. Store pointers to the structs in the map,
+and the fields can be changed through the pointer."""
 
 [[exercises]]
 name = "maps84"
 path = "exercises/maps/maps84/main_test.go"
 mode = "test"
 hint = """
-Проверяйте флаг ok, а не само значение: ключ может хранить пустую строку."""
+Check the ok flag rather than the value itself: a key may hold an empty string."""
 
 [[exercises]]
 name = "maps85"
 path = "exercises/maps/maps85/main_test.go"
 mode = "test"
 hint = """
-Увеличивайте счётчики для первой строки и уменьшайте для второй.
-В конце все счётчики должны быть нулевыми."""
+Raise the counters for the first string and lower them for the second.
+At the end every counter has to be zero."""
 
 [[exercises]]
 name = "maps86"
 path = "exercises/maps/maps86/main_test.go"
 mode = "test"
 hint = """
-Сверьте ключи map с кодами из теста."""
+Check the keys of the map against the codes in the test."""
 
 [[exercises]]
 name = "maps87"
 path = "exercises/maps/maps87/main_test.go"
 mode = "test"
 hint = """
-Чтение из nil-map безопасно, а запись — нет. Создайте map лениво
-при первой записи."""
+Reading from a nil map is safe, writing is not. Build the map lazily
+on the first write."""
 
 [[exercises]]
 name = "maps88"
 path = "exercises/maps/maps88/main_test.go"
 mode = "test"
 hint = """
-Объединение содержит ключи обоих множеств. Пересечение — только ключи,
-присутствующие в обоих."""
+The union holds the keys of both sets. The intersection holds only the keys
+that are in both."""
 
 [[exercises]]
 name = "maps89"
 path = "exercises/maps/maps89/main_test.go"
 mode = "test"
 hint = """
-Записывайте в dst значения из src под теми же ключами."""
+Write the values from src into dst under the same keys."""
 
 [[exercises]]
 name = "maps90"
 path = "exercises/maps/maps90/main_test.go"
 mode = "test"
 hint = """
-Добавляйте ключ в срез для его значения, а после заполнения
-отсортируйте каждый срез."""
+Append the key to the slice of its value, and sort every slice
+once the map is built."""
 
 [[exercises]]
 name = "maps91"
 path = "exercises/maps/maps91/main_test.go"
 mode = "test"
 hint = """
-Сравните длины, затем проверьте, что каждая пара из одной map
-есть в другой с тем же значением (учитывая comma-ok)."""
+Compare the lengths, then check that every pair of one map
+is in the other with the same value, comma-ok included."""
 
 [[exercises]]
 name = "maps92"
 path = "exercises/maps/maps92/main_test.go"
 mode = "test"
 hint = """
-Создайте новую map и добавьте в неё значения обеих входных map через +=."""
+Build a new map and add the values of both input maps into it with +=."""
 
 [[exercises]]
 name = "maps93"
 path = "exercises/maps/maps93/main_test.go"
 mode = "test"
 hint = """
-Нельзя полагаться на порядок range. Найдите минимальный ключ явно."""
+The order of a range cannot be relied on. Find the smallest key explicitly."""
 
 [[exercises]]
 name = "maps94"
 path = "exercises/maps/maps94/main_test.go"
 mode = "test"
 hint = """
-Удалять нужно сессии с истёкшим сроком (expires < now)."""
+What has to be removed are the sessions that have expired (expires < now)."""
 
 [[exercises]]
 name = "maps95"
 path = "exercises/maps/maps95/main_test.go"
 mode = "test"
 hint = """
-Внутренние map нужно создавать по требованию при добавлении слова
-для языка, который встречается впервые."""
+The inner maps have to be built on demand, when a word is added
+for a language that turns up for the first time."""
 
 [[exercises]]
 name = "maps96"
 path = "exercises/maps/maps96/main_test.go"
 mode = "test"
 hint = """
-Ключ — элемент среза, значение — пустая структура."""
+The key is the element of the slice and the value is an empty struct."""
 
 [[exercises]]
 name = "maps97"
 path = "exercises/maps/maps97/main_test.go"
 mode = "test"
 hint = """
-При записи нуля удаляйте ключ, иначе записывайте значение.
-Чтение отсутствующего элемента естественно даёт 0."""
+On a write of zero delete the key, otherwise store the value.
+Reading a missing element naturally gives 0."""
 
 [[exercises]]
 name = "maps98"
 path = "exercises/maps/maps98/main_test.go"
 mode = "test"
 hint = """
-interface{}(1) и interface{}(int64(1)) — разные ключи.
-Приведите ключ к одному типу перед записью и чтением."""
+interface{}(1) and interface{}(int64(1)) are different keys.
+Put the key in one type before storing and before reading."""
 
 [[exercises]]
 name = "maps99"
 path = "exercises/maps/maps99/main_test.go"
 mode = "test"
 hint = """
-Присвойте новое значение по ключу id."""
+Assign the new value under the key id."""
 
 [[exercises]]
 name = "maps100"
 path = "exercises/maps/maps100/main_test.go"
 mode = "test"
 hint = """
-Постройте map «буква -> цифра», пройдя по группам букв.
-Затем переведите каждую букву слова."""
+Build a letter to digit map by walking the groups of letters.
+Then translate every letter of the word."""
 
 [[exercises]]
 name = "maps101"
 path = "exercises/maps/maps101/main_test.go"
 mode = "test"
 hint = """
-Удалять нужно из той же map, по которой идёт цикл."""
+What has to be deleted from is the very map the loop runs over."""
 
 [[exercises]]
 name = "maps102"
 path = "exercises/maps/maps102/main_test.go"
 mode = "test"
 hint = """
-Посчитайте частоты символов, затем соберите множество различных частот.
-Строка подходит, если такая частота одна (или строка пуста)."""
+Count the characters, then collect the set of the distinct counts.
+The string qualifies when there is only one such count, or when it is empty."""
 
 [[exercises]]
 name = "maps103"
 path = "exercises/maps/maps103/main_test.go"
 mode = "test"
 hint = """
-Используйте map только для проверки «уже встречалось»,
-а порядок храните в срезе."""
+Use the map only to check whether something has been seen,
+and keep the order in a slice."""
 
 # ===== generated exercises: range =====
 [[exercises]]
@@ -6461,373 +6461,373 @@ name = "range4"
 path = "exercises/range/range4/main_test.go"
 mode = "test"
 hint = """
-Нужно вызвать функцию и сохранить результат её вызова."""
+The function has to be called and the result of that call stored."""
 
 [[exercises]]
 name = "range5"
 path = "exercises/range/range5/main_test.go"
 mode = "test"
 hint = """
-Отправляйте указатель на новую структуру для каждого значения
-(или отправляйте структуры по значению)."""
+Send a pointer to a new struct for every value,
+or send the structs by value."""
 
 [[exercises]]
 name = "range6"
 path = "exercises/range/range6/main_test.go"
 mode = "test"
 hint = """
-Проверьте формулу для одной позиции."""
+Check the formula for a single line."""
 
 [[exercises]]
 name = "range7"
 path = "exercises/range/range7/main_test.go"
 mode = "test"
 hint = """
-Пропускайте пробел, если предыдущий записанный символ — тоже пробел.
-Предыдущий символ нужно обновлять на каждой итерации."""
+Skip a space when the last character written was a space too.
+The previous character has to be updated on every iteration."""
 
 [[exercises]]
 name = "range8"
 path = "exercises/range/range8/main_test.go"
 mode = "test"
 hint = """
-Передайте отправителю канал stop и закройте его вместо канала данных.
-Отправитель выбирает между отправкой и <-stop и сам закрывает канал данных."""
+Give the sender a stop channel and close that instead of the data channel.
+The sender chooses between sending and <-stop, and closes the data channel itself."""
 
 [[exercises]]
 name = "range9"
 path = "exercises/range/range9/main_test.go"
 mode = "test"
 hint = """
-Храните первое и второе значения. Новое значение больше первого сдвигает
-первое во второе; значение между ними обновляет второе. Равные первому пропускайте."""
+Keep the first and the second value. A value larger than the first pushes the
+first into the second; a value in between updates the second. Skip values equal to the first."""
 
 [[exercises]]
 name = "range10"
 path = "exercises/range/range10/main_test.go"
 mode = "test"
 hint = """
-Считать нужно только флаги со значением true."""
+Only the flags holding true have to be counted."""
 
 [[exercises]]
 name = "range11"
 path = "exercises/range/range11/main_test.go"
 mode = "test"
 hint = """
-Проверьте знак для каждого типа операции и то, что неизвестные
-операции не влияют на баланс."""
+Check the sign for every kind of operation, and that unknown ones
+leave the balance alone."""
 
 [[exercises]]
 name = "range12"
 path = "exercises/range/range12/main_test.go"
 mode = "test"
 hint = """
-При нахождении пробела нужно сразу вернуть его позицию."""
+Once a space is found its position has to be returned straight away."""
 
 [[exercises]]
 name = "range13"
 path = "exercises/range/range13/main_test.go"
 mode = "test"
 hint = """
-append может вернуть новый срез, и присваивание его переменной цикла
-теряется. Записывайте результат в grid[i]."""
+append may return a new slice, and assigning it to the loop variable
+is lost. Store the result in grid[i]."""
 
 [[exercises]]
 name = "range14"
 path = "exercises/range/range14/main_test.go"
 mode = "test"
 hint = """
-Для каждого документа перебирайте его слова. Номер документа
-добавляйте к слову, только если он ещё не последний в списке."""
+For every document walk its words. Append the document number to a word
+only when it is not already the last one in the list."""
 
 [[exercises]]
 name = "range15"
 path = "exercises/range/range15/main_test.go"
 mode = "test"
 hint = """
-Сравнивать нужно роль (значение), а не имя."""
+What has to be compared is the role, the value, not the name."""
 
 [[exercises]]
 name = "range16"
 path = "exercises/range/range16/main_test.go"
 mode = "test"
 hint = """
-После декодирования увеличивайте позицию на ширину символа,
-а не на единицу."""
+After decoding, move the position forward by the width of the character
+rather than by one."""
 
 [[exercises]]
 name = "range17"
 path = "exercises/range/range17/main_test.go"
 mode = "test"
 hint = """
-Для i > 0 сравнивайте s[i] с s[i-1]. У первого элемента соседа нет."""
+For i > 0 compare s[i] with s[i-1]. The first element has no neighbour."""
 
 [[exercises]]
 name = "range18"
 path = "exercises/range/range18/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте поле Age текущего элемента с найденным максимумом."""
+Compare the Age field of the current element against the maximum so far."""
 
 [[exercises]]
 name = "range19"
 path = "exercises/range/range19/main_test.go"
 mode = "test"
 hint = """
-Внутри range s[i-1] уже перезаписан. Сохраните копию исходных данных
-и читайте значения из неё."""
+Inside the range s[i-1] has already been overwritten. Keep a copy of the original
+data and read the values from it."""
 
 [[exercises]]
 name = "range20"
 path = "exercises/range/range20/main_test.go"
 mode = "test"
 hint = """
-Возвращайте индекс из range — это и есть байтовое смещение."""
+Return the index from the range: that is the byte offset."""
 
 [[exercises]]
 name = "range21"
 path = "exercises/range/range21/main_test.go"
 mode = "test"
 hint = """
-Ключи map нельзя изменить. Постройте новую map с преобразованными ключами."""
+The keys of a map cannot be changed. Build a new map with the converted keys."""
 
 [[exercises]]
 name = "range22"
 path = "exercises/range/range22/main_test.go"
 mode = "test"
 hint = """
-Индекс внешнего цикла — строка, внутреннего — столбец.
-Добавляйте каждую найденную пару, не останавливаясь."""
+The index of the outer loop is the row and that of the inner one the column.
+Append every pair found instead of stopping."""
 
 [[exercises]]
 name = "range23"
 path = "exercises/range/range23/main_test.go"
 mode = "test"
 hint = """
-break в select завершает только select. Поставьте метку на цикл
-и используйте break с меткой (или return)."""
+A break in a select ends only the select. Label the loop
+and break with that label, or return."""
 
 [[exercises]]
 name = "range24"
 path = "exercises/range/range24/main_test.go"
 mode = "test"
 hint = """
-На каждом байте сначала обновите a, затем прибавьте новое a к b.
-Оба значения берутся по модулю 65521."""
+On every byte update a first, then add the new a to b.
+Both values are taken modulo 65521."""
 
 [[exercises]]
 name = "range25"
 path = "exercises/range/range25/main_test.go"
 mode = "test"
 hint = """
-После сбора ключей их нужно отсортировать."""
+Once the keys are collected they have to be sorted."""
 
 [[exercises]]
 name = "range26"
 path = "exercises/range/range26/main_test.go"
 mode = "test"
 hint = """
-Для строки прибавьте 1, для вложенной map — рекурсивно посчитанное количество."""
+Add 1 for a string, and the count computed recursively for a nested map."""
 
 [[exercises]]
 name = "range27"
 path = "exercises/range/range27/main_test.go"
 mode = "test"
 hint = """
-Нужно сложить длины срезов, а не количество проектов."""
+What has to be added up are the lengths of the slices, not the number of projects."""
 
 [[exercises]]
 name = "range28"
 path = "exercises/range/range28/main_test.go"
 mode = "test"
 hint = """
-s = s[:i] внутри range не влияет на итерацию. Чтобы остановиться, используйте break."""
+s = s[:i] inside a range does not affect the iteration. To stop, use break."""
 
 [[exercises]]
 name = "range29"
 path = "exercises/range/range29/main_test.go"
 mode = "test"
 hint = """
-Вернуть нужно ключ (логин), когда значение совпало с id."""
+What has to be returned is the key, the login, once the value matches the id."""
 
 [[exercises]]
 name = "range30"
 path = "exercises/range/range30/main_test.go"
 mode = "test"
 hint = """
-В range изменение i не влияет на следующую итерацию.
-Используйте классический цикл for с ручным управлением индексом."""
+In a range a change to i has no effect on the next iteration.
+Use a plain for loop and drive the index by hand."""
 
 [[exercises]]
 name = "range31"
 path = "exercises/range/range31/main_test.go"
 mode = "test"
 hint = """
-Обрежьте пробелы, пропустите пустые строки и комментарии. Разделите строку
-по первому '=' и обрежьте пробелы у ключа и значения."""
+Trim the spaces, skip empty lines and comments. Split the line
+on the first '=' and trim the key and the value."""
 
 [[exercises]]
 name = "range32"
 path = "exercises/range/range32/main_test.go"
 mode = "test"
 hint = """
-Объявите переменную-результат до цикла и присваивайте её внутри."""
+Declare the result variable before the loop and assign to it inside."""
 
 [[exercises]]
 name = "range33"
 path = "exercises/range/range33/main_test.go"
 mode = "test"
 hint = """
-Запоминать нужно индекс элемента, а не его значение."""
+What has to be remembered is the index of the element, not its value."""
 
 [[exercises]]
 name = "range34"
 path = "exercises/range/range34/main_test.go"
 mode = "test"
 hint = """
-Если слот начинается не позже конца последнего объединённого, расширьте
-последний. Иначе добавьте слот как новый. Меняйте элемент результата по индексу."""
+When a slot starts no later than the end of the last merged one, extend that
+one. Otherwise append the slot as a new one. Change the result element by index."""
 
 [[exercises]]
 name = "range35"
 path = "exercises/range/range35/main_test.go"
 mode = "test"
 hint = """
-Изменять нужно элемент массива по индексу через указатель."""
+What has to be changed is the array element by index, through the pointer."""
 
 [[exercises]]
 name = "range36"
 path = "exercises/range/range36/main_test.go"
 mode = "test"
 hint = """
-В алфавите от 'а' до 'я' 32 буквы (без ё). Переведите букву в номер,
-сдвиньте по модулю 32 и верните обратно. Остальные символы не меняются."""
+There are 25 letters from 'α' to 'ω' counting the final sigma. Turn a letter into
+a number, shift it modulo the alphabet size and turn it back. Other characters stay as they are."""
 
 [[exercises]]
 name = "range37"
 path = "exercises/range/range37/main_test.go"
 mode = "test"
 hint = """
-Пусть колбэк возвращает bool «продолжать ли», а forEach останавливается,
-когда получает false."""
+Let the callback return a bool saying whether to carry on, and have forEach stop
+when it gets false."""
 
 [[exercises]]
 name = "range38"
 path = "exercises/range/range38/main_test.go"
 mode = "test"
 hint = """
-Пропустить нужно элемент с индексом 0."""
+What has to be skipped is the element at index 0."""
 
 [[exercises]]
 name = "range39"
 path = "exercises/range/range39/main_test.go"
 mode = "test"
 hint = """
-Сравнивайте руну i с руной len-1-i после приведения к нижнему регистру.
-Достаточно пройти половину среза."""
+Compare rune i with rune len-1-i after folding both to lower case.
+Half of the slice is enough."""
 
 [[exercises]]
 name = "range40"
 path = "exercises/range/range40/main_test.go"
 mode = "test"
 hint = """
-Переменная цикла с тем же именем скрывает внешнюю. Используйте
-другое имя для переменной цикла и присваивайте внешней переменной."""
+A loop variable of the same name hides the outer one. Give the loop
+variable a different name and assign to the outer variable."""
 
 [[exercises]]
 name = "range41"
 path = "exercises/range/range41/main_test.go"
 mode = "test"
 hint = """
-Перевод строки — это байт '\n'."""
+A newline is the byte '\n'."""
 
 [[exercises]]
 name = "range42"
 path = "exercises/range/range42/main_test.go"
 mode = "test"
 hint = """
-Пока канал открыт, range ждёт следующего значения. Отправитель должен
-закрыть канал после отправки всех значений."""
+While the channel is open, the range waits for the next value. The sender has to
+close the channel once every value has been sent."""
 
 [[exercises]]
 name = "range43"
 path = "exercises/range/range43/main_test.go"
 mode = "test"
 hint = """
-Запишите в новую map только подходящие пары и верните её."""
+Store only the matching pairs in the new map and return it."""
 
 [[exercises]]
 name = "range44"
 path = "exercises/range/range44/main_test.go"
 mode = "test"
 hint = """
-Проверьте условие отбора индексов."""
+Check the condition the indexes are picked by."""
 
 [[exercises]]
 name = "range45"
 path = "exercises/range/range45/main_test.go"
 mode = "test"
 hint = """
-range только с индексом по nil-указателю на массив работает, а со значением —
-разыменовывает указатель. Проверьте указатель на nil до цикла."""
+A range with only the index over a nil array pointer works, while one with a value
+dereferences the pointer. Check the pointer against nil before the loop."""
 
 [[exercises]]
 name = "range46"
 path = "exercises/range/range46/main_test.go"
 mode = "test"
 hint = """
-Отправитель должен закрыть канал после последнего значения,
-иначе range никогда не закончится. Проверьте и границы цикла."""
+The sender has to close the channel after the last value,
+otherwise the range never ends. Check the loop bounds too."""
 
 [[exercises]]
 name = "range47"
 path = "exercises/range/range47/main_test.go"
 mode = "test"
 hint = """
-Считайте индекс вручную отдельной переменной."""
+Count the index by hand in a variable of its own."""
 
 [[exercises]]
 name = "range48"
 path = "exercises/range/range48/main_test.go"
 mode = "test"
 hint = """
-Обычный break выходит только из внутреннего цикла. Поставьте метку
-на внешний цикл и выйдите из обоих."""
+A plain break only leaves the inner loop. Label the outer loop
+and leave both."""
 
 [[exercises]]
 name = "range49"
 path = "exercises/range/range49/main_test.go"
 mode = "test"
 hint = """
-Проверьте функцию, которой проверяется символ."""
+Check the function the character is tested with."""
 
 [[exercises]]
 name = "range50"
 path = "exercises/range/range50/main_test.go"
 mode = "test"
 hint = """
-Ключ — команда игрока, в срез добавляется его имя."""
+The key is the team of the player, and the name goes into the slice."""
 
 [[exercises]]
 name = "range51"
 path = "exercises/range/range51/main_test.go"
 mode = "test"
 hint = """
-При встрече нуля цикл нужно прервать, а не пропустить элемент."""
+On meeting a zero the loop has to be broken, not the element skipped."""
 
 [[exercises]]
 name = "range52"
 path = "exercises/range/range52/main_test.go"
 mode = "test"
 hint = """
-Разыменуйте указатель: range *p. Элементы меняйте через (*p)[i]."""
+Dereference the pointer: range *p. Change the elements through (*p)[i]."""
 
 [[exercises]]
 name = "range53"
 path = "exercises/range/range53/main_test.go"
 mode = "test"
 hint = """
-Выбор символа зависит от чётности индекса, а не значения."""
+The character depends on the parity of the index, not of the value."""
 
 [[exercises]]
 name = "range54"

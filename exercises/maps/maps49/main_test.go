@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// priceOf возвращает цену товара; отсутствующий товар стоит 0.
-// Тренирует: чтение отсутствующего ключа возвращает нулевое значение.
-// Сложность: easy
+// priceOf returns the price of an item; a missing item costs 0.
+// Reading a missing key returns the zero value.
 package main_test
 
 import "testing"

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// applyDiscount снижает цены всех товаров в map на 10%.
-// Цены не меняются.
-// Тренирует: значение в range по map — копия; её нужно записать обратно.
-// Сложность: hard
+// applyDiscount cuts the price of every item in the map by 10%.
+// The prices do not change.
+// The value in a range over a map is a copy, and it has to be written back.
 package main_test
 
 import "testing"

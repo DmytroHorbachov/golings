@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// diff сравнивает старую и новую конфигурацию и возвращает списки
-// добавленных, удалённых и изменённых ключей (отсортированные).
-// Тренирует: обход двух map и проверку наличия ключей.
-// Сложность: medium
+// diff compares an old and a new configuration and returns the lists of
+// added, removed and changed keys, sorted.
+// Practices walking two maps and checking for keys.
 package main_test
 
 import (

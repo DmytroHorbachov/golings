@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// enumerate нумерует значения из канала. Код не компилируется:
-// range по каналу даёт только одно значение.
-// Тренирует: в отличие от срезов, у range по каналу нет индекса.
-// Сложность: hard
+// enumerate numbers the values coming from a channel. The code does not compile:
+// a range over a channel yields a single value.
+// Unlike slices, a range over a channel has no index.
 package main_test
 
 import (

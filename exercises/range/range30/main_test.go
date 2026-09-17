@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// parsePairs читает аргументы вида ["-k", "v", "-x", "y"]: после флага
-// значение нужно пропустить. Увеличение i внутри range не работает.
-// Тренирует: переменная индекса range перезаписывается на каждой итерации.
-// Сложность: hard
+// parsePairs reads arguments such as ["-k", "v", "-x", "y"]: the value after a flag
+// has to be skipped. Incrementing i inside the range does not work.
+// The index variable of a range is overwritten on every iteration.
 package main_test
 
 import (

@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// adler считает упрощённую контрольную сумму: a = 1 + сумма байт, b = сумма
-// промежуточных a; результат b*65536 + a (все по модулю 65521).
-// Тренирует: два аккумулятора в range по []byte.
-// Сложность: medium
+// adler computes a simplified checksum: a = 1 plus the sum of the bytes, b the sum
+// of the intermediate a values; the result is b*65536 + a, everything modulo 65521.
+// Practices two accumulators in a range over a []byte.
 package main_test
 
 import "testing"

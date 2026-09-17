@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// toSet превращает срез в множество.
-// Тренирует: map[string]struct{}.
-// Сложность: easy
+// toSet turns a slice into a set.
+// Practices map[string]struct{}.
 package main_test
 
 import "testing"

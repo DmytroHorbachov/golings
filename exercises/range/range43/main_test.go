@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// expensive возвращает новую map только с товарами дороже порога.
-// Тренирует: range по map с построением новой map.
-// Сложность: medium
+// expensive returns a new map holding only the items above a threshold.
+// Practices a range over a map while building a new one.
 package main_test
 
 import (

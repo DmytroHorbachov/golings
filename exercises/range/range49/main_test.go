@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// countDigits считает цифры в строке.
-// Тренирует: range по строке и unicode.IsDigit.
-// Сложность: easy
+// countDigits counts the digits in a string.
+// Practices a range over a string and unicode.IsDigit.
 package main_test
 
 import (

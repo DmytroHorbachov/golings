@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// anagram проверяет, что строки состоят из одних и тех же символов (любых).
-// Тренирует: увеличение и уменьшение счётчиков в одной map.
-// Сложность: medium
+// anagram checks that two strings are made of the same characters, whatever they are.
+// Practices raising and lowering counters in one map.
 package main_test
 
 import "testing"

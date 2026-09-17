@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// dedupeByEmail удаляет пользователей с повторяющимся email, оставляя первого.
-// Тренирует: map-множество по полю структуры.
-// Сложность: medium
+// dedupeByEmail drops the users with a repeated email, keeping the first one.
+// Practices a map used as a set over a struct field.
 package main_test
 
 import (

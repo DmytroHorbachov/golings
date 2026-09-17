@@ -3,10 +3,9 @@
 
 // I AM NOT DONE
 //
-// indexByID строит map от id к указателю на элемент исходного среза.
-// Изменения через map должны быть видны в срезе.
-// Тренирует: map[int]*T и адреса элементов среза.
-// Сложность: medium
+// indexByID builds a map from an id to a pointer to the element of the original slice.
+// Changes made through the map have to show in the slice.
+// Practices map[int]*T and the addresses of slice elements.
 package main_test
 
 import "testing"

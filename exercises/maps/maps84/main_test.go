@@ -3,9 +3,8 @@
 
 // I AM NOT DONE
 //
-// getOr возвращает значение по ключу или def, если ключа нет.
-// Тренирует: comma-ok с возвратом значения по умолчанию.
-// Сложность: easy
+// getOr returns the value for a key, or def when the key is missing.
+// Practices comma-ok with a default value.
 package main_test
 
 import "testing"
