@@ -340,3 +340,793 @@ To prevent panics, avoid sending messages to channels that have been closed.
 
 Note: Channels can be iterated using `for-range` loops.
 """
+
+# ===== generated exercises: variables =====
+[[exercises]]
+name = "variables_x068"
+path = "exercises/variables/variables_x068/main_test.go"
+mode = "test"
+hint = """
+0.2 нельзя представить как int. Посчитайте в float64,
+а затем преобразуйте результат обратно в int."""
+
+[[exercises]]
+name = "variables_x096"
+path = "exercises/variables/variables_x096/main_test.go"
+mode = "test"
+hint = """
+Сначала упорядочьте границы (при необходимости поменяйте их местами),
+затем сравните v с каждой из них."""
+
+[[exercises]]
+name = "variables_x036"
+path = "exercises/variables/variables_x036/main_test.go"
+mode = "test"
+hint = """
+Внутри одной строки const iota имеет одно и то же значение для всех имён.
+Разнесите константы по отдельным строкам."""
+
+[[exercises]]
+name = "variables_x086"
+path = "exercises/variables/variables_x086/main_test.go"
+mode = "test"
+hint = """
+Символ '7' — это не число 7. Вычтите '0', чтобы получить индекс.
+И не забудьте пропускать нецифровые символы."""
+
+[[exercises]]
+name = "variables_x002"
+path = "exercises/variables/variables_x002/main_test.go"
+mode = "test"
+hint = """
+В Go можно присвоить несколько переменных одной инструкцией: слева и справа
+по несколько выражений через запятую. Все правые части вычисляются до присваивания."""
+
+[[exercises]]
+name = "variables_x030"
+path = "exercises/variables/variables_x030/main_test.go"
+mode = "test"
+hint = """
+При целочисленном делении дробная часть отбрасывается сразу.
+Подумайте, в каком порядке умножать и делить, чтобы не потерять точность."""
+
+[[exercises]]
+name = "variables_x039"
+path = "exercises/variables/variables_x039/main_test.go"
+mode = "test"
+hint = """
+В Go литерал, начинающийся с 0, трактуется как восьмеричный.
+Уберите ведущие нули из литералов."""
+
+[[exercises]]
+name = "variables_x091"
+path = "exercises/variables/variables_x091/main_test.go"
+mode = "test"
+hint = """
+Обычное деление округляет вниз. Добавьте к делимому perPage-1
+или проверьте остаток. Учтите perPage <= 0."""
+
+[[exercises]]
+name = "variables_x021"
+path = "exercises/variables/variables_x021/main_test.go"
+mode = "test"
+hint = """
+Если обновлять a и b двумя отдельными присваиваниями, второе увидит уже
+изменённое первое значение. Обновите обе переменные одной инструкцией."""
+
+[[exercises]]
+name = "variables_x072"
+path = "exercises/variables/variables_x072/main_test.go"
+mode = "test"
+hint = """
+Комплексное число можно создать литералом 3 + 4i или функцией complex.
+Действительную часть возвращает встроенная функция real."""
+
+[[exercises]]
+name = "variables_x046"
+path = "exercises/variables/variables_x046/main_test.go"
+mode = "test"
+hint = """
+Все переменные уровня пакета инициализируются до вызова функций init.
+Задайте значение name прямо при объявлении."""
+
+[[exercises]]
+name = "variables_x028"
+path = "exercises/variables/variables_x028/main_test.go"
+mode = "test"
+hint = """
+Сумма значений int8 не обязана помещаться в int8: при переполнении
+значение «заворачивается». Накапливайте сумму в типе пошире."""
+
+[[exercises]]
+name = "variables_x078"
+path = "exercises/variables/variables_x078/main_test.go"
+mode = "test"
+hint = """
+Младшие четыре бита выделяет маска из четырёх единиц."""
+
+[[exercises]]
+name = "variables_x031"
+path = "exercises/variables/variables_x031/main_test.go"
+mode = "test"
+hint = """
+Преобразование string(x) для целого числа трактует его как код символа Unicode.
+Для десятичного представления нужен пакет strconv."""
+
+[[exercises]]
+name = "variables_x079"
+path = "exercises/variables/variables_x079/main_test.go"
+mode = "test"
+hint = """
+Переменная total уже объявлена. Для изменения существующей переменной
+используется обычное присваивание."""
+
+[[exercises]]
+name = "variables_x026"
+path = "exercises/variables/variables_x026/main_test.go"
+mode = "test"
+hint = """
+Внутри блока := создаёт НОВУЮ переменную, даже если снаружи есть одноимённая.
+Внешняя err так и остаётся nil. Посмотрите, куда на самом деле пишется ошибка."""
+
+[[exercises]]
+name = "variables_x060"
+path = "exercises/variables/variables_x060/main_test.go"
+mode = "test"
+hint = """
+В одной миле 1.609344 километра. При переводе км в мили делят,
+а при переводе миль в км — умножают."""
+
+[[exercises]]
+name = "variables_x008"
+path = "exercises/variables/variables_x008/main_test.go"
+mode = "test"
+hint = """
+В Go есть строки в обратных кавычках: внутри них escape-последовательности
+не обрабатываются."""
+
+[[exercises]]
+name = "variables_x070"
+path = "exercises/variables/variables_x070/main_test.go"
+mode = "test"
+hint = """
+Разыменовывать nil-указатель нельзя. Проверьте указатель перед использованием."""
+
+[[exercises]]
+name = "variables_x080"
+path = "exercises/variables/variables_x080/main_test.go"
+mode = "test"
+hint = """
+Компилятор сообщает "declared and not used". Используйте tax в результате."""
+
+[[exercises]]
+name = "variables_x017"
+path = "exercises/variables/variables_x017/main_test.go"
+mode = "test"
+hint = """
+time.Second имеет тип time.Duration, а seconds — int.
+Преобразуйте int в time.Duration перед умножением."""
+
+[[exercises]]
+name = "variables_x083"
+path = "exercises/variables/variables_x083/main_test.go"
+mode = "test"
+hint = """
+Переведите букву в номер от 0 до 25, сдвиньте его по модулю 26
+и переведите обратно, прибавив 'a'."""
+
+[[exercises]]
+name = "variables_x093"
+path = "exercises/variables/variables_x093/main_test.go"
+mode = "test"
+hint = """
+Проверьте значения сторон и формулы площади и периметра."""
+
+[[exercises]]
+name = "variables_x090"
+path = "exercises/variables/variables_x090/main_test.go"
+mode = "test"
+hint = """
+На каждом шаге последняя цифра — n % 10. Результат сдвигается на разряд
+(умножается на 10) перед добавлением цифры, а n делится на 10."""
+
+[[exercises]]
+name = "variables_x023"
+path = "exercises/variables/variables_x023/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте не сами числа, а модуль их разности с маленьким порогом.
+В пакете math есть функция Abs."""
+
+[[exercises]]
+name = "variables_x074"
+path = "exercises/variables/variables_x074/main_test.go"
+mode = "test"
+hint = """
+Константа существует только на этапе компиляции, взять её адрес нельзя.
+Если значение нужно изменять, это должна быть переменная."""
+
+[[exercises]]
+name = "variables_x050"
+path = "exercises/variables/variables_x050/main_test.go"
+mode = "test"
+hint = """
+float32 точно представляет целые числа только до 2^24.
+Выберите тип, в котором такие идентификаторы хранятся без потерь."""
+
+[[exercises]]
+name = "variables_x092"
+path = "exercises/variables/variables_x092/main_test.go"
+mode = "test"
+hint = """
+Проверьте значения в блоке var и то, как собирается строка.
+Число превращается в строку через strconv."""
+
+[[exercises]]
+name = "variables_x003"
+path = "exercises/variables/variables_x003/main_test.go"
+mode = "test"
+hint = """
+Результат деления двух int — тоже int. Преобразуйте операнды
+в float64 до деления, а не после."""
+
+[[exercises]]
+name = "variables_x018"
+path = "exercises/variables/variables_x018/main_test.go"
+mode = "test"
+hint = """
+В пакете math есть константы MaxInt8, MaxInt16, MaxInt32, MaxInt64."""
+
+[[exercises]]
+name = "variables_x066"
+path = "exercises/variables/variables_x066/main_test.go"
+mode = "test"
+hint = """
+Присваивание a, b = b, a меняет сами указатели внутри функции.
+Нужно менять значения по этим адресам."""
+
+[[exercises]]
+name = "variables_x011"
+path = "exercises/variables/variables_x011/main_test.go"
+mode = "test"
+hint = """
+Go позволяет писать 1_000_000 для читаемости: подчёркивания игнорируются.
+Пересчитайте группы из трёх нулей."""
+
+[[exercises]]
+name = "variables_x056"
+path = "exercises/variables/variables_x056/main_test.go"
+mode = "test"
+hint = """
+Замыкание захватывает переменную, объявленную снаружи.
+Если эта переменная одна на весь пакет, её разделяют все замыкания.
+Создавайте переменную заново при каждом вызове фабрики."""
+
+[[exercises]]
+name = "variables_x040"
+path = "exercises/variables/variables_x040/main_test.go"
+mode = "test"
+hint = """
+В Go ^ — это исключающее ИЛИ (XOR). Оператора возведения в степень нет."""
+
+[[exercises]]
+name = "variables_x025"
+path = "exercises/variables/variables_x025/main_test.go"
+mode = "test"
+hint = """
+new(T) выделяет память под значение типа T и возвращает *T с нулевым значением.
+Запишите нужное число через разыменование указателя."""
+
+[[exercises]]
+name = "variables_x022"
+path = "exercises/variables/variables_x022/main_test.go"
+mode = "test"
+hint = """
+Переменная существует только внутри блока, где объявлена.
+Объявите её до if и внутри блока только присваивайте."""
+
+[[exercises]]
+name = "variables_x043"
+path = "exercises/variables/variables_x043/main_test.go"
+mode = "test"
+hint = """
+Тип byte хранит значения только от 0 до 255. Какой тип подойдёт
+для суммы многих байт?"""
+
+[[exercises]]
+name = "variables_x047"
+path = "exercises/variables/variables_x047/main_test.go"
+mode = "test"
+hint = """
+Как только значение попадает в переменную, оно получает тип int
+и может переполниться. Константное выражение вычисляется компилятором точно."""
+
+[[exercises]]
+name = "variables_x064"
+path = "exercises/variables/variables_x064/main_test.go"
+mode = "test"
+hint = """
+FormatFloat(f, fmt, prec, bitSize): формат 'f' без экспоненты,
+prec — количество знаков после точки."""
+
+[[exercises]]
+name = "variables_x081"
+path = "exercises/variables/variables_x081/main_test.go"
+mode = "test"
+hint = """
+Go не приводит int к float64 автоматически. Сконвертируйте аргумент."""
+
+[[exercises]]
+name = "variables_x054"
+path = "exercises/variables/variables_x054/main_test.go"
+mode = "test"
+hint = """
+После паники обычный return не выполняется, и функция возвращает
+значения результатов. Дайте результатам имена и присвойте ошибку им в defer."""
+
+[[exercises]]
+name = "variables_x015"
+path = "exercises/variables/variables_x015/main_test.go"
+mode = "test"
+hint = """
+Строки в Go не бывают nil. С чем стоит сравнивать строку,
+чтобы понять, что она пустая?"""
+
+[[exercises]]
+name = "variables_x004"
+path = "exercises/variables/variables_x004/main_test.go"
+mode = "test"
+hint = """
+iota в каждом блоке const начинается с нуля.
+Выражение из первой строки повторяется для следующих констант."""
+
+[[exercises]]
+name = "variables_x094"
+path = "exercises/variables/variables_x094/main_test.go"
+mode = "test"
+hint = """
+Литерал 42.0 даёт float64, а 42 — int. Тип проверяется через %T."""
+
+[[exercises]]
+name = "variables_x055"
+path = "exercises/variables/variables_x055/main_test.go"
+mode = "test"
+hint = """
+Конвертация int в byte просто отбрасывает старшие биты.
+Сначала ограничьте значение, затем конвертируйте."""
+
+[[exercises]]
+name = "variables_x087"
+path = "exercises/variables/variables_x087/main_test.go"
+mode = "test"
+hint = """
+Константу можно выразить через time.Millisecond. У Duration есть метод
+Milliseconds, возвращающий int64."""
+
+[[exercises]]
+name = "variables_x007"
+path = "exercises/variables/variables_x007/main_test.go"
+mode = "test"
+hint = """
+Строки пишутся в двойных кавычках, а одиночный символ (rune) — в одинарных."""
+
+[[exercises]]
+name = "variables_x014"
+path = "exercises/variables/variables_x014/main_test.go"
+mode = "test"
+hint = """
+Чтобы iota увеличилась, но константа не создавалась,
+используйте пустой идентификатор отдельной строкой."""
+
+[[exercises]]
+name = "variables_x016"
+path = "exercises/variables/variables_x016/main_test.go"
+mode = "test"
+hint = """
+Счётчик должен увеличиваться при каждой найденной гласной.
+Сейчас он не меняется."""
+
+[[exercises]]
+name = "variables_x098"
+path = "exercises/variables/variables_x098/main_test.go"
+mode = "test"
+hint = """
+Запятая нужна между полями, но не перед первым полем и не после последнего.
+Результат получают методом String."""
+
+[[exercises]]
+name = "variables_x063"
+path = "exercises/variables/variables_x063/main_test.go"
+mode = "test"
+hint = """
+Красная компонента — первые два символа. Их нужно разобрать
+как число в шестнадцатеричной системе (base 16)."""
+
+[[exercises]]
+name = "variables_x010"
+path = "exercises/variables/variables_x010/main_test.go"
+mode = "test"
+hint = """
+Посмотрите, какой оператор применяется к result на каждой итерации.
+Удвоение — это умножение."""
+
+[[exercises]]
+name = "variables_x088"
+path = "exercises/variables/variables_x088/main_test.go"
+mode = "test"
+hint = """
+ParseFloat принимает строку и разрядность (64). Успех определяется
+по тому, равна ли ошибка nil."""
+
+[[exercises]]
+name = "variables_x075"
+path = "exercises/variables/variables_x075/main_test.go"
+mode = "test"
+hint = """
+В двойных кавычках табуляция записывается как \t.
+Внутри обратных кавычек escape-последовательности не работают."""
+
+[[exercises]]
+name = "variables_x071"
+path = "exercises/variables/variables_x071/main_test.go"
+mode = "test"
+hint = """
+Нулевое значение переменной функционального типа — nil.
+Присвойте ей функцию с подходящей сигнатурой."""
+
+[[exercises]]
+name = "variables_x005"
+path = "exercises/variables/variables_x005/main_test.go"
+mode = "test"
+hint = """
+Порядок переменных слева должен совпадать с порядком возвращаемых значений.
+Ненужное значение можно отбросить с помощью _."""
+
+[[exercises]]
+name = "variables_x067"
+path = "exercises/variables/variables_x067/main_test.go"
+mode = "test"
+hint = """
+Последовательные присваивания затирают значения, которые ещё нужны.
+Запишите сдвиг одной инструкцией."""
+
+[[exercises]]
+name = "variables_x038"
+path = "exercises/variables/variables_x038/main_test.go"
+mode = "test"
+hint = """
+По стандарту IEEE 754 NaN не равен ничему, даже самому себе.
+В пакете math есть специальная функция проверки."""
+
+[[exercises]]
+name = "variables_x057"
+path = "exercises/variables/variables_x057/main_test.go"
+mode = "test"
+hint = """
+Один символ кириллицы занимает несколько байт. Переворачивайте
+не байты, а руны: сконвертируйте строку в []rune."""
+
+[[exercises]]
+name = "variables_x013"
+path = "exercises/variables/variables_x013/main_test.go"
+mode = "test"
+hint = """
+Нельзя смешивать Celsius и Fahrenheit в одном выражении без преобразования,
+даже если под ними один и тот же float64. Сделайте явное приведение типа."""
+
+[[exercises]]
+name = "variables_x082"
+path = "exercises/variables/variables_x082/main_test.go"
+mode = "test"
+hint = """
+В пакете strings есть функция, повторяющая строку заданное число раз."""
+
+[[exercises]]
+name = "variables_x058"
+path = "exercises/variables/variables_x058/main_test.go"
+mode = "test"
+hint = """
+Адрес переменной цикла — это адрес копии. Возьмите адрес элемента
+среза по индексу."""
+
+[[exercises]]
+name = "variables_x009"
+path = "exercises/variables/variables_x009/main_test.go"
+mode = "test"
+hint = """
+Константы можно выражать через другие константы с помощью арифметики.
+Сколько часов в сутках?"""
+
+[[exercises]]
+name = "variables_x077"
+path = "exercises/variables/variables_x077/main_test.go"
+mode = "test"
+hint = """
+Шестнадцатеричное число начинается с 0x. Пересчитайте количество цифр F."""
+
+[[exercises]]
+name = "variables_x084"
+path = "exercises/variables/variables_x084/main_test.go"
+mode = "test"
+hint = """
+Сначала превратите минуты в time.Duration, умножив на time.Minute.
+У Duration есть метод, возвращающий длительность в часах как float64."""
+
+[[exercises]]
+name = "variables_x034"
+path = "exercises/variables/variables_x034/main_test.go"
+mode = "test"
+hint = """
+Анонимная функция видит саму переменную, поэтому видит и её изменения.
+Сделайте локальную копию значения, которую больше никто не меняет."""
+
+[[exercises]]
+name = "variables_x052"
+path = "exercises/variables/variables_x052/main_test.go"
+mode = "test"
+hint = """
+lo + hi может выйти за пределы int64. Середину можно найти,
+прибавив к lo половину расстояния до hi."""
+
+[[exercises]]
+name = "variables_x044"
+path = "exercises/variables/variables_x044/main_test.go"
+mode = "test"
+hint = """
+В Go знак остатка совпадает со знаком делимого: -1 % 5 == -1.
+Как превратить такой остаток в неотрицательный?"""
+
+[[exercises]]
+name = "variables_x042"
+path = "exercises/variables/variables_x042/main_test.go"
+mode = "test"
+hint = """
+Строки в Go неизменяемы. Сконвертируйте строку в срез байт,
+измените нужный байт и соберите строку обратно."""
+
+[[exercises]]
+name = "variables_x032"
+path = "exercises/variables/variables_x032/main_test.go"
+mode = "test"
+hint = """
+Голый return возвращает внешние n и err. Если внутри блока объявить
+одноимённые переменные через :=, компилятор это запретит. Присвойте, а не объявляйте."""
+
+[[exercises]]
+name = "variables_x099"
+path = "exercises/variables/variables_x099/main_test.go"
+mode = "test"
+hint = """
+Часы — это секунды, делённые на 3600. Минуты считаются из остатка
+от часа, секунды — из остатка от минуты."""
+
+[[exercises]]
+name = "variables_x019"
+path = "exercises/variables/variables_x019/main_test.go"
+mode = "test"
+hint = """
+Проверьте, с какого числа начинается нумерация дней
+и какие индексы используются в массиве имён."""
+
+[[exercises]]
+name = "variables_x049"
+path = "exercises/variables/variables_x049/main_test.go"
+mode = "test"
+hint = """
+В a, s[a] = x, y индекс s[a] вычисляется со старым значением a.
+Разделите присваивание на два шага."""
+
+[[exercises]]
+name = "variables_x069"
+path = "exercises/variables/variables_x069/main_test.go"
+mode = "test"
+hint = """
+Проверьте значения полей в литерале структуры и то,
+как порт превращается в строку."""
+
+[[exercises]]
+name = "variables_x062"
+path = "exercises/variables/variables_x062/main_test.go"
+mode = "test"
+hint = """
+В пакете unicode/utf8 есть функция для подсчёта рун в строке."""
+
+[[exercises]]
+name = "variables_x027"
+path = "exercises/variables/variables_x027/main_test.go"
+mode = "test"
+hint = """
+Выражение вида x := x + v внутри блока создаёт новую x, которая исчезает
+в конце итерации. Нужно изменять переменную, объявленную до цикла."""
+
+[[exercises]]
+name = "variables_x073"
+path = "exercises/variables/variables_x073/main_test.go"
+mode = "test"
+hint = """
+strconv.ParseBool понимает несколько форм записи. Вместо ручного
+сравнения со строкой используйте её и учтите ошибку."""
+
+[[exercises]]
+name = "variables_x001"
+path = "exercises/variables/variables_x001/main_test.go"
+mode = "test"
+hint = """
+Переменная, объявленная через var без значения, равна нулю своего типа.
+Задайте начальное значение прямо в объявлении."""
+
+[[exercises]]
+name = "variables_x061"
+path = "exercises/variables/variables_x061/main_test.go"
+mode = "test"
+hint = """
+Посмотрите, что возвращается: значение до увеличения или после?
+И с какого значения начинается счётчик?"""
+
+[[exercises]]
+name = "variables_x095"
+path = "exercises/variables/variables_x095/main_test.go"
+mode = "test"
+hint = """
+'a' + i даёт код нужного символа. Чтобы получить из кода строку,
+преобразуйте его в rune. Номер буквы — разность с 'a'."""
+
+[[exercises]]
+name = "variables_x035"
+path = "exercises/variables/variables_x035/main_test.go"
+mode = "test"
+hint = """
+:= внутри функции объявляет новую локальную переменную, даже если
+на уровне пакета уже есть переменная с таким именем."""
+
+[[exercises]]
+name = "variables_x012"
+path = "exercises/variables/variables_x012/main_test.go"
+mode = "test"
+hint = """
+Восьмеричные числа в Go записываются с префиксом 0o (или просто 0)."""
+
+[[exercises]]
+name = "variables_x089"
+path = "exercises/variables/variables_x089/main_test.go"
+mode = "test"
+hint = """
+В math/bits есть OnesCount (число единиц) и Len (минимальное число бит
+для записи значения). Проверьте, какие функции вызываются."""
+
+[[exercises]]
+name = "variables_x037"
+path = "exercises/variables/variables_x037/main_test.go"
+mode = "test"
+hint = """
+int(x) не округляет, а усекает к нулю: int(-2.9) == -2.
+Прибавлять 0.5 корректно только для положительных чисел.
+Посмотрите на функции пакета math."""
+
+[[exercises]]
+name = "variables_x006"
+path = "exercises/variables/variables_x006/main_test.go"
+mode = "test"
+hint = """
+1024 = 1 << 10. Если первая константа в блоке пропущена через _,
+то iota для KB равна 1. Какой множитель нужен при iota?"""
+
+[[exercises]]
+name = "variables_x020"
+path = "exercises/variables/variables_x020/main_test.go"
+mode = "test"
+hint = """
+Чтобы флаги можно было комбинировать, каждый должен занимать отдельный бит.
+Проверка флага — это побитовое И и сравнение с нулём."""
+
+[[exercises]]
+name = "variables_x097"
+path = "exercises/variables/variables_x097/main_test.go"
+mode = "test"
+hint = """
+Среднее — сумма, делённая на количество, в float64.
+Деление на ноль нужно обойти отдельной проверкой."""
+
+[[exercises]]
+name = "variables_x024"
+path = "exercises/variables/variables_x024/main_test.go"
+mode = "test"
+hint = """
+Чтобы функция могла изменить переменную вызывающего кода,
+передайте ей адрес переменной и разыменуйте его внутри."""
+
+[[exercises]]
+name = "variables_x041"
+path = "exercises/variables/variables_x041/main_test.go"
+mode = "test"
+hint = """
+XOR переключает бит, а не сбрасывает его. В Go есть отдельный оператор
+AND NOT, который гарантированно обнуляет указанные биты."""
+
+[[exercises]]
+name = "variables_x076"
+path = "exercises/variables/variables_x076/main_test.go"
+mode = "test"
+hint = """
+Для инверсии булевой переменной в Go используется унарный оператор !."""
+
+[[exercises]]
+name = "variables_x029"
+path = "exercises/variables/variables_x029/main_test.go"
+mode = "test"
+hint = """
+Разность двух uint не может быть отрицательной: она «оборачивается»
+через максимальное значение типа. Сравните значения до вычитания."""
+
+[[exercises]]
+name = "variables_x053"
+path = "exercises/variables/variables_x053/main_test.go"
+mode = "test"
+hint = """
+Условие i >= 0 для uint всегда истинно. После i == 0 декремент даёт
+огромное число. Используйте знаковый тип для счётчика."""
+
+[[exercises]]
+name = "variables_x048"
+path = "exercises/variables/variables_x048/main_test.go"
+mode = "test"
+hint = """
+for i := ... объявляет новую i, видимую только внутри цикла.
+Внешняя i остаётся неизменной. Используйте присваивание вместо объявления."""
+
+[[exercises]]
+name = "variables_x033"
+path = "exercises/variables/variables_x033/main_test.go"
+mode = "test"
+hint = """
+defer f(x) сразу вычисляет x и запоминает его. Чтобы прочитать переменную
+в момент выхода, отложите вызов анонимной функции, которая обращается к ней."""
+
+[[exercises]]
+name = "variables_x065"
+path = "exercises/variables/variables_x065/main_test.go"
+mode = "test"
+hint = """
+Нулевое значение int — не лучший старт для поиска минимума.
+Начните с первого элемента или с максимального возможного int."""
+
+[[exercises]]
+name = "variables_x045"
+path = "exercises/variables/variables_x045/main_test.go"
+mode = "test"
+hint = """
+Значение интерфейса равно nil, только если у него нет ни типа, ни значения.
+Переменная типа *ValidationError со значением nil, положенная в error,
+даёт непустой интерфейс. Возвращайте nil явно."""
+
+[[exercises]]
+name = "variables_x085"
+path = "exercises/variables/variables_x085/main_test.go"
+mode = "test"
+hint = """
+Начальное значение должно быть больше любого возможного элемента.
+math.Inf(1) — положительная бесконечность. Проверьте и знак сравнения."""
+
+[[exercises]]
+name = "variables_x059"
+path = "exercises/variables/variables_x059/main_test.go"
+mode = "test"
+hint = """
+strconv.Atoi возвращает число и ошибку. Если ошибка не nil,
+верните значение по умолчанию. Не игнорируйте ошибку."""
+
+[[exercises]]
+name = "variables_x100"
+path = "exercises/variables/variables_x100/main_test.go"
+mode = "test"
+hint = """
+Типизированную константу нельзя сравнивать с float64 без преобразования.
+Сделайте срез показаний того же типа и проверьте знак сравнения."""
+
+[[exercises]]
+name = "variables_x051"
+path = "exercises/variables/variables_x051/main_test.go"
+mode = "test"
+hint = """
+time.Duration(1.5) усекается до 1 наносекунды ещё до умножения.
+Умножайте секунды на количество наносекунд в секунде, пока значение ещё float64."""
