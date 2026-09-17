@@ -1,0 +1,27 @@
+// generics_x002: Ограничение Ordered
+// Make the tests pass!
+// I AM NOT DONE
+//
+// Max возвращает большее из двух значений упорядочиваемого типа.
+// Тренирует: пользовательское ограничение с объединением типов.
+// Сложность: easy
+package main_test
+
+import "testing"
+
+type Ordered interface {
+	~int | ~int64 | ~float64 | ~string
+}
+
+func Max[T Ordered](a, b T) T {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func TestMax(t *testing.T) {
+	if Max(3, 7) != 7 || Max("go", "c") != "go" || Max(2.5, -1.0) != 2.5 {
+		t.Errorf("Max works incorrectly")
+	}
+}

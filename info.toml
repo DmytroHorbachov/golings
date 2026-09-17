@@ -8679,3 +8679,733 @@ mode = "test"
 hint = """
 Пусть каждая горутина считает в свою переменную и отправляет результат
 в канал, а итог складывается в одной горутине."""
+
+# ===== generated exercises: generics =====
+[[exercises]]
+name = "generics_x067"
+path = "exercises/generics/generics_x067/main_test.go"
+mode = "test"
+hint = """
+Суммируйте во float64 каждый элемент, чтобы не терять дробную часть
+и не переполнить маленькие типы. Пустой срез обработайте отдельно."""
+
+[[exercises]]
+name = "generics_x073"
+path = "exercises/generics/generics_x073/main_test.go"
+mode = "test"
+hint = """
+Добавьте ~ к типам ограничения."""
+
+[[exercises]]
+name = "generics_x013"
+path = "exercises/generics/generics_x013/main_test.go"
+mode = "test"
+hint = """
+Элемент i результата — это элемент len-1-i исходного среза."""
+
+[[exercises]]
+name = "generics_x043"
+path = "exercises/generics/generics_x043/main_test.go"
+mode = "test"
+hint = """
+Начните с первого элемента для обоих результатов. Сравнивайте ключи,
+а не сами элементы."""
+
+[[exercises]]
+name = "generics_x014"
+path = "exercises/generics/generics_x014/main_test.go"
+mode = "test"
+hint = """
+Проверьте значение, возвращаемое при отсутствии элемента."""
+
+[[exercises]]
+name = "generics_x090"
+path = "exercises/generics/generics_x090/main_test.go"
+mode = "test"
+hint = """
+Используйте reflect: значение Pointer, Map, Slice, Func, Chan или
+Interface и IsNil() — это nil. Нулевой reflect.Value тоже считается nil."""
+
+[[exercises]]
+name = "generics_x027"
+path = "exercises/generics/generics_x027/main_test.go"
+mode = "test"
+hint = """
+Менять нужно значения по указателям."""
+
+[[exercises]]
+name = "generics_x050"
+path = "exercises/generics/generics_x050/main_test.go"
+mode = "test"
+hint = """
+Каждый элемент попадает ровно в один из срезов."""
+
+[[exercises]]
+name = "generics_x030"
+path = "exercises/generics/generics_x030/main_test.go"
+mode = "test"
+hint = """
+Some должна устанавливать признак наличия значения."""
+
+[[exercises]]
+name = "generics_x021"
+path = "exercises/generics/generics_x021/main_test.go"
+mode = "test"
+hint = """
+Для пустого среза верните нулевое значение и false."""
+
+[[exercises]]
+name = "generics_x022"
+path = "exercises/generics/generics_x022/main_test.go"
+mode = "test"
+hint = """
+Проверьте длину создаваемого среза."""
+
+[[exercises]]
+name = "generics_x008"
+path = "exercises/generics/generics_x008/main_test.go"
+mode = "test"
+hint = """
+Добавлять в результат нужно ключи."""
+
+[[exercises]]
+name = "generics_x082"
+path = "exercises/generics/generics_x082/main_test.go"
+mode = "test"
+hint = """
+Инстанцируйте функцию при присваивании: Double[int]."""
+
+[[exercises]]
+name = "generics_x012"
+path = "exercises/generics/generics_x012/main_test.go"
+mode = "test"
+hint = """
+Проверьте, какое значение возвращается при a < b."""
+
+[[exercises]]
+name = "generics_x096"
+path = "exercises/generics/generics_x096/main_test.go"
+mode = "test"
+hint = """
+Напишите получатель как (q *Queue[T])."""
+
+[[exercises]]
+name = "generics_x079"
+path = "exercises/generics/generics_x079/main_test.go"
+mode = "test"
+hint = """
+Сделайте T обычным именованным полем и обращайтесь к нему явно."""
+
+[[exercises]]
+name = "generics_x052"
+path = "exercises/generics/generics_x052/main_test.go"
+mode = "test"
+hint = """
+Создайте результат нужного размера (каждую строку отдельно)
+и сложите элементы поэлементно."""
+
+[[exercises]]
+name = "generics_x100"
+path = "exercises/generics/generics_x100/main_test.go"
+mode = "test"
+hint = """
+Используйте (*Stack[int]).Push и передавайте указатель на стек."""
+
+[[exercises]]
+name = "generics_x036"
+path = "exercises/generics/generics_x036/main_test.go"
+mode = "test"
+hint = """
+Сначала отфильтруйте активных пользователей, затем отобразите их в строки.
+Проверьте оба литерала."""
+
+[[exercises]]
+name = "generics_x046"
+path = "exercises/generics/generics_x046/main_test.go"
+mode = "test"
+hint = """
+Меньшие значения — налево, остальные — направо.
+Обход: левое поддерево, узел, правое поддерево."""
+
+[[exercises]]
+name = "generics_x078"
+path = "exercises/generics/generics_x078/main_test.go"
+mode = "test"
+hint = """
+Добавьте второй параметр типа PT interface{ *T; Set(string) }
+и вызывайте метод через PT(&v)."""
+
+[[exercises]]
+name = "generics_x037"
+path = "exercises/generics/generics_x037/main_test.go"
+mode = "test"
+hint = """
+Для каждого элемента вычислите ключ и добавьте элемент в срез этой группы."""
+
+[[exercises]]
+name = "generics_x048"
+path = "exercises/generics/generics_x048/main_test.go"
+mode = "test"
+hint = """
+Less должен вызывать функцию сравнения. Pop должен забирать
+последний элемент внутреннего среза (heap сам переставляет элементы)."""
+
+[[exercises]]
+name = "generics_x009"
+path = "exercises/generics/generics_x009/main_test.go"
+mode = "test"
+hint = """
+Pop должен возвращать последний элемент, а не первый."""
+
+[[exercises]]
+name = "generics_x031"
+path = "exercises/generics/generics_x031/main_test.go"
+mode = "test"
+hint = """
+Длина очереди — это длина внутреннего среза."""
+
+[[exercises]]
+name = "generics_x056"
+path = "exercises/generics/generics_x056/main_test.go"
+mode = "test"
+hint = """
+Соберите ключи и отсортируйте их через sort.Slice, сравнивая ключи оператором <."""
+
+[[exercises]]
+name = "generics_x085"
+path = "exercises/generics/generics_x085/main_test.go"
+mode = "test"
+hint = """
+Преобразуйте значения во float64 до деления."""
+
+[[exercises]]
+name = "generics_x064"
+path = "exercises/generics/generics_x064/main_test.go"
+mode = "test"
+hint = """
+Возвращайте результат сразу при успехе. После всех неудач
+верните нулевое значение и последнюю ошибку."""
+
+[[exercises]]
+name = "generics_x028"
+path = "exercises/generics/generics_x028/main_test.go"
+mode = "test"
+hint = """
+Срезы разной длины не равны."""
+
+[[exercises]]
+name = "generics_x032"
+path = "exercises/generics/generics_x032/main_test.go"
+mode = "test"
+hint = """
+Менять знак нужно только у отрицательных чисел."""
+
+[[exercises]]
+name = "generics_x083"
+path = "exercises/generics/generics_x083/main_test.go"
+mode = "test"
+hint = """
+Пишите *Node[T], а не *Node."""
+
+[[exercises]]
+name = "generics_x006"
+path = "exercises/generics/generics_x006/main_test.go"
+mode = "test"
+hint = """
+Результат должен иметь тип []U и содержать преобразованные значения."""
+
+[[exercises]]
+name = "generics_x007"
+path = "exercises/generics/generics_x007/main_test.go"
+mode = "test"
+hint = """
+Аккумулятор должен начинаться со значения init."""
+
+[[exercises]]
+name = "generics_x035"
+path = "exercises/generics/generics_x035/main_test.go"
+mode = "test"
+hint = """
+Храните голову и хвост. Новый узел добавляется после хвоста;
+если список пуст, он становится и головой, и хвостом."""
+
+[[exercises]]
+name = "generics_x039"
+path = "exercises/generics/generics_x039/main_test.go"
+mode = "test"
+hint = """
+Двигайтесь шагом n, конец части ограничьте длиной среза."""
+
+[[exercises]]
+name = "generics_x072"
+path = "exercises/generics/generics_x072/main_test.go"
+mode = "test"
+hint = """
+Укажите аргумент типа явно: Parse[int](...)."""
+
+[[exercises]]
+name = "generics_x060"
+path = "exercises/generics/generics_x060/main_test.go"
+mode = "test"
+hint = """
+Для пустого стека верните нулевое значение T и false.
+Peek не удаляет элемент."""
+
+[[exercises]]
+name = "generics_x061"
+path = "exercises/generics/generics_x061/main_test.go"
+mode = "test"
+hint = """
+Отмечайте вершину посещённой при добавлении в очередь, чтобы не
+добавлять её повторно. Соседей берите из map."""
+
+[[exercises]]
+name = "generics_x070"
+path = "exercises/generics/generics_x070/main_test.go"
+mode = "test"
+hint = """
+Сделайте преобразование обычной обобщённой функцией, принимающей Box[T]."""
+
+[[exercises]]
+name = "generics_x091"
+path = "exercises/generics/generics_x091/main_test.go"
+mode = "test"
+hint = """
+Возвращайте дополнительный bool и используйте его в summarize."""
+
+[[exercises]]
+name = "generics_x044"
+path = "exercises/generics/generics_x044/main_test.go"
+mode = "test"
+hint = """
+Скопируйте срез, отсортируйте копию, сравнивая ключи элементов копии."""
+
+[[exercises]]
+name = "generics_x042"
+path = "exercises/generics/generics_x042/main_test.go"
+mode = "test"
+hint = """
+При ошибке Map должна вернуть Result с той же ошибкой, не вызывая f."""
+
+[[exercises]]
+name = "generics_x093"
+path = "exercises/generics/generics_x093/main_test.go"
+mode = "test"
+hint = """
+Уберите беззнаковые типы из ограничения."""
+
+[[exercises]]
+name = "generics_x010"
+path = "exercises/generics/generics_x010/main_test.go"
+mode = "test"
+hint = """
+У результата Swap ключом становится значение и наоборот."""
+
+[[exercises]]
+name = "generics_x089"
+path = "exercises/generics/generics_x089/main_test.go"
+mode = "test"
+hint = """
+Добавьте ~ в ограничение: S ~[]E."""
+
+[[exercises]]
+name = "generics_x020"
+path = "exercises/generics/generics_x020/main_test.go"
+mode = "test"
+hint = """
+Добавьте ~ перед типом в ограничении."""
+
+[[exercises]]
+name = "generics_x076"
+path = "exercises/generics/generics_x076/main_test.go"
+mode = "test"
+hint = """
+Ограничьте T числовыми типами — тогда float64(v) станет допустимым."""
+
+[[exercises]]
+name = "generics_x088"
+path = "exercises/generics/generics_x088/main_test.go"
+mode = "test"
+hint = """
+Сделайте параметр S ~[]E и возвращайте S."""
+
+[[exercises]]
+name = "generics_x059"
+path = "exercises/generics/generics_x059/main_test.go"
+mode = "test"
+hint = """
+Результат каждой функции — вход следующей. Без функций возвращается вход."""
+
+[[exercises]]
+name = "generics_x058"
+path = "exercises/generics/generics_x058/main_test.go"
+mode = "test"
+hint = """
+Если значения нет, верните пустой Optional[U] и не вызывайте f."""
+
+[[exercises]]
+name = "generics_x018"
+path = "exercises/generics/generics_x018/main_test.go"
+mode = "test"
+hint = """
+Has должен проверять наличие ключа."""
+
+[[exercises]]
+name = "generics_x084"
+path = "exercises/generics/generics_x084/main_test.go"
+mode = "test"
+hint = """
+Накапливайте сумму в int64, преобразуя каждый элемент, и возвращайте int64."""
+
+[[exercises]]
+name = "generics_x015"
+path = "exercises/generics/generics_x015/main_test.go"
+mode = "test"
+hint = """
+Верните адрес параметра, а не nil."""
+
+[[exercises]]
+name = "generics_x047"
+path = "exercises/generics/generics_x047/main_test.go"
+mode = "test"
+hint = """
+Union добавляет элементы обоих множеств. Intersect оставляет только
+элементы, которые есть в обоих."""
+
+[[exercises]]
+name = "generics_x045"
+path = "exercises/generics/generics_x045/main_test.go"
+mode = "test"
+hint = """
+Используйте полуинтервал [lo, hi). Если средний меньше цели,
+сдвигайте lo за середину, иначе hi на середину."""
+
+[[exercises]]
+name = "generics_x038"
+path = "exercises/generics/generics_x038/main_test.go"
+mode = "test"
+hint = """
+Используйте map[T]bool для отметок и добавляйте элемент при первой встрече."""
+
+[[exercises]]
+name = "generics_x051"
+path = "exercises/generics/generics_x051/main_test.go"
+mode = "test"
+hint = """
+Используйте значение как ключ и увеличивайте счётчик."""
+
+[[exercises]]
+name = "generics_x023"
+path = "exercises/generics/generics_x023/main_test.go"
+mode = "test"
+hint = """
+Проверьте, что возвращается при превышении верхней границы."""
+
+[[exercises]]
+name = "generics_x003"
+path = "exercises/generics/generics_x003/main_test.go"
+mode = "test"
+hint = """
+Проверьте операцию накопления."""
+
+[[exercises]]
+name = "generics_x024"
+path = "exercises/generics/generics_x024/main_test.go"
+mode = "test"
+hint = """
+Добавляйте в результат значения, а не ключи."""
+
+[[exercises]]
+name = "generics_x017"
+path = "exercises/generics/generics_x017/main_test.go"
+mode = "test"
+hint = """
+Счётчик должен увеличиваться только при выполнении условия."""
+
+[[exercises]]
+name = "generics_x011"
+path = "exercises/generics/generics_x011/main_test.go"
+mode = "test"
+hint = """
+Аргумент типа указывается в квадратных скобках после имени функции.
+Проверьте, какой тип передан."""
+
+[[exercises]]
+name = "generics_x081"
+path = "exercises/generics/generics_x081/main_test.go"
+mode = "test"
+hint = """
+Объявите String со значимым получателем (или передавайте []*Point)."""
+
+[[exercises]]
+name = "generics_x025"
+path = "exercises/generics/generics_x025/main_test.go"
+mode = "test"
+hint = """
+Паниковать нужно, когда ошибка НЕ nil."""
+
+[[exercises]]
+name = "generics_x077"
+path = "exercises/generics/generics_x077/main_test.go"
+mode = "test"
+hint = """
+Уберите из ограничения типы, не способные вместить константу
+(или вычисляйте множитель иначе)."""
+
+[[exercises]]
+name = "generics_x075"
+path = "exercises/generics/generics_x075/main_test.go"
+mode = "test"
+hint = """
+Объявите один метод для Container[T] и внутри различайте тип
+через type switch по any(c.V)."""
+
+[[exercises]]
+name = "generics_x019"
+path = "exercises/generics/generics_x019/main_test.go"
+mode = "test"
+hint = """
+Get должен вернуть сохранённое значение."""
+
+[[exercises]]
+name = "generics_x095"
+path = "exercises/generics/generics_x095/main_test.go"
+mode = "test"
+hint = """
+Укажите аргументы типа в литерале или напишите функцию MakePair,
+для которой вывод типов работает."""
+
+[[exercises]]
+name = "generics_x062"
+path = "exercises/generics/generics_x062/main_test.go"
+mode = "test"
+hint = """
+Складывайте результат функции для каждого элемента.
+Проверьте литерал в тесте-примере: он извлекает цену позиции."""
+
+[[exercises]]
+name = "generics_x087"
+path = "exercises/generics/generics_x087/main_test.go"
+mode = "test"
+hint = """
+Сделайте функцию обобщённой и используйте []T с ограничением Number."""
+
+[[exercises]]
+name = "generics_x099"
+path = "exercises/generics/generics_x099/main_test.go"
+mode = "test"
+hint = """
+Храните в множестве строковое представление набора (например, fmt.Sprint)."""
+
+[[exercises]]
+name = "generics_x069"
+path = "exercises/generics/generics_x069/main_test.go"
+mode = "test"
+hint = """
+Объявите ограничение с конкретными упорядочиваемыми типами
+(~int | ~float64 | ~string) и используйте его."""
+
+[[exercises]]
+name = "generics_x029"
+path = "exercises/generics/generics_x029/main_test.go"
+mode = "test"
+hint = """
+При нахождении элемента нужно вернуть его и true."""
+
+[[exercises]]
+name = "generics_x094"
+path = "exercises/generics/generics_x094/main_test.go"
+mode = "test"
+hint = """
+Создайте новое значение нужной инстанциации, преобразовав содержимое."""
+
+[[exercises]]
+name = "generics_x066"
+path = "exercises/generics/generics_x066/main_test.go"
+mode = "test"
+hint = """
+Отмечайте увиденные ключи, а не элементы."""
+
+[[exercises]]
+name = "generics_x049"
+path = "exercises/generics/generics_x049/main_test.go"
+mode = "test"
+hint = """
+Посчитайте общую длину для ёмкости и добавьте все элементы каждой части."""
+
+[[exercises]]
+name = "generics_x097"
+path = "exercises/generics/generics_x097/main_test.go"
+mode = "test"
+hint = """
+Используйте ограничение с указателем PT interface{ *T; Reset() } и
+создавайте объекты как PT(new(T))."""
+
+[[exercises]]
+name = "generics_x068"
+path = "exercises/generics/generics_x068/main_test.go"
+mode = "test"
+hint = """
+Ограничение any допускает несравнимые типы (срезы, map, функции).
+Используйте comparable."""
+
+[[exercises]]
+name = "generics_x098"
+path = "exercises/generics/generics_x098/main_test.go"
+mode = "test"
+hint = """
+Преобразуйте результат к нужному типу явно: int(...)."""
+
+[[exercises]]
+name = "generics_x057"
+path = "exercises/generics/generics_x057/main_test.go"
+mode = "test"
+hint = """
+Для ключа, который уже есть в результате, запишите resolve(старое, новое)."""
+
+[[exercises]]
+name = "generics_x026"
+path = "exercises/generics/generics_x026/main_test.go"
+mode = "test"
+hint = """
+Сравнивайте v с объявленной переменной zero."""
+
+[[exercises]]
+name = "generics_x063"
+path = "exercises/generics/generics_x063/main_test.go"
+mode = "test"
+hint = """
+Subscribe добавляет обработчик к списку, Publish вызывает все
+обработчики с событием."""
+
+[[exercises]]
+name = "generics_x065"
+path = "exercises/generics/generics_x065/main_test.go"
+mode = "test"
+hint = """
+Цикл продолжается, пока текущее значение меньше end.
+Проверьте шаг увеличения."""
+
+[[exercises]]
+name = "generics_x034"
+path = "exercises/generics/generics_x034/main_test.go"
+mode = "test"
+hint = """
+Делить нужно на количество элементов."""
+
+[[exercises]]
+name = "generics_x092"
+path = "exercises/generics/generics_x092/main_test.go"
+mode = "test"
+hint = """
+Делите на 2 — эта константа представима во всех числовых типах."""
+
+[[exercises]]
+name = "generics_x004"
+path = "exercises/generics/generics_x004/main_test.go"
+mode = "test"
+hint = """
+Оператор == доступен для T, только если T ограничен comparable."""
+
+[[exercises]]
+name = "generics_x033"
+path = "exercises/generics/generics_x033/main_test.go"
+mode = "test"
+hint = """
+Добавьте int32 в список типов ограничения."""
+
+[[exercises]]
+name = "generics_x080"
+path = "exercises/generics/generics_x080/main_test.go"
+mode = "test"
+hint = """
+Для интерфейсных значений безопаснее сравнивать через reflect.DeepEqual."""
+
+[[exercises]]
+name = "generics_x054"
+path = "exercises/generics/generics_x054/main_test.go"
+mode = "test"
+hint = """
+Пишите результат по индексу в заранее созданный срез и дождитесь
+всех горутин с помощью sync.WaitGroup."""
+
+[[exercises]]
+name = "generics_x071"
+path = "exercises/generics/generics_x071/main_test.go"
+mode = "test"
+hint = """
+Объявите var zero T и верните его вместе с признаком false."""
+
+[[exercises]]
+name = "generics_x053"
+path = "exercises/generics/generics_x053/main_test.go"
+mode = "test"
+hint = """
+Кэш создаётся один раз в Memoize. Перед вызовом f проверьте кэш."""
+
+[[exercises]]
+name = "generics_x005"
+path = "exercises/generics/generics_x005/main_test.go"
+mode = "test"
+hint = """
+В результат должны попадать элементы, для которых keep вернул true."""
+
+[[exercises]]
+name = "generics_x016"
+path = "exercises/generics/generics_x016/main_test.go"
+mode = "test"
+hint = """
+Объявленная через var переменная типа T уже равна нулевому значению.
+Записывайте её в каждый элемент."""
+
+[[exercises]]
+name = "generics_x086"
+path = "exercises/generics/generics_x086/main_test.go"
+mode = "test"
+hint = """
+Параметр должен иметь тип any, а утверждение — v.(T)."""
+
+[[exercises]]
+name = "generics_x074"
+path = "exercises/generics/generics_x074/main_test.go"
+mode = "test"
+hint = """
+Используйте switch x := any(v).(type)."""
+
+[[exercises]]
+name = "generics_x002"
+path = "exercises/generics/generics_x002/main_test.go"
+mode = "test"
+hint = """
+Проверьте оператор сравнения в Max."""
+
+[[exercises]]
+name = "generics_x040"
+path = "exercises/generics/generics_x040/main_test.go"
+mode = "test"
+hint = """
+Найдите минимальную длину и создайте пары по индексу."""
+
+[[exercises]]
+name = "generics_x001"
+path = "exercises/generics/generics_x001/main_test.go"
+mode = "test"
+hint = """
+У каждого параметра типа должно быть ограничение, например any."""
+
+[[exercises]]
+name = "generics_x055"
+path = "exercises/generics/generics_x055/main_test.go"
+mode = "test"
+hint = """
+Пишите по позиции pos, сдвигая её по модулю. Счётчик count не превышает n.
+Начало чтения — (pos - count + n) % n."""
+
+[[exercises]]
+name = "generics_x041"
+path = "exercises/generics/generics_x041/main_test.go"
+mode = "test"
+hint = """
+Храните порядок ключей в срезе. При добавлении нового ключа сверх
+ёмкости удалите первый ключ из среза и из map. Обновление ключа
+не должно менять порядок."""
